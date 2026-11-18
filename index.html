@@ -213,6 +213,7 @@
     .duas,.rodape{grid-template-columns:1fr}
     nav.secoes{gap:16px;justify-content:flex-start;overflow-x:auto;flex-wrap:nowrap}
   }
+  .leia{font-family:var(--ui,sans-serif);font-weight:700;font-size:14px;margin:4px 0 10px}.leia a{color:#7a1f1f;text-decoration:none}
 </style>
 </head>
 <body>
@@ -295,9 +296,9 @@
   function artigos(ed){
     var pre = "ed-" + ed.data + "-", L = [], m = ed.manchete, e = ed.editorial;
     L.push({id:pre+"manchete", chave:"manchete", secao:m.secao, titulo:m.titulo, fina:m.linhaFina, texto:m.texto, fontes:m.fontes, aba:"politica"});
-    (ed.politica||[]).forEach(function(a,i){ L.push({id:pre+"politica-"+(i+1), secao:a.secao, titulo:a.titulo, texto:[a.resumo], fontes:a.fontes, aba:"politica"}); });
-    (ed.destaques||[]).forEach(function(a,i){ L.push({id:pre+"destaque-"+(i+1), secao:a.secao, titulo:a.titulo, texto:[a.resumo], fontes:a.fontes, aba:"economia"}); });
-    (ed.mundo||[]).forEach(function(a,i){ L.push({id:pre+"mundo-"+(i+1), secao:a.secao, titulo:a.titulo, texto:[a.resumo], fontes:a.fontes, aba:"mundo"}); });
+    (ed.politica||[]).forEach(function(a,i){ L.push({id:pre+"politica-"+(i+1), secao:a.secao, titulo:a.titulo, fina:a.linhaFina, texto:(a.texto&&a.texto.length?a.texto:[a.resumo]), fontes:a.fontes, aba:"politica"}); });
+    (ed.destaques||[]).forEach(function(a,i){ L.push({id:pre+"destaque-"+(i+1), secao:a.secao, titulo:a.titulo, fina:a.linhaFina, texto:(a.texto&&a.texto.length?a.texto:[a.resumo]), fontes:a.fontes, aba:"economia"}); });
+    (ed.mundo||[]).forEach(function(a,i){ L.push({id:pre+"mundo-"+(i+1), secao:a.secao, titulo:a.titulo, fina:a.linhaFina, texto:(a.texto&&a.texto.length?a.texto:[a.resumo]), fontes:a.fontes, aba:"mundo"}); });
     L.push({id:pre+"editorial", chave:"editorial", secao:"Editorial", titulo:e.titulo, texto:e.texto, aba:"opiniao", editorial:true});
     return L;
   }
@@ -352,7 +353,7 @@
       return '<article class="destaque"><p class="kicker azul">'+esc(x.secao)+'</p><h2><a href="#'+id+'">'+esc(x.titulo)+'</a></h2><p>'+esc(x.resumo)+'</p>'+fontes(x.fontes)+'</article>';
     }).join("") + '<a class="mais-secao" href="'+linkSecao(ed,"economia")+'">Mais em Economia →</a></div>';
     h += '<div class="col centro"><article class="manchete"><p class="kicker">'+esc(m.secao)+'</p><h1><a href="#'+pre+'manchete">'+esc(m.titulo)+'</a></h1><p class="fina">'+esc(m.linhaFina)+'</p><p class="assinatura">Da redação · '+esc(ed.dataExtenso)+'</p><div class="texto">'+
-         ps(m.texto) + '</div>' + fontes(m.fontes) + share(pre+"manchete", m.titulo) + '</article></div>';
+         ps(m.texto.slice(0,3)) + '</div>' + (m.texto.length>3?'<p class="leia"><a href="#'+pre+'manchete">Leia a matéria completa →</a></p>':'') + fontes(m.fontes) + share(pre+"manchete", m.titulo) + '</article></div>';
     var resumoEd = e.texto[0];
     h += '<div class="col"><aside class="editorial"><div class="selo"><span>Editorial</span><em>Opinião do jornal</em></div><h2><a href="#'+pre+'editorial">'+esc(e.titulo)+'</a></h2><p>'+esc(resumoEd)+'</p>'+
          '<a class="leia" href="#'+pre+'editorial">Ler o editorial completo →</a></aside><div id="chamada-coluna"></div></div>';
