@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A Nevasca</title>
+<meta name="description" content="A Nevasca: as notícias do dia com fontes, e opinião reformada e conservadora.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="A Nevasca">
+<meta property="og:title" content="A Nevasca">
+<meta property="og:description" content="As notícias do dia com fontes, e opinião reformada e conservadora.">
+<meta property="og:image" content="https://anevasca.com.br/og.png">
+<meta property="og:url" content="https://anevasca.com.br/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23121212'/%3E%3Ctext x='32' y='47' font-family='Georgia,serif' font-size='44' font-weight='900' text-anchor='middle' fill='%23fbfaf6'%3EN%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --papel:#fbfaf6; --tinta:#121212; --cinza:#5a5a5a; --linha:#d9d6cc; --linha-forte:#121212;
+    --acento:#7a1f1f; --azul:#1b2a41; --fundo-box:#f1eee4;
+    --serif:"Source Serif 4", Georgia, "Times New Roman", serif;
+    --titulo:"Playfair Display", Georgia, serif;
+    --sans:"Libre Franklin", "Helvetica Neue", Arial, sans-serif;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--papel);color:var(--tinta)}
+  body{font-family:var(--serif);font-size:17px;line-height:1.55;-webkit-font-smoothing:antialiased}
+  a{color:inherit;text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:1240px;margin:0 auto;padding:0 24px}
+
+  /* barra superior */
+  .topo{font-family:var(--sans);font-size:12px;color:var(--cinza);display:flex;justify-content:space-between;align-items:center;padding:10px 0;gap:12px;flex-wrap:wrap}
+  .topo strong{color:var(--tinta);font-weight:700}
+  .topo .ao-vivo{color:var(--acento);font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+
+  /* cabeçalho */
+  header.masthead{text-align:center;padding:6px 0 10px;border-bottom:1px solid var(--linha-forte)}
+  .marca{font-family:"Playfair Display", Georgia, serif;font-size:clamp(44px,8.5vw,88px);line-height:1;margin:8px 0 2px;letter-spacing:-1px;font-weight:900}
+  .lema{font-family:var(--sans);font-size:11px;letter-spacing:.32em;text-transform:uppercase;color:var(--cinza);margin:6px 0 0}
+  .faixa-data{display:flex;justify-content:space-between;align-items:center;border-bottom:3px double var(--linha-forte);padding:7px 0;font-family:var(--sans);font-size:12px;font-weight:600;gap:10px;flex-wrap:wrap}
+  .faixa-data span:nth-child(2){font-family:var(--serif);font-style:italic;font-weight:400}
+
+  nav.secoes{display:flex;justify-content:center;gap:26px;flex-wrap:wrap;font-family:var(--sans);font-size:13px;font-weight:600;padding:11px 0;border-bottom:1px solid var(--linha)}
+  nav.secoes a{padding:2px 0}
+  nav.secoes a.opiniao{color:var(--acento)}
+
+  /* indicadores */
+  .indicadores{display:grid;grid-template-columns:repeat(4,1fr);border-bottom:1px solid var(--linha)}
+  .ind{padding:12px 16px;border-right:1px solid var(--linha);font-family:var(--sans)}
+  .ind:last-child{border-right:0}
+  .ind .r{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--cinza);font-weight:600}
+  .ind .v{font-family:var(--titulo);font-size:26px;font-weight:800;line-height:1.1;margin:2px 0}
+  .ind .n{font-size:12px;color:var(--cinza)}
+
+  /* grade principal */
+  .capa{display:grid;grid-template-columns:1fr 2.1fr 1.15fr;gap:0;padding:22px 0 26px;border-bottom:1px solid var(--linha-forte)}
+  .col{padding:0 22px}
+  .col:first-child{padding-left:0;border-right:1px solid var(--linha)}
+  .col:last-child{padding-right:0;border-left:1px solid var(--linha)}
+
+  .kicker{font-family:var(--sans);font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--acento);margin:0 0 6px}
+  .kicker.azul{color:var(--azul)}
+
+  .manchete h1{font-family:var(--titulo);font-weight:800;font-size:clamp(30px,3.6vw,46px);line-height:1.08;margin:0 0 12px;letter-spacing:-.2px}
+  .manchete .fina{font-size:19px;line-height:1.45;color:#2b2b2b;margin:0 0 16px;font-style:italic}
+  .manchete .texto{columns:2;column-gap:26px;column-rule:1px solid var(--linha)}
+  .manchete .texto p{margin:0 0 12px;break-inside:avoid-column}
+  .manchete .texto p:first-child::first-letter{font-family:var(--titulo);float:left;font-size:58px;line-height:.85;padding:6px 8px 0 0;font-weight:900}
+  .assinatura{font-family:var(--sans);font-size:12px;color:var(--cinza);margin:0 0 14px;text-transform:uppercase;letter-spacing:.06em}
+
+  .fontes{font-family:var(--sans);font-size:12px;color:var(--cinza);margin-top:8px}
+  .fontes a{color:var(--azul);text-decoration:underline;text-underline-offset:2px}
+
+  .destaque{padding:0 0 16px;margin:0 0 16px;border-bottom:1px solid var(--linha)}
+  .destaque:last-child{border-bottom:0;margin-bottom:0}
+  .destaque h2{font-family:var(--titulo);font-size:22px;line-height:1.18;margin:0 0 8px;font-weight:700}
+  .destaque p{margin:0;font-size:15.5px;color:#2b2b2b}
+
+  /* editorial */
+  .editorial .selo{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+  .editorial .selo span{font-family:var(--sans);font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;background:var(--acento);color:#fff;padding:4px 8px}
+  .editorial .selo em{font-family:var(--sans);font-style:normal;font-size:11px;color:var(--cinza);text-transform:uppercase;letter-spacing:.08em}
+  .editorial h2{font-family:var(--titulo);font-weight:900;font-size:30px;line-height:1.1;margin:0 0 12px}
+  .editorial p{margin:0 0 12px;font-size:16px}
+  .editorial .nota{font-family:var(--sans);font-size:11.5px;color:var(--cinza);border-top:1px solid var(--linha);padding-top:8px;margin-top:6px}
+
+  /* seções */
+  .secao{padding:26px 0;border-bottom:1px solid var(--linha-forte)}
+  .secao > h3{font-family:var(--sans);font-size:13px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;margin:0 0 18px;padding-bottom:8px;border-bottom:1px solid var(--linha);display:flex;justify-content:space-between}
+  .secao > h3 small{font-weight:500;letter-spacing:.04em;text-transform:none;color:var(--cinza)}
+  .grade4{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+  .grade4 article{padding:0 18px;border-right:1px solid var(--linha)}
+  .grade4 article:first-child{padding-left:0}
+  .grade4 article:last-child{border-right:0;padding-right:0}
+  .grade4 h4{font-family:var(--titulo);font-size:21px;line-height:1.2;margin:0 0 8px;font-weight:700}
+  .grade4 p{margin:0;font-size:15.5px;color:#2b2b2b}
+
+  .duas{display:grid;grid-template-columns:1.3fr 1fr;gap:36px}
+  .box{background:var(--fundo-box);padding:18px 20px;border-top:3px solid var(--tinta)}
+  .box h4{font-family:var(--titulo);font-size:22px;margin:0 0 10px}
+  .box ol{margin:0;padding-left:18px}
+  .box li{margin:0 0 8px;font-size:15.5px}
+  .breves ul{list-style:none;margin:0;padding:0}
+  .breves li{padding:10px 0;border-bottom:1px solid var(--linha);font-size:15.5px}
+  .breves li:last-child{border-bottom:0}
+  .breves li::before{content:"■";color:var(--acento);font-size:9px;margin-right:9px;position:relative;top:-2px}
+
+  footer{padding:28px 0 50px;font-family:var(--sans);font-size:13px;color:var(--cinza)}
+  footer .marca{font-size:40px;color:var(--tinta)}
+  .rodape{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:30px;margin-top:10px}
+  .rodape h5{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--tinta);margin:0 0 8px}
+  .rodape p{margin:0 0 8px;line-height:1.5}
+  .arquivo a{display:block;color:var(--azul);margin:0 0 4px}
+
+
+  .share{display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px;margin-top:10px;font-family:var(--sans);font-size:12px}
+  .share span{color:var(--cinza);text-transform:uppercase;letter-spacing:.08em;font-size:10.5px;font-weight:700}
+  .share a,.share button{color:var(--azul);font:inherit;font-weight:600;background:none;border:0;padding:0;cursor:pointer}
+  .share a:hover,.share button:hover{text-decoration:underline}
+  .share .link-manual{flex:1 1 100%;font:inherit;padding:4px 6px;border:1px solid var(--linha);background:#fff}
+  h1 a,h2 a,h4 a{color:inherit}
+  .em-foco{background:#fff8dc;box-shadow:0 0 0 12px #fff8dc;transition:background 1s}
+  .aviso-edicao{background:var(--azul);color:#fff;font-family:var(--sans);font-size:13.5px;padding:10px 14px;margin:14px 0 0}
+  .aviso-edicao a{color:#fff;text-decoration:underline;margin-left:6px}
+  .ver-arquivo{text-align:center;padding:18px 0;font-family:var(--sans);font-weight:700;font-size:14px;border-bottom:1px solid var(--linha-forte)}
+  .ver-arquivo a{color:var(--azul)}
+  .arquivo-pag .busca input{width:100%;max-width:520px;font:16px var(--sans);padding:10px 12px;border:1px solid var(--tinta);background:#fff;margin-bottom:18px}
+  .arquivo-pag ul{list-style:none;margin:0;padding:0}
+  .arquivo-pag li{display:grid;grid-template-columns:170px 1fr;gap:18px;padding:14px 0;border-bottom:1px solid var(--linha)}
+  .arq-data a{font-family:var(--sans);font-weight:700;font-size:13px;color:var(--azul)}
+  .arq-manchete{display:block;font-family:var(--titulo);font-weight:700;font-size:21px;line-height:1.2;margin-bottom:6px}
+  .arq-editorial{display:block;font-size:15.5px;color:#2b2b2b}
+  .arq-editorial span{font-family:var(--sans);font-size:10.5px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#fff;background:var(--acento);padding:2px 6px;margin-right:6px}
+  @media (max-width:640px){ .arquivo-pag li{grid-template-columns:1fr;gap:4px} }
+
+  .criterios{max-width:760px;margin:0 auto;padding:30px 0 40px}
+  .criterios h1{font-family:var(--titulo);font-weight:900;font-size:46px;line-height:1.05;margin:0 0 12px}
+  .criterios .fina{font-size:20px;font-style:italic;color:#2b2b2b;margin:0 0 24px;padding-bottom:20px;border-bottom:3px double var(--tinta)}
+  .crit-bloco{padding:6px 0 14px;border-bottom:1px solid var(--linha)}
+  .crit-bloco h2{font-family:var(--titulo);font-size:25px;margin:14px 0 8px}
+  .crit-bloco p,.crit-bloco li{font-size:17.5px}
+  .crit-bloco ol{padding-left:22px;margin:0 0 10px}
+  .crit-bloco li{margin-bottom:8px}
+  .crit-voltar{font-family:var(--sans);font-weight:700;margin-top:22px}
+  .crit-voltar a{color:var(--azul)}
+
+  nav.secoes a.ativa{border-bottom:2px solid var(--tinta)}
+  .mais-secao,.leia{display:inline-block;font-family:var(--sans);font-size:12.5px;font-weight:700;color:var(--azul);margin-top:8px}
+  .secao > h3 a{color:inherit}
+  .cab-secao{text-align:center;padding:26px 0 18px;border-bottom:3px double var(--tinta)}
+  .cab-secao h1{font-family:var(--titulo);font-weight:900;font-size:clamp(36px,6vw,56px);margin:0;line-height:1}
+  .cab-secao p{font-family:var(--sans);font-size:13px;color:var(--cinza);margin:8px 0 0}
+  .grade-secao{display:grid;grid-template-columns:1fr 1fr;gap:0 40px;padding:24px 0;border-bottom:1px solid var(--linha-forte)}
+  .cartao{padding:18px 0;border-bottom:1px solid var(--linha)}
+  .cartao h2{font-family:var(--titulo);font-size:26px;line-height:1.15;margin:0 0 8px}
+  .cartao.grande{grid-column:1 / -1}
+  .cartao.grande h2{font-size:clamp(30px,3.6vw,42px)}
+  .fina-c{font-style:italic;font-size:18px;color:#2b2b2b}
+  .artigo-pag{max-width:720px;margin:0 auto;padding:28px 0 30px}
+  .artigo-pag h1{font-family:var(--titulo);font-weight:900;font-size:clamp(32px,4.4vw,48px);line-height:1.07;margin:4px 0 14px}
+  .artigo-pag h1 a{color:inherit}
+  .artigo-pag .fina{font-size:20px;font-style:italic;color:#2b2b2b;margin:0 0 14px}
+  .artigo-pag .corpo p{font-size:19px;line-height:1.65;margin:0 0 16px}
+  .artigo-pag .corpo p:first-child::first-letter{font-family:var(--titulo);float:left;font-size:64px;line-height:.85;padding:6px 8px 0 0;font-weight:900}
+  .artigo-pag .selo{display:flex;align-items:center;gap:10px;margin-bottom:6px}
+  .artigo-pag .selo span{font-family:var(--sans);font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;background:var(--acento);color:#fff;padding:4px 8px}
+  .artigo-pag .selo em{font-family:var(--sans);font-style:normal;font-size:11px;color:var(--cinza);text-transform:uppercase;letter-spacing:.08em}
+  .artigo-pag .nota{font-family:var(--sans);font-size:12px;color:var(--cinza);border-top:1px solid var(--linha);padding-top:8px}
+  .migalha{font-family:var(--sans);font-size:12.5px;color:var(--cinza);margin:0 0 14px}
+  .migalha a{color:var(--azul);font-weight:600}
+  .mais-edicao ul,.lista-ed{list-style:none;margin:0;padding:0}
+  .mais-edicao li,.lista-ed li{padding:10px 0;border-bottom:1px solid var(--linha);display:flex;gap:14px;align-items:baseline}
+  .mais-edicao li a,.lista-ed li a{font-family:var(--titulo);font-weight:700;font-size:18px}
+  .mais-edicao .kicker{min-width:120px;margin:0}
+  .lista-ed li span{font-family:var(--sans);font-size:12.5px;font-weight:700;color:var(--azul);min-width:120px}
+  @media (max-width:640px){ .grade-secao{grid-template-columns:1fr} .mais-edicao li,.lista-ed li{flex-direction:column;gap:2px} .artigo-pag .corpo p{font-size:17.5px} }
+
+  .artigo-pag .selo.azul span{background:var(--azul)}
+  .bloco-coluna .epigrafe{font-style:italic;color:var(--cinza);margin:-8px 0 12px}
+  .em-breve{font-style:italic;color:var(--cinza)}
+  .chamada-coluna{margin-top:18px;padding-top:14px;border-top:3px double var(--tinta)}
+  .chamada-coluna h3{font-family:var(--titulo);font-size:21px;line-height:1.2;margin:0 0 4px}
+  .chamada-coluna .por{font-family:var(--sans);font-size:12px;color:var(--cinza);margin:0}
+  .baixar-pdf{text-align:center;padding:16px 0 4px}
+  .baixar-pdf a{display:inline-block;font-family:var(--sans);font-weight:700;font-size:14px;background:var(--tinta);color:#fff;padding:10px 18px;text-decoration:none}
+  .baixar-pdf a:hover{background:var(--acento)}
+  .carregando{padding:80px 0;text-align:center;font-family:var(--sans);color:var(--cinza)}
+
+  @media (max-width:980px){
+    .capa{grid-template-columns:1fr 1fr}
+    .col.centro{grid-column:1 / -1;order:-1;padding:0 0 22px;border-bottom:1px solid var(--linha);margin-bottom:22px}
+    .col:first-child{padding-right:18px}
+    .col:last-child{padding-left:18px}
+    .grade4{grid-template-columns:1fr 1fr;row-gap:22px}
+    .grade4 article:nth-child(2){border-right:0;padding-right:0}
+    .grade4 article:nth-child(3){padding-left:0}
+    .indicadores{grid-template-columns:1fr 1fr}
+    .ind:nth-child(2){border-right:0}
+    .ind:nth-child(-n+2){border-bottom:1px solid var(--linha)}
+  }
+  @media (max-width:640px){
+    .wrap{padding:0 16px}
+    .capa{grid-template-columns:1fr}
+    .col,.col:first-child,.col:last-child{padding:0;border:0}
+    .col:first-child{order:1;border-top:1px solid var(--linha);padding-top:18px;margin-top:4px}
+    .col:last-child{order:0;border-top:3px double var(--tinta);padding-top:18px;margin-bottom:18px}
+    .manchete .texto{columns:1}
+    .grade4{grid-template-columns:1fr}
+    .grade4 article{padding:0 0 16px !important;border-right:0 !important;border-bottom:1px solid var(--linha)}
+    .duas,.rodape{grid-template-columns:1fr}
+    nav.secoes{gap:16px;justify-content:flex-start;overflow-x:auto;flex-wrap:nowrap}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="topo">
+    <span id="topo-data"></span>
+    <span><span class="ao-vivo">● Edição do dia</span> &nbsp;·&nbsp; <span id="topo-atual"></span></span>
+  </div>
+
+  <header class="masthead">
+    <div class="marca">A Nevasca</div>
+    <p class="lema">Verdade · Liberdade · Soli Deo Gloria</p>
+  </header>
+  <div class="faixa-data">
+    <span id="ed-num"></span>
+    <span>“Eles se tornarão brancos como a neve.” — Isaías 1.18</span>
+    <span>Brasil e Mundo</span>
+  </div>
+
+  <nav class="secoes" id="menu"></nav>
+
+  <main id="conteudo"><div class="carregando">Carregando a edição de hoje…</div></main>
+
+  <footer>
+    <div class="marca">A Nevasca</div>
+    <div class="rodape">
+      <div>
+        <h5>Linha editorial</h5>
+        <p>A Nevasca é um jornal de convicção reformada e conservadora: cremos que Cristo é Senhor de cada centímetro da vida, e por isso defendemos o governo limitado, a liberdade econômica, a responsabilidade fiscal, a família, a igreja livre e a justiça na rua. As notícias trazem os fatos com links para as fontes. A opinião vem sempre identificada como <strong>Editorial</strong> ou <strong>Opinião</strong>.</p>
+      </div>
+      <div class="arquivo" id="arquivo">
+        <h5>Edições anteriores</h5>
+        <div id="lista-arquivo"><p>Carregando…</p></div>
+      </div>
+      <div>
+        <h5>Expediente</h5>
+        <p><strong>Editor responsável:</strong> Junior Neves</p>
+        <p><strong>Fale com a redação:</strong><br><a href="mailto:redacaoanevasca@gmail.com" style="color:var(--azul)">redacaoanevasca@gmail.com</a></p>
+        <p><a href="#criterios" style="color:var(--azul);font-weight:700">Nossos critérios e política de correções →</a></p>
+        <h5 style="margin-top:14px">Como é feito</h5>
+        <p>A edição é preparada todas as manhãs com auxílio de inteligência artificial, a partir de veículos de imprensa brasileiros e internacionais, e passa pela revisão do editor. Toda notícia traz a referência e o link da fonte original, para que o leitor possa conferir.</p>
+        <p>© <span id="ano"></span> A Nevasca</p>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<script>
+(function(){
+  var BASE = "https://anevasca.com.br";
+  var esc = function(s){ return String(s == null ? "" : s).replace(/[&<>"']/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]; }); };
+  var fontes = function(lista){
+    if(!lista || !lista.length) return "";
+    return '<div class="fontes">Fontes: ' + lista.map(function(f){
+      return '<a href="'+esc(f.url)+'" target="_blank" rel="noopener">'+esc(f.nome)+'</a>';
+    }).join(", ") + '</div>';
+  };
+  var ps = function(l){ return (l||[]).map(function(p){ return "<p>"+esc(p)+"</p>"; }).join(""); };
+  var hoje = null;
+  var SECOES = {
+    politica:{nome:"Política", sub:"Brasília: Congresso, STF, partidos e Planalto"},
+    economia:{nome:"Economia", sub:"Juros, contas públicas e o seu bolso"},
+    mundo:{nome:"Mundo", sub:"O que mexe com o Ocidente"},
+    opiniao:{nome:"Opinião", sub:"A posição editorial de A Nevasca"},
+    contexto:{nome:"Contexto", sub:"Para entender o dia e as notas breves"}
+  };
+  var cache = {};
+
+  function share(id, titulo){
+    var url = BASE + "/m/" + id + ".html";
+    var txt = titulo + " — A Nevasca";
+    return '<div class="share" data-url="'+esc(url)+'"><span>Compartilhar:</span>'+
+      '<a href="https://wa.me/?text='+encodeURIComponent(txt+"\n"+url)+'" target="_blank" rel="noopener">WhatsApp</a>'+
+      '<a href="https://twitter.com/intent/tweet?text='+encodeURIComponent(txt)+'&url='+encodeURIComponent(url)+'" target="_blank" rel="noopener">X</a>'+
+      '<a href="https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(url)+'" target="_blank" rel="noopener">Facebook</a>'+
+      '<button type="button" class="copiar">Copiar link</button>'+
+      '<input class="link-manual" readonly value="'+esc(url)+'" hidden></div>';
+  }
+
+  function artigos(ed){
+    var pre = "ed-" + ed.data + "-", L = [], m = ed.manchete, e = ed.editorial;
+    L.push({id:pre+"manchete", chave:"manchete", secao:m.secao, titulo:m.titulo, fina:m.linhaFina, texto:m.texto, fontes:m.fontes, aba:"politica"});
+    (ed.politica||[]).forEach(function(a,i){ L.push({id:pre+"politica-"+(i+1), secao:a.secao, titulo:a.titulo, texto:[a.resumo], fontes:a.fontes, aba:"politica"}); });
+    (ed.destaques||[]).forEach(function(a,i){ L.push({id:pre+"destaque-"+(i+1), secao:a.secao, titulo:a.titulo, texto:[a.resumo], fontes:a.fontes, aba:"economia"}); });
+    (ed.mundo||[]).forEach(function(a,i){ L.push({id:pre+"mundo-"+(i+1), secao:a.secao, titulo:a.titulo, texto:[a.resumo], fontes:a.fontes, aba:"mundo"}); });
+    L.push({id:pre+"editorial", chave:"editorial", secao:"Editorial", titulo:e.titulo, texto:e.texto, aba:"opiniao", editorial:true});
+    return L;
+  }
+  function linkSecao(ed, aba){ return (ed.data === hoje) ? "#"+aba : "#ed-"+ed.data+"-sec-"+aba; }
+  function linkCapa(ed){ return (ed.data === hoje) ? "#hoje" : "#ed-"+ed.data; }
+
+  function topo(ed){
+    document.title = "A Nevasca — " + ed.dataExtenso;
+    document.getElementById("topo-data").innerHTML = "<strong>" + esc(ed.dataExtenso) + "</strong>";
+    document.getElementById("topo-atual").textContent = "Atualizado em " + (ed.atualizadoEm || "");
+    document.getElementById("ed-num").textContent = "Edição nº " + ed.numero;
+  }
+  function nav(ed, ativa){
+    var itens = [["capa","Capa",ed?linkCapa(ed):"#hoje"]];
+    Object.keys(SECOES).forEach(function(k){ itens.push([k, SECOES[k].nome, ed?linkSecao(ed,k):"#"+k]); });
+    itens.push(["arquivo","Arquivo","#arquivo"],["criterios","Critérios","#criterios"]);
+    document.getElementById("menu").innerHTML = itens.map(function(i){
+      return '<a href="'+i[2]+'" class="'+(i[0]==="opiniao"?"opiniao ":"")+(i[0]===ativa?"ativa":"")+'">'+i[1]+'</a>';
+    }).join("");
+  }
+  function aviso(ed){
+    return (hoje && ed.data !== hoje) ? '<div class="aviso-edicao">Você está lendo a edição de <strong>'+esc(ed.dataExtenso)+'</strong>. <a href="#hoje">Ir para a edição de hoje →</a></div>' : "";
+  }
+  function indicadores(ed){
+    if(!ed.indicadores || !ed.indicadores.length) return "";
+    return '<section class="indicadores" aria-label="Indicadores">' + ed.indicadores.map(function(i){
+      return '<div class="ind"><div class="r">'+esc(i.rotulo)+'</div><div class="v">'+esc(i.valor)+'</div><div class="n">'+esc(i.nota)+'</div></div>';
+    }).join("") + '</section>';
+  }
+  function cartao(a, grande){
+    return '<article class="cartao'+(grande?" grande":"")+'"><p class="kicker'+(a.editorial?"":" azul")+'">'+esc(a.secao)+'</p><h2><a href="#'+a.id+'">'+esc(a.titulo)+'</a></h2>'+
+      (a.fina?'<p class="fina-c">'+esc(a.fina)+'</p>':'')+'<p>'+esc(grande? a.texto[0] : a.texto[0])+'</p>'+
+      '<a class="leia" href="#'+a.id+'">Ler matéria completa →</a>'+fontes(a.fontes)+share(a.id, a.titulo)+'</article>';
+  }
+  function contextoHTML(ed){
+    var pe = ed.paraEntender, h = '<section class="secao duas">';
+    if(pe) h += '<div class="box"><p class="kicker">Para entender</p><h4>'+esc(pe.titulo)+'</h4><ol>' + pe.itens.map(function(i){ return "<li>"+esc(i)+"</li>"; }).join("") + '</ol>' + fontes(pe.fontes) + '</div>';
+    if(ed.breves && ed.breves.length) h += '<div class="breves"><p class="kicker">Breves</p><ul>' + ed.breves.map(function(b){
+      return '<li>'+esc(b.texto)+(b.fonte?' <span class="fontes" style="display:inline"><a href="'+esc(b.fonte.url)+'" target="_blank" rel="noopener">'+esc(b.fonte.nome)+'</a></span>':'')+'</li>'; }).join("") + '</ul></div>';
+    return h + '</section>';
+  }
+
+  // ---------- CAPA ----------
+  function capa(ed){
+    topo(ed); nav(ed, "capa");
+    var A = artigos(ed), byId = {}; A.forEach(function(a){ byId[a.id] = a; });
+    var pre = "ed-"+ed.data+"-", m = ed.manchete, e = ed.editorial;
+    var h = aviso(ed) + indicadores(ed);
+    h += '<section class="capa">';
+    h += '<div class="col">' + (ed.destaques||[]).map(function(x, i){
+      var id = pre + "destaque-" + (i+1);
+      return '<article class="destaque"><p class="kicker azul">'+esc(x.secao)+'</p><h2><a href="#'+id+'">'+esc(x.titulo)+'</a></h2><p>'+esc(x.resumo)+'</p>'+fontes(x.fontes)+'</article>';
+    }).join("") + '<a class="mais-secao" href="'+linkSecao(ed,"economia")+'">Mais em Economia →</a></div>';
+    h += '<div class="col centro"><article class="manchete"><p class="kicker">'+esc(m.secao)+'</p><h1><a href="#'+pre+'manchete">'+esc(m.titulo)+'</a></h1><p class="fina">'+esc(m.linhaFina)+'</p><p class="assinatura">Da redação · '+esc(ed.dataExtenso)+'</p><div class="texto">'+
+         ps(m.texto) + '</div>' + fontes(m.fontes) + share(pre+"manchete", m.titulo) + '</article></div>';
+    var resumoEd = e.texto[0];
+    h += '<div class="col"><aside class="editorial"><div class="selo"><span>Editorial</span><em>Opinião do jornal</em></div><h2><a href="#'+pre+'editorial">'+esc(e.titulo)+'</a></h2><p>'+esc(resumoEd)+'</p>'+
+         '<a class="leia" href="#'+pre+'editorial">Ler o editorial completo →</a></aside><div id="chamada-coluna"></div></div>';
+    h += '</section>';
+    if(ed.politica && ed.politica.length){
+      h += '<section class="secao"><h3><a href="'+linkSecao(ed,"politica")+'">Brasília →</a> <small>Congresso, STF e partidos</small></h3><div class="grade4">' + ed.politica.map(function(a, i){
+        var id = pre + "politica-" + (i+1);
+        return '<article><p class="kicker">'+esc(a.secao)+'</p><h4><a href="#'+id+'">'+esc(a.titulo)+'</a></h4><p>'+esc(a.resumo)+'</p></article>';
+      }).join("") + '</div></section>';
+    }
+    if(ed.mundo && ed.mundo.length){
+      h += '<section class="secao"><h3><a href="'+linkSecao(ed,"mundo")+'">Mundo →</a> <small>O que mexe com o Ocidente</small></h3><div class="grade4">' + ed.mundo.map(function(a, i){
+        var id = pre + "mundo-" + (i+1);
+        return '<article><p class="kicker azul">'+esc(a.secao)+'</p><h4><a href="#'+id+'">'+esc(a.titulo)+'</a></h4><p>'+esc(a.resumo)+'</p></article>';
+      }).join("") + '</div></section>';
+    }
+    h += contextoHTML(ed);
+    h += '<div class="baixar-pdf"><a href="pdf/'+ed.data+'.pdf" download>⬇ Baixar a edição impressa (PDF para imprimir e dobrar)</a></div>';
+    h += '<div class="ver-arquivo"><a href="#arquivo">Ver todas as edições anteriores →</a></div>';
+    document.getElementById("conteudo").innerHTML = h;
+    getColunas().then(function(l){
+      if(!l.length) return;
+      var c = l[0], el = document.getElementById("chamada-coluna"); if(!el) return;
+      el.innerHTML = '<div class="chamada-coluna"><p class="kicker azul">'+NOME_COLUNA+'</p><h3><a href="#coluna-'+esc(c.id)+'">'+esc(c.titulo)+'</a></h3><p class="por">Por '+AUTOR+' · '+dataBR(c.data)+'</p></div>';
+    });
+  }
+
+  // ---------- PÁGINA DE SEÇÃO ----------
+  function secao(ed, aba){
+    topo(ed); nav(ed, aba);
+    var S = SECOES[aba], A = artigos(ed).filter(function(a){ return a.aba === aba; });
+    var h = aviso(ed) + '<header class="cab-secao"><h1>'+S.nome+'</h1><p>'+S.sub+' · '+esc(ed.dataExtenso)+'</p></header>';
+    if(aba === "economia") h += indicadores(ed);
+    if(aba === "opiniao"){
+      var e = ed.editorial, id = "ed-"+ed.data+"-editorial";
+      h += '<article class="artigo-pag editorial-pag"><div class="selo"><span>Editorial</span><em>Opinião do jornal</em></div><h1><a href="#'+id+'">'+esc(e.titulo)+'</a></h1><div class="corpo">'+ps(e.texto)+'</div><p class="nota">Este texto expressa a posição editorial de A Nevasca.</p>'+share(id, "Editorial: "+e.titulo)+'</article>';
+      h += '<section class="secao bloco-coluna"><h3>'+NOME_COLUNA+' <small>a coluna de '+AUTOR+'</small></h3><p class="epigrafe">'+EPIGRAFE+'</p><div id="lista-col"></div></section>';
+      h += '<section class="secao"><h3>Editoriais anteriores</h3><ul class="lista-ed" id="lista-ed"><li>Carregando…</li></ul></section>';
+      document.getElementById("conteudo").innerHTML = h;
+      getColunas().then(function(l){ document.getElementById("lista-col").innerHTML = listaColunasHTML(l, null); });
+      getArquivo().then(function(l){
+        var outros = l.filter(function(x){ return x.data !== ed.data && x.editorial; });
+        document.getElementById("lista-ed").innerHTML = outros.length ? outros.map(function(x){
+          return '<li><span>'+esc(x.rotulo)+'</span><a href="#ed-'+esc(x.data)+'-editorial">'+esc(x.editorial)+'</a></li>'; }).join("") : '<li>Os próximos editoriais aparecerão aqui.</li>';
+      }).catch(function(){});
+      return;
+    }
+    if(aba === "contexto"){ h += contextoHTML(ed); document.getElementById("conteudo").innerHTML = h; return; }
+    h += '<div class="grade-secao">' + A.map(function(a, i){ return cartao(a, i === 0 && a.chave === "manchete"); }).join("") + '</div>';
+    if(aba === "politica") h += contextoHTML(ed);
+    document.getElementById("conteudo").innerHTML = h;
+  }
+
+  // ---------- PÁGINA DA MATÉRIA ----------
+  function materia(ed, a){
+    topo(ed); nav(ed, a.aba);
+    document.title = a.titulo + " — A Nevasca";
+    var h = aviso(ed) + '<article class="artigo-pag'+(a.editorial?" editorial-pag":"")+'">';
+    h += '<p class="migalha"><a href="'+linkCapa(ed)+'">Capa</a> › <a href="'+linkSecao(ed,a.aba)+'">'+SECOES[a.aba].nome+'</a></p>';
+    h += a.editorial ? '<div class="selo"><span>Editorial</span><em>Opinião do jornal</em></div>' : '<p class="kicker">'+esc(a.secao)+'</p>';
+    h += '<h1>'+esc(a.titulo)+'</h1>' + (a.fina ? '<p class="fina">'+esc(a.fina)+'</p>' : '');
+    h += '<p class="assinatura">'+(a.editorial?"Editorial":"Da redação")+' · '+esc(ed.dataExtenso)+'</p>';
+    h += '<div class="corpo">'+ps(a.texto)+'</div>';
+    if(a.editorial) h += '<p class="nota">Este texto expressa a posição editorial de A Nevasca.</p>';
+    h += fontes(a.fontes) + share(a.id, (a.editorial?"Editorial: ":"")+a.titulo) + '</article>';
+    var outras = artigos(ed).filter(function(x){ return x.id !== a.id; });
+    h += '<section class="secao mais-edicao"><h3>Mais nesta edição</h3><ul>' + outras.map(function(x){
+      return '<li><span class="kicker'+(x.editorial?"":" azul")+'">'+esc(x.secao)+'</span><a href="#'+x.id+'">'+esc(x.titulo)+'</a></li>'; }).join("") + '</ul></section>';
+    document.getElementById("conteudo").innerHTML = h;
+  }
+
+  var listaColunas = null;
+  var NOME_COLUNA = "O Doido Sensato", AUTOR = "Doido Neves", EPIGRAFE = "“Nós somos loucos por amor de Cristo.” — 1 Coríntios 4.10";
+  function getColunas(){
+    if(listaColunas) return Promise.resolve(listaColunas);
+    return fetch("colunas.json", {cache:"no-store"}).then(function(r){ return r.ok ? r.json() : []; }).catch(function(){ return []; }).then(function(l){ listaColunas = l || []; return listaColunas; });
+  }
+  function dataBR(d){ var p = d.split("-"); return p[2]+"/"+p[1]+"/"+p[0]; }
+  function listaColunasHTML(l, excluir){
+    var x = l.filter(function(c){ return c.id !== excluir; });
+    if(!x.length) return '<p class="em-breve">Em breve, os textos de '+AUTOR+' aparecem aqui.</p>';
+    return '<ul class="lista-ed">' + x.map(function(c){ return '<li><span>'+dataBR(c.data)+'</span><a href="#coluna-'+esc(c.id)+'">'+esc(c.titulo)+'</a></li>'; }).join("") + '</ul>';
+  }
+  function paginaColuna(c){
+    nav(null, "opiniao");
+    document.title = c.titulo + " — " + AUTOR + " · A Nevasca";
+    document.getElementById("topo-data").innerHTML = "<strong>"+NOME_COLUNA+"</strong>";
+    document.getElementById("topo-atual").textContent = ""; document.getElementById("ed-num").textContent = "";
+    var id = "coluna-" + c.id;
+    var h = '<article class="artigo-pag coluna-pag"><p class="migalha"><a href="#hoje">Capa</a> › <a href="#opiniao">Opinião</a> › '+NOME_COLUNA+'</p>'+
+      '<div class="selo azul"><span>Coluna</span><em>'+NOME_COLUNA+'</em></div><h1>'+esc(c.titulo)+'</h1>'+(c.linhaFina?'<p class="fina">'+esc(c.linhaFina)+'</p>':'')+
+      '<p class="assinatura">Por <strong>'+AUTOR+'</strong> · '+dataBR(c.data)+'</p><div class="corpo">'+ps(c.texto)+'</div>'+
+      '<p class="nota">Textos assinados expressam a opinião de quem assina. '+NOME_COLUNA+' · '+EPIGRAFE+'</p>'+share(id, c.titulo+" — "+AUTOR)+'</article>';
+    h += '<section class="secao mais-edicao"><h3>Outras colunas</h3><div id="outras-col"></div></section>';
+    document.getElementById("conteudo").innerHTML = h;
+    getColunas().then(function(l){ document.getElementById("outras-col").innerHTML = listaColunasHTML(l, c.id); });
+  }
+
+  var listaArquivo = null;
+  function getArquivo(){
+    if(listaArquivo) return Promise.resolve(listaArquivo);
+    return fetch("arquivo.json", {cache:"no-store"}).then(function(r){ return r.json(); }).then(function(l){ listaArquivo = l; hoje = l.length ? l[0].data : null; return l; });
+  }
+  function carregar(data){
+    var url = (!data || data === hoje) ? "edicao.json" : "edicoes/" + data + ".json";
+    if(cache[url]) return Promise.resolve(cache[url]);
+    return fetch(url, {cache:"no-store"}).then(function(r){ if(!r.ok) throw 0; return r.json(); }).then(function(ed){ cache[url] = ed; return ed; });
+  }
+  function rodapeArquivo(atual){
+    getArquivo().then(function(lista){
+      var el = document.getElementById("lista-arquivo");
+      el.innerHTML = lista.slice(0, 7).map(function(x){
+        return '<a href="#ed-'+esc(x.data)+'">'+esc(x.rotulo)+(x.data===atual?" (aberta)":"")+'</a>';
+      }).join("") + '<a href="#arquivo"><strong>Todas as edições →</strong></a>';
+    }).catch(function(){ document.getElementById("lista-arquivo").innerHTML = "<p>Arquivo indisponível.</p>"; });
+  }
+
+  function paginaArquivo(){
+    getArquivo().then(function(lista){
+      document.title = "A Nevasca — Arquivo"; document.getElementById("topo-data").innerHTML="<strong>Arquivo de edições</strong>"; document.getElementById("topo-atual").textContent=""; document.getElementById("ed-num").textContent="";
+      var h = '<section class="secao arquivo-pag"><h3>Arquivo <small>'+lista.length+' edição(ões)</small></h3>';
+      h += '<div class="busca"><input type="search" id="busca-arq" placeholder="Buscar por assunto, nome ou data…" aria-label="Buscar no arquivo"></div><ul id="lista-arq">';
+      h += lista.map(function(x){
+        var busca = (x.rotulo+" "+(x.manchete||"")+" "+(x.editorial||"")).toLowerCase();
+        return '<li data-busca="'+esc(busca)+'"><div class="arq-data"><a href="#ed-'+esc(x.data)+'">'+esc(x.rotulo)+'</a></div><div>'+
+          (x.manchete?'<a class="arq-manchete" href="#ed-'+esc(x.data)+'-manchete">'+esc(x.manchete)+'</a>':'')+
+          (x.editorial?'<a class="arq-editorial" href="#ed-'+esc(x.data)+'-editorial"><span>Editorial</span> '+esc(x.editorial)+'</a>':'')+
+          '</div></li>';
+      }).join("") + '</ul></section>';
+      document.getElementById("conteudo").innerHTML = h;
+      document.getElementById("busca-arq").addEventListener("input", function(ev){
+        var q = ev.target.value.toLowerCase().trim();
+        Array.prototype.forEach.call(document.querySelectorAll("#lista-arq li"), function(li){
+          li.hidden = q && li.getAttribute("data-busca").indexOf(q) < 0;
+        });
+      });
+      window.scrollTo(0,0);
+    });
+  }
+
+
+  function paginaCriterios(){
+    document.title = "A Nevasca — Nossos critérios";
+    document.getElementById("topo-data").innerHTML = "<strong>Nossos critérios</strong>";
+    document.getElementById("topo-atual").textContent = ""; document.getElementById("ed-num").textContent = "";
+    var sec = function(t, corpo){ return '<section class="crit-bloco"><h2>'+t+'</h2>'+corpo+'</section>'; };
+    var h = '<article class="criterios"><p class="kicker">Transparência</p><h1>Nossos critérios</h1>'+
+      '<p class="fina">Como A Nevasca escolhe as notícias, de onde elas vêm, onde termina a notícia e começa a opinião, e o que fazemos quando erramos.</p>';
+    h += sec("Quem somos", '<p>A Nevasca é um jornal digital de convicção reformada e conservadora. Cremos que Cristo é Senhor de cada centímetro da vida, e por isso defendemos o governo limitado, a liberdade econômica, a responsabilidade fiscal, a família, a igreja livre e a justiça. Somos independentes: não somos porta-voz de nenhum partido, de nenhum governo nem de nenhum político, e cobramos também a direita quando ela troca princípio por cargo.</p>');
+    h += sec("Como escolhemos as notícias", '<ol><li><strong>Relevância do dia.</strong> A manchete é o fato político mais importante do Brasil nas últimas 24 horas.</li><li><strong>Cobertura completa.</strong> Toda edição passa por Câmara, Senado, STF, partidos e oposição, Planalto, economia, segurança, família, educação, liberdade religiosa e mundo.</li><li><strong>Atualidade.</strong> Publicamos fatos recentes. Quando um fato mais antigo ajuda a entender o dia, ele aparece como contexto e com a data.</li></ol>');
+    h += sec("De onde vêm as informações", '<ol><li><strong>Referências de pauta:</strong> a <em>Revista Oeste</em> e a <em>Gazeta do Povo</em> orientam prioritariamente a escolha das manchetes e dos temas do dia.</li><li><strong>Fontes oficiais:</strong> Agência Câmara, Agência Senado, portal do STF, Diário Oficial, Banco Central e IBGE.</li><li><strong>Grandes veículos nacionais:</strong> Folha, Estadão, O Globo, Metrópoles, CNN Brasil e Poder360, entre outros.</li><li><strong>Internacional:</strong> Reuters, AP e grandes jornais estrangeiros.</li></ol><p>Toda notícia traz o nome do veículo e o link da matéria original, para que o leitor confira. Quando um fato aparece em um único veículo, dizemos isso no texto (“segundo a Gazeta do Povo…”). Não publicamos boato, print sem origem nem vídeo sem contexto.</p>');
+    h += sec("Notícia é notícia, opinião é opinião", '<p>As notícias relatam fatos, com títulos informativos e sem adjetivos de torcida. Declarações de políticos aparecem como declarações: quem disse, onde e quando. A opinião do jornal fica no <strong>Editorial</strong>, sempre identificado com o selo vermelho. Textos assinados, quando houver, expressam a opinião de quem assina.</p>');
+    h += sec("Uso de inteligência artificial", '<p>A edição é preparada todas as manhãs com auxílio de inteligência artificial, que pesquisa, organiza e redige os textos com base nas fontes citadas. O editor responsável, Junior Neves, revisa o conteúdo e responde por ele.</p>');
+    h += sec("Quando erramos", '<p>Errou, corrige e avisa. Se uma informação estiver errada, a matéria é corrigida e recebe uma nota de <strong>Correção</strong> explicando o que mudou. Não apagamos erros em silêncio. Encontrou algum problema? Escreva para <strong>redacaoanevasca@gmail.com</strong>, de preferência com o link da matéria.</p><p>Quem se sentir ofendido ou citado de forma incorreta tem direito de resposta, nos termos da Lei 13.188/2015. Pedidos de resposta também devem ser enviados para redacaoanevasca@gmail.com.</p>');
+    h += sec("Fale com a redação", '<p>Sugestões de pauta, correções, críticas e pedidos de direito de resposta: <strong>redacaoanevasca@gmail.com</strong>. Todas as mensagens são lidas pelo editor responsável.</p>');
+    h += '<p class="crit-voltar"><a href="#hoje">← Voltar para a edição de hoje</a></p></article>';
+    document.getElementById("conteudo").innerHTML = h;
+    window.scrollTo(0,0);
+  }
+
+  function rota(){
+    var hash = (location.hash || "").replace("#", "");
+    if(hash === "brasilia") hash = "politica";
+    getArquivo().catch(function(){}).then(function(){
+      if(hash === "arquivo"){ nav(null, "arquivo"); rodapeArquivo(null); paginaArquivo(); return; }
+      if(hash === "criterios"){ nav(null, "criterios"); rodapeArquivo(null); paginaCriterios(); return; }
+      if(hash.indexOf("coluna-") === 0){
+        return getColunas().then(function(l){
+          var c = l.filter(function(x){ return "coluna-"+x.id === hash; })[0];
+          rodapeArquivo(null);
+          if(c){ paginaColuna(c); window.scrollTo(0,0); } else { location.hash = "#opiniao"; }
+        });
+      }
+      var m = hash.match(/^ed-(\d{4}-\d{2}-\d{2})(?:-([a-z0-9-]+))?$/);
+      var data = m ? m[1] : hoje, resto = m ? m[2] : (SECOES[hash] ? "sec-"+hash : null);
+      return carregar(data).then(function(ed){
+        rodapeArquivo(ed.data);
+        if(resto && resto.indexOf("sec-") === 0 && SECOES[resto.slice(4)]){ secao(ed, resto.slice(4)); }
+        else if(resto){
+          var a = artigos(ed).filter(function(x){ return x.id === "ed-"+ed.data+"-"+resto; })[0];
+          if(a) materia(ed, a); else capa(ed);
+        } else { capa(ed); }
+        window.scrollTo(0,0);
+      });
+    }).catch(function(){
+      document.getElementById("conteudo").innerHTML = '<div class="carregando">Não foi possível carregar esta página. <a href="#hoje">Ir para a edição de hoje</a></div>';
+    });
+  }
+
+  document.addEventListener("click", function(ev){
+    var b = ev.target.closest && ev.target.closest(".copiar");
+    if(!b) return;
+    var box = b.parentNode, url = box.getAttribute("data-url");
+    var ok = function(){ b.textContent = "Link copiado!"; setTimeout(function(){ b.textContent = "Copiar link"; }, 2000); };
+    var falha = function(){ var i = box.querySelector(".link-manual"); i.hidden = false; i.select(); b.textContent = "Copie o link ao lado"; };
+    try { navigator.clipboard.writeText(url).then(ok, falha); } catch(e){ falha(); }
+  });
+  document.getElementById("ano").textContent = new Date().getFullYear();
+  window.addEventListener("hashchange", rota);
+  rota();
+})();
+</script>
+</body>
+</html>

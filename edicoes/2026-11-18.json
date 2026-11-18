@@ -1,0 +1,297 @@
+{
+  "data": "2026-11-18",
+  "dataExtenso": "Quarta-feira, 18 de novembro de 2026",
+  "numero": 1,
+  "atualizadoEm": "18/11/2026, 11h (Brasília)",
+  "indicadores": [
+    {
+      "rotulo": "Selic",
+      "valor": "13,75%",
+      "nota": "mantida pelo Copom em 4/nov"
+    },
+    {
+      "rotulo": "IPCA 2026 (proj. BC)",
+      "valor": "5,6%",
+      "nota": "acima do teto da meta"
+    },
+    {
+      "rotulo": "Ajuste fiscal",
+      "valor": "R$ 60 bi",
+      "nota": "Senado vota destaques hoje"
+    },
+    {
+      "rotulo": "Aprovação de Trump",
+      "valor": "32%",
+      "nota": "Reuters/Ipsos"
+    }
+  ],
+  "manchete": {
+    "secao": "Câmara",
+    "titulo": "Racha no PL: ala bolsonarista articula Nikolas contra Hugo Motta, e cúpula decide hoje",
+    "linhaFina": "O deputado mais votado da história pôs o nome à disposição na tribuna e disse que deixa o partido se a legenda apoiar a reeleição de Motta. Valdemar teme perder comissões.",
+    "texto": [
+      "Nikolas Ferreira (PL-MG) colocou o nome à disposição para presidir a Câmara em discurso no plenário na terça-feira (17). Ele defendeu que o PL lance candidatura própria contra Hugo Motta (Republicanos-PB) na eleição de fevereiro de 2027. Na véspera, em entrevista a uma rádio de Belo Horizonte, já tinha dito que sua permanência no partido ficaria “insustentável” se o PL apoiasse Motta.",
+      "A cúpula do partido se reúne nesta quarta-feira (18) com o presidente nacional, Valdemar Costa Neto, e lideranças da bancada. Segundo a coluna de Igor Gadelha, no Metrópoles, caciques do PL já dão como certo o lançamento de candidato próprio, e o escolhido seria Nikolas, eleito em outubro com 3,1 milhões de votos, recorde histórico para deputado federal.",
+      "A bancada está dividida. Uma ala defende apoiar Motta para garantir cargos e o comando de comissões estratégicas. Os bolsonaristas querem candidatura própria para manter a identidade de oposição ao governo Lula. Valdemar já alertou que o partido pode perder comissões importantes se ficar fora do bloco de Motta. O senador Flávio Bolsonaro também rejeita apoiar o atual presidente da Câmara.",
+      "Outros nomes do PL se movimentaram. Zé Trovão (SC), que no início do mês chamou Motta de “frouxo” nas redes, prometeu candidatura avulsa se o partido não lançar ninguém. Luiz Philippe de Orléans e Bragança (SP) anunciou na terça que quer disputar e diz ter aval de Valdemar. O Novo já confirmou candidato próprio. Motta, porém, tem apoio declarado de partidos que somarão 338 deputados na próxima legislatura, e uma candidatura de oposição serviria mais para marcar posição e negociar espaços."
+    ],
+    "fontes": [
+      {
+        "nome": "NSC Total",
+        "url": "https://www.nsctotal.com.br/politica/nikolas-ferreira-se-dispoe-a-disputar-presidencia-da-camara-e-ameaca-deixar-pl-se-apoiarem-hugo-motta-insustentavel"
+      },
+      {
+        "nome": "Metrópoles",
+        "url": "https://www.metropoles.com/colunas/igor-gadelha/cupula-do-pl-se-reune-para-definir-posicao-na-eleicao-da-camara"
+      },
+      {
+        "nome": "Blog do BG",
+        "url": "https://www.blogdobg.com.br/racha-no-pl-partido-articula-candidatura-de-nikolas-ferreira-a-presidencia-da-camara-para-enfrentar-hugo-motta/"
+      },
+      {
+        "nome": "Voz da Bahia",
+        "url": "https://vozdabahia.com.br/nikolas-ferreira-coloca-nome-a-disposicao-do-pl-para-disputar-presidencia-da-camara-e-ameaca-deixar-o-partido-caso-haja-apoio-a-hugo-motta/"
+      },
+      {
+        "nome": "180graus",
+        "url": "https://180graus.com/na-politica/rachado-pl-arrasta-decisao-sobre-disputar-comando-da-camara-e-pressao-sobe/"
+      },
+      {
+        "nome": "RIC",
+        "url": "https://ric.com.br/politica/ze-trovao-avalia-disputa-pela-presidencia-da-camara-e-critica-hugo-motta-frouxo/"
+      },
+      {
+        "nome": "Brasil 247",
+        "url": "https://www.brasil247.com/brasil/deputado-do-pl-lanca-candidatura-a-presidencia-da-camara-contra-hugo-motta/"
+      },
+      {
+        "nome": "TV Sim Brasil",
+        "url": "https://tvsimbrasil.com.br/brasil/politica/noticia/2026/11/17/pl-novo-dividem-apoio-motta-disputa-camara"
+      }
+    ]
+  },
+  "destaques": [
+    {
+      "secao": "Economia",
+      "titulo": "Ajuste fiscal: Senado adia destaques e Câmara promete votar no mesmo dia",
+      "resumo": "O Senado aprovou o texto-base do PLP 299/2026 no dia 12, mas deixou quatro destaques para esta quarta (18). Motta promete votar na Câmara assim que o texto chegar e indicou Mauro Benevides Filho como relator. O PT fechou questão a favor. Entre as medidas estão bloqueios de gastos para perseguir o centro da meta fiscal e a ampliação, de 10% para 20%, do corte linear de benefícios tributários.",
+      "fontes": [
+        {
+          "nome": "Diário Carioca",
+          "url": "https://www.diariocarioca.com/2026/11/17/politica/congresso/camara-vota-ajuste-fiscal-senado-adia-analise/"
+        },
+        {
+          "nome": "Revista Oeste",
+          "url": "https://revistaoeste.com/politica/camara-deve-votar-ajuste-fiscal-de-lula-nesta-terca-feira-diz-ministro/"
+        },
+        {
+          "nome": "Tribuna do Sertão / O Globo",
+          "url": "https://www.tribunadosertao.com.br/financas/2026/11/17/1023977-pt-vota-a-favor-do-pacote-fiscal-do-governo-lula-na-camara-apos-criticas"
+        }
+      ]
+    },
+    {
+      "secao": "Economia",
+      "titulo": "Juros travados em 13,75%: o Banco Central não confia na trajetória",
+      "resumo": "Na primeira reunião após a eleição, o Copom interrompeu por unanimidade uma sequência de cinco cortes e elevou para 5,6% a projeção de inflação de 2026. A CNI chamou a decisão de equivocada; a ata cita incerteza e cenário fiscal.",
+      "fontes": [
+        {
+          "nome": "Central do Varejo",
+          "url": "https://centraldovarejo.com.br/?p=47264"
+        },
+        {
+          "nome": "Tribuna do Sertão",
+          "url": "https://www.tribunadosertao.com.br/geral/2026/11/10/1017711-ata-do-copom-indica-cenario-de-incertezas-e-selic-contracionista"
+        }
+      ]
+    },
+    {
+      "secao": "Bolso",
+      "titulo": "Crédito pessoal a 62% ao ano",
+      "resumo": "Mesmo depois dos cortes da Selic, os juros médios das operações com recursos livres chegaram a 62,4% ao ano para pessoas físicas e 24,4% para empresas em setembro, segundo o Banco Central.",
+      "fontes": [
+        {
+          "nome": "Economic News Brasil",
+          "url": "https://economicnewsbrasil.com.br/2026/11/04/manutencao-da-selic-economia-desacelera/"
+        }
+      ]
+    }
+  ],
+  "editorial": {
+    "titulo": "A primogenitura não está à venda",
+    "texto": [
+      "O PL vive hoje o dilema mais antigo da política: princípio ou cadeira. De um lado, a ala que quer apoiar Hugo Motta e garantir comissões, relatorias e um lugar à mesa. Do outro, os deputados que lembram que o partido foi para a eleição prometendo ser oposição, e não sócio. A cúpula se reúne nesta quarta para decidir. O eleitor de direita já decidiu faz tempo.",
+      "A Escritura tem uma história para isso. Esaú chegou cansado do campo e trocou a primogenitura por um prato de lentilhas (Gn 25). Comissão também mata a fome de muito parlamentar, mas a conta vem depois. Um partido que pede milhões de votos para enfrentar o governo e, um mês depois da eleição, se aninha no bloco que sustenta esse governo não perde só uma disputa. Perde a palavra. E palavra, para quem crê, não é detalhe: seja o vosso sim, sim.",
+      "Sim, a conta de cabeça está feita. Motta tem apoio declarado de partidos que somarão 338 deputados, e uma candidatura de oposição muito provavelmente perde. E daí? Daniel não abriu a janela pensando no placar (Dn 6). Há derrotas que edificam e vitórias que corroem. Quem disputa sabendo que vai perder, mas disputa porque é o certo, deixa ao eleitor algo que nenhuma comissão compra: a certeza de que o voto dele não foi revendido no balcão de Brasília. Perder de pé é um resultado. Ganhar de joelhos não é vitória.",
+      "Que a disputa seja feita com unidade, um nome só e sem fogo amigo nas redes. Mas que fique claro: o PL nunca foi, de fato, a casa da direita. Ela está lá por associação ao bolsonarismo, não por convicção partidária, e a cúpula de Valdemar sempre tratou o voto conservador como inquilino. Do outro lado da rua, o Novo já disse que não apoia Motta e terá candidato próprio. Se o PL preferir a lentilha, não faltará porta aberta para os conservadores que não estão à venda. A primogenitura é do eleitor. E ele sabe muito bem o endereço."
+    ]
+  },
+  "mundo": [
+    {
+      "secao": "Estados Unidos",
+      "titulo": "Trump vai à Ásia para cúpula nuclear inédita com Xi e Putin",
+      "resumo": "Manila foi a primeira parada de uma viagem de três dias que segue para a China, onde estão previstas negociações nucleares entre os três líderes. Trump disse que também pretende tratar da Ucrânia.",
+      "fontes": [
+        {
+          "nome": "NPR",
+          "url": "https://www.npr.org/sections/world/"
+        }
+      ]
+    },
+    {
+      "secao": "Guerra na Ucrânia",
+      "titulo": "Drones ucranianos atingem a ponte da Crimeia",
+      "resumo": "O ataque à ponte sobre o Estreito de Kerch fechou a travessia por cerca de 17 horas. Autoridades russas dizem que o dano foi pequeno e que uma faixa já foi liberada.",
+      "fontes": [
+        {
+          "nome": "Reuters (via Devdiscourse)",
+          "url": "https://www.devdiscourse.com/article/international/4007830-reuters-world-news-summary"
+        }
+      ]
+    },
+    {
+      "secao": "Oriente Médio",
+      "titulo": "EUA voltam a atacar ilha iraniana de Qeshm",
+      "resumo": "Segundo a Reuters, o alvo foi um local de lançamento de mísseis. Não há informação sobre vítimas ou danos.",
+      "fontes": [
+        {
+          "nome": "Foreign Exchanges",
+          "url": "https://www.foreignexchanges.news/p/world-roundup-november-17-2026"
+        }
+      ]
+    },
+    {
+      "secao": "Washington",
+      "titulo": "Aprovação de Trump estaciona em 32%",
+      "resumo": "A pesquisa Reuters/Ipsos repete o patamar das últimas quatro rodadas, perto da mínima da carreira, depois de os democratas conquistarem a maioria no Congresso nas eleições de meio de mandato.",
+      "fontes": [
+        {
+          "nome": "Reuters (via Devdiscourse)",
+          "url": "https://www.devdiscourse.com/article/international/4007830-reuters-world-news-summary"
+        },
+        {
+          "nome": "FDD",
+          "url": "https://www.fdd.org/overnight-brief/november-4-2026/"
+        }
+      ]
+    }
+  ],
+  "paraEntender": {
+    "titulo": "Como chegamos aqui",
+    "itens": [
+      "25/out — Lula vence o 2º turno com 51,79% dos votos válidos, contra 48,21% de Flávio Bolsonaro (PL), numa virada sobre o 1º turno.",
+      "26/out — Flávio desiste de pedir a anulação da eleição, anunciada na noite anterior.",
+      "4/nov — Copom mantém a Selic em 13,75% e interrompe o ciclo de cortes.",
+      "5/jan/2027 — Posse do quarto mandato."
+    ],
+    "fontes": [
+      {
+        "nome": "Viva",
+        "url": "https://viva.com.br/politica/quando-lula-toma-posse-como-presidente-da-republica-em-2027.html"
+      },
+      {
+        "nome": "Fundação Perseu Abramo",
+        "url": "https://fpabramo.org.br/tse-confirma-vitoria-de-lula-flavio-bolsonaro-desiste-de-pedir-anulacao-da-eleicao/"
+      }
+    ]
+  },
+  "breves": [
+    {
+      "texto": "Ministros do STF avaliam que pautas polêmicas, como o código de ética negociado por Cármen Lúcia, devem ficar para 2027.",
+      "fonte": {
+        "nome": "Brasil 247",
+        "url": "https://www.brasil247.com/brasil/pautas-polemicas-em-discussao-no-stf-ficarao-para-2027-avaliam-ministros/"
+      }
+    },
+    {
+      "texto": "Motta disse que a Câmara está preocupada com a alta do dólar e com a perspectiva de juros elevados, e cobrou do governo outras medidas além do ajuste.",
+      "fonte": {
+        "nome": "Brasil em Folhas",
+        "url": "https://brasilemfolhas.com.br/2026/11/camara-vota-pacote-de-ajuste-fiscal-no-dia-do-envio/"
+      }
+    },
+    {
+      "texto": "Rússia ameaça o Reino Unido com “consequências sérias” se Putin for barrado do G20 de 2027, que será presidido pelos britânicos.",
+      "fonte": {
+        "nome": "Just Security",
+        "url": "https://www.justsecurity.org/164914/early-edition-november-17-2026/"
+      }
+    },
+    {
+      "texto": "Canadá busca uma reaproximação comercial com a China depois de anos de relações congeladas.",
+      "fonte": {
+        "nome": "US News / Reuters",
+        "url": "https://www.usnews.com/news/world"
+      }
+    },
+    {
+      "texto": "Papa Leão XIV encerra no Peru uma viagem de 12 dias por três países da América do Sul.",
+      "fonte": {
+        "nome": "Reuters",
+        "url": "https://www.forth.news/bots/reuters"
+      }
+    }
+  ],
+  "politica": [
+    {
+      "secao": "Planalto",
+      "titulo": "Lula começa a montar o ministério do quarto mandato",
+      "resumo": "Em reunião de mais de quatro horas no Alvorada com Rui Costa, Camilo Santana e Rafael Fonteles, o presidente começou a desenhar a Esplanada de 2027. Fazenda e Casa Civil são as pastas mais disputadas, e a criação de um Ministério da Segurança Pública voltou ao debate. Os ministérios serão divididos conforme o apoio de cada partido no Congresso.",
+      "fontes": [
+        {
+          "nome": "TV Sim Brasil",
+          "url": "https://tvsimbrasil.com.br/brasil/politica/noticia/2026/11/18/lula-reune-aliados-alvorada-montar-ministerio"
+        },
+        {
+          "nome": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/republica/lula-reune-aliados-para-definir-nova-esplanada-e-prepara-anuncio-de-ministros/"
+        },
+        {
+          "nome": "A Crítica",
+          "url": "https://acritica.net/politica/lula-4-formacao-ministerios-congresso/"
+        }
+      ]
+    },
+    {
+      "secao": "STF",
+      "titulo": "Fachin diz que Lei da Dosimetria pode ser julgada ainda em 2026",
+      "resumo": "O presidente do STF afirmou na terça (17) que as ações contra a lei, que pode reduzir penas de condenados por crimes contra o Estado Democrático de Direito, incluindo Jair Bolsonaro, podem ser julgadas antes do recesso. Para isso, o relator Alexandre de Moraes precisa liberar os processos. Os presidentes da Câmara e do Senado pediram a conclusão do julgamento neste ano.",
+      "fontes": [
+        {
+          "nome": "Imirante",
+          "url": "https://imirante.com/noticias/brasil/2026/11/18/ipolitica-stf-pode-julgar-2026-lei-dosimetria"
+        },
+        {
+          "nome": "Brasil 247",
+          "url": "https://www.brasil247.com/brasil/ministros-do-stf-avaliam-que-moraes-deve-liberar-julgamento-de-lei-que-beneficia-bolsonaro-nas-proxima-semanas/"
+        }
+      ]
+    },
+    {
+      "secao": "STF × Congresso",
+      "titulo": "Dino leva fim da escala 6x1 a julgamento definitivo",
+      "resumo": "O ministro decidiu na terça (17) submeter ao julgamento final as ações sobre a implantação da nova jornada, em meio à resistência da Câmara e do Senado aos ajustes de transição. A jornada máxima cai de 44 para 42 horas semanais em 16 de dezembro, sem redução salarial, e chega a 40 horas em dezembro de 2027. Ainda não há data para a decisão.",
+      "fontes": [
+        {
+          "nome": "O Tempo",
+          "url": "https://www.otempo.com.br/politica/judiciario/2026/11/17/dino-prepara-julgamento-final-no-stf-apos-reacao-do-congresso-contra-fim-da-escala-6x1"
+        }
+      ]
+    },
+    {
+      "secao": "Oposição",
+      "titulo": "Novo confirma candidato próprio e PL tem prazo até o fim do mês",
+      "resumo": "O Novo anunciou no dia 3 que não apoiará Motta e terá nome próprio na disputa pela presidência da Câmara. O PL, maior bancada de oposição, havia adiado a decisão por 15 dias no dia 11 e precisa se definir até o fim de novembro. Sóstenes Cavalcante foi reconduzido à liderança do partido.",
+      "fontes": [
+        {
+          "nome": "TV Sim Brasil",
+          "url": "https://tvsimbrasil.com.br/brasil/politica/noticia/2026/11/17/pl-novo-dividem-apoio-motta-disputa-camara"
+        },
+        {
+          "nome": "180graus",
+          "url": "https://180graus.com/na-politica/rachado-pl-arrasta-decisao-sobre-disputar-comando-da-camara-e-pressao-sobe/"
+        }
+      ]
+    }
+  ]
+}
