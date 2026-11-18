@@ -8,7 +8,7 @@ Jornal digital de convicção reformada e conservadora — https://anevasca.com.
 - `edicoes/AAAA-MM-DD.json` — cópia de cada edição (arquivo e links permanentes). Nunca apagar.
 - `arquivo.json` — lista de edições, a mais recente primeiro.
 - `colunas.json` — coluna "O Doido Sensato", de Doido Neves. Só muda quando o Junior manda um texto.
-- `pdf/AAAA-MM-DD.pdf` — edição impressa (mini jornal: A4 frente e verso, dobrada ao meio).
+- `pdf/AAAA-MM-DD.pdf` — edição impressa (8 páginas: 2 folhas A4 frente e verso, encaixadas e dobradas ao meio).
 - `m/*.html` — páginas de compartilhamento com prévia (WhatsApp, Facebook, X). Geradas por `python3 build.py`.
 - `CNAME` — domínio próprio (anevasca.com.br). Não apagar.
 
