@@ -215,6 +215,27 @@
   }
   .leia{font-family:var(--ui,sans-serif);font-weight:700;font-size:14px;margin:4px 0 10px}.leia a{color:#7a1f1f;text-decoration:none}
   .comente{border-top:1px solid #ccc;margin-top:22px;padding-top:14px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}.comente p{margin:0;font-style:italic;color:#444}.comente a{background:#111;color:#fff;text-decoration:none;font-family:var(--ui,sans-serif);font-weight:700;font-size:14px;padding:8px 16px;border-radius:999px}
+  /* gráficos */
+  .grafico{margin:16px 0 20px;padding:14px 16px 12px;background:#fff;border:1px solid var(--linha);border-top:3px solid var(--tinta)}
+  .grafico .g-tit{font-family:var(--sans);font-weight:800;font-size:14px;margin:0 0 2px}
+  .grafico .g-sub{font-family:var(--sans);font-size:12px;color:var(--cinza);margin:0 0 8px}
+  .grafico svg{width:100%;height:auto;display:block}
+  .grafico svg text{font-family:var(--sans)}
+  .grafico .g-fonte{font-family:var(--sans);font-size:11.5px;color:var(--cinza);margin:6px 0 0}
+  .grafico .g-fonte a{color:var(--azul);text-decoration:underline}
+  .destaque .grafico{padding:10px 10px 8px;margin:10px 0}
+  /* ao longo do dia */
+  .urgente{display:block;background:var(--acento);color:#fff;font-family:var(--sans);padding:12px 16px;margin:14px 0 0}
+  .urgente b{letter-spacing:.14em;text-transform:uppercase;font-size:12px;margin-right:10px;background:#fff;color:var(--acento);padding:2px 7px}
+  .urgente a{color:#fff;font-weight:700;font-size:16px}
+  .ultimas-lista{list-style:none;margin:0;padding:0}
+  .ultimas-lista li{display:grid;grid-template-columns:64px 1fr;gap:14px;padding:12px 0;border-bottom:1px solid var(--linha)}
+  .ultimas-lista li:last-child{border-bottom:0}
+  .ultimas-lista .hora{font-family:var(--sans);font-weight:800;font-size:15px;color:var(--acento)}
+  .ultimas-lista h4{font-family:var(--titulo);font-size:21px;line-height:1.2;margin:0 0 4px;font-weight:700}
+  .ultimas-lista p{margin:0;font-size:15.5px;color:#2b2b2b}
+  .selo-urg{font-family:var(--sans);font-size:10.5px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;background:var(--acento);color:#fff;padding:2px 6px;margin-right:6px;vertical-align:2px}
+  .como .destaque-frase{font-family:var(--titulo);font-size:30px;line-height:1.15;font-weight:800;margin:6px 0 18px}
   .foto{margin:14px 0 18px}.foto img{width:100%;height:auto;display:block}.foto figcaption{font-size:13px;color:#555;margin-top:6px;font-style:italic}.foto figcaption span{font-style:normal;text-transform:uppercase;font-size:11px;letter-spacing:.5px;color:#777}.thumb{width:100%;height:auto;display:block;margin-bottom:8px}
 </style>
 <!-- Contador de visitas (GoatCounter, sem cookies) -->
@@ -263,7 +284,8 @@ window.addEventListener("hashchange",function(){if(window.goatcounter&&window.go
         <p><strong>Siga no X:</strong><br><a href="https://x.com/anevasca_br" target="_blank" rel="noopener" style="color:var(--azul)">@anevasca_br</a></p>
         <p><a href="#criterios" style="color:var(--azul);font-weight:700">Nossos critérios e política de correções →</a></p>
         <h5 style="margin-top:14px">Como é feito</h5>
-        <p>A edição é preparada todas as manhãs com auxílio de inteligência artificial, a partir de veículos de imprensa brasileiros e internacionais, e passa pela revisão do editor. Toda notícia traz a referência e o link da fonte original, para que o leitor possa conferir.</p>
+        <p>A gente lê tudo. Você lê o essencial. A Nevasca faz a curadoria dos principais veículos do Brasil e do mundo, com auxílio de inteligência artificial e sob a responsabilidade do editor. Toda notícia é conferida em mais de um veículo e traz os links das fontes.</p>
+        <p><a href="#como-fazemos" style="color:var(--azul);font-weight:700">Como fazemos A Nevasca →</a></p>
         <p>© <span id="ano"></span> A Nevasca</p>
       </div>
     </div>
@@ -283,6 +305,7 @@ window.addEventListener("hashchange",function(){if(window.goatcounter&&window.go
   var ps = function(l){ return (l||[]).map(function(p){ return "<p>"+esc(p)+"</p>"; }).join(""); };
   var hoje = null;
   var SECOES = {
+    ultimas:{nome:"Ao longo do dia", sub:"As notícias publicadas depois da edição da manhã"},
     politica:{nome:"Política", sub:"Brasília: Congresso, STF, partidos e Planalto"},
     economia:{nome:"Economia", sub:"Juros, contas públicas e o seu bolso"},
     mundo:{nome:"Mundo", sub:"O que mexe com o Ocidente"},
@@ -307,13 +330,79 @@ window.addEventListener("hashchange",function(){if(window.goatcounter&&window.go
       '<input class="link-manual" readonly value="'+esc(url)+'" hidden></div>';
   }
 
+  // ---------- GRÁFICOS (desenhados com os números da própria matéria) ----------
+  function fmt(v, g){
+    var casas = (g && typeof g.casas === "number") ? g.casas : (Math.abs(v) < 10 && v % 1 ? 2 : (v % 1 ? 1 : 0));
+    return (g && g.prefixo || "") + Number(v).toLocaleString("pt-BR", {minimumFractionDigits:casas, maximumFractionDigits:casas}) + (g && g.sufixo || "");
+  }
+  function grafico(g, compacto){
+    if(!g || !g.dados || !g.dados.length) return "";
+    var d = g.dados.filter(function(x){ return x && typeof x.valor === "number" && isFinite(x.valor); });
+    if(!d.length) return "";
+    var svg = "", W = compacto ? 330 : 600;
+    if(g.tipo === "linha" && d.length > 1){
+      var H = 250, pl = 16, pr = 16, pt = 30, pb = 34;
+      var vals = d.map(function(x){ return x.valor; }), mn = Math.min.apply(null, vals), mx = Math.max.apply(null, vals);
+      if(mn === mx){ mn -= 1; mx += 1; }
+      var folga = (mx - mn) * 0.15; mn -= folga; mx += folga;
+      var X = function(i){ return pl + i * (W - pl - pr) / (d.length - 1); };
+      var Y = function(v){ return pt + (mx - v) * (H - pt - pb) / (mx - mn); };
+      var pts = d.map(function(x, i){ return X(i).toFixed(1) + "," + Y(x.valor).toFixed(1); }).join(" ");
+      svg += '<line x1="'+pl+'" y1="'+(H-pb)+'" x2="'+(W-pr)+'" y2="'+(H-pb)+'" stroke="#d9d6cc"/>';
+      svg += '<polygon points="'+X(0).toFixed(1)+','+(H-pb)+' '+pts+' '+X(d.length-1).toFixed(1)+','+(H-pb)+'" fill="#1b2a41" opacity=".08"/>';
+      svg += '<polyline points="'+pts+'" fill="none" stroke="#1b2a41" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>';
+      var passo = Math.ceil(d.length / (compacto ? 4 : 7));
+      d.forEach(function(x, i){
+        var ult = i === d.length - 1, mostra = ult || i === 0 || d.length <= 8;
+        svg += '<circle cx="'+X(i).toFixed(1)+'" cy="'+Y(x.valor).toFixed(1)+'" r="'+(ult?5:3.5)+'" fill="'+(ult?"#7a1f1f":"#1b2a41")+'"/>';
+        if(mostra) svg += '<text x="'+X(i).toFixed(1)+'" y="'+(Y(x.valor)-10).toFixed(1)+'" font-size="'+(ult?14:12)+'" font-weight="'+(ult?800:600)+'" fill="'+(ult?"#7a1f1f":"#121212")+'" text-anchor="'+(i===0?"start":(ult?"end":"middle"))+'">'+esc(fmt(x.valor, g))+'</text>';
+        if(i % passo === 0 || ult) svg += '<text x="'+X(i).toFixed(1)+'" y="'+(H-12)+'" font-size="12" fill="#5a5a5a" text-anchor="'+(i===0?"start":(ult?"end":"middle"))+'">'+esc(x.rotulo)+'</text>';
+      });
+      svg = '<svg viewBox="0 0 '+W+' '+H+'" role="img" aria-label="'+esc(g.titulo||"Gráfico")+'">'+svg+'</svg>';
+    } else {
+      var lab = compacto ? 105 : 190, linha = 34, H2 = d.length * linha + 6;
+      var max = Math.max.apply(null, d.map(function(x){ return Math.abs(x.valor); })) || 1;
+      var area = W - lab - (compacto ? 70 : 80);
+      d.forEach(function(x, i){
+        var y = i * linha + 4, w = Math.max(2, Math.abs(x.valor) / max * area);
+        var cor = x.destaque ? "#7a1f1f" : "#1b2a41";
+        svg += '<text x="'+(lab-10)+'" y="'+(y+19)+'" font-size="13" fill="#121212" text-anchor="end">'+esc(x.rotulo)+'</text>';
+        svg += '<rect x="'+lab+'" y="'+(y+4)+'" width="'+w.toFixed(1)+'" height="22" fill="'+cor+'" rx="2"/>';
+        svg += '<text x="'+(lab+w+8).toFixed(1)+'" y="'+(y+20)+'" font-size="13" font-weight="700" fill="'+cor+'">'+esc(fmt(x.valor, g))+'</text>';
+      });
+      svg = '<svg viewBox="0 0 '+W+' '+H2+'" role="img" aria-label="'+esc(g.titulo||"Gráfico")+'">'+svg+'</svg>';
+    }
+    var f = g.fonte ? 'Fonte: ' + (g.fonte.url ? '<a href="'+esc(g.fonte.url)+'" target="_blank" rel="noopener">'+esc(g.fonte.nome)+'</a>' : esc(g.fonte.nome)) : "";
+    return '<figure class="grafico">'+(g.titulo?'<p class="g-tit">'+esc(g.titulo)+'</p>':'')+(g.subtitulo?'<p class="g-sub">'+esc(g.subtitulo)+'</p>':'')+svg+
+      ((f||g.nota)?'<p class="g-fonte">'+f+(g.nota?(f?' · ':'')+esc(g.nota):'')+'</p>':'')+'</figure>';
+  }
+
+  // ---------- AO LONGO DO DIA ----------
+  var cacheUlt = {};
+  function getUltimas(data){
+    if(cacheUlt[data]) return Promise.resolve(cacheUlt[data]);
+    return fetch("ultimas/" + data + ".json", {cache:"no-store"}).then(function(r){ return r.ok ? r.json() : []; })
+      .catch(function(){ return []; }).then(function(l){ l = Array.isArray(l) ? l : []; cacheUlt[data] = l; return l; });
+  }
+  function ultimasArtigos(ed, lista){
+    return lista.map(function(u, i){
+      return {id:"ed-"+ed.data+"-ultima-"+(i+1), secao:u.secao, titulo:u.titulo, fina:u.linhaFina, img:u.imagem, graf:u.grafico,
+        texto:(u.texto&&u.texto.length?u.texto:[u.resumo]), resumo:u.resumo, fontes:u.fontes, aba:"ultimas", hora:u.hora, urgente:!!u.urgente};
+    }).reverse();
+  }
+  function ultimasListaHTML(L){
+    return '<ul class="ultimas-lista">' + L.map(function(u){
+      return '<li><span class="hora">'+esc(u.hora||"")+'</span><div><h4>'+(u.urgente?'<span class="selo-urg">Urgente</span>':'')+'<a href="#'+u.id+'">'+esc(u.titulo)+'</a></h4><p>'+esc(u.resumo||u.fina||"")+'</p></div></li>';
+    }).join("") + '</ul>';
+  }
+
   function artigos(ed){
     var pre = "ed-" + ed.data + "-", L = [], m = ed.manchete, e = ed.editorial;
-    L.push({id:pre+"manchete", chave:"manchete", secao:m.secao, titulo:m.titulo, fina:m.linhaFina, texto:m.texto, fontes:m.fontes, aba:"politica"});
-    (ed.politica||[]).forEach(function(a,i){ L.push({id:pre+"politica-"+(i+1), secao:a.secao, titulo:a.titulo, fina:a.linhaFina, img:a.imagem, texto:(a.texto&&a.texto.length?a.texto:[a.resumo]), fontes:a.fontes, aba:"politica"}); });
-    (ed.destaques||[]).forEach(function(a,i){ L.push({id:pre+"destaque-"+(i+1), secao:a.secao, titulo:a.titulo, fina:a.linhaFina, img:a.imagem, texto:(a.texto&&a.texto.length?a.texto:[a.resumo]), fontes:a.fontes, aba:"economia"}); });
-    (ed.mundo||[]).forEach(function(a,i){ L.push({id:pre+"mundo-"+(i+1), secao:a.secao, titulo:a.titulo, fina:a.linhaFina, img:a.imagem, texto:(a.texto&&a.texto.length?a.texto:[a.resumo]), fontes:a.fontes, aba:"mundo"}); });
-    (ed.cultura||[]).forEach(function(a,i){ L.push({id:pre+"cultura-"+(i+1), secao:a.secao, titulo:a.titulo, fina:a.linhaFina, img:a.imagem, texto:(a.texto&&a.texto.length?a.texto:[a.resumo]), fontes:a.fontes, aba:"cultura"}); });
+    L.push({id:pre+"manchete", chave:"manchete", secao:m.secao, titulo:m.titulo, fina:m.linhaFina, graf:m.grafico, texto:m.texto, fontes:m.fontes, aba:"politica"});
+    (ed.politica||[]).forEach(function(a,i){ L.push({id:pre+"politica-"+(i+1), secao:a.secao, titulo:a.titulo, fina:a.linhaFina, img:a.imagem, graf:a.grafico, texto:(a.texto&&a.texto.length?a.texto:[a.resumo]), fontes:a.fontes, aba:"politica"}); });
+    (ed.destaques||[]).forEach(function(a,i){ L.push({id:pre+"destaque-"+(i+1), secao:a.secao, titulo:a.titulo, fina:a.linhaFina, img:a.imagem, graf:a.grafico, texto:(a.texto&&a.texto.length?a.texto:[a.resumo]), fontes:a.fontes, aba:"economia"}); });
+    (ed.mundo||[]).forEach(function(a,i){ L.push({id:pre+"mundo-"+(i+1), secao:a.secao, titulo:a.titulo, fina:a.linhaFina, img:a.imagem, graf:a.grafico, texto:(a.texto&&a.texto.length?a.texto:[a.resumo]), fontes:a.fontes, aba:"mundo"}); });
+    (ed.cultura||[]).forEach(function(a,i){ L.push({id:pre+"cultura-"+(i+1), secao:a.secao, titulo:a.titulo, fina:a.linhaFina, img:a.imagem, graf:a.grafico, texto:(a.texto&&a.texto.length?a.texto:[a.resumo]), fontes:a.fontes, aba:"cultura"}); });
     L.push({id:pre+"editorial", chave:"editorial", secao:"Editorial", titulo:e.titulo, texto:e.texto, aba:"opiniao", editorial:true});
     return L;
   }
@@ -329,7 +418,7 @@ window.addEventListener("hashchange",function(){if(window.goatcounter&&window.go
   function nav(ed, ativa){
     var itens = [["capa","Capa",ed?linkCapa(ed):"#hoje"]];
     Object.keys(SECOES).forEach(function(k){ if(k==="cultura" && !(ed && ed.cultura && ed.cultura.length)) return; itens.push([k, SECOES[k].nome, ed?linkSecao(ed,k):"#"+k]); });
-    itens.push(["arquivo","Arquivo","#arquivo"],["criterios","Critérios","#criterios"]);
+    itens.push(["arquivo","Arquivo","#arquivo"],["criterios","Critérios","#criterios"],["como-fazemos","Como fazemos","#como-fazemos"]);
     document.getElementById("menu").innerHTML = itens.map(function(i){
       return '<a href="'+i[2]+'" class="'+(i[0]==="opiniao"?"opiniao ":"")+(i[0]===ativa?"ativa":"")+'">'+i[1]+'</a>';
     }).join("");
@@ -361,18 +450,19 @@ window.addEventListener("hashchange",function(){if(window.goatcounter&&window.go
     topo(ed); nav(ed, "capa");
     var A = artigos(ed), byId = {}; A.forEach(function(a){ byId[a.id] = a; });
     var pre = "ed-"+ed.data+"-", m = ed.manchete, e = ed.editorial;
-    var h = aviso(ed) + indicadores(ed);
+    var h = aviso(ed) + '<div id="urgente"></div>' + indicadores(ed);
     h += '<section class="capa">';
     h += '<div class="col">' + (ed.destaques||[]).map(function(x, i){
       var id = pre + "destaque-" + (i+1);
-      return '<article class="destaque"><p class="kicker azul">'+esc(x.secao)+'</p><h2><a href="#'+id+'">'+esc(x.titulo)+'</a></h2><p>'+esc(x.resumo)+'</p>'+fontes(x.fontes)+'</article>';
+      return '<article class="destaque"><p class="kicker azul">'+esc(x.secao)+'</p><h2><a href="#'+id+'">'+esc(x.titulo)+'</a></h2><p>'+esc(x.resumo)+'</p>'+grafico(x.grafico, true)+fontes(x.fontes)+'</article>';
     }).join("") + '<a class="mais-secao" href="'+linkSecao(ed,"economia")+'">Mais em Economia →</a></div>';
     h += '<div class="col centro"><article class="manchete"><p class="kicker">'+esc(m.secao)+'</p><h1><a href="#'+pre+'manchete">'+esc(m.titulo)+'</a></h1><p class="fina">'+esc(m.linhaFina)+'</p><p class="assinatura">Da redação · '+esc(ed.dataExtenso)+'</p><div class="texto">'+
-         ps(m.texto.slice(0,3)) + '</div>' + (m.texto.length>3?'<p class="leia"><a href="#'+pre+'manchete">Leia a matéria completa →</a></p>':'') + fontes(m.fontes) + share(pre+"manchete", m.titulo) + '</article></div>';
+         ps(m.texto.slice(0,3)) + '</div>' + grafico(m.grafico) + (m.texto.length>3?'<p class="leia"><a href="#'+pre+'manchete">Leia a matéria completa →</a></p>':'') + fontes(m.fontes) + share(pre+"manchete", m.titulo) + '</article></div>';
     var resumoEd = e.texto[0];
     h += '<div class="col"><aside class="editorial"><div class="selo"><span>Editorial</span><em>Opinião do jornal</em></div><h2><a href="#'+pre+'editorial">'+esc(e.titulo)+'</a></h2><p>'+esc(resumoEd)+'</p>'+
          '<a class="leia" href="#'+pre+'editorial">Ler o editorial completo →</a></aside><div id="chamada-coluna"></div></div>';
     h += '</section>';
+    h += '<div id="ultimas-capa"></div>';
     if(ed.politica && ed.politica.length){
       h += '<section class="secao"><h3><a href="'+linkSecao(ed,"politica")+'">Brasília →</a> <small>Congresso, STF e partidos</small></h3><div class="grade4">' + ed.politica.map(function(a, i){
         var id = pre + "politica-" + (i+1);
@@ -395,6 +485,13 @@ window.addEventListener("hashchange",function(){if(window.goatcounter&&window.go
     h += '<div class="baixar-pdf"><a href="pdf/'+ed.data+'.pdf" download>⬇ Baixar a edição impressa (PDF com 8 páginas para imprimir, dobrar e grampear)</a></div>';
     h += '<div class="ver-arquivo"><a href="#arquivo">Ver todas as edições anteriores →</a></div>';
     document.getElementById("conteudo").innerHTML = h;
+    getUltimas(ed.data).then(function(lista){
+      if(!lista.length) return;
+      var L = ultimasArtigos(ed, lista), el = document.getElementById("ultimas-capa"), urg = document.getElementById("urgente");
+      if(el) el.innerHTML = '<section class="secao"><h3><a href="'+linkSecao(ed,"ultimas")+'">Ao longo do dia →</a> <small>Publicado depois da edição da manhã</small></h3>'+ultimasListaHTML(L.slice(0,6))+'</section>';
+      var u = L.filter(function(x){ return x.urgente; })[0];
+      if(u && urg && ed.data === hoje) urg.innerHTML = '<a class="urgente" href="#'+u.id+'"><b>Urgente</b><span>'+esc(u.hora)+' · '+esc(u.titulo)+'</span></a>';
+    });
     getColunas().then(function(l){
       if(!l.length) return;
       var c = l[0], el = document.getElementById("chamada-coluna"); if(!el) return;
@@ -423,6 +520,15 @@ window.addEventListener("hashchange",function(){if(window.goatcounter&&window.go
       return;
     }
     if(aba === "contexto"){ h += contextoHTML(ed); document.getElementById("conteudo").innerHTML = h; return; }
+    if(aba === "ultimas"){
+      h += '<section class="secao"><div id="lista-ult"><p class="em-breve">Carregando…</p></div></section>';
+      document.getElementById("conteudo").innerHTML = h;
+      getUltimas(ed.data).then(function(lista){
+        var el = document.getElementById("lista-ult"); if(!el) return;
+        el.innerHTML = lista.length ? ultimasListaHTML(ultimasArtigos(ed, lista)) : '<p class="em-breve">Ainda não há atualizações neste dia. Elas saem por volta do meio-dia e das 19h.</p>';
+      });
+      return;
+    }
     h += '<div class="grade-secao">' + A.map(function(a, i){ return cartao(a, i === 0 && a.chave === "manchete"); }).join("") + '</div>';
     if(aba === "politica") h += contextoHTML(ed);
     document.getElementById("conteudo").innerHTML = h;
@@ -436,9 +542,9 @@ window.addEventListener("hashchange",function(){if(window.goatcounter&&window.go
     h += '<p class="migalha"><a href="'+linkCapa(ed)+'">Capa</a> › <a href="'+linkSecao(ed,a.aba)+'">'+SECOES[a.aba].nome+'</a></p>';
     h += a.editorial ? '<div class="selo"><span>Editorial</span><em>Opinião do jornal</em></div>' : '<p class="kicker">'+esc(a.secao)+'</p>';
     h += '<h1>'+esc(a.titulo)+'</h1>' + (a.fina ? '<p class="fina">'+esc(a.fina)+'</p>' : '');
-    h += '<p class="assinatura">'+(a.editorial?"Editorial":"Da redação")+' · '+esc(ed.dataExtenso)+'</p>';
+    h += '<p class="assinatura">'+(a.editorial?"Editorial":"Da redação")+' · '+esc(ed.dataExtenso)+(a.hora?' · Publicado às '+esc(a.hora):'')+'</p>';
     if(a.img && a.img.arquivo) h += '<figure class="foto"><img src="'+esc(a.img.arquivo)+'" alt="'+esc(a.img.legenda||a.titulo)+'" loading="lazy"><figcaption>'+esc(a.img.legenda||"")+(a.img.credito?' <span>'+esc(a.img.credito)+'</span>':'')+'</figcaption></figure>';
-    h += '<div class="corpo">'+ps(a.texto)+'</div>';
+    h += grafico(a.graf) + '<div class="corpo">'+ps(a.texto)+'</div>';
     if(a.editorial) h += '<p class="nota">Este texto expressa a posição editorial de A Nevasca.</p>';
     h += fontes(a.fontes) + share(a.id, (a.editorial?"Editorial: ":"")+a.titulo) + comente(a.id) + '</article>';
     var outras = artigos(ed).filter(function(x){ return x.id !== a.id; });
@@ -517,6 +623,24 @@ window.addEventListener("hashchange",function(){if(window.goatcounter&&window.go
   }
 
 
+  function paginaComoFazemos(){
+    document.title = "A Nevasca — Como fazemos";
+    document.getElementById("topo-data").innerHTML = "<strong>Como fazemos A Nevasca</strong>";
+    document.getElementById("topo-atual").textContent = ""; document.getElementById("ed-num").textContent = "";
+    var sec = function(t, corpo){ return '<section class="crit-bloco"><h2>'+t+'</h2>'+corpo+'</section>'; };
+    var h = '<article class="criterios como"><p class="kicker">Curadoria</p><h1>Como fazemos A Nevasca</h1>'+
+      '<p class="destaque-frase">A gente lê tudo. Você lê o essencial.</p>'+
+      '<p class="fina">A Nevasca é um jornal de curadoria: lemos os principais veículos do Brasil e do mundo, conferimos os fatos e entregamos o essencial do dia, com as fontes.</p>';
+    h += sec("Por que este jornal existe", '<p>A Nevasca nasceu de uma necessidade simples: ninguém tem tempo de ler dez jornais por dia, assistir a vários canais e ainda separar o fato da opinião. O editor, Junior Neves, começou a reunir as notícias do dia para se manter bem informado, e decidiu abrir esse trabalho para todo mundo. Você não precisa procurar onde ler nem quem ouvir: o trabalho de pesquisa já foi feito, e o resultado está aqui.</p>');
+    h += sec("O que é curadoria", '<p>Curadoria não é copiar matéria. Cada texto de A Nevasca é escrito do zero, depois de lermos a mesma notícia em vários veículos. Juntamos os números, as datas, o que cada lado disse e o que acontece em seguida, num texto só. Assim, você não fica com a versão de um único jornal: recebe o fato conferido em várias fontes, com os links para checar cada uma.</p>');
+    h += sec("Como funciona no dia a dia", '<ol><li><strong>Edição da manhã.</strong> Todos os dias, bem cedo, sai a edição completa: manchete, economia, Brasília, mundo, cultura, editorial e a edição impressa em PDF.</li><li><strong>Ao longo do dia.</strong> Por volta do meio-dia e das 19h, publicamos matérias novas sobre o que aconteceu depois da edição da manhã. Cada uma traz o horário de publicação. O que já foi publicado não é reescrito: se um assunto avança, sai uma matéria nova contando o desdobramento.</li><li><strong>Checagem cruzada.</strong> Cada fato é conferido em pelo menos dois veículos diferentes, de preferência três, antes de ser publicado.</li><li><strong>Fontes à vista.</strong> Toda matéria termina com os nomes e os links dos veículos usados.</li><li><strong>Gráficos com os números do dia.</strong> Quando a notícia tem números, como o dólar, uma votação ou uma pesquisa, desenhamos o gráfico com os dados das fontes citadas, para você entender de relance.</li></ol>');
+    h += sec("Feito com inteligência artificial, com regras de gente", '<p>Não escondemos: A Nevasca é feita com a ajuda de inteligência artificial, que lê os veículos, organiza as informações e redige os textos. Mas quem manda são as regras. Elas estão na página <a href="#criterios">Nossos critérios</a>: checagem em mais de um veículo, fontes sempre citadas, nada de boato, notícia separada de opinião e correção pública quando erramos.</p><p>O editor responsável, Junior Neves, define as pautas, a linha editorial e os critérios, acompanha as edições e responde pelo conteúdo. A opinião do jornal fica só no <strong>Editorial</strong>, e a coluna <em>O Doido Sensato</em> é escrita por ele.</p>');
+    h += sec("Ajude A Nevasca a chegar mais longe", '<p>Gostou? Compartilhe as matérias no WhatsApp e no X: todo texto tem os botões de compartilhar. Viu algum erro ou tem uma sugestão de pauta? Escreva para <strong>redacaoanevasca@gmail.com</strong> ou fale com a gente em <a href="https://x.com/anevasca_br" target="_blank" rel="noopener">@anevasca_br</a>.</p>');
+    h += '<p class="crit-voltar"><a href="#hoje">← Voltar para a edição de hoje</a></p></article>';
+    document.getElementById("conteudo").innerHTML = h;
+    window.scrollTo(0,0);
+  }
+
   function paginaCriterios(){
     document.title = "A Nevasca — Nossos critérios";
     document.getElementById("topo-data").innerHTML = "<strong>Nossos critérios</strong>";
@@ -528,7 +652,7 @@ window.addEventListener("hashchange",function(){if(window.goatcounter&&window.go
     h += sec("Como escolhemos as notícias", '<ol><li><strong>Relevância do dia.</strong> A manchete é o fato político mais importante do Brasil nas últimas 24 horas.</li><li><strong>Cobertura completa.</strong> Toda edição passa por Câmara, Senado, STF, partidos e oposição, Planalto, economia, segurança, família, educação, liberdade religiosa e mundo.</li><li><strong>Atualidade.</strong> Publicamos fatos recentes. Quando um fato mais antigo ajuda a entender o dia, ele aparece como contexto e com a data.</li></ol>');
     h += sec("De onde vêm as informações", '<ol><li><strong>Referências de pauta:</strong> a <em>Revista Oeste</em> e a <em>Gazeta do Povo</em> orientam prioritariamente a escolha das manchetes e dos temas do dia.</li><li><strong>Fontes oficiais:</strong> Agência Câmara, Agência Senado, portal do STF, Diário Oficial, Banco Central e IBGE.</li><li><strong>Grandes veículos nacionais:</strong> Folha, Estadão, O Globo, Metrópoles, CNN Brasil e Poder360, entre outros.</li><li><strong>Internacional:</strong> Reuters, AP e grandes jornais estrangeiros.</li></ol><p><strong>Checagem cruzada:</strong> cada matéria é apurada em pelo menos dois veículos diferentes, de preferência três, antes de ser publicada.</p><p>Toda notícia traz o nome do veículo e o link da matéria original, para que o leitor confira. Quando um fato aparece em um único veículo, dizemos isso no texto (“segundo a Gazeta do Povo…”). Não publicamos boato, print sem origem nem vídeo sem contexto.</p>');
     h += sec("Notícia é notícia, opinião é opinião", '<p>As notícias relatam fatos, com títulos informativos e sem adjetivos de torcida. Declarações de políticos aparecem como declarações: quem disse, onde e quando. A opinião do jornal fica no <strong>Editorial</strong>, sempre identificado com o selo vermelho. Textos assinados, quando houver, expressam a opinião de quem assina.</p>');
-    h += sec("Uso de inteligência artificial", '<p>A edição é preparada todas as manhãs com auxílio de inteligência artificial, que pesquisa, organiza e redige os textos com base nas fontes citadas. O editor responsável, Junior Neves, revisa o conteúdo e responde por ele.</p>');
+    h += sec("Uso de inteligência artificial", '<p>A edição da manhã e as matérias publicadas ao longo do dia são preparadas com auxílio de inteligência artificial, que pesquisa, organiza e redige os textos com base nas fontes citadas. O editor responsável, Junior Neves, define as pautas e os critérios e responde pelo conteúdo. Veja mais em <a href="#como-fazemos">Como fazemos A Nevasca</a>.</p>');
     h += sec("Quando erramos", '<p>Errou, corrige e avisa. Se uma informação estiver errada, a matéria é corrigida e recebe uma nota de <strong>Correção</strong> explicando o que mudou. Não apagamos erros em silêncio. Encontrou algum problema? Escreva para <strong>redacaoanevasca@gmail.com</strong>, de preferência com o link da matéria.</p><p>Quem se sentir ofendido ou citado de forma incorreta tem direito de resposta, nos termos da Lei 13.188/2015. Pedidos de resposta também devem ser enviados para redacaoanevasca@gmail.com.</p>');
     h += sec("Fale com a redação", '<p>Sugestões de pauta, correções, críticas e pedidos de direito de resposta: <strong>redacaoanevasca@gmail.com</strong> ou pelo X, em <a href="https://x.com/anevasca_br" target="_blank" rel="noopener">@anevasca_br</a>. Todas as mensagens são lidas pelo editor responsável.</p>');
     h += '<p class="crit-voltar"><a href="#hoje">← Voltar para a edição de hoje</a></p></article>';
@@ -542,6 +666,7 @@ window.addEventListener("hashchange",function(){if(window.goatcounter&&window.go
     getArquivo().catch(function(){}).then(function(){
       if(hash === "arquivo"){ nav(null, "arquivo"); rodapeArquivo(null); paginaArquivo(); return; }
       if(hash === "criterios"){ nav(null, "criterios"); rodapeArquivo(null); paginaCriterios(); return; }
+      if(hash === "como-fazemos"){ nav(null, "como-fazemos"); rodapeArquivo(null); paginaComoFazemos(); return; }
       if(hash.indexOf("coluna-") === 0){
         return getColunas().then(function(l){
           var c = l.filter(function(x){ return "coluna-"+x.id === hash; })[0];
@@ -554,6 +679,13 @@ window.addEventListener("hashchange",function(){if(window.goatcounter&&window.go
       return carregar(data).then(function(ed){
         rodapeArquivo(ed.data);
         if(resto && resto.indexOf("sec-") === 0 && SECOES[resto.slice(4)]){ secao(ed, resto.slice(4)); }
+        else if(resto && resto.indexOf("ultima-") === 0){
+          return getUltimas(ed.data).then(function(lista){
+            var u = ultimasArtigos(ed, lista).filter(function(x){ return x.id === "ed-"+ed.data+"-"+resto; })[0];
+            if(u) materia(ed, u); else capa(ed);
+            window.scrollTo(0,0);
+          });
+        }
         else if(resto){
           var a = artigos(ed).filter(function(x){ return x.id === "ed-"+ed.data+"-"+resto; })[0];
           if(a) materia(ed, a); else capa(ed);

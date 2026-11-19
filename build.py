@@ -1,8 +1,8 @@
 """Gera as páginas de compartilhamento (m/*.html) e o sitemap.xml de A Nevasca.
 
-Cada matéria, editorial e coluna ganha uma página curta com título, resumo e
+Cada matéria (da edição e das publicadas ao longo do dia), editorial e coluna ganha uma página curta com título, resumo e
 imagem para a prévia do WhatsApp/Facebook/X, que leva o leitor à página
-completa no site. Rode depois de atualizar edicao.json, edicoes/ ou colunas.json:
+completa no site. Rode depois de atualizar edicao.json, edicoes/, ultimas/ ou colunas.json:
 
     python3 build.py
 """
@@ -66,6 +66,15 @@ def main():
             pid, t, d = item[:3]
             img = item[3] if len(item) > 3 else None
             open(f"m/{pid}.html", "w", encoding="utf-8").write(pagina(pid, t, d, img))
+            urls.append(f"{BASE}/m/{pid}.html"); n += 1
+    # Matérias publicadas ao longo do dia: ultimas/AAAA-MM-DD.json (lista em ordem de publicação)
+    for f in sorted(glob.glob("ultimas/*.json")):
+        data = os.path.basename(f)[:-5]
+        for i, u in enumerate(json.load(open(f, encoding="utf-8")), 1):
+            pid = f"ed-{data}-ultima-{i}"
+            d = u.get("resumo") or u.get("linhaFina") or (u.get("texto") or [""])[0]
+            img = (u.get("imagem") or {}).get("arquivo")
+            open(f"m/{pid}.html", "w", encoding="utf-8").write(pagina(pid, u["titulo"], d, img))
             urls.append(f"{BASE}/m/{pid}.html"); n += 1
     if os.path.exists("colunas.json"):
         for c in json.load(open("colunas.json", encoding="utf-8")):
