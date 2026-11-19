@@ -28,11 +28,11 @@ def artigos(ed):
     for i, a in enumerate(ed.get("mundo", []), 1):
         yield f"{pre}mundo-{i}", a["titulo"], a["resumo"]
     for i, a in enumerate(ed.get("cultura", []), 1):
-        yield f"{pre}cultura-{i}", a["titulo"], a["resumo"]
+        yield f"{pre}cultura-{i}", a["titulo"], a["resumo"], (a.get("imagem") or {}).get("arquivo")
     yield pre + "editorial", "Editorial: " + ed_["titulo"], ed_["texto"][0]
 
 
-def pagina(pid, titulo, desc):
+def pagina(pid, titulo, desc, img=None):
     destino = f"{BASE}/#{pid}"
     url = f"{BASE}/m/{pid}.html"
     return f"""<!DOCTYPE html>
@@ -44,7 +44,7 @@ def pagina(pid, titulo, desc):
 <meta property="og:site_name" content="A Nevasca">
 <meta property="og:title" content="{e(titulo)}">
 <meta property="og:description" content="{e(resumo(desc))}">
-<meta property="og:image" content="{BASE}/og.png">
+<meta property="og:image" content="{BASE}/{img or 'og.png'}">
 <meta property="og:url" content="{url}">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="{destino}">
@@ -62,8 +62,10 @@ def main():
     n = 0
     for f in sorted(glob.glob("edicoes/*.json")):
         ed = json.load(open(f, encoding="utf-8"))
-        for pid, t, d in artigos(ed):
-            open(f"m/{pid}.html", "w", encoding="utf-8").write(pagina(pid, t, d))
+        for item in artigos(ed):
+            pid, t, d = item[:3]
+            img = item[3] if len(item) > 3 else None
+            open(f"m/{pid}.html", "w", encoding="utf-8").write(pagina(pid, t, d, img))
             urls.append(f"{BASE}/m/{pid}.html"); n += 1
     if os.path.exists("colunas.json"):
         for c in json.load(open("colunas.json", encoding="utf-8")):
