@@ -252,6 +252,7 @@
         <h5>Expediente</h5>
         <p><strong>Editor responsável:</strong> Junior Neves</p>
         <p><strong>Fale com a redação:</strong><br><a href="mailto:redacaoanevasca@gmail.com" style="color:var(--azul)">redacaoanevasca@gmail.com</a></p>
+        <p><strong>Siga no X:</strong><br><a href="https://x.com/anevasca_br" target="_blank" rel="noopener" style="color:var(--azul)">@anevasca_br</a></p>
         <p><a href="#criterios" style="color:var(--azul);font-weight:700">Nossos critérios e política de correções →</a></p>
         <h5 style="margin-top:14px">Como é feito</h5>
         <p>A edição é preparada todas as manhãs com auxílio de inteligência artificial, a partir de veículos de imprensa brasileiros e internacionais, e passa pela revisão do editor. Toda notícia traz a referência e o link da fonte original, para que o leitor possa conferir.</p>
@@ -287,7 +288,7 @@
     var txt = titulo + " — A Nevasca";
     return '<div class="share" data-url="'+esc(url)+'"><span>Compartilhar:</span>'+
       '<a href="https://wa.me/?text='+encodeURIComponent(txt+"\n"+url)+'" target="_blank" rel="noopener">WhatsApp</a>'+
-      '<a href="https://twitter.com/intent/tweet?text='+encodeURIComponent(txt)+'&url='+encodeURIComponent(url)+'" target="_blank" rel="noopener">X</a>'+
+      '<a href="https://twitter.com/intent/tweet?text='+encodeURIComponent(txt)+'&url='+encodeURIComponent(url)+'&via=anevasca_br" target="_blank" rel="noopener">X</a>'+
       '<a href="https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(url)+'" target="_blank" rel="noopener">Facebook</a>'+
       '<button type="button" class="copiar">Copiar link</button>'+
       '<input class="link-manual" readonly value="'+esc(url)+'" hidden></div>';
@@ -508,7 +509,7 @@
     h += sec("Notícia é notícia, opinião é opinião", '<p>As notícias relatam fatos, com títulos informativos e sem adjetivos de torcida. Declarações de políticos aparecem como declarações: quem disse, onde e quando. A opinião do jornal fica no <strong>Editorial</strong>, sempre identificado com o selo vermelho. Textos assinados, quando houver, expressam a opinião de quem assina.</p>');
     h += sec("Uso de inteligência artificial", '<p>A edição é preparada todas as manhãs com auxílio de inteligência artificial, que pesquisa, organiza e redige os textos com base nas fontes citadas. O editor responsável, Junior Neves, revisa o conteúdo e responde por ele.</p>');
     h += sec("Quando erramos", '<p>Errou, corrige e avisa. Se uma informação estiver errada, a matéria é corrigida e recebe uma nota de <strong>Correção</strong> explicando o que mudou. Não apagamos erros em silêncio. Encontrou algum problema? Escreva para <strong>redacaoanevasca@gmail.com</strong>, de preferência com o link da matéria.</p><p>Quem se sentir ofendido ou citado de forma incorreta tem direito de resposta, nos termos da Lei 13.188/2015. Pedidos de resposta também devem ser enviados para redacaoanevasca@gmail.com.</p>');
-    h += sec("Fale com a redação", '<p>Sugestões de pauta, correções, críticas e pedidos de direito de resposta: <strong>redacaoanevasca@gmail.com</strong>. Todas as mensagens são lidas pelo editor responsável.</p>');
+    h += sec("Fale com a redação", '<p>Sugestões de pauta, correções, críticas e pedidos de direito de resposta: <strong>redacaoanevasca@gmail.com</strong> ou pelo X, em <a href="https://x.com/anevasca_br" target="_blank" rel="noopener">@anevasca_br</a>. Todas as mensagens são lidas pelo editor responsável.</p>');
     h += '<p class="crit-voltar"><a href="#hoje">← Voltar para a edição de hoje</a></p></article>';
     document.getElementById("conteudo").innerHTML = h;
     window.scrollTo(0,0);
