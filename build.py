@@ -49,7 +49,7 @@ def pagina(pid, titulo, desc, img=None):
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="{destino}">
 <meta http-equiv="refresh" content="0; url={destino}">
-<script>location.replace({json.dumps(destino)});</script>
+<script>(function(){{var r="";try{{r=document.referrer?new URL(document.referrer).hostname:""}}catch(e){{}}location.replace({json.dumps(BASE + "/")}+(r?"?ref="+encodeURIComponent(r):"")+{json.dumps("#" + pid)});}})();</script>
 </head><body style="font-family:Georgia,serif;max-width:640px;margin:40px auto;padding:0 16px">
 <p><a href="{destino}">{e(titulo)}</a> — A Nevasca</p>
 </body></html>
