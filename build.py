@@ -27,6 +27,8 @@ def artigos(ed):
         yield f"{pre}destaque-{i}", a["titulo"], a["resumo"]
     for i, a in enumerate(ed.get("mundo", []), 1):
         yield f"{pre}mundo-{i}", a["titulo"], a["resumo"]
+    for i, a in enumerate(ed.get("cultura", []), 1):
+        yield f"{pre}cultura-{i}", a["titulo"], a["resumo"]
     yield pre + "editorial", "Editorial: " + ed_["titulo"], ed_["texto"][0]
 
 

@@ -279,6 +279,7 @@
     politica:{nome:"Política", sub:"Brasília: Congresso, STF, partidos e Planalto"},
     economia:{nome:"Economia", sub:"Juros, contas públicas e o seu bolso"},
     mundo:{nome:"Mundo", sub:"O que mexe com o Ocidente"},
+    cultura:{nome:"Cultura & Games", sub:"Games, filmes, séries, música e livros"},
     opiniao:{nome:"Opinião", sub:"A posição editorial de A Nevasca"},
     contexto:{nome:"Contexto", sub:"Para entender o dia e as notas breves"}
   };
@@ -305,6 +306,7 @@
     (ed.politica||[]).forEach(function(a,i){ L.push({id:pre+"politica-"+(i+1), secao:a.secao, titulo:a.titulo, fina:a.linhaFina, texto:(a.texto&&a.texto.length?a.texto:[a.resumo]), fontes:a.fontes, aba:"politica"}); });
     (ed.destaques||[]).forEach(function(a,i){ L.push({id:pre+"destaque-"+(i+1), secao:a.secao, titulo:a.titulo, fina:a.linhaFina, texto:(a.texto&&a.texto.length?a.texto:[a.resumo]), fontes:a.fontes, aba:"economia"}); });
     (ed.mundo||[]).forEach(function(a,i){ L.push({id:pre+"mundo-"+(i+1), secao:a.secao, titulo:a.titulo, fina:a.linhaFina, texto:(a.texto&&a.texto.length?a.texto:[a.resumo]), fontes:a.fontes, aba:"mundo"}); });
+    (ed.cultura||[]).forEach(function(a,i){ L.push({id:pre+"cultura-"+(i+1), secao:a.secao, titulo:a.titulo, fina:a.linhaFina, texto:(a.texto&&a.texto.length?a.texto:[a.resumo]), fontes:a.fontes, aba:"cultura"}); });
     L.push({id:pre+"editorial", chave:"editorial", secao:"Editorial", titulo:e.titulo, texto:e.texto, aba:"opiniao", editorial:true});
     return L;
   }
@@ -319,7 +321,7 @@
   }
   function nav(ed, ativa){
     var itens = [["capa","Capa",ed?linkCapa(ed):"#hoje"]];
-    Object.keys(SECOES).forEach(function(k){ itens.push([k, SECOES[k].nome, ed?linkSecao(ed,k):"#"+k]); });
+    Object.keys(SECOES).forEach(function(k){ if(k==="cultura" && !(ed && ed.cultura && ed.cultura.length)) return; itens.push([k, SECOES[k].nome, ed?linkSecao(ed,k):"#"+k]); });
     itens.push(["arquivo","Arquivo","#arquivo"],["criterios","Critérios","#criterios"]);
     document.getElementById("menu").innerHTML = itens.map(function(i){
       return '<a href="'+i[2]+'" class="'+(i[0]==="opiniao"?"opiniao ":"")+(i[0]===ativa?"ativa":"")+'">'+i[1]+'</a>';
@@ -373,6 +375,12 @@
     if(ed.mundo && ed.mundo.length){
       h += '<section class="secao"><h3><a href="'+linkSecao(ed,"mundo")+'">Mundo →</a> <small>O que mexe com o Ocidente</small></h3><div class="grade4">' + ed.mundo.map(function(a, i){
         var id = pre + "mundo-" + (i+1);
+        return '<article><p class="kicker azul">'+esc(a.secao)+'</p><h4><a href="#'+id+'">'+esc(a.titulo)+'</a></h4><p>'+esc(a.resumo)+'</p></article>';
+      }).join("") + '</div></section>';
+    }
+    if(ed.cultura && ed.cultura.length){
+      h += '<section class="secao"><h3><a href="'+linkSecao(ed,"cultura")+'">Cultura &amp; Games →</a> <small>Games, filmes, séries, música e livros</small></h3><div class="grade4">' + ed.cultura.map(function(a, i){
+        var id = pre + "cultura-" + (i+1);
         return '<article><p class="kicker azul">'+esc(a.secao)+'</p><h4><a href="#'+id+'">'+esc(a.titulo)+'</a></h4><p>'+esc(a.resumo)+'</p></article>';
       }).join("") + '</div></section>';
     }
