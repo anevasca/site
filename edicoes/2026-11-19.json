@@ -1,0 +1,594 @@
+{
+  "data": "2026-11-19",
+  "dataExtenso": "Quinta-feira, 19 de novembro de 2026",
+  "numero": 2,
+  "atualizadoEm": "19/11/2026, 7h45 (Brasília)",
+  "indicadores": [
+    {
+      "rotulo": "Dólar",
+      "valor": "R$ 5,87",
+      "nota": "maior cotação em 19 meses (18/nov)"
+    },
+    {
+      "rotulo": "Ibovespa",
+      "valor": "167.537 pts",
+      "nota": "queda de 1,34% em 18/nov"
+    },
+    {
+      "rotulo": "Selic",
+      "valor": "13,75%",
+      "nota": "mantida pelo Copom em 4/nov"
+    },
+    {
+      "rotulo": "IPO da Anthropic",
+      "valor": "US$ 83",
+      "nota": "por ação; estreia hoje na Nasdaq"
+    }
+  ],
+  "manchete": {
+    "secao": "Câmara",
+    "titulo": "Novo pressiona Valdemar a oficializar candidato do PL à Câmara; Chiquini diz que apoia Luiz Philippe se o partido bancar o nome",
+    "linhaFina": "Em vídeo, o deputado eleito afirma que o Novo não está contra o PL e ajuda a cobrar uma decisão; a consulta do partido aos 121 deputados vai até o fim do mês.",
+    "texto": [
+      "O deputado federal eleito Jeffrey Chiquini (Novo-PR) publicou na noite de quarta-feira (18) um vídeo no X em que cobra do PL a oficialização de um candidato à presidência da Câmara. Ele afirmou que o Novo se reuniu com lideranças do PL para ajudar a compor um nome e que apoiaria Luiz Philippe de Orléans e Bragança (PL-SP), junto com o PL, caso o partido oficialize a candidatura dele. Segundo Chiquini, o Novo não está em lado oposto ao PL e ajuda a pressionar o presidente da legenda, Valdemar Costa Neto. Até o fechamento desta edição, o vídeo não havia sido repercutido pela imprensa.",
+      "No vídeo, Chiquini disse que Luiz Philippe declarou a candidatura antes de qualquer anúncio oficial do PL — na prática, uma candidatura avulsa — e que seria desrespeito o Novo apoiá-la antes de o próprio partido decidir. Ele descartou lançar o próprio nome por causa da grande rejeição que enfrenta no Centrão. Não é a primeira cobrança: em vídeo do dia 12, criticou Valdemar por priorizar cargos na Câmara e chamou de “inadmissível” a reeleição de Hugo Motta (Republicanos-PB), segundo a RIC.",
+      "A pressão vem de vários lados. Na quarta, o líder da oposição, Cabo Gilberto Silva (PL-PB), defendeu a construção de um candidato único, e o presidente do Novo, Eduardo Ribeiro, disse que o partido está aberto a apoiar o nome de maior consenso, segundo O Antagonista. Nikolas Ferreira (PL-MG) já afirmou que deixa o PL se o partido apoiar Motta.",
+      "O PL, maior bancada da próxima legislatura, com 121 deputados, ainda não oficializou nome. Segundo o Estadão, Valdemar busca aliança com Motta e, sem consenso, o partido consulta individualmente os deputados, com conclusão prevista para novembro. Na quarta, Valdemar chamou de “loucura” a ideia de candidatura de Nikolas, de 30 anos, e depois recuou em nota, dizendo que falava apenas do requisito de idade.",
+      "O cenário inclui o candidato do próprio Novo. Na tarde de quarta, o partido oficializou a candidatura do deputado eleito Paulo Martins (PR), que disse que a Câmara “está no chão” e negou divisão da oposição. Nem o Novo nem Chiquini explicaram publicamente como a posição do vídeo se combina com a candidatura de Martins; Ribeiro afirmou que o partido não descarta retirar o nome próprio se outro reunir mais apoio. Por volta das 21h, Marcel van Hattem (Novo-RS) publicou no X: “Para vencer Hugo Motta, agora é Paulo Martins neles!!!”. Zé Trovão (PL-SC) também articula candidatura.",
+      "A conta é difícil para a direita. Motta tem o apoio de 15 partidos, que somam 361 deputados eleitos, incluindo a federação PT-PCdoB-PV, segundo o ND Mais e o Estadão. Para vencer no primeiro turno são necessários 257 dos 513 votos; se ninguém chegar lá, há segundo turno, explica o Congresso em Foco. O voto é secreto, e apoio formal de partido não garante voto.",
+      "A eleição será em 1º de fevereiro de 2027. O próximo passo é o resultado da consulta do PL, que pode oficializar Luiz Philippe ou outro nome, ou apoiar a reeleição de Motta."
+    ],
+    "fontes": [
+      {
+        "nome": "Jeffrey Chiquini, vídeo no X",
+        "url": "https://x.com/JeffreyChiquini/status/2123161137432625559"
+      },
+      {
+        "nome": "Metrópoles",
+        "url": "https://www.metropoles.com/brasil/novo-oficializa-candidatura-de-paulo-martins-a-presidencia-da-camara"
+      },
+      {
+        "nome": "RIC",
+        "url": "https://ric.com.br/politica/chiquini-diz-que-valdemar-nao-de-preocupa-em-soltar-bolsonaro/"
+      },
+      {
+        "nome": "CNN Brasil",
+        "url": "https://www.cnnbrasil.com.br/politica/novo-formaliza-candidatura-de-paulo-martins-a-presidencia-da-camara/"
+      },
+      {
+        "nome": "Congresso em Foco",
+        "url": "https://www.congressoemfoco.com.br/noticia/131704/novo-lanca-paulo-martins-como-nome-da-oposicao-a-presidencia-da-camara"
+      },
+      {
+        "nome": "ND Mais",
+        "url": "https://ndmais.com.br/politica/novo-lanca-paulo-martins-e-oposicao-cobra-mudanca-na-conducao-da-camara/"
+      },
+      {
+        "nome": "O Antagonista",
+        "url": "https://oantagonista.com.br/brasil/novo-lanca-candidato-a-camara-e-diz-querer-unir-direita/"
+      },
+      {
+        "nome": "CNN Brasil (Valdemar)",
+        "url": "https://www.cnnbrasil.com.br/politica/valdemar-recua-apos-criticar-candidatura-de-nikolas-a-presidencia-da-camara/"
+      },
+      {
+        "nome": "Gazeta do Povo (Valdemar)",
+        "url": "https://www.gazetadopovo.com.br/republica/valdemar-recua-apos-chamar-candidatura-de-nikolas-a-presidencia-da-camara-de-loucura/"
+      },
+      {
+        "nome": "Estadão (via Terra)",
+        "url": "https://www.terra.com.br/noticias/brasil/politica/valdemar-costa-neto-diz-que-candidatura-de-nikolas-a-presidencia-da-camara-e-loucura,3f35d6062f2247800d62c27a461eca26jrytu5sp.html"
+      },
+      {
+        "nome": "Gazeta do Povo (Luiz Philippe)",
+        "url": "https://www.gazetadopovo.com.br/republica/deputado-do-pl-lanca-candidatura-propria-para-disputar-comando-da-camara-em-2027/"
+      },
+      {
+        "nome": "Gazeta do Povo (entrevista)",
+        "url": "https://www.gazetadopovo.com.br/vozes/entrelinhas/luiz-philippe-lanca-candidatura-a-presidencia-da-camara-nao-podemos-fazer-parte-do-bloco/"
+      },
+      {
+        "nome": "Diário de Pernambuco",
+        "url": "https://www.diariodepernambuco.com.br/politica/2026/10/11727829-pt-pcdob-e-pv-anunciam-apoio-a-reeleicao-de-motta-na-camara.html"
+      },
+      {
+        "nome": "Congresso em Foco (regras)",
+        "url": "https://congressoemfoco.com.br/noticia/106029/superpoderes-entenda-a-eleicao-para-presidente-da-camara-e-da-mesa-diretora"
+      }
+    ]
+  },
+  "destaques": [
+    {
+      "secao": "Mercado",
+      "titulo": "Anthropic fixa IPO a US$ 83 por ação e estreia hoje na Nasdaq",
+      "linhaFina": "A oferta da dona do Claude movimentou US$ 81,3 bilhões e avalia a empresa em cerca de US$ 1,5 trilhão; no Brasil, o acesso é pelo BDR ANTH34, lançado hoje na B3.",
+      "resumo": "A Anthropic precificou a ação a US$ 83, acima da faixa de US$ 70 a US$ 78, e captou cerca de US$ 81,3 bilhões. Analistas apontam como riscos os compromissos de quase US$ 900 bilhões em computação e os prejuízos bilionários. No Brasil, o BDR ANTH34 estreia hoje.",
+      "texto": [
+        "A Anthropic, empresa de inteligência artificial dona do assistente Claude, fixou em US$ 83 o preço por ação de sua oferta pública inicial (IPO), anunciada na quarta-feira (18). O valor ficou acima da faixa indicativa de US$ 70 a US$ 78. Segundo a Reuters, a procura superou várias vezes a oferta, e a empresa ampliou o lote de 825 milhões para 980 milhões de ações. A captação bruta foi de cerca de US$ 81,3 bilhões, e o preço avalia a companhia em aproximadamente US$ 1,5 trilhão, em base totalmente diluída. As ações estreiam nesta quinta-feira (19) na Nasdaq, com o código ANT.",
+        "Pelo ranking da Renaissance Capital citado pelo Estadão, é o maior IPO da história, acima dos US$ 75 bilhões da SpaceX em junho. O recorde, porém, depende do critério: com a venda de lotes adicionais aos bancos coordenadores, a oferta da SpaceX chegou a cerca de US$ 85,7 bilhões, segundo o Ynet, acima da cifra atual da Anthropic. William Castro Alves, da Avenue, observou ao Estadão que, contando só a oferta pública, a comparação muda conforme a régua usada. Em paralelo, a empresa fez uma colocação privada de US$ 26 bilhões ao mesmo preço, com investidores como Google, Microsoft, Nvidia e Amazon, o que eleva a operação total a US$ 107,3 bilhões.",
+        "O otimismo apareceu cedo nos mercados: segundo a Reuters, os contratos futuros da Nasdaq subiam quase 2% na madrugada desta quinta, depois de semanas de pressão sobre ações ligadas à IA. Antes, em 30 dias, o índice Nasdaq acumulava queda superior a 7%, segundo o Estadão. Em outubro, quando a empresa protocolou o pedido na SEC, as estimativas de mercado apontavam valuation acima de US$ 2 trilhões, segundo o Estadão.",
+        "O prospecto também traz números de cautela. A empresa tem quase US$ 900 bilhões em compromissos de capacidade de computação com parceiros como Amazon e Google; segundo o Estadão, cerca de US$ 70 bilhões vencem em 12 meses. Os prejuízos líquidos somaram cerca de US$ 104 bilhões nos nove primeiros meses de 2026, sendo US$ 80,7 bilhões no primeiro semestre. A receita do terceiro trimestre foi de US$ 16,96 bilhões, alta de 47% sobre o trimestre anterior, segundo o Ynet. Os estrategistas da XP Raphael Figueredo e Maria Irene Jordão apontam o financiamento do ciclo de investimentos e a diluição dos acionistas como os principais riscos.",
+        "Para o investidor brasileiro, as ações não estão à venda diretamente na bolsa local. A B3 lança nesta quinta o BDR da Anthropic, com o código ANTH34: cada ação negociada nos EUA corresponde a oito BDRs, o que deixa a aplicação mínima abaixo de R$ 100. A negociação na Nasdaq começa às 11h30 de Brasília, depois do fechamento desta edição; o desempenho da estreia ainda não é conhecido. Este texto é informativo e não constitui recomendação de investimento.",
+        "Transparência: A Nevasca usa ferramentas de inteligência artificial na preparação das edições, entre elas o Claude, produto da Anthropic. Por isso, esta reportagem se limita aos fatos e às avaliações publicadas pelas fontes citadas."
+      ],
+      "fontes": [
+        {
+          "nome": "Estadão / E-Investidor (18/11/2026)",
+          "url": "https://www.estadao.com.br/"
+        },
+        {
+          "nome": "Reuters (via Investing.com)",
+          "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-jump-as-anthropics-record-ipo-pricing-fuels-hopes-for-strong-debut-5038156"
+        },
+        {
+          "nome": "Ynet",
+          "url": "https://www.ynetnews.com/business/article/byz00lzh0ml"
+        },
+        {
+          "nome": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/official-anthropic-prices-ipo-83-223702472.html"
+        },
+        {
+          "nome": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html"
+        },
+        {
+          "nome": "A Crítica (BDR ANTH34)",
+          "url": "https://acritica.net/economia/b3-lanca-bdr-anthropic-anth34-ipo-nasdaq-quinta-19/"
+        },
+        {
+          "nome": "B3",
+          "url": "https://www.b3.com.br/pt_br/noticias/produto-permitira-que-investidores-brasileiros-acessem-a-companhia-de-inteligencia-artificial-pelo-codigo-anth34-em-reais-por-meio-das-corretoras-locais.htm"
+        }
+      ]
+    },
+    {
+      "secao": "Contas públicas",
+      "titulo": "Senado conclui ajuste fiscal por 69 a 2 e rejeita destaques da oposição",
+      "linhaFina": "O texto, que promete melhorar o resultado primário em até R$ 56 bilhões em 2027, segue para a Câmara; emendas do PL para limitar mais os gastos foram derrotadas.",
+      "resumo": "O Senado terminou na quarta (18) a votação do PLP 299/2026, o ajuste fiscal do governo, por 69 a 2. Foram rejeitadas as emendas da oposição, entre elas a de Rogério Marinho que limitava o crescimento real dos gastos a 0,6% ao ano. O projeto vai para a Câmara.",
+      "texto": [
+        "O Senado concluiu na quarta-feira (18) a votação do PLP 299/2026, o projeto de ajuste fiscal do governo Lula, com 69 votos a favor e 2 contra no turno suplementar. O texto-base havia sido aprovado no dia 12. O governo estima que as medidas melhorem o resultado primário entre R$ 45,1 bilhões e R$ 56,1 bilhões em 2027. O projeto segue agora para a Câmara dos Deputados, segundo a Agência Senado.",
+        "A principal mudança é um novo limite para o crescimento real das despesas: a partir de 2027, nos anos em que houver contingenciamento e bloqueio extra de gastos, a alta acima da inflação fica limitada a 2%, abaixo dos 2,5% previstos no arcabouço fiscal. O texto também destina a investimentos e segurança pública a economia obtida com o fim dos supersalários no Executivo e permite excluir da meta de 2026 até R$ 10,5 bilhões gastos com a subvenção ao diesel.",
+        "A oposição perdeu todas as votações de destaques. A emenda do líder do PL no Senado, Rogério Marinho (RN), que limitava o crescimento real dos gastos a 0,6% ao ano, foi rejeitada por 47 a 30. Também caíram a proposta do PL sobre o teto de R$ 3 bilhões para compensações previdenciárias a estados e municípios (45 a 32) e a de Alan Rick (Republicanos-AC) que tirava do Executivo o poder de restringir compensações de créditos tributários (49 a 31). Marinho disse que queria “ajudar o país” e que havia “caminhos diferentes” para o ajuste.",
+        "Um acordo de última hora mudou o repasse da Lei Kandir. O relator, Eduardo Braga (MDB-AM), fixou um piso anual de R$ 2 bilhões para estados e municípios e antecipou a quitação dos valores devidos para 2030; a versão anterior reduzia o repasse a R$ 1 bilhão por ano e empurrava R$ 3 bilhões para 2031 a 2037. O presidente do Senado, Davi Alcolumbre (União-AP), chamou a aprovação de vitória do país e rejeitou questão de ordem de Magno Malta (PL-ES) que pedia a anulação da votação do dia 12.",
+        "O ajuste também divide a base do governo: segundo a Gazeta do Povo, o petista Lindbergh Farias alertou para o risco de recessão, o que expôs divergências dentro do PT sobre o pacote. Na Câmara, ainda não há data marcada para a votação."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Senado",
+          "url": "https://www12.senado.leg.br/noticias/materias/2026/11/18/senado-completa-votacao-e-ajuste-fiscal-segue-para-a-camara"
+        },
+        {
+          "nome": "Tribuna do Sertão",
+          "url": "https://www.tribunadosertao.com.br/financas/2026/11/18/1025183-senado-conclui-votacao-do-pacote-fiscal-apos-destaques-rejeitados-e-acordo-sobre-repasses-a-estados"
+        },
+        {
+          "nome": "O Tempo",
+          "url": "https://www.otempo.com.br/economia/2026/11/18/dolar-dispara-e-supera-a-marca-de-r-5-80"
+        },
+        {
+          "nome": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/republica/lindbergh-alerta-para-risco-de-recessao-e-expoe-racha-no-pt-sobre-ajuste-fiscal/"
+        }
+      ]
+    },
+    {
+      "secao": "Bolso",
+      "titulo": "Dólar sobe pela quinta vez seguida e fecha a R$ 5,87, maior valor em 19 meses",
+      "linhaFina": "A moeda acumula alta de 17,6% desde o segundo turno; Ibovespa cai 1,34%, com dúvidas sobre o alcance do ajuste fiscal e juros mais altos nos EUA.",
+      "resumo": "O dólar à vista subiu 1,45% na quarta (18) e fechou a R$ 5,87, quinta alta seguida e maior cotação em 19 meses. O Ibovespa caiu 1,34%, aos 167.537 pontos. Analistas citam dúvidas sobre o ajuste fiscal, a perspectiva de juros mais altos nos EUA e o rebaixamento das ações brasileiras pelo Goldman Sachs.",
+      "texto": [
+        "O dólar à vista fechou a quarta-feira (18) em alta de 1,45%, cotado a R$ 5,8667, a quinta alta consecutiva e o maior valor em 19 meses. Desde o segundo turno da eleição, em 25 de outubro, a moeda americana acumula valorização de 17,6%, segundo O Tempo. O Ibovespa recuou 1,34%, aos 167.537 pontos, com giro de R$ 23,2 bilhões, de acordo com o Bom Dia Mercado.",
+        "Os analistas atribuem o movimento a uma reavaliação do risco fiscal. Mesmo com a aprovação do ajuste no Senado, investidores duvidam que o equilíbrio das contas venha de corte de despesas, e não de aumento de receitas. Segundo O Tempo, um analista resumiu que a medida ainda está muito baseada em receitas. Pesaram também as incertezas sobre a composição da equipe econômica do quarto mandato de Lula.",
+        "No exterior, o dólar ganhou força com a expectativa de novas altas de juros nos Estados Unidos. O Goldman Sachs rebaixou a recomendação para ações brasileiras para neutra, e os bancos lideraram as perdas: BTG (-3,54%), Banco do Brasil (-3,42%) e Bradesco (-2,29%). A Vale caiu 2,22%, e a Petrobras recuou cerca de 1,8%, em dia de queda do petróleo.",
+        "Para conter a volatilidade, o Banco Central fez leilões de swap cambial e anunciou leilões de linha de até US$ 1 bilhão. Para o consumidor, o dólar mais caro tende a encarecer produtos importados, viagens e itens cotados na moeda americana, como combustíveis e eletrônicos. A Selic segue em 13,75% ao ano, mantida pelo Copom em 4 de novembro."
+      ],
+      "fontes": [
+        {
+          "nome": "O Tempo",
+          "url": "https://www.otempo.com.br/economia/2026/11/18/dolar-dispara-e-supera-a-marca-de-r-5-80"
+        },
+        {
+          "nome": "Bom Dia Mercado",
+          "url": "https://www.bomdiamercado.com.br/mercado-financeiro/giro-dos-mercados/fechamento-ibovespa-cai-firme-e-perde-os-168-mil-pontos-com-pressao-de-bancos-e-vale-de-olho-no-fiscal-dolar-sobe-a-r-586-2/"
+        },
+        {
+          "nome": "Brasil 247",
+          "url": "https://www.brasil247.com/economia/dolar-chega-a-r-587-e-ibovespa-cai-134-com-pressao-externa-e-fiscal/"
+        }
+      ]
+    }
+  ],
+  "editorial": {
+    "titulo": "Um nome, e de pé",
+    "texto": [
+      "A direita entrou na quarta-feira com uma candidatura à presidência da Câmara e saiu com três: Paulo Martins, oficializado pelo Novo; Luiz Philippe, que se apresentou no PL; e Zé Trovão, que articula a sua. Do outro lado, Hugo Motta soma 15 partidos, do Centrão ao PT. A conta é conhecida, e ninguém aqui vai fingir que não sabe fazer aritmética. Mas há momentos em que a pergunta certa não é “quantos votos temos?”, e sim “o que vamos dizer ao eleitor em 1º de fevereiro?”.",
+      "Marcar posição não é capricho. Gideão foi à batalha com trezentos homens, e a vitória não veio do tamanho do exército (Jz 7). Uma candidatura de oposição, mesmo improvável, diz ao país que existe outro projeto para a Câmara: prerrogativas defendidas, freio a quem avança sobre o Legislativo, responsabilidade com o dinheiro do pagador de impostos. Quem só entra em disputa que já ganhou não está fazendo política; está fazendo contabilidade. O Novo fez a sua parte e pôs um nome na mesa. Mérito dele.",
+      "Já o PL, que tem 121 deputados e a maior responsabilidade, precisa decidir de uma vez. Num único dia, o presidente do partido chamou de loucura a ideia de um nome, corrigiu a frase horas depois e segue consultando a bancada enquanto conversa com Motta. A consulta parece um cardápio lido devagar demais: quando o garçom voltar, a cozinha já fechou. Se a demora serve para negociar comissões e cargos, o eleitor vai perceber, e vai cobrar. Quem pediu voto para ser oposição não pode chegar a fevereiro como sócio de quem prometeu enfrentar. Decidir é também uma forma de respeito: ao eleitor, aos aliados e aos próprios deputados que pedem uma resposta clara.",
+      "E aqui vai o pedido, sem meias palavras: unidade. A Escritura lembra que o cordão de três dobras não se rompe com facilidade (Ec 4.12). Que PL, Novo e quem mais quiser se sentem, escolham um nome e caminhem juntos, sem fogo amigo nas redes, sem vídeo atravessado, sem disputa de quem é mais conservador. Nenhum partido é dono da direita; ela pertence a milhões de brasileiros que não pedem cargo, pedem coerência. Perder de pé, com um só nome e uma só voz, é derrota que constrói. Rachar para perder de joelhos é o único resultado inaceitável."
+    ]
+  },
+  "politica": [
+    {
+      "secao": "STF",
+      "titulo": "Moraes arquiva por prescrição investigação contra Zambelli sobre posts de intervenção militar",
+      "linhaFina": "O ministro seguiu a PGR e reconheceu que o prazo de três anos para punir o suposto crime terminou; o mérito das acusações não foi julgado.",
+      "resumo": "Alexandre de Moraes extinguiu na quarta (18) a investigação contra a ex-deputada Carla Zambelli por postagens que defendiam intervenção militar entre 2022 e 2023. O motivo foi a prescrição, pedida pela PGR. Não houve julgamento de mérito. Outras postagens seguem sob investigação em outro processo.",
+      "texto": [
+        "O ministro Alexandre de Moraes, do Supremo Tribunal Federal, arquivou na quarta-feira (18) a investigação contra a ex-deputada federal Carla Zambelli por publicações nas redes sociais, feitas entre novembro de 2022 e janeiro de 2023, em que ela defendia uma intervenção militar. Moraes acolheu a manifestação da Procuradoria-Geral da República, que apontou a prescrição, isto é, o fim do prazo legal para que o Estado possa punir a conduta. O caso tramitava como Petição 13.051, segundo o portal do STF.",
+        "Na decisão, o ministro registrou que a conduta poderia, em tese, ser enquadrada como incitação de animosidade das Forças Armadas contra os Poderes constitucionais, prevista no artigo 286 do Código Penal. A pena máxima é de seis meses de detenção ou multa, e o prazo de prescrição é de três anos, que terminou em janeiro de 2026, segundo a Gazeta do Povo. O arquivamento por prescrição não equivale a absolvição: o mérito, ou seja, se houve ou não crime, não foi julgado.",
+        "A apuração começou com um ofício do Tribunal Superior Eleitoral, baseado em relatórios da Assessoria Especial de Enfrentamento à Desinformação (AEED) do TSE, e foi enviada ao Supremo depois do período eleitoral. Segundo a Gazeta do Povo, o relatório final da Polícia Federal, de agosto de 2025, informou que parte do conteúdo não pôde ser recuperada porque não foi preservada a tempo. De acordo com o Estadão, a PGR reconheceu indícios de incitação, mas pediu o encerramento por causa do prazo.",
+        "Outras postagens de Zambelli continuam sob investigação em outro processo, a Petição 10.706, aberta em novembro de 2022. Fora deste caso, ela foi condenada pela Primeira Turma do STF em 2025 a 10 anos de prisão pela invasão de sistemas do CNJ e a 5 anos e 3 meses por porte ilegal de arma e constrangimento ilegal. Zambelli está na Itália. Segundo o Diário de Pernambuco, a Justiça italiana negou em definitivo a extradição no primeiro caso, com críticas à imparcialidade do relator, e a Corte de Apelação de Roma marcou para 24 de novembro o novo julgamento do pedido referente à segunda condenação.",
+        "A decisão segue o mesmo caminho de outro caso recente: no dia 10, o presidente do STF, Edson Fachin, arquivou também por prescrição a investigação contra o jornalista Rodrigo Constantino pelo mesmo tipo penal, a pedido da PGR, segundo a Gazeta do Povo."
+      ],
+      "fontes": [
+        {
+          "nome": "Portal do STF",
+          "url": "https://noticias.stf.jus.br/postsnoticias/relator-extingue-investigacao-contra-carla-zambelli-por-defender-intervencao-militar-em-redes-sociais/"
+        },
+        {
+          "nome": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/republica/moraes-arquiva-investigacao-contra-zambelli-por-publicacoes-sobre-intervencao-militar/"
+        },
+        {
+          "nome": "Estadão (via Terra)",
+          "url": "https://www.terra.com.br/noticias/brasil/politica/alexandre-de-moraes-arquiva-investigacao-contra-zambelli-por-defender-intervencao-militar,ed66dd75421cbf3dbce85edffe84ef254xmcshs4.html"
+        },
+        {
+          "nome": "Diário de Pernambuco",
+          "url": "https://www.diariodepernambuco.com.br/politica/2026/10/11727769-justica-italiana-adia-julgamento-sobre-extradicao-de-zambelli.html"
+        },
+        {
+          "nome": "Gazeta do Povo (Constantino)",
+          "url": "https://www.gazetadopovo.com.br/republica/fachin-arquiva-investigacao-aberta-por-moraes-contra-rodrigo-constantino/"
+        }
+      ]
+    },
+    {
+      "secao": "Oposição",
+      "titulo": "PGR denuncia Flávio Bolsonaro ao STF por calúnia contra Lula e oferece acordo",
+      "linhaFina": "A acusação trata de uma postagem de janeiro que associava o presidente a Nicolás Maduro; a defesa sustenta que o texto não configura crime.",
+      "resumo": "A Procuradoria-Geral da República denunciou na quarta (18) o senador Flávio Bolsonaro (PL-RJ) por calúnia contra Lula, por um post no X de janeiro. A PGR propôs acordo de não persecução penal, se o senador tiver interesse. A defesa já havia dito que a publicação foi mal interpretada.",
+      "texto": [
+        "A Procuradoria-Geral da República apresentou na quarta-feira (18) ao Supremo Tribunal Federal denúncia contra o senador Flávio Bolsonaro (PL-RJ), candidato derrotado à Presidência, pelo crime de calúnia contra o presidente Luiz Inácio Lula da Silva. Segundo o portal JOTA, a PGR também ofereceu um acordo de não persecução penal, caso o senador tenha interesse.",
+        "A acusação se refere a uma publicação no X de janeiro de 2026, antes de Flávio oficializar a candidatura, que associava Lula ao ditador venezuelano Nicolás Maduro com a frase “Lula será delatado” e citava crimes como tráfico de drogas e armas. Segundo reportagem do Estadão reproduzida pela Tribuna do Sertão, a postagem passava de 700 mil visualizações. A denúncia é assinada pela subprocuradora-geral Luiza Cristina Fonseca Frischeisen, que sustenta que a imunidade parlamentar não protege atos ilícitos.",
+        "A defesa de Flávio nega o crime. Em declaração escrita entregue à Polícia Federal em julho, os advogados afirmaram que a frase era uma previsão, e não a atribuição de fato falso, que o post tinha frases independentes sobre Lula e Maduro e que a manifestação se insere no debate político, segundo o jornal português Observador. Até o fechamento desta edição, o senador não havia comentado a denúncia.",
+        "O caso tramita sob relatoria do ministro Alexandre de Moraes, no inquérito em que a denúncia foi apresentada. Os próximos passos são a manifestação de Flávio sobre o acordo proposto e, se não houver acordo, a análise pelo STF sobre receber ou não a denúncia."
+      ],
+      "fontes": [
+        {
+          "nome": "JOTA",
+          "url": "https://www.jota.info/stf/do-supremo/pgr-denuncia-flavio-bolsonaro-por-calunia-contra-lula"
+        },
+        {
+          "nome": "Tribuna do Sertão / Estadão",
+          "url": "https://www.tribunadosertao.com.br/politica/2026/11/18/1025233-pgr-denuncia-flavio-bolsonaro-ao-stf-por-calunia-contra-lula-em-postagem"
+        },
+        {
+          "nome": "Observador",
+          "url": "https://observador.pt/2026/07/28/defesa-de-flavio-bolsonaro-nega-calunia-a-lula-publicacao-sobre-maduro-nao-configura-crime-e-foi-mal-interpretada/"
+        }
+      ]
+    },
+    {
+      "secao": "Senado",
+      "titulo": "Tereza Cristina e Marinho negociam nome único contra Alcolumbre; PT adia apoio formal",
+      "linhaFina": "A senadora diz que a escolha será feita “sem vaidades”; o PL tem a maior bancada, mas nenhum lado tem os 41 votos garantidos.",
+      "resumo": "Tereza Cristina (PP-MS) disse que vai conversar com Rogério Marinho (PL-RN) para decidir quem tem mais chances contra Davi Alcolumbre. O PT adiou para depois do ajuste fiscal a reunião que confirmaria apoio à reeleição dele. A eleição é em 1º de fevereiro.",
+      "texto": [
+        "A senadora Tereza Cristina (PP-MS) afirmou na segunda-feira (16), no Agroforum, que vai conversar com Rogério Marinho (PL-RN) para definir qual dos dois tem mais condições de disputar a presidência do Senado contra Davi Alcolumbre (União-AP), e disse que a escolha deve ser feita “sem vaidades”, segundo a TV Sim Brasil. Na quarta-feira (18), a bancada do PT adiou a reunião em que confirmaria apoio à reeleição de Alcolumbre para depois da votação do ajuste fiscal.",
+        "Marinho foi lançado pelo PL no dia 4 e afirmou, segundo o Correio Braziliense, que tem um acordo com Tereza para que não sejam candidatos um contra o outro. A definição de quem fica na disputa deve sair mais perto da eleição, em janeiro. Em entrevista citada pela Itatiaia, Marinho pediu o fim dos ataques de militantes a Tereza nas redes, disse que ela tem legitimidade para concorrer e estimou ter cerca de 40 votos, um a menos que o necessário.",
+        "Para vencer, são necessários 41 dos 81 votos, em votação secreta marcada para 1º de fevereiro de 2027. Segundo o Congresso em Foco, o PL terá 29 senadores, a maior bancada, e com o Novo chega a 32. O bloco de Alcolumbre reúne PT, MDB, PP, União e PSD, com cerca de 33. O partido de Tereza, o PP, integra a federação União Progressista, que declarou apoio a Alcolumbre.",
+        "Marinho promete, se eleito, pautar a anistia aos condenados pelo 8 de janeiro e não se calar diante de possíveis crimes de responsabilidade de ministros do STF. Alcolumbre, que busca a recondução, tem criticado ataques pessoais e a radicalização. A ex-primeira-dama Michelle Bolsonaro condicionou seu apoio a uma conversa prévia com Marinho, segundo a TV Sim Brasil."
+      ],
+      "fontes": [
+        {
+          "nome": "TV Sim Brasil",
+          "url": "https://tvsimbrasil.com.br/brasil/eleicoes-2026/noticia/2026/11/18/tereza-cristina-articula-uniao-marinho-contra-alcolumbre"
+        },
+        {
+          "nome": "Correio Braziliense",
+          "url": "https://www.correiobraziliense.com.br/politica/2026/11/7533001-marinho-confirma-candidatura-a-presidencia-do-senado-e-cita-acordo-com-tereza.html"
+        },
+        {
+          "nome": "Itatiaia",
+          "url": "https://www.itatiaia.com.br/politica/marinho-pede-fim-do-bullying-contra-tereza-cristina-e-diz-que-direita-vai-se-unir-na-disputa-pelo-senado/"
+        },
+        {
+          "nome": "Congresso em Foco",
+          "url": "https://www.congressoemfoco.com.br/conteudo/131331/alcolumbre-e-marinho-largam-proximos-em-disputa-aberta-pelo-senado"
+        }
+      ]
+    },
+    {
+      "secao": "Planalto",
+      "titulo": "Lula deve assinar hoje decreto que regulamenta o fim da escala 6x1",
+      "linhaFina": "A cerimônia está prevista para as 9h no Planalto; o texto define regras para setores com jornadas especiais antes do início da transição, em 16 de dezembro.",
+      "resumo": "O presidente Lula deve assinar nesta quinta (19), às 9h, o decreto que regulamenta o fim da escala 6x1, segundo o ministro do Trabalho, Luiz Marinho. A emenda garante dois dias de descanso semanal sem corte de salário. A transição começa em 16 de dezembro.",
+      "texto": [
+        "O presidente Luiz Inácio Lula da Silva deve assinar nesta quinta-feira (19), às 9h, no Palácio do Planalto, o decreto que regulamenta o fim da escala 6x1, segundo o ministro do Trabalho, Luiz Marinho. A informação foi publicada pela Gazeta do Povo e pelo Correio da Manhã. O texto vai orientar como os diferentes setores devem cumprir as novas regras de jornada e tratar de categorias com jornadas especiais.",
+        "A emenda constitucional promulgada em outubro garante dois dias de repouso remunerado por semana, sem redução de salário, e reduz gradualmente a jornada máxima de 44 para 40 horas semanais. Segundo a Gazeta do Povo, os dias de folga poderão ser negociados em convenções coletivas, e cada atividade poderá adotar o modelo mais adequado, desde que garanta oito dias de descanso por mês. O governo também poderá publicar portarias para situações específicas.",
+        "Marinho disse que o ministério fez mais de 70 reuniões com setores da economia em uma semana e que Lula pediu ajustes na versão apresentada. O ministro não antecipou os detalhes, que serão divulgados na cerimônia. A assinatura já havia sido adiada no início do mês.",
+        "O período de transição começa em 16 de dezembro. No STF, o ministro Flávio Dino concedeu liminar que permite distribuir a jornada intermediária de 42 horas em cinco dias, com expedientes de até 8h24, sem hora extra pelos minutos excedentes, regra válida apenas na transição. Dino levou as ações sobre o tema a julgamento definitivo, ainda sem data."
+      ],
+      "fontes": [
+        {
+          "nome": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/republica/decreto-que-regulamenta-fim-da-escala-6x1-deve-ser-assinado-nesta-quinta/"
+        },
+        {
+          "nome": "Correio da Manhã",
+          "url": "https://www.correiodamanha.com.br/politica/2026/11/336006-marinho-diz-que-lula-assinara-decreto-sobre-escala-6x1-na-quinta.html"
+        },
+        {
+          "nome": "Correio da Manhã (adiamento)",
+          "url": "https://www.correiodamanha.com.br/politica/2026/11/amp/333587-governo-lula-adia-decreto-que-regulamenta-o-fim-da-escala-6x1.html"
+        },
+        {
+          "nome": "O Tempo (STF)",
+          "url": "https://www.otempo.com.br/politica/judiciario/2026/11/17/dino-prepara-julgamento-final-no-stf-apos-reacao-do-congresso-contra-fim-da-escala-6x1"
+        }
+      ]
+    }
+  ],
+  "mundo": [
+    {
+      "secao": "Ásia",
+      "titulo": "Trump, Xi e Putin fazem hoje em Shenzhen a primeira cúpula a três",
+      "linhaFina": "Armas nucleares, Ucrânia e Irã estão na pauta do encontro à margem da Apec; analistas não esperam acordos concretos.",
+      "resumo": "Donald Trump, Xi Jinping e Vladimir Putin se reúnem nesta quinta (19) em Shenzhen, na China, na primeira cúpula entre os três. Trump quer um novo acordo nuclear que inclua a China. Ucrânia e Irã também devem ser discutidos.",
+      "texto": [
+        "Os presidentes Donald Trump (EUA), Xi Jinping (China) e Vladimir Putin (Rússia) se reúnem nesta quinta-feira (19) em Shenzhen, na China, na primeira cúpula entre os três líderes, à margem da reunião da Apec, o fórum de Cooperação Econômica Ásia-Pacífico. Antes do encontro trilateral, Trump terá uma reunião bilateral com Xi, e um encontro separado com Putin foi incluído na agenda, segundo a AP.",
+        "Trump quer discutir os arsenais nucleares e um acordo “novo, melhorado e modernizado” que inclua a China, depois que o tratado New START, entre EUA e Rússia, expirou em fevereiro. A China tem mais de 600 ogivas, contra mais de 5 mil de cada uma das outras duas potências, e Pequim já disse que negociações trilaterais de desarmamento neste momento não são razoáveis nem realistas, segundo a Radio Free Asia.",
+        "As guerras na Ucrânia e no Irã também devem entrar na conversa. O Kremlin informou que as partes discutem um possível comunicado conjunto; se não houver acordo sobre o texto, cada líder fará sua própria avaliação. Daryl Kimball, da Arms Control Association, disse que um único encontro dificilmente trará avanços dramáticos.",
+        "Também estão em jogo temas comerciais: a trégua tarifária entre EUA e China vence em 10 de janeiro de 2027, e Washington afirma que Pequim não cumpriu integralmente os compromissos de 2025 sobre compras agrícolas e terras raras. A Coreia do Sul pediu que seus interesses sejam considerados. Trump e Xi devem voltar a se encontrar na cúpula do G20, em dezembro, na Flórida."
+      ],
+      "fontes": [
+        {
+          "nome": "AP (via Boston.com)",
+          "url": "https://www.boston.com/news/politics/2026/11/18/trump-meets-xi-and-putin-in-china-with-nuclear-arms-and-two-wars-on-the-table/"
+        },
+        {
+          "nome": "Radio Free Asia",
+          "url": "https://www.rfa.org/english/korea/2026/11/18/trump-xi-putin-scheduled-apec-meeting/"
+        },
+        {
+          "nome": "NPR",
+          "url": "https://www.npr.org/2026/11/18/nx-s1-6044279/trump-xi-and-putin-set-to-meet-in-historic-summit"
+        }
+      ]
+    },
+    {
+      "secao": "Guerra na Ucrânia",
+      "titulo": "Zelensky diz que enviados dos EUA vão relatar a Kiev as conversas de Shenzhen",
+      "linhaFina": "Coalizão de aliados se reúne hoje em Berlim com foco em defesa aérea; ONU registra o pior outubro para civis desde 2022.",
+      "resumo": "O presidente da Ucrânia, Volodymyr Zelensky, disse que enviados americanos vão informar Kiev, em Berlim, sobre a cúpula de Trump com Putin e Xi. Ele reafirmou que decisões sobre a Ucrânia exigem a participação ucraniana. Ataques russos à rede elétrica seguem causando apagões.",
+      "texto": [
+        "O presidente da Ucrânia, Volodymyr Zelensky, afirmou na quarta-feira (18) que enviados dos Estados Unidos vão relatar a Kiev, em Berlim, o resultado das conversas de Donald Trump com Vladimir Putin e Xi Jinping em Shenzhen. Ele reiterou que Ucrânia e Europa têm posição comum: decisões sobre seus assuntos exigem sua participação. A informação é do Kyiv Post.",
+        "Também nesta quinta-feira (19), a chamada Coalizão dos Dispostos, grupo de países aliados de Kiev, se reúne em Berlim, com a defesa aérea no centro da pauta. Na reunião do grupo de Ramstein, no dia 17, o Reino Unido prometeu mais de mil mísseis de defesa aérea de curto alcance, e Alemanha e Noruega anunciaram US$ 300 milhões cada para a compra de armas americanas, incluindo interceptadores Patriot.",
+        "Depois de mais de duas horas de conversa entre Putin e Xi, o porta-voz do Kremlin, Dmitri Peskov, disse que os dois trataram de um acordo sobre a Ucrânia. O chanceler ucraniano, Andrii Sybiha, afirmou esperar que Washington e Pequim usem sua influência para pressionar Moscou a encerrar a guerra. Negociadores de Ucrânia, Rússia e EUA se reuniram em Abu Dhabi nos dias 10 e 11, a primeira rodada desde fevereiro.",
+        "No terreno, ataques russos quase diários contra a infraestrutura de energia provocam apagões desde outubro, com as piores falhas nas regiões de Kharkiv e Sumy. Segundo a missão de monitoramento de direitos humanos da ONU, citada pelo Kyiv Post, outubro de 2026 teve ao menos 372 civis mortos e 1.981 feridos, o maior número para o mês desde o início da invasão, em 2022. A Comissão Europeia planeja destinar mais 45 bilhões de euros à Ucrânia em 2027."
+      ],
+      "fontes": [
+        {
+          "nome": "Kyiv Post",
+          "url": "https://www.kyivpost.com/post/90534"
+        },
+        {
+          "nome": "AP (via Boston.com)",
+          "url": "https://www.boston.com/news/politics/2026/11/18/trump-meets-xi-and-putin-in-china-with-nuclear-arms-and-two-wars-on-the-table/"
+        },
+        {
+          "nome": "Radio Free Asia",
+          "url": "https://www.rfa.org/english/korea/2026/11/18/trump-xi-putin-scheduled-apec-meeting/"
+        }
+      ]
+    },
+    {
+      "secao": "Oriente Médio",
+      "titulo": "Irã ataca base americana no Kuwait após bombardeio dos EUA à ilha de Qeshm",
+      "linhaFina": "Kuwait e Bahrein dizem ter interceptado drones e mísseis; navio da estatal de petróleo dos Emirados foi atingido em Ormuz.",
+      "resumo": "O Exército iraniano disse ter atacado instalações americanas na base de Ali Al Salem, no Kuwait, horas depois de caças dos EUA atingirem um local de lançamento de mísseis na ilha iraniana de Qeshm. Um navio da Adnoc foi atingido em Ormuz, com 11 feridos e um desaparecido.",
+      "texto": [
+        "O Exército do Irã afirmou ter atacado na madrugada de quarta-feira (18) instalações americanas de drones e mísseis na base aérea de Ali Al Salem, no Kuwait, o primeiro ataque relatado contra o país desde setembro. A ação veio depois de caças americanos atingirem, na terça (17), um local de lançamento de mísseis da Guarda Revolucionária na ilha de Qeshm, no Estreito de Ormuz, em ação descrita por um oficial dos EUA como de “legítima defesa”.",
+        "O Kuwait informou que sua defesa aérea combateu drones hostis, e a chancelaria kuwaitiana classificou o ataque como uma “escalada perigosa”. O Bahrein também disse ter interceptado ataques iranianos e orientou moradores a buscar abrigo. A agência de notícias iraniana relatou que Qeshm foi atingida em vários pontos, sem vítimas. A versão do Irã sobre os alvos no Kuwait não pôde ser verificada de forma independente.",
+        "No Estreito de Ormuz, a estatal de petróleo dos Emirados Árabes Unidos, Adnoc, informou que um de seus navios foi atingido durante a noite, com 11 tripulantes feridos e um desaparecido. O chefe do Exército iraniano ameaçou responder com mais força, sem limites geográficos, se os EUA voltarem a atacar. Os Estados Unidos reemitiram alertas de segurança para cidadãos americanos no Golfo, segundo o Times of Israel.",
+        "A guerra começou em 28 de fevereiro, com Israel ao lado dos EUA. Um memorando assinado em junho abriu uma janela de 60 dias para negociação, que expirou sem acordo. No dia 12, Trump escreveu que os EUA não precisam de acordo com o Irã e afastou o vice-presidente J.D. Vance da linha de frente da diplomacia, embora o canal com o Catar continue ativo, segundo o HNGN."
+      ],
+      "fontes": [
+        {
+          "nome": "Times of Israel",
+          "url": "https://www.timesofisrael.com/liveblog-november-18-2026/"
+        },
+        {
+          "nome": "HNGN",
+          "url": "https://www.hngn.com/articles/273810/20261118/trump-says-no-iran-deal-needed-pulls-vance-talks.htm"
+        },
+        {
+          "nome": "Gulf News",
+          "url": "https://gulfnews.com/world/mena/middle-east-war-iran-attacks-bahrain-kuwait-drone-threats-keep-gulf-on-high-alert-as-us-hits-irans-qeshm-1.500751444"
+        }
+      ]
+    },
+    {
+      "secao": "Estados Unidos",
+      "titulo": "Ata do Fed mostra que quase todos os diretores esperam alta de juros em dezembro",
+      "linhaFina": "Inflação mais persistente preocupa o banco central americano; um diretor defende aumento de meio ponto.",
+      "resumo": "A ata da reunião de outubro do Federal Reserve mostrou que quase todos os dirigentes consideram provável uma nova alta de juros em dezembro. O mercado já vê chance de cerca de 95% de aumento de 0,25 ponto. A perspectiva de juros mais altos nos EUA pressionou moedas emergentes, como o real.",
+      "texto": [
+        "A ata da reunião de 27 e 28 de outubro do Federal Reserve, o banco central dos Estados Unidos, divulgada na quarta-feira (18), mostrou que quase todos os dirigentes consideram provável uma nova alta de juros na reunião de dezembro. Em outubro, o Fed manteve a taxa básica, depois de tê-la elevado em setembro pela primeira vez em três anos, segundo a AP, publicada pelo Yahoo Finance.",
+        "A grande maioria dos 19 dirigentes demonstrou preocupação com uma inflação que pode persistir mesmo com a queda da gasolina e o fim dos efeitos de tarifas e da construção de infraestrutura para inteligência artificial. Os diretores Lisa Cook e Beth Hammack, do Fed de Cleveland, votaram por uma alta já em outubro. O diretor Christopher Waller defende um aumento de meio ponto em dezembro e disse que a inflação está indo na direção errada.",
+        "Nem todos concordam com a pressa. John Williams, presidente do Fed de Nova York, disse que a situação não exige ação dramática. Segundo a Reuters, os operadores precificavam quase certeza de uma alta de 0,25 ponto em dezembro e cerca de 8% de chance de um aumento de 0,5 ponto, conforme dados da LSEG.",
+        "O efeito chegou ao Brasil: a expectativa de juros mais altos nos EUA fortaleceu o dólar no mundo e contribuiu para a alta da moeda americana a R$ 5,87 na quarta-feira. A próxima reunião do Fed, presidido por Kevin Warsh, ocorre em dezembro."
+      ],
+      "fontes": [
+        {
+          "nome": "AP (via Yahoo Finance)",
+          "url": "https://ca.finance.yahoo.com/news/fed-minutes-higher-interest-rates-191215222.html"
+        },
+        {
+          "nome": "Reuters (via Investing.com)",
+          "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-jump-as-anthropics-record-ipo-pricing-fuels-hopes-for-strong-debut-5038156"
+        },
+        {
+          "nome": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-18/fed-minutes-show-almost-all-officials-expect-more-rate-hikes"
+        },
+        {
+          "nome": "O Tempo",
+          "url": "https://www.otempo.com.br/economia/2026/11/18/dolar-dispara-e-supera-a-marca-de-r-5-80"
+        }
+      ]
+    }
+  ],
+  "cultura": [
+    {
+      "secao": "Games",
+      "titulo": "GTA VI chega hoje com recorde de pré-venda e oito indicações ao The Game Awards",
+      "linhaFina": "Treze anos depois de GTA V, a Rockstar lança o jogo para PS5 e Xbox Series; no Brasil, a edição padrão custa R$ 449,90 e a classificação é para maiores de 18 anos.",
+      "resumo": "Grand Theft Auto VI é lançado nesta quinta (19) para PS5 e Xbox Series X|S. Sony e Microsoft confirmaram que é o jogo mais pré-encomendado de suas lojas, e consultorias estimam bilhões em vendas na primeira semana. O jogo lidera as indicações ao The Game Awards 2026.",
+      "imagem": {
+        "arquivo": "img/2026-11-19-gta6.jpg",
+        "legenda": "Arte oficial de Grand Theft Auto VI, com os protagonistas Jason e Lucia",
+        "credito": "Divulgação/Rockstar Games"
+      },
+      "texto": [
+        "Grand Theft Auto VI, da Rockstar Games, controlada pela Take-Two, chega nesta quinta-feira (19) ao PlayStation 5 e ao Xbox Series X|S, 13 anos depois de GTA V. Sony e Microsoft confirmaram que é o jogo mais pré-encomendado da história de suas lojas digitais, segundo o Canaltech. No Brasil, a edição padrão custa R$ 449,90 e a Ultimate, R$ 549,90; nos EUA, US$ 80 e US$ 100, de acordo com o Omelete. Não há versão para PC anunciada.",
+        "Os números de venda ainda são estimativas. Pelos cálculos da Sensor Tower, publicados pelo Canaltech na terça (17), a pré-venda digital chegou a quase 15 milhões de cópias e cerca de US$ 1,5 bilhão. Em julho, a consultoria Newzoo projetou faturamento entre US$ 3,25 bilhões e US$ 5,2 bilhões na semana de lançamento, com cenário central de US$ 4,5 bilhões e 51 milhões de cópias, segundo o Ei Nerd. Para comparação, GTA V faturou US$ 1 bilhão em três dias em 2013. O segundo trailer de GTA VI passou de 475 milhões de visualizações em 24 horas, segundo a Take-Two.",
+        "No mercado, a Take-Two manteve a projeção de reservas líquidas de US$ 8 bilhões a US$ 8,2 bilhões para o ano fiscal, e as ações subiram 6,2% no dia do balanço, em 10 de novembro, segundo o Motley Fool. O presidente da empresa, Strauss Zelnick, disse que a pré-venda superou as expectativas, mas evitou declarar vitória antes do lançamento. O jogo lidera as indicações ao The Game Awards 2026, com oito, inclusive Jogo do Ano; títulos lançados até 20 de novembro são elegíveis, e a cerimônia será em 10 de dezembro, em Los Angeles, segundo o Critical Hits e o Omelete.",
+        "O lançamento também mexe com o trabalho. Uma pesquisa da BambooHR com 1.530 trabalhadores americanos, feita entre 9 e 20 de outubro, indica que 18% dos assalariados planejam folgar hoje, com 32% na geração Z e 27% entre os millennials; os pedidos de folga para a data estão cerca de 13% acima de dias equivalentes de anos anteriores. A Logitech criou o “Logi Game Day”, um dia extra de folga para seus cerca de 7 mil funcionários jogarem o que quiserem até novembro de 2027, segundo a Fortune. Ao Estadão, a especialista Maíra Blasi disse que no Brasil o movimento é tímido, e Carlos Silva, da ESPM e da Go Gamers, prevê impulso para streamers e criadores de conteúdo. GTA V aparece entre os jogos mais assistidos na Twitch em 2026, segundo relatório da plataforma.",
+        "No Brasil, há um detalhe para o consumidor: desde março, com a entrada em vigor da Lei 15.211/2025, o ECA Digital, conhecida como Lei Felca, a Rockstar suspendeu a venda de jogos para PC aos brasileiros em sua loja e em seu launcher próprios. A lei exige verificação de idade mais rigorosa e vínculo de contas de menores de 16 anos a um responsável. GTA VI continua à venda pela PlayStation Store e pela Microsoft Store, segundo o Olhar Digital.",
+        "Para pais e responsáveis: o jogo tem classificação indicativa de 18 anos no Brasil, conforme a loja do Xbox citada pela Revista Quero, e recebeu PEGI 18 na Europa e M (17+) nos EUA. Os descritores incluem violência intensa, uso de drogas, nudez e cenas de sexo."
+      ],
+      "fontes": [
+        {
+          "nome": "Canaltech (recorde)",
+          "url": "https://canaltech.com.br/games/gta-6-quebra-recorde-de-mais-pre-vendas-em-todos-os-tempos-no-playstation-e-xbox/"
+        },
+        {
+          "nome": "Canaltech (Sensor Tower)",
+          "url": "https://canaltech.com.br/games/gta-6-ja-vendeu-quase-15-milhoes-de-copias-e-faturou-us-145-bilhao-antes-da-estreia/"
+        },
+        {
+          "nome": "Omelete (preço)",
+          "url": "https://www.omelete.com.br/games/gta-6-preco-brasil"
+        },
+        {
+          "nome": "Ei Nerd (Newzoo)",
+          "url": "https://www.einerd.com/gta-6-pre-vendas-newzoo-5-bilhoes-semana/"
+        },
+        {
+          "nome": "Times Brasil",
+          "url": "https://timesbrasil.com.br/empresas-e-negocios/take-two-encerra-ano-fiscal-com-us-672-bilhoes-em-vendas-impulsionadas-por-gta-vi/"
+        },
+        {
+          "nome": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/11/10/why-take-two-stock-s-got-game-today/"
+        },
+        {
+          "nome": "Critical Hits (The Game Awards)",
+          "url": "https://criticalhits.com.br/games/gta-6-lidera-indicacoes-ao-the-game-awards-2026-com-oito-nomeacoes/"
+        },
+        {
+          "nome": "Omelete (The Game Awards)",
+          "url": "https://www.omelete.com.br/games/gta-6-e-jogo-mais-indicado-no-the-game-awards-2026-confira-lista"
+        },
+        {
+          "nome": "BambooHR",
+          "url": "https://www.bamboohr.com/resources/data-at-work/data-stories/gta-pto"
+        },
+        {
+          "nome": "Fortune (Logitech)",
+          "url": "https://fortune.com/2026/11/10/logitech-gaming-day-off-ahead-of-grand-theft-auto-six-release-ceo-hanneke-faber-boost-productivity/"
+        },
+        {
+          "nome": "Estadão (Economia, 18/11/2026)",
+          "url": "https://www.estadao.com.br/"
+        },
+        {
+          "nome": "Net Influencer (Twitch)",
+          "url": "https://www.netinfluencer.com/twitch-reports-8-6b-hours-of-gaming-content-watched-jan-sep-2026/"
+        },
+        {
+          "nome": "Olhar Digital (Lei Felca)",
+          "url": "https://olhardigital.com.br/2026/03/18/games-e-consoles/e-o-gta-6-apos-lei-felca-rockstar-suspende-venda-de-jogos-em-sua-loja-propria/"
+        },
+        {
+          "nome": "Revista Quero (classificação)",
+          "url": "https://querobolsa.com.br/revista/gta-6-e-para-criancas-classificacao-indicativa"
+        },
+        {
+          "nome": "Critical Hits (ESRB)",
+          "url": "https://criticalhits.com.br/games/gta-6-recebe-classificacao-indicativa-para-maiores-de-17-anos-nos-eua/"
+        }
+      ]
+    }
+  ],
+  "paraEntender": {
+    "titulo": "A disputa pela Câmara em datas",
+    "itens": [
+      "27/out — PT, PCdoB e PV aderem à reeleição de Hugo Motta, que passa a somar 15 partidos.",
+      "3/nov — O Novo anuncia que não apoiará Motta e terá nome próprio.",
+      "17/nov — Luiz Philippe (PL-SP) diz que vai disputar e que tem aval de Valdemar; Nikolas ameaça deixar o PL se o partido apoiar Motta.",
+      "18/nov — Valdemar chama de “loucura” a ideia de Nikolas e recua; o Novo oficializa Paulo Martins.",
+      "Até 30/nov — Previsão de conclusão da consulta do PL aos 121 deputados.",
+      "1º/fev/2027 — Eleição, em voto secreto; 257 votos para vencer no primeiro turno."
+    ],
+    "fontes": [
+      {
+        "nome": "Diário de Pernambuco",
+        "url": "https://www.diariodepernambuco.com.br/politica/2026/10/11727829-pt-pcdob-e-pv-anunciam-apoio-a-reeleicao-de-motta-na-camara.html"
+      },
+      {
+        "nome": "Gazeta do Povo",
+        "url": "https://www.gazetadopovo.com.br/republica/deputado-do-pl-lanca-candidatura-propria-para-disputar-comando-da-camara-em-2027/"
+      },
+      {
+        "nome": "Estadão (via Terra)",
+        "url": "https://www.terra.com.br/noticias/brasil/politica/valdemar-costa-neto-diz-que-candidatura-de-nikolas-a-presidencia-da-camara-e-loucura,3f35d6062f2247800d62c27a461eca26jrytu5sp.html"
+      },
+      {
+        "nome": "Congresso em Foco",
+        "url": "https://congressoemfoco.com.br/noticia/106029/superpoderes-entenda-a-eleicao-para-presidente-da-camara-e-da-mesa-diretora"
+      }
+    ]
+  },
+  "breves": [
+    {
+      "texto": "Moraes arquivou na segunda (16), a pedido da PGR, o inquérito contra o ex-deputado Daniel Silveira por suposta violação de cautelares; a condenação de 8 anos e 9 meses, cumprida em regime aberto, não muda, segundo a Gazeta do Povo.",
+      "fonte": {
+        "nome": "Gazeta do Povo",
+        "url": "https://www.gazetadopovo.com.br/republica/moraes-arquiva-inquerito-contra-daniel-silveira-por-suposta-violacao-de-cautelares/"
+      }
+    },
+    {
+      "texto": "Sem consenso, a Câmara adiou a votação do projeto do governo que cria regras para as big techs e amplia os poderes do Cade; não há nova data.",
+      "fonte": {
+        "nome": "Gazeta do Povo",
+        "url": "https://www.gazetadopovo.com.br/republica/sem-consenso-votacao-do-pl-das-big-techs-e-adiada-na-camara/"
+      }
+    },
+    {
+      "texto": "O Banco Central fez leilões de swap cambial e anunciou leilões de linha de até US$ 1 bilhão para dar liquidez ao mercado de câmbio.",
+      "fonte": {
+        "nome": "O Tempo",
+        "url": "https://www.otempo.com.br/economia/2026/11/18/dolar-dispara-e-supera-a-marca-de-r-5-80"
+      }
+    },
+    {
+      "texto": "A saída de Jensen Huang do comando da Nvidia pesou sobre as ações de tecnologia; os papéis da empresa caíram 2,9% na quarta.",
+      "fonte": {
+        "nome": "Reuters (via Investing.com)",
+        "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-jump-as-anthropics-record-ipo-pricing-fuels-hopes-for-strong-debut-5038156"
+      }
+    },
+    {
+      "texto": "Aliados da Ucrânia na Coalizão dos Dispostos se reúnem hoje em Berlim com foco em defesa aérea.",
+      "fonte": {
+        "nome": "Kyiv Post",
+        "url": "https://www.kyivpost.com/post/90534"
+      }
+    }
+  ]
+}
