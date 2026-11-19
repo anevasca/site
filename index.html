@@ -214,6 +214,7 @@
     nav.secoes{gap:16px;justify-content:flex-start;overflow-x:auto;flex-wrap:nowrap}
   }
   .leia{font-family:var(--ui,sans-serif);font-weight:700;font-size:14px;margin:4px 0 10px}.leia a{color:#7a1f1f;text-decoration:none}
+  .comente{border-top:1px solid #ccc;margin-top:22px;padding-top:14px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}.comente p{margin:0;font-style:italic;color:#444}.comente a{background:#111;color:#fff;text-decoration:none;font-family:var(--ui,sans-serif);font-weight:700;font-size:14px;padding:8px 16px;border-radius:999px}
 </style>
 </head>
 <body>
@@ -283,6 +284,10 @@
   };
   var cache = {};
 
+  function comente(id){
+    var url = BASE + "/m/" + id + ".html";
+    return '<div class="comente"><p>O que você achou? A conversa sobre as matérias acontece no X.</p><a href="https://twitter.com/intent/tweet?text='+encodeURIComponent("@anevasca_br ")+'&url='+encodeURIComponent(url)+'" target="_blank" rel="noopener">Comente no X</a></div>';
+  }
   function share(id, titulo){
     var url = BASE + "/m/" + id + ".html";
     var txt = titulo + " — A Nevasca";
@@ -419,7 +424,7 @@
     h += '<p class="assinatura">'+(a.editorial?"Editorial":"Da redação")+' · '+esc(ed.dataExtenso)+'</p>';
     h += '<div class="corpo">'+ps(a.texto)+'</div>';
     if(a.editorial) h += '<p class="nota">Este texto expressa a posição editorial de A Nevasca.</p>';
-    h += fontes(a.fontes) + share(a.id, (a.editorial?"Editorial: ":"")+a.titulo) + '</article>';
+    h += fontes(a.fontes) + share(a.id, (a.editorial?"Editorial: ":"")+a.titulo) + comente(a.id) + '</article>';
     var outras = artigos(ed).filter(function(x){ return x.id !== a.id; });
     h += '<section class="secao mais-edicao"><h3>Mais nesta edição</h3><ul>' + outras.map(function(x){
       return '<li><span class="kicker'+(x.editorial?"":" azul")+'">'+esc(x.secao)+'</span><a href="#'+x.id+'">'+esc(x.titulo)+'</a></li>'; }).join("") + '</ul></section>';
@@ -447,7 +452,7 @@
     var h = '<article class="artigo-pag coluna-pag"><p class="migalha"><a href="#hoje">Capa</a> › <a href="#opiniao">Opinião</a> › '+NOME_COLUNA+'</p>'+
       '<div class="selo azul"><span>Coluna</span><em>'+NOME_COLUNA+'</em></div><h1>'+esc(c.titulo)+'</h1>'+(c.linhaFina?'<p class="fina">'+esc(c.linhaFina)+'</p>':'')+
       '<p class="assinatura">Por <strong>'+AUTOR+'</strong> · '+dataBR(c.data)+'</p><div class="corpo">'+ps(c.texto)+'</div>'+
-      '<p class="nota">Textos assinados expressam a opinião de quem assina. '+NOME_COLUNA+' · '+EPIGRAFE+'</p>'+share(id, c.titulo+" — "+AUTOR)+'</article>';
+      '<p class="nota">Textos assinados expressam a opinião de quem assina. '+NOME_COLUNA+' · '+EPIGRAFE+'</p>'+share(id, c.titulo+" — "+AUTOR)+comente(id)+'</article>';
     h += '<section class="secao mais-edicao"><h3>Outras colunas</h3><div id="outras-col"></div></section>';
     document.getElementById("conteudo").innerHTML = h;
     getColunas().then(function(l){ document.getElementById("outras-col").innerHTML = listaColunasHTML(l, c.id); });
