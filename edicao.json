@@ -2,7 +2,7 @@
   "data": "2026-11-18",
   "dataExtenso": "Quarta-feira, 18 de novembro de 2026",
   "numero": 1,
-  "atualizadoEm": "18/11/2026, 11h (Brasília)",
+  "atualizadoEm": "18/11/2026, 22h (Brasília)",
   "indicadores": [
     {
       "rotulo": "Selic",
@@ -30,12 +30,37 @@
     "titulo": "Racha no PL: ala bolsonarista articula Nikolas contra Hugo Motta, e cúpula decide hoje",
     "linhaFina": "O deputado mais votado da história pôs o nome à disposição na tribuna e disse que deixa o partido se a legenda apoiar a reeleição de Motta. Valdemar teme perder comissões.",
     "texto": [
+      "ATUALIZAÇÃO, 22h — Depois do fechamento desta edição, o Novo oficializou a candidatura do deputado federal eleito Paulo Martins (PR) à presidência da Câmara, em entrevista coletiva na Casa, com a presença do líder da oposição, Cabo Gilberto (PL). Martins afirmou que o nome dele não divide a oposição e que conversa com Zé Trovão (PL-SC) e Luiz Philippe de Orléans e Bragança (PL-SP), que também articulam candidaturas. Integrantes do Novo disseram que não há separação entre o partido e o PL, mas que não vão esperar a decisão de Valdemar Costa Neto. Luiz Philippe já havia se declarado candidato, dizendo ter o aval de Valdemar, mas o PL ainda não oficializou nenhum nome. Do outro lado, Hugo Motta soma o apoio de 15 partidos, segundo a CNN Brasil. A Nevasca acompanha os desdobramentos na edição de amanhã.",
       "Nikolas Ferreira (PL-MG) colocou o nome à disposição para presidir a Câmara em discurso no plenário na terça-feira (17). Ele defendeu que o PL lance candidatura própria contra Hugo Motta (Republicanos-PB) na eleição de fevereiro de 2027. Na véspera, em entrevista a uma rádio de Belo Horizonte, já tinha dito que sua permanência no partido ficaria “insustentável” se o PL apoiasse Motta.",
       "A cúpula do partido se reúne nesta quarta-feira (18) com o presidente nacional, Valdemar Costa Neto, e lideranças da bancada. Segundo a coluna de Igor Gadelha, no Metrópoles, caciques do PL já dão como certo o lançamento de candidato próprio, e o escolhido seria Nikolas, eleito em outubro com 3,1 milhões de votos, recorde histórico para deputado federal.",
       "A bancada está dividida. Uma ala defende apoiar Motta para garantir cargos e o comando de comissões estratégicas. Os bolsonaristas querem candidatura própria para manter a identidade de oposição ao governo Lula. Valdemar já alertou que o partido pode perder comissões importantes se ficar fora do bloco de Motta. O senador Flávio Bolsonaro também rejeita apoiar o atual presidente da Câmara.",
       "Outros nomes do PL se movimentaram. Zé Trovão (SC), que no início do mês chamou Motta de “frouxo” nas redes, prometeu candidatura avulsa se o partido não lançar ninguém. Luiz Philippe de Orléans e Bragança (SP) anunciou na terça que quer disputar e diz ter aval de Valdemar. O Novo já confirmou candidato próprio. Motta, porém, tem apoio declarado de partidos que somarão 338 deputados na próxima legislatura, e uma candidatura de oposição serviria mais para marcar posição e negociar espaços."
     ],
     "fontes": [
+      {
+        "nome": "Metrópoles",
+        "url": "https://www.metropoles.com/brasil/novo-oficializa-candidatura-de-paulo-martins-a-presidencia-da-camara"
+      },
+      {
+        "nome": "CNN Brasil",
+        "url": "https://www.cnnbrasil.com.br/politica/novo-formaliza-candidatura-de-paulo-martins-a-presidencia-da-camara/"
+      },
+      {
+        "nome": "Congresso em Foco",
+        "url": "https://www.congressoemfoco.com.br/noticia/131704/novo-lanca-paulo-martins-como-nome-da-oposicao-a-presidencia-da-camara"
+      },
+      {
+        "nome": "Band",
+        "url": "https://www.band.com.br/politica/novo-lanca-candidatura-de-paulo-martins-a-presidencia-da-camara"
+      },
+      {
+        "nome": "Gazeta do Povo",
+        "url": "https://www.gazetadopovo.com.br/republica/deputado-do-pl-lanca-candidatura-propria-para-disputar-comando-da-camara-em-2027/"
+      },
+      {
+        "nome": "Revista Oeste",
+        "url": "https://revistaoeste.com/politica/sou-candidato-a-presidencia-da-camara-afirma-luiz-philippe-de-orleans-e-braganca/"
+      },
       {
         "nome": "NSC Total",
         "url": "https://www.nsctotal.com.br/politica/nikolas-ferreira-se-dispoe-a-disputar-presidencia-da-camara-e-ameaca-deixar-pl-se-apoiarem-hugo-motta-insustentavel"
