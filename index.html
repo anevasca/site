@@ -249,7 +249,7 @@ window.addEventListener("hashchange",function(){if(window.goatcounter&&window.go
 <div class="wrap">
   <div class="topo">
     <span id="topo-data"></span>
-    <span><span class="ao-vivo">● Edição do dia</span> &nbsp;·&nbsp; <span id="topo-atual"></span></span>
+    <span><span class="ao-vivo">● Edição do dia</span> &nbsp;·&nbsp; <span id="topo-atual"></span><span id="topo-leituras"></span></span>
   </div>
 
   <header class="masthead">
@@ -542,7 +542,7 @@ window.addEventListener("hashchange",function(){if(window.goatcounter&&window.go
     h += '<p class="migalha"><a href="'+linkCapa(ed)+'">Capa</a> › <a href="'+linkSecao(ed,a.aba)+'">'+SECOES[a.aba].nome+'</a></p>';
     h += a.editorial ? '<div class="selo"><span>Editorial</span><em>Opinião do jornal</em></div>' : '<p class="kicker">'+esc(a.secao)+'</p>';
     h += '<h1>'+esc(a.titulo)+'</h1>' + (a.fina ? '<p class="fina">'+esc(a.fina)+'</p>' : '');
-    h += '<p class="assinatura">'+(a.editorial?"Editorial":"Da redação")+' · '+esc(ed.dataExtenso)+(a.hora?' · Publicado às '+esc(a.hora):'')+'</p>';
+    h += '<p class="assinatura">'+(a.editorial?"Editorial":"Da redação")+' · '+esc(ed.dataExtenso)+(a.hora?' · Publicado às '+esc(a.hora):'')+'<span id="leituras-mat"></span></p>';
     if(a.img && a.img.arquivo) h += '<figure class="foto"><img src="'+esc(a.img.arquivo)+'" alt="'+esc(a.img.legenda||a.titulo)+'" loading="lazy"><figcaption>'+esc(a.img.legenda||"")+(a.img.credito?' <span>'+esc(a.img.credito)+'</span>':'')+'</figcaption></figure>';
     h += grafico(a.graf) + '<div class="corpo">'+ps(a.texto)+'</div>';
     if(a.editorial) h += '<p class="nota">Este texto expressa a posição editorial de A Nevasca.</p>';
@@ -551,6 +551,19 @@ window.addEventListener("hashchange",function(){if(window.goatcounter&&window.go
     h += '<section class="secao mais-edicao"><h3>Mais nesta edição</h3><ul>' + outras.map(function(x){
       return '<li><span class="kicker'+(x.editorial?"":" azul")+'">'+esc(x.secao)+'</span><a href="#'+x.id+'">'+esc(x.titulo)+'</a></li>'; }).join("") + '</ul></section>';
     document.getElementById("conteudo").innerHTML = h;
+    contador("/#" + a.id, "leituras-mat", " · Lida ", "vez", "vezes");
+  }
+
+  // ---------- CONTADOR DE LEITURAS (GoatCounter) ----------
+  function contador(caminho, idEl, antes, sing, plur){
+    fetch("https://anevasca.goatcounter.com/counter/" + encodeURIComponent(caminho) + ".json")
+      .then(function(r){ return r.ok ? r.json() : null; })
+      .then(function(d){
+        var el = document.getElementById(idEl); if(!el || !d || d.count == null) return;
+        var n = String(d.count).replace(/[\s\u202f,]/g, "");
+        var num = parseInt(n, 10); if(!num) return;
+        el.textContent = antes + num.toLocaleString("pt-BR") + " " + (num === 1 ? sing : plur);
+      }).catch(function(){});
   }
 
   var listaColunas = null;
@@ -708,6 +721,7 @@ window.addEventListener("hashchange",function(){if(window.goatcounter&&window.go
   document.getElementById("ano").textContent = new Date().getFullYear();
   window.addEventListener("hashchange", rota);
   rota();
+  contador("TOTAL", "topo-leituras", " · ", "leitura", "leituras");
 })();
 </script>
 </body>
