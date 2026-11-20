@@ -1,0 +1,565 @@
+{
+ "data": "2026-11-21",
+ "dataExtenso": "Sábado, 21 de novembro de 2026",
+ "numero": 4,
+ "atualizadoEm": "20/11/2026, 20h53 (Brasília)",
+ "indicadores": [
+  {
+   "rotulo": "Dólar",
+   "valor": "R$ 5,93",
+   "nota": "fechamento de 19/nov; B3 fechada no feriado de 20/nov"
+  },
+  {
+   "rotulo": "Ibovespa",
+   "valor": "166.376 pts",
+   "nota": "último pregão, 19/nov (−0,69%)"
+  },
+  {
+   "rotulo": "Nasdaq",
+   "valor": "−5,28%",
+   "nota": "22.617 pts em 20/nov; pior queda do ano"
+  },
+  {
+   "rotulo": "VIX (medo)",
+   "valor": "35,89",
+   "nota": "+26% em 20/nov, máxima do ano"
+  }
+ ],
+ "manchete": {
+  "secao": "STF",
+  "titulo": "Dino vota para fazer de Van Hattem réu, e Zanin puxa o caso para o julgamento presencial",
+  "linhaFina": "O pedido de destaque tira a denúncia por calúnia e injúria do plenário virtual e garante a sustentação oral que a defesa pedia; o deputado elogiou o gesto, mas diz que o processo “já é nulo”. Ainda não há data.",
+  "texto": [
+   "O ministro Flávio Dino, relator e presidente da Primeira Turma do Supremo Tribunal Federal, votou na sexta-feira (20) para receber a denúncia da Procuradoria-Geral da República contra o deputado Marcel van Hattem (Novo-RS) por calúnia e injúria contra o delegado da Polícia Federal Fábio Shor. Horas depois, o ministro Cristiano Zanin pediu destaque e interrompeu o julgamento, que corria no plenário virtual e iria até 30 de novembro. Com isso, o caso vai para uma sessão presencial da Turma, ainda sem data, segundo a Gazeta do Povo, a Revista Oeste e o Correio Braziliense.",
+   "A mudança atende ao que a defesa vinha pedindo. Na sessão física, os advogados poderão fazer sustentação oral diante dos ministros, com transmissão ao vivo pelo canal do STF no YouTube, informou a Gazeta do Povo. Cabe a Dino, como presidente da Turma, marcar a data. Além dele e de Zanin, votam Alexandre de Moraes e Cármen Lúcia. Para Van Hattem virar réu, são necessários mais dois votos pelo recebimento da denúncia; nesse caso, abre-se uma ação penal, ao fim da qual ele pode ser condenado ou absolvido.",
+   "O deputado, que foi eleito senador em outubro segundo a Gazeta do Povo, reagiu em vídeo nas redes. “O ministro Zanin fez o que era correto”, disse. Mas manteve a tese central da defesa: para ele, o caso nem deveria estar no Supremo, porque o que se discute é a fala de um parlamentar na tribuna, e “esse julgamento já é nulo de pleno direito”. Van Hattem também cobrou dos presidentes da Câmara, Hugo Motta (Republicanos-PB), e do Senado, Davi Alcolumbre (União-AP), uma manifestação pública em defesa da imunidade parlamentar.",
+   "No voto, Dino entendeu que a imunidade não impede, nesta fase, que a acusação siga adiante. Para o relator, as manifestações do deputado “aparentemente, não se limitaram à crítica política” nem à atuação funcional do delegado. Ele também considerou que a replicação das falas em redes sociais, com vídeos e legendas próprias, não permite reconhecer de imediato a proteção constitucional. Sobre a alegação de que o deputado disse a verdade, Dino afirmou que o ponto poderá ser examinado no processo criminal.",
+   "A denúncia tem origem num discurso de 14 de agosto de 2024, na Câmara. Van Hattem acusou Shor de produzir relatórios fraudulentos contra pessoas inocentes, entre elas Filipe Martins, ex-assessor de Jair Bolsonaro. Segundo a PGR, citada pela Gazeta do Povo e pelo Metrópoles, o deputado exibiu a foto do delegado, disse que ele agia “como bandido” e, dois dias depois, repetiu o ataque nas redes. Para a Procuradoria, a imunidade foi usada de forma abusiva, e os documentos sobre a situação migratória de Martins não mostram que o delegado tenha fabricado prova.",
+   "A defesa sustenta o contrário. Shor assinou, em janeiro de 2024, o pedido de prisão de Martins na investigação sobre a suposta trama golpista, apoiado num registro de entrada do ex-assessor nos Estados Unidos em 30 de dezembro de 2022, por Orlando. Martins estava em Ponta Grossa (PR), e a própria agência americana de fronteiras confirmou depois que o registro era falso. Moraes revogou a prisão em agosto de 2024. Os advogados dizem que as críticas do deputado se apoiaram nesse comunicado e estão protegidas pelo artigo 53 da Constituição, que torna parlamentares invioláveis por suas opiniões, palavras e votos.",
+   "Se a denúncia for recebida, o deputado responderá por calúnia, cuja pena vai de seis meses a dois anos de prisão, além de multa, e por injúria, com pena de até seis meses, segundo a Gazeta do Povo. A PGR aponta agravantes por a ofensa ter sido dirigida a funcionário público e replicada nas redes. No caso da calúnia, o Código Penal deixa de punir quem provar que falou a verdade, e é justamente esse o terreno em que a defesa pretende travar a disputa.",
+   "O pedido de destaque veio um dia depois de Dino negar a sessão presencial solicitada pela defesa e pela OAB, como esta edição registrou na sexta. Na véspera do voto, em entrevista ao programa Última Análise, da Gazeta do Povo, Van Hattem disse que a oposição vai insistir em pedidos de impeachment de ministros do Supremo no Senado. “Vamos realizar, sim, o impeachment de ministros”, afirmou. Ele disse ainda que vai ajudar a eleger Rogério Marinho (PL-RN) para a presidência do Senado.",
+   "O próximo passo é a definição da data da sessão presencial, que depende da pauta da Primeira Turma. Até lá, o voto de Dino fica registrado, mas a votação deve recomeçar no plenário físico, com a sustentação oral da defesa. O caso é acompanhado de perto no Congresso porque discute até onde vai a imunidade de quem fala da tribuna, tema que costuma unir parlamentares de partidos diferentes."
+  ],
+  "fontes": [
+   {
+    "nome": "Gazeta do Povo",
+    "url": "https://www.gazetadopovo.com.br/republica/zanin-paralisa-julgamento-sobre-van-hattem-e-denuncia-sera-analisada-em-sessao-presencial/"
+   },
+   {
+    "nome": "Gazeta do Povo",
+    "url": "https://www.gazetadopovo.com.br/republica/dino-vota-por-tornar-marcel-van-hattem-reu-por-calunia-contra-fabio-shor/"
+   },
+   {
+    "nome": "Gazeta do Povo",
+    "url": "https://www.gazetadopovo.com.br/republica/zanin-fez-correto-diz-van-hattem-julgamento-stf/"
+   },
+   {
+    "nome": "Gazeta do Povo",
+    "url": "https://www.gazetadopovo.com.br/republica/vamos-fazer-impeachment-de-ministros-diz-van-hattem/"
+   },
+   {
+    "nome": "Revista Oeste",
+    "url": "https://revistaoeste.com/politica/zanin-interrompe-julgamento-virtual-de-marcel-van-hattem-no-stf-caso-vai-para-sessao-presencial/"
+   },
+   {
+    "nome": "Correio Braziliense",
+    "url": "https://www.correiobraziliense.com.br/politica/2026/11/7541831-zanin-leva-denuncia-contra-van-hattem-a-julgamento-presencial-no-stf.html"
+   },
+   {
+    "nome": "Metrópoles",
+    "url": "https://www.metropoles.com/colunas/manoela-alcantara/dino-vota-para-tornar-marcel-van-hattem-reu-por-calunia-contra-delegado"
+   }
+  ]
+ },
+ "destaques": [
+  {
+   "secao": "Mercados",
+   "titulo": "Anthropic perde fôlego, Nasdaq desaba 5,28% e S&P 500 e Dow entram em correção",
+   "linhaFina": "Um dia depois da maior estreia da história da bolsa, a ação da dona do Claude caiu mais de 8%, a Nvidia afundou perto de 14% e o S&P 500 emendou a sétima queda seguida.",
+   "resumo": "Wall Street teve na sexta (20) um dos piores dias do ano: Nasdaq −5,28%, S&P 500 −3,70% e Dow Jones −1,93%. S&P e Dow ficaram mais de 10% abaixo das máximas. A venda foi puxada por ações de inteligência artificial, com a Anthropic devolvendo parte da alta da estreia.",
+   "texto": [
+    "As bolsas de Nova York tiveram na sexta-feira (20) um dos piores pregões do ano. O Nasdaq, índice das empresas de tecnologia, caiu 5,28%, para 22.617 pontos. O S&P 500 recuou 3,70%, para 6.910 pontos, e o Dow Jones perdeu 1,93%, para 48.147 pontos. Com isso, o S&P 500 e o Dow entraram em correção, jargão do mercado para quedas de mais de 10% em relação às máximas de fechamento, segundo a Reuters, publicada pelo Terra, e a agência EFE, publicada pela CNN Portugal.",
+    "A venda se concentrou nas ações ligadas à inteligência artificial. A Anthropic, que estreou na Nasdaq na quinta (19) com a maior oferta de ações da história, de US$ 93,5 bilhões incluindo o lote suplementar, caiu entre 8,5% e 9,1% na sexta, conforme a fonte. Na estreia, a ação tinha saído de US$ 83 na oferta para fechar a US$ 97,17. A Nvidia, que divulgou balanço forte na semana, recuou perto de 14%. Intuit, CoreWeave, AMD, Broadcom e Micron caíram mais de 12%.",
+    "Analistas citados pela Reuters disseram que parte do mercado esperava que a estreia da Anthropic servisse de ponto de apoio para o setor, o que não aconteceu. Pesam também o ceticismo com os gastos bilionários em data centers e o medo de juros mais altos nos EUA: os contratos futuros já precificavam quase certeza de uma alta de 0,25 ponto pelo Federal Reserve em dezembro. “Este é claramente um dia desafiador”, disse Bill Northey, do US Bank.",
+    "O S&P 500 acumulou a sétima queda seguida, a maior sequência desde fevereiro de 2020, segundo a Reuters. Na semana, de acordo com a EFE, o Nasdaq perdeu 10%, o S&P 500, 9%, e o Dow, 8%. O índice VIX, conhecido como “indicador do medo”, subiu 26%, para 35,89 pontos, o maior nível do ano. O petróleo Brent caiu 1,3%, para US$ 91,95, segundo a iHeartRadio.",
+    "A B3 não abriu na sexta por causa do feriado da Consciência Negra, e o mercado brasileiro só sente o baque na segunda-feira (23), mesmo dia em que a Câmara deve votar o ajuste fiscal. O dólar fechou a quinta a R$ 5,93, depois de seis altas seguidas. Lá fora, os investidores aguardam novos dados de inflação e a reunião do Fed de dezembro."
+   ],
+   "fontes": [
+    {
+     "nome": "Terra (Reuters)",
+     "url": "https://www.terra.com.br/economia/wall-st-fecha-em-forte-queda-com-vendas-no-setor-de-ia-sp-500-e-dow-jones-entram-em-correcao,f6d51a4305695f2eccb3a52b5e9a593dzsff0861.html"
+    },
+    {
+     "nome": "CNN Portugal (EFE)",
+     "url": "https://cnnportugal.iol.pt/nasdaq/nvidia/sexta-feira-negra-para-o-setor-tecnologico-com-o-nasdaq-a-cair-5-28-indicador-do-medo-dispara/20261120/6b00d0c70cf22114c91285be"
+    },
+    {
+     "nome": "Jornal Económico",
+     "url": "https://jornaleconomico.sapo.pt/noticias/estreia-da-anthropic-em-bolsa-perde-forca-e-arrasta-wall-street-para-o-vermelho-com-nasdaq-a-ceder-mais-de-5/"
+    },
+    {
+     "nome": "iHeartRadio",
+     "url": "https://www.iheart.com/content/2026-11-20-stocks-plunge-marking-five-day-losing-streak/"
+    }
+   ],
+   "grafico": {
+    "tipo": "barras",
+    "titulo": "A sexta-feira em Wall Street",
+    "subtitulo": "Variação dos índices no dia 20/11, em %",
+    "prefixo": "",
+    "sufixo": "%",
+    "casas": 2,
+    "dados": [
+     {
+      "rotulo": "Dow Jones",
+      "valor": -1.93
+     },
+     {
+      "rotulo": "S&P 500",
+      "valor": -3.7
+     },
+     {
+      "rotulo": "Nasdaq",
+      "valor": -5.28,
+      "destaque": true
+     }
+    ],
+    "fonte": {
+     "nome": "Reuters (via Terra) e EFE (via CNN Portugal)",
+     "url": "https://www.terra.com.br/economia/wall-st-fecha-em-forte-queda-com-vendas-no-setor-de-ia-sp-500-e-dow-jones-entram-em-correcao,f6d51a4305695f2eccb3a52b5e9a593dzsff0861.html"
+    }
+   }
+  },
+  {
+   "secao": "Contas públicas",
+   "titulo": "Câmara vota na segunda o ajuste do Senado sem mudar uma vírgula; mercado esperava o dobro",
+   "linhaFina": "O relator Mauro Benevides Filho manteve o texto para evitar a volta ao Senado; o efeito estimado é de R$ 45 bilhões a R$ 50 bilhões em 2027, e a oposição fala em “calote”.",
+   "resumo": "Hugo Motta marcou para segunda (23) a votação do PLP do ajuste fiscal, aprovado pelo Senado por 69 a 2. O relator na Câmara não mudou o texto, para que siga direto à sanção. O governo estima economia de R$ 45,1 bi a R$ 50,1 bi em 2027; segundo a CNN, o mercado esperava ao menos o dobro.",
+   "texto": [
+    "A Câmara dos Deputados deve votar na segunda-feira (23), em sessão extraordinária convocada pelo presidente Hugo Motta (Republicanos-PB), o projeto de lei complementar do ajuste fiscal do governo Lula. O relator, Mauro Benevides Filho (União-CE), apresentou na noite de quinta (19) parecer sem mudanças de mérito no texto do Senado, aprovado por 69 votos a 2 na quarta (18). Se a Câmara não alterar nada, o projeto vai direto à sanção, segundo a CNN Brasil e o Correio Braziliense, publicado pelo Estado de Minas.",
+    "O texto limita a 2% ao ano, a partir de 2027, o crescimento das despesas quando houver contingenciamento; hoje o teto é de 2,5%. Também obriga o governo a perseguir o centro da meta fiscal, e não apenas o piso, dobra de 10% para 20% o corte de benefícios fiscais em setores escolhidos e restringe a compensação de créditos tributários entre tributos diferentes, principal ponto de atrito com empresários. Os repasses da Lei Kandir sobem de R$ 1 bilhão para R$ 2 bilhões por ano entre 2027 e 2030, e o Congresso terá 60 dias para definir limites aos supersalários.",
+    "O impacto estimado pelo Executivo depois das mudanças no Senado fica entre R$ 45,1 bilhões e R$ 50,1 bilhões em 2027, segundo a CNN Brasil, que diz que o mercado esperava ao menos o dobro. No Senado, a oposição perdeu por 47 a 30 a proposta de Rogério Marinho (PL-RN) de reduzir de 2% para 0,6% o limite de crescimento das despesas. Marinho comparou a medida a uma pedalada fiscal e falou em “calote”. Segundo o Correio Braziliense, o texto também deixa R$ 10,5 bilhões da subvenção ao diesel fora do cálculo da meta deste ano.",
+    "Benevides disse na terça (17) que os líderes querem aprovar o texto sem modificações. “Vamos aprovar, acho que o mercado está esperando essa aprovação”, afirmou, segundo a CNN Brasil. Motta chamou o pacote de “primeiro passo” e defendeu um ajuste mais robusto. No PT, o vice-líder Lindbergh Farias (RJ) criticou a mudança no cálculo do piso da saúde, e a Frente Parlamentar da Agropecuária quer discutir riscos ao seguro rural.",
+    "A votação está prevista para as 18h e depende da aprovação de um pedido de urgência, para que o projeto vá direto ao plenário, e de quórum de 257 deputados, exigido para lei complementar. A CNN Brasil ressalva que a votação na segunda não está garantida. O governo tem pressa porque o ajuste é a base do Orçamento de 2027, e o dólar fechou a quinta a R$ 5,93, depois de seis altas seguidas, segundo o Economic News Brasil."
+   ],
+   "fontes": [
+    {
+     "nome": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/politica/ajuste-fiscal-chega-a-camara-sob-pressao-apos-resistencias-no-senado/"
+    },
+    {
+     "nome": "Estado de Minas (Correio Braziliense)",
+     "url": "https://www.em.com.br/politica/2026/11/7541168-ajuste-fiscal-apos-aval-do-senado-projeto-vai-a-camara-na-segunda.html"
+    },
+    {
+     "nome": "A Crítica (com CNN Brasil)",
+     "url": "https://acritica.net/economia/ajuste-fiscal-camara-votacao-segunda-relator-sem-mudancas-lei-kandir-ms/"
+    },
+    {
+     "nome": "Economic News Brasil",
+     "url": "https://economicnewsbrasil.com.br/2026/11/20/cotacao-do-dolar-focus-mercado/"
+    }
+   ]
+  },
+  {
+   "secao": "Banco Central",
+   "titulo": "Galípolo ligou para a PF com medo de que Vorcaro fugisse, revela depoimento",
+   "linhaFina": "Ao depor como testemunha, o presidente do BC contou que achou “muito estranho” o pedido urgente de reunião feito pelo Master no dia em que o banqueiro acabou preso.",
+   "resumo": "O presidente do Banco Central, Gabriel Galípolo, disse à Polícia Federal que telefonou para a corporação para alertar sobre o risco de fuga de Daniel Vorcaro, do Banco Master. O alerta foi motivado por um pedido urgente de reunião do banco em 17 de novembro de 2025, dia da primeira prisão do banqueiro.",
+   "texto": [
+    "O presidente do Banco Central, Gabriel Galípolo, disse à Polícia Federal que telefonou para a corporação para avisar sobre a possibilidade de fuga do banqueiro Daniel Vorcaro, dono do Banco Master. O relato está no depoimento que Galípolo prestou como testemunha em 7 de outubro de 2026, revelado nesta sexta-feira (20) pela CNN Brasil e confirmado pelo Correio Braziliense, publicado pelo Estado de Minas, pelo Times Brasil e pela Revista Oeste.",
+    "Segundo o depoimento, o alerta foi motivado por um pedido urgente de reunião feito pelo Master ao BC em 17 de novembro de 2025, dia em que Vorcaro foi preso pela primeira vez. Pela síntese da PF, o encontro trataria de supostos investidores árabes. Galípolo disse que o pedido “soa de maneira muito estranha” e que, por isso, procurou a polícia. Segundo a Gazeta do Povo, Vorcaro foi detido no aeroporto de Guarulhos quando tentava embarcar num jato particular para Dubai.",
+    "Galípolo também contou que restringiu a poucas pessoas as discussões sobre a liquidação do Master, por suspeitar que informações internas chegavam à direção do banco. Segundo ele, representantes do Master costumavam procurar o BC logo depois de reuniões reservadas, trecho que o Times Brasil atribui a reportagem do Poder360.",
+    "Depois da prisão, a defesa de Vorcaro pediu ao BC uma certidão sobre a reunião, usada em seguida para pedir a soltura do banqueiro. O documento foi assinado por Paulo Sérgio Neves de Souza, então chefe-adjunto do Departamento de Supervisão Bancária. Galípolo considerou o conteúdo fora do padrão e mandou o servidor sair de férias. A defesa de Souza afirma que ele consultou a Procuradoria do BC e mandou a minuta ao diretor de Fiscalização, Ailton de Aquino, antes de assinar.",
+    "No mesmo dia do depoimento, a PF pediu ao BC o requerimento original da defesa, a certidão e eventual processo administrativo sobre o caso. O inquérito do Master também alcança o Supremo: na quarta (18), a PF entregou ao presidente do STF, Edson Fachin, relatórios sobre ministros citados nas mensagens de Vorcaro, que estão sob análise da Procuradoria-Geral da República."
+   ],
+   "fontes": [
+    {
+     "nome": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/politica/galipolo-diz-que-avisou-pf-sobre-possibilidade-de-fuga-de-vorcaro/"
+    },
+    {
+     "nome": "Estado de Minas (Correio Braziliense)",
+     "url": "https://www.em.com.br/politica/2026/11/7541823-galipolo-alertou-pf-sobre-risco-de-fuga-de-vorcaro-antes-de-prisao.html"
+    },
+    {
+     "nome": "Times Brasil (CNBC)",
+     "url": "https://timesbrasil.com.br/brasil/caso-master-galipolo-diz-a-pf-ter-alertado-sobre-risco-de-fuga-de-vorcaro/"
+    },
+    {
+     "nome": "Revista Oeste",
+     "url": "https://revistaoeste.com/politica/galipolo-diz-que-alertou-a-pf-sobre-risco-de-fuga-de-vorcaro/"
+    }
+   ]
+  }
+ ],
+ "editorial": {
+  "titulo": "Ajuste pela metade, conta inteira",
+  "texto": [
+   "Na segunda-feira, a Câmara deve votar o ajuste fiscal do governo exatamente como saiu do Senado, sem trocar uma vírgula, para que o texto vá logo à sanção. A pressa tem explicação: o dólar subiu seis pregões seguidos e encostou em R$ 5,93, e o Orçamento de 2027 precisa de chão. Mas convém olhar o que se está aprovando. As estimativas oficiais ficam entre R$ 45 bilhões e R$ 50 bilhões no ano que vem. O mercado, segundo a CNN, esperava ao menos o dobro. O presidente da Câmara chamou o pacote de “primeiro passo”. Tem razão; o problema é que o governo o vende como a caminhada inteira.",
+   "A tradição reformada sempre tratou o dinheiro público como coisa alheia confiada a mordomos. O magistrado, diz Paulo, é ministro de Deus para o bem (Rm 13.4), e não há bem nenhum em empurrar a conta para os filhos de quem hoje paga imposto. Jesus perguntou quem, querendo construir uma torre, não se senta antes para calcular a despesa (Lc 14.28). Brasília inverteu a ordem: primeiro ergue a torre, depois descobre que faltou tijolo e manda a fatura para estados, municípios e empresas.",
+   "É o que se vê no texto. Limita-se o crescimento da despesa a 2% ao ano, mas só quando houver contingenciamento. Tiram-se R$ 10,5 bilhões da subvenção do diesel do cálculo da meta. Restringe-se a compensação de créditos tributários, mexendo no caixa de quem produz, enquanto o gasto da máquina fica praticamente intocado. A oposição propôs um limite de 0,6% e perdeu por 47 a 30. Pode-se discordar do número, mas não da direção: quem não corta na própria casa acaba cortando no bolso do vizinho, e chamar isso de ajuste é como chamar de dieta trocar o refrigerante por refrigerante zero e dobrar a pizza.",
+   "Nada disso é motivo para torcer pelo fracasso; um país com contas em ordem é bom para todos, inclusive para quem não votou no governo. Mas é motivo para exigir mais. Os deputados que votarem o texto na segunda deveriam fazê-lo sabendo que assinam uma promissória, não uma quitação, e cobrar já o segundo passo: limite real ao gasto obrigatório, revisão séria de benefícios e fim dos supersalários, que o próprio projeto manda o Congresso enfrentar em 60 dias. A direita, que tem a maior bancada da próxima legislatura, tem a obrigação de apresentar esse caminho com números, e não só com discursos. Responsabilidade fiscal não é bandeira de mercado; é respeito ao trabalho de quem paga a conta."
+  ]
+ },
+ "politica": [
+  {
+   "secao": "Câmara",
+   "titulo": "PL sonda aliado de Motta para enfrentar Motta, e Nikolas diz que sai do partido se a sigla apoiar a reeleição",
+   "linhaFina": "Deputados do PL levaram a Valdemar o nome de Pedro Lupion, do Republicanos e chefe da bancada do agro; ele não se animou, e o presidente da Câmara já soma partidos com 361 dos 513 votos.",
+   "resumo": "Lideranças do PL que rejeitam aliança com Hugo Motta procuraram Pedro Lupion (Republicanos-PR), presidente da Frente Parlamentar da Agropecuária, para disputar a presidência da Câmara, segundo o Metrópoles. Lupion não deu resposta. Nikolas Ferreira repetiu que apoio a Motta tornaria “insustentável” sua permanência no PL.",
+   "texto": [
+    "Deputados do PL contrários a uma aliança com Hugo Motta (Republicanos-PB) procuraram o deputado Pedro Lupion (Republicanos-PR), presidente da Frente Parlamentar da Agropecuária, para que ele dispute a presidência da Câmara contra o colega de partido. A informação é da coluna de Igor Gadelha, no Metrópoles, reproduzida pelo Brasil 247. Segundo a coluna, a ideia já foi levada ao presidente nacional do PL, Valdemar Costa Neto. A eleição está marcada para 1º de fevereiro de 2027.",
+    "Lupion não deu resposta definitiva e viajou para a COP31, na Turquia. Aliados dizem que ele não está animado, porque avaliam que uma candidatura contra Motta não teria viabilidade. O deputado também foi sondado para uma secretaria no governo de Sergio Moro (PL), que assume o Paraná em 6 de janeiro. Em outubro, segundo o portal O Paraná, interlocutores do PL ligados a Flávio Bolsonaro já tinham cogitado o nome dele.",
+    "Motta é o favorito. Ele tem o apoio declarado de 15 partidos, que somam 361 dos 513 deputados, entre eles Republicanos, União, PP, PSD, MDB e PT, segundo O Paraná. Do outro lado, já estão lançados Paulo Martins (Novo-PR), oficializado na quarta (18), e Luiz Philippe de Orléans e Bragança (PL-SP), que anunciou candidatura na terça (17). Zé Trovão (PL-SC) admite concorrer.",
+    "O PL, maior bancada eleita, com 121 deputados, ainda não decidiu se apoia Motta e resolveu consultar os parlamentares um a um. Nikolas Ferreira (PL-MG), reeleito com cerca de 3,1 milhões de votos, disse à rádio 98 News que o apoio à reeleição de Motta “deixaria insustentável a minha permanência no partido”, segundo O Tempo. Ele critica Motta por ter apoiado a reeleição de Lula e defende candidatura própria do PL.",
+    "Valdemar chegou a dizer ao jornal O Globo que uma candidatura de Nikolas, aos 30 anos, seria “loucura”, e depois divulgou nota elogiando o deputado como um dos quadros mais preparados do partido. Em Minas, o PL oficializou na quinta (19) a nova direção estadual, presidida pelo deputado estadual Antônio Carlos Arantes, com aliados de Nikolas em postos estratégicos, segundo O Tempo. A decisão nacional do PL sobre a Câmara segue sem data."
+   ],
+   "fontes": [
+    {
+     "nome": "Metrópoles (coluna Igor Gadelha)",
+     "url": "https://www.metropoles.com/colunas/igor-gadelha/pl-tenta-convencer-deputado-do-republicanos-a-concorrer-contra-motta"
+    },
+    {
+     "nome": "Brasil 247 (com Metrópoles)",
+     "url": "https://www.brasil247.com/brasil/pl-tenta-emplacar-pedro-lupion-na-disputa-contra-hugo-motta/"
+    },
+    {
+     "nome": "O Paraná",
+     "url": "https://oparana.com.br/politica/paranaenses-desafiam-favoritismo-de-hugo-motta-na-corrida-pela-camara/"
+    },
+    {
+     "nome": "O Tempo",
+     "url": "https://www.otempo.com.br/politica/2026/11/20/pl-oficializa-novo-presidente-e-aliados-de-nikolas-assumem-cadeiras-estrategicas-em-minas"
+    }
+   ]
+  },
+  {
+   "secao": "STF",
+   "titulo": "Moraes vota para manter Flávio sem passaporte e diz que o senador “evadiu-se” do país",
+   "linhaFina": "O relator rejeitou o recurso da defesa no plenário virtual da Primeira Turma, que vai até 30 de novembro; Flávio está nos EUA desde que cruzou a fronteira com a Argentina, em outubro.",
+   "resumo": "Alexandre de Moraes votou para negar o recurso de Flávio Bolsonaro (PL-RJ) e manter o cancelamento dos passaportes, a proibição de deixar o país e o veto a contato com o advogado Willer Tomaz. Para o ministro, a saída do senador para os EUA confirma a necessidade das medidas. Os demais votos vão até 30/11.",
+   "texto": [
+    "O ministro Alexandre de Moraes votou na sexta-feira (20) para rejeitar o recurso do senador Flávio Bolsonaro (PL-RJ) e manter o cancelamento de seus passaportes, a proibição de deixar o país e o veto a contato com o advogado Willer Tomaz. O julgamento ocorre no plenário virtual da Primeira Turma do STF e vai até as 23h59 de 30 de novembro, segundo a Gazeta do Povo e o Metrópoles. Até a noite de sexta, só o relator tinha votado.",
+    "No voto, Moraes afirma que, “conforme fato notório, o investigado evadiu-se do território nacional”, e que Flávio deixou o país sem entregar os documentos de viagem exigidos. Para o ministro, isso reforça a necessidade das medidas para garantir a aplicação da lei penal e preservar as investigações. A Revista Oeste destacou que Moraes associou a ida do senador aos EUA a uma tentativa de obstruir a apuração. A PGR também se manifestou contra o recurso.",
+    "As medidas foram pedidas pela Polícia Federal em 25 de outubro, horas depois da proclamação do resultado da eleição, numa investigação sobre suspeita de lavagem de dinheiro e evasão de divisas que envolve Tomaz e empresas de apostas. A PF cita viagens de Flávio e familiares pagas por empresas ligadas ao advogado e declarações de Eduardo Bolsonaro defendendo que o irmão deixasse o país. Moraes cancelou os passaportes comum e diplomático. Na noite de 27 de outubro, Flávio cruzou a fronteira com a Argentina e seguiu para Miami, segundo a Gazeta do Povo.",
+    "A defesa pede a revogação de todas as medidas, a devolução dos passaportes e o afastamento de Moraes do caso, com a transferência para André Mendonça, segundo O Antagonista. Os advogados citam resposta do Santander de que Flávio não era sócio, titular nem usuário das contas investigadas, dizem que as falas sobre deixar o país foram de Eduardo, e não do senador, e lembram que Tomaz viajou ao exterior antes das restrições. Tomaz nega irregularidades.",
+    "Votam ainda os ministros Cristiano Zanin, Flávio Dino e Cármen Lúcia, presidente da Turma, que pautou o caso. Se algum deles pedir vista ou destaque, o julgamento é suspenso; até agora, nenhuma das reportagens registra esse movimento. A PF afirmou, quando o senador deixou o país, que não havia ordem de prisão contra ele."
+   ],
+   "fontes": [
+    {
+     "nome": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/republica/moraes-vota-para-manter-passaportes-cancelados-e-restricoes-a-flavio-bolsonaro/"
+    },
+    {
+     "nome": "Metrópoles",
+     "url": "https://www.metropoles.com/colunas/manoela-alcantara/moraes-vota-para-negar-recurso-e-manter-flavio-bolsonaro-sem-passaportes"
+    },
+    {
+     "nome": "Revista Oeste",
+     "url": "https://revistaoeste.com/politica/moraes-mantem-restricoes-e-diz-que-ida-de-flavio-aos-eua-e-para-obstruir-investigacao/"
+    },
+    {
+     "nome": "O Antagonista",
+     "url": "https://oantagonista.com.br/brasil/stf-pauta-recurso-de-flavio-contra-apreensao-de-passaportes/"
+    }
+   ]
+  },
+  {
+   "secao": "Caso Master",
+   "titulo": "Mendonça abre mão do sigilo, e PF não acha conversa dele com Vorcaro; relatórios de outros três ministros seguem fechados",
+   "linhaFina": "O documento lista 11 menções ao ministro feitas por terceiros e mostra votos contra interesses do Master; os textos sobre Moraes, Toffoli e Kassio continuam sob segredo, e a PGR tem 15 dias para decidir.",
+   "resumo": "A pedido de André Mendonça, Fachin tornou público o relatório da PF sobre menções ao ministro no celular de Daniel Vorcaro. A PF diz não ter achado registro de diálogo direto entre os dois. Os relatórios sobre Moraes, Toffoli e Kassio Nunes Marques seguem sob sigilo; a PGR decide se pede investigação.",
+   "texto": [
+    "O presidente do STF, Edson Fachin, tornou público na sexta-feira (20) o relatório da Polícia Federal sobre as menções ao ministro André Mendonça encontradas no celular de Daniel Vorcaro, dono do Banco Master. A divulgação foi pedida pelo próprio Mendonça na manhã de sexta. A conclusão central da PF é que não foram encontrados registros de conversa direta entre o banqueiro e o ministro, segundo a CNN Brasil, a Gazeta do Povo e a Revista Oeste.",
+    "Os investigadores ressalvam que a busca foi feita por palavras-chave e “não pode ser considerada exaustiva”, segundo a CNN Brasil. De acordo com a Folha de S.Paulo, reproduzida pelo Brasil 247, Mendonça aparece em 11 passagens, sempre citado por terceiros, como o ex-ministro Fábio Faria, o deputado Cezinha de Madureira (PL-SP) e advogados ligados ao banco.",
+    "Em vários trechos, o ministro aparece votando contra o que Vorcaro queria. Em fevereiro de 2024, num julgamento sobre cursos de medicina que interessava ao Master, Vorcaro repassou a Faria a mensagem de que Mendonça “foi contra”, segundo a Gazeta do Povo. No caso de precatórios do setor sucroalcooleiro, o ministro também votou contra o banco. Ele divulgou notas fiscais de R$ 26.430 para mostrar que pagou roupas feitas numa alfaiataria citada em áudio de um advogado. Mendonça diz ter recebido Vorcaro uma única vez, num encontro marcado por Cezinha em março de 2025, e que apenas o ouviu.",
+    "A pergunta que fica é sobre os outros. A PF entregou a Fachin, na quarta (18), dez relatórios, um por ministro, e Fachin enviou quatro à Procuradoria-Geral da República. Os relatórios sobre Alexandre de Moraes, Dias Toffoli e Kassio Nunes Marques seguem sob sigilo, segundo a Gazeta do Povo.",
+    "O procurador-geral Paulo Gonet tem 15 dias para avaliar se pede investigação sobre os ministros, novas diligências ou o arquivamento. No mesmo dia, Fachin manteve preso o policial federal aposentado Marilson Roseno da Silva, apontado pela PF como líder operacional de um grupo que vigiava adversários de Vorcaro, segundo a Gazeta do Povo."
+   ],
+   "fontes": [
+    {
+     "nome": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/blogs/teo-cury/politica/pf-diz-nao-ter-achado-registro-de-dialogo-direto-entre-mendonca-e-vorcaro/"
+    },
+    {
+     "nome": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/republica/fachin-retira-sigilo-de-relatorio-da-pf-sobre-vorcaro-e-andre-mendonca/"
+    },
+    {
+     "nome": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/republica/relatorio-da-pf-prova-que-andre-mendonca-contrariou-interesse-de-vorcaro-no-stf/"
+    },
+    {
+     "nome": "Revista Oeste",
+     "url": "https://revistaoeste.com/no-ponto/relatorio-da-pf-descarta-contato-entre-mendonca-e-vorcaro-no-caso-master/"
+    },
+    {
+     "nome": "Brasil 247 (com Folha de S.Paulo)",
+     "url": "https://www.brasil247.com/poder/relatorio-da-pf-diz-a-fachin-que-mendonca-nao-falou-com-vorcaro-e-foi-citado-em-onze-dialogos/"
+    }
+   ]
+  },
+  {
+   "secao": "STF",
+   "titulo": "Dino vota para pôr ex-ministro de Lula no banco dos réus por desvio de emendas da Codevasf",
+   "linhaFina": "A PGR acusa Juscelino Filho de comandar um grupo que desviou ao menos R$ 835,8 mil em obras de pavimentação numa cidade administrada pela irmã; a Primeira Turma vota até 30 de novembro.",
+   "resumo": "O ministro Flávio Dino votou para receber a denúncia contra o deputado Juscelino Filho (PSDB-MA), ex-ministro das Comunicações de Lula, e outros cinco acusados por organização criminosa, fraude em licitação, peculato e corrupção. A PGR aponta desvio de ao menos R$ 835,8 mil em obras da Codevasf no Maranhão.",
+   "texto": [
+    "O ministro Flávio Dino votou na sexta-feira (20) para receber integralmente a denúncia da Procuradoria-Geral da República contra o deputado Juscelino Filho (PSDB-MA), ex-ministro das Comunicações do governo Lula, e outros cinco acusados. Se a maioria da Primeira Turma acompanhar o relator, todos viram réus. O julgamento ocorre no plenário virtual até 30 de novembro, segundo a CNN Brasil, o Metrópoles, a CartaCapital e a Gazeta do Povo.",
+    "Juscelino é acusado de organização criminosa, com agravantes por exercer o comando e pela participação de funcionário público, além de fraude em licitação, peculato e corrupção ativa. Segundo a PGR, o grupo desviou ao menos R$ 835,8 mil em obras de pavimentação financiadas pela Codevasf, com emendas parlamentares, em Vitorino Freire (MA), cidade administrada à época pela irmã do deputado, Luanna Rezende. No voto, Dino fala em “grupo comandado pelo denunciado”, segundo a CartaCapital.",
+    "A CNN Brasil detalha um convênio de R$ 7,5 milhões para pavimentar 18,6 quilômetros entre os povoados de Furo e Jatobá. Segundo a PGR, parte do trecho passava por imóveis rurais dos irmãos, e havia uma pista de pouso às margens que atendia às propriedades de Juscelino. A denúncia diz que o dono da construtora, Eduardo José Barros Costa, depositou R$ 40 mil na conta de um fiscal da Codevasf, que depois liberou a primeira parcela, de R$ 1,5 milhão, quando a obra estava abaixo do percentual exigido.",
+    "As defesas questionaram a validade das provas digitais e alegaram falta de indícios, argumentos rejeitados pelo relator. Quando foi denunciado, em abril de 2025, Juscelino negou irregularidades e deixou o ministério dizendo que se dedicaria à defesa. A CNN Brasil procurou o deputado e os demais acusados depois do voto e não teve resposta até a publicação. As reportagens divergem sobre o cargo que ele ocupará a partir de 2027: a CNN fala em senador eleito, e a CartaCapital, em deputado reeleito.",
+    "Faltam votar Alexandre de Moraes, Cristiano Zanin e Cármen Lúcia. Se a denúncia for recebida, abre-se ação penal, com produção de provas e depoimentos, antes do julgamento do mérito. É o mesmo colegiado que, no mesmo dia, começou a analisar a denúncia contra Marcel van Hattem, caso que agora irá à sessão presencial."
+   ],
+   "fontes": [
+    {
+     "nome": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/politica/dino-vota-para-tornar-juscelino-filho-reu-por-suspeita-de-desvio-de-emendas/"
+    },
+    {
+     "nome": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/dino-vota-para-tornar-deputado-juscelino-filho-reu-por-desvio-de-emendas"
+    },
+    {
+     "nome": "CartaCapital",
+     "url": "https://www.cartacapital.com.br/justica/dino-vota-para-tornar-ex-ministro-juscelino-filho-reu-por-desvio-de-emendas/"
+    },
+    {
+     "nome": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/republica/dino-aceita-denuncia-ex-ministro-lula-desvio-emendas/"
+    }
+   ]
+  }
+ ],
+ "mundo": [
+  {
+   "secao": "Guerra na Ucrânia",
+   "titulo": "Mísseis russos caem na Polônia; Tusk vê provocação intencional, e Trump fala em engano",
+   "linhaFina": "Dois Kh-101 e um drone atingiram o sudeste polonês, sem feridos, na noite em que a Rússia lançou mais de 500 armas contra a Ucrânia; o chefe da Otan vai a Varsóvia neste sábado.",
+   "resumo": "Dois mísseis de cruzeiro e um drone russos caíram no sudeste da Polônia na madrugada de sexta (20), durante um dos maiores ataques da guerra contra a Ucrânia. Não houve feridos. Tusk chamou o episódio de provocação intencional; Trump disse que foi engano. Mark Rutte visita Varsóvia neste sábado.",
+   "texto": [
+    "Dois mísseis de cruzeiro e um drone russos caíram no sudeste da Polônia na madrugada de sexta-feira (20), durante um ataque maciço da Rússia contra a Ucrânia. Os projéteis atingiram áreas rurais em torno de Nowy Lipowiec, na província de Lublin, a cerca de 60 quilômetros da fronteira ucraniana, e outros dois pontos da região. Ninguém ficou ferido, segundo a agência Lusa, publicada pelo Observador, o Kyiv Independent e o site Notes from Poland.",
+    "O ministro da Defesa polonês, Władysław Kosiniak-Kamysz, disse que eram dois mísseis Kh-101 e um drone a jato e relacionou o momento do ataque ao exercício militar Koalicja, que reúne cerca de 2.800 soldados europeus, entre eles franceses e britânicos, no sudeste do país até 22 de novembro, segundo o HNGN. O primeiro-ministro Donald Tusk classificou o episódio como “an intentional provocation”, uma provocação intencional de Moscou, e reuniu ministros e chefes militares.",
+    "Do outro lado do Atlântico, a leitura foi diferente. O presidente Donald Trump disse a jornalistas que Vladimir Putin deixou cair drones e “um par de pequenos mísseis” na Polônia por engano, segundo a Lusa, e Tusk considerou a reação americana moderada demais. O secretário-geral da Otan, Mark Rutte, falou em grave violação do espaço aéreo e deve visitar Varsóvia neste sábado (21). Caças Gripen suecos e um avião-tanque holandês foram enviados para reforçar a defesa aérea polonesa. Até a noite de sexta, Moscou não havia comentado.",
+    "O ataque da madrugada mirou sobretudo Kiev. Segundo a Força Aérea ucraniana, citada pelo Kyiv Independent, a Rússia lançou 84 mísseis de cruzeiro, 404 drones e 27 mísseis balísticos. Três pontes sobre o rio Dnipro foram danificadas, e parte da capital ficou sem energia, segundo a AP. O balanço do Kyiv Independent fala em pelo menos nove mortos no país, sete deles em Kiev.",
+    "Não é a primeira vez: em julho, um Kh-101 caiu num campo na mesma província, e em setembro de 2025 a Polônia acionou o artigo 4 da Otan, que prevê consultas entre aliados, depois da entrada de cerca de 20 drones russos. Até a noite de sexta, Varsóvia não havia dito se pedirá novas consultas. A investigação polonesa tenta determinar se os mísseis se desviaram da rota ou foram mirados no país."
+   ],
+   "fontes": [
+    {
+     "nome": "Observador (Lusa)",
+     "url": "https://observador.pt/2026/11/20/trump-diz-que-misseis-russos-na-polonia-cairam-por-engano-e-contradiz-tusk-que-fala-em-provocacao-intencional/"
+    },
+    {
+     "nome": "Kyiv Independent",
+     "url": "https://kyivindependent.com/ukraine-war-latest-russia-strikes-3-kyiv-bridges-in-massive-aerial-assault-on-ukraine-at-least-9-dead/"
+    },
+    {
+     "nome": "Notes from Poland",
+     "url": "https://notesfrompoland.com/2026/11/20/unidentified-object-hits-poland-amid-russian-attacks-on-western-ukraine/"
+    },
+    {
+     "nome": "HNGN",
+     "url": "https://www.hngn.com/articles/273901/20261120/two-russian-missiles-drone-land-poland-nato-calls-it-violation.htm"
+    },
+    {
+     "nome": "AP (ABC News)",
+     "url": "https://abcnews.com/International/wireStory/russian-attacks-kyiv-kill-3-cripple-bridges-cut-138313948"
+    }
+   ],
+   "grafico": {
+    "tipo": "barras",
+    "titulo": "O ataque russo da madrugada de 20/11",
+    "subtitulo": "Armas lançadas contra a Ucrânia, segundo Kiev",
+    "prefixo": "",
+    "sufixo": "",
+    "casas": 0,
+    "dados": [
+     {
+      "rotulo": "Drones",
+      "valor": 404
+     },
+     {
+      "rotulo": "Mísseis de cruzeiro",
+      "valor": 84,
+      "destaque": true
+     },
+     {
+      "rotulo": "Mísseis balísticos",
+      "valor": 27
+     }
+    ],
+    "fonte": {
+     "nome": "Kyiv Independent (Força Aérea da Ucrânia e Zelensky)",
+     "url": "https://kyivindependent.com/ukraine-war-latest-russia-strikes-3-kyiv-bridges-in-massive-aerial-assault-on-ukraine-at-least-9-dead/"
+    }
+   }
+  },
+  {
+   "secao": "Diplomacia",
+   "titulo": "Kushner diz em Berlim que a Rússia aceita garantias “tipo Otan” para a Ucrânia; Europa quer lugar à mesa",
+   "linhaFina": "Enviado de Trump afirma ter deixado Moscou “confortável” com proteção inspirada no artigo 5; o Kremlin não confirmou, e ainda não há data para a próxima rodada de negociações.",
+   "resumo": "Em reunião com líderes europeus e Zelensky em Berlim, o enviado americano Jared Kushner disse que a Rússia ficou “confortável” com garantias de segurança para a Ucrânia inspiradas no artigo 5 da Otan. Moscou não comentou. Merz disse que as negociações só terão êxito com a Ucrânia e a Europa.",
+   "texto": [
+    "O enviado de paz dos Estados Unidos Jared Kushner disse na quinta-feira (19), em Berlim, que a Rússia ficou confortável com a ideia de garantias de segurança para a Ucrânia inspiradas no artigo 5 da Otan, que trata a agressão a um membro como agressão a todos. “We've gotten the Russians comfortable with that concept”, afirmou, segundo a Al Jazeera. A declaração foi feita numa reunião da chamada Coalizão dos Dispostos, na Chancelaria alemã, também noticiada pela AP e publicada pela PBS.",
+    "Kushner, genro do presidente Donald Trump, participou do encontro com o enviado especial Steve Witkoff, o presidente ucraniano Volodymyr Zelensky, o chanceler alemão Friedrich Merz e o presidente francês Emmanuel Macron. Segundo ele, Trump está aberto à ideia, mas ela precisa atender ao interesse americano e fazer parte de um pacote de segurança mais amplo. Trump participou da conversa por telefone, depois de se reunir com Vladimir Putin e Xi Jinping em Shenzhen, na China.",
+    "A Rússia não comentou a afirmação de Kushner, e não está claro que forma teriam as garantias nem se Moscou e Kiev as aceitariam, observou a Al Jazeera. Os europeus mostraram desconfiança. Merz chamou o encontro de Shenzhen de “photo op”, uma oportunidade de foto, e disse que as negociações só terão êxito com a participação da Ucrânia e da Europa. Macron defendeu reabrir a discussão sobre a adesão ucraniana à Otan.",
+    "Segundo a AP, Putin afirmou que não há data para a próxima rodada de conversas. Kushner escreveu nas redes que a prioridade é preparar em conjunto a agenda e o formato das próximas negociações multilaterais. O Kremlin propôs, por canais diplomáticos, que representantes europeus fossem a Moscou para apresentar sua posição, sem data marcada. A rodada anterior, em Abu Dhabi, não trouxe avanço relevante.",
+    "A reunião ocorreu horas antes de a Rússia lançar um dos maiores ataques aéreos da guerra contra a Ucrânia, na madrugada de sexta, com mísseis que caíram também na Polônia. Nos dias anteriores, a Ucrânia atacou repetidamente a ponte da Crimeia, e Putin prometeu resposta."
+   ],
+   "fontes": [
+    {
+     "nome": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/19/european-leaders-unite-in-berlin-to-reaffirm-support-for-ukraine"
+    },
+    {
+     "nome": "PBS NewsHour (AP)",
+     "url": "https://www.pbs.org/newshour/world/kushner-says-russia-is-comfortable-with-nato-like-security-guarantees-for-ukraine-to-end-war-after-trump-talks-with-putin"
+    }
+   ]
+  },
+  {
+   "secao": "Justiça internacional",
+   "titulo": "Corte da ONU condena Mianmar por genocídio dos rohingya, a primeira vez que um Estado é declarado culpado",
+   "linhaFina": "Por 9 votos a 6, a Corte Internacional de Justiça concluiu que forças birmanesas mataram ao menos 10 mil pessoas em 2017 e mandou o país pagar reparações e permitir o retorno dos refugiados.",
+   "resumo": "A Corte Internacional de Justiça decidiu, por 9 a 6, que Mianmar cometeu genocídio contra a minoria rohingya no estado de Rakhine. É a primeira vez que a corte declara um Estado responsável pelo crime. Mianmar terá de pagar reparações; a corte não tem como forçar o cumprimento.",
+   "texto": [
+    "A Corte Internacional de Justiça, principal tribunal da ONU, decidiu na quinta-feira (19), em Haia, que Mianmar cometeu genocídio contra a minoria muçulmana rohingya no norte do estado de Rakhine. O placar foi de 9 votos a 6, anunciado pelo presidente da corte, Yuji Iwasawa. É a primeira vez que a CIJ declara um Estado responsável por genocídio, segundo a Al Jazeera e a AP, publicada pelo The Wire.",
+    "As provas mostram que forças birmanesas mataram ao menos 10 mil rohingya na campanha de 2017, e mais de 700 mil fugiram para Bangladesh. Segundo a ONU, citada pela Al Jazeera, mais de 1,3 milhão de rohingya seguem deslocados, 1,2 milhão deles em campos em Cox's Bazar. A corte rejeitou o argumento de Mianmar de que se tratava de uma operação legítima contra insurgentes do grupo ARSA.",
+    "Os juízes determinaram que Mianmar pague reparações e promova a restituição, o que inclui facilitar o retorno seguro e voluntário dos refugiados, devolver ou substituir bens destruídos, buscar desaparecidos e proteger a população de nova perseguição. A corte também concluiu que o país violou a obrigação de prevenir o genocídio.",
+    "A Gâmbia, autora da ação, falou em dia histórico para a justiça internacional e pediu cumprimento integral e imediato. A ativista rohingya Yasmin Ullah disse que foi “a great day for the Rohingya”, segundo a AP. O Reino Unido expulsou o adido de defesa de Mianmar e pediu reunião urgente do Conselho de Segurança. As fontes consultadas não registraram manifestação oficial do governo birmanês depois da sentença.",
+    "As decisões da CIJ são definitivas e obrigatórias, mas a corte não tem meios de executá-las; em caso de descumprimento, o caso pode ser levado ao Conselho de Segurança, onde há membros com poder de veto. Advogados ouvidos pela Al Jazeera dizem que o efeito real dependerá de sanções e da pressão diplomática que vier agora."
+   ],
+   "fontes": [
+    {
+     "nome": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide"
+    },
+    {
+     "nome": "The Wire (AP)",
+     "url": "https://thewire.in/world/icj-finds-myanmar-guilty-of-genocide-against-rohingya-in-landmark-judgment"
+    }
+   ]
+  },
+  {
+   "secao": "Oriente Médio",
+   "titulo": "Exército iraquiano entra no último reduto do Kataib Hezbollah, milícia pró-Irã que dominava a área havia 12 anos",
+   "linhaFina": "Tropas ocuparam Jurf al-Sakhar, a 60 km de Bagdá, num acordo fechado na véspera; o premiê fixou junho de 2027 como prazo para os grupos armados se desarmarem, mas a milícia diz que não vai sair.",
+   "resumo": "Forças de segurança do Iraque entraram na sexta (20) em Jurf al-Sakhar, reduto da milícia pró-Irã Kataib Hezbollah desde 2014, sob um acordo de compromisso. O premiê Ali al-Zaidi disse que não há armas fora do Estado. A milícia nega que vá deixar a área.",
+   "texto": [
+    "Forças de segurança do Iraque entraram na sexta-feira (20) em Jurf al-Sakhar, área a cerca de 60 quilômetros a sudoeste de Bagdá que estava sob controle da milícia Kataib Hezbollah, apoiada pelo Irã, desde 2014. A operação ocorreu sob um acordo de compromisso fechado na noite de quinta, mediado por líderes políticos xiitas, segundo The National, Asharq Al-Awsat e Middle East Eye.",
+    "Participaram o exército, a polícia federal, a polícia de energia e as Forças de Mobilização Popular. O primeiro-ministro Ali al-Zaidi disse que o governo não está em guerra com o grupo, mas que não haverá armas fora da autoridade do Estado. Ele fixou 30 de junho de 2027 como prazo para que os grupos armados se desarmem ou passem ao controle direto do governo, segundo o Middle East Eye.",
+    "Autoridades iraquianas acusam o Kataib Hezbollah de operar um esquema de contrabando de petróleo estatal de centenas de milhões de dólares, o que o grupo nega. O comandante da Força Quds iraniana, Esmail Qaani, esteve em Bagdá na segunda-feira para ajudar a destravar a situação. A especialista Lahib Hagel, do International Crisis Group, descreveu a área ao The National como o último reduto da milícia desde a guerra contra o Estado Islâmico.",
+    "Os relatos divergem sobre a saída da milícia. Fontes oficiais disseram ao Asharq Al-Awsat que dois batalhões deixariam a área por dia, durante cerca de um mês, informação que o jornal não conseguiu verificar. Uma fonte do Kataib Hezbollah disse à AFP, citada pelo Middle East Eye, que o grupo não vai sair de Jurf al-Sakhar.",
+    "Os moradores sunitas da região foram em grande parte impedidos de voltar desde a retomada da área do Estado Islâmico, em 2014. O governo instalou uma nova sede de comando militar e restringiu temporariamente visitas de políticos. A polícia de Anbar também foi posicionada em al-Oweisat, segundo o Asharq Al-Awsat."
+   ],
+   "fontes": [
+    {
+     "nome": "The National",
+     "url": "https://www.thenationalnews.com/news/mena/2026/11/20/iraqi-security-forces-move-into-iran-backed-militia-stronghold-of-jurf-al-sakhar/"
+    },
+    {
+     "nome": "Asharq Al-Awsat",
+     "url": "https://english.aawsat.com/arab-world/5343719-iraqi-forces-enter-jurf-al-sakhar-after-12-years-kataib-hezbollah-control"
+    },
+    {
+     "nome": "Middle East Eye",
+     "url": "https://www.middleeasteye.net/news/iraq-security-forces-deploy-kataeb-hezbollah-stronghold-following-compromise-deal"
+    }
+   ]
+  }
+ ],
+ "cultura": [
+  {
+   "secao": "Cinema",
+   "titulo": "Novo ‘Jogos Vorazes’ chega aos cinemas com 160 mil ingressos vendidos antes da estreia",
+   "linhaFina": "‘Amanhecer na Colheita’, que conta a juventude de Haymitch, estreou na quinta; nos EUA, a projeção é de mais de US$ 60 milhões no primeiro fim de semana.",
+   "resumo": "‘Jogos Vorazes: Amanhecer na Colheita’ estreou nos cinemas brasileiros na quinta (19) depois de vender mais de 160 mil ingressos na pré-venda. O filme volta ao passado de Haymitch Abernathy. As primeiras críticas são favoráveis, e a projeção para a abertura nos EUA passa de US$ 60 milhões.",
+   "texto": [
+    "‘Jogos Vorazes: Amanhecer na Colheita’, novo filme da franquia baseada nos livros de Suzanne Collins, estreou nos cinemas brasileiros na quinta-feira (19), com sessões de pré-estreia na quarta (18). Antes de chegar às salas, o longa vendeu mais de 160 mil ingressos na pré-venda no país, segundo o Times Brasil. O filme tem cerca de 2h38 e está em salas IMAX, 4DX, XD e Dolby Atmos.",
+    "A história volta à juventude de Haymitch Abernathy, o mentor de Katniss nos filmes originais, vivido agora por Joseph Zada. O ponto de partida é a 50ª edição dos Jogos, o chamado Segundo Massacre Quaternário, com 48 tributos, dois por distrito. A direção é de Francis Lawrence, veterano da série, e o elenco inclui Ralph Fiennes, Jesse Plemons, Elle Fanning, Kieran Culkin e Glenn Close.",
+    "As primeiras críticas internacionais foram favoráveis e destacam a atuação de Zada e o peso político da trama; parte dos críticos considera este o melhor filme da franquia, segundo o Times Brasil. A crítica da Folha de Pernambuco afirma que a história é compreensível mesmo para quem não viu os filmes anteriores e que o longa não depende só de nostalgia.",
+    "Nos Estados Unidos, as projeções divulgadas pelo Deadline e reproduzidas pelo site O Vício indicam mais de US$ 60 milhões no primeiro fim de semana, com estimativas mais otimistas acima de US$ 70 milhões. Os números oficiais de bilheteria da estreia ainda não tinham sido divulgados até a noite de sexta.",
+    "Além dos nomes já citados, o elenco tem Whitney Peak, Ben Wang, McKenna Grace, Maya Hawke, Lili Taylor e Billy Porter, segundo a Folha de Pernambuco. Os primeiros balanços de público devem sair a partir deste fim de semana."
+   ],
+   "fontes": [
+    {
+     "nome": "Times Brasil (CNBC)",
+     "url": "https://timesbrasil.com.br/entretenimento/cinema-e-tv/jogos-vorazes-amanhecer-na-colheita-vende-160-mil-ingressos-na-pre-venda-no-brasil/"
+    },
+    {
+     "nome": "Folha de Pernambuco",
+     "url": "https://www.folhape.com.br/cultura/jogos-vorazes-amanhecer-na-colheita-revisita-passado-de/524798/"
+    },
+    {
+     "nome": "O Vício (com Deadline)",
+     "url": "https://ovicio.com.br/projecoes-oficiais-do-novo-jogos-vorazes-sao-reveladas/"
+    }
+   ]
+  }
+ ],
+ "paraEntender": {
+  "titulo": "O ajuste fiscal que a Câmara vota na segunda",
+  "itens": [
+   "Teto do gasto — Crescimento das despesas limitado a 2% ao ano a partir de 2027 quando houver contingenciamento (hoje, 2,5%).",
+   "Meta — O governo terá de buscar o centro da meta fiscal, e não só o limite inferior da tolerância.",
+   "Benefícios fiscais — Corte sobe de 10% para 20% em setores escolhidos; ficam de fora a desoneração da folha e incentivos a TI e semicondutores.",
+   "Créditos tributários — Restrição à compensação entre tributos diferentes, mantida no Senado por 49 a 31.",
+   "Lei Kandir — Repasse a estados e municípios sobe de R$ 1 bi para R$ 2 bi por ano entre 2027 e 2030.",
+   "Supersalários — Congresso terá 60 dias, após a lei, para fixar limites.",
+   "Efeito — De R$ 45,1 bi a R$ 50,1 bi em 2027, segundo estimativa do governo citada pela CNN Brasil.",
+   "Rito — Sessão às 18h de segunda (23); precisa de urgência e de 257 deputados presentes. Sem mudanças, vai à sanção."
+  ],
+  "fontes": [
+   {
+    "nome": "CNN Brasil",
+    "url": "https://www.cnnbrasil.com.br/politica/ajuste-fiscal-chega-a-camara-sob-pressao-apos-resistencias-no-senado/"
+   },
+   {
+    "nome": "Estado de Minas (Correio Braziliense)",
+    "url": "https://www.em.com.br/politica/2026/11/7541168-ajuste-fiscal-apos-aval-do-senado-projeto-vai-a-camara-na-segunda.html"
+   },
+   {
+    "nome": "A Crítica (com CNN Brasil)",
+    "url": "https://acritica.net/economia/ajuste-fiscal-camara-votacao-segunda-relator-sem-mudancas-lei-kandir-ms/"
+   }
+  ]
+ },
+ "breves": [
+  {
+   "texto": "Fachin manteve preso o policial federal aposentado Marilson Roseno da Silva, apontado pela PF como líder operacional de um grupo que vigiava adversários de Daniel Vorcaro.",
+   "fonte": {
+    "nome": "Gazeta do Povo",
+    "url": "https://www.gazetadopovo.com.br/republica/fachin-mantem-prisao-de-ex-policial-lider-de-grupo-de-espionagem-ligado-a-vorcaro/"
+   }
+  },
+  {
+   "texto": "O PL oficializou a nova direção em Minas, presidida pelo deputado estadual Antônio Carlos Arantes, com aliados de Nikolas Ferreira em cargos estratégicos.",
+   "fonte": {
+    "nome": "O Tempo",
+    "url": "https://www.otempo.com.br/politica/2026/11/20/pl-oficializa-novo-presidente-e-aliados-de-nikolas-assumem-cadeiras-estrategicas-em-minas"
+   }
+  },
+  {
+   "texto": "Em Shenzhen, Trump, Xi Jinping e Putin assinaram declaração afirmando que uma guerra nuclear não pode ser vencida e jamais deve ser travada.",
+   "fonte": {
+    "nome": "Just Security (com NYT e Reuters)",
+    "url": "https://www.justsecurity.org/165471/early-edition-november-20-2026/"
+   }
+  },
+  {
+   "texto": "Reino Unido e União Europeia fecharam acordo de mobilidade juvenil para até 100 mil jovens por ano; Londres tem seis meses para acertar as taxas universitárias de europeus, ou o acordo não vale.",
+   "fonte": {
+    "nome": "Just Security (com BBC)",
+    "url": "https://www.justsecurity.org/165471/early-edition-november-20-2026/"
+   }
+  },
+  {
+   "texto": "Na quinta (19), o Banco Central vendeu US$ 1 bilhão no mercado à vista, mas o dólar fechou acima de R$ 5,90; a projeção do Focus para a média de novembro subiu para R$ 5,41.",
+   "fonte": {
+    "nome": "Economic News Brasil",
+    "url": "https://economicnewsbrasil.com.br/2026/11/20/cotacao-do-dolar-focus-mercado/"
+   }
+  }
+ ]
+}
