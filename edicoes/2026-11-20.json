@@ -1,0 +1,682 @@
+{
+  "data": "2026-11-20",
+  "dataExtenso": "Sexta-feira, 20 de novembro de 2026",
+  "numero": 3,
+  "atualizadoEm": "19/11/2026, 22h35 (Brasília)",
+  "indicadores": [
+    {
+      "rotulo": "Dólar",
+      "valor": "R$ 5,93",
+      "nota": "6ª alta seguida (+1,15% em 19/nov)"
+    },
+    {
+      "rotulo": "Ibovespa",
+      "valor": "166.376 pts",
+      "nota": "queda de 0,69% em 19/nov"
+    },
+    {
+      "rotulo": "Anthropic (ANT)",
+      "valor": "US$ 97,17",
+      "nota": "+17,1% sobre o IPO na estreia"
+    },
+    {
+      "rotulo": "Selic",
+      "valor": "13,75%",
+      "nota": "mantida pelo Copom em 4/nov"
+    }
+  ],
+  "manchete": {
+    "secao": "STF",
+    "titulo": "STF começa hoje a julgar se Van Hattem vira réu por discurso na tribuna; Dino nega sessão presencial",
+    "linhaFina": "A Primeira Turma analisa até 30/11, no plenário virtual, a denúncia da PGR por calúnia e injúria contra um delegado da PF; a OAB pediu julgamento presencial e o deputado fala em ataque à imunidade parlamentar.",
+    "texto": [
+      "A Primeira Turma do Supremo Tribunal Federal começa nesta sexta-feira (20), no plenário virtual, a decidir se recebe a denúncia da Procuradoria-Geral da República contra o deputado federal Marcel van Hattem (Novo-RS), eleito senador pelo Rio Grande do Sul em outubro. A acusação é de calúnia e injúria contra o delegado da Polícia Federal Fábio Alvarez Shor, por um discurso feito na tribuna da Câmara. Os ministros têm até 30 de novembro para votar, salvo pedido de vista, segundo a Gazeta do Povo e a TV Sim Brasil.",
+      "Na quinta-feira (19), o relator, ministro Flávio Dino, rejeitou o pedido da defesa para tirar o caso do ambiente virtual e levá-lo a uma sessão presencial, com sustentação oral dos advogados, de acordo com a Gazeta do Povo e O Antagonista. À noite, o Conselho Federal da OAB acionou Dino pedindo que a Turma decida em sessão física e solicitou entrar no processo como assistente, em defesa das prerrogativas da advocacia, segundo o Brasil 247, com base em informação do Metrópoles.",
+      "Nesta etapa, a Turma não decide se o deputado é culpado: avalia se há elementos mínimos para abrir uma ação penal, explica o Estado de Minas. Se a denúncia for recebida, Van Hattem passa à condição de réu. O próprio deputado afirma que a pena pode chegar a quatro anos de prisão. Os veículos divergem no enquadramento: Gazeta, O Antagonista e Brasil 247 falam em calúnia e injúria; a TV Sim Brasil, em calúnia e difamação.",
+      "O caso tem origem em agosto de 2024. Na tribuna, Van Hattem exibiu uma foto de Shor, afirmou que o delegado produziu relatórios fraudulentos para justificar a prisão de Filipe Martins, ex-assessor internacional de Jair Bolsonaro, e o chamou de “abusador de autoridade”. Dino autorizou a abertura de inquérito em setembro de 2024, a PF indiciou o deputado em novembro daquele ano, segundo o ND Mais, e a PGR apresentou a denúncia em abril de 2026.",
+      "A defesa, conduzida pelo advogado Alexandre Wunderlich, protocolou na quarta-feira (18) o pedido de julgamento presencial com o argumento de que o processo discute os limites da imunidade parlamentar. O artigo 53 da Constituição diz que deputados e senadores são invioláveis, civil e penalmente, por suas opiniões, palavras e votos. Para a PGR, segundo o ND Mais, o deputado ultrapassou esse limite ao usar termos ofensivos contra o delegado.",
+      "Em vídeo, Van Hattem disse que pode “virar réu no STF e ser preso sem direito a defesa” e pediu apoio. Ele contesta a escolha de Dino como relator, lembrando que o ministro comandou o Ministério da Justiça, ao qual a PF é subordinada, e sustenta que excessos na tribuna deveriam ser julgados pelo Conselho de Ética da Câmara, não pela polícia nem pelo STF, segundo O Antagonista e o ND Mais. O Novo classificou o processo como perseguição política. Ao saber da manifestação da OAB, o deputado afirmou que a discussão “ultrapassa o meu caso”.",
+      "Van Hattem disse ter procurado o presidente da Câmara, Hugo Motta (Republicanos-PB), e lideranças da oposição, segundo o ABC+. Até a noite de quinta, nenhum dos veículos consultados registrava manifestação pública de Motta sobre o caso. A TV Sim Brasil informou que Shor, a PGR e o STF não haviam se manifestado até a publicação.",
+      "Há dois elementos de contexto citados pela imprensa. Segundo o ND Mais, Shor foi nomeado em março de 2026 assessor do gabinete do ministro Alexandre de Moraes. A Gazeta do Povo, por sua vez, registra que um juiz federal americano concluiu em agosto de 2026 que um registro migratório usado contra Filipe Martins era falso; essa informação aparece apenas na Gazeta entre os veículos lidos.",
+      "O que acontece agora: os votos começam a ser depositados nesta sexta. Um pedido de destaque de qualquer dos outros ministros da Turma — Alexandre de Moraes, Cármen Lúcia ou Cristiano Zanin — leva o caso ao plenário presencial; um pedido de vista suspende a contagem. Se a maioria receber a denúncia, abre-se a ação penal, com nova fase de provas antes de qualquer julgamento de mérito."
+    ],
+    "fontes": [
+      {
+        "nome": "Gazeta do Povo",
+        "url": "https://www.gazetadopovo.com.br/vida-e-cidadania/caso-van-hattem-testa-terreno-para-radicalizacao-autoritaria-do-stf-contra-parlamentares/"
+      },
+      {
+        "nome": "Estado de Minas",
+        "url": "https://www.em.com.br/politica/2026/11/7541114-van-hattem-pede-ajuda-posso-pegar-quatro-anos-de-prisao.html"
+      },
+      {
+        "nome": "O Antagonista",
+        "url": "https://oantagonista.com.br/brasil/van-hattem-acusa-dino-de-negar-direito-a-defesa-oral-no-stf/"
+      },
+      {
+        "nome": "ND Mais",
+        "url": "https://ndmais.com.br/politica/marcel-van-hattem-julgamento-pode-virar-reu-stf-acusacoes-delegado-moraes/"
+      },
+      {
+        "nome": "TV Sim Brasil",
+        "url": "https://tvsimbrasil.com.br/brasil/politica/noticia/2026/11/19/van-hattem-pode-virar-reu-no-stf-por-discurso-na-camara"
+      },
+      {
+        "nome": "ABC+",
+        "url": "https://www.abcmais.com/politica/posso-virar-reu-no-stf-por-um-discurso-na-tribuna-van-hattem-tenta-levar-a-julgamento-presencial-processo-que-discute-imunidade-parlamentar/"
+      },
+      {
+        "nome": "Brasil 247 (com Metrópoles)",
+        "url": "https://www.brasil247.com/brasil/oab-pede-julgamento-presencial-de-van-hattem-no-stf/"
+      }
+    ]
+  },
+  "destaques": [
+    {
+      "secao": "Bolso",
+      "titulo": "Dólar sobe pela sexta vez seguida e fecha a R$ 5,93; Ibovespa cai 0,69%",
+      "linhaFina": "Nem a venda de US$ 1 bilhão pelo Banco Central segurou a moeda; com o feriado de hoje, o mercado só reabre na segunda, dia previsto para a votação do ajuste fiscal na Câmara.",
+      "resumo": "O dólar à vista fechou a quinta-feira (19) a R$ 5,9344, alta de 1,15% e sexta valorização seguida, mesmo com intervenção do Banco Central. O Ibovespa caiu 0,69%, a 166.376 pontos. A B3 não abre hoje, feriado da Consciência Negra.",
+      "texto": [
+        "O dólar à vista fechou a quinta-feira (19) cotado a R$ 5,9344, alta de 1,15% no dia e sexta valorização consecutiva, segundo O Repórter, com base em dados da Reuters. A máxima do pregão foi de R$ 5,9349, praticamente no fechamento. O Ibovespa recuou 0,69%, aos 166.376 pontos, depois de cair 1,34% na quarta-feira.",
+        "A sequência começou na segunda-feira (16), quando a moeda saltou 2,17%, a R$ 5,7777, segundo a Folha de Pernambuco, com conteúdo do Estadão. Na terça (17), subiu 0,09%, a R$ 5,783, de acordo com o Jornal do Brasil e o Jornal do Comércio; na quarta (18), avançou 1,46%, a R$ 5,867, segundo o InfoMoney. Os veículos divergem sobre a referência histórica: O Repórter fala no maior nível desde abril de 2025; o Melhor Investimento, desde janeiro de 2025.",
+        "O Banco Central vendeu US$ 1 bilhão no mercado à vista, com taxa de corte de R$ 5,86, segundo O Repórter. A operação trouxe alívio momentâneo, mas a moeda voltou a subir. Pesaram, segundo o mesmo veículo, a procura por proteção em dólar, a preocupação com o endividamento público e a indefinição sobre a equipe econômica do próximo mandato de Lula.",
+        "O exterior também ajudou a pressionar. Em Nova York, o índice Dow Jones caiu 2,2%, o S&P 500 recuou 2% e o Nasdaq perdeu 2,3%. Pela manhã, o InfoMoney citava a ferramenta CME FedWatch, que atribuía 90% de chance a uma alta de 0,25 ponto percentual nos juros americanos na reunião do Fed de 9 de dezembro. Juros mais altos nos Estados Unidos costumam atrair dólares para lá.",
+        "Nos juros futuros, as taxas fecharam a quarta-feira em alta ao longo de toda a curva: o contrato para janeiro de 2027 terminou em 13,691% e o de janeiro de 2029, em 14,970%, segundo o InfoMoney.",
+        "O que vem agora: com o feriado nacional da Consciência Negra nesta sexta (20), a B3 não abre, informou o Melhor Investimento, e os negócios voltam na segunda-feira (23). É o mesmo dia em que a Câmara deve votar o ajuste fiscal aprovado pelo Senado, teste observado de perto por quem acompanha o câmbio."
+      ],
+      "fontes": [
+        {
+          "nome": "O Repórter",
+          "url": "https://oreporter.com/economia/dolar-fecha-5-94-sexta-alta-ibovespa-cai"
+        },
+        {
+          "nome": "Folha de Pernambuco (Estadão Conteúdo)",
+          "url": "https://www.folhape.com.br/economia/dolar-sobe-217-e-atinge-maior-nivel-desde-abril-de-2025/524589/"
+        },
+        {
+          "nome": "Jornal do Brasil (Agência Estado)",
+          "url": "https://www.jb.com.br/economia/2026/11/1061579-dolar-encerra-em-alta-a-rs-5783-com-pressao-fiscal-e-aversao-ao-risco.html"
+        },
+        {
+          "nome": "Jornal do Comércio",
+          "url": "https://www.jornaldocomercio.com/economia/2026/11/1270913-dolar-tem-leve-alta-e-fecha-a-rs-578-com-fluxo-e-cautela-fiscal.html"
+        },
+        {
+          "nome": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-19112026/"
+        },
+        {
+          "nome": "Melhor Investimento",
+          "url": "https://melhorinvestimento.net/noticias/acoes-da-anthropic-estreia-nasdaq"
+        }
+      ],
+      "grafico": {
+        "tipo": "linha",
+        "titulo": "O dólar nesta semana",
+        "subtitulo": "Fechamento do dólar à vista, em R$",
+        "prefixo": "R$ ",
+        "casas": 2,
+        "dados": [
+          {
+            "rotulo": "16/nov",
+            "valor": 5.7777
+          },
+          {
+            "rotulo": "17/nov",
+            "valor": 5.783
+          },
+          {
+            "rotulo": "18/nov",
+            "valor": 5.867
+          },
+          {
+            "rotulo": "19/nov",
+            "valor": 5.9344,
+            "destaque": true
+          }
+        ],
+        "fonte": {
+          "nome": "O Repórter, InfoMoney, JB e Folha de Pernambuco",
+          "url": "https://oreporter.com/economia/dolar-fecha-5-94-sexta-alta-ibovespa-cai"
+        },
+        "nota": "16/nov: Folha de Pernambuco (Estadão Conteúdo); 17/nov: Jornal do Brasil e Jornal do Comércio; 18/nov: InfoMoney; 19/nov: O Repórter."
+      }
+    },
+    {
+      "secao": "Mercado",
+      "titulo": "Ações da Anthropic estreiam na Nasdaq com alta de 17% e fecham a US$ 97,17",
+      "linhaFina": "O papel abriu 34% acima do preço do IPO, perdeu parte do ganho ao longo do dia e terminou valendo cerca de US$ 1,75 trilhão; na B3, o BDR ANTH34 subiu quase 19%.",
+      "resumo": "Na estreia na Nasdaq, a ação da Anthropic abriu a US$ 111,50, chegou a US$ 115,10 e fechou a US$ 97,17, alta de 17,07% sobre o preço do IPO, de US$ 83. O BDR ANTH34 fechou a R$ 71,70, segundo o NeoFeed. O dia foi de queda em Wall Street.",
+      "texto": [
+        "As ações da Anthropic, dona do assistente Claude, estrearam na quinta-feira (19) na Nasdaq, com o código ANT, e fecharam a US$ 97,17, alta de 17,07% sobre o preço de US$ 83 fixado no IPO, segundo NeoFeed, Olhar Digital e Times Brasil/CNBC. O papel abriu a US$ 111,50, 34% acima do preço da oferta, e chegou a US$ 115,10 na máxima do dia, antes de devolver parte do ganho. A mínima foi de US$ 92,72, segundo o StockTitan.",
+        "No fechamento, a empresa valia entre US$ 1,75 trilhão e US$ 1,77 trilhão em base totalmente diluída, conforme o veículo: Times Brasil/CNBC, Olhar Digital e O Repórter, este com base na Reuters, trazem números ligeiramente diferentes. Foram negociadas mais de 846 milhões de ações no dia, segundo o Times Brasil. Pelo critério das fontes, a oferta, de cerca de US$ 81,3 bilhões, é o maior IPO da história; somada à colocação privada de US$ 26 bilhões, a operação chega a cerca de US$ 107 bilhões.",
+        "A estreia aconteceu num dia ruim para Wall Street e para as ações ligadas à inteligência artificial. Nvidia caiu 3,30%, CoreWeave 6,10% e Nebius 9,39%, segundo o StockTitan. O Olhar Digital cita levantamento do Yahoo Finance segundo o qual, desde 2008, nenhum grande IPO recuou tanto entre o preço de abertura e o de fechamento do primeiro dia; no caso da Anthropic, a queda foi de 12,9%.",
+        "No Brasil, o acesso é pelo BDR ANTH34, em que oito recibos equivalem a uma ação. O papel abriu a R$ 60,28, segundo o Melhor Investimento, chegou a R$ 80,63 e fechou a R$ 71,70, alta de 18,94%, segundo o NeoFeed, único dos veículos lidos a trazer o fechamento. Com o feriado desta sexta, a B3 só volta a negociar o BDR na segunda-feira (23), às 10h.",
+        "Os números da empresa explicam tanto o apetite quanto a cautela. A receita somou US$ 33,24 bilhões nos nove meses até setembro, alta de cerca de 1.200%, segundo Times Brasil e NeoFeed. O prospecto, porém, registra compromissos de quase US$ 900 bilhões em capacidade de computação e prejuízos bilionários. Houve também críticas: o senador americano Mark Warner e a deputada Pramila Jayapal questionaram a empresa, e mais de cem pessoas protestaram diante da sede, em São Francisco, segundo o Olhar Digital.",
+        "Esta matéria é informativa e não constitui recomendação de investimento. A Nevasca registra, por transparência, que é produzida com a ajuda do Claude, assistente da própria Anthropic."
+      ],
+      "fontes": [
+        {
+          "nome": "NeoFeed",
+          "url": "https://neofeed.com.br/negocios/anthropic-passa-no-teste-do-ipo-e-acoes-disparam-na-estreia-na-nasdaq/"
+        },
+        {
+          "nome": "Olhar Digital",
+          "url": "https://olhardigital.com.br/2026/11/19/pro/anthropic-movimenta-mercado-em-estreia-na-nasdaq-veja-como-foi-o-primeiro-dia"
+        },
+        {
+          "nome": "Times Brasil/CNBC",
+          "url": "https://timesbrasil.com.br/empresas-e-negocios/anthropic-fecha-primeiro-dia-a-us-9717-por-acao-em-momento-historico-para-a-ia/"
+        },
+        {
+          "nome": "StockTitan",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-19-2026"
+        },
+        {
+          "nome": "Melhor Investimento",
+          "url": "https://melhorinvestimento.net/noticias/acoes-da-anthropic-estreia-nasdaq"
+        },
+        {
+          "nome": "O Repórter",
+          "url": "https://oreporter.com/economia/dolar-fecha-5-94-sexta-alta-ibovespa-cai"
+        }
+      ],
+      "grafico": {
+        "tipo": "barras",
+        "titulo": "O primeiro dia da ação da Anthropic",
+        "subtitulo": "Preço por ação em 19/nov, em US$",
+        "prefixo": "US$ ",
+        "casas": 2,
+        "dados": [
+          {
+            "rotulo": "Preço do IPO",
+            "valor": 83
+          },
+          {
+            "rotulo": "Abertura",
+            "valor": 111.5
+          },
+          {
+            "rotulo": "Máxima",
+            "valor": 115.1
+          },
+          {
+            "rotulo": "Mínima",
+            "valor": 92.72
+          },
+          {
+            "rotulo": "Fechamento",
+            "valor": 97.17,
+            "destaque": true
+          }
+        ],
+        "fonte": {
+          "nome": "NeoFeed e StockTitan",
+          "url": "https://neofeed.com.br/negocios/anthropic-passa-no-teste-do-ipo-e-acoes-disparam-na-estreia-na-nasdaq/"
+        },
+        "nota": "Mínima segundo o StockTitan; demais valores segundo o NeoFeed."
+      }
+    },
+    {
+      "secao": "Contas públicas",
+      "titulo": "Relator mantém texto do Senado e Câmara marca para segunda a votação do ajuste fiscal",
+      "linhaFina": "Mauro Benevides Filho (União-CE) não mudou nada para evitar que o projeto volte ao Senado; são necessários 257 votos, e o governo estima melhora de até R$ 56,1 bilhões nas contas de 2027.",
+      "resumo": "O relator do ajuste fiscal na Câmara, Mauro Benevides Filho (União-CE), apresentou parecer favorável sem mudanças no texto do Senado. A votação está marcada para segunda (23), às 18h. Por ser lei complementar, precisa de 257 votos; se aprovada, vai direto à sanção.",
+      "texto": [
+        "O relator do ajuste fiscal na Câmara, deputado Mauro Benevides Filho (União-CE), apresentou na quinta-feira (19) parecer favorável ao PLP 299/2026 sem nenhuma alteração no texto aprovado pelo Senado, segundo a Gazeta do Povo e o SBT News. A estratégia evita que o projeto volte aos senadores. A votação está marcada para uma sessão extraordinária na segunda-feira (23), às 18h, que pode se estender até terça, informou o SBT News. O presidente da Câmara, Hugo Motta (Republicanos-PB), já havia anunciado a data, segundo a CNN Brasil.",
+        "Por ser projeto de lei complementar, o texto precisa de 257 votos entre os 513 deputados. Se aprovado, segue direto para sanção do presidente Lula. O líder do governo na Câmara, Paulo Pimenta (PT-RS), protocolou pedido de urgência para levar o projeto direto ao plenário, sem passar por comissões, segundo a Gazeta do Povo.",
+        "O pacote reduz de 2,5% para 2% o teto de crescimento real das despesas nos anos em que houver medidas de contenção, limita a R$ 3 bilhões por ano a compensação previdenciária, fixa piso de R$ 2 bilhões por ano para os repasses da Lei Kandir e de R$ 1 bilhão para o Proex, dá 60 dias ao Congresso para regulamentar o teto salarial do funcionalismo e permite descontar da meta de 2026 até R$ 10,5 bilhões gastos com o subsídio ao diesel, segundo a Agência Senado e a Gazeta do Povo.",
+        "O Executivo estima melhora de R$ 45,1 bilhões a R$ 56,1 bilhões no resultado primário de 2027, segundo a Agência Senado e a CNN Brasil; o SBT News fala em cerca de R$ 50 bilhões. No Senado, a votação foi concluída na quarta (18), em turno suplementar, por 69 votos a 2. A oposição perdeu os destaques: a emenda de Rogério Marinho (PL-RN) que limitava o crescimento real das despesas a 0,6% foi rejeitada por 47 a 30.",
+        "Há resistências fora do plenário. Setores empresariais e governos estaduais criticam pontos do texto, e integrantes da própria esquerda reclamam do efeito sobre políticas sociais, segundo a CNN Brasil. O relator negocia apoio com os líderes partidários e tem reunião com a bancada do PL prevista para segunda, segundo o SBT News."
+      ],
+      "fontes": [
+        {
+          "nome": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/economia/relator-do-ajuste-fiscal-mantem-texto-do-senado-para-agilizar-votacao-na-camara/"
+        },
+        {
+          "nome": "SBT News",
+          "url": "https://sbtnews.sbt.com.br/noticia/politica/ajuste-fiscal-relator-na-camara-mantem-texto-do-senado"
+        },
+        {
+          "nome": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/blogs/julliana-lopes/politica/motta-anuncia-votacao-do-ajuste-fiscal-na-camara-para-segunda-feira-23/"
+        },
+        {
+          "nome": "Agência Senado",
+          "url": "https://www12.senado.leg.br/noticias/materias/2026/11/18/senado-completa-votacao-e-ajuste-fiscal-segue-para-a-camara"
+        }
+      ]
+    }
+  ],
+  "editorial": {
+    "titulo": "A tribuna não é banco dos réus",
+    "texto": [
+      "A partir de hoje, quatro ministros do Supremo vão decidir, cada um diante da sua tela, se um deputado vira réu por algo que disse na tribuna da Câmara. Marcel van Hattem pegou pesado com um delegado da Polícia Federal em 2024, e ninguém aqui vai fingir que a linguagem foi de salão. Mas a pergunta não é se o discurso foi duro. A pergunta é quem tem autoridade para julgá-lo, e de que maneira.",
+      "A Constituição respondeu sem rodeios: deputados e senadores são invioláveis, civil e penalmente, por quaisquer de suas opiniões, palavras e votos. Não é privilégio pessoal; é proteção do mandato que o eleitor confiou. Abraham Kuyper ensinava que cada esfera da vida tem a sua própria soberania, recebida de Deus, e que nenhuma deve engolir a outra. O Parlamento tem o seu tribunal para os excessos da tribuna: o Conselho de Ética, com nome, pauta e voto à vista de todos. Quando o Judiciário passa a medir o discurso parlamentar com régua penal, a fronteira entre os Poderes vira linha tracejada.",
+      "E há a forma. Recusar a sustentação oral num caso que discute justamente os limites da imunidade não é detalhe de regimento. Diz o provérbio: “O que primeiro começa o seu pleito parece justo, até que vem o outro e o examina” (Pv 18.17). Justiça que não ouve a outra parte de viva voz corre o risco de ser apenas processo bem formatado. Plenário virtual é ótimo para despachar agravo repetido; para decidir se a palavra de um parlamentar é crime, convenhamos, é como celebrar casamento por formulário eletrônico. Não por acaso, até a OAB, que não costuma andar de braço dado com a oposição, pediu sessão presencial.",
+      "O Supremo tem uma saída simples, e está nas mãos dos próprios ministros: um pedido de destaque leva o caso ao plenário físico, com advogado na tribuna e votos olho no olho. Melhor ainda seria reconhecer que a imunidade existe exatamente para os dias em que o discurso incomoda. E a Câmara, que costuma reagir com vigor quando o assunto é emenda e cargo, deve agora uma palavra clara em defesa da prerrogativa de todos os seus membros, de qualquer partido. Hoje é Van Hattem; amanhã pode ser quem o critica. A tribuna existe para que se fale com liberdade. Se ela virar antessala do banco dos réus, quem perde a voz não é um deputado: é o eleitor."
+    ]
+  },
+  "politica": [
+    {
+      "secao": "Câmara",
+      "titulo": "Paulo Martins chama de “complementares” as candidaturas da direita contra Motta; PL segue sem decisão",
+      "linhaFina": "O candidato do Novo diz ter procurado Luiz Philippe e Zé Trovão; a consulta do PL aos 121 deputados ainda não terminou, e a candidatura de Luiz Philippe não é decisão oficial da bancada.",
+      "resumo": "Lançado pelo Novo, Paulo Martins disse ter procurado Luiz Philippe (PL-SP) e Zé Trovão (PL-SC) e que candidaturas simultâneas da direita seriam complementares contra Hugo Motta. O PL ainda consulta seus 121 deputados e não oficializou nome.",
+      "texto": [
+        "Um dia depois de ser oficializado pelo Novo como candidato à presidência da Câmara, o deputado eleito Paulo Martins (Novo-PR) disse ter procurado Luiz Philippe de Orléans e Bragança (PL-SP) e Zé Trovão (PL-SC) e se colocado à disposição. Em entrevista ao Metrópoles publicada na quinta-feira (19), afirmou que as candidaturas, se acontecerem ao mesmo tempo, “são complementares de qualquer forma”, e que espera tirar votos de Hugo Motta (Republicanos-PB), que busca a reeleição.",
+        "O PL, que terá 121 deputados em 2027, ainda não decidiu. Segundo o Metrópoles, Valdemar Costa Neto enviou um formulário individual e reservado aos deputados, com até 15 dias para dizerem se apoiam ou não a recondução de Motta; se a maioria for contra, o partido terá de apresentar nome próprio. A Gazeta do Povo registra que a candidatura de Luiz Philippe, anunciada em 17/11, ainda não representa decisão oficial da bancada.",
+        "As plataformas começam a aparecer. Martins, eleito com 44.029 votos e vice-prefeito de Curitiba, defende pautas liberais, controle de gastos e a recuperação das prerrogativas do Legislativo, e diz não haver normalidade institucional entre Congresso, Executivo e STF, segundo a Gazeta do Povo. Luiz Philippe, que preside a Comissão de Relações Exteriores e de Defesa Nacional, fala em equilíbrio das contas públicas, redução de impostos, mais poder aos deputados nas decisões da Casa, anistia aos condenados do 8 de janeiro e revisão da relação entre Legislativo e Judiciário.",
+        "Dentro do PL, a divisão é entre os que querem acordo com Motta para manter espaço na Mesa e nas comissões, ala associada a Valdemar, e os que defendem candidatura própria, liderados por Sóstenes Cavalcante (PL-RJ), segundo coluna de Sílvio Ribas na Gazeta do Povo. Nikolas Ferreira (PL-MG) afirmou que um apoio do partido a Motta tornaria insustentável sua permanência na legenda. O senador Flávio Bolsonaro disse, em 12/11, que jamais apoiaria a reeleição de Motta, segundo o Metrópoles.",
+        "Motta somou o apoio da esquerda e de boa parte do Centrão, segundo a Gazeta. Para vencer em primeiro turno, um candidato precisa da maioria absoluta, 257 dos 513 votos, em votação secreta. Os próximos passos são o resultado da consulta do PL e a definição de se a direita irá com um nome ou com vários. A eleição é em 1º de fevereiro de 2027."
+      ],
+      "fontes": [
+        {
+          "nome": "Metrópoles",
+          "url": "https://www.metropoles.com/colunas/igor-gadelha/aposta-do-novo-ve-candidatura-do-pl-como-complementar-contra-motta"
+        },
+        {
+          "nome": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/republica/paulo-martins-e-luiz-philippe-quem-sao-os-deputados-que-tentam-desbancar-motta-na-camara/"
+        },
+        {
+          "nome": "Gazeta do Povo (Sílvio Ribas)",
+          "url": "https://www.gazetadopovo.com.br/vozes/silvio-ribas/na-briga-pelo-comando-do-congresso-pl-se-divide-entre-pragmaticos-e-autenticos/"
+        },
+        {
+          "nome": "Metrópoles (14/11)",
+          "url": "https://www.metropoles.com/brasil/rachado-pl-arrasta-decisao-sobre-disputar-comando-da-camara-e-pressao-sobe"
+        },
+        {
+          "nome": "Congresso em Foco",
+          "url": "https://congressoemfoco.com.br/noticia/106029/superpoderes-entenda-a-eleicao-para-presidente-da-camara-e-da-mesa-diretora"
+        }
+      ]
+    },
+    {
+      "secao": "Senado",
+      "titulo": "Placares de Alcolumbre e Marinho somam 90 votos num Senado de 81; PT adia apoio formal",
+      "linhaFina": "Aliados de Alcolumbre falam em 48 votos; levantamento de Gustavo Gayer dá 42 a Marinho. Tereza Cristina fala em decidir “sem vaidades”, e a candidatura única da oposição deve sair em janeiro.",
+      "resumo": "Os placares divulgados por Davi Alcolumbre (48 votos) e por aliados de Rogério Marinho (42) somam 90 num Senado de 81 cadeiras. A bancada do PT adiou a confirmação de apoio a Alcolumbre. Marinho e Tereza Cristina falam em convergir até janeiro.",
+      "texto": [
+        "Os números que circulam na disputa pela presidência do Senado não fecham. Aliados de Davi Alcolumbre (União-AP) falam em 48 votos; um levantamento do deputado Gustavo Gayer (PL-GO), revelado pela Gazeta do Povo, atribui 42 a Rogério Marinho (PL-RN). Somados, dariam 90 votos numa Casa de 81 cadeiras, como apontaram o ND Mais e a TV Sim Brasil. O próprio Marinho fala em ao menos 40. Nenhum dos números tem verificação independente. Vence quem tiver 41 votos, em eleição secreta marcada para 1º de fevereiro de 2027.",
+        "No placar de Gayer, Alcolumbre teria 30 votos, e outros nove senadores estariam indecisos ou próximos de Tereza Cristina (PP-MS), segundo o ND Mais. No início do mês, levantamento do próprio ND estimava cerca de 12 votos para Tereza.",
+        "Na quarta-feira (18), a bancada do PT e Alcolumbre adiaram a reunião em que os petistas confirmariam o apoio à reeleição dele; o encontro ficou para depois da votação do pacote fiscal, segundo o ND Mais e a TV Sim Brasil. O PT terá dez senadores em 2027. O presidente Lula sinalizou apoio a Alcolumbre em encontro no Palácio da Alvorada em 26 de outubro, segundo o ND.",
+        "Do lado da oposição, Tereza Cristina disse que a escolha “tem que ser decidida sem vaidades”, e Marinho afirmou que, no momento oportuno, os dois vão convergir, segundo a TV Sim Brasil. A definição da candidatura única deve ocorrer na segunda quinzena de janeiro. A senadora eleita Bia Kicis (PL-DF) obteve apoio de Rayssa Furlan (Podemos-AP) e Mara Rocha (Republicanos-AC) para Marinho, e Guilherme Derrite (PP-SP) disse que votará nele apesar da posição do PP, segundo o ND Mais e a Gazeta do Povo.",
+        "Valdemar Costa Neto, presidente do PL, convocou prefeitos, vereadores e deputados do partido a pedir votos para Marinho. O próximo compromisso da campanha de Alcolumbre é um café com senadoras, remarcado para 25 de novembro, segundo o ND Mais."
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais",
+          "url": "https://ndmais.com.br/politica/alcolumbre-votos-marinho-presidencia-senado/"
+        },
+        {
+          "nome": "TV Sim Brasil",
+          "url": "https://tvsimbrasil.com.br/brasil/eleicoes-2026/noticia/2026/11/19/alcolumbre-marinho-90-votos-senado-81-cadeiras"
+        },
+        {
+          "nome": "TV Sim Brasil (Tereza Cristina)",
+          "url": "https://tvsimbrasil.com.br/brasil/eleicoes-2026/noticia/2026/11/18/tereza-cristina-articula-uniao-marinho-contra-alcolumbre"
+        },
+        {
+          "nome": "Gazeta do Povo (via Jornal Além Parahyba)",
+          "url": "https://www.jornalalemparahyba.com.br/2026/11/marinho-mobiliza-senadoras-e-busca-novos-apoios-para-conter-dissidencia-pro-tereza-cristina/"
+        }
+      ],
+      "grafico": {
+        "tipo": "barras",
+        "titulo": "O placar de Gayer para o Senado",
+        "subtitulo": "Votos atribuídos a cada lado, segundo levantamento do deputado Gustavo Gayer (PL-GO)",
+        "casas": 0,
+        "dados": [
+          {
+            "rotulo": "Rogério Marinho",
+            "valor": 42,
+            "destaque": true
+          },
+          {
+            "rotulo": "Davi Alcolumbre",
+            "valor": 30
+          },
+          {
+            "rotulo": "Indecisos",
+            "valor": 9
+          }
+        ],
+        "fonte": {
+          "nome": "Gazeta do Povo, via ND Mais",
+          "url": "https://ndmais.com.br/politica/alcolumbre-votos-marinho-presidencia-senado/"
+        },
+        "nota": "Levantamento de um aliado de Marinho, sem verificação independente. Aliados de Alcolumbre falam em 48 votos para ele. Os indecisos incluem senadores próximos de Tereza Cristina. São necessários 41 votos."
+      }
+    },
+    {
+      "secao": "STF",
+      "titulo": "Moraes marca para dezembro o julgamento da Lei da Dosimetria no plenário virtual",
+      "linhaFina": "A análise vai de 4 a 15 de dezembro, a pedido de Hugo Motta e Davi Alcolumbre; a lei, que pode reduzir penas do 8 de janeiro, está suspensa até a decisão.",
+      "resumo": "O ministro Alexandre de Moraes liberou para o plenário virtual do STF, de 4 a 15 de dezembro, as ações sobre a Lei da Dosimetria, que muda regras de pena e progressão de regime e pode beneficiar condenados do 8 de janeiro. A aplicação da lei está suspensa até o julgamento.",
+      "texto": [
+        "O ministro Alexandre de Moraes, relator no STF das ações que questionam a Lei da Dosimetria, liberou o caso para julgamento no plenário virtual de 4 a 15 de dezembro, segundo o Diário do Grande ABC, o aRede e o Brasil 247. Os presidentes da Câmara, Hugo Motta (Republicanos-PB), e do Senado, Davi Alcolumbre (União-AP), haviam pedido a inclusão do tema na pauta ainda neste ano, em reunião com Moraes na terça-feira (17).",
+        "A lei foi aprovada pelo Congresso em dezembro de 2025 e vetada integralmente pelo presidente Lula. O veto foi derrubado por 318 votos a 144 na Câmara e 49 a 24 no Senado, segundo o Brasil 247. Os veículos divergem sobre o mês: o Diário do Grande ABC fala na derrubada em abril; o aRede, na promulgação em maio de 2026.",
+        "O texto altera o Código Penal e a Lei de Execução Penal, muda regras de progressão de regime e de remição de pena e cria uma causa de redução para crimes cometidos em contexto de multidão, segundo o aRede. O Brasil 247 acrescenta que, quando houver condenação simultânea por tentativa de golpe e por tentativa de abolição violenta do Estado Democrático de Direito, o primeiro crime absorve o segundo. Moraes suspendeu a aplicação da lei até o julgamento; segundo o aRede, o caso estava parado no STF desde julho.",
+        "O impacto pode chegar ao ex-presidente Jair Bolsonaro. Em abril, o relator da lei na Câmara, Paulinho da Força (Solidariedade-SP), estimou que a pena dele cairia de 27 anos e 3 meses para 20 anos e 8 meses, segundo o aRede. Bolsonaro está em prisão domiciliar e não apresentou pedido de redução com base na lei, segundo o Brasil 247, que cita reportagem do G1 segundo a qual ministros avaliam, reservadamente, haver maioria para manter a lei, possivelmente com ajustes.",
+        "Próximos passos: os votos serão depositados no ambiente virtual entre 4 e 15 de dezembro. Um pedido de vista pode adiar a conclusão, e um pedido de destaque levaria o caso ao plenário presencial."
+      ],
+      "fontes": [
+        {
+          "nome": "Diário do Grande ABC",
+          "url": "https://www.dgabc.com.br/Noticia/4369806/moraes-libera-acao-que-trata-da-lei-da-dosimetria-para-julgamento-no-plenario-virtual-do-stf"
+        },
+        {
+          "nome": "aRede (com Metrópoles)",
+          "url": "https://arede.info/cotidiano/694231/moraes-marca-para-dezembro-julgamento-sobre-lei-da-dosimetria-no-stf"
+        },
+        {
+          "nome": "Brasil 247 (com G1)",
+          "url": "https://www.brasil247.com/brasil/moraes-libera-julgamento-da-lei-da-dosimetria-no-stf-analise-sera-em-dezembro/"
+        }
+      ]
+    },
+    {
+      "secao": "Planalto",
+      "titulo": "Lula assina decreto do fim da escala 6x1; jornada cai para 42 horas em 16 de dezembro",
+      "linhaFina": "O texto garante dois dias de descanso por semana sem redução de salário e prevê 40 horas a partir de dezembro de 2027; o STF ainda vai julgar ações da CNC e da CNI.",
+      "resumo": "Lula assinou na quinta (19) o decreto que regulamenta o fim da escala 6x1. A partir de 16 de dezembro, valem dois dias de descanso semanais, sem corte de salário, e o limite cai de 44 para 42 horas; em dezembro de 2027, para 40. Portarias saem a partir da próxima semana.",
+      "texto": [
+        "O presidente Lula assinou na quinta-feira (19) o decreto que regulamenta o fim da escala 6x1. A partir de 16 de dezembro, os trabalhadores passam a ter direito a dois dias de descanso remunerado por semana, sem redução salarial, e a jornada máxima cai de 44 para 42 horas semanais; o limite de 40 horas vale a partir de dezembro de 2027, segundo a Secretaria-Geral da Presidência e a IstoÉ Dinheiro.",
+        "O decreto mantém a escala 12x36 em serviços específicos, como cuidadores, hospitais e vigilância, dentro do limite semanal. Ele regulamenta a emenda constitucional promulgada em outubro, que o governo identifica como PEC 221/2019 e a IstoÉ Dinheiro como Emenda Constitucional 141/2026. Portarias com detalhes devem ser publicadas a partir da próxima semana. Multas e a lista completa de setores não constam das informações divulgadas até agora.",
+        "O tema também está no STF. Em liminar parcial de 12 de novembro, nas ações da CNC e da CNI, o ministro Flávio Dino manteve o início em dezembro, mas permitiu que, sem acordo ou convenção coletiva até 15 de dezembro, as 42 horas sejam distribuídas em cinco dias de até 8h24, sem adicional de hora extra nos 24 minutos excedentes, até 15 de dezembro de 2027, segundo a IstoÉ Dinheiro. Dino, Moraes, Cármen Lúcia e Gilmar Mendes votaram para manter a liminar, mas um pedido de destaque de Luiz Fux levou o caso ao plenário presencial, ainda sem data.",
+        "Na cerimônia, Lula disse que o governo quer “humanizar o mundo do trabalho”, e o ministro da Secretaria-Geral, Guilherme Boulos, afirmou que a conquista estava “garantida e homologada”. O presidente mencionou também transporte gratuito nos fins de semana, sem detalhar como. O governo afirma ter ouvido mais de 70 setores antes de fechar o texto, segundo a IstoÉ Dinheiro.",
+        "Próximos passos: publicação das portarias, entrada em vigor em 16 de dezembro e julgamento do mérito no plenário presencial do STF, em data a definir."
+      ],
+      "fontes": [
+        {
+          "nome": "Secretaria-Geral da Presidência (gov.br)",
+          "url": "https://www.gov.br/secretariageral/pt-br/noticias/2026/novembro/lula-assina-decreto-que-regulamenta-o-fim-da-escala-6x1-e-garante-dois-dias-de-descanso-aos-trabalhadores"
+        },
+        {
+          "nome": "IstoÉ Dinheiro",
+          "url": "https://istoedinheiro.com.br/fim-escala-6x1-lula-decreto-transicao"
+        }
+      ],
+      "grafico": {
+        "tipo": "barras",
+        "titulo": "A jornada máxima semanal pelo decreto",
+        "subtitulo": "Horas por semana",
+        "sufixo": " h",
+        "casas": 0,
+        "dados": [
+          {
+            "rotulo": "Até 15/dez/2026",
+            "valor": 44
+          },
+          {
+            "rotulo": "De 16/dez/2026",
+            "valor": 42,
+            "destaque": true
+          },
+          {
+            "rotulo": "De dez/2027",
+            "valor": 40
+          }
+        ],
+        "fonte": {
+          "nome": "Secretaria-Geral da Presidência",
+          "url": "https://www.gov.br/secretariageral/pt-br/noticias/2026/novembro/lula-assina-decreto-que-regulamenta-o-fim-da-escala-6x1-e-garante-dois-dias-de-descanso-aos-trabalhadores"
+        }
+      }
+    }
+  ],
+  "mundo": [
+    {
+      "secao": "Ásia",
+      "titulo": "Trump, Xi e Putin assinam declaração simbólica em Shenzhen, sem acordo sobre a Ucrânia",
+      "linhaFina": "Os três reafirmam que uma guerra nuclear não pode ser vencida e prometem diálogo sobre riscos atômicos, sem prazo; analistas veem poucos resultados concretos.",
+      "resumo": "Na primeira cúpula a três, em Shenzhen, Trump, Xi Jinping e Putin divulgaram uma declaração que reafirma que uma guerra nuclear não pode ser vencida e prevê diálogo sobre riscos nucleares, sem prazo. O texto não cita Ucrânia nem Irã.",
+      "texto": [
+        "Os presidentes Donald Trump, Xi Jinping e Vladimir Putin encerraram na quinta-feira (19), em Shenzhen, na China, a primeira cúpula entre os três com uma declaração de caráter simbólico. Segundo a Reuters, reproduzida pelo Money Times, o texto reafirma que uma guerra nuclear não pode ser vencida e nunca deve ser travada, e prevê um diálogo sobre redução de riscos nucleares e não proliferação, sem prazo definido. A Ucrânia e o Irã não aparecem no documento.",
+        "Os três também se comprometeram com uma reforma da ONU, com o aumento da oferta mundial de combustíveis e com a defesa da imunidade de autoridades de Estado em tribunais internacionais. Para a Bloomberg Línea, a cúpula terminou sem acordos substanciais: a promessa sobre combustíveis não mexeu com os mercados de energia, e as demais propostas são vagas ou repetem posições antigas. Um tratado trilateral de redução de armas, que a China rejeita, ficou fora.",
+        "Trump disse à NBC que a reunião correu muito bem e deu a ela nota 12, numa escala de 10. Xi afirmou que, quando as grandes potências entram em conflito, o mundo mergulha na turbulência, e disse a Trump que os Estados Unidos devem “fazer a coisa certa” sobre Taiwan. Putin admitiu que não houve metas ambiciosas. No mesmo dia, Taiwan relatou dois aviões russos em sua zona de defesa aérea, segundo a Bloomberg Línea.",
+        "As reações foram duras em parte do Ocidente. O líder democrata no Senado americano, Chuck Schumer, chamou o encontro de vergonha histórica, e o chanceler alemão Friedrich Merz disse que um formato de Yalta não trará paz, segundo a Reuters. Em coletiva após a cúpula, Putin anunciou que a Rússia não vai mais discutir tréguas na área de energia, em resposta aos ataques ucranianos à ponte da Crimeia, segundo o Kyiv Independent.",
+        "Próximos passos: Trump prometeu entrevista coletiva em Washington nesta sexta. Ele deve reencontrar Xi na cúpula do G20 na Flórida, em algumas semanas, e Putin disse que pode considerar ir. O chanceler chinês, Wang Yi, afirmou que os três manterão coordenação em nível técnico."
+      ],
+      "fontes": [
+        {
+          "nome": "Money Times (Reuters)",
+          "url": "https://www.moneytimes.com.br/trump-xi-e-putin-divulgam-declaracao-de-paz-apos-cupula-sem-precedentes/"
+        },
+        {
+          "nome": "Bloomberg Línea",
+          "url": "https://www.bloomberglinea.com/mundo/estados-unidos/trump-xi-y-putin-concluyen-una-historica-cumbre-sin-acuerdos-sustanciales-en-la-agenda-global/"
+        },
+        {
+          "nome": "ND Mais",
+          "url": "https://ndmais.com.br/mundo/reuniao-de-trump-xi-e-putin-em-shenzhen-rende-foto-e-dialogo-nuclear-mas-nenhum-anuncio-sobre-a-ucrania-quem-saiu-ganhando/"
+        },
+        {
+          "nome": "Kyiv Independent (Putin)",
+          "url": "https://kyivindependent.com/we-will-not-negotiate-putin-addresses-ukraines-strikes-on-crimean-bridge/"
+        }
+      ]
+    },
+    {
+      "secao": "Guerra na Ucrânia",
+      "titulo": "Ucrânia ataca a ponte da Crimeia pela terceira vez em uma semana; Putin promete resposta",
+      "linhaFina": "O tráfego de trens foi suspenso depois do ataque com mísseis Neptune; o presidente russo diz que não negociará mais tréguas de energia e que a retaliação será “muito mais dolorosa”.",
+      "resumo": "A Ucrânia confirmou ter atingido de novo a ponte da Crimeia com mísseis Neptune, no terceiro ataque em uma semana, e a Rússia suspendeu o tráfego ferroviário. Putin disse que não negociará mais cessar-fogo para energia e navegação e prometeu retaliar.",
+      "texto": [
+        "O Ministério da Defesa da Ucrânia confirmou na quinta-feira (19) ter atingido a ponte da Crimeia com mísseis Neptune, perto do arco e dos trilhos, no terceiro ataque à estrutura em uma semana, segundo o Kyiv Independent e a RBC-Ukraine. O Ministério dos Transportes da Rússia suspendeu o tráfego ferroviário e informou que não houve feridos. A ponte liga a península, anexada pela Rússia em 2014, ao território russo.",
+        "O primeiro ataque, em 16 de novembro, fechou a pista rodoviária; no dia 17, um trecho do arco e um vão da rodovia desabaram, segundo a RBC-Ukraine. O Kyiv Independent diz não conseguir verificar a extensão dos danos do novo ataque, e um canal de monitoramento citado pela RBC afirma que o arco ferroviário segue de pé. Segundo autoridades instaladas pela Rússia na Crimeia, balsas passariam a fazer a travessia a partir desta sexta.",
+        "Em entrevista coletiva após a cúpula de Shenzhen, o presidente Vladimir Putin disse que a ponte sofreu danos sérios e que, depois dos ataques, Moscou não vai mais negociar cessar-fogo para a infraestrutura de energia e para a navegação no Mar Negro. “Nós vamos responder”, afirmou, acrescentando que a retaliação será muito mais dolorosa, segundo o Kyiv Independent.",
+        "O presidente Volodymyr Zelensky respondeu que toda proposta de trégua tem sido rejeitada pela Rússia. No mesmo dia, em Berlim, ele se reuniu com líderes europeus e com enviados de Trump; o grupo pediu a Moscou um cessar-fogo energético durante o inverno, proposta que o anúncio de Putin, na prática, recusou.",
+        "Próximos passos: a Rússia avalia os danos e organiza a ligação por balsas, enquanto Kiev se prepara para a retaliação anunciada por Putin, em pleno início do inverno."
+      ],
+      "fontes": [
+        {
+          "nome": "Kyiv Independent",
+          "url": "https://kyivindependent.com/ukrainian-forces-once-more-hit-russias-crimean-bridge-days-after-devastating-strike/"
+        },
+        {
+          "nome": "RBC-Ukraine",
+          "url": "https://newsukraine.rbc.ua/news/ukraine-strikes-crimean-bridge-for-the-third-1795077091.html"
+        },
+        {
+          "nome": "Kyiv Independent (Putin)",
+          "url": "https://kyivindependent.com/we-will-not-negotiate-putin-addresses-ukraines-strikes-on-crimean-bridge/"
+        },
+        {
+          "nome": "Kyiv Independent",
+          "url": "https://kyivindependent.com/coalition-of-the-willing-calls-on-russia-to-accept-winter-energy-truce/"
+        }
+      ]
+    },
+    {
+      "secao": "Europa",
+      "titulo": "Europeus pedem trégua de inverno à Rússia, e Hungria destrava adesão da Ucrânia à UE",
+      "linhaFina": "Alemanha, França, Reino Unido e Ucrânia propõem cessar-fogo energético e corredor de alimentos no Mar Negro; Budapeste deixa de barrar os últimos capítulos da negociação com Kiev e Moldávia.",
+      "resumo": "Após reunião em Berlim com Zelensky e enviados de Trump, Alemanha, França e Reino Unido pediram à Rússia um cessar-fogo energético no inverno e prometeram mais defesa aérea. No mesmo dia, a Hungria deixou de bloquear dois capítulos da adesão da Ucrânia e da Moldávia à União Europeia.",
+      "texto": [
+        "Alemanha, França, Reino Unido e Ucrânia pediram na quinta-feira (19) que a Rússia aceite um cessar-fogo na área de energia durante o inverno, como primeiro passo para o fim das hostilidades, além de uma trégua que permita exportar alimentos pelo Mar Negro, segundo o Kyiv Independent e o Censor.NET. A declaração saiu de uma reunião em Berlim da chamada coalizão dos dispostos, com mais de 40 parceiros de Kiev.",
+        "Participaram o chanceler alemão Friedrich Merz, o presidente francês Emmanuel Macron, o primeiro-ministro britânico Andy Burnham e o presidente Volodymyr Zelensky. Os enviados americanos Steve Witkoff e Jared Kushner acompanharam a conferência e se reuniram com Zelensky, segundo o Kyiv Independent. Os aliados prometeram mais sistemas de defesa aérea e citaram o empréstimo europeu de 90 bilhões de euros à Ucrânia; novas sanções ao petróleo russo e a criptomoedas aparecem como medidas propostas.",
+        "No mesmo dia, a Hungria indicou que vai permitir a abertura dos dois últimos dos seis blocos de negociação para a entrada da Ucrânia e da Moldávia na União Europeia, os de agricultura e de agenda verde. O Kyiv Independent, citando diplomatas, diz que Budapeste “parece concordar” em avançar; o Daily News Hungary afirma que o país retirou a objeção. Segundo os diplomatas, o novo governo húngaro quis evitar parecer brando demais com Kiev, depois de anos de resistência sob Viktor Orbán.",
+        "Antes da abertura formal, os embaixadores dos 27 países precisam fechar uma posição comum, que depois passa pelos ministros e por uma conferência intergovernamental. A previsão é abrir todos os seis blocos até dezembro. Ucrânia e Moldávia ainda precisam cumprir metas intermediárias de Estado de direito e combate à corrupção.",
+        "Próximos passos: a Comissão Europeia deve circular na próxima semana um relatório sobre a Moldávia, e Bruxelas espera concluir as reformas ucranianas até junho de 2027. Do lado russo, a resposta à proposta de trégua veio do próprio Putin, que disse não negociar mais esse tipo de cessar-fogo."
+      ],
+      "fontes": [
+        {
+          "nome": "Kyiv Independent",
+          "url": "https://kyivindependent.com/coalition-of-the-willing-calls-on-russia-to-accept-winter-energy-truce/"
+        },
+        {
+          "nome": "Censor.NET",
+          "url": "https://censor.net/en/news/4034652/coalition-urges-winter-energy-truce-and-stronger-ukraine-missile-defense"
+        },
+        {
+          "nome": "Kyiv Independent (via Yahoo News)",
+          "url": "https://www.yahoo.com/news/world/articles/hungary-lifts-block-further-progress-152714588.html"
+        },
+        {
+          "nome": "Daily News Hungary",
+          "url": "https://dailynewshungary.com/hungary-lifts-veto-ukraine-eu-join/"
+        }
+      ]
+    },
+    {
+      "secao": "Estados Unidos",
+      "titulo": "Bolsas de Nova York caem mais de 2%, e S&P 500 tem sexta queda seguida",
+      "linhaFina": "O Dow Jones perdeu 1.101 pontos em dia de vendas espalhadas por quase todos os setores; ações de tecnologia lideraram as perdas, e o mercado aposta em alta de juros do Fed em dezembro.",
+      "resumo": "O Dow Jones caiu 2,19%, o S&P 500 recuou 2,02% e o Nasdaq perdeu 2,25% na quinta (19). Foi a sexta queda seguida do S&P 500. Pesaram preocupações com inflação, juros e preços das ações de tecnologia.",
+      "texto": [
+        "As bolsas de Nova York fecharam a quinta-feira (19) em forte queda. O Dow Jones caiu 2,19%, ou 1.101 pontos, aos 49.097 pontos; o S&P 500 recuou 2,02%, aos 7.175 pontos, sexta sessão seguida de perdas; e o Nasdaq perdeu 2,25%, aos 23.879 pontos, segundo o The Motley Fool. O StockTitan, que cita a CNBC, registra movimentos semelhantes nos fundos que acompanham os três índices.",
+        "A venda se espalhou por quase todos os setores, segundo o Motley Fool, que aponta preocupações com inflação, juros e o preço elevado das ações. Mesmo o resultado trimestral forte da Nvidia não mudou o humor: a ação caiu 3,30%. Amazon recuou 3,87% e Alphabet 3,46%, segundo o StockTitan. Só os setores de energia e de consumo básico fecharam em leve alta.",
+        "O StockTitan relaciona parte do movimento à estreia da Anthropic na Nasdaq, com investidores realizando lucros em ações de inteligência artificial, e registra que o índice de volatilidade VIX chegou perto de 29 pontos à tarde, o maior nível desde março, segundo a CNBC. O rendimento do título de dez anos do Tesouro americano fechou em 5,07%, segundo o Motley Fool.",
+        "Os juros estão no centro da preocupação. O Motley Fool afirma que o Federal Reserve tem sinalizado que novas altas podem ser necessárias, e, pela manhã, a ferramenta CME FedWatch, citada pelo InfoMoney, apontava 90% de chance de alta de 0,25 ponto percentual na reunião de 9 de dezembro. O índice de atividade do Fed da Filadélfia caiu para 6,3 em novembro, abaixo dos 18 esperados, segundo o StockTitan.",
+        "Próximos passos: o mercado acompanha os dados de inflação e as falas dos dirigentes do Fed até a reunião de dezembro. No Brasil, a queda em Nova York ajudou a empurrar o dólar para a sexta alta seguida."
+      ],
+      "fontes": [
+        {
+          "nome": "The Motley Fool",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/19/stock-market-today-nov-19-dow-plunges-1-100-points-as-the-s-and-p-500-suffers-its-6th-straight-day-of-losses/"
+        },
+        {
+          "nome": "StockTitan",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-19-2026"
+        },
+        {
+          "nome": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-19112026/"
+        },
+        {
+          "nome": "O Repórter",
+          "url": "https://oreporter.com/economia/dolar-fecha-5-94-sexta-alta-ibovespa-cai"
+        }
+      ]
+    }
+  ],
+  "cultura": [
+    {
+      "secao": "Games",
+      "titulo": "GTA VI vende 19,1 milhões de cópias até o lançamento, estima a Sensor Tower",
+      "linhaFina": "A receita estimada de US$ 1,84 bilhão supera mais que o dobro do primeiro dia de GTA V; a Take-Two ainda não divulgou números oficiais, e a ação caiu cerca de 1% no dia da estreia.",
+      "resumo": "A consultoria Sensor Tower estima que GTA VI vendeu 19,1 milhões de unidades e faturou cerca de US$ 1,84 bilhão até a manhã do lançamento, contra cerca de US$ 800 milhões no primeiro dia de GTA V. A Take-Two não confirmou os números.",
+      "texto": [
+        "Grand Theft Auto VI vendeu cerca de 19,1 milhões de unidades e faturou aproximadamente US$ 1,84 bilhão até a manhã de quinta-feira (19), dia do lançamento para PS5 e Xbox Series X|S, segundo estimativa da consultoria Sensor Tower divulgada pela Reuters e reproduzida pelo Money Times e pelo Yahoo Finance. A Take-Two, dona da Rockstar Games, não confirmou os números, ressalta o ad-hoc-news.",
+        "Para comparação, GTA V faturou cerca de US$ 800 milhões no primeiro dia, em 2013, e é considerado o jogo mais vendido nas primeiras 24 horas, segundo a Reuters. Há diferença de rótulo entre os veículos: Reuters, BPMoney e ad-hoc-news tratam a cifra como vendas até o dia de estreia, enquanto o BigGo Finance a descreve como pré-vendas digitais acumuladas até o lançamento. Em todos os casos, trata-se da mesma estimativa da Sensor Tower, não de dado oficial.",
+        "O mercado reagiu com cautela. A ação da Take-Two caiu cerca de 1% na quinta, depois de subir 6% na quarta, segundo a Reuters. O presidente da empresa, Strauss Zelnick, havia dito em teleconferência de resultados, no início de novembro, que ainda não era hora de declarar vitória. O custo de produção do jogo é estimado em cerca de US$ 1 bilhão.",
+        "Os analistas divergem sobre o tamanho do sucesso. O Wells Fargo elevou para cerca de 65 milhões de unidades a projeção de vendas no ano fiscal, enquanto o BTIG cortou o preço-alvo da ação de US$ 313 para US$ 262 no início do mês, citando o desempenho mais fraco de jogos para celular e de NBA 2K, segundo o ad-hoc-news. A TD Cowen incluiu a ação entre suas melhores ideias para 2027, segundo a Reuters.",
+        "Próximos passos: investidores esperam números oficiais de vendas da Take-Two e anúncios sobre a versão para PC e o modo online, que alguns analistas só esperam para 2027, segundo a Reuters."
+      ],
+      "fontes": [
+        {
+          "nome": "Money Times (Reuters)",
+          "url": "https://www.moneytimes.com.br/take-two-deve-quebrar-recordes-de-vendas-com-gta-vi/"
+        },
+        {
+          "nome": "Yahoo Finance (Reuters)",
+          "url": "https://ca.finance.yahoo.com/news/two-set-shatter-sales-records-164747410.html"
+        },
+        {
+          "nome": "BPMoney",
+          "url": "https://bpmoney.com.br/inovacao/tecnologia/gta-vi-pode-render-us-184-bi-take-two-em-um-dia/"
+        },
+        {
+          "nome": "ad-hoc-news",
+          "url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/take-two-s-gta-vi-sells-an-estimated-19-1-million-copies-on-day-one-as-btig-trims-its-target/70537962"
+        },
+        {
+          "nome": "BigGo Finance",
+          "url": "https://finance.biggo.com/news/27aca2cb9e7c40f8"
+        }
+      ],
+      "grafico": {
+        "tipo": "barras",
+        "titulo": "GTA VI x GTA V na largada",
+        "subtitulo": "Receita até o primeiro dia, em US$ bilhões",
+        "prefixo": "US$ ",
+        "sufixo": " bi",
+        "casas": 2,
+        "dados": [
+          {
+            "rotulo": "GTA V (2013)",
+            "valor": 0.8
+          },
+          {
+            "rotulo": "GTA VI (estimativa)",
+            "valor": 1.84,
+            "destaque": true
+          }
+        ],
+        "fonte": {
+          "nome": "Reuters (via Money Times), com estimativa da Sensor Tower",
+          "url": "https://www.moneytimes.com.br/take-two-deve-quebrar-recordes-de-vendas-com-gta-vi/"
+        },
+        "nota": "GTA VI: estimativa da Sensor Tower até a manhã de 19/nov, não confirmada pela Take-Two. GTA V: cerca de US$ 800 milhões no primeiro dia."
+      }
+    }
+  ],
+  "paraEntender": {
+    "titulo": "O caso Van Hattem em datas",
+    "itens": [
+      "Ago/2024 — Na tribuna da Câmara, Van Hattem acusa o delegado da PF Fábio Shor de produzir relatórios fraudulentos contra Filipe Martins.",
+      "Set/2024 — O ministro Flávio Dino autoriza a abertura de inquérito no STF.",
+      "Nov/2024 — A PF indicia o deputado, segundo o ND Mais.",
+      "Abr/2026 — A PGR apresenta denúncia por calúnia e injúria.",
+      "18/nov — A defesa pede julgamento presencial, com sustentação oral.",
+      "19/nov — Dino nega o pedido; a OAB pede sessão presencial.",
+      "20 a 30/nov — A Primeira Turma vota, no plenário virtual, se recebe a denúncia."
+    ],
+    "fontes": [
+      {
+        "nome": "Gazeta do Povo",
+        "url": "https://www.gazetadopovo.com.br/vida-e-cidadania/caso-van-hattem-testa-terreno-para-radicalizacao-autoritaria-do-stf-contra-parlamentares/"
+      },
+      {
+        "nome": "ND Mais",
+        "url": "https://ndmais.com.br/politica/marcel-van-hattem-julgamento-pode-virar-reu-stf-acusacoes-delegado-moraes/"
+      },
+      {
+        "nome": "Brasil 247 (com Metrópoles)",
+        "url": "https://www.brasil247.com/brasil/oab-pede-julgamento-presencial-de-van-hattem-no-stf/"
+      }
+    ]
+  },
+  "breves": [
+    {
+      "texto": "A área técnica do TCU viu indícios de promoção eleitoral no pronunciamento de Lula em rede nacional de 8/11 e propôs que a Secom explique, em até 15 dias, custos e contratos da peça.",
+      "fonte": {
+        "nome": "Gazeta do Povo",
+        "url": "https://www.gazetadopovo.com.br/republica/tcu-ve-indicios-de-propaganda-eleitoral-em-pronunciamento-de-lula-e-cobra-explicacoes/"
+      }
+    },
+    {
+      "texto": "O diretor-geral da PF, Andrei Rodrigues, entregou a Edson Fachin relatórios sobre ministros citados por Daniel Vorcaro, do Banco Master; a PGR tem 15 dias para se manifestar, e o material segue sob sigilo.",
+      "fonte": {
+        "nome": "Gazeta do Povo",
+        "url": "https://www.gazetadopovo.com.br/republica/andrei-chega-ao-stf-para-entregar-a-fachin-relatorios-sobre-ministros-e-vorcaro/"
+      }
+    },
+    {
+      "texto": "Operação do Bope e da PF achou no Complexo da Maré, no Rio, uma fábrica clandestina capaz de produzir até 3 mil fuzis por ano, sem número de série nem marca.",
+      "fonte": {
+        "nome": "Gazeta do Povo",
+        "url": "https://www.gazetadopovo.com.br/brasil/policia-descobre-fabrica-industrial-de-fuzis-no-complexo-da-mare/"
+      }
+    },
+    {
+      "texto": "Por causa do feriado da Consciência Negra, a B3 não abre nesta sexta (20); os negócios, inclusive com o BDR da Anthropic, voltam na segunda (23), às 10h.",
+      "fonte": {
+        "nome": "Melhor Investimento",
+        "url": "https://melhorinvestimento.net/noticias/acoes-da-anthropic-estreia-nasdaq"
+      }
+    },
+    {
+      "texto": "Nos EUA, os pedidos iniciais de seguro-desemprego somaram 203 mil na semana até 14 de novembro, alta de mil sobre a semana anterior.",
+      "fonte": {
+        "nome": "StockTitan",
+        "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-19-2026"
+      }
+    }
+  ]
+}
