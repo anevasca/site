@@ -137,6 +137,16 @@
   @media (max-width:640px){ .arquivo-pag li{grid-template-columns:1fr;gap:4px} }
 
   .criterios{max-width:760px;margin:0 auto;padding:30px 0 40px}
+  .painel-nota{font-family:var(--sans);font-size:14px;color:#666}
+  .painel-cards{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:18px 0}
+  .painel-cards div{border:1px solid var(--linha);border-top:3px solid var(--acento);padding:14px;font-family:var(--sans);font-size:14px;color:#555}
+  .painel-cards span{display:block;font-family:var(--titulo);font-size:40px;font-weight:800;color:#111;line-height:1.1}
+  .painel-datas{font-family:var(--sans);font-size:14px}
+  .painel-tab{width:100%;border-collapse:collapse;font-family:var(--sans);font-size:15px;margin:10px 0 18px}
+  .painel-tab th{text-align:left;border-bottom:2px solid #111;padding:6px 4px}
+  .painel-tab td{border-bottom:1px solid var(--linha);padding:8px 4px;vertical-align:top}
+  .painel-tab td:last-child,.painel-tab th:last-child{text-align:right;font-weight:800;white-space:nowrap}
+  .painel-tab small{display:block;color:#777;font-size:12px;margin-top:2px}
   .criterios h1{font-family:var(--titulo);font-weight:900;font-size:46px;line-height:1.05;margin:0 0 12px}
   .criterios .fina{font-size:20px;font-style:italic;color:#2b2b2b;margin:0 0 24px;padding-bottom:20px;border-bottom:3px double var(--tinta)}
   .crit-bloco{padding:6px 0 14px;border-bottom:1px solid var(--linha)}
@@ -240,8 +250,8 @@
 </style>
 <!-- Contador de visitas (GoatCounter, sem cookies) -->
 <script>
-window.goatcounter={path:function(){return location.pathname+location.hash}};
-window.addEventListener("hashchange",function(){if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:location.pathname+location.hash})});
+window.goatcounter={path:function(){return location.pathname+location.hash},no_onload:location.hash.indexOf("#redacao")===0};
+window.addEventListener("hashchange",function(){if(location.hash.indexOf("#redacao")===0)return;if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:location.pathname+location.hash})});
 </script>
 <script data-goatcounter="https://anevasca.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
@@ -249,7 +259,7 @@ window.addEventListener("hashchange",function(){if(window.goatcounter&&window.go
 <div class="wrap">
   <div class="topo">
     <span id="topo-data"></span>
-    <span><span class="ao-vivo">● Edição do dia</span> &nbsp;·&nbsp; <span id="topo-atual"></span><span id="topo-leituras"></span></span>
+    <span><span class="ao-vivo">● Edição do dia</span><span id="topo-atual"></span></span>
   </div>
 
   <header class="masthead">
@@ -412,7 +422,7 @@ window.addEventListener("hashchange",function(){if(window.goatcounter&&window.go
   function topo(ed){
     document.title = "A Nevasca — " + ed.dataExtenso;
     document.getElementById("topo-data").innerHTML = "<strong>" + esc(ed.dataExtenso) + "</strong>";
-    document.getElementById("topo-atual").textContent = "Atualizado em " + (ed.atualizadoEm || "");
+    document.getElementById("topo-atual").textContent = ed.atualizadoEm ? "\u00a0\u00a0·\u00a0\u00a0Atualizado em " + ed.atualizadoEm : "";
     document.getElementById("ed-num").textContent = "Edição nº " + ed.numero;
   }
   function nav(ed, ativa){
@@ -550,7 +560,6 @@ window.addEventListener("hashchange",function(){if(window.goatcounter&&window.go
     h += '<section class="secao mais-edicao"><h3>Mais nesta edição</h3><ul>' + outras.map(function(x){
       return '<li><span class="kicker'+(x.editorial?"":" azul")+'">'+esc(x.secao)+'</span><a href="#'+x.id+'">'+esc(x.titulo)+'</a></li>'; }).join("") + '</ul></section>';
     document.getElementById("conteudo").innerHTML = h;
-    contador("/#" + a.id, "leituras-mat", " · Lida ", "vez", "vezes");
   }
 
   // ---------- CONTADOR DE LEITURAS (GoatCounter) ----------
@@ -672,11 +681,54 @@ window.addEventListener("hashchange",function(){if(window.goatcounter&&window.go
     window.scrollTo(0,0);
   }
 
+
+  // Painel oculto da redação (#redacao): leituras por matéria. Não aparece no menu.
+  function contagem(caminho){
+    return fetch("https://anevasca.goatcounter.com/counter/" + encodeURIComponent(caminho) + ".json")
+      .then(function(r){ return r.ok ? r.json() : null; })
+      .then(function(d){ return d && d.count != null ? (parseInt(String(d.count).replace(/[\s ,.]/g, ""), 10) || 0) : 0; })
+      .catch(function(){ return 0; });
+  }
+  function paginaRedacao(data){
+    document.title = "A Nevasca — Painel da redação";
+    document.getElementById("topo-data").innerHTML = "<strong>Painel da redação</strong>";
+    document.getElementById("topo-atual").textContent = ""; document.getElementById("ed-num").textContent = "";
+    var alvo = document.getElementById("conteudo");
+    alvo.innerHTML = '<div class="carregando">Contando as leituras…</div>';
+    data = data || hoje;
+    carregar(data).then(function(ed){
+      return getUltimas(ed.data).catch(function(){ return []; }).then(function(lista){
+        var itens = artigos(ed).concat(ultimasArtigos(ed, lista || []));
+        return Promise.all([contagem("TOTAL")].concat(itens.map(function(a){ return contagem("/#" + a.id); }))).then(function(n){
+          var total = n.shift(), soma = 0;
+          itens.forEach(function(a, i){ a.n = n[i]; soma += n[i]; });
+          itens.sort(function(x, y){ return y.n - x.n; });
+          var datas = (listaArquivo || []).slice(0, 7).map(function(x){
+            var d = x.data.split("-"), r = d[2] + "/" + d[1];
+            return x.data === ed.data ? "<strong>" + r + "</strong>" : '<a href="#redacao-' + x.data + '">' + r + "</a>";
+          }).join(" · ");
+          var h = '<article class="criterios painel"><p class="kicker">Só para a redação</p><h1>Painel de leituras</h1>' +
+            '<p class="painel-nota">Página oculta: não aparece no menu e não entra na contagem. Os números vêm do GoatCounter e podem levar alguns minutos para atualizar; quem usa bloqueador de anúncios não é contado.</p>' +
+            '<div class="painel-cards"><div><span>' + total.toLocaleString("pt-BR") + '</span>leituras no site desde o início</div>' +
+            '<div><span>' + soma.toLocaleString("pt-BR") + '</span>leituras das matérias de ' + esc(ed.dataExtenso) + '</div></div>' +
+            '<p class="painel-datas">Edição: ' + datas + '</p>' +
+            '<table class="painel-tab"><thead><tr><th>#</th><th>Matéria</th><th>Leituras</th></tr></thead><tbody>' +
+            itens.map(function(a, i){
+              return '<tr><td>' + (i + 1) + '</td><td><a href="#' + a.id + '">' + esc(a.titulo) + '</a><small>' + esc(a.secao || "") + (a.hora ? " · " + esc(a.hora) : "") + '</small></td><td>' + a.n.toLocaleString("pt-BR") + '</td></tr>';
+            }).join("") + '</tbody></table>' +
+            '<p class="painel-nota">Painel completo (origem dos leitores, celular ou computador, dias e horários): <a href="https://anevasca.goatcounter.com" target="_blank" rel="noopener">anevasca.goatcounter.com</a></p></article>';
+          alvo.innerHTML = h; window.scrollTo(0, 0);
+        });
+      });
+    }).catch(function(){ alvo.innerHTML = '<div class="carregando">Não foi possível carregar o painel.</div>'; });
+  }
+
   function rota(){
     var hash = (location.hash || "").replace("#", "");
     if(hash === "brasilia") hash = "politica";
     getArquivo().catch(function(){}).then(function(){
       if(hash === "arquivo"){ nav(null, "arquivo"); rodapeArquivo(null); paginaArquivo(); return; }
+      if(hash.indexOf("redacao") === 0){ nav(null, "redacao"); rodapeArquivo(null); paginaRedacao(hash.slice(8) || null); return; }
       if(hash === "criterios"){ nav(null, "criterios"); rodapeArquivo(null); paginaCriterios(); return; }
       if(hash === "como-fazemos"){ nav(null, "como-fazemos"); rodapeArquivo(null); paginaComoFazemos(); return; }
       if(hash.indexOf("coluna-") === 0){
@@ -720,7 +772,6 @@ window.addEventListener("hashchange",function(){if(window.goatcounter&&window.go
   document.getElementById("ano").textContent = new Date().getFullYear();
   window.addEventListener("hashchange", rota);
   rota();
-  contador("TOTAL", "topo-leituras", " · ", "leitura", "leituras");
 })();
 </script>
 </body>
