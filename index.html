@@ -450,7 +450,7 @@ window.addEventListener("hashchange",function(){if(window.goatcounter&&window.go
     topo(ed); nav(ed, "capa");
     var A = artigos(ed), byId = {}; A.forEach(function(a){ byId[a.id] = a; });
     var pre = "ed-"+ed.data+"-", m = ed.manchete, e = ed.editorial;
-    var h = aviso(ed) + '<div id="urgente"></div>' + indicadores(ed);
+    var h = aviso(ed) + '<div id="urgente"></div>' + indicadores(ed) + '<div id="ultimas-capa"></div>';
     h += '<section class="capa">';
     h += '<div class="col">' + (ed.destaques||[]).map(function(x, i){
       var id = pre + "destaque-" + (i+1);
@@ -462,7 +462,6 @@ window.addEventListener("hashchange",function(){if(window.goatcounter&&window.go
     h += '<div class="col"><aside class="editorial"><div class="selo"><span>Editorial</span><em>Opinião do jornal</em></div><h2><a href="#'+pre+'editorial">'+esc(e.titulo)+'</a></h2><p>'+esc(resumoEd)+'</p>'+
          '<a class="leia" href="#'+pre+'editorial">Ler o editorial completo →</a></aside><div id="chamada-coluna"></div></div>';
     h += '</section>';
-    h += '<div id="ultimas-capa"></div>';
     if(ed.politica && ed.politica.length){
       h += '<section class="secao"><h3><a href="'+linkSecao(ed,"politica")+'">Brasília →</a> <small>Congresso, STF e partidos</small></h3><div class="grade4">' + ed.politica.map(function(a, i){
         var id = pre + "politica-" + (i+1);
@@ -488,7 +487,7 @@ window.addEventListener("hashchange",function(){if(window.goatcounter&&window.go
     getUltimas(ed.data).then(function(lista){
       if(!lista.length) return;
       var L = ultimasArtigos(ed, lista), el = document.getElementById("ultimas-capa"), urg = document.getElementById("urgente");
-      if(el) el.innerHTML = '<section class="secao"><h3><a href="'+linkSecao(ed,"ultimas")+'">Ao longo do dia →</a> <small>Publicado depois da edição da manhã</small></h3>'+ultimasListaHTML(L.slice(0,6))+'</section>';
+      if(el) el.innerHTML = '<section class="secao"><h3><a href="'+linkSecao(ed,"ultimas")+'">Ao longo do dia →</a> <small>Publicado depois da edição da manhã</small></h3>'+ultimasListaHTML(L.slice(0,3))+(L.length>3?'<a class="mais-secao" href="'+linkSecao(ed,"ultimas")+'">Ver as '+L.length+' atualizações do dia →</a>':'')+'</section>';
       var u = L.filter(function(x){ return x.urgente; })[0];
       if(u && urg && ed.data === hoje) urg.innerHTML = '<a class="urgente" href="#'+u.id+'"><b>Urgente</b><span>'+esc(u.hora)+' · '+esc(u.titulo)+'</span></a>';
     });
