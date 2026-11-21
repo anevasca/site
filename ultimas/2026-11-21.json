@@ -1,0 +1,30 @@
+[
+  {
+    "hora": "12h00",
+    "secao": "Política",
+    "titulo": "Bolsonaro volta ao hospital com o intestino obstruído, e Carlos fala em décima cirurgia desde a facada",
+    "linhaFina": "Em prisão domiciliar, o ex-presidente passou a madrugada no DF Star com sonda nasal; a defesa pediu a Moraes visitas diárias de três filhos",
+    "resumo": "Jair Bolsonaro foi internado na sexta (20) no Hospital DF Star, em Brasília, com dor e distensão abdominal. A tomografia mostrou obstrução no intestino delgado, e o médico Brasil Caiado não descarta cirurgia. Neste sábado, a defesa pediu ao STF visitas diárias de três filhos.",
+    "texto": [
+      "O ex-presidente Jair Bolsonaro está internado desde a tarde de sexta-feira (20) no Hospital DF Star, em Brasília, depois de chegar com dor e distensão abdominal. Segundo a Gazeta do Povo, a tomografia apontou obstrução do intestino delgado associada a aderências na parede abdominal, sequela das cirurgias feitas desde a facada de 2018. Não há previsão de alta.",
+      "O médico Brasil Caiado, que acompanha o ex-presidente, disse que as primeiras 24 horas seriam decisivas para definir o tratamento e que a cirurgia não está descartada. \"Clinicamente, ele está estável\", afirmou, segundo o Brasil de Fato e o SBT News. Ao SBT, Caiado também afastou a hipótese de que o quadro tenha sido provocado por erro na alimentação.",
+      "Carlos Bolsonaro relatou nas redes que o pai passou a madrugada com náuseas, dores e distensão abdominal, e que os médicos colocaram uma sonda pelo nariz para retirar resíduos do estômago. Segundo a Gazeta, a sonda tirou quase um litro. Carlos disse que novos exames seriam feitos na manhã deste sábado (21) e que, se o resultado não for bom, virá a décima cirurgia em menos de oito anos por causa da facada. Até a publicação desta nota, nenhum boletim confirmava operação.",
+      "Bolsonaro cumpre em casa a pena de 27 anos e 3 meses a que foi condenado pelo STF por tentativa de golpe. A prisão domiciliar, de caráter humanitário, foi concedida pelo ministro Alexandre de Moraes em março, depois de uma internação anterior. Segundo o Brasil de Fato, ele foi levado ao hospital pela Polícia Militar do Distrito Federal, a pedido da equipe médica.",
+      "Neste sábado, a defesa pediu a Moraes que autorize Carlos, Jair Renan e Laura Bolsonaro a visitar o pai todos os dias enquanto durar a internação, informou a Gazeta do Povo. Até o fim da manhã, não havia decisão do ministro. Michelle Bolsonaro, que estava em Israel, voltaria a Brasília na madrugada de sábado."
+    ],
+    "fontes": [
+      {
+        "nome": "Gazeta do Povo",
+        "url": "https://www.gazetadopovo.com.br/republica/defesa-pede-a-moraes-autorizacao-para-visitas-diarias-dos-filhos-a-bolsonaro"
+      },
+      {
+        "nome": "SBT News",
+        "url": "https://sbtnews.sbt.com.br/noticia/politica/carlos-diz-que-bolsonaro-vai-fazer-novos-exames-e-usa-sonda"
+      },
+      {
+        "nome": "Brasil de Fato",
+        "url": "https://www.brasildefato.com.br/2026/11/20/jair-bolsonaro-e-hospitalizado-com-obstrucao-intestinal/"
+      }
+    ]
+  }
+]
