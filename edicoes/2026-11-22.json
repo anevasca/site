@@ -1,0 +1,676 @@
+{
+ "data": "2026-11-22",
+ "dataExtenso": "Domingo, 22 de novembro de 2026",
+ "numero": 5,
+ "atualizadoEm": "21/11/2026, 22h10 (Brasília)",
+ "indicadores": [
+  {
+   "rotulo": "Selic",
+   "valor": "13,75%",
+   "nota": "mantida em 4/nov; próximo Copom em 8 e 9/dez"
+  },
+  {
+   "rotulo": "Dólar",
+   "valor": "R$ 5,93",
+   "nota": "fechamento de 19/nov, 6ª alta seguida; B3 reabre na segunda"
+  },
+  {
+   "rotulo": "Ibovespa",
+   "valor": "166.376 pts",
+   "nota": "último pregão, 19/nov (−0,69%)"
+  },
+  {
+   "rotulo": "Bitcoin",
+   "valor": "US$ 55,1 mil",
+   "nota": "mínima de 21/nov, menor nível desde set/2024"
+  }
+ ],
+ "manchete": {
+  "secao": "Saúde de Bolsonaro",
+  "titulo": "Bolsonaro passa a noite na UTI com o intestino obstruído, e cirurgia continua na mesa",
+  "linhaFina": "Boletim fala em abdômen agudo obstrutivo, quadro estável e nenhuma previsão de alta; Moraes libera visitas de três filhos e da enteada, sem celular, e padre Kelmon é barrado na porta do hospital.",
+  "texto": [
+   "O ex-presidente Jair Bolsonaro, de 71 anos, está internado na unidade de terapia intensiva do hospital DF Star, em Brasília, com diagnóstico de abdômen agudo obstrutivo, segundo boletim médico divulgado na tarde de sábado (21). O texto diz que ele está “estável clinicamente, consciente, orientado” e respira sem ajuda de aparelhos, mas não dá previsão de alta. O tratamento, por enquanto, é clínico: hidratação, jejum com suporte nutricional e sonda gástrica. Uma cirurgia não foi descartada, informaram a Gazeta do Povo, O Tempo e O Povo.",
+   "Bolsonaro foi levado ao hospital na sexta-feira (20), depois de sentir fortes dores e distensão abdominal na casa onde cumpre prisão domiciliar humanitária desde março. Ele foi examinado em casa pelo cardiologista Brasil Caiado e seguiu para o DF Star escoltado pela Polícia Militar, segundo a Gazeta do Povo e a Jovem Pan. Na tomografia, de acordo com Caiado, apareceu um comprometimento do intestino delgado com sinais de inflamação, relatou O Tempo. O Antagonista fala em obstrução quase total; a Gazeta, em outra matéria, chama a obstrução de parcial.",
+   "O boletim de sábado é assinado por cinco médicos: Brasil Caiado e Leandro Echenique, cardiologistas; Claudio Birolini, cirurgião do aparelho digestivo; Antonio Aurélio Fagundes Junior, coordenador da UTI; e Allisson Barcelos Borges, diretor-geral do hospital, segundo O Povo e o portal GCMais. Na sexta, Caiado havia dito que o ex-presidente ficaria em observação para que a equipe avaliasse a necessidade de operar. “Clinicamente ele está estável”, afirmou o médico, segundo O Tempo.",
+   "Ainda no sábado, o ministro Alexandre de Moraes, do Supremo Tribunal Federal, atendeu a um pedido da defesa e autorizou visitas do senador eleito Carlos Bolsonaro (PL-SC), do deputado federal eleito Jair Renan (PL-SC), da filha caçula, Laura, e da enteada Letícia durante a internação. A decisão proíbe a entrada de celulares, câmeras e qualquer aparelho capaz de gravar imagem ou som, e as visitas seguem os horários do hospital, com aviso à custódia da PM, segundo a Jovem Pan, a Gazeta do Povo e O Povo. A Jovem Pan informou ainda que Moraes permitiu retirar a tornozeleira durante a internação.",
+   "Carlos passou o dia no hospital e foi quem mais deu notícias. No X, contou que a sonda retirou cerca de um litro de resíduos e que, quando passa o efeito dos remédios, voltam o enjoo, a distensão e as dores. “Há esperança de que o quadro se reverta”, escreveu, segundo O Antagonista. Na mesma mensagem, admitiu que “nenhuma hipótese está descartada”. Ele também culpou Moraes pela piora da saúde do pai na prisão, relatou a Gazeta do Povo.",
+   "A ex-primeira-dama Michelle Bolsonaro, senadora eleita pelo Distrito Federal, estava em Israel e antecipou a volta. Nas redes, pediu orações: “Intercedam por nós. Que Deus nos ajude”, segundo o Correio Braziliense; O Tempo informou que ela voltou ao Brasil na madrugada de sábado. Dos Estados Unidos, o senador Flávio Bolsonaro escreveu “Força, Pai! Deus no comando sempre!”, e Eduardo Bolsonaro publicou uma foto do pai, segundo O Tempo. O PL desejou força ao ex-presidente, e o governador Tarcísio de Freitas pediu orações nas redes.",
+   "Pela manhã, o deputado federal Padre Kelmon (PL-SP) foi barrado na entrada do DF Star quando tentava dar a unção dos enfermos ao ex-presidente. O motivo, segundo a Gazeta do Povo, foi a falta de autorização judicial: a lista liberada por Moraes inclui só familiares. Kelmon disse que vai procurar os advogados de Bolsonaro e pediu orações a católicos, evangélicos e ortodoxos.",
+   "Não é a primeira vez que o intestino leva Bolsonaro ao centro cirúrgico. Em abril deste ano, ele foi operado por uma suboclusão intestinal, uma obstrução parcial, em mais uma cirurgia para tratar sequelas da facada que levou na campanha de 2018, lembrou O Tempo. Em março, passou cerca de duas semanas internado com broncopneumonia, episódio que levou o Supremo a converter a prisão em domiciliar humanitária. Ele foi condenado pela Corte a 27 anos e 3 meses de prisão no processo sobre a trama golpista.",
+   "O próximo passo depende da resposta do intestino ao tratamento clínico nas próximas horas. Se não houver melhora, a equipe pode optar pela cirurgia; se houver, a tendência é manter a sonda e a observação na UTI. Um novo boletim deve sair neste domingo (22). Qualquer mudança nas visitas ou no regime da prisão durante a internação depende de nova decisão de Moraes."
+  ],
+  "fontes": [
+   {
+    "nome": "Gazeta do Povo",
+    "url": "https://www.gazetadopovo.com.br/republica/bolsonaro-uti-quadro-estavel-boletim/"
+   },
+   {
+    "nome": "Gazeta do Povo",
+    "url": "https://www.gazetadopovo.com.br/republica/bolsonaro-levado-hospital-apos-quadro-dor-abdominal/"
+   },
+   {
+    "nome": "Gazeta do Povo",
+    "url": "https://www.gazetadopovo.com.br/republica/padre-kelmon-e-barrado-em-hospital-ao-tentar-dar-uncao-dos-enfermos-a-bolsonaro/"
+   },
+   {
+    "nome": "Revista Oeste",
+    "url": "https://revistaoeste.com/politica/bolsonaro-permanece-uti-quadro-estavel-boletim-medico/"
+   },
+   {
+    "nome": "O Tempo",
+    "url": "https://www.otempo.com.br/politica/judiciario/2026/11/21/bolsonaro-esta-na-uti-estavel-e-sem-previsao-de-alta-diz-boletim-medico"
+   },
+   {
+    "nome": "O Povo",
+    "url": "https://www.opovo.com.br/noticias/politica/2026/11/21/bolsonaro-e-levado-para-a-uti-com-abdomen-obstruido.html"
+   },
+   {
+    "nome": "Jovem Pan",
+    "url": "https://jovempan.com.br/politica/moraes-autoriza-visitas-de-filhos-e-enteada-de-bolsonaro-durante-internacao/"
+   },
+   {
+    "nome": "O Antagonista",
+    "url": "https://oantagonista.com.br/brasil/bolsonaro-esta-lutando-para-que-funcionamento-do-intestino-volte-diz-carlos/"
+   },
+   {
+    "nome": "Correio Braziliense",
+    "url": "https://1news.correiobraziliense.com.br/noticia/909005/noticias/michelle-retorna-ao-brasil-apos-bolsonaro-ser-internado-as-pressas-em-estado-grave-intercedam-por-nos-20112026"
+   },
+   {
+    "nome": "GCMais",
+    "url": "https://gcmais.com.br/noticias/2026/11/21/bolsonaro-tem-obstrucao-intestinal-esta-estavel-e-segue-sem-previsao-de-alta-diz-boletim"
+   }
+  ]
+ },
+ "destaques": [
+  {
+   "secao": "Contas públicas",
+   "titulo": "Lula chama o mercado de “bando de yuppie da Faria Lima” na véspera de a Câmara votar seu ajuste",
+   "linhaFina": "Em live com André Janones, o presidente disse que o sistema financeiro não vai ensiná-lo a governar; o pacote, que economiza de R$ 45 bi a R$ 50 bi em 2027, vai a plenário na segunda (23).",
+   "resumo": "Numa live no sábado (21), Lula defendeu o ajuste fiscal, atacou a Faria Lima e prometeu não mexer na idade da aposentadoria neste mandato. A Câmara vota o PLP 299/2026 na segunda, sem mudar o texto do Senado. O próprio governo admite que a economia caiu para cerca de R$ 50 bilhões.",
+   "texto": [
+    "O presidente Luiz Inácio Lula da Silva (PT) usou uma transmissão ao vivo no sábado (21), na Granja do Torto, para defender o ajuste fiscal que a Câmara dos Deputados vota na segunda-feira (23) e para atacar o mercado financeiro. “Não é o sistema financeiro que vai me ensinar a dirigir o país”, disse, na live comandada pelo deputado André Janones (Rede-MG). Lula se referiu aos críticos como “esse bando de yuppie da Faria Lima”, que, segundo ele, vive pondo em dúvida a seriedade do governo, informou a Agência Brasil, cujo texto foi reproduzido pelo portal DOL.",
+    "Na mesma transmissão, Lula disse que sem controle do Orçamento não se governa, prometeu que “nesse mandato não haverá aumento de idade” para a aposentadoria e afirmou que o salário mínimo continuará com ganho acima da inflação. Também anunciou a intenção de criar um ministério para a população idosa e defendeu tarifa zero no transporte público aos fins de semana, por meio de uma proposta de emenda à Constituição. O presidente elogiou o ministro do Planejamento, Bruno Moretti, autor do projeto.",
+    "O pacote é o PLP 299/2026, aprovado pelo Senado por 69 votos a 2. O presidente da Câmara, Hugo Motta (Republicanos-PB), marcou sessão extraordinária para a noite de segunda, e o relator, Mauro Benevides Filho (União-CE), manteve o texto sem mudanças de mérito, para que vá direto à sanção, segundo a Gazeta do Povo e a Agência Câmara. Por ser lei complementar, precisa de 257 votos. Motta chama o pacote de “primeiro passo”.",
+    "O tamanho do ajuste encolheu no caminho. A estimativa inicial era de R$ 56,1 bilhões de melhora nas contas em 2027; depois das mudanças no Senado, ficou entre R$ 45,1 bilhões e R$ 50,1 bilhões, segundo o governo. À GloboNews, Moretti admitiu que, se for preciso, o governo fará medidas adicionais, relatou a Gazeta do Povo. Economistas ouvidos pelo jornal lembram que os benefícios ampliados antes da eleição custam cerca de R$ 80 bilhões por ano, mais do que o pacote economiza.",
+    "Na oposição, o líder no Senado, Rogério Marinho (PL-RN), chamou o projeto de pedalada fiscal. Se a Câmara aprovar o texto sem alterações, Lula terá 15 dias úteis para sancioná-lo, e a equipe econômica precisa publicar a revisão de receitas e despesas até terça (24). O Orçamento de 2027 está marcado para ser votado em 17 de dezembro."
+   ],
+   "fontes": [
+    {
+     "nome": "Agência Brasil",
+     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/o-sistema-financeiro-nao-vai-me-ensinar-dirigir-o-brasil-diz-lula"
+    },
+    {
+     "nome": "DOL",
+     "url": "https://dol.com.br/noticias/brasil/969042/lula-critica-mercado-financeiro-e-defende-ajuste-fiscal"
+    },
+    {
+     "nome": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/republica/motta-agenda-votacao-ajuste-fiscal-lula-camara-segunda-feira-23/"
+    },
+    {
+     "nome": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/republica/ministro-admite-novos-cortes-conter-divida-equilibrar-contas-governo/"
+    },
+    {
+     "nome": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/economia/ajuste-fiscal-de-lula-nao-cobre-nem-os-gastos-que-ele-criou-durante-a-eleicao/"
+    },
+    {
+     "nome": "Agência Câmara",
+     "url": "https://www.camara.leg.br/noticias/1321186-camara-deve-votar-ajuste-fiscal-proposta-do-governo-pretende-economizar-r-70-bilhoes"
+    },
+    {
+     "nome": "ND Mais",
+     "url": "https://ndmais.com.br/politica/ajuste-fiscal-governo-votacao-camara/"
+    }
+   ]
+  },
+  {
+   "secao": "Mercados",
+   "titulo": "B3 reabre na segunda depois de ver, de longe, ações brasileiras caírem até 7,85% em Nova York",
+   "linhaFina": "Com a bolsa fechada no feriado, o fundo que replica o Brasil nos EUA perdeu 3,29% no dia do tombo das ações de inteligência artificial; o dólar parou em R$ 5,93, depois de seis altas seguidas.",
+   "resumo": "Na sexta (20), com a B3 fechada, o EWZ caiu 3,29% e ADRs de CSN, Nubank, Embraer e Gerdau recuaram mais de 4%. Ásia e Wall Street desabaram com a venda de ações de IA. A bolsa reabre na segunda (23), mesmo dia da votação do ajuste.",
+   "texto": [
+    "O mercado brasileiro volta a funcionar na segunda-feira (23) com uma conta acumulada lá fora. Na sexta (20), quando a B3 ficou fechada pelo feriado da Consciência Negra, o EWZ, fundo negociado em Nova York que replica ações brasileiras, caiu 3,29%, para US$ 28,54, segundo o Investidor10 e o Economic News Brasil. O índice de ADRs brasileiros da Dow Jones recuou 2,48%.",
+    "Entre os papéis brasileiros negociados em Nova York, a CSN liderou as perdas, com queda de 7,85%. Nubank caiu cerca de 4,7%, Embraer, 4,25%, Gerdau, 4,15%, e Vale, 3,46%. Itaú recuou 2,54%, e Petrobras, menos de 2%. A JBS foi exceção, com alta de 1,85%, segundo o Investidor10 e o Money Times. Para Bradesco, as fontes divergem: entre 3,04% e 3,67% de queda.",
+    "O tombo veio de fora. A venda de ações ligadas à inteligência artificial derrubou o Nasdaq em 5,28% e o S&P 500 em 3,70%, depois da estreia da Anthropic na bolsa; a Nvidia perdeu cerca de 14%. Na Ásia, o índice de Tóquio caiu 5,1%, e o de Seul, 5,21%, segundo a BPMoney e o Jornal de Negócios. O Investidor10 previu que o Ibovespa deve abrir a segunda com “uma baita ressaca”; o Economic News Brasil lembra que o EWZ é cotado em dólar e não antecipa sozinho o resultado do índice.",
+    "O Brasil já chegou fragilizado ao feriado. Na quinta (19), o Ibovespa fechou em 166.376 pontos, queda de 0,69%, e acumulou perda de 3,53% na semana. O dólar subiu 1,15%, para R$ 5,934, a sexta alta seguida e o maior valor desde abril de 2025, mesmo depois de o Banco Central vender US$ 1 bilhão no mercado à vista, segundo a InfoMoney e a BPMoney. “Todos os movimentos em direção ao ajuste fiscal são considerados insuficientes”, disse à BPMoney o analista Lucas Xavier, da AW Capital.",
+    "A segunda-feira concentra os testes: a reabertura da B3, o Boletim Focus do Banco Central e, à noite, a votação do ajuste fiscal na Câmara. A Selic está em 13,75% desde a decisão de 4 de novembro, e o próximo Copom se reúne em 8 e 9 de dezembro."
+   ],
+   "fontes": [
+    {
+     "nome": "Investidor10",
+     "url": "https://investidor10.com.br/noticias/ibov-em-dolar-ewz-cai-3-29-neste-feriadao-e-casa-com-implosoes-em-anthropic-e-nvidia-nos-eua-124010/"
+    },
+    {
+     "nome": "Money Times",
+     "url": "https://www.moneytimes.com.br/vale-itau-petrobras-bradesco-como-fecharam-os-adrs-em-dia-de-bolsa-fechada/"
+    },
+    {
+     "nome": "Economic News Brasil",
+     "url": "https://economicnewsbrasil.com.br/2026/11/21/queda-das-acoes-brasileiras-eua/"
+    },
+    {
+     "nome": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-19112026/"
+    },
+    {
+     "nome": "BPMoney",
+     "url": "https://bpmoney.com.br/mercado/ibovespa-cai-dolar-renova-maxima-19-meses-r-593/"
+    },
+    {
+     "nome": "BPMoney",
+     "url": "https://bpmoney.com.br/economia/internacional-economia/bolsas-asia-fecham-baixa-tombos-toquio-seul-temor-ia/"
+    },
+    {
+     "nome": "Jornal de Negócios",
+     "url": "https://www.jornaldenegocios.pt/mercados/mercados-num-minuto/detalhe/bolsas-asiaticas-afundam-com-a-ia-no-centro-das-vendas"
+    }
+   ],
+   "grafico": {
+    "tipo": "linha",
+    "titulo": "O dólar em novembro",
+    "subtitulo": "Fechamento do dólar comercial, em R$",
+    "prefixo": "R$ ",
+    "sufixo": "",
+    "casas": 2,
+    "dados": [
+     {
+      "rotulo": "06/11",
+      "valor": 5.51
+     },
+     {
+      "rotulo": "12/11",
+      "valor": 5.65
+     },
+     {
+      "rotulo": "18/11",
+      "valor": 5.87
+     },
+     {
+      "rotulo": "19/11",
+      "valor": 5.93,
+      "destaque": true
+     }
+    ],
+    "fonte": {
+     "nome": "InfoMoney e Gazeta do Povo",
+     "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-19112026/"
+    },
+    "nota": "12/11 segundo a Gazeta do Povo; demais datas, InfoMoney. Em 20/11 não houve pregão no Brasil."
+   }
+  },
+  {
+   "secao": "Criptomoedas",
+   "titulo": "Bitcoin desce a US$ 55 mil, o menor nível desde 2024, e o índice de medo marca 12",
+   "linhaFina": "A moeda perdeu quase 17% na semana, levada pela mesma onda de venda que derrubou as ações de tecnologia; US$ 2,5 bilhões em apostas foram liquidados em 24 horas.",
+   "resumo": "O bitcoin tocou cerca de US$ 55,1 mil na madrugada de sábado (21), o menor patamar desde setembro de 2024. Em reais, ficou perto de R$ 352 mil. O índice de medo e ganância caiu a 12, na faixa de medo extremo, e fundos de bitcoin nos EUA registraram saídas.",
+   "texto": [
+    "O bitcoin chegou a US$ 55.126 na madrugada de sábado (21), o menor nível desde setembro de 2024, antes de se recuperar para cerca de US$ 56,5 mil, segundo o Bitcoin.com News e o BitNotícias. Em reais, a moeda valia cerca de R$ 351,7 mil por volta das 7h, queda de quase 6% em 24 horas. Na semana, a perda chegou a quase 17%; no mês, a cerca de um terço.",
+    "A queda acompanhou a liquidação das ações de inteligência artificial em Wall Street, que derrubou o Nasdaq em 5,28% na sexta (20). Com o preço em queda, corretoras encerraram à força posições alavancadas: US$ 2,54 bilhões em apostas no mercado de criptomoedas foram liquidados em 24 horas, quase 90% delas em posições que apostavam na alta, segundo dados da CoinGlass citados pelo Bitcoin.com. Só em bitcoin, foram US$ 1,16 bilhão, segundo o BitNotícias.",
+    "Os fundos de bitcoin negociados nos Estados Unidos também perderam dinheiro. Na quinta (19), as saídas líquidas somaram US$ 582,3 milhões, dos quais US$ 541,1 milhões do fundo da BlackRock, segundo a Farside, citada pelo BitNotícias. O índice de medo e ganância, que mede o humor dos investidores, caiu a 12 pontos, na faixa de medo extremo.",
+    "O estrago chegou às ações ligadas ao setor. A Strategy, empresa que acumula bitcoin no balanço, caiu cerca de 30% na semana, e a corretora Coinbase, cerca de 20%, segundo o Bitcoin.com. O cofundador da BitMEX Arthur Hayes aconselhou, no X, que os investidores resistam à tentação de tentar acertar o fundo.",
+    "Para quem tem criptomoedas no Brasil, a semana que começa traz a reabertura da B3 na segunda (23) e a expectativa sobre os juros nos EUA: os contratos futuros ainda precificam alta do Federal Reserve em dezembro, o que costuma pesar sobre ativos de risco."
+   ],
+   "fontes": [
+    {
+     "nome": "BitNotícias",
+     "url": "https://bitnoticias.com.br/mercado/preco-do-bitcoin-hoje-21-de-novembro-de-2026/"
+    },
+    {
+     "nome": "Bitcoin.com News",
+     "url": "https://news.bitcoin.com/market-updates/bitcoin-sinks-below-56k-as-arthur-hayes-says-wait-for-the-bailout/"
+    },
+    {
+     "nome": "Breitbart",
+     "url": "https://www.breitbart.com/economy/2026/11/20/stocks-plunge-as-ai-selloff-pushes-sp-500-and-dow-into-correction/"
+    }
+   ]
+  }
+ ],
+ "editorial": {
+  "titulo": "Justiça com misericórdia, e oração antes do post",
+  "texto": [
+   "Jair Bolsonaro passou a noite de sábado numa UTI de Brasília, com o intestino obstruído e a hipótese de mais uma cirurgia sobre a mesa. Não é a primeira vez: a facada de 2018 deixou sequelas que o levaram de novo ao centro cirúrgico em abril. Concorde-se ou não com a condenação imposta pelo Supremo, há um fato que antecede qualquer debate jurídico: um homem de 71 anos está doente, sob a custódia do Estado, e o Estado responde por ele. Diante disso, a primeira reação de um cristão não é o cálculo eleitoral; é a oração.",
+   "A tradição reformada nunca confundiu justiça com crueldade. O magistrado é ministro de Deus para o bem (Rm 13.4), e punir não o autoriza a esquecer que o punido continua sendo imagem de Deus. Por isso, convém registrar o que foi feito certo: Moraes liberou rapidamente as visitas de filhos e da enteada. Registra-se também o que não fez sentido: barrar na porta um padre que queria dar a unção dos enfermos. Somos presbiterianos e não tratamos a unção como sacramento, mas a Constituição garante assistência religiosa a quem está internado sob custódia, e esse direito não depende da confissão do capelão. Se a regra exigia papel, que o papel saia depressa; a alma não espera despacho.",
+   "Há também uma palavra para a direita. A cama de hospital não é palanque, e nem toda internação é episódio de novela política. Os filhos têm todo o direito de estar ao lado do pai, de informar e de cobrar; os aliados têm o dever de não transformar boletim médico em munição, nem de espalhar versões que os médicos não deram. Quem passou o sábado postando teorias poderia ter passado o mesmo tempo orando, o que, além de mais eficaz, tem a vantagem de não precisar de desmentido depois.",
+   "Desejamos a Bolsonaro uma recuperação completa e à sua família, serenidade. Pedimos às autoridades e aos médicos transparência nos boletins, porque boato cresce onde falta informação. E pedimos ao Supremo que trate o caso com a sobriedade de quem sabe que a justiça humana é sempre provisória e a misericórdia não a enfraquece. Um Estado que cuida bem dos seus presos, sejam eles ex-presidentes ou anônimos, não é um Estado frouxo; é um Estado que lembra que também ele está debaixo de um Juiz maior."
+  ]
+ },
+ "politica": [
+  {
+   "secao": "STF",
+   "titulo": "Moraes acompanha Dino, e placar para fazer de Van Hattem réu chega a 2 a 0",
+   "linhaFina": "O ministro antecipou o voto antes de o caso sair do plenário virtual; falta um voto para a maioria na Primeira Turma, e a sessão presencial pedida por Zanin ainda não tem data.",
+   "resumo": "Alexandre de Moraes votou com o relator Flávio Dino pelo recebimento da denúncia contra Marcel van Hattem (Novo-RS) por calúnia e injúria ao delegado da PF Fábio Shor. Para Moraes, as falas não estão protegidas pela imunidade. Zanin e Cármen Lúcia ainda não votaram.",
+   "texto": [
+    "O ministro Alexandre de Moraes, do Supremo Tribunal Federal, antecipou o voto e acompanhou o relator, Flávio Dino, pelo recebimento da denúncia contra o deputado Marcel van Hattem (Novo-RS) por calúnia e injúria contra o delegado da Polícia Federal Fábio Shor. Com isso, o placar na Primeira Turma chegou a 2 a 0, segundo a Gazeta do Povo e o portal POA24horas. Faltam os votos de Cristiano Zanin e Cármen Lúcia; basta mais um para que o deputado vire réu.",
+    "Para Moraes, as falas de Van Hattem não estão cobertas pela imunidade parlamentar, porque o objetivo teria sido atingir a honra do delegado. No voto, ele escreveu que as manifestações “veiculam ofensas graves e sérias aptas a macular a honra” de Shor, segundo a Gazeta do Povo.",
+    "O voto foi registrado no plenário virtual, onde o julgamento começou na sexta-feira (20). No mesmo dia, Zanin pediu destaque, o que leva o caso a uma sessão presencial da Turma, com sustentação oral da defesa. A data depende de Dino, que é relator e preside o colegiado. A Gazeta não informou se os votos já dados serão mantidos ou refeitos na sessão física.",
+    "A denúncia, apresentada pela Procuradoria-Geral da República em março, trata de discursos do deputado no plenário da Câmara e na Comissão de Segurança Pública em 2024, depois replicados nas redes. Van Hattem acusou Shor de produzir relatórios falsos contra Filipe Martins, ex-assessor de Jair Bolsonaro, preso com base num registro de entrada nos EUA que a própria agência americana de fronteiras depois disse ser falso. A defesa invoca o artigo 53 da Constituição, que torna parlamentares invioláveis por suas opiniões, palavras e votos.",
+    "A calúnia tem pena de seis meses a dois anos de prisão, e a injúria, de até seis meses, com agravantes por a vítima ser servidor público e pela divulgação nas redes. Segundo o POA24horas, Van Hattem fala em perseguição e vai procurar os presidentes da Câmara e do Senado. O próximo passo é a marcação da sessão presencial; se a denúncia for recebida, abre-se ação penal."
+   ],
+   "fontes": [
+    {
+     "nome": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/republica/moraes-antecipa-voto-no-stf-para-tornar-van-hattem-reu-por-calunia-contra-shor/"
+    },
+    {
+     "nome": "POA24horas",
+     "url": "https://poa24horas.com.br/noticias/2026/11/stf-placar-chega-a-2-a-0-pela-abertura-de-acao-penal-contra-marcel-van-hattem/"
+    },
+    {
+     "nome": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/republica/zanin-paralisa-julgamento-sobre-van-hattem-e-denuncia-sera-analisada-em-sessao-presencial/"
+    }
+   ]
+  },
+  {
+   "secao": "Câmara",
+   "titulo": "Direita já tem três nomes contra Motta, e o PL só abre sua consulta secreta por volta do dia 26",
+   "linhaFina": "Paulo Martins (Novo) está em campanha, Luiz Philippe quer o aval de Valdemar e Zé Trovão diz que entra se o partido não lançar ninguém; Motta soma partidos com 361 deputados.",
+   "resumo": "A disputa pela presidência da Câmara, em 1º de fevereiro, tem Hugo Motta como favorito e uma direita dividida. O PL, maior bancada da próxima legislatura, com 121 deputados, consultou cada um em votação secreta, com resultado previsto para por volta de 26/11. Nikolas ameaça sair do partido se a sigla apoiar Motta.",
+   "texto": [
+    "A oposição chega à última semana de novembro com três nomes testando candidatura contra Hugo Motta (Republicanos-PB) na eleição para a presidência da Câmara, em 1º de fevereiro de 2027, e com o PL ainda sem decisão. O Novo lançou o deputado Paulo Martins (Novo-PR) em 18 de novembro. Luiz Philippe de Orléans e Bragança (PL-SP) quer disputar com o apoio do presidente do PL, Valdemar Costa Neto, segundo a Gazeta do Povo. E Zé Trovão (PL-SC) disse que entra na disputa se o partido não indicar ninguém, segundo a Revista Oeste.",
+    "O PL terá 121 deputados a partir de fevereiro, a maior bancada da Casa. Numa reunião em 11 de novembro, com cerca de 80 deles, não houve acordo. Valdemar mandou então uma consulta secreta individual aos 121, apurada pelos diretórios estaduais, com resultado previsto para cerca de 15 dias depois, ou seja, por volta de 26 de novembro, segundo o Jornal de Brasília, com informações da Folhapress.",
+    "Motta parte em vantagem: os partidos que já declararam apoio a ele somam 361 deputados, entre eles o bloco de centro, com 252, e o PT, com 70, segundo o mesmo jornal. Para vencer no primeiro turno são necessários 257 votos, em votação secreta, o que costuma produzir traições. Em jogo para o PL estão sete comissões permanentes, incluindo a de Constituição e Justiça, e uma vaga no Tribunal de Contas da União.",
+    "A divisão também é interna. Nikolas Ferreira (PL-MG) ameaça deixar o partido se a sigla apoiar Motta oficialmente. “Entre a presidência da CCJ e manter a coerência, eu prefiro abrir mão da CCJ”, disse, segundo o Metrópoles. Valdemar, por sua vez, chamou de “loucura” a ideia de lançar Nikolas, de 30 anos, segundo O Globo, citado pela BPMoney. Paulo Martins afirma que sua candidatura não divide a oposição e que é natural que outros nomes também estudem entrar, relatou o Congresso em Foco.",
+    "O resultado da consulta do PL deve definir se o partido lança candidato próprio, apoia um nome de outra sigla ou libera a bancada. As candidaturas só precisam ser registradas na véspera da eleição, e as negociações devem continuar durante o recesso."
+   ],
+   "fontes": [
+    {
+     "nome": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/republica/paulo-martins-e-luiz-philippe-desafiam-favoritismo-de-hugo-motta-na-camara/"
+    },
+    {
+     "nome": "Jornal de Brasília (Folhapress)",
+     "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/pl-mantem-indefinicao-sobre-presidencia-da-camara-em-meio-a-racha-sobre-apoio-a-motta/"
+    },
+    {
+     "nome": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/camara-nikolas-hugo-motta"
+    },
+    {
+     "nome": "Congresso em Foco",
+     "url": "https://www.congressoemfoco.com.br/noticia/131704/novo-lanca-paulo-martins-como-nome-da-oposicao-a-presidencia-da-camara"
+    },
+    {
+     "nome": "BPMoney (O Globo)",
+     "url": "https://bpmoney.com.br/politica/valdemar-candidatura-nikolas-camara-loucura/"
+    },
+    {
+     "nome": "Revista Oeste",
+     "url": "https://revistaoeste.com/politica/ze-trovao-anuncia-candidatura-a-camara-se-pl-nao-anunciar-ninguem/"
+    }
+   ]
+  },
+  {
+   "secao": "Planalto",
+   "titulo": "Lula decreta o fim da escala 6x1 em menos de um mês, e comércio e construção pedem mais prazo",
+   "linhaFina": "A jornada cai de 44 para 42 horas em 16 de dezembro; varejo calcula custo até 22% maior, bares falam em 9,1% a mais na folha, e o próprio presidente previu “confusão”.",
+   "resumo": "O decreto assinado por Lula em 19/11 reduz a jornada para 42 horas semanais a partir de 16/12 e para 40 horas um ano depois, com duas folgas e sem corte de salário. No sábado, entidades do varejo, de bares, da indústria, da construção e das telecomunicações criticaram a falta de prazo e de clareza.",
+   "texto": [
+    "O decreto do presidente Lula que regulamenta o fim da escala 6x1 provocou uma reação em bloco do setor produtivo. Assinado na quinta (19), o texto reduz a jornada máxima de 44 para 42 horas semanais a partir de 16 de dezembro e para 40 horas doze meses depois, com duas folgas por semana e sem redução de salário, segundo a CartaCapital. A regra regulamenta a emenda constitucional aprovada pelo Senado em outubro.",
+    "Entidades do varejo, de bares e restaurantes, da indústria, da construção e das telecomunicações dizem que o prazo é curto e que faltam regras claras, informou a Folha de S.Paulo, em texto reproduzido pelo Estado de Minas. O Instituto para Desenvolvimento do Varejo (IDV) pede adiamento para dezembro de 2027 e estima aumento de custo entre 10% e 22%. “Temos menos de um mês para fazer isso”, disse o presidente do IDV, Jorge Gonçalves Filho.",
+    "A Abrasel, que representa bares e restaurantes, calcula alta de 9,1% na folha e diz que o decreto não esclareceu as dúvidas. A Câmara Brasileira da Indústria da Construção estima cerca de 5% a mais no valor da hora trabalhada e aponta que o adicional pago pelo sábado subirá de 60% para 100%; a entidade defende transição de 90 a 180 dias. A Confederação Nacional da Indústria pede clareza sobre o cálculo do salário-hora, e a Feninfra, das telecomunicações, quer regime especial para o setor.",
+    "Na cerimônia de assinatura, o próprio Lula previu resistência e disse que “vai ter confusão”, segundo a Folha. O início da transição foi mantido por uma decisão liminar do ministro Flávio Dino, do Supremo, segundo a CartaCapital.",
+    "Com menos de quatro semanas até 16 de dezembro, as entidades devem pressionar o Ministério do Trabalho por normas complementares e por um prazo maior. Empresas de setores que funcionam aos fins de semana, como comércio e serviços, terão de refazer escalas e contratos antes do Natal, período de maior movimento do ano."
+   ],
+   "fontes": [
+    {
+     "nome": "Estado de Minas (Folha de S.Paulo)",
+     "url": "https://www.em.com.br/politica/2026/11/7542076-entidades-criticam-decreto-de-lula-que-regulamenta-fim-da-escala-6x1.html"
+    },
+    {
+     "nome": "CartaCapital",
+     "url": "https://www.cartacapital.com.br/politica/lula-assina-decreto-que-regulamenta-o-fim-da-escala-6x1-e-fixa-transicao-para-5x2/"
+    }
+   ]
+  },
+  {
+   "secao": "Senado",
+   "titulo": "Tereza Cristina aposta na maior bancada feminina da história e repete o pacto com Marinho: “ou ele ou eu”",
+   "linhaFina": "O Senado terá 18 senadoras em 2027, contra 10 em 2023; Alcolumbre, com o apoio do Planalto e da federação União-PP, ainda lidera as contas de aliados para a eleição de fevereiro.",
+   "resumo": "Na disputa pela presidência do Senado, em 1º de fevereiro, a senadora Tereza Cristina (PP-MS) e Rogério Marinho (PL-RN) mantêm o acordo de lançar um só nome contra Davi Alcolumbre (União-AP). Ela conta com a bancada feminina recorde. São necessários 41 dos 81 votos.",
+   "texto": [
+    "A senadora Tereza Cristina (PP-MS) quer fazer da bancada feminina recorde um trunfo na eleição para a presidência do Senado, em 1º de fevereiro de 2027. A Casa terá 18 senadoras a partir do ano que vem, contra 10 em 2023; doze foram eleitas em outubro, segundo o portal ND Mais. Ela reafirmou o acordo com o líder da oposição, Rogério Marinho (PL-RN): os dois não vão disputar entre si. “Ou ele ou eu, quem tiver melhores condições”, disse.",
+    "O adversário comum é o atual presidente, Davi Alcolumbre (União-AP), que tem o apoio do Planalto e da federação entre União Brasil e PP, anunciado em 27 de outubro. “O nosso oponente é Davi Alcolumbre, meu e do Rogério”, afirmou Tereza ao ND Mais.",
+    "As contas ainda favorecem Alcolumbre. Num levantamento feito com aliados e publicado pelo ND Mais no começo do mês, ele tinha 37 votos, com potencial de chegar a 48; Marinho tinha 32, podendo chegar a cerca de 40; e Tereza, 12, com potencial de 42. São necessários 41 dos 81 votos. O PL terá 29 senadores na próxima legislatura, a maior bancada.",
+    "Marinho foi lançado pelo PL no início de novembro e, segundo a rádio Itatiaia, pediu que a direita parasse de atacar Tereza nas redes, dizendo que o campo vai se unir na disputa. A expectativa, segundo o ND Mais, é que um dos dois desista em janeiro, quando as contas estiverem mais claras.",
+    "Até lá, a briga se mistura à pauta da Casa: Marinho comandou a resistência ao ajuste fiscal no Senado, onde a oposição perdeu por 47 a 30 a proposta de limitar o crescimento das despesas a 0,6% ao ano. A eleição é secreta, e a posse dos novos senadores ocorre no mesmo dia."
+   ],
+   "fontes": [
+    {
+     "nome": "ND Mais",
+     "url": "https://ndmais.com.br/politica/tereza-cristina-presidencia-senado-alcolumbre"
+    },
+    {
+     "nome": "ND Mais",
+     "url": "https://ndmais.com.br/politica/disputa-pelo-senado-tereza-cristina-seria-terceira-via/"
+    },
+    {
+     "nome": "Itatiaia",
+     "url": "https://www.itatiaia.com.br/politica/marinho-pede-fim-do-bullying-contra-tereza-cristina-e-diz-que-direita-vai-se-unir-na-disputa-pelo-senado/"
+    },
+    {
+     "nome": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/politica/ajuste-fiscal-chega-a-camara-sob-pressao-apos-resistencias-no-senado/"
+    }
+   ],
+   "grafico": {
+    "tipo": "barras",
+    "titulo": "Quem tem voto para comandar o Senado",
+    "subtitulo": "Votos estimados por aliados de cada candidato; são necessários 41 de 81",
+    "prefixo": "",
+    "sufixo": " votos",
+    "casas": 0,
+    "dados": [
+     {
+      "rotulo": "Alcolumbre",
+      "valor": 37,
+      "destaque": true
+     },
+     {
+      "rotulo": "Marinho",
+      "valor": 32
+     },
+     {
+      "rotulo": "Tereza Cristina",
+      "valor": 12
+     }
+    ],
+    "fonte": {
+     "nome": "ND Mais",
+     "url": "https://ndmais.com.br/politica/disputa-pelo-senado-tereza-cristina-seria-terceira-via/"
+    },
+    "nota": "Levantamento com aliados publicado em 07/11/2026; potencial: Alcolumbre 48, Tereza 42, Marinho cerca de 40."
+   }
+  }
+ ],
+ "mundo": [
+  {
+   "secao": "Oriente Médio",
+   "titulo": "Irã dispara contra bases dos EUA no Bahrein e prepara 14 petroleiros para furar o bloqueio americano",
+   "linhaFina": "Ao menos três navios foram atingidos perto do Estreito de Ormuz no sábado; Teerã chama o bloqueio de “ato hostil”, e Trump diz querer um acordo permanente.",
+   "resumo": "O Irã lançou drones e mísseis contra bases americanas no Bahrein, que diz ter interceptado vários ataques. Perto de Ormuz, dois petroleiros foram atingidos por projéteis e um terceiro bateu numa mina, segundo Teerã. Mais de 14 petroleiros iranianos estão prontos para tentar romper o bloqueio dos EUA, que chega a 130 dias.",
+   "texto": [
+    "O Irã lançou duas ondas de drones e mísseis balísticos contra bases americanas no Bahrein na madrugada de sábado (21), segundo a agência iraniana Fars, citada pela Euronews. O Bahrein, que abriga o quartel-general da Quinta Frota dos EUA, disse ter interceptado vários ataques; o Ministério do Interior relatou incêndio num complexo industrial civil, sem feridos, segundo a Euronews e o Gulf News.",
+    "No mar, o centro britânico de operações marítimas UKMTO relatou dois petroleiros atingidos por projéteis não identificados perto de Khasab, em Omã, um na popa e outro na casa de máquinas, sem vítimas. A Marinha iraniana afirmou que um terceiro navio pegou fogo ao bater numa mina numa área que Teerã considera restrita, depois de ignorar avisos, versão não verificada de forma independente, segundo a Al Jazeera e a Euronews. Pelos dados do UKMTO, houve cerca de 19 incidentes nos primeiros 18 dias de novembro; a média histórica da região era de 10 a 15 ataques por mês, informou o Gulf News.",
+    "A escalada tem alvo claro: o bloqueio americano aos portos iranianos, que chegou a 130 dias seguidos, segundo o Comando Central dos EUA. Mais de 14 petroleiros iranianos estão no terminal de Kharg, prontos para tentar furá-lo. O vice-chanceler Kazem Gharibabadi chamou o bloqueio de “ato hostil” e disse que Teerã fará o necessário para rompê-lo, segundo a Euronews e o Gulf News. O presidente Masoud Pezeshkian fala em “guerra econômica silenciosa”.",
+    "O Comando Central negou que um míssil iraniano tenha danificado um caça F-16 na sexta. Em entrevista à Fox News, citada pela Euronews, o presidente Donald Trump disse que quer um acordo permanente que impeça o Irã de ter armas nucleares e que nunca buscou mudar o regime. Uma delegação do Catar passou cerca de duas horas em conversas em Teerã na sexta à noite.",
+    "Para o Instituto para o Estudo da Guerra, centro de análise americano, a tentativa de furar o bloqueio obriga Washington a escolher entre deixá-lo ruir ou voltar à guerra, iniciada no fim de fevereiro. O petróleo Brent fechou a sexta em torno de US$ 92, a caminho de queda semanal de quase 4%, segundo a Al Jazeera."
+   ],
+   "fontes": [
+    {
+     "nome": "Euronews",
+     "url": "https://www.euronews.com/2026/11/21/iran-attacks-us-bases-in-bahrain-as-its-tankers-get-ready-to-break-the-us-blockade"
+    },
+    {
+     "nome": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping"
+    },
+    {
+     "nome": "Gulf News",
+     "url": "https://gulfnews.com/uae/middle-east-war-trump-says-iran-wants-deal-but-terms-are-unacceptable-1.500755788"
+    }
+   ]
+  },
+  {
+   "secao": "Estados Unidos",
+   "titulo": "Trump diz que faria de novo a guerra com o Irã, dá razão a Vance sobre a derrota e ameaça taxar data center no exterior",
+   "linhaFina": "Na volta da cúpula com Xi e Putin, o presidente chamou de “fantástica” a relação com os dois, elogiou o futuro presidente democrata da Câmara e prometeu um “imposto tremendo” sem dar detalhes.",
+   "resumo": "Em entrevista coletiva na sexta (20), Trump defendeu a cúpula com Xi Jinping e Vladimir Putin, disse que voltaria a atacar o Irã e concordou com J.D. Vance que a guerra custou aos republicanos as eleições de meio de mandato. Também anunciou que vai taxar empresas americanas que construírem data centers fora dos EUA.",
+   "texto": [
+    "O presidente dos Estados Unidos, Donald Trump, disse na sexta-feira (20), em entrevista coletiva na Casa Branca, que voltaria a fazer a guerra com o Irã. “Não podemos permitir que o Irã tenha uma arma nuclear”, afirmou, segundo a ABC News e a afiliada Denver7. Na mesma entrevista, chamou de “muito precisa” a avaliação do vice-presidente J.D. Vance de que o conflito custou aos republicanos as eleições de meio de mandato.",
+    "A coletiva foi a primeira depois da cúpula com o chinês Xi Jinping e o russo Vladimir Putin, na China. Trump disse que houve “grande eletricidade” entre os três e um acordo para uma declaração trilateral de paz; a ABC registrou que o encontro não trouxe grandes avanços. O secretário de Estado, Marco Rubio, defendeu a reunião lembrando que os três países concentram a maior parte das armas nucleares do mundo.",
+    "Sobre a Ucrânia, Trump disse ter uma relação muito boa com Putin e que o russo quer encerrar a guerra pela diplomacia. Ao falar de Putin e do ucraniano Volodymyr Zelensky, resumiu: são duas pessoas que se odeiam, segundo a Denver7. Com os democratas, que assumem o controle da Câmara em janeiro, o tom foi conciliador: chamou de “inteligente” o futuro presidente da Casa, Hakeem Jeffries, e disse ver possibilidade real de acordo, sobretudo na saúde.",
+    "A novidade econômica foi a ameaça de taxar empresas americanas que construírem centros de dados no exterior. “Vamos colocar um imposto tremendo sobre elas”, disse Trump, sem detalhar valores e admitindo que ainda não havia avisado a própria equipe, segundo a ABC e o Daily Caller. A fala veio no dia em que o Nasdaq caiu 5,28%, puxado pelas ações de inteligência artificial. Trump também pediu cerca de US$ 50 bilhões para modernizar o controle de tráfego aéreo.",
+    "Nos próximos dias, a Casa Branca deve detalhar ou não a proposta de imposto, e a atenção se volta à cúpula do G20 em Miami, em 14 e 15 de dezembro, para a qual Trump já convidou Putin, segundo a imprensa ucraniana."
+   ],
+   "fontes": [
+    {
+     "nome": "ABC News",
+     "url": "https://abcnews.com/Politics/trump-hold-news-conference-friday-asia-trip/story?id=138307456"
+    },
+    {
+     "nome": "Denver7 (ABC)",
+     "url": "https://www.denver7.com/politics/the-president/trump-to-hold-white-house-press-conference-following-meeting-with-putin-xi"
+    },
+    {
+     "nome": "Daily Caller",
+     "url": "https://dailycaller.com/2026/11/21/nasdaq-loses-2026-gains-stock-market-correction-artificial-intelligence/"
+    },
+    {
+     "nome": "Censor.net",
+     "url": "https://censor.net/en/news/4034918/zelenskyy-has-left-open-possibility-of-trilateral-meeting-with-trump-and-putin-on-sidelines-of-g20"
+    }
+   ]
+  },
+  {
+   "secao": "Gaza",
+   "titulo": "Enviado do Conselho da Paz ameaça “entregar as chaves” de Gaza à ONU se Israel seguir travando o plano de Trump",
+   "linhaFina": "Josh Gruenbaum diz que Israel não assinou o acordo para a força internacional nem liberou policiais palestinos; ataques israelenses mataram nove pessoas em dois dias.",
+   "resumo": "Um assessor sênior do Conselho da Paz, órgão criado pelos EUA para Gaza, acusou o governo Netanyahu de paralisar o plano de 20 pontos e disse que a gestão pode ir para a ONU. Ataques israelenses mataram nove pessoas na sexta e no sábado; Israel diz que três eram da Jihad Islâmica.",
+   "texto": [
+    "Josh Gruenbaum, assessor sênior do Conselho da Paz, órgão criado pelo governo Trump para administrar a transição em Gaza, acusou Israel de travar o plano de paz e disse que o conselho pode “entregar as chaves” do território ao Conselho de Segurança da ONU. A entrevista foi dada ao site israelense Ynet e reproduzida na sexta (20) pelo Times of Israel e pelo Middle East Eye. “Fomos extremamente pacientes e demos a Israel o seu espaço”, disse.",
+    "Segundo Gruenbaum, Israel não assinou o acordo que permitiria o envio da Força Internacional de Estabilização e não liberou a saída de policiais palestinos, já checados, para treinamento no Egito. Sem essas forças, afirmou, não há quem receba as armas do Hamas, que aceitou o plano de desarmamento em 30 de julho. Ele alertou que um inverno catastrófico se aproxima.",
+    "O Times of Israel informou, com base na Ynet, que uma apresentação mostrada a autoridades israelenses lista cinco alternativas, entre elas a ONU com a agência para refugiados palestinos, a Autoridade Palestina, o próprio Hamas ou Israel arcando sozinho com Gaza. Não houve resposta oficial do governo israelense; autoridades ouvidas sob anonimato disseram preferir o status quo. Israel vive um impasse político: a eleição de 27 de outubro não teve vencedor claro, e Benjamin Netanyahu segue como premiê interino.",
+    "No terreno, ataques israelenses mataram seis pessoas na sexta e três no sábado, segundo o The National. Três delas estavam num veículo com comida em Tal al-Hawa, na Cidade de Gaza; papéis a bordo tinham o logotipo da ONG World Central Kitchen, que diz que o carro não era seu. As Forças de Defesa de Israel afirmam que atingiram três membros da Jihad Islâmica e chamaram de cínica a versão de que eram trabalhadores humanitários, segundo o Jerusalem Post.",
+    "O Ministério da Saúde de Gaza, controlado pelo Hamas, contabiliza 1.671 mortos desde o cessar-fogo de outubro de 2025, segundo a Al Jazeera. O próximo passo depende da resposta de Netanyahu ao ultimato e da formação de um novo governo em Israel."
+   ],
+   "fontes": [
+    {
+     "nome": "Times of Israel",
+     "url": "https://www.timesofisrael.com/board-of-peace-will-give-un-the-keys-to-gaza-if-israel-wont-honor-commitments-official-warns/"
+    },
+    {
+     "nome": "Middle East Eye",
+     "url": "https://www.middleeasteye.net/news/board-peace-adviser-warns-israel-it-could-hand-keys-gaza-un-over-stalled-talks"
+    },
+    {
+     "nome": "The National",
+     "url": "https://www.thenationalnews.com/news/mena/2026/11/21/strikes-kill-nine-in-gaza-as-board-of-peace-adviser-criticises-israel/"
+    },
+    {
+     "nome": "Jerusalem Post",
+     "url": "https://www.jpost.com/israel-news/defense-news/article-915643"
+    },
+    {
+     "nome": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/21/at-least-four-palestinians-killed-in-israeli-attacks-on-gaza"
+    }
+   ]
+  },
+  {
+   "secao": "México",
+   "titulo": "Forças especiais mexicanas prendem “El Chapo Isidro”, chefe dos Beltrán Leyva procurado pelo FBI",
+   "linhaFina": "A operação em Sinaloa usou inteligência compartilhada pelos EUA, que pedem a extradição; militares foram recebidos a tiros, e houve bloqueios em quatro cidades.",
+   "resumo": "Fausto Isidro Meza Flores foi preso na madrugada de sexta (20) em Guasave, Sinaloa, por forças especiais do Exército e da Guarda Nacional. Ele tem pedido de extradição dos EUA por tráfico. Também foram presos o suposto número 2 do grupo e um operador financeiro.",
+   "texto": [
+    "Forças especiais do Exército e da Guarda Nacional do México prenderam na madrugada de sexta-feira (20), em Guasave, no estado de Sinaloa, Fausto Isidro Meza Flores, o “El Chapo Isidro”, apontado como chefe da organização dos Beltrán Leyva e um dos mais procurados pelo FBI. A operação contou com inteligência compartilhada por agências americanas, segundo a Defesa mexicana, citada pela revista Proceso e pelo site EYR.",
+    "Meza Flores tem ordem de extradição para os Estados Unidos, onde é acusado de associação para distribuir drogas, e mandado de prisão no México por crime organizado e crimes contra a saúde. Segundo a Proceso, o FBI oferecia até US$ 5 milhões por informações que levassem à captura.",
+    "A ação foi feita em três fases, e os militares foram recebidos a tiros e explosivos, segundo a Proceso. Também foram presos Germán, conhecido como “Serafín”, apontado como número 2 do grupo, e um homem identificado como José, que seria o operador financeiro. Houve bloqueios de estradas em Ahome, Guasave, Navolato e Guamúchil. O EYR fala em quatro militares e sete agressores mortos; a Proceso diz que a Defesa não informou vítimas, e o número não foi confirmado por outra fonte.",
+    "“Estas detenções são um passo importante para a pacificação de Sinaloa”, escreveu no X o secretário de Segurança, Omar García Harfuch. Nenhuma das fontes indica participação direta de agentes americanos na operação.",
+    "O próximo passo é o processo de extradição pedido pelos Estados Unidos. Até lá, Meza Flores fica sob custódia das autoridades mexicanas, e a Defesa avalia a reação de grupos ligados a ele em Sinaloa, onde os bloqueios de estradas marcaram a sexta-feira."
+   ],
+   "fontes": [
+    {
+     "nome": "Proceso",
+     "url": "https://www.proceso.com.mx/nacional/2026/11/21/garcia-harfuch-presume-captura-de-el-chapo-isidro-operativo-conto-con-inteligencia-de-eu-384103.html"
+    },
+    {
+     "nome": "EYR",
+     "url": "https://eyr.com.do/detienen-chapo-isidro-guasave-sinaloa-mexico/"
+    },
+    {
+     "nome": "El Diario",
+     "url": "https://eldiario.com/2026/11/21/resumen-noticias-venezuela-sabado-21-noviembre/"
+    }
+   ]
+  }
+ ],
+ "cultura": [
+  {
+   "secao": "Games",
+   "titulo": "GTA VI fatura US$ 3,79 bilhões em um dia e passa a bilheteria inteira de ‘Vingadores: Ultimato’",
+   "linhaFina": "A Take-Two diz que é o maior lançamento da história do entretenimento; o jogo chegou ao PS5 e ao Xbox Series com nota 99 e custa R$ 449,90 no Brasil.",
+   "resumo": "Grand Theft Auto VI vendeu US$ 3,79 bilhões no primeiro dia, segundo a Take-Two, mais do que ‘Vingadores: Ultimato’ arrecadou em toda a carreira nos cinemas. Foram 32,5 milhões de unidades vendidas antes do lançamento. Ainda não há data para PC.",
+   "texto": [
+    "Grand Theft Auto VI, da Rockstar Games, faturou US$ 3,79 bilhões em vendas no primeiro dia, segundo estimativa divulgada na sexta-feira (20) pela dona do estúdio, a Take-Two Interactive. A conta vai até o fim de quinta (19), dia do lançamento para PlayStation 5 e Xbox Series X|S. A empresa diz que é o maior lançamento já registrado em qualquer forma de entretenimento, informaram a Digital Trends, a Exame e a ABC News.",
+    "Antes mesmo de chegar às lojas, o jogo já tinha vendido 32,5 milhões de unidades na pré-venda. A Take-Two não divulgou quantas cópias foram vendidas no dia do lançamento. Para comparação, ‘Vingadores: Ultimato’, maior bilheteria da história do cinema, arrecadou cerca de US$ 2,9 bilhões em toda a sua passagem pelas salas, lembram a Digital Trends e a Exame. O antecessor, GTA V, de 2013, levou três dias para passar de US$ 1 bilhão.",
+    "A recepção da crítica acompanhou as vendas: o jogo tem nota 99 no agregador Metacritic, empatado com ‘Zelda: Ocarina of Time’ como o mais bem avaliado da história, segundo a Digital Trends. GTA VI também lidera as indicações do The Game Awards, com oito, e disputa o prêmio de Jogo do Ano em 10 de dezembro, segundo o site Gematsu.",
+    "No Brasil, a edição padrão custa R$ 449,90 e a Ultimate, R$ 549,90, segundo a loja da Microsoft citada pelo Olhar Digital. Nos EUA, os preços são de US$ 79,99 e US$ 99,99. Não há data para a versão de computador. O lançamento chega 13 anos depois do GTA V e depois de dois adiamentos: estava previsto para 2025 e depois para maio de 2026.",
+    "A série soma quase 480 milhões de unidades vendidas, segundo a Take-Two, e o GTA V sozinho passou de 235 milhões. Neste sábado (21), a Rockstar promove em Miami um festival para celebrar o lançamento, segundo o site oficial do estúdio."
+   ],
+   "fontes": [
+    {
+     "nome": "Take-Two Interactive",
+     "url": "https://www.take2games.com/ir/news/grand-theft-auto-vi-shatters-entertainment-box-office-records"
+    },
+    {
+     "nome": "Digital Trends",
+     "url": "https://www.digitaltrends.com/gaming/gta-vi-just-outsold-every-movie-album-and-game-launch-ever/"
+    },
+    {
+     "nome": "Exame",
+     "url": "https://exame.com/pop/gta-vi-fatura-us-38-bilhoes-em-24-horas-e-bate-recorde-historico-do-entretenimento/"
+    },
+    {
+     "nome": "ABC News (Yahoo)",
+     "url": "https://www.yahoo.com/entertainment/movies/box-office-results/articles/gta-6-sets-record-3-195125280.html"
+    },
+    {
+     "nome": "Olhar Digital",
+     "url": "https://olhardigital.com.br/curiosidades/2026/11/17/gta-vi-chega-nesta-quinta-feira-19-de-novembro-aos-consoles-da-sony-e-da-microsoft-por-r-449-90-na-edicao-standard-ainda-sem-data-para-pc/"
+    },
+    {
+     "nome": "Gematsu",
+     "url": "https://www.gematsu.com/2026/11/the-game-awards-2026-nominees-announced"
+    },
+    {
+     "nome": "Rockstar Newswire",
+     "url": "https://www.rockstargames.com/newswire/article/o39o87a435a25a/grand-theft-auto-vi-the-festival"
+    }
+   ],
+   "grafico": {
+    "tipo": "barras",
+    "titulo": "Um dia de GTA VI contra o maior filme",
+    "subtitulo": "Em bilhões de dólares",
+    "prefixo": "US$ ",
+    "sufixo": " bi",
+    "casas": 2,
+    "dados": [
+     {
+      "rotulo": "GTA VI (1º dia)",
+      "valor": 3.79,
+      "destaque": true
+     },
+     {
+      "rotulo": "Ultimato (carreira inteira)",
+      "valor": 2.9
+     },
+     {
+      "rotulo": "GTA V (3 dias)",
+      "valor": 1.0
+     }
+    ],
+    "fonte": {
+     "nome": "Take-Two e Digital Trends",
+     "url": "https://www.digitaltrends.com/gaming/gta-vi-just-outsold-every-movie-album-and-game-launch-ever/"
+    },
+    "nota": "Valores aproximados para Ultimato e GTA V, segundo a Digital Trends."
+   }
+  },
+  {
+   "secao": "Cinema",
+   "titulo": "Novo ‘Jogos Vorazes’ faz US$ 56 milhões no primeiro dia e mira a maior estreia da Lionsgate desde 2015",
+   "linhaFina": "‘Amanhecer na Colheita’ deve passar de US$ 120 milhões no fim de semana nos EUA e chegar a cerca de US$ 200 milhões no mundo; o filme lidera em 66 de 67 mercados.",
+   "resumo": "O quinto filme da franquia arrecadou US$ 56 milhões na sexta nos EUA, incluindo pré-estreias, e caminha para mais de US$ 120 milhões no fim de semana, segundo TheWrap e Omelete. No mundo, já somava cerca de US$ 76 milhões até sexta, segundo a Deadline.",
+   "texto": [
+    "‘Jogos Vorazes: Amanhecer na Colheita’ arrecadou US$ 56 milhões no primeiro dia nos Estados Unidos, em 4.018 salas, incluindo US$ 21 milhões das sessões de pré-estreia, segundo o site TheWrap e o Omelete. A projeção para o fim de semana passa de US$ 120 milhões, bem acima da expectativa inicial, de cerca de US$ 85 milhões, segundo o Omelete. Os números finais saem no domingo e na segunda.",
+    "Se a projeção se confirmar, será a primeira estreia acima de US$ 100 milhões da Lionsgate desde ‘A Esperança – O Final’, que fez US$ 102 milhões em 2015, e o filme pode superar até ‘A Esperança – Parte 1’, de 2014, com US$ 121 milhões, segundo o TheWrap. O público aprovou: a nota no CinemaScore, pesquisa feita na saída das sessões, foi A-.",
+    "Fora dos EUA, o filme somava cerca de US$ 76 milhões até sexta e ficou em primeiro lugar em 66 dos 67 mercados em que estreou, segundo a Deadline. Outros 17 países recebem o longa neste fim de semana, e a projeção de estreia mundial é de cerca de US$ 200 milhões. Na América Latina, o filme lidera com quase US$ 3 milhões; no Brasil, a Deadline registrou US$ 679 mil, dado ainda sem confirmação de outra fonte.",
+    "Dirigido por Francis Lawrence, com roteiro de Billy Ray, o filme se passa décadas antes da história de Katniss e acompanha a juventude de Haymitch, vivido por Joseph Zada. O elenco tem ainda Elle Fanning, Ralph Fiennes, Jesse Plemons, Kieran Culkin e Glenn Close. Em segundo lugar nas bilheterias americanas, ‘Eu Sou o Rocky’ deve fazer cerca de US$ 9,3 milhões, segundo o Omelete.",
+    "Os números oficiais do fim de semana no Brasil devem ser divulgados na segunda-feira pela Comscore. Na pré-venda, o filme havia vendido 160 mil ingressos no país, como esta edição registrou no sábado."
+   ],
+   "fontes": [
+    {
+     "nome": "TheWrap (Yahoo)",
+     "url": "https://www.yahoo.com/entertainment/movies/box-office-results/articles/hunger-games-sunrise-reaping-becomes-160233192.html"
+    },
+    {
+     "nome": "Omelete",
+     "url": "https://www.omelete.com.br/filmes/jogos-vorazes-amanhecer-na-colheita-eu-sou-o-rocky-bilheteria"
+    },
+    {
+     "nome": "Deadline (Yahoo)",
+     "url": "https://www.yahoo.com/entertainment/movies/box-office-results/articles/hunger-games-sunrise-reaping-begins-231611456.html"
+    }
+   ]
+  }
+ ],
+ "paraEntender": {
+  "titulo": "A disputa pelo comando do Congresso em 1º de fevereiro",
+  "itens": [
+   "Câmara — Hugo Motta (Republicanos-PB) busca a reeleição com partidos que somam 361 deputados; são necessários 257 de 513 votos no primeiro turno.",
+   "Oposição na Câmara — Paulo Martins (Novo-PR) é candidato; Luiz Philippe (PL-SP) e Zé Trovão (PL-SC) estudam entrar.",
+   "PL — Com 121 deputados, a maior bancada, fez consulta secreta individual; o resultado é esperado por volta de 26/11.",
+   "Senado — Davi Alcolumbre (União-AP) tem apoio do Planalto e da federação União-PP; precisa de 41 dos 81 votos.",
+   "Desafiantes no Senado — Rogério Marinho (PL-RN) e Tereza Cristina (PP-MS) combinaram lançar um só nome; a decisão deve sair em janeiro.",
+   "Voto — Nas duas Casas a votação é secreta, e a posse dos eleitos em outubro ocorre no mesmo dia."
+  ],
+  "fontes": [
+   {
+    "nome": "Jornal de Brasília (Folhapress)",
+    "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/pl-mantem-indefinicao-sobre-presidencia-da-camara-em-meio-a-racha-sobre-apoio-a-motta/"
+   },
+   {
+    "nome": "Gazeta do Povo",
+    "url": "https://www.gazetadopovo.com.br/republica/paulo-martins-e-luiz-philippe-desafiam-favoritismo-de-hugo-motta-na-camara/"
+   },
+   {
+    "nome": "ND Mais",
+    "url": "https://ndmais.com.br/politica/tereza-cristina-presidencia-senado-alcolumbre"
+   }
+  ]
+ },
+ "breves": [
+  {
+   "texto": "A subvenção de R$ 2,12 por litro ao diesel vence na quinta (26); o governo estuda prorrogá-la para evitar alta na bomba, mas ainda não há decisão oficial.",
+   "fonte": {
+    "nome": "Metrópoles",
+    "url": "https://www.metropoles.com/colunas/andreza-matais/governo-deve-prorrogar-subsidio-ao-diesel-para-conter-inflacao-e-greve"
+   }
+  },
+  {
+   "texto": "Moraes mandou a PF prender Gibrail Pereira de Souza, de 61 anos, condenado a 14 anos de prisão pelos atos de 8 de janeiro, depois do fim dos recursos.",
+   "fonte": {
+    "nome": "Metrópoles",
+    "url": "https://www.metropoles.com/colunas/manoela-alcantara/moraes-manda-pf-prender-goiano-condenado-a-14-anos-pelos-atos-de-8-1"
+   }
+  },
+  {
+   "texto": "O recurso de Flávio Bolsonaro contra a apreensão de seus passaportes está no plenário virtual da Primeira Turma do STF até 30 de novembro.",
+   "fonte": {
+    "nome": "Metrópoles",
+    "url": "https://www.metropoles.com/colunas/manoela-alcantara/carmen-pauta-recurso-de-flavio-contra-apreensao-de-passaportes-por-moraes"
+   }
+  },
+  {
+   "texto": "O secretário-geral da Otan, Mark Rutte, foi a Varsóvia e prometeu defender o território polonês depois da queda de mísseis russos; o conselho da aliança discute o caso na segunda (23).",
+   "fonte": {
+    "nome": "Asharq Al-Awsat",
+    "url": "https://english.aawsat.com/world/5344085-nato-chief-pledges-defend-poland-after-russian-missile-incursion"
+   }
+  },
+  {
+   "texto": "A Tesla abriu vendas na Argentina, isentas da tarifa de 35%, e Javier Milei chamou Elon Musk de “o Leonardo da Vinci do século 21”.",
+   "fonte": {
+    "nome": "Gazeta do Povo",
+    "url": "https://www.gazetadopovo.com.br/mundo/tesla-de-musk-inaugura-primeira-loja-na-argentina-e-milei-celebra-abertura-economica-do-pais/"
+   }
+  }
+ ]
+}
