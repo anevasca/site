@@ -477,7 +477,7 @@ window.addEventListener("hashchange",function(){if(location.hash.indexOf("#redac
     topo(ed); nav(ed, "capa");
     var A = artigos(ed), byId = {}; A.forEach(function(a){ byId[a.id] = a; });
     var pre = "ed-"+ed.data+"-", m = ed.manchete, e = ed.editorial;
-    var h = aviso(ed) + '<div id="urgente"></div>' + indicadores(ed) + '<div id="ultimas-capa"></div>';
+    var h = aviso(ed) + '<div id="urgente"></div>' + indicadores(ed);
     h += '<section class="capa">';
     h += '<div class="col">' + (ed.destaques||[]).map(function(x, i){
       var id = pre + "destaque-" + (i+1);
@@ -489,6 +489,7 @@ window.addEventListener("hashchange",function(){if(location.hash.indexOf("#redac
     h += '<div class="col"><aside class="editorial"><div class="selo"><span>Editorial</span><em>Opinião do jornal</em></div><h2><a href="#'+pre+'editorial">'+esc(e.titulo)+'</a></h2><p>'+esc(resumoEd)+'</p>'+
          '<a class="leia" href="#'+pre+'editorial">Ler o editorial completo →</a></aside><div id="chamada-coluna"></div></div>';
     h += '</section>';
+    h += '<div id="ultimas-capa"></div>';
     if(ed.politica && ed.politica.length){
       h += '<section class="secao"><h3><a href="'+linkSecao(ed,"politica")+'">Brasília →</a> <small>Congresso, STF e partidos</small></h3><div class="grade4">' + ed.politica.map(function(a, i){
         var id = pre + "politica-" + (i+1);
