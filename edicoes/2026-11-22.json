@@ -100,6 +100,11 @@
     "url": "https://www.digitaltrends.com/gaming/gta-vi-just-outsold-every-movie-album-and-game-launch-ever/"
    },
    "nota": "Valores aproximados para Ultimato e GTA V, segundo a Digital Trends."
+  },
+  "imagem": {
+   "arquivo": "img/2026-11-22-manchete.jpg",
+   "legenda": "Os protagonistas Lucia e Jason em cena de Grand Theft Auto VI",
+   "credito": "Divulgação/Rockstar Games"
   }
  },
  "destaques": [
@@ -317,7 +322,12 @@
      "nome": "GCMais",
      "url": "https://gcmais.com.br/noticias/2026/11/21/bolsonaro-tem-obstrucao-intestinal-esta-estavel-e-segue-sem-previsao-de-alta-diz-boletim"
     }
-   ]
+   ],
+   "imagem": {
+    "arquivo": "img/2026-11-22-politica-1.jpg",
+    "legenda": "O ex-presidente Jair Bolsonaro, em foto de arquivo",
+    "credito": "Agência Brasil"
+   }
   },
   {
    "secao": "STF",
@@ -557,7 +567,12 @@
      "nome": "Deadline (Yahoo)",
      "url": "https://www.yahoo.com/entertainment/movies/box-office-results/articles/hunger-games-sunrise-reaping-begins-231611456.html"
     }
-   ]
+   ],
+   "imagem": {
+    "arquivo": "img/2026-11-22-cultura-1.jpg",
+    "legenda": "Cartaz oficial de ‘Jogos Vorazes: Amanhecer na Colheita’",
+    "credito": "Divulgação/Lionsgate"
+   }
   }
  ],
  "paraEntender": {
