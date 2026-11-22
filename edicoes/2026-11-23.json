@@ -1,0 +1,725 @@
+{
+  "data": "2026-11-23",
+  "dataExtenso": "Segunda-feira, 23 de novembro de 2026",
+  "numero": 6,
+  "atualizadoEm": "22/11/2026, 23h30 (Brasília)",
+  "indicadores": [
+    {
+      "rotulo": "Selic",
+      "valor": "13,75%",
+      "nota": "mantida em 4/nov; próximo Copom em 8 e 9/dez"
+    },
+    {
+      "rotulo": "Dólar",
+      "valor": "R$ 5,93",
+      "nota": "fechamento de 19/nov, maior desde abr/2025; B3 reabre hoje"
+    },
+    {
+      "rotulo": "Ibovespa",
+      "valor": "166.376 pts",
+      "nota": "último pregão, 19/nov (−0,69%)"
+    },
+    {
+      "rotulo": "Brent",
+      "valor": "US$ 92,57",
+      "nota": "fechamento de 20/nov, com ataques em Ormuz"
+    }
+  ],
+  "manchete": {
+    "secao": "Câmara",
+    "titulo": "Câmara põe o ajuste de Lula no plenário nesta segunda, precisa de 257 votos, e a economia prometida já encolheu no caminho",
+    "linhaFina": "O relator Mauro Benevides quer o texto do Senado sem nenhuma mudança, para ir direto à sanção; a estimativa do governo caiu de R$ 56,1 bilhões para algo entre R$ 45,1 bi e R$ 50,1 bi em 2027, e a votação pode escorregar para terça.",
+    "texto": [
+      "O plenário da Câmara dos Deputados abre na noite desta segunda-feira (23) a sessão extraordinária convocada pelo presidente da Casa, Hugo Motta (Republicanos-PB), para analisar o pacote de ajuste fiscal do governo Lula, o PLP 299/2026. Por ser projeto de lei complementar, ele precisa de maioria absoluta: 257 dos 513 deputados. Motta anunciou a sessão pelas redes sociais na quarta (18), logo depois de o Senado concluir a votação, e chamou o pacote de \"primeiro passo\", segundo a Gazeta do Povo e o Congresso em Foco.",
+      "O relator na Câmara, Mauro Benevides Filho (União-CE), pretende manter integralmente o texto que veio do Senado, sem novas emendas, informou o ND Mais. A conta é de calendário: se os deputados mexerem no mérito, o projeto volta aos senadores, o que atrasaria a sanção e a votação do Orçamento de 2027, prevista para dezembro. \"Vamos aprovar, acho que o mercado está esperando essa aprovação\", disse Benevides na terça (17), segundo a CNN Brasil, citada pelo jornal A Crítica.",
+      "O pacote chega menor do que saiu do Planalto. A primeira estimativa era de R$ 56,1 bilhões de melhora nas contas públicas em 2027. Depois das concessões feitas no Senado, o próprio Executivo passou a falar em algo entre R$ 45,1 bilhões e R$ 50,1 bilhões, segundo a CNN e o ND Mais. O relator no Senado, Eduardo Braga (MDB-AM), trabalha com a faixa de R$ 45,1 bilhões a R$ 56,1 bilhões, relatou o Congresso em Foco.",
+      "O que está em jogo é um conjunto de travas e cortes. O texto reduz de 2,5% para 2% o limite de crescimento real das despesas nos anos em que o governo precisar de medidas extras de contenção, endurece as regras de bloqueio de gastos, revisa benefícios fiscais de empresas, restringe a compensação de créditos tributários entre tributos diferentes e tira da meta fiscal de 2026 até R$ 10,5 bilhões gastos com o subsídio ao diesel, segundo o Congresso em Foco. Benevides afirma que Bolsa Família, BPC e abono salarial não são atingidos.",
+      "No Senado, o caminho teve dois tempos. O texto-base passou em 12 de novembro por 45 votos a 31; no turno suplementar, em 18 de novembro, o placar foi de 69 a 2, com votos contrários de Magno Malta (PL-ES) e Zequinha Marinho (Podemos-PA), segundo a Gazeta do Povo. No meio do caminho, o líder da oposição, Rogério Marinho (PL-RN), fechou com Braga um acordo que dobrou de R$ 1 bilhão para R$ 2 bilhões por ano o piso dos repasses da Lei Kandir aos estados, e uma emenda de Alessandro Vieira (MDB-SE) encurtou o prazo para o Congresso regulamentar o teto dos supersalários.",
+      "As críticas não sumiram. A oposição chama o projeto de \"nova pedalada fiscal\", e a Gazeta do Povo aponta que o ajuste se apoia mais em aumento de arrecadação do que em corte de gastos, com mudanças como a limitação do uso de créditos tributários, que especialistas ouvidos pelo jornal comparam a um confisco disfarçado. A Frente Parlamentar da Agropecuária quer discutir na Câmara o efeito sobre o Seguro Rural, segundo A Crítica.",
+      "O clima político também esquentou no fim de semana. Numa live no sábado (21), Lula defendeu o pacote e disse que não é o sistema financeiro que vai ensiná-lo a governar, referindo-se aos críticos como um \"bando de yuppie da Faria Lima\", segundo a Agência Brasil. Na mesma transmissão, prometeu não mudar a idade mínima de aposentadoria neste mandato.",
+      "A sessão desta segunda serve, antes de tudo, para abrir a discussão; a votação depende do fim dessa fase. Segundo a Agência Brasil, citada pelo site Ulti, o governo trabalha com a votação até terça (24). Se o texto for aprovado sem mudanças, segue para Lula, que tem 15 dias úteis para sancionar ou vetar, total ou parcialmente; eventuais vetos voltam ao Congresso."
+    ],
+    "fontes": [
+      {
+        "nome": "Gazeta do Povo",
+        "url": "https://www.gazetadopovo.com.br/republica/motta-agenda-votacao-ajuste-fiscal-lula-camara-segunda-feira-23/"
+      },
+      {
+        "nome": "Congresso em Foco",
+        "url": "https://www.congressoemfoco.com.br/noticia/131713/motta-convoca-sessao-extra-para-discutir-ajuste-fiscal-na-segunda"
+      },
+      {
+        "nome": "ND Mais",
+        "url": "https://ndmais.com.br/politica/ajuste-fiscal-governo-votacao-camara/"
+      },
+      {
+        "nome": "A Crítica (com CNN Brasil)",
+        "url": "https://acritica.net/economia/ajuste-fiscal-camara-votacao-segunda-relator-sem-mudancas-lei-kandir-ms/"
+      },
+      {
+        "nome": "Gazeta do Povo",
+        "url": "https://www.gazetadopovo.com.br/economia/governo-lula-avanca-com-ajuste-fiscal-baseado-em-aumento-de-impostos/"
+      },
+      {
+        "nome": "Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/o-sistema-financeiro-nao-vai-me-ensinar-dirigir-o-brasil-diz-lula"
+      },
+      {
+        "nome": "Ulti (com Agência Brasil e Agência Câmara)",
+        "url": "https://ulti.com.br/noticias/ajuste-fiscal-camara-votacao-plp-299-2026"
+      }
+    ],
+    "grafico": {
+      "tipo": "barras",
+      "titulo": "Quanto o ajuste promete economizar em 2027",
+      "subtitulo": "Melhora estimada no resultado primário, em R$ bilhões",
+      "prefixo": "R$ ",
+      "sufixo": " bi",
+      "casas": 1,
+      "dados": [
+        {
+          "rotulo": "Estimativa inicial",
+          "valor": 56.1
+        },
+        {
+          "rotulo": "Após o Senado (teto)",
+          "valor": 50.1,
+          "destaque": true
+        },
+        {
+          "rotulo": "Após o Senado (piso)",
+          "valor": 45.1
+        }
+      ],
+      "fonte": {
+        "nome": "Congresso em Foco e A Crítica (com CNN Brasil)",
+        "url": "https://www.congressoemfoco.com.br/noticia/131713/motta-convoca-sessao-extra-para-discutir-ajuste-fiscal-na-segunda"
+      },
+      "nota": "Faixa pós-Senado segundo o Executivo, citado pela CNN Brasil."
+    }
+  },
+  "destaques": [
+    {
+      "secao": "Mercados",
+      "titulo": "B3 reabre depois do tombo lá fora, com o dólar a R$ 5,93 e o ajuste no plenário à noite",
+      "linhaFina": "Durante o feriado, o EWZ caiu 3,29% em Nova York; a semana ainda traz o Focus nesta segunda, a prévia da inflação na quinta e o desemprego na sexta.",
+      "resumo": "A bolsa brasileira volta a funcionar nesta segunda (23) depois de ver o EWZ cair 3,29% em Nova York na sexta. O dólar fechou o último pregão a R$ 5,93, maior valor desde abril de 2025. A semana tem Focus, IPCA-15 e desemprego.",
+      "texto": [
+        "A B3 volta a funcionar nesta segunda-feira (23) depois do feriado da Consciência Negra, com uma conta acumulada lá fora. Na sexta (20), o EWZ, fundo negociado em Nova York que replica ações brasileiras, caiu 3,29%, para US$ 28,54, puxado pela venda de ações de tecnologia nos Estados Unidos, segundo o Investidor10. A CSN chegou a recuar 7,85% em Nova York, e a Vale, 3,46%, informou o Money Times.",
+        "O mercado já tinha chegado tenso ao feriado. Na quinta (19), o Ibovespa fechou em 166.376 pontos, queda de 0,69%, e o dólar subiu 1,15%, para R$ 5,934, a sexta alta seguida e o maior valor desde abril de 2025, mesmo com o Banco Central vendendo US$ 1 bilhão no mercado à vista, segundo a InfoMoney e a BPMoney. Três dias antes, na segunda (16), a moeda americana já tinha subido 2,15% num só pregão, a maior alta diária desde o dia seguinte ao segundo turno, relatou a Exame.",
+        "Parte da pressão vem de Brasília. Gestores ouvidos pela Exame avaliam que o mercado esperava um ajuste concentrado em corte de gastos, e não em receitas. O Boletim Focus de 16 de novembro elevou a projeção do dólar no fim de 2026 de R$ 5,35 para R$ 5,40, segundo a mesma reportagem. O novo Focus sai nesta segunda, às 8h25, e à noite a Câmara abre a discussão do pacote fiscal.",
+        "O resto da semana é de inflação e emprego. Na quinta (26), o IBGE divulga às 9h o IPCA-15 de novembro, a prévia da inflação oficial; na sexta (27), saem o IGP-M, o resultado fiscal do setor público de outubro e, às 9h, a taxa de desemprego da PNAD, segundo a agenda do Money Times. Nos EUA, o feriado de Ação de Graças, na quinta, encurta a semana.",
+        "A Selic está em 13,75% desde a decisão de 4 de novembro, e o Copom volta a se reunir em 8 e 9 de dezembro, já com o resultado da votação do ajuste e a nova leitura da inflação na mesa."
+      ],
+      "fontes": [
+        {
+          "nome": "Investidor10",
+          "url": "https://investidor10.com.br/noticias/ibov-em-dolar-ewz-cai-3-29-neste-feriadao-e-casa-com-implosoes-em-anthropic-e-nvidia-nos-eua-124010/"
+        },
+        {
+          "nome": "Money Times",
+          "url": "https://www.moneytimes.com.br/vale-itau-petrobras-bradesco-como-fecharam-os-adrs-em-dia-de-bolsa-fechada/"
+        },
+        {
+          "nome": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-19112026/"
+        },
+        {
+          "nome": "BPMoney",
+          "url": "https://bpmoney.com.br/mercado/ibovespa-cai-dolar-renova-maxima-19-meses-r-593/"
+        },
+        {
+          "nome": "Exame",
+          "url": "https://exame.com/invest/mercados/dolar-tem-maior-alta-desde-reeleicao-de-lula-e-vai-a-r-577-pico-em-19-meses/"
+        },
+        {
+          "nome": "Money Times (agenda)",
+          "url": "https://www.moneytimes.com.br/inflacao-no-brasil-e-nos-eua-movimentam-a-semana-veja-a-agenda-de-indicadores/"
+        }
+      ],
+      "grafico": {
+        "tipo": "linha",
+        "titulo": "O dólar em novembro",
+        "subtitulo": "Fechamento do dólar comercial, em R$",
+        "prefixo": "R$ ",
+        "sufixo": "",
+        "casas": 2,
+        "dados": [
+          {
+            "rotulo": "06/11",
+            "valor": 5.51
+          },
+          {
+            "rotulo": "12/11",
+            "valor": 5.65
+          },
+          {
+            "rotulo": "16/11",
+            "valor": 5.78
+          },
+          {
+            "rotulo": "18/11",
+            "valor": 5.87
+          },
+          {
+            "rotulo": "19/11",
+            "valor": 5.93,
+            "destaque": true
+          }
+        ],
+        "fonte": {
+          "nome": "InfoMoney, Gazeta do Povo e Exame",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-19112026/"
+        },
+        "nota": "12/11 segundo a Gazeta do Povo; 16/11 segundo a Exame; demais datas, InfoMoney. Em 20/11 não houve pregão no Brasil."
+      }
+    },
+    {
+      "secao": "Contas públicas",
+      "titulo": "Governo prepara projeto próprio contra salários de mais de R$ 100 mil e espera poupar até R$ 3 bilhões por ano",
+      "linhaFina": "Texto em preparo na Gestão e na Casa Civil quer uma lista fechada do que pode passar do teto de R$ 46,3 mil; o alvo principal são pagamentos no Judiciário e no Legislativo.",
+      "resumo": "O Ministério da Gestão e a Casa Civil discutem um projeto para regulamentar o teto do funcionalismo e acabar com pagamentos que passam de R$ 100 mil por mês, segundo a Folha. A economia estimada é de R$ 2 bi a R$ 3 bi por ano. Lula decide se envia o texto.",
+      "texto": [
+        "O governo Lula prepara um projeto de lei próprio para regulamentar o teto salarial do serviço público, hoje de R$ 46.366,19, e conter pagamentos extras que permitem a alguns servidores receber mais de R$ 100 mil por mês, informou a Folha de S.Paulo no domingo (22), segundo o jornal A Tarde e a TV Sim Brasil. A equipe econômica estima economia de R$ 2 bilhões a R$ 3 bilhões por ano, com foco nos pagamentos fora do teto no Judiciário e no Legislativo.",
+        "O texto está sendo redigido pelo Ministério da Gestão e da Inovação em Serviços Públicos, da ministra Esther Dweck, junto com a Casa Civil, e deve trazer uma lista fechada das verbas que podem ficar fora do limite. Uma versão preliminar é esperada nos próximos dias e será levada a Lula, que decide se e quando envia ao Congresso. Técnicos do Executivo avaliam que os projetos já em tramitação não resolvem o problema, segundo A Tarde.",
+        "Há dois projetos parados no Legislativo. O PL 2721/2021 saiu do Senado, foi aprovado pela Câmara em 2021 com a lista de exceções ampliada de 19 para 32 itens e está de volta ao Senado, com relatoria de Eduardo Gomes (PL-TO) e sem parecer. O PL 3328/2025, de deputados de PSB, PDT e PT, prevê oito categorias de exceção.",
+        "O tema entrou no ajuste fiscal votado pelo Congresso. O texto original dava 120 dias para o Congresso analisar a regulamentação do teto, segundo o Correio da Manhã; no Senado, uma emenda do senador Alessandro Vieira (MDB-SE) reduziu o prazo para 60 dias, e o governo aceitou, relatam A Tarde e a Gazeta do Povo. O pacote ainda depende da Câmara.",
+        "O pano de fundo é uma decisão do Supremo que autorizou pagamentos extras de até 70% do teto, cerca de R$ 78,8 mil por mês, e reconheceu o adicional por tempo de serviço para juízes e membros do Ministério Público. Depois disso, a Justiça Federal e o MP pediram crédito extraordinário de R$ 533 milhões; o Conselho da Justiça Federal desistiu da sua parte, e a Procuradoria-Geral da República manteve o pedido de R$ 324 milhões, segundo A Tarde."
+      ],
+      "fontes": [
+        {
+          "nome": "A Tarde (com Folha de S.Paulo)",
+          "url": "https://atarde.com.br/politica/lula-prepara-projeto-para-acabar-com-supersalarios-acima-de-r-100-mil-1410331"
+        },
+        {
+          "nome": "TV Sim Brasil",
+          "url": "https://tvsimbrasil.com.br/brasil/politica/noticia/2026/11/22/governo-prepara-projeto-supersalarios-funcionalismo-publico"
+        },
+        {
+          "nome": "Correio da Manhã",
+          "url": "https://www.correiodamanha.com.br/economia/funcionalismo-publico/2026/11/335435-governo-preve-prazo-para-conter-supersalarios-no-funcionalismo.html"
+        },
+        {
+          "nome": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/republica/motta-agenda-votacao-ajuste-fiscal-lula-camara-segunda-feira-23/"
+        }
+      ],
+      "grafico": {
+        "tipo": "barras",
+        "titulo": "O teto e o que passa dele",
+        "subtitulo": "Remuneração mensal, em R$ mil",
+        "prefixo": "R$ ",
+        "sufixo": " mil",
+        "casas": 1,
+        "dados": [
+          {
+            "rotulo": "Teto constitucional",
+            "valor": 46.4
+          },
+          {
+            "rotulo": "Teto + extras autorizados pelo STF",
+            "valor": 78.8
+          },
+          {
+            "rotulo": "Supersalários citados",
+            "valor": 100.0,
+            "destaque": true
+          }
+        ],
+        "fonte": {
+          "nome": "A Tarde, com Folha de S.Paulo",
+          "url": "https://atarde.com.br/politica/lula-prepara-projeto-para-acabar-com-supersalarios-acima-de-r-100-mil-1410331"
+        },
+        "nota": "Supersalários: pagamentos que passam de R$ 100 mil por mês, segundo a reportagem."
+      }
+    },
+    {
+      "secao": "Combustíveis",
+      "titulo": "Desconto de R$ 2,12 no diesel vence na quinta, e o governo ainda não disse se renova",
+      "linhaFina": "A outra parcela, de R$ 1,40 para o diesel importado, já acabou em 12 de novembro; caminhoneiros falam em parar se o preço subir, e o programa deve custar cerca de R$ 40 bilhões em 2026.",
+      "resumo": "A subvenção de R$ 2,12 por litro ao diesel vence na quinta (26). O governo estuda prorrogá-la para segurar a inflação e evitar greve, mas não anunciou decisão. A parcela extra de R$ 1,40 ao diesel importado não foi renovada.",
+      "texto": [
+        "A subvenção federal de R$ 2,12 por litro ao diesel rodoviário vence nesta quinta-feira (26), e até o fechamento desta edição o governo não havia anunciado se vai prorrogá-la. A ajuda foi criada por medida provisória em setembro e renovada em 27 de outubro por mais 30 dias, por portaria do Ministério da Fazenda, segundo o site Click Petróleo e Gás. O Metrópoles informou no início do mês que a equipe econômica estuda estender o benefício para conter a inflação e reduzir o risco de uma paralisação de caminhoneiros.",
+        "A outra parcela já caiu. A Fazenda confirmou em 13 de novembro que não renovaria o subsídio extra de R$ 1,40 por litro ao diesel importado, vencido no dia 12, segundo a TV Sim Brasil. Somadas, as duas parcelas chegavam a R$ 3,52 por litro. O presidente da Associação Brasileira dos Importadores de Combustíveis (Abicom), Sérgio Araújo, avalia que, passadas as eleições, o governo deve reduzir a subvenção aos poucos por falta de caixa.",
+        "A distância entre o preço interno e o de fora é grande. Segundo a Abicom, citada pelo Click Petróleo e Gás, o diesel saía das refinarias da Petrobras a R$ 3,57 por litro, contra R$ 7,49 no mercado internacional. Mais de um quarto do diesel consumido no país é importado. Nos postos, o litro chegou a R$ 7,29 na semana de 8 a 14 de novembro, depois de bater R$ 7,58 no pico, relatou a TV Sim Brasil.",
+        "O programa custa caro. A projeção é de cerca de R$ 40 bilhões em 2026, bancados em parte pelo imposto de exportação de 12% sobre o petróleo bruto, prorrogado até 31 de dezembro. O ajuste fiscal em votação na Câmara tira da meta deste ano até R$ 10,5 bilhões gastos com o subsídio, segundo o Congresso em Foco.",
+        "Caminhoneiros cobram reajuste do frete e falam em paralisação nacional caso o diesel suba, mas até meados do mês não havia reunião marcada, segundo a TV Sim Brasil. A decisão sobre a prorrogação precisa sair até quinta."
+      ],
+      "fontes": [
+        {
+          "nome": "Click Petróleo e Gás",
+          "url": "https://clickpetroleoegas.com.br/subvencao-diesel-r-3-52-litro-vence-26-novembro-prorrogacao-phsn84"
+        },
+        {
+          "nome": "Metrópoles (via Gazeta Web)",
+          "url": "https://www.gazetaweb.com/noticias/economia/governo-deve-prorrogar-subsidio-ao-diesel-para-conter-inflacao-e-greve-948012"
+        },
+        {
+          "nome": "TV Sim Brasil",
+          "url": "https://tvsimbrasil.com.br/brasil/economia/noticia/2026/11/16/fim-subsidio-diesel-importado-pode-elevar-preco-bombas"
+        },
+        {
+          "nome": "Congresso em Foco",
+          "url": "https://www.congressoemfoco.com.br/noticia/131713/motta-convoca-sessao-extra-para-discutir-ajuste-fiscal-na-segunda"
+        }
+      ]
+    }
+  ],
+  "editorial": {
+    "titulo": "Ajuste que começa pelo bolso dos outros",
+    "texto": [
+      "A Câmara abre nesta segunda a discussão do ajuste fiscal do governo, e é bom dizer logo o óbvio: um país que gasta mais do que arrecada precisa parar de fazê-lo. Quem quer construir uma torre, ensina o Evangelho, senta-se primeiro e calcula o custo (Lc 14.28). O problema do pacote não é a intenção de arrumar as contas; é o lugar por onde ele começa. Encolhido no Senado para algo entre R$ 45 bilhões e R$ 50 bilhões, o ajuste se apoia mais em tirar dinheiro de quem produz, limitando créditos tributários e revendo benefícios, do que em o Estado apertar o próprio cinto.",
+      "Na tradição reformada, o governo civil tem uma esfera definida: é servo de Deus para o bem, não dono da renda das famílias e das empresas. Kuyper insistia que o Estado não deve invadir as esferas que não lhe pertencem. Quando o governo trata cada real alheio como reserva de caixa, e chama de yuppie quem aponta a conta, a mordomia vira desculpa para a voracidade. Responsabilidade fiscal de verdade é gastar menos, e não apenas cobrar melhor. O Catecismo de Westminster, ao tratar do oitavo mandamento, condena tanto o furto quanto o desperdício do que é alheio; vale para o cidadão e vale, com mais razão, para quem administra o dinheiro de todos.",
+      "Há, no entanto, um ponto do pacote que merece aplauso de pé: o prazo para regulamentar o teto e acabar com salários de mais de R$ 100 mil no serviço público. Que o governo prepare um projeto próprio é bom; que o Congresso o vote é melhor ainda. Não há sermão sobre sacrifício que resista a um contracheque com três penduricalhos e um auxílio-paletó. Aqui fica o recado também à direita, inclusive ao PL: quem defende Estado enxuto não pode lutar por ele na tribuna e negociar privilégio de corporação no corredor, nem trocar voto na presidência das Casas por cargo na Mesa.",
+      "Os deputados têm diante de si uma escolha simples de enunciar e difícil de cumprir. Podem aprovar o texto como veio, fechar os olhos e chamar isso de responsabilidade; ou podem aprovar o que há de bom e cobrar, com a mesma energia, o corte de gastos que o governo evita. O contribuinte brasileiro já fez a sua parte no ajuste. Agora é a vez de Brasília, a começar pelos andares de cima. O primeiro passo, como disse Motta, pode até ser este. Mas passo que só anda no bolso do vizinho não é caminhada; é atalho."
+    ]
+  },
+  "politica": [
+    {
+      "secao": "Bolsonaro",
+      "titulo": "Bolsonaro segue em jejum e com sonda na UTI, e o STF já tem data para julgar a lei que pode cortar sua pena",
+      "linhaFina": "Boletim de domingo diz que o ex-presidente está estável, sem previsão de alta; Moraes liberou a retirada da tornozeleira durante a internação, e o plenário virtual analisa a Lei da Dosimetria de 4 a 15 de dezembro.",
+      "resumo": "Internado desde sexta no DF Star com obstrução quase completa do intestino delgado, Bolsonaro está estável, em tratamento clínico e sem previsão de alta. Ele completou um ano preso no domingo. O STF julga em dezembro as ações contra a lei que reduziria sua pena.",
+      "texto": [
+        "O ex-presidente Jair Bolsonaro (PL) continua na UTI do hospital DF Star, em Brasília, sem previsão de alta, segundo o boletim médico de domingo (22). O diagnóstico é de abdômen agudo obstrutivo, uma obstrução quase completa do intestino delgado associada a um processo inflamatório. O texto diz que ele está \"clinicamente estável\" e mantém tratamento clínico, com jejum e suporte nutricional, informaram a Agência Brasil e a Gazeta do Povo. Uma sonda nasogástrica faz a descompressão do intestino.",
+        "Bolsonaro passou mal na sexta (20) e foi levado ao hospital por orientação do médico particular. Ele cumpre em prisão domiciliar a pena de 27 anos e 3 meses imposta pelo Supremo Tribunal Federal e se recuperava de uma pneumonia bacteriana, lembrou a Agência Brasil. O boletim foi assinado por cinco profissionais, segundo O Tempo.",
+        "A senadora eleita Michelle Bolsonaro (PL-DF), que voltou de cerca de dez dias em Israel e chegou ao hospital no sábado à noite, disse que o marido passou a noite sem dor, fez uma caminhada e faria um raio-X contrastado; ela alertou que ainda há risco de um procedimento mais invasivo, relatou O Tempo. O senador eleito Carlos Bolsonaro (PL-SC) contou que não havia familiar no hospital no momento da internação e pediu para acompanhar o pai, o que foi aceito.",
+        "O ministro Alexandre de Moraes, do STF, autorizou visitas dos filhos e da enteada durante a internação, com celulares e câmeras proibidos, e permitiu a retirada da tornozeleira eletrônica, que será recolocada na alta. A Polícia Militar do DF mantém vigilância ininterrupta no hospital, segundo a Gazeta do Povo e O Tempo.",
+        "O domingo marcou um ano da prisão de Bolsonaro, detido preventivamente em 22 de novembro de 2025. A data que pode mudar a conta da pena já está marcada: Moraes pautou para o plenário virtual de 4 a 15 de dezembro as ações contra a Lei da Dosimetria, suspensa por ele em maio. Pelo cálculo do relator do projeto na Câmara, Paulinho da Força (Solidariedade-SP), a pena cairia para 20 anos e 8 meses, segundo o Metrópoles. A pauta saiu depois de Hugo Motta e Davi Alcolumbre cobrarem o ministro, relatou a Agência Brasil."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/bolsonaro-segue-internado-na-uti-sem-previsao-de-alta"
+        },
+        {
+          "nome": "Gazeta do Povo",
+          "url": "https://gazetadopovo.com.br/republica/bolsonaro-permanece-na-uti-sem-previsao-de-alta-diz-boletim-medico"
+        },
+        {
+          "nome": "O Tempo",
+          "url": "https://www.otempo.com.br/politica/judiciario/2026/11/22/com-intestino-obstruido-bolsonaro-segue-na-uti-e-sem-previsao-de-alta"
+        },
+        {
+          "nome": "Metrópoles",
+          "url": "https://www.metropoles.com/colunas/manoela-alcantara/moraes-pauta-julgamento-de-acoes-que-questionam-lei-da-dosimetria-no-stf"
+        },
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/congresso-pede-que-stf-julgue-lei-que-beneficia-condenados-pelo-81"
+        }
+      ],
+      "grafico": {
+        "tipo": "barras",
+        "titulo": "O que a Lei da Dosimetria faria com a pena de Bolsonaro",
+        "subtitulo": "Pena total, em meses",
+        "prefixo": "",
+        "sufixo": " meses",
+        "casas": 0,
+        "dados": [
+          {
+            "rotulo": "Condenação do STF (27a3m)",
+            "valor": 327
+          },
+          {
+            "rotulo": "Com a Dosimetria (20a8m)",
+            "valor": 248,
+            "destaque": true
+          }
+        ],
+        "fonte": {
+          "nome": "Metrópoles, com cálculo de Paulinho da Força",
+          "url": "https://www.metropoles.com/colunas/manoela-alcantara/moraes-pauta-julgamento-de-acoes-que-questionam-lei-da-dosimetria-no-stf"
+        }
+      }
+    },
+    {
+      "secao": "Caso Master",
+      "titulo": "Um ano depois, caso Master tem 21 presos e R$ 28 bilhões bloqueados, mas nenhuma denúncia da PGR",
+      "linhaFina": "A PF indiciou Vorcaro e mais 14 em outubro; a Procuradoria recebeu 15 dias para se manifestar no dia 4 e ainda não o fez, enquanto ao menos seis ministros do STF aparecem citados nas investigações.",
+      "resumo": "O escândalo do Banco Master completou um ano com 10 fases da PF, 21 prisões e quase R$ 28 bilhões bloqueados, mas sem denúncia nem delação fechada. Só uma das 12 frentes chegou a indiciamentos. O prejuízo passa de R$ 70 bilhões, e o STF virou centro da crise.",
+      "texto": [
+        "A investigação sobre o Banco Master completou um ano com números grandes e poucas conclusões. Foram 10 fases da Polícia Federal, 21 prisões, 120 mandados de busca e bloqueios de quase R$ 28 bilhões, mas, das 12 frentes abertas, só uma chegou a indiciamentos, segundo a Gazeta do Povo. Em outubro, a PF indiciou o dono do banco, Daniel Vorcaro, e outras 14 pessoas no núcleo ligado ao BRB, o banco público do Distrito Federal.",
+        "O próximo passo cabe à Procuradoria-Geral da República, que ainda não apresentou denúncia. O ministro Edson Fachin, do STF, deu à PGR 15 dias em 4 de novembro para se manifestar, e não houve resposta até a semana passada, informou O Tempo. Vorcaro, preso na Papudinha, teve duas propostas de delação rejeitadas.",
+        "Vorcaro foi preso em 17 de novembro de 2025 em Guarulhos, quando ia embarcar para Dubai, e o Banco Central liquidou o Master no dia seguinte, segundo O Antagonista. Ele saiu da prisão dias depois por decisão do TRF-1 e voltou a ser preso em março, por ordem do ministro André Mendonça. Entre os alvos de fases posteriores estão o ex-presidente do BRB Paulo Henrique Costa e os senadores Ciro Nogueira (PP-PI) e Jaques Wagner (PT-BA); todos negam irregularidades.",
+        "O caso arrastou o Supremo para o centro da crise. Pelo menos seis ministros aparecem citados, com mais menções a Alexandre de Moraes, Dias Toffoli e Nunes Marques, que negam irregularidades, segundo a Gazeta do Povo. Os contratos do escritório da mulher de Moraes com o banco somam R$ 129 milhões, segundo O Antagonista. A relatoria passou de Toffoli para Mendonça e foi avocada temporariamente por Fachin; em 16 de novembro, Vorcaro pediu que o caso fosse para Gilmar Mendes.",
+        "O prejuízo é estimado em quase R$ 76 bilhões, e o Fundo Garantidor de Créditos desembolsou R$ 58 bilhões, segundo O Tempo, ou cerca de R$ 60 bilhões, segundo a Gazeta do Povo. A PF ainda enfrenta uma crise interna: dois delegados foram afastados depois que a cúpula considerou que relatórios pedidos por Fachin extrapolavam o pedido, e novos relatórios foram entregues em 18 de novembro, segundo a Gazeta do Povo."
+      ],
+      "fontes": [
+        {
+          "nome": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/republica/master-um-ano-crises-institucionais-inundam-investigacoes-escandalo-sem-respostas/"
+        },
+        {
+          "nome": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/republica/investigacoes-do-caso-banco-master-completam-um-ano-com-impasses-institucionais/"
+        },
+        {
+          "nome": "O Tempo",
+          "url": "https://www.otempo.com.br/politica/judiciario/2026/11/17/caso-master-completa-um-ano-sem-delacao-denuncia-da-pgr-ou-alguma-autoridade-indiciada"
+        },
+        {
+          "nome": "O Antagonista",
+          "url": "https://oantagonista.com.br/brasil/caso-master-leva-stf-para-epicentro-de-crise-ano-apos-prisao-de-vorcaro/"
+        }
+      ]
+    },
+    {
+      "secao": "Câmara",
+      "titulo": "Paulo Martins vai para cima de Motta e chama o PL de \"complementar\", mas o maior partido da Câmara ainda não decidiu",
+      "linhaFina": "O deputado do Novo diz que a Casa \"está no chão\"; Luiz Philippe tem o aval de Valdemar, e o PL, com 121 deputados em 2027, segue dividido entre Motta e candidato próprio.",
+      "resumo": "Paulo Martins (Novo-PR) se lançou contra Hugo Motta e diz que nomes do PL, como Luiz Philippe e Zé Trovão, seriam candidaturas complementares. O PL, maior bancada em 2027, ainda não decidiu se apoia Motta, lança nome ou libera a bancada.",
+      "texto": [
+        "A disputa pela presidência da Câmara, marcada para 1º de fevereiro de 2027, já tem dois nomes da direita contra a reeleição de Hugo Motta (Republicanos-PB). O Novo oficializou na quarta (18) a candidatura de Paulo Martins (PR), e o deputado Luiz Philippe de Orléans e Bragança (PL-SP) anunciou a sua um dia antes, com o aval do presidente do PL, Valdemar Costa Neto, segundo a Gazeta do Povo. Para vencer no primeiro turno, são necessários 257 votos.",
+        "No lançamento, Martins disse que \"essa Casa está no chão\", chamou a Câmara de mero carimbador e falou em uma \"bomba fiscal\" prestes a explodir, relatou o portal Ric. Ele criticou o governo Lula e o STF e chamou de presos políticos os condenados pelos atos de 8 de janeiro.",
+        "Martins diz que não há racha. Ao Metrópoles, contou que procurou Luiz Philippe e Zé Trovão (PL-SC) e que vê as candidaturas como \"complementares de qualquer forma\", na aposta de tirar votos de Motta. \"Eu estou me colocando à disposição deles\", disse. Segundo ele, os dois do PL já teriam se lançado de forma avulsa, afirmação que não aparece confirmada em outros veículos.",
+        "O peso está no PL, que terá 121 deputados a partir de 2027 e segue dividido entre compor com Motta, que apoiou Lula contra Flávio Bolsonaro na eleição, e lançar candidato próprio, segundo a Gazeta do Povo. A sigla fez uma consulta secreta e individual à bancada, com resultado esperado por volta de quinta (26), segundo a Folhapress, publicada pelo Jornal de Brasília.",
+        "Os perfis são diferentes. Luiz Philippe, deputado desde 2019, preside a Comissão de Relações Exteriores e defende contas públicas enxutas e anistia aos condenados do 8 de janeiro. Martins perdeu a eleição ao Senado pelo Paraná em 2022 para Sergio Moro, foi vice-prefeito de Curitiba e voltou à Câmara em 2026 com 44.029 votos, segundo a Gazeta. As candidaturas só precisam ser registradas na véspera da eleição."
+      ],
+      "fontes": [
+        {
+          "nome": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/republica/paulo-martins-e-luiz-philippe-quem-sao-os-deputados-que-tentam-desbancar-motta-na-camara/"
+        },
+        {
+          "nome": "Metrópoles",
+          "url": "https://www.metropoles.com/colunas/igor-gadelha/aposta-do-novo-ve-candidatura-do-pl-como-complementar-contra-motta"
+        },
+        {
+          "nome": "Ric",
+          "url": "https://ric.com.br/politica/paulo-martins-candidato-presidencia-camara-dos-deputados/"
+        },
+        {
+          "nome": "Jornal de Brasília (Folhapress)",
+          "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/pl-mantem-indefinicao-sobre-presidencia-da-camara-em-meio-a-racha-sobre-apoio-a-motta/"
+        }
+      ]
+    },
+    {
+      "secao": "Senado",
+      "titulo": "Tereza Cristina diz \"não vou insistir\" e abre caminho para Marinho, enquanto os placares do Senado somam 99 votos para 81 cadeiras",
+      "linhaFina": "Alcolumbre diz ter 55 votos garantidos, e a oposição conta 44 para Rogério Marinho; a definição do nome único da direita fica para a segunda quinzena de janeiro.",
+      "resumo": "Tereza Cristina (PP-MS) admitiu à Folha que pode desistir da presidência do Senado se Rogério Marinho (PL-RN) tiver mais chances. As contas dos dois lados não fecham: Alcolumbre fala em 55 votos e Marinho em 44, num Senado de 81. São necessários 41.",
+      "texto": [
+        "A senadora Tereza Cristina (PP-MS) sinalizou que pode retirar a candidatura à presidência do Senado para apoiar Rogério Marinho (PL-RN) contra Davi Alcolumbre (União-AP). \"Não vou insistir\", disse em entrevista à Folha de S.Paulo, segundo o site Carta de Notícias. Ela afirmou que a articulação ainda está no início, reconheceu a dificuldade de ser do PP, cuja federação apoia Alcolumbre, e resumiu a lógica da escolha: \"tem que ter voto para ganhar\".",
+        "As contas dos dois campos não fecham. O grupo de Alcolumbre diz ter 55 votos garantidos, e um levantamento do deputado Gustavo Gayer (PL-GO) atribui 44 a Marinho, o que soma 99 num Senado de 81 cadeiras, informou a TV Sim Brasil no sábado (21). Dias antes, o ND Mais registrava Alcolumbre falando em 48 votos e Marinho em pelo menos 40. Para vencer, são necessários 41 votos, em eleição secreta no dia 1º de fevereiro.",
+        "Marinho conta com 26 dos 29 senadores do PL, excluindo Michelle Bolsonaro (PL-DF), que não declarou voto, e Eduardo Gomes (PL-TO), que recebeu de Alcolumbre a relatoria da LDO. \"No momento oportuno, vamos convergir. Tereza é nossa parceira\", disse Marinho, segundo a TV Sim Brasil. Alcolumbre tem o apoio sinalizado de Lula e da federação União Progressista.",
+        "Tereza aposta na bancada feminina, que será recorde em 2027, e diz que o adversário comum é Alcolumbre. \"Ou ele ou eu, quem tiver melhores condições\", afirmou sobre o acordo com Marinho, segundo o ND Mais. Ela ofereceu ao colega a presidência da Comissão de Constituição e Justiça. Sobre pedidos de impeachment de ministros do STF, disse à Folha que não devem ficar na gaveta, mas que não quer criar crise institucional.",
+        "A definição entre os dois nomes da oposição está prevista para a segunda quinzena de janeiro. A bancada do PT, que terá 10 senadores, adiou a reunião que confirmaria o apoio a Alcolumbre para depois da votação do ajuste fiscal, segundo o ND Mais."
+      ],
+      "fontes": [
+        {
+          "nome": "Carta de Notícias (com Folha de S.Paulo)",
+          "url": "https://cartadenoticias.com.br/2026/brasil/tereza-cristina-admite-desistir-da-disputa-pela-presidencia-do-senado-a-favor-de-rogerio-marinho/"
+        },
+        {
+          "nome": "TV Sim Brasil",
+          "url": "https://tvsimbrasil.com.br/brasil/eleicoes-2026/noticia/2026/11/21/alcolumbre-marinho-90-votos-senado-81-cadeiras"
+        },
+        {
+          "nome": "ND Mais",
+          "url": "https://ndmais.com.br/politica/alcolumbre-votos-marinho-presidencia-senado/"
+        },
+        {
+          "nome": "ND Mais",
+          "url": "https://ndmais.com.br/politica/tereza-cristina-presidencia-senado-alcolumbre/"
+        }
+      ],
+      "grafico": {
+        "tipo": "barras",
+        "titulo": "A conta que não fecha no Senado",
+        "subtitulo": "Votos que cada lado diz ter, em 81 cadeiras",
+        "prefixo": "",
+        "sufixo": " votos",
+        "casas": 0,
+        "dados": [
+          {
+            "rotulo": "Alcolumbre (grupo dele)",
+            "valor": 55
+          },
+          {
+            "rotulo": "Marinho (conta de Gayer)",
+            "valor": 44
+          },
+          {
+            "rotulo": "Cadeiras no Senado",
+            "valor": 81,
+            "destaque": true
+          },
+          {
+            "rotulo": "Necessários para vencer",
+            "valor": 41
+          }
+        ],
+        "fonte": {
+          "nome": "TV Sim Brasil",
+          "url": "https://tvsimbrasil.com.br/brasil/eleicoes-2026/noticia/2026/11/21/alcolumbre-marinho-90-votos-senado-81-cadeiras"
+        }
+      }
+    }
+  ],
+  "mundo": [
+    {
+      "secao": "Oriente Médio",
+      "titulo": "Irã dispara contra quatro bases dos EUA no Bahrein, e Trump avisa que petroleiro que furar o bloqueio vai \"para o fundo do mar\"",
+      "linhaFina": "Pelo menos três petroleiros foram atingidos perto de Ormuz no sábado; no domingo, outro navio teve um incidente com forças militares no Golfo de Omã, e o Catar tenta mediar.",
+      "resumo": "O Irã atacou com drones e mísseis balísticos quatro bases americanas no Bahrein, sede da Quinta Frota. Teerã diz ter 14 petroleiros prontos para romper o bloqueio dos EUA; Trump respondeu que os navios acabariam no fundo do mar. O Brent fechou a US$ 92,57 na sexta.",
+      "texto": [
+        "O Irã lançou no sábado (21) dois ataques com drones e mísseis balísticos contra quatro bases dos Estados Unidos no Bahrein, país que abriga o quartel-general da Quinta Frota americana, segundo o governo do Bahrein e a mídia iraniana, citados pela Euronews. A agência iraniana Fars nomeou as bases de Sheikh Isa e Juffair. O Bahrein disse ter interceptado vários projéteis; um incêndio atingiu um complexo industrial civil, sem feridos.",
+        "No mar, a tensão é com o bloqueio americano ao petróleo iraniano, em vigor desde abril. Pelo menos três petroleiros foram atacados perto do Estreito de Ormuz no sábado; a agência britânica UKMTO disse que dois foram atingidos por projéteis, sem vítimas, e a Marinha iraniana afirmou que um navio bateu numa mina e pegou fogo. Na noite de domingo, a UKMTO relatou que outro petroleiro se envolveu num incidente com forças militares no Golfo de Omã, perto de Chabahar, e disse que as investigações continuam.",
+        "Teerã diz ter mais de 14 petroleiros prontos, perto da ilha de Kharg, para furar o bloqueio. Perguntado pela Fox News, Trump respondeu que, se tentarem, os navios estarão \"no fundo do mar como o resto da frota\", segundo o site Segunda Base, que reproduziu a entrevista. Um especialista da organização UANI disse à Fox que imagens de satélite não mostram carregamento relevante em Kharg e chamou o plano de propaganda.",
+        "Do lado iraniano, o vice-chanceler Kazem Gharibabadi classificou o bloqueio como ato hostil e prometeu \"todas as medidas necessárias\"; o presidente Masoud Pezeshkian falou em uma \"guerra econômica silenciosa\". Trump disse à Fox que busca um acordo permanente para impedir o Irã de ter armas nucleares e que nunca quis mudar o regime. Uma delegação do Catar conversou com autoridades iranianas na sexta à noite, segundo a Euronews.",
+        "O efeito chega ao petróleo. O barril do Brent fechou a US$ 92,57 na sexta (20), e a estatal dos Emirados, Adnoc, que teve mais de 20 navios atingidos desde abril, passou a navegar com escolta americana, segundo a TV Sim Brasil. O Brasil não importa petróleo pela rota de Ormuz, mas uma alta de 5% na gasolina somaria cerca de 0,26 ponto ao IPCA, segundo a mesma reportagem."
+      ],
+      "fontes": [
+        {
+          "nome": "Euronews",
+          "url": "https://pt.euronews.com/2026/11/22/irao-ataca-bases-dos-eua-no-bahrain-com-drones-e-misseis-balisticos"
+        },
+        {
+          "nome": "Euronews",
+          "url": "https://pt.euronews.com/2026/11/22/reino-unido-reporta-incidente-com-petroleiro-e-forcas-militares-no-golfo-de-oma"
+        },
+        {
+          "nome": "Segunda Base (com Fox News)",
+          "url": "https://www.segundabase.com.br/mundo/trump-desafia-o-ira-a-testar-o-bloqueio-dos-eua-enquanto-14-petroleiros-supostamente-se-reunem/371423/"
+        },
+        {
+          "nome": "TV Sim Brasil",
+          "url": "https://tvsimbrasil.com.br/brasil/economia/noticia/2026/11/22/emirados-driblam-ataques-ira-mantem-petroleo-ormuz"
+        }
+      ]
+    },
+    {
+      "secao": "Ucrânia",
+      "titulo": "Rússia dispara 165 mísseis e 2.700 drones em uma semana, e Zelensky cobra dos EUA os Patriot que já foram pagos",
+      "linhaFina": "Ataque de drone derrubou parte de um prédio de cinco andares perto de Kiev no domingo e matou ao menos três pessoas; as entregas de interceptores dependem de autorização de Washington.",
+      "resumo": "Zelensky disse que a Rússia lançou na última semana cerca de 2.700 drones, 1.460 bombas guiadas e 165 mísseis contra quase todas as regiões da Ucrânia. Ele pediu aos EUA que liberem mísseis Patriot comprados por aliados. Em Dymer, perto de Kiev, ao menos três morreram.",
+      "texto": [
+        "O presidente da Ucrânia, Volodymyr Zelensky, pediu no domingo (22) que os Estados Unidos liberem a entrega de mísseis interceptores Patriot, depois de uma semana em que a Rússia lançou cerca de 2.700 drones de ataque, quase 1.460 bombas aéreas guiadas e 165 mísseis contra quase todas as regiões do país, segundo a Al Jazeera e o Kyiv Independent. Parte relevante dos mísseis era balística, incluindo alguns fornecidos pela Coreia do Norte.",
+        "Os Patriot são os únicos sistemas ocidentais que a Ucrânia usa contra mísseis balísticos, e estão em falta. Os aliados já pagaram pelos interceptores num programa coordenado pela Otan para comprar armas americanas para Kiev, mas as transferências dependem de autorização de Washington. Zelensky escreveu no Telegram que é \"particularmente difícil entender os atrasos\". Segundo ele, os EUA entregaram em média 12 interceptores por mês em 2026.",
+        "O ataque mais grave do domingo foi em Dymer, ao norte de Kiev, onde um drone russo atingiu um prédio residencial de cinco andares, que desabou em parte. Ao menos três pessoas morreram, entre elas um jovem de 18 anos, e quatro ficaram feridas, segundo o Kyiv Independent; a Al Jazeera relatou que 11 pessoas, incluindo duas crianças, seguiam desaparecidas em uma contagem anterior. As buscas foram interrompidas por novos alertas aéreos. Em Zaporíjia, um homem morreu em bombardeio.",
+        "Os ataques miram sobretudo a rede de energia, com a chegada do frio, e muitos ucranianos ficaram sem luz, água ou aquecimento. O Ministério da Defesa russo disse ter atingido uma usina em Zaporíjia, uma refinaria, subestações e um data center, e alegou ter tomado uma vila na região de Kharkiv, informações que não foram verificadas de forma independente.",
+        "Na diplomacia, Zelensky disse no sábado que ainda não viu compromissos por escrito sobre garantias de segurança no modelo da Otan, embora o enviado americano Jared Kushner tenha dito em Berlim que Washington está aberto a algo semelhante ao Artigo 5. \"Precisamos de garantias não por dois anos, mas para sempre\", afirmou, segundo o Kyiv Independent."
+      ],
+      "fontes": [
+        {
+          "nome": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/22/zelenskyy-urges-us-to-release-patriot-missiles"
+        },
+        {
+          "nome": "Kyiv Independent",
+          "url": "https://kyivindependent.com/ukraine-war-latest-us-delays-on-patriot-missiles-difficult-to-understand-as-russia-fires-165-missiles-in-single-week-zelensky-says/"
+        }
+      ],
+      "grafico": {
+        "tipo": "barras",
+        "titulo": "Uma semana de ataques russos à Ucrânia",
+        "subtitulo": "Armas lançadas entre 15 e 22 de novembro, segundo Zelensky",
+        "prefixo": "",
+        "sufixo": "",
+        "casas": 0,
+        "dados": [
+          {
+            "rotulo": "Drones de ataque",
+            "valor": 2700,
+            "destaque": true
+          },
+          {
+            "rotulo": "Bombas aéreas guiadas",
+            "valor": 1460
+          },
+          {
+            "rotulo": "Mísseis",
+            "valor": 165
+          }
+        ],
+        "fonte": {
+          "nome": "Al Jazeera e Kyiv Independent",
+          "url": "https://www.aljazeera.com/news/2026/11/22/zelenskyy-urges-us-to-release-patriot-missiles"
+        },
+        "nota": "Números aproximados informados por Zelensky."
+      }
+    },
+    {
+      "secao": "Otan",
+      "titulo": "Mísseis russos caem na Polônia, e a Otan promete defender \"cada polegada\" do território do aliado",
+      "linhaFina": "Varsóvia diz que a violação foi deliberada e aconteceu durante exercícios de aliados da Ucrânia; o Conselho do Atlântico Norte se reúne nesta segunda em Bruxelas.",
+      "resumo": "Dois mísseis e um drone a jato russos atingiram o sul da Polônia na sexta, durante um ataque em massa à Ucrânia. O secretário-geral da Otan, Mark Rutte, disse que a aliança defenderá cada polegada do território polonês. Os aliados discutem o caso nesta segunda.",
+      "texto": [
+        "O secretário-geral da Otan, Mark Rutte, garantiu no sábado (21) que a aliança defenderá \"cada polegada do território polonês\", em declaração à agência polonesa PAP, segundo a Reuters, publicada pela InfoMoney. A fala veio um dia depois de a Polônia afirmar que a Rússia violou seu espaço aéreo com três objetos, provavelmente dois mísseis e um drone a jato, durante um novo ataque russo em larga escala contra a Ucrânia.",
+        "Os objetos caíram no sul do país, perto da fronteira ucraniana. Em Nowy Lipowiec, na região de Lublin, foi identificado um míssil de cruzeiro Kh-101, informou a AFP, publicada pela Itatiaia. O ministro da Defesa, Wladyslaw Kosiniak-Kamysz, disse que o objetivo era abalar a resiliência da sociedade e a cooperação na Otan e na União Europeia. O primeiro-ministro Donald Tusk afirmou que a provocação pode ter relação com os exercícios da coalizão de aliados da Ucrânia, que reuniam cerca de 6 mil soldados em Nowa Dęba.",
+        "As versões sobre a resposta variam. A AFP fala em mísseis e drone abatidos; a Reuters, em objetos que caíram. O comandante operacional das Forças Armadas polonesas, general Ireneusz Nowak, disse ao jornal Rzeczpospolita que um caça sueco Gripen, sob comando da Otan, foi autorizado a derrubar um dos mísseis, mas não disparou por causa do mau tempo; ao todo, 11 objetos foram rastreados e três entraram no espaço aéreo polonês, segundo o Kyiv Independent.",
+        "A reação europeia foi imediata. Rutte condenou as \"graves violações\" depois de telefonar para Tusk e informou que aeronaves da aliança foram enviadas. O presidente francês, Emmanuel Macron, criticou a postura russa, e o chanceler ucraniano, Andrii Sybiha, disse que o risco é para toda a Europa. Segundo Rutte, o comandante aliado na Europa, general Alexus Grynkewich, vai ajustar a defesa do flanco leste.",
+        "O Conselho do Atlântico Norte, principal órgão político da Otan, se reúne nesta segunda-feira (23), em Bruxelas, para discutir a violação, segundo a Reuters. Drones russos têm invadido repetidamente o espaço aéreo de países do flanco oriental da aliança desde o início da guerra."
+      ],
+      "fontes": [
+        {
+          "nome": "InfoMoney (Reuters)",
+          "url": "https://www.infomoney.com.br/mundo/otan-defendera-cada-polegada-do-territorio-polones-diz-rutte/"
+        },
+        {
+          "nome": "Itatiaia (AFP)",
+          "url": "https://www.itatiaia.com.br/mundo/polonia-abate-misseis-russos-e-drone-e-acusa-moscou-de-provocar-a-otan/"
+        },
+        {
+          "nome": "Kyiv Independent",
+          "url": "https://kyivindependent.com/ukraine-war-latest-us-delays-on-patriot-missiles-difficult-to-understand-as-russia-fires-165-missiles-in-single-week-zelensky-says/"
+        }
+      ]
+    },
+    {
+      "secao": "Clima",
+      "titulo": "COP31 acaba sem acordo depois de 44 horas extras, e a Europa barra texto que não citava o petróleo",
+      "linhaFina": "A conferência de Antália, na Turquia, foi a mais longa da história da ONU; a meta de US$ 120 bilhões para adaptação caiu, e o mapa do caminho defendido pelo Brasil ficou de fora.",
+      "resumo": "A COP31 terminou no domingo (22) sem o documento político final. A União Europeia, com Noruega e países-ilha, rejeitou um texto sem prazos para os combustíveis fósseis, enquanto produtores de petróleo e a Rússia resistiam a qualquer compromisso. A COP32 será em 2027, na Etiópia.",
+      "texto": [
+        "A conferência do clima da ONU em Antália, na Turquia, terminou no domingo (22) sem o documento político que costuma fechar cada edição. Prevista para acabar na sexta (20), a COP31 foi prorrogada por mais de 44 horas e se tornou a mais longa da história, segundo a IstoÉ e o Olhar Digital. Na plenária final, o presidente da conferência, o ministro turco Murat Kurum, reconheceu que não havia consenso e disse que não apresentaria nova proposta.",
+        "O impasse foi sobre os combustíveis fósseis. O rascunho de sábado citava o acordo de Dubai, da COP28, em uma única frase e não fixava prazos para a transição longe do petróleo, do carvão e do gás. Países produtores de petróleo resistiram a qualquer prazo, e a Rússia se opôs a referências a uma redução acelerada da oferta, segundo a Agência Brasil.",
+        "A União Europeia recusou o texto. O chefe da delegação, o ministro irlandês Darragh O'Brien, disse que o bloco não apoiaria \"uma decisão que não responda à ciência\". Noruega, Panamá, Ilhas Marshall e Vanuatu acompanharam os europeus. Países vulneráveis reclamaram da falta de dinheiro: a meta de US$ 120 bilhões para adaptação saiu da mesa, segundo a IstoÉ.",
+        "Algumas decisões específicas foram aprovadas em separado, mas não o pacto abrangente. A proposta previa, entre outros pontos, elevar a participação da eletricidade no consumo final de energia de cerca de 21% para 35% até 2035, segundo a Agência Brasil. Ficou de fora o mapa do caminho para a transição energética defendido pelo Brasil na COP30, em Belém, no ano passado. O Greenpeace Brasil disse à Agência Brasil que foi \"melhor não ter um acordo de capa do que ter um acordo ruim\", e o WWF Brasil criticou a ênfase em tecnologias de captura de carbono.",
+        "Os compromissos já assumidos no Acordo de Paris continuam valendo, e cada país segue responsável por cumprir as próprias metas de redução de emissões. A próxima conferência, a COP32, está prevista para novembro de 2027, em Adis Abeba, na Etiópia."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-11/com-impasse-sobre-combustiveis-fosseis-cop31-termina-sem-acordo-final"
+        },
+        {
+          "nome": "IstoÉ",
+          "url": "https://istoe.com.br/cop31-termina-sem-acordo-final-combustiveis-fosseis"
+        },
+        {
+          "nome": "Olhar Digital",
+          "url": "https://olhardigital.com.br/2026/11/22/ciencia-e-espaco/cop31-termina-sem-acordo-final-apos-impasse-sobre-o-fim-dos-combustiveis-fosseis"
+        }
+      ]
+    }
+  ],
+  "cultura": [
+    {
+      "secao": "Cinema",
+      "titulo": "Novo ‘Jogos Vorazes’ estreia com US$ 225 milhões no mundo e faz da série a maior franquia da Lionsgate",
+      "linhaFina": "‘Amanhecer na Colheita’ fez US$ 120 milhões nos EUA e no Canadá, bem acima da previsão de US$ 100 milhões, e levou a saga a US$ 3,43 bilhões, à frente de ‘Crepúsculo’.",
+      "resumo": "O prelúdio sobre Haymitch Abernathy arrecadou US$ 225 milhões no fim de semana de estreia, US$ 120 milhões só na América do Norte, segundo a Variety, citada pela Exame. A franquia passou de US$ 3,4 bilhões e ultrapassou ‘A Saga Crepúsculo’.",
+      "texto": [
+        "‘Jogos Vorazes: Amanhecer na Colheita’ arrecadou US$ 225 milhões no mundo no fim de semana de estreia, segundo estimativas de domingo (22) da revista Variety, citadas pela Exame. Foram US$ 120 milhões nos Estados Unidos e no Canadá e US$ 105 milhões em 84 mercados estrangeiros. A previsão para a América do Norte era de cerca de US$ 100 milhões, segundo o GeekZilla, e o filme ficou com cerca de 70% do mercado no fim de semana.",
+        "O resultado põe o filme entre as cinco maiores estreias da Lionsgate nos EUA e acima de ‘A Esperança – O Final’, que abriu com US$ 102 milhões em 2015. Fica perto de ‘A Esperança – Parte 1’ (US$ 121 milhões, em 2014) e atrás dos dois primeiros filmes, de 2012 e 2013, que estrearam com US$ 152 milhões e US$ 158 milhões, segundo a Exame. O público aprovou: a nota no CinemaScore, pesquisa feita na saída das sessões, foi A-.",
+        "Com a estreia, a franquia soma US$ 3,43 bilhões em bilheteria mundial e passa ‘A Saga Crepúsculo’, que fez US$ 3,3 bilhões em cinco filmes, tornando-se a maior da história do estúdio, segundo a Exame. O salto é grande em relação ao prelúdio anterior, ‘A Cantiga dos Pássaros e das Serpentes’, de 2023, que estreou com US$ 44 milhões nos EUA.",
+        "O novo filme volta 24 anos antes da história de Katniss e acompanha o jovem Haymitch Abernathy, vivido por Joseph Zada, na 50ª edição dos Jogos, segundo o GeekZilla. É o segundo grande sucesso da Lionsgate em 2026, depois da cinebiografia ‘Michael’, informou a Exame.",
+        "A estreia também desmentiu o temor de que o lançamento de GTA VI, na mesma semana, esvaziasse os cinemas. \"Acho que o mercado já se manifestou\", disse à Variety o analista Paul Dergarabedian. O próximo teste é o feriado de Ação de Graças nos EUA, nesta semana, com a chegada de ‘Hexed’, da Disney."
+      ],
+      "fontes": [
+        {
+          "nome": "Exame (com Variety)",
+          "url": "https://exame.com/pop/jogos-vorazes-amanhecer-na-colheita-arrecada-us-225-milhoes-em-estreia/"
+        },
+        {
+          "nome": "GeekZilla",
+          "url": "https://www.geekzilla.com.br/jogos-vorazes-amanhecer-na-colheita-bilheteria-225-milhoes/"
+        }
+      ],
+      "grafico": {
+        "tipo": "barras",
+        "titulo": "Estreias da franquia nos EUA e no Canadá",
+        "subtitulo": "Bilheteria do fim de semana de estreia, em US$ milhões",
+        "prefixo": "US$ ",
+        "sufixo": " mi",
+        "casas": 0,
+        "dados": [
+          {
+            "rotulo": "Jogos Vorazes (2012)",
+            "valor": 152
+          },
+          {
+            "rotulo": "Em Chamas (2013)",
+            "valor": 158
+          },
+          {
+            "rotulo": "A Esperança 1 (2014)",
+            "valor": 121
+          },
+          {
+            "rotulo": "A Esperança 2 (2015)",
+            "valor": 102
+          },
+          {
+            "rotulo": "A Cantiga (2023)",
+            "valor": 44
+          },
+          {
+            "rotulo": "Amanhecer na Colheita",
+            "valor": 120,
+            "destaque": true
+          }
+        ],
+        "fonte": {
+          "nome": "Exame, com Variety",
+          "url": "https://exame.com/pop/jogos-vorazes-amanhecer-na-colheita-arrecada-us-225-milhoes-em-estreia/"
+        }
+      }
+    }
+  ],
+  "paraEntender": {
+    "titulo": "O caminho do ajuste fiscal até a sanção",
+    "itens": [
+      "O projeto — PLP 299/2026, de autoria formal do senador Jaques Wagner (PT-BA), a pedido do governo; o relator no Senado foi Eduardo Braga (MDB-AM), e na Câmara é Mauro Benevides Filho (União-CE).",
+      "No Senado — texto-base aprovado por 45 a 31 em 12/11; turno suplementar concluído por 69 a 2 em 18/11.",
+      "Na Câmara — por ser lei complementar, precisa de 257 dos 513 votos; a sessão desta segunda abre a discussão, e a votação pode ficar para terça.",
+      "Se mudar — qualquer alteração de mérito devolve o texto ao Senado, que só pode aceitar ou rejeitar as mudanças.",
+      "Se não mudar — vai a Lula, que tem 15 dias úteis para sancionar ou vetar; vetos voltam ao Congresso.",
+      "Depois — o Orçamento de 2027 precisa ser votado em dezembro, antes do recesso parlamentar."
+    ],
+    "fontes": [
+      {
+        "nome": "ND Mais",
+        "url": "https://ndmais.com.br/politica/ajuste-fiscal-governo-votacao-camara/"
+      },
+      {
+        "nome": "Congresso em Foco",
+        "url": "https://www.congressoemfoco.com.br/noticia/131713/motta-convoca-sessao-extra-para-discutir-ajuste-fiscal-na-segunda"
+      },
+      {
+        "nome": "Gazeta do Povo",
+        "url": "https://www.gazetadopovo.com.br/republica/motta-agenda-votacao-ajuste-fiscal-lula-camara-segunda-feira-23/"
+      }
+    ]
+  },
+  "breves": [
+    {
+      "texto": "Tupanciretã (RS) teve calamidade pública reconhecida pela Defesa Civil Nacional depois do temporal de sexta (20); segundo a prefeitura, cerca de 8 mil das 8,6 mil casas foram danificadas, e uma criança morreu.",
+      "fonte": {
+        "nome": "FATONEWS",
+        "url": "https://fatonews.com.br/2026/11/22/governo-lula-mobiliza-forca-tarefa-apos-temporal-destruir-milhares-de-casas-no-rs/"
+      }
+    },
+    {
+      "texto": "O imposto de exportação de 12% sobre o petróleo bruto, que ajuda a bancar o subsídio ao diesel, foi prorrogado pelo Gecex até 31 de dezembro.",
+      "fonte": {
+        "nome": "Click Petróleo e Gás",
+        "url": "https://clickpetroleoegas.com.br/subvencao-diesel-r-3-52-litro-vence-26-novembro-prorrogacao-phsn84"
+      }
+    },
+    {
+      "texto": "O ministro da Defesa da Ucrânia, Yevhenii Khmara, estimou de vários meses a um ano o prazo para remover a seção da Ponte da Crimeia derrubada por ataque ucraniano em 17/11.",
+      "fonte": {
+        "nome": "Kyiv Independent",
+        "url": "https://kyivindependent.com/ukraine-war-latest-us-delays-on-patriot-missiles-difficult-to-understand-as-russia-fires-165-missiles-in-single-week-zelensky-says/"
+      }
+    },
+    {
+      "texto": "A estatal dos Emirados Adnoc teve mais de 20 navios atingidos desde abril e passou a navegar por Ormuz com escolta militar dos EUA.",
+      "fonte": {
+        "nome": "TV Sim Brasil",
+        "url": "https://tvsimbrasil.com.br/brasil/economia/noticia/2026/11/22/emirados-driblam-ataques-ira-mantem-petroleo-ormuz"
+      }
+    },
+    {
+      "texto": "O Boletim Focus do Banco Central sai nesta segunda (23), às 8h25; o IPCA-15 de novembro, prévia da inflação oficial, sai na quinta (26), às 9h.",
+      "fonte": {
+        "nome": "Money Times",
+        "url": "https://www.moneytimes.com.br/inflacao-no-brasil-e-nos-eua-movimentam-a-semana-veja-a-agenda-de-indicadores/"
+      }
+    }
+  ]
+}
