@@ -583,7 +583,8 @@ window.addEventListener("hashchange",function(){if(location.hash.indexOf("#redac
 
 
   // ---------- OUVIR A MATÉRIA (voz do próprio aparelho) e RESUMO ----------
-  var VEL = [1, 1.25, 1.5, 2, 3, 4], ouvir = null;
+  var VEL = [1, 1.25, 1.5, 2, 3, 4], ouvir = null, ouvirAudio = null;
+  var AUDIO_BASE = "https://github.com/anevasca/site/releases/download/audio/";
   function resumoHTML(a){
     var r = a.resumo || "";
     if(!r) return "";
@@ -599,7 +600,7 @@ window.addEventListener("hashchange",function(){if(location.hash.indexOf("#redac
       '<div class="ouvir-ondas" title="Toque para pular para esse ponto">'+barras+'</div>'+
       '<span class="ouvir-tempo"></span><button type="button" class="ouvir-vel" aria-label="Velocidade">1x</button></div></div>';
   }
-  function ouvirParar(){ if(ouvir){ ouvir.tok++; ouvir.tocando = false; } try{ speechSynthesis.cancel(); }catch(e){} }
+  function ouvirParar(){ if(ouvir){ ouvir.tok++; ouvir.tocando = false; } if(ouvirAudio){ try{ ouvirAudio.pause(); ouvirAudio.removeAttribute("src"); ouvirAudio.load(); }catch(e){} ouvirAudio = null; } try{ speechSynthesis.cancel(); }catch(e){} }
   function ouvirLigar(a){
     ouvirParar();
     var box = document.querySelector(".resumo-box");
@@ -611,7 +612,14 @@ window.addEventListener("hashchange",function(){if(location.hash.indexOf("#redac
     var pedacos = [];
     frases.forEach(function(f){ while(f.length > 220){ var c = f.lastIndexOf(" ", 220); if(c < 80) c = 220; pedacos.push(f.slice(0, c)); f = f.slice(c).trim(); } if(f) pedacos.push(f); });
     var tam = pedacos.map(function(p){ return p.length; }), totalC = tam.reduce(function(x, y){ return x + y; }, 0);
-    ouvir = {i:0, vel:0, tocando:false, tok:0};
+    ouvir = {i:0, vel:0, tocando:false, tok:0, modo:"?"};
+    // Áudio gravado com voz neural (se existir); senão, voz do aparelho
+    var au = new Audio(); au.preload = "metadata"; ouvirAudio = au;
+    au.addEventListener("loadedmetadata", function(){ if(o.modo !== "tts"){ o.modo = "audio"; pinta(0); } });
+    au.addEventListener("error", function(){ if(o.modo === "?") o.modo = "tts"; });
+    au.addEventListener("timeupdate", function(){ if(o.modo === "audio" && au.duration) pinta(au.currentTime / au.duration); });
+    au.addEventListener("ended", function(){ o.tocando = false; icone(); au.currentTime = 0; pinta(0); });
+    au.src = AUDIO_BASE + a.id + ".mp3";
     var o = ouvir, play = el.querySelector(".ouvir-play"), velBt = el.querySelector(".ouvir-vel"), ondas = el.querySelector(".ouvir-ondas"), barras = ondas.children, tempo = el.querySelector(".ouvir-tempo");
     function voz(){
       var vs = speechSynthesis.getVoices().filter(function(v){ return /^pt[-_]BR/i.test(v.lang); });
@@ -628,7 +636,7 @@ window.addEventListener("hashchange",function(){if(location.hash.indexOf("#redac
     function pinta(p){
       var n = Math.round(p * barras.length);
       for(var k = 0; k < barras.length; k++) barras[k].className = k < n ? "on" : "";
-      var seg = Math.round(totalC * (1 - p) / (14.5 * VEL[o.vel]));
+      var seg = (o.modo === "audio" && au.duration) ? Math.round(au.duration * (1 - p) / VEL[o.vel]) : Math.round(totalC * (1 - p) / (14.5 * VEL[o.vel]));
       tempo.textContent = Math.floor(seg / 60) + ":" + ("0" + (seg % 60)).slice(-2);
     }
     function icone(){ play.querySelector("span").className = o.tocando ? "ico-pausa" : "ico-play"; play.setAttribute("aria-label", o.tocando ? "Pausar" : "Ouvir"); }
@@ -642,14 +650,22 @@ window.addEventListener("hashchange",function(){if(location.hash.indexOf("#redac
       speechSynthesis.speak(u);
     }
     function recomeca(){ o.tok++; speechSynthesis.cancel(); if(o.tocando) setTimeout(fala, 60); }
+    function tts(){ o.modo = "tts"; o.tocando = true; speechSynthesis.cancel(); setTimeout(fala, 60); icone(); }
     play.addEventListener("click", function(){
-      if(o.tocando){ o.tocando = false; o.tok++; speechSynthesis.cancel(); }
-      else { o.tocando = true; speechSynthesis.cancel(); setTimeout(fala, 60); }
-      icone();
+      if(o.tocando){ o.tocando = false; o.tok++; if(o.modo === "audio") au.pause(); else speechSynthesis.cancel(); icone(); return; }
+      if(o.modo === "tts"){ tts(); return; }
+      au.playbackRate = VEL[o.vel];
+      au.play().then(function(){ o.modo = "audio"; o.tocando = true; icone(); }).catch(function(){ tts(); });
     });
-    velBt.addEventListener("click", function(){ o.vel = (o.vel + 1) % VEL.length; velBt.textContent = String(VEL[o.vel]).replace(".", ",") + "x"; pinta(feito(o.i)); recomeca(); });
+    velBt.addEventListener("click", function(){
+      o.vel = (o.vel + 1) % VEL.length; velBt.textContent = String(VEL[o.vel]).replace(".", ",") + "x";
+      if(o.modo === "audio"){ au.playbackRate = VEL[o.vel]; pinta(au.duration ? au.currentTime / au.duration : 0); return; }
+      pinta(feito(o.i)); recomeca();
+    });
     ondas.addEventListener("click", function(ev){
-      var r = ondas.getBoundingClientRect(), alvo = Math.max(0, Math.min(1, (ev.clientX - r.left) / r.width)) * totalC, c = 0, k = 0;
+      var fr = Math.max(0, Math.min(1, (ev.clientX - ondas.getBoundingClientRect().left) / ondas.getBoundingClientRect().width));
+      if(o.modo === "audio" && au.duration){ au.currentTime = fr * au.duration; pinta(fr); return; }
+      var alvo = fr * totalC, c = 0, k = 0;
       while(k < pedacos.length - 1 && c + tam[k] <= alvo){ c += tam[k]; k++; }
       o.i = k; pinta(feito(k)); recomeca();
     });
