@@ -408,7 +408,7 @@ window.addEventListener("hashchange",function(){if(location.hash.indexOf("#redac
 
   function artigos(ed){
     var pre = "ed-" + ed.data + "-", L = [], m = ed.manchete, e = ed.editorial;
-    L.push({id:pre+"manchete", chave:"manchete", secao:m.secao, titulo:m.titulo, fina:m.linhaFina, graf:m.grafico, texto:m.texto, fontes:m.fontes, aba:"politica"});
+    L.push({id:pre+"manchete", chave:"manchete", secao:m.secao, titulo:m.titulo, fina:m.linhaFina, img:m.imagem, graf:m.grafico, texto:m.texto, fontes:m.fontes, aba:"politica"});
     (ed.politica||[]).forEach(function(a,i){ L.push({id:pre+"politica-"+(i+1), secao:a.secao, titulo:a.titulo, fina:a.linhaFina, img:a.imagem, graf:a.grafico, texto:(a.texto&&a.texto.length?a.texto:[a.resumo]), fontes:a.fontes, aba:"politica"}); });
     (ed.destaques||[]).forEach(function(a,i){ L.push({id:pre+"destaque-"+(i+1), secao:a.secao, titulo:a.titulo, fina:a.linhaFina, img:a.imagem, graf:a.grafico, texto:(a.texto&&a.texto.length?a.texto:[a.resumo]), fontes:a.fontes, aba:"economia"}); });
     (ed.mundo||[]).forEach(function(a,i){ L.push({id:pre+"mundo-"+(i+1), secao:a.secao, titulo:a.titulo, fina:a.linhaFina, img:a.imagem, graf:a.grafico, texto:(a.texto&&a.texto.length?a.texto:[a.resumo]), fontes:a.fontes, aba:"mundo"}); });
@@ -466,7 +466,7 @@ window.addEventListener("hashchange",function(){if(location.hash.indexOf("#redac
       var id = pre + "destaque-" + (i+1);
       return '<article class="destaque"><p class="kicker azul">'+esc(x.secao)+'</p><h2><a href="#'+id+'">'+esc(x.titulo)+'</a></h2><p>'+esc(x.resumo)+'</p>'+grafico(x.grafico, true)+fontes(x.fontes)+'</article>';
     }).join("") + '<a class="mais-secao" href="'+linkSecao(ed,"economia")+'">Mais em Economia →</a></div>';
-    h += '<div class="col centro"><article class="manchete"><p class="kicker">'+esc(m.secao)+'</p><h1><a href="#'+pre+'manchete">'+esc(m.titulo)+'</a></h1><p class="fina">'+esc(m.linhaFina)+'</p><p class="assinatura">Da redação · '+esc(ed.dataExtenso)+'</p><div class="texto">'+
+    h += '<div class="col centro"><article class="manchete"><p class="kicker">'+esc(m.secao)+'</p><h1><a href="#'+pre+'manchete">'+esc(m.titulo)+'</a></h1><p class="fina">'+esc(m.linhaFina)+'</p><p class="assinatura">Da redação · '+esc(ed.dataExtenso)+'</p>'+(m.imagem&&m.imagem.arquivo?'<figure class="foto"><a href="#'+pre+'manchete"><img src="'+esc(m.imagem.arquivo)+'" alt="'+esc(m.imagem.legenda||m.titulo)+'"></a><figcaption>'+esc(m.imagem.legenda||"")+(m.imagem.credito?' <span>'+esc(m.imagem.credito)+'</span>':'')+'</figcaption></figure>':'')+'<div class="texto">'+
          ps(m.texto.slice(0,3)) + '</div>' + grafico(m.grafico) + (m.texto.length>3?'<p class="leia"><a href="#'+pre+'manchete">Leia a matéria completa →</a></p>':'') + fontes(m.fontes) + share(pre+"manchete", m.titulo) + '</article></div>';
     var resumoEd = e.texto[0];
     h += '<div class="col"><aside class="editorial"><div class="selo"><span>Editorial</span><em>Opinião do jornal</em></div><h2><a href="#'+pre+'editorial">'+esc(e.titulo)+'</a></h2><p>'+esc(resumoEd)+'</p>'+
