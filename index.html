@@ -137,6 +137,23 @@
   @media (max-width:640px){ .arquivo-pag li{grid-template-columns:1fr;gap:4px} }
 
   .criterios{max-width:760px;margin:0 auto;padding:30px 0 40px}
+
+  .ouvir{margin:18px 0 10px;font-family:var(--sans)}
+  .ouvir-rot{display:block;font-size:13px;color:var(--cinza);margin-bottom:6px}
+  .ouvir-linha{display:flex;align-items:center;gap:12px}
+  .ouvir-play{width:38px;height:38px;border-radius:50%;border:0;background:var(--acento);cursor:pointer;flex:none;display:flex;align-items:center;justify-content:center}
+  .ico-play{width:0;height:0;border-left:13px solid #fff;border-top:8px solid transparent;border-bottom:8px solid transparent;margin-left:3px}
+  .ico-pausa{width:12px;height:14px;border-left:4px solid #fff;border-right:4px solid #fff}
+  .ouvir-ondas{flex:1;height:34px;display:flex;align-items:center;gap:2px;cursor:pointer}
+  .ouvir-ondas i{flex:1;background:#e3c7c7;border-radius:1px;min-width:2px}
+  .ouvir-ondas i.on{background:var(--acento)}
+  .ouvir-tempo{font-size:13px;color:var(--acento);min-width:36px;text-align:right}
+  .ouvir-vel{border:0;background:var(--acento);color:#fff;font-weight:800;font-size:13px;border-radius:6px;padding:6px 9px;cursor:pointer;min-width:48px}
+  .resumo-box{margin:12px 0 22px}
+  .resumo-bt{width:100%;border:0;background:var(--acento);color:#fff;font-family:var(--sans);font-weight:800;font-size:18px;padding:13px;cursor:pointer;border-radius:2px}
+  .resumo-bt span{font-weight:400;margin-left:6px}
+  .resumo-txt{border:1px solid var(--acento);border-top:0;padding:4px 18px;background:#fff}
+  .resumo-txt p{font-size:18px;line-height:1.55}
   .painel-nota{font-family:var(--sans);font-size:14px;color:#666}
   .painel-cards{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:18px 0}
   .painel-cards div{border:1px solid var(--linha);border-top:3px solid var(--acento);padding:14px;font-family:var(--sans);font-size:14px;color:#555}
@@ -408,12 +425,12 @@ window.addEventListener("hashchange",function(){if(location.hash.indexOf("#redac
 
   function artigos(ed){
     var pre = "ed-" + ed.data + "-", L = [], m = ed.manchete, e = ed.editorial;
-    L.push({id:pre+"manchete", chave:"manchete", secao:m.secao, titulo:m.titulo, fina:m.linhaFina, img:m.imagem, graf:m.grafico, texto:m.texto, fontes:m.fontes, aba:(/^(games|cinema|séries|series|música|musica|livros|cultura|tv|streaming)$/i.test(String(m.secao||"").trim()) ? "cultura" : "politica")});
-    (ed.politica||[]).forEach(function(a,i){ L.push({id:pre+"politica-"+(i+1), secao:a.secao, titulo:a.titulo, fina:a.linhaFina, img:a.imagem, graf:a.grafico, texto:(a.texto&&a.texto.length?a.texto:[a.resumo]), fontes:a.fontes, aba:"politica"}); });
-    (ed.destaques||[]).forEach(function(a,i){ L.push({id:pre+"destaque-"+(i+1), secao:a.secao, titulo:a.titulo, fina:a.linhaFina, img:a.imagem, graf:a.grafico, texto:(a.texto&&a.texto.length?a.texto:[a.resumo]), fontes:a.fontes, aba:"economia"}); });
-    (ed.mundo||[]).forEach(function(a,i){ L.push({id:pre+"mundo-"+(i+1), secao:a.secao, titulo:a.titulo, fina:a.linhaFina, img:a.imagem, graf:a.grafico, texto:(a.texto&&a.texto.length?a.texto:[a.resumo]), fontes:a.fontes, aba:"mundo"}); });
-    (ed.cultura||[]).forEach(function(a,i){ L.push({id:pre+"cultura-"+(i+1), secao:a.secao, titulo:a.titulo, fina:a.linhaFina, img:a.imagem, graf:a.grafico, texto:(a.texto&&a.texto.length?a.texto:[a.resumo]), fontes:a.fontes, aba:"cultura"}); });
-    L.push({id:pre+"editorial", chave:"editorial", secao:"Editorial", titulo:e.titulo, texto:e.texto, aba:"opiniao", editorial:true});
+    L.push({id:pre+"manchete", chave:"manchete", secao:m.secao, titulo:m.titulo, fina:m.linhaFina, resumo:m.resumo, img:m.imagem, graf:m.grafico, texto:m.texto, fontes:m.fontes, aba:(/^(games|cinema|séries|series|música|musica|livros|cultura|tv|streaming)$/i.test(String(m.secao||"").trim()) ? "cultura" : "politica")});
+    (ed.politica||[]).forEach(function(a,i){ L.push({id:pre+"politica-"+(i+1), secao:a.secao, titulo:a.titulo, fina:a.linhaFina, resumo:a.resumo, img:a.imagem, graf:a.grafico, texto:(a.texto&&a.texto.length?a.texto:[a.resumo]), fontes:a.fontes, aba:"politica"}); });
+    (ed.destaques||[]).forEach(function(a,i){ L.push({id:pre+"destaque-"+(i+1), secao:a.secao, titulo:a.titulo, fina:a.linhaFina, resumo:a.resumo, img:a.imagem, graf:a.grafico, texto:(a.texto&&a.texto.length?a.texto:[a.resumo]), fontes:a.fontes, aba:"economia"}); });
+    (ed.mundo||[]).forEach(function(a,i){ L.push({id:pre+"mundo-"+(i+1), secao:a.secao, titulo:a.titulo, fina:a.linhaFina, resumo:a.resumo, img:a.imagem, graf:a.grafico, texto:(a.texto&&a.texto.length?a.texto:[a.resumo]), fontes:a.fontes, aba:"mundo"}); });
+    (ed.cultura||[]).forEach(function(a,i){ L.push({id:pre+"cultura-"+(i+1), secao:a.secao, titulo:a.titulo, fina:a.linhaFina, resumo:a.resumo, img:a.imagem, graf:a.grafico, texto:(a.texto&&a.texto.length?a.texto:[a.resumo]), fontes:a.fontes, aba:"cultura"}); });
+    L.push({id:pre+"editorial", chave:"editorial", secao:"Editorial", titulo:e.titulo, texto:e.texto, resumo:e.resumo, aba:"opiniao", editorial:true});
     return L;
   }
   function linkSecao(ed, aba){ return (ed.data === hoje) ? "#"+aba : "#ed-"+ed.data+"-sec-"+aba; }
@@ -553,6 +570,7 @@ window.addEventListener("hashchange",function(){if(location.hash.indexOf("#redac
     h += '<h1>'+esc(a.titulo)+'</h1>' + (a.fina ? '<p class="fina">'+esc(a.fina)+'</p>' : '');
     h += '<p class="assinatura">'+(a.editorial?"Editorial":"Da redação")+' · '+esc(ed.dataExtenso)+(a.hora?' · Publicado às '+esc(a.hora):'')+'<span id="leituras-mat"></span></p>';
     if(a.img && a.img.arquivo) h += '<figure class="foto"><img src="'+esc(a.img.arquivo)+'" alt="'+esc(a.img.legenda||a.titulo)+'" loading="lazy"><figcaption>'+esc(a.img.legenda||"")+(a.img.credito?' <span>'+esc(a.img.credito)+'</span>':'')+'</figcaption></figure>';
+    h += ouvirHTML(a) + resumoHTML(a);
     h += grafico(a.graf) + '<div class="corpo">'+ps(a.texto)+'</div>';
     if(a.editorial) h += '<p class="nota">Este texto expressa a posição editorial de A Nevasca.</p>';
     h += fontes(a.fontes) + share(a.id, (a.editorial?"Editorial: ":"")+a.titulo) + comente(a.id) + '</article>';
@@ -560,6 +578,77 @@ window.addEventListener("hashchange",function(){if(location.hash.indexOf("#redac
     h += '<section class="secao mais-edicao"><h3>Mais nesta edição</h3><ul>' + outras.map(function(x){
       return '<li><span class="kicker'+(x.editorial?"":" azul")+'">'+esc(x.secao)+'</span><a href="#'+x.id+'">'+esc(x.titulo)+'</a></li>'; }).join("") + '</ul></section>';
     document.getElementById("conteudo").innerHTML = h;
+    ouvirLigar(a);
+  }
+
+
+  // ---------- OUVIR A MATÉRIA (voz do próprio aparelho) e RESUMO ----------
+  var VEL = [1, 1.25, 1.5, 2, 3, 4], ouvir = null;
+  function resumoHTML(a){
+    var r = a.resumo || "";
+    if(!r) return "";
+    return '<div class="resumo-box"><button type="button" class="resumo-bt" aria-expanded="false">Ler resumo <span>+</span></button><div class="resumo-txt" hidden><p>'+esc(r)+'</p></div></div>';
+  }
+  function ouvirHTML(a){
+    if(!("speechSynthesis" in window)) return "";
+    var barras = "", sd = 0;
+    for(var k = 0; k < a.id.length; k++) sd = (sd * 31 + a.id.charCodeAt(k)) % 9973;
+    for(var i = 0; i < 64; i++){ sd = (sd * 7919 + 13) % 9973; barras += '<i style="height:'+(30 + sd % 70)+'%"></i>'; }
+    return '<div class="ouvir"><span class="ouvir-rot">Ouvir notícia</span><div class="ouvir-linha">'+
+      '<button type="button" class="ouvir-play" aria-label="Ouvir"><span class="ico-play"></span></button>'+
+      '<div class="ouvir-ondas" title="Toque para pular para esse ponto">'+barras+'</div>'+
+      '<span class="ouvir-tempo"></span><button type="button" class="ouvir-vel" aria-label="Velocidade">1x</button></div></div>';
+  }
+  function ouvirParar(){ if(ouvir){ ouvir.tok++; ouvir.tocando = false; } try{ speechSynthesis.cancel(); }catch(e){} }
+  function ouvirLigar(a){
+    ouvirParar();
+    var box = document.querySelector(".resumo-box");
+    if(box){ var bt = box.querySelector(".resumo-bt"), tx = box.querySelector(".resumo-txt");
+      bt.addEventListener("click", function(){ var ab = tx.hidden; tx.hidden = !ab; bt.setAttribute("aria-expanded", ab); bt.querySelector("span").textContent = ab ? "−" : "+"; }); }
+    var el = document.querySelector(".ouvir"); if(!el) return;
+    var texto = [a.titulo + "."].concat(a.fina ? [a.fina] : [], a.texto || []).join(" ");
+    var frases = (texto.match(/[^.!?…]+[.!?…]+["”’)]*\s*|[^.!?…]+$/g) || [texto]).map(function(f){ return f.trim(); }).filter(Boolean);
+    var pedacos = [];
+    frases.forEach(function(f){ while(f.length > 220){ var c = f.lastIndexOf(" ", 220); if(c < 80) c = 220; pedacos.push(f.slice(0, c)); f = f.slice(c).trim(); } if(f) pedacos.push(f); });
+    var tam = pedacos.map(function(p){ return p.length; }), totalC = tam.reduce(function(x, y){ return x + y; }, 0);
+    ouvir = {i:0, vel:0, tocando:false, tok:0};
+    var o = ouvir, play = el.querySelector(".ouvir-play"), velBt = el.querySelector(".ouvir-vel"), ondas = el.querySelector(".ouvir-ondas"), barras = ondas.children, tempo = el.querySelector(".ouvir-tempo");
+    function voz(){
+      var vs = speechSynthesis.getVoices().filter(function(v){ return /^pt[-_]BR/i.test(v.lang); });
+      if(!vs.length) vs = speechSynthesis.getVoices().filter(function(v){ return /^pt/i.test(v.lang); });
+      return vs.filter(function(v){ return /natural|neural|google|luciana|francisca|thalita|antonio/i.test(v.name); })[0] || vs[0] || null;
+    }
+    function feito(i, extra){ var c = 0; for(var k = 0; k < i; k++) c += tam[k]; return Math.min(1, (c + (extra || 0)) / totalC); }
+    function pinta(p){
+      var n = Math.round(p * barras.length);
+      for(var k = 0; k < barras.length; k++) barras[k].className = k < n ? "on" : "";
+      var seg = Math.round(totalC * (1 - p) / (14.5 * VEL[o.vel]));
+      tempo.textContent = Math.floor(seg / 60) + ":" + ("0" + (seg % 60)).slice(-2);
+    }
+    function icone(){ play.querySelector("span").className = o.tocando ? "ico-pausa" : "ico-play"; play.setAttribute("aria-label", o.tocando ? "Pausar" : "Ouvir"); }
+    function fala(){
+      if(o.i >= pedacos.length){ o.tocando = false; o.i = 0; icone(); pinta(0); return; }
+      var t = ++o.tok, u = new SpeechSynthesisUtterance(pedacos[o.i]);
+      u.lang = "pt-BR"; u.rate = VEL[o.vel]; var v = voz(); if(v) u.voice = v;
+      u.onboundary = function(ev){ if(t === o.tok && ev.charIndex != null) pinta(feito(o.i, ev.charIndex)); };
+      u.onend = function(){ if(t !== o.tok || !o.tocando) return; o.i++; pinta(feito(o.i)); fala(); };
+      u.onerror = function(){ if(t !== o.tok) return; o.tocando = false; icone(); };
+      speechSynthesis.speak(u);
+    }
+    function recomeca(){ o.tok++; speechSynthesis.cancel(); if(o.tocando) setTimeout(fala, 60); }
+    play.addEventListener("click", function(){
+      if(o.tocando){ o.tocando = false; o.tok++; speechSynthesis.cancel(); }
+      else { o.tocando = true; speechSynthesis.cancel(); setTimeout(fala, 60); }
+      icone();
+    });
+    velBt.addEventListener("click", function(){ o.vel = (o.vel + 1) % VEL.length; velBt.textContent = String(VEL[o.vel]).replace(".", ",") + "x"; pinta(feito(o.i)); recomeca(); });
+    ondas.addEventListener("click", function(ev){
+      var r = ondas.getBoundingClientRect(), alvo = Math.max(0, Math.min(1, (ev.clientX - r.left) / r.width)) * totalC, c = 0, k = 0;
+      while(k < pedacos.length - 1 && c + tam[k] <= alvo){ c += tam[k]; k++; }
+      o.i = k; pinta(feito(k)); recomeca();
+    });
+    pinta(0);
+    if(speechSynthesis.getVoices().length === 0 && "onvoiceschanged" in speechSynthesis) speechSynthesis.onvoiceschanged = function(){};
   }
 
   // ---------- CONTADOR DE LEITURAS (GoatCounter) ----------
@@ -724,6 +813,7 @@ window.addEventListener("hashchange",function(){if(location.hash.indexOf("#redac
   }
 
   function rota(){
+    ouvirParar();
     var hash = (location.hash || "").replace("#", "");
     if(hash === "brasilia") hash = "politica";
     getArquivo().catch(function(){}).then(function(){
