@@ -1,0 +1,65 @@
+[
+ {
+  "hora": "12h00",
+  "secao": "Bolsonaro",
+  "titulo": "Bolsonaro completa um ano preso dentro de uma UTI, e STF marca para 4 de dezembro o julgamento que pode cortar sua pena",
+  "linhaFina": "Internado desde sexta com obstrução intestinal, o ex-presidente segue sem previsão de alta; a Lei da Dosimetria, suspensa por Moraes, baixaria a condenação de 27 anos e 3 meses para 20 anos e 8 meses, pela conta do relator na Câmara.",
+  "resumo": "Bolsonaro chega a um ano de prisão neste domingo (22) na UTI do DF Star, estável e sem previsão de alta. No plenário virtual de 4 a 15 de dezembro, o STF julga as ações contra a Lei da Dosimetria, que pode reduzir sua pena para 20 anos e 8 meses.",
+  "texto": [
+   "O ex-presidente Jair Bolsonaro (PL) completa neste domingo (22) um ano de prisão internado na unidade de terapia intensiva do hospital DF Star, em Brasília. Ele foi levado ao hospital na sexta-feira (20) com obstrução do intestino delgado. Pelo boletim de sábado (21), está clinicamente estável, consciente e respira sem ajuda de aparelhos, mas não tem previsão de alta, segundo a CNN Brasil e a Jovem Pan. O tratamento continua clínico, com sonda gástrica e jejum, e os médicos não descartam nova cirurgia.",
+   "Foi em 22 de novembro de 2025 que a Polícia Federal prendeu Bolsonaro preventivamente, às 6h40, depois de um alerta de violação da tornozeleira eletrônica pouco depois da meia-noite. Três dias mais tarde, a condenação a 27 anos e 3 meses pela trama golpista, decidida pela Primeira Turma do Supremo Tribunal Federal por 4 votos a 1, transitou em julgado, lembram a Jovem Pan e o Correio Braziliense. Desde março, ele cumpre a pena em prisão domiciliar humanitária, prorrogada em julho.",
+   "Não é a primeira vez que o ano de prisão passa pelo hospital: houve cirurgia de hérnia no fim de dezembro de 2025 e uma internação de 14 dias por pneumonia em março. Desta vez, a tornozeleira foi retirada por ordem judicial e será recolocada após a alta, e a Polícia Militar do DF mantém equipes no hospital 24 horas por dia, informou a CNN Brasil. Michelle Bolsonaro, que voltou de Israel às pressas, chegou ao hospital às 21h40 de sábado, segundo O Globo.",
+   "A data que pode mudar a conta da pena já está marcada. O ministro Alexandre de Moraes, relator, pautou para o plenário virtual de 4 a 15 de dezembro as ações contra a Lei da Dosimetria (Lei 15.402/2026), que muda regras de progressão de regime e reduz penas de crimes cometidos em multidão. Moraes suspendeu a aplicação da lei em maio, depois que o Congresso derrubou o veto de Lula. Pelo cálculo do deputado Paulinho da Força (Solidariedade-SP), relator do projeto na Câmara, a pena de Bolsonaro cairia para 20 anos e 8 meses, segundo o Metrópoles.",
+   "A pauta saiu dois dias depois de os presidentes da Câmara, Hugo Motta (Republicanos-PB), e do Senado, Davi Alcolumbre (União-AP), cobrarem Moraes pessoalmente, relatou a Agência Brasil. A defesa também tenta uma revisão criminal, relatada por Kassio Nunes Marques; a Procuradoria-Geral da República pediu a rejeição em 12 de novembro, segundo a Jovem Pan. Para a noite deste domingo, às 19h, o senador Flávio Bolsonaro convocou uma vigília pelo pai, informou o Correio Braziliense."
+  ],
+  "fontes": [
+   {
+    "nome": "Jovem Pan",
+    "url": "https://jovempan.com.br/politica/um-ano-apos-prisao-bolsonaro-volta-ao-hospital-e-tenta-reduzir-pena-no-stf/"
+   },
+   {
+    "nome": "Correio Braziliense",
+    "url": "https://www.correiobraziliense.com.br/politica/2026/11/7542298-prisao-preventiva-de-bolsonaro-completa-um-ano-apos-reviravoltas.html"
+   },
+   {
+    "nome": "CNN Brasil",
+    "url": "https://www.cnnbrasil.com.br/politica/bolsonaro-segue-internado-pelo-terceiro-dia-em-uti-e-sem-previsao-de-alta/"
+   },
+   {
+    "nome": "Metrópoles",
+    "url": "https://www.metropoles.com/colunas/manoela-alcantara/moraes-pauta-julgamento-de-acoes-que-questionam-lei-da-dosimetria-no-stf"
+   },
+   {
+    "nome": "Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/congresso-pede-que-stf-julgue-lei-que-beneficia-condenados-pelo-81"
+   },
+   {
+    "nome": "O Globo (via InfoMoney)",
+    "url": "https://www.infomoney.com.br/politica/michelle-visita-bolsonaro-na-uti-medico-nao-descarta-nova-cirurgia/"
+   }
+  ],
+  "grafico": {
+   "tipo": "barras",
+   "titulo": "O que a Lei da Dosimetria faria com a pena de Bolsonaro",
+   "subtitulo": "Pena total, em meses",
+   "prefixo": "",
+   "sufixo": " meses",
+   "casas": 0,
+   "dados": [
+    {
+     "rotulo": "Condenação do STF (27a3m)",
+     "valor": 327
+    },
+    {
+     "rotulo": "Com a Dosimetria (20a8m)",
+     "valor": 248,
+     "destaque": true
+    }
+   ],
+   "fonte": {
+    "nome": "Metrópoles, com cálculo de Paulinho da Força",
+    "url": "https://www.metropoles.com/colunas/manoela-alcantara/moraes-pauta-julgamento-de-acoes-que-questionam-lei-da-dosimetria-no-stf"
+   }
+  }
+ }
+]
