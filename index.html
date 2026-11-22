@@ -616,7 +616,13 @@ window.addEventListener("hashchange",function(){if(location.hash.indexOf("#redac
     function voz(){
       var vs = speechSynthesis.getVoices().filter(function(v){ return /^pt[-_]BR/i.test(v.lang); });
       if(!vs.length) vs = speechSynthesis.getVoices().filter(function(v){ return /^pt/i.test(v.lang); });
-      return vs.filter(function(v){ return /natural|neural|google|luciana|francisca|thalita|antonio/i.test(v.name); })[0] || vs[0] || null;
+      var nota = function(v){ var n = v.name;
+        if(/online.*natural|natural|neural/i.test(n)) return 5;
+        if(/google/i.test(n)) return 4;
+        if(/luciana|francisca|thalita|antonio|felipe|daniel/i.test(n)) return 3;
+        if(/espeak|desktop|maria/i.test(n)) return 0;
+        return v.localService ? 1 : 2; };
+      return vs.sort(function(x, y){ return nota(y) - nota(x); })[0] || null;
     }
     function feito(i, extra){ var c = 0; for(var k = 0; k < i; k++) c += tam[k]; return Math.min(1, (c + (extra || 0)) / totalC); }
     function pinta(p){
