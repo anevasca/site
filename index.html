@@ -408,7 +408,7 @@ window.addEventListener("hashchange",function(){if(location.hash.indexOf("#redac
 
   function artigos(ed){
     var pre = "ed-" + ed.data + "-", L = [], m = ed.manchete, e = ed.editorial;
-    L.push({id:pre+"manchete", chave:"manchete", secao:m.secao, titulo:m.titulo, fina:m.linhaFina, img:m.imagem, graf:m.grafico, texto:m.texto, fontes:m.fontes, aba:"politica"});
+    L.push({id:pre+"manchete", chave:"manchete", secao:m.secao, titulo:m.titulo, fina:m.linhaFina, img:m.imagem, graf:m.grafico, texto:m.texto, fontes:m.fontes, aba:(/^(games|cinema|séries|series|música|musica|livros|cultura|tv|streaming)$/i.test(String(m.secao||"").trim()) ? "cultura" : "politica")});
     (ed.politica||[]).forEach(function(a,i){ L.push({id:pre+"politica-"+(i+1), secao:a.secao, titulo:a.titulo, fina:a.linhaFina, img:a.imagem, graf:a.grafico, texto:(a.texto&&a.texto.length?a.texto:[a.resumo]), fontes:a.fontes, aba:"politica"}); });
     (ed.destaques||[]).forEach(function(a,i){ L.push({id:pre+"destaque-"+(i+1), secao:a.secao, titulo:a.titulo, fina:a.linhaFina, img:a.imagem, graf:a.grafico, texto:(a.texto&&a.texto.length?a.texto:[a.resumo]), fontes:a.fontes, aba:"economia"}); });
     (ed.mundo||[]).forEach(function(a,i){ L.push({id:pre+"mundo-"+(i+1), secao:a.secao, titulo:a.titulo, fina:a.linhaFina, img:a.imagem, graf:a.grafico, texto:(a.texto&&a.texto.length?a.texto:[a.resumo]), fontes:a.fontes, aba:"mundo"}); });
