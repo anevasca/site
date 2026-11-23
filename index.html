@@ -154,7 +154,8 @@
   .podcast small{display:block;color:var(--cinza);font-size:13px;margin-top:4px}
   .pod-kicker{color:var(--acento);font-weight:800;font-size:12px;letter-spacing:.08em;text-transform:uppercase}
   .podcast audio{width:100%}
-  .pod-links{grid-column:1/-1;display:flex;gap:18px;font-size:13px}
+  .pod-links .pod-spotify{background:#1db954;color:#fff;font-weight:700;padding:5px 12px;border-radius:20px;text-decoration:none}
+  .pod-links{grid-column:1/-1;display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;font-size:13px}
   .pod-links a{color:var(--acento);font-weight:700;text-decoration:none}
   @media (max-width:700px){.podcast{grid-template-columns:1fr}}
   .ouvir-baixar{display:inline-block;margin-top:8px;font-size:13px;font-weight:700;color:var(--acento);text-decoration:none}
@@ -609,7 +610,7 @@ window.addEventListener("hashchange",function(){if(location.hash.indexOf("#redac
       el.innerHTML = '<section class="podcast"><div class="pod-txt"><span class="pod-kicker">🎧 Podcast</span><strong>Nevasca em 10 minutos</strong>'+
         '<small>O resumo desta edição em ' + min + ' minutos, com as manchetes, as notícias e o editorial.</small></div>'+
         '<audio controls preload="none" src="' + url + '"></audio>'+
-        '<div class="pod-links"><a href="' + url + '" download>⬇ Baixar episódio</a><a href="https://anevasca.com.br/podcast.xml" target="_blank" rel="noopener">Feed do podcast (RSS)</a></div></section>';
+        '<div class="pod-links"><a class="pod-spotify" href="https://open.spotify.com/show/6P4XdGoHyP2Goz3Q7Z1JPL" target="_blank" rel="noopener">▶ Ouça no Spotify</a><a href="' + url + '" download>⬇ Baixar episódio</a><a href="https://anevasca.com.br/podcast.xml" target="_blank" rel="noopener">Feed do podcast (RSS)</a></div></section>';
     });
     a.src = url;
   }
