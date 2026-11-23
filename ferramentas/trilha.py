@@ -1,103 +1,189 @@
-"""Gera a trilha de abertura e de encerramento do podcast (composição própria, sintetizada).
+"""Trilhas do podcast "Nevasca em 10 minutos" (composição própria, sintetizada por modelagem de corda).
 
-Tom sóbrio de telejornal: acordes graves em lá menor, notas de piano espaçadas e um
-"tique" discreto de relógio (o relógio da capa do "em 10 minutos").
-Saída: trilha/abertura.mp3 e trilha/encerramento.mp3. Rodar uma vez e versionar os MP3.
-Para trocar por uma música licenciada, basta substituir os dois arquivos.
+Dois estilos para o editor escolher:
+  folk   – violão de aço dedilhado (padrão Travis), em sol maior
+  jornal – tema de telejornal: base de cordas e tímpano, com guitarra solando o tema, em ré maior
+Saída: trilha/opcoes/<estilo>-abertura.mp3 e <estilo>-encerramento.mp3.
+O estilo aprovado é copiado para trilha/abertura.mp3 e trilha/encerramento.mp3.
 """
-import subprocess, sys, wave
+import os, subprocess, wave
 import numpy as np
 
 SR = 44100
-rng = np.random.default_rng(7)
-NOTA = {n: i for i, n in enumerate(["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"])}
+rng = np.random.default_rng(11)
+NOTAS = {n: i for i, n in enumerate(["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"])}
 
 
-def hz(n):  # "A3"
-    return 440.0 * 2 ** ((NOTA[n[:-1]] + 12 * (int(n[-1]) + 1) - 69) / 12)
+def hz(n):
+    return 440.0 * 2 ** ((NOTAS[n[:-1]] + 12 * (int(n[-1]) + 1) - 69) / 12)
 
 
-def envelope(n, a, r):
-    e = np.ones(n)
-    ka, kr = int(a * SR), int(r * SR)
-    e[:ka] = np.linspace(0, 1, ka)
-    e[-kr:] *= np.linspace(1, 0, kr)
-    return e
-
-
-def pad(notas, dur):
-    n = int(dur * SR); t = np.arange(n) / SR; s = np.zeros(n)
-    for nt in notas:
-        f = hz(nt)
-        for det in (-0.12, 0.0, 0.12):  # cordas levemente desafinadas entre si
-            for h, amp in ((1, 1.0), (2, 0.35), (3, 0.15), (4, 0.06)):
-                s += amp * np.sin(2 * np.pi * (f + det) * h * t + rng.uniform(0, 6.28))
-    s *= 0.5 + 0.5 * np.sin(2 * np.pi * 0.25 * t) * 0.15 + 0.5
-    return s / len(notas) * envelope(n, 1.2, 1.4)
-
-
-def piano(nota, dur=3.0):
-    n = int(dur * SR); t = np.arange(n) / SR; f = hz(nota); s = np.zeros(n)
-    for h, amp, dec in ((1, 1.0, 1.6), (2, 0.45, 2.4), (3, 0.2, 3.2), (4, 0.1, 4.0), (5, 0.05, 5.0)):
-        s += amp * np.sin(2 * np.pi * f * h * t * (1 + 0.0004 * h * h)) * np.exp(-dec * t)
-    s[: int(0.004 * SR)] *= np.linspace(0, 1, int(0.004 * SR))
+def corda(nota, dur, brilho=0.5, sustain=0.996):
+    """Karplus-Strong: uma corda beliscada."""
+    f = hz(nota); N = int(SR / f); total = int(dur * SR)
+    ruido = rng.uniform(-1, 1, N)
+    # palheta mais macia = ruído filtrado
+    for _ in range(int((1 - brilho) * 4)):
+        ruido = (ruido + np.roll(ruido, 1)) / 2
+    y = np.zeros(total + N)
+    y[:N] = ruido - ruido.mean()  # sem componente contínua
+    i = N
+    while i < total + N:
+        j = min(i + N, total + N)
+        prev = y[i - N:j - N]; prev2 = y[i - N - 1:j - N - 1] if i - N - 1 >= 0 else np.concatenate(([0], y[i - N:j - N - 1]))
+        y[i:j] = sustain * 0.5 * (prev + prev2[: j - i])
+        i = j
+    s = y[N:N + total]
+    s[: int(0.002 * SR)] *= np.linspace(0, 1, int(0.002 * SR))
+    s[-int(0.05 * SR):] *= np.linspace(1, 0, int(0.05 * SR))
     return s
 
 
-def tique(forte=False):
-    n = int(0.05 * SR); x = rng.normal(0, 1, n) * np.exp(-np.arange(n) / (0.004 * SR))
-    x = np.convolve(x, np.ones(6) / 6, mode="same")  # tira o chiado
-    t = np.arange(n) / SR
-    return (x * 0.5 + np.sin(2 * np.pi * (2600 if forte else 2000) * t) * np.exp(-t / 0.006)) * (1.0 if forte else 0.6)
+def corpo(x):
+    """Ressonância do tampo do violão + sala."""
+    out = x.copy()
+    for atraso, g in ((0.011, 0.25), (0.017, 0.18), (0.029, 0.12), (0.043, 0.08), (0.071, 0.05)):
+        d = int(atraso * SR); out[d:] += x[:-d] * g
+    return out
 
 
-def poe(buf, sinal, seg, ganho):
-    i = int(seg * SR); j = min(len(buf), i + len(sinal))
-    buf[i:j] += sinal[: j - i] * ganho
+def sala(x, tam=0.09, fb=0.35):
+    out = x.copy(); d = int(tam * SR)
+    for k in range(1, 6):
+        out[d * k:] += x[:-d * k] * (fb ** k)
+    return out
 
 
-def compoe(acordes, melodia, total, ticks_ate):
-    buf = np.zeros(int(total * SR))
-    pos = 0.0
-    for notas, dur in acordes:
-        poe(buf, pad(notas, dur + 1.2), pos, 0.20); pos += dur
-    for nota, seg in melodia:
-        poe(buf, piano(nota), seg, 0.22)
-    b = 0.0
-    while b < ticks_ate:
-        poe(buf, tique(abs(b % 4) < 1e-6), b, 0.05); b += 1.0  # 60 bpm, como um relógio
-    # graves de reforço no primeiro tempo de cada acorde
-    pos = 0.0
-    for notas, dur in acordes:
-        poe(buf, piano(notas[0][:-1] + "2", 3.5), pos, 0.18); pos += dur
-    # eco curto (sala)
-    eco = np.zeros_like(buf); d = int(0.23 * SR); eco[d:] = buf[:-d] * 0.22
-    buf = buf + eco
-    buf = np.tanh(buf * 1.4) / np.tanh(1.4)
-    return buf / np.max(np.abs(buf)) * 0.8
+def poe(buf, s, seg, g):
+    i = max(0, int(seg * SR)); j = min(len(buf), i + len(s))
+    if i < len(buf): buf[i:j] += s[: j - i] * g
 
 
-def salva(buf, nome, fade_in, fade_out):
+def finaliza(buf, nome, fade_in, fade_out):
+    buf = buf - np.convolve(buf, np.ones(441) / 441, mode="same")  # corta graves abaixo de ~100 Hz/DC
+    buf = buf / (np.max(np.abs(buf)) + 1e-9) * 0.9
     n = len(buf)
-    buf[: int(fade_in * SR)] *= np.linspace(0, 1, int(fade_in * SR))
-    buf[n - int(fade_out * SR):] *= np.linspace(1, 0, int(fade_out * SR)) ** 1.5
+    if fade_in: buf[: int(fade_in * SR)] *= np.linspace(0, 1, int(fade_in * SR))
+    buf[n - int(fade_out * SR):] *= np.linspace(1, 0, int(fade_out * SR)) ** 1.6
+    os.makedirs("trilha/opcoes", exist_ok=True)
     wav = f"/tmp/{nome}.wav"
     with wave.open(wav, "w") as w:
         w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR)
-        w.writeframes((buf * 32767).astype(np.int16).tobytes())
-    subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", wav, "-af", "loudnorm=I=-20:TP=-2",
-                    "-ac", "1", "-ar", "24000", "-b:a", "64k", f"trilha/{nome}.mp3"], check=True)
+        w.writeframes((np.clip(buf, -1, 1) * 32767).astype(np.int16).tobytes())
+    subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", wav, "-af", "loudnorm=I=-18:TP=-1.5",
+                    "-ac", "1", "-ar", "44100", "-b:a", "128k", f"trilha/opcoes/{nome}.mp3"], check=True)
     print("ok", nome)
 
 
-# Abertura (~11 s): Am – F – C – E, melodia descendente
-ab = compoe([(["A3", "C4", "E4"], 2.6), (["F3", "A3", "C4"], 2.6), (["C3", "E3", "G3"], 2.6), (["E3", "G#3", "B3"], 3.0)],
-            [("E5", 0.0), ("C5", 1.3), ("A4", 2.6), ("C5", 3.9), ("G4", 5.2), ("E4", 6.5), ("B4", 7.8), ("G#4", 9.1)],
-            12.5, 10.5)
-salva(ab, "abertura", 0.3, 2.2)
+# ---------------- FOLK: violão dedilhado ----------------
+ACORDES_G = {  # (baixo alternado, agudos)
+    "G": (["G2", "D3"], ["G3", "B3", "D4", "G4"]),
+    "D/F#": (["F#2", "A2"], ["D3", "A3", "D4", "F#4"]),
+    "Em": (["E2", "B2"], ["G3", "B3", "E4", "G4"]),
+    "C": (["C3", "G2"], ["G3", "C4", "E4", "G4"]),
+    "Am": (["A2", "E2"], ["A3", "C4", "E4", "A4"]),
+    "D": (["D3", "A2"], ["A3", "D4", "F#4", "A4"]),
+}
 
-# Encerramento (~10 s): F – G – Am, resolve em lá
-en = compoe([(["F3", "A3", "C4"], 2.6), (["G3", "B3", "D4"], 2.6), (["A3", "C4", "E4"], 4.5)],
-            [("C5", 0.0), ("A4", 1.3), ("D5", 2.6), ("B4", 3.9), ("E5", 5.2), ("A4", 6.0)],
-            11.0, 5.5)
-salva(en, "encerramento", 0.8, 4.0)
+
+def dedilhado(seq, bpm=100, final="G", melodia=()):
+    colc = 60 / bpm / 2  # colcheia
+    total = len(seq) * 8 * colc + 4.5
+    buf = np.zeros(int(total * SR)); t = 0.0
+    for ac in seq:
+        baixos, agudos = ACORDES_G[ac]
+        # padrão Travis: polegar nos tempos, dedos nos contratempos
+        padrao = [(baixos[0], 0), (agudos[2], 1), (baixos[1], 0), (agudos[3], 1),
+                  (baixos[0], 0), (agudos[1], 1), (baixos[1], 0), (agudos[2], 1)]
+        for k, (nt, aguda) in enumerate(padrao):
+            hum = rng.normal(0, 0.006)
+            poe(buf, corda(nt, 2.2, 0.35 if not aguda else 0.6), t + k * colc + hum, 0.55 if not aguda else 0.38)
+            if k == 0 and aguda == 0:
+                poe(buf, corda(agudos[3], 2.2, 0.6), t + hum + 0.004, 0.32)  # pinça no 1º tempo
+        t += 8 * colc
+    for nota, beat in melodia:
+        poe(buf, corda(nota, 2.5, 0.75, 0.9975), beat * colc + rng.normal(0, 0.004), 0.42)
+    # acorde final, rasgueado devagar
+    baixos, agudos = ACORDES_G[final]
+    for k, nt in enumerate([baixos[0], baixos[1]] + agudos):
+        poe(buf, corda(nt, 4.2, 0.5, 0.998), t + k * 0.035, 0.42)
+    return sala(corpo(buf))
+
+
+folk_ab = dedilhado(["G", "D/F#", "Em", "C", "D"], bpm=104,
+                    melodia=[("B4", 0), ("D5", 3), ("A4", 8), ("D5", 11), ("G4", 16), ("B4", 19), ("E5", 22),
+                             ("E5", 24), ("D5", 27), ("C5", 29), ("A4", 32), ("D5", 35), ("F#4", 38)])
+finaliza(folk_ab, "folk-abertura", 0, 2.5)
+folk_fim = dedilhado(["C", "D", "Em", "D"], bpm=96,
+                     melodia=[("E5", 0), ("G5", 3), ("F#5", 8), ("D5", 11), ("B4", 16), ("G4", 19),
+                              ("D5", 24), ("F#4", 27), ("A4", 30)])
+finaliza(folk_fim, "folk-encerramento", 0, 3.8)
+
+
+# ---------------- JORNAL: cordas, tímpano e guitarra solando ----------------
+def pad(notas, dur, ataque=0.08):
+    n = int(dur * SR); t = np.arange(n) / SR; s = np.zeros(n)
+    for nt in notas:
+        f = hz(nt)
+        for det in (-0.8, 0, 0.8):
+            ph = rng.uniform(0, 6.28)
+            saw = sum(np.sin(2 * np.pi * (f + det) * h * t + ph) / h for h in range(1, 9))
+            s += saw
+    e = np.minimum(1, t / ataque) * np.exp(-0.15 * t)
+    e[-int(0.3 * SR):] *= np.linspace(1, 0, int(0.3 * SR))
+    s = s * e / len(notas)
+    k = 9; s = np.convolve(s, np.ones(k) / k, mode="same")  # amacia o brilho
+    return s
+
+
+def timpano(nota, dur=1.6):
+    n = int(dur * SR); t = np.arange(n) / SR; f = hz(nota)
+    s = np.sin(2 * np.pi * f * t * (1 + 0.04 * np.exp(-t * 20))) * np.exp(-t * 3.0)
+    s += rng.normal(0, 1, n) * np.exp(-t * 40) * 0.3
+    return s
+
+
+def guitarra(nota, dur, slide_de=None):
+    """Guitarra elétrica solo: corda longa + vibrato + saturação."""
+    base = corda(nota, dur, 0.85, 0.9993)
+    t = np.arange(len(base)) / SR
+    vib = 1 + 0.004 * np.sin(2 * np.pi * 5.5 * t) * np.minimum(1, t / 0.35)
+    idx = np.clip(np.cumsum(vib) - 1, 0, len(base) - 1)
+    base = np.interp(idx, np.arange(len(base)), base)
+    base = np.tanh(base * 6) * 0.6  # overdrive
+    base = np.convolve(base, np.ones(5) / 5, mode="same")  # caixa do amplificador
+    return base
+
+
+def tema_jornal(acordes, solo, bpm=120, cauda=3.5):
+    tempo = 60 / bpm
+    total = sum(d for _, d in acordes) * tempo + cauda
+    buf = np.zeros(int(total * SR)); t = 0.0
+    for notas, batidas in acordes:
+        poe(buf, pad(notas, batidas * tempo + 0.4), t, 0.35)
+        poe(buf, timpano(notas[0][:-1] + "2"), t, 0.5)
+        # baixo em colcheias, pulso de jornal
+        for k in range(int(batidas * 2)):
+            poe(buf, corda(notas[0][:-1] + "2", 0.35, 0.4, 0.99), t + k * tempo / 2, 0.30)
+        t += batidas * tempo
+    for nota, beat, dur in solo:
+        poe(buf, guitarra(nota, dur * tempo + 0.6), beat * tempo, 0.30)
+    # prato no fim
+    n = int(3 * SR); tt = np.arange(n) / SR
+    prato = np.convolve(rng.normal(0, 1, n), [1, -1], mode="same") * np.exp(-tt * 1.6)
+    poe(buf, prato, (sum(d for _, d in acordes) - 1) * tempo, 0.06)
+    return sala(buf, 0.11, 0.3)
+
+
+jornal_ab = tema_jornal(
+    [(["D3", "F#3", "A3"], 4), (["B2", "D3", "F#3"], 4), (["G2", "B2", "D3"], 4), (["A2", "C#3", "E3"], 4),
+     (["D3", "F#3", "A3"], 6)],
+    [("A4", 0, 1), ("D5", 1, 1.5), ("E5", 2.5, 0.5), ("F#5", 3, 1), ("E5", 4, 1), ("D5", 5, 1), ("B4", 6, 2),
+     ("D5", 8, 1), ("E5", 9, 1), ("G5", 10, 1.5), ("F#5", 11.5, 0.5), ("E5", 12, 1.5), ("C#5", 13.5, 0.5),
+     ("E5", 14, 1), ("A5", 15, 1), ("F#5", 16, 4)])
+finaliza(jornal_ab, "jornal-abertura", 0, 2.5)
+jornal_fim = tema_jornal(
+    [(["G2", "B2", "D3"], 4), (["A2", "C#3", "E3"], 4), (["D3", "F#3", "A3"], 6)],
+    [("B4", 0, 1), ("D5", 1, 1), ("G5", 2, 2), ("E5", 4, 1), ("C#5", 5, 1), ("A4", 6, 2), ("F#5", 8, 1),
+     ("E5", 9, 0.5), ("D5", 9.5, 4)])
+finaliza(jornal_fim, "jornal-encerramento", 0, 3.5)

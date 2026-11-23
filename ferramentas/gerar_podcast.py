@@ -1,9 +1,8 @@
 """Podcast diário "Nevasca em 10 minutos".
 
 Monta o episódio da edição atual (edicao.json) com duas vozes de âncora que se revezam
-(Antonio e Thalita) e, no editorial, sempre voz masculina: o Antonio em registro mais grave e lento
+(Antonio e Francisca) e, no editorial, sempre voz masculina: o Antonio um pouco mais grave
 (o serviço gratuito só tem uma voz masculina brasileira; a Macerio não responde nele).
-Todas as vozes leem em tom sóbrio de jornal (um pouco mais lentas e graves).
 Música só na abertura e no encerramento (trilha/abertura.mp3 e trilha/encerramento.mp3,
 gerados por ferramentas/trilha.py); nunca por baixo dos textos. Se a coluna
 "O Doido Sensato" do dia tiver áudio gravado pelo Junior (audio/coluna-<id>.mp3 no
@@ -15,13 +14,13 @@ Roda no GitHub Actions (.github/workflows/publicar.yml). Uso local para teste:
 """
 import asyncio, datetime, hashlib, json, os, re, subprocess, sys, tempfile
 
-ANCORAS = ["pt-BR-AntonioNeural", "pt-BR-ThalitaMultilingualNeural"]  # homem, mulher
+ANCORAS = ["pt-BR-AntonioNeural", "pt-BR-FranciscaNeural"]  # homem, mulher (vozes originais, velocidade normal)
 EDITORIAL = "pt-BR-AntonioNeural#editorial"  # editorial: sempre voz masculina, mais grave
 EDITORIAL_RESERVA = "pt-BR-AntonioNeural"
 # tom sóbrio: (velocidade, altura) de cada voz
-PROSODIA = {"pt-BR-AntonioNeural": ("-5%", "-2Hz"), "pt-BR-ThalitaMultilingualNeural": ("-4%", "-2Hz"),
-            "pt-BR-MacerioMultilingualNeural": ("-7%", "-3Hz")}
-VERSAO = "v2-sobrio-trilha"
+PROSODIA = {}  # velocidade e altura normais: deixar lento deixou as vozes robóticas
+VERSAO = "v3-originais"
+USAR_TRILHA = False  # liga quando o Junior aprovar a música (trilha/opcoes/)
 TAG = "audio"
 REPO = os.environ.get("GITHUB_REPOSITORY", "anevasca/site")
 TESTE = "--teste" in sys.argv
@@ -62,9 +61,9 @@ def roteiro(ed):
             R.append((voz, (abertura + " " if j == 0 else "") + txt))
     # Editorial, com outra voz e anunciado como opinião
     e = ed["editorial"]
-    R.append((B, "Agora, a opinião do jornal. O editorial d'A Nevasca."))
+    R.append((B, "Agora, a opinião do jornal. O editorial do jornal A Nevasca."))
     R.append((EDITORIAL, limpa(e["titulo"]) + " " + " ".join(limpa(p) for p in e.get("texto", []))))
-    R.append((B, "Esta foi a opinião d'A Nevasca."))
+    R.append((B, "Esta foi a opinião do jornal A Nevasca."))
     return R
 
 
@@ -93,9 +92,9 @@ def fala(texto, voz, destino):
         return
     vozes = [EDITORIAL_RESERVA] if voz == EDITORIAL else [voz]
     for v in vozes:
-        rate, pitch = PROSODIA.get(v, ("-5%", "-2Hz"))
+        rate, pitch = PROSODIA.get(v, ("+0%", "+0Hz"))
         if v == EDITORIAL_RESERVA and voz == EDITORIAL:
-            rate, pitch = "-8%", "-6Hz"  # reserva: Antonio mais grave, para não confundir com o âncora
+            rate, pitch = "+0%", "-4Hz"  # editorial: Antonio um pouco mais grave, na velocidade normal
         for _ in range(3):
             try:
                 asyncio.run(_fala(texto, v, destino, rate, pitch)); return
@@ -134,7 +133,7 @@ def main():
     subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono",
                     "-t", "0.7", "-q:a", "9", pausa], check=True)
     trilha_ab, trilha_fim = os.path.abspath("trilha/abertura.mp3"), os.path.abspath("trilha/encerramento.mp3")
-    partes = [trilha_ab, pausa] if os.path.exists(trilha_ab) else []
+    partes = [trilha_ab, pausa] if USAR_TRILHA and os.path.exists(trilha_ab) else []
     for i, (voz, txt) in enumerate(R):
         arq = f"{pasta}/p{i:03d}.mp3"
         fala(txt, voz, arq)
@@ -150,7 +149,7 @@ def main():
     fala("Este foi o Nevasca em 10 minutos. As matérias completas, com todas as fontes, estão em anevasca ponto com ponto b r. "
          "As vozes dos apresentadores são sintéticas, geradas por computador. Até amanhã.", ANCORAS[1], fim)
     partes.append(fim)
-    if os.path.exists(trilha_fim):
+    if USAR_TRILHA and os.path.exists(trilha_fim):
         partes += [pausa, trilha_fim]
     lista = f"{pasta}/lista.txt"
     open(lista, "w").write("".join(f"file '{p}'\n" for p in partes))
