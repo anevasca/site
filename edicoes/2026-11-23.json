@@ -389,7 +389,7 @@
         "No lançamento, Martins disse que \"essa Casa está no chão\", chamou a Câmara de mero carimbador e falou em uma \"bomba fiscal\" prestes a explodir, relatou o portal Ric. Ele criticou o governo Lula e o STF e chamou de presos políticos os condenados pelos atos de 8 de janeiro.",
         "Martins diz que não há racha. Ao Metrópoles, contou que procurou Luiz Philippe e Zé Trovão (PL-SC) e que vê as candidaturas como \"complementares de qualquer forma\", na aposta de tirar votos de Motta. \"Eu estou me colocando à disposição deles\", disse. Segundo ele, os dois do PL já teriam se lançado de forma avulsa, afirmação que não aparece confirmada em outros veículos.",
         "O peso está no PL, que terá 121 deputados a partir de 2027 e segue dividido entre compor com Motta, que apoiou Lula contra Flávio Bolsonaro na eleição, e lançar candidato próprio, segundo a Gazeta do Povo. A sigla fez uma consulta secreta e individual à bancada, com resultado esperado por volta de quinta (26), segundo a Folhapress, publicada pelo Jornal de Brasília.",
-        "Os perfis são diferentes. Luiz Philippe, deputado desde 2019, preside a Comissão de Relações Exteriores e defende contas públicas enxutas e anistia aos condenados do 8 de janeiro. Martins perdeu a eleição ao Senado pelo Paraná em 2022 para Sergio Moro, foi vice-prefeito de Curitiba e voltou à Câmara em 2026 com 44.029 votos, segundo a Gazeta. As candidaturas só precisam ser registradas na véspera da eleição."
+        "Os perfis são diferentes. Luiz Philippe, deputado desde 2019, preside a Comissão de Relações Exteriores e defende contas públicas enxutas e anistia aos condenados do 8 de janeiro. Martins perdeu a eleição ao Senado pelo Paraná em 2022 para Sergio Moro, foi vice-prefeito de Curitiba e se elegeu de novo deputado em 2026, pelo Novo, com 44.029 votos, segundo a Gazeta. As candidaturas só precisam ser registradas na véspera da eleição."
       ],
       "fontes": [
         {
@@ -408,7 +408,12 @@
           "nome": "Jornal de Brasília (Folhapress)",
           "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/pl-mantem-indefinicao-sobre-presidencia-da-camara-em-meio-a-racha-sobre-apoio-a-motta/"
         }
-      ]
+      ],
+      "imagem": {
+        "arquivo": "img/2026-11-23-politica-3.jpg",
+        "legenda": "Paulo Martins, candidato do Novo à presidência da Câmara, em retrato oficial da Casa",
+        "credito": "Câmara dos Deputados"
+      }
     },
     {
       "secao": "Senado",
