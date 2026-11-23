@@ -1,7 +1,8 @@
 """Podcast diário "Nevasca em 10 minutos".
 
 Monta o episódio da edição atual (edicao.json) com duas vozes de âncora que se revezam
-(Antonio e Thalita) e uma terceira voz, sempre masculina, para o editorial (Macerio).
+(Antonio e Thalita) e, no editorial, sempre voz masculina: o Antonio em registro mais grave e lento
+(o serviço gratuito só tem uma voz masculina brasileira; a Macerio não responde nele).
 Todas as vozes leem em tom sóbrio de jornal (um pouco mais lentas e graves).
 Música só na abertura e no encerramento (trilha/abertura.mp3 e trilha/encerramento.mp3,
 gerados por ferramentas/trilha.py); nunca por baixo dos textos. Se a coluna
@@ -15,7 +16,7 @@ Roda no GitHub Actions (.github/workflows/publicar.yml). Uso local para teste:
 import asyncio, datetime, hashlib, json, os, re, subprocess, sys, tempfile
 
 ANCORAS = ["pt-BR-AntonioNeural", "pt-BR-ThalitaMultilingualNeural"]  # homem, mulher
-EDITORIAL = "pt-BR-MacerioMultilingualNeural"  # editorial: sempre voz masculina
+EDITORIAL = "pt-BR-AntonioNeural#editorial"  # editorial: sempre voz masculina, mais grave
 EDITORIAL_RESERVA = "pt-BR-AntonioNeural"
 # tom sóbrio: (velocidade, altura) de cada voz
 PROSODIA = {"pt-BR-AntonioNeural": ("-5%", "-2Hz"), "pt-BR-ThalitaMultilingualNeural": ("-4%", "-2Hz"),
@@ -90,7 +91,7 @@ def fala(texto, voz, destino):
         subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono",
                         "-t", f"{seg:.1f}", "-q:a", "9", destino], check=True)
         return
-    vozes = [voz] + ([EDITORIAL_RESERVA] if voz == EDITORIAL else [])
+    vozes = [EDITORIAL_RESERVA] if voz == EDITORIAL else [voz]
     for v in vozes:
         rate, pitch = PROSODIA.get(v, ("-5%", "-2Hz"))
         if v == EDITORIAL_RESERVA and voz == EDITORIAL:
