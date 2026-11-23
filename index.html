@@ -149,6 +149,8 @@
   .ouvir-ondas i{flex:1;background:#e3c7c7;border-radius:1px;min-width:2px}
   .ouvir-ondas i.on{background:var(--acento)}
   .ouvir-tempo{font-size:13px;color:var(--acento);min-width:36px;text-align:right}
+  .ouvir-baixar{display:inline-block;margin-top:8px;font-size:13px;font-weight:700;color:var(--acento);text-decoration:none}
+  .ouvir-baixar:hover{text-decoration:underline}
   .ouvir-vel{border:0;background:var(--acento);color:#fff;font-weight:800;font-size:13px;border-radius:6px;padding:6px 9px;cursor:pointer;min-width:48px}
   .resumo-box{margin:12px 0 22px}
   .resumo-bt{width:100%;border:0;background:var(--acento);color:#fff;font-family:var(--sans);font-weight:800;font-size:18px;padding:13px;cursor:pointer;border-radius:2px}
@@ -603,7 +605,8 @@ window.addEventListener("hashchange",function(){if(location.hash.indexOf("#redac
     return '<div class="ouvir"><span class="ouvir-rot">Ouvir notícia</span><div class="ouvir-linha">'+
       '<button type="button" class="ouvir-play" aria-label="Ouvir"><span class="ico-play"></span></button>'+
       '<div class="ouvir-ondas" title="Toque para pular para esse ponto">'+barras+'</div>'+
-      '<span class="ouvir-tempo"></span><button type="button" class="ouvir-vel" aria-label="Velocidade">1x</button></div></div>';
+      '<span class="ouvir-tempo"></span><button type="button" class="ouvir-vel" aria-label="Velocidade">1x</button></div>'+
+      '<a class="ouvir-baixar" href="'+AUDIO_BASE+a.id+'.mp3" download="A-Nevasca-'+a.id.replace(/^ed-/, "")+'.mp3" hidden>⬇ Baixar áudio (MP3)</a></div>';
   }
   function ouvirParar(){ if(ouvir){ ouvir.tok++; ouvir.tocando = false; } if(ouvirAudio){ try{ ouvirAudio.pause(); ouvirAudio.removeAttribute("src"); ouvirAudio.load(); }catch(e){} ouvirAudio = null; } try{ speechSynthesis.cancel(); }catch(e){} }
   function ouvirLigar(a){
@@ -622,7 +625,7 @@ window.addEventListener("hashchange",function(){if(location.hash.indexOf("#redac
     var au = new Audio(); au.preload = "metadata"; ouvirAudio = au;
     var rot = el.querySelector(".ouvir-rot");
     function rotulo(){ rot.textContent = "Ouvir notícia" + (o.modo === "audio" ? " · voz Francisca" : o.modo === "tts" ? " · voz do aparelho" : ""); }
-    au.addEventListener("loadedmetadata", function(){ if(o.modo !== "tts"){ o.modo = "audio"; pinta(0); rotulo(); } });
+    au.addEventListener("loadedmetadata", function(){ if(o.modo !== "tts"){ o.modo = "audio"; pinta(0); rotulo(); var bx = el.querySelector(".ouvir-baixar"); if(bx){ bx.href = au.currentSrc || au.src; bx.hidden = false; } } });
     var tentouReserva = false;
     au.addEventListener("error", function(){ if(o.modo !== "?") return; if(!tentouReserva){ tentouReserva = true; au.src = AUDIO_RESERVA + a.id + ".mp3"; return; } o.modo = "tts"; rotulo(); });
     au.addEventListener("timeupdate", function(){ if(o.modo === "audio" && au.duration) pinta(au.currentTime / au.duration); });
