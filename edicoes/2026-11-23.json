@@ -372,7 +372,12 @@
           "nome": "O Antagonista",
           "url": "https://oantagonista.com.br/brasil/caso-master-leva-stf-para-epicentro-de-crise-ano-apos-prisao-de-vorcaro/"
         }
-      ]
+      ],
+      "imagem": {
+        "arquivo": "img/2026-11-23-politica-2.jpg",
+        "legenda": "O ministro Edson Fachin, do STF, que avocou temporariamente o caso Master",
+        "credito": "Rosinei Coutinho/STF"
+      }
     },
     {
       "secao": "Câmara",
