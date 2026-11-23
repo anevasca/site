@@ -1,0 +1,78 @@
+name: Publicar o site (com áudios)
+
+# Publica o site no GitHub Pages a cada push na main.
+# 1) publica na hora com os áudios que já existem;
+# 2) grava os áudios novos (voz Francisca) e publica de novo.
+# Para valer, em Settings > Pages > Source deve estar "GitHub Actions".
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  rapido:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Monta o site
+        run: |
+          mkdir -p _site
+          rsync -a --exclude '.git' --exclude '.github' --exclude 'ferramentas' --exclude '_site' ./ _site/
+          touch _site/.nojekyll
+          python3 ferramentas/juntar_audios.py _site/audio
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+          name: site-rapido
+      - id: deploy
+        uses: actions/deploy-pages@v4
+        with:
+          artifact_name: site-rapido
+
+  com-audio:
+    needs: rapido
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install edge-tts
+      - name: Grava os áudios novos
+        run: python ferramentas/gerar_audio.py
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - name: Monta o site com os áudios
+        run: |
+          mkdir -p _site
+          rsync -a --exclude '.git' --exclude '.github' --exclude 'ferramentas' --exclude '_site' ./ _site/
+          touch _site/.nojekyll
+          python3 ferramentas/juntar_audios.py _site/audio
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+          name: site-com-audio
+      - id: deploy
+        uses: actions/deploy-pages@v4
+        with:
+          artifact_name: site-com-audio

@@ -2,7 +2,7 @@ name: Áudio das matérias
 
 on:
   push:
-    branches: [main, "previa-*"]
+    branches: ["previa-*", "ultimas-*"]
     paths: ["edicao.json", "ultimas/**"]
   workflow_dispatch:
 
