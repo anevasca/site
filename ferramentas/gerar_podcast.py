@@ -1,7 +1,10 @@
 """Podcast diário "Nevasca em 10 minutos".
 
 Monta o episódio da edição atual (edicao.json) com duas vozes de âncora que se revezam
-(Antonio e Francisca) e uma terceira voz para o editorial (Thalita). Se a coluna
+(Antonio e Thalita) e uma terceira voz, sempre masculina, para o editorial (Macerio).
+Todas as vozes leem em tom sóbrio de jornal (um pouco mais lentas e graves).
+Música só na abertura e no encerramento (trilha/abertura.mp3 e trilha/encerramento.mp3,
+gerados por ferramentas/trilha.py); nunca por baixo dos textos. Se a coluna
 "O Doido Sensato" do dia tiver áudio gravado pelo Junior (audio/coluna-<id>.mp3 no
 repositório), ele entra antes do encerramento.
 
@@ -11,8 +14,13 @@ Roda no GitHub Actions (.github/workflows/publicar.yml). Uso local para teste:
 """
 import asyncio, datetime, hashlib, json, os, re, subprocess, sys, tempfile
 
-ANCORAS = ["pt-BR-AntonioNeural", "pt-BR-FranciscaNeural"]
-EDITORIAL = "pt-BR-ThalitaMultilingualNeural"
+ANCORAS = ["pt-BR-AntonioNeural", "pt-BR-ThalitaMultilingualNeural"]  # homem, mulher
+EDITORIAL = "pt-BR-MacerioMultilingualNeural"  # editorial: sempre voz masculina
+EDITORIAL_RESERVA = "pt-BR-AntonioNeural"
+# tom sóbrio: (velocidade, altura) de cada voz
+PROSODIA = {"pt-BR-AntonioNeural": ("-5%", "-2Hz"), "pt-BR-ThalitaMultilingualNeural": ("-4%", "-2Hz"),
+            "pt-BR-MacerioMultilingualNeural": ("-7%", "-3Hz")}
+VERSAO = "v2-sobrio-trilha"
 TAG = "audio"
 REPO = os.environ.get("GITHUB_REPOSITORY", "anevasca/site")
 TESTE = "--teste" in sys.argv
@@ -71,9 +79,9 @@ def coluna_do_dia(ed):
     return None
 
 
-async def _fala(texto, voz, destino):
+async def _fala(texto, voz, destino, rate, pitch):
     import edge_tts
-    await edge_tts.Communicate(texto, voz).save(destino)
+    await edge_tts.Communicate(texto, voz, rate=rate, pitch=pitch).save(destino)
 
 
 def fala(texto, voz, destino):
@@ -82,11 +90,16 @@ def fala(texto, voz, destino):
         subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono",
                         "-t", f"{seg:.1f}", "-q:a", "9", destino], check=True)
         return
-    for _ in range(3):
-        try:
-            asyncio.run(_fala(texto, voz, destino)); return
-        except Exception as ex:
-            print("tentando de novo:", ex, file=sys.stderr)
+    vozes = [voz] + ([EDITORIAL_RESERVA] if voz == EDITORIAL else [])
+    for v in vozes:
+        rate, pitch = PROSODIA.get(v, ("-5%", "-2Hz"))
+        if v == EDITORIAL_RESERVA and voz == EDITORIAL:
+            rate, pitch = "-8%", "-6Hz"  # reserva: Antonio mais grave, para não confundir com o âncora
+        for _ in range(3):
+            try:
+                asyncio.run(_fala(texto, v, destino, rate, pitch)); return
+            except Exception as ex:
+                print(f"tentando de novo ({v}):", ex, file=sys.stderr)
     raise RuntimeError("não consegui gerar a voz")
 
 
@@ -105,7 +118,7 @@ def main():
     nome = f"pod-{ed['data']}.mp3"
     R = roteiro(ed)
     col = coluna_do_dia(ed)
-    assinatura = hashlib.sha1(json.dumps([R, col[1] if col else None], ensure_ascii=False).encode()).hexdigest()[:12]
+    assinatura = hashlib.sha1(json.dumps([VERSAO, R, col[1] if col else None], ensure_ascii=False).encode()).hexdigest()[:12]
     marcas = {}
     pasta = tempfile.mkdtemp()
     if not TESTE:
@@ -119,7 +132,8 @@ def main():
     pausa = f"{pasta}/pausa.mp3"
     subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono",
                     "-t", "0.7", "-q:a", "9", pausa], check=True)
-    partes = []
+    trilha_ab, trilha_fim = os.path.abspath("trilha/abertura.mp3"), os.path.abspath("trilha/encerramento.mp3")
+    partes = [trilha_ab, pausa] if os.path.exists(trilha_ab) else []
     for i, (voz, txt) in enumerate(R):
         arq = f"{pasta}/p{i:03d}.mp3"
         fala(txt, voz, arq)
@@ -135,6 +149,8 @@ def main():
     fala("Este foi o Nevasca em 10 minutos. As matérias completas, com todas as fontes, estão em anevasca ponto com ponto b r. "
          "As vozes dos apresentadores são sintéticas, geradas por computador. Até amanhã.", ANCORAS[1], fim)
     partes.append(fim)
+    if os.path.exists(trilha_fim):
+        partes += [pausa, trilha_fim]
     lista = f"{pasta}/lista.txt"
     open(lista, "w").write("".join(f"file '{p}'\n" for p in partes))
     saida = f"{pasta}/{nome}"
