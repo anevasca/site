@@ -35,12 +35,17 @@ jobs:
         run: python ferramentas/gerar_audio.py || echo "áudio falhou; o site sobe mesmo assim"
         env:
           GH_TOKEN: ${{ github.token }}
+      - name: Grava o podcast do dia (Nevasca em 10 minutos)
+        run: python ferramentas/gerar_podcast.py || echo "podcast falhou; o site sobe mesmo assim"
+        env:
+          GH_TOKEN: ${{ github.token }}
       - name: Monta o site com os áudios
         run: |
           mkdir -p _site
           rsync -a --exclude '.git' --exclude '.github' --exclude 'ferramentas' --exclude '_site' ./ _site/
           touch _site/.nojekyll
           python3 ferramentas/juntar_audios.py _site/audio
+          python3 ferramentas/gerar_feed.py _site
         env:
           GH_TOKEN: ${{ github.token }}
       - uses: actions/upload-pages-artifact@v3

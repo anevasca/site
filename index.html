@@ -149,6 +149,14 @@
   .ouvir-ondas i{flex:1;background:#e3c7c7;border-radius:1px;min-width:2px}
   .ouvir-ondas i.on{background:var(--acento)}
   .ouvir-tempo{font-size:13px;color:var(--acento);min-width:36px;text-align:right}
+  .podcast{display:grid;grid-template-columns:1fr 1.3fr;gap:10px 24px;align-items:center;border:1px solid var(--linha);border-left:4px solid var(--acento);padding:16px 18px;margin:26px 0 6px;font-family:var(--sans)}
+  .podcast strong{display:block;font-family:var(--titulo);font-size:24px;line-height:1.15}
+  .podcast small{display:block;color:var(--cinza);font-size:13px;margin-top:4px}
+  .pod-kicker{color:var(--acento);font-weight:800;font-size:12px;letter-spacing:.08em;text-transform:uppercase}
+  .podcast audio{width:100%}
+  .pod-links{grid-column:1/-1;display:flex;gap:18px;font-size:13px}
+  .pod-links a{color:var(--acento);font-weight:700;text-decoration:none}
+  @media (max-width:700px){.podcast{grid-template-columns:1fr}}
   .ouvir-baixar{display:inline-block;margin-top:8px;font-size:13px;font-weight:700;color:var(--acento);text-decoration:none}
   .ouvir-baixar:hover{text-decoration:underline}
   .ouvir-vel{border:0;background:var(--acento);color:#fff;font-weight:800;font-size:13px;border-radius:6px;padding:6px 9px;cursor:pointer;min-width:48px}
@@ -495,6 +503,7 @@ window.addEventListener("hashchange",function(){if(location.hash.indexOf("#redac
     h += '<div class="col"><aside class="editorial"><div class="selo"><span>Editorial</span><em>Opinião do jornal</em></div><h2><a href="#'+pre+'editorial">'+esc(e.titulo)+'</a></h2><p>'+esc(resumoEd)+'</p>'+
          '<a class="leia" href="#'+pre+'editorial">Ler o editorial completo →</a></aside><div id="chamada-coluna"></div></div>';
     h += '</section>';
+    h += '<div id="podcast-capa"></div>';
     h += '<div id="ultimas-capa"></div>';
     if(ed.politica && ed.politica.length){
       h += '<section class="secao"><h3><a href="'+linkSecao(ed,"politica")+'">Brasília →</a> <small>Congresso, STF e partidos</small></h3><div class="grade4">' + ed.politica.map(function(a, i){
@@ -518,6 +527,7 @@ window.addEventListener("hashchange",function(){if(location.hash.indexOf("#redac
     h += '<div class="baixar-pdf"><a href="pdf/'+ed.data+'.pdf" download>⬇ Baixar a edição impressa (PDF com 8 páginas para imprimir, dobrar e grampear)</a></div>';
     h += '<div class="ver-arquivo"><a href="#arquivo">Ver todas as edições anteriores →</a></div>';
     document.getElementById("conteudo").innerHTML = h;
+    podcastCapa(ed);
     getUltimas(ed.data).then(function(lista){
       if(!lista.length) return;
       var L = ultimasArtigos(ed, lista), el = document.getElementById("ultimas-capa"), urg = document.getElementById("urgente");
@@ -588,6 +598,21 @@ window.addEventListener("hashchange",function(){if(location.hash.indexOf("#redac
     ouvirLigar(a);
   }
 
+
+  // ---------- PODCAST "Nevasca em 10 minutos" na capa (aparece só quando o episódio existe) ----------
+  function podcastCapa(ed){
+    var url = AUDIO_BASE + "pod-" + ed.data + ".mp3", a = new Audio();
+    a.preload = "metadata";
+    a.addEventListener("loadedmetadata", function(){
+      var el = document.getElementById("podcast-capa"); if(!el) return;
+      var min = Math.max(1, Math.round(a.duration / 60));
+      el.innerHTML = '<section class="podcast"><div class="pod-txt"><span class="pod-kicker">🎧 Podcast</span><strong>Nevasca em 10 minutos</strong>'+
+        '<small>O resumo desta edição em ' + min + ' minutos, com as manchetes, as notícias e o editorial.</small></div>'+
+        '<audio controls preload="none" src="' + url + '"></audio>'+
+        '<div class="pod-links"><a href="' + url + '" download>⬇ Baixar episódio</a><a href="https://anevasca.com.br/podcast.xml" target="_blank" rel="noopener">Feed do podcast (RSS)</a></div></section>';
+    });
+    a.src = url;
+  }
 
   // ---------- OUVIR A MATÉRIA (voz do próprio aparelho) e RESUMO ----------
   var VEL = [1, 1.25, 1.5, 2, 3, 4], ouvir = null, ouvirAudio = null;

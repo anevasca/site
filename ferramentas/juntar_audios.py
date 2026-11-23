@@ -12,8 +12,10 @@ r = subprocess.run(["gh", "api", "--paginate", f"repos/{REPO}/releases/tags/audi
                    capture_output=True, text=True)
 if r.returncode != 0:
     print("sem release de áudio ainda"); sys.exit(0)
+limite_pod = (datetime.date.today() - datetime.timedelta(days=90)).isoformat()
 nomes = [n for n in r.stdout.split() if re.match(r"ed-(\d{4}-\d{2}-\d{2})-.*\.mp3$", n)
          and re.match(r"ed-(\d{4}-\d{2}-\d{2})", n).group(1) >= limite]
+nomes += [n for n in r.stdout.split() if re.match(r"pod-(\d{4}-\d{2}-\d{2})\.mp3$", n) and n[4:14] >= limite_pod]
 for i in range(0, len(nomes), 40):
     args = ["gh", "release", "download", "audio", "--repo", REPO, "-D", destino, "--clobber"]
     for n in nomes[i:i + 40]:
