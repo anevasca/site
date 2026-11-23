@@ -120,6 +120,7 @@
   .share span{color:var(--cinza);text-transform:uppercase;letter-spacing:.08em;font-size:10.5px;font-weight:700}
   .share a,.share button{color:var(--azul);font:inherit;font-weight:600;background:none;border:0;padding:0;cursor:pointer}
   .share a:hover,.share button:hover{text-decoration:underline}
+  .share .share-aviso{flex:1 1 100%;font-style:normal;color:var(--acento);font-weight:600}
   .share .link-manual{flex:1 1 100%;font:inherit;padding:4px 6px;border:1px solid var(--linha);background:#fff}
   h1 a,h2 a,h4 a{color:inherit}
   .em-foco{background:#fff8dc;box-shadow:0 0 0 12px #fff8dc;transition:background 1s}
@@ -349,11 +350,14 @@ window.addEventListener("hashchange",function(){if(location.hash.indexOf("#redac
   function share(id, titulo){
     var url = BASE + "/m/" + id + ".html";
     var txt = titulo + " — A Nevasca";
-    return '<div class="share" data-url="'+esc(url)+'"><span>Compartilhar:</span>'+
+    return '<div class="share" data-url="'+esc(url)+'" data-id="'+esc(id)+'" data-titulo="'+esc(txt)+'"><span>Compartilhar:</span>'+
       '<a href="https://wa.me/?text='+encodeURIComponent(txt+"\n"+url)+'" target="_blank" rel="noopener">WhatsApp</a>'+
       '<a href="https://twitter.com/intent/tweet?text='+encodeURIComponent(txt)+'&url='+encodeURIComponent(url)+'&via=anevasca_br" target="_blank" rel="noopener">X</a>'+
       '<a href="https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(url)+'" target="_blank" rel="noopener">Facebook</a>'+
+      '<button type="button" class="ig">Instagram</button>'+
       '<button type="button" class="copiar">Copiar link</button>'+
+      '<button type="button" class="nativo">Compartilhar…</button>'+
+      '<em class="share-aviso" hidden></em>'+
       '<input class="link-manual" readonly value="'+esc(url)+'" hidden></div>';
   }
 
@@ -876,6 +880,49 @@ window.addEventListener("hashchange",function(){if(location.hash.indexOf("#redac
       document.getElementById("conteudo").innerHTML = '<div class="carregando">Não foi possível carregar esta página. <a href="#hoje">Ir para a edição de hoje</a></div>';
     });
   }
+
+  // ---------- INSTAGRAM e COMPARTILHAR DO CELULAR ----------
+  // O Instagram não aceita link vindo de site: a gente manda a imagem da matéria (cartão)
+  // pelo menu de compartilhar do celular, e o leitor escolhe Instagram (Stories ou Feed).
+  var cartoes = {};
+  function prepararCartao(id){
+    if(cartoes[id] !== undefined) return; cartoes[id] = null;
+    fetch("m/" + id + ".html").then(function(r){ return r.ok ? r.text() : ""; }).then(function(h){
+      var m = h.match(/og:image" content="([^"]+)"/); if(!m) return;
+      var src = m[1].replace(/^https?:\/\/[^\/]+\//, "");
+      return fetch(src).then(function(r){ return r.ok ? r.blob() : null; }).then(function(bl){
+        if(bl) cartoes[id] = new File([bl], "a-nevasca.jpg", {type: bl.type || "image/jpeg"});
+      });
+    }).catch(function(){});
+  }
+  new MutationObserver(function(){
+    document.querySelectorAll(".share[data-id]").forEach(function(s){ prepararCartao(s.getAttribute("data-id")); });
+  }).observe(document.getElementById("conteudo"), {childList: true});
+  function avisar(box, txt){ var a = box.querySelector(".share-aviso"); if(!a) return; a.textContent = txt; a.hidden = false; setTimeout(function(){ a.hidden = true; }, 6000); }
+  function copiarLink(box, depois){
+    var url = box.getAttribute("data-url");
+    try { navigator.clipboard.writeText(url).then(depois, depois); } catch(e){ depois(); }
+  }
+  document.addEventListener("click", function(ev){
+    var ig = ev.target.closest && ev.target.closest(".ig"), nat = ev.target.closest && ev.target.closest(".nativo");
+    if(!ig && !nat) return;
+    var box = (ig || nat).parentNode, url = box.getAttribute("data-url"), tit = box.getAttribute("data-titulo"), id = box.getAttribute("data-id");
+    if(nat){
+      if(navigator.share){ navigator.share({title: tit, text: tit, url: url}).catch(function(){}); }
+      else copiarLink(box, function(){ avisar(box, "Link copiado! Cole onde quiser compartilhar."); });
+      return;
+    }
+    var arq = cartoes[id];
+    if(arq && navigator.canShare && navigator.canShare({files: [arq]})){
+      copiarLink(box, function(){});
+      navigator.share({files: [arq], text: tit + " " + url}).catch(function(){});
+      avisar(box, "Escolha Instagram. O link já foi copiado: nos Stories, cole com a figurinha \"Link\".");
+    } else if(navigator.share){
+      navigator.share({title: tit, text: tit, url: url}).catch(function(){});
+    } else {
+      copiarLink(box, function(){ avisar(box, "Link copiado! No Instagram, cole nos Stories com a figurinha \"Link\" ou na bio."); });
+    }
+  });
 
   document.addEventListener("click", function(ev){
     var b = ev.target.closest && ev.target.closest(".copiar");
