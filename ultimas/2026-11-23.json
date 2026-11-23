@@ -124,5 +124,38 @@
         "url": "https://oantagonista.com.br/economia/boletim-focus-eleva-previsao-sobre-juro-inflacao-e-cambio-para-2027/"
       }
     }
+  },
+  {
+    "hora": "19h00",
+    "secao": "Câmara",
+    "titulo": "Nikolas propõe cortar até 50% das viagens e diárias de autoridades se o ajuste falhar, mas relator quer o texto sem mudanças",
+    "linhaFina": "Deputado do PL apresentou 5 emendas ao projeto do ajuste fiscal nesta segunda; para mandar o texto do Senado direto à sanção, Mauro Benevides precisa rejeitar as 46 emendas, e nenhum dos 6 destaques apresentados até a tarde era do PL.",
+    "resumo": "Nikolas Ferreira (PL-MG) apresentou nesta segunda (23) cinco emendas ao PLP 299/2026, o ajuste fiscal do governo Lula, com corte automático de despesas de autoridades, freio a aportes em estatais e proteção ao Bolsa Família. Emenda só vale se aprovada, e o relator quer manter o texto do Senado.",
+    "texto": [
+      "O deputado Nikolas Ferreira (PL-MG) apresentou nesta segunda-feira (23) cinco emendas ao PLP 299/2026, o projeto do ajuste fiscal do governo Lula que está no plenário da Câmara nesta segunda. A principal prevê que, se os parâmetros fiscais forem descumpridos, as despesas de autoridades políticas com viagens, diárias, transporte e representação caiam automaticamente 25%, podendo chegar a 50% se o problema persistir. As propostas foram divulgadas pelo deputado em um fio no X às 15h12 e relatadas pelo jornal O Tempo.",
+      "As outras quatro emendas tratam de estatais, dívida, transparência e programas sociais. Pela segunda, estatais dependentes ou com prejuízo só receberiam certos aportes extraordinários depois de apresentar plano de reestruturação com metas; se as metas fossem descumpridas por dois anos seguidos, novos aportes ficariam suspensos até a aprovação de outro plano. A terceira cria medidas automáticas de contenção quando a dívida pública ultrapassar significativamente a trajetória prevista, como limitar o crescimento real dos gastos a 0,6% e impedir novas despesas permanentes sem compensação.",
+      "A quarta exige compensação no limite de gastos e transparência sobre o déficit efetivo quando despesas forem retiradas do cálculo da meta fiscal. A quinta protege o Bolsa Família e a subvenção ao seguro rural dos bloqueios de despesas que o projeto amplia. No fio, Nikolas afirmou que cortar os próprios gastos \"parece ser sempre a última alternativa\" do governo.",
+      "Emenda só passa a valer se for aprovada, e o caminho é estreito. O relator, Mauro Benevides Filho (União-CE), decidiu manter integralmente o texto aprovado pelo Senado, para que o projeto vá direto à sanção. Para isso, precisa rejeitar as 46 emendas apresentadas por 15 deputados, segundo O Tempo. Emenda rejeitada só volta a voto se um partido apresentar destaque. Até o fim da tarde, havia seis destaques, de Avante (2), Novo (2), PSOL e Republicanos; nenhum do PL.",
+      "O governo, representado na votação por José Guimarães (PT-CE), disse que vai enfrentar os destaques um a um para manter o texto do Senado; qualquer mudança aprovada faria o projeto voltar aos senadores. Benevides afirmou ter acordo com sete bancadas (PT, União Brasil, MDB, PP, PSD, PSB e PCdoB), que somam 278 deputados, segundo o Estado de Minas. São necessários pelo menos 257 votos.",
+      "A ideia de cortar na política quando as contas pioram não é nova para Nikolas. Em agosto, ele recolheu assinaturas para uma proposta de emenda à Constituição que reduziria em 25%, e depois em 50%, os salários de deputados, senadores, presidente, vice e ministros em caso de descontrole fiscal, segundo o Congresso em Foco. A PEC ainda não começou a tramitar."
+    ],
+    "fontes": [
+      {
+        "nome": "O Tempo",
+        "url": "https://www.otempo.com.br/politica/2026/11/23/camara-vota-ajuste-e-todos-os-destaques-nem-que-va-a-madrugada-diz-guimaraes"
+      },
+      {
+        "nome": "Estado de Minas",
+        "url": "https://www.em.com.br/politica/2026/11/7542696-ajuste-fiscal-na-camara-relator-confirma-acordo-com-278-votos-para-aprovacao-hoje.html"
+      },
+      {
+        "nome": "Câmara dos Deputados (PLP 299/2026)",
+        "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655570"
+      },
+      {
+        "nome": "Congresso em Foco",
+        "url": "https://www.congressoemfoco.com.br/noticia/121228/nikolas-propoe-corte-no-salario-de-politicos-por-desequilibrio-fiscal"
+      }
+    ]
   }
 ]
