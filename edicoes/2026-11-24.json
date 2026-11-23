@@ -1,0 +1,576 @@
+{
+  "data": "2026-11-24",
+  "dataExtenso": "Terça-feira, 24 de novembro de 2026",
+  "numero": 7,
+  "atualizadoEm": "23/11/2026, 23h (Brasília)",
+  "indicadores": [
+    {
+      "rotulo": "Dólar",
+      "valor": "R$ 5,93",
+      "nota": "fechou a R$ 5,9262 em 23/11, depois de bater R$ 6,0066"
+    },
+    {
+      "rotulo": "Ibovespa",
+      "valor": "164.796 pts",
+      "nota": "23/11 (−0,95%), abaixo dos 165 mil"
+    },
+    {
+      "rotulo": "Selic",
+      "valor": "13,75%",
+      "nota": "próximo Copom em 8 e 9/dez"
+    },
+    {
+      "rotulo": "PIB 2027",
+      "valor": "1,8%",
+      "nota": "nova projeção da Fazenda (era 2,3%)"
+    }
+  ],
+  "manchete": {
+    "secao": "Ajuste fiscal",
+    "titulo": "Câmara dá 318 votos para acelerar o ajuste de Lula, 61 a mais que o mínimo, e o governo corre para barrar mudanças até de aliados",
+    "linhaFina": "O plano Moretti, de até R$ 56 bilhões em 2027, só vai direto à sanção se passar sem uma vírgula alterada; Guimarães deixou o ministério para votar, e o bloqueio de gastos sai nesta terça.",
+    "resumo": "A Câmara aprovou por 318 a 135 a urgência do projeto de ajuste fiscal do governo Lula, já aprovado pelo Senado, e entrou pela noite discutindo o mérito. O governo quer o texto sem mudanças para mandá-lo direto à sanção; a oposição e até aliados apresentaram destaques.",
+    "texto": [
+      "A Câmara dos Deputados aprovou na noite desta segunda-feira (23), por 318 votos a 135, com 6 abstenções, a urgência para o projeto de lei complementar 299/2026, o ajuste fiscal do governo Lula que os jornais de Brasília passaram a chamar de plano Moretti, em referência ao ministro do Planejamento, Bruno Moretti. O placar ficou 61 votos acima dos 257 exigidos para uma lei complementar e abriu caminho para a votação do mérito direto no plenário, sem passar por comissões. Até o fechamento desta edição, o texto-base ainda não tinha sido votado.",
+      "O governo tem pressa e um objetivo só: aprovar o texto exatamente como saiu do Senado na quarta-feira (18). Qualquer mudança de mérito devolve o projeto aos senadores. Por isso o relator, deputado Mauro Benevides Filho (União-CE), apresentou parecer sem alterações e prometeu deixar suas próprias ideias para depois. À Gazeta do Povo, ele disse que não mexeria no texto agora para evitar que o ajuste volte ao Senado.",
+      "O pacote mexe em três frentes. Limita a 2% ao ano, a partir de 2027, o crescimento real das despesas nos anos em que houver contingenciamento (hoje o teto do arcabouço é 2,5%); amplia de 10% para 20%, com exceções, o corte linear de benefícios fiscais de empresas; e autoriza o governo a restringir o uso de créditos tributários para pagar impostos federais. A equipe econômica estima melhora de R$ 45,1 bilhões a R$ 56,1 bilhões nas contas de 2027, segundo a Exame; só a trava nos créditos pode render de R$ 12,8 bilhões a R$ 18,3 bilhões.",
+      "Para garantir votos, Lula exonerou o ministro das Relações Institucionais, José Guimarães, que reassumiu o mandato de deputado pelo PT do Ceará para votar, como registraram a Revista Oeste e O Tempo. Guimarães avisou que Moretti anuncia nesta terça-feira (24) o contingenciamento do Orçamento e que, sem o ajuste aprovado, o bloqueio terá de ser muito maior. O governo quer mandar o texto à sanção antes do relatório bimestral de receitas e despesas, previsto para o mesmo dia.",
+      "A oposição não fechou questão contra o projeto, mas tenta mudá-lo. O Novo apresentou destaque, e a oposição pretende reapresentar quatro mudanças derrubadas no Senado: manter os repasses da Lei Kandir aos estados, reduzir de 2% para 0,6% o limite de crescimento das despesas, impedir o teto para compensações previdenciárias e derrubar a restrição aos créditos tributários. O deputado Nikolas Ferreira (PL-MG) divulgou cinco emendas; a principal corta de 25% a 50% os gastos de autoridades com viagens, diárias e representação quando o governo descumprir as metas.",
+      "O incômodo não vem só da direita. Segundo O Tempo, houve pedidos de destaque do Avante, do PSOL, aliado do governo, e do deputado Julio Cesar Ribeiro (Republicanos-DF), do partido do presidente da Câmara, Hugo Motta. O destaque do Avante, assinado por Waldemar Oliveira (PE), retira justamente a autorização para limitar a compensação de impostos com créditos contra a União. No total, o Correio Braziliense contou sete destaques e 50 emendas. O PT tem divergências internas; Guimarães disse que quem quiser votar contra tem esse direito, e o PCdoB anunciou apoio.",
+      "O texto do Senado também limita a R$ 2 bilhões por ano, até 2030, os repasses da Lei Kandir a estados e municípios, trava em R$ 3 bilhões anuais a compensação previdenciária aos regimes próprios e retira até R$ 10,5 bilhões em subsídios ao diesel do cálculo da meta de 2026, segundo o CenárioMT. A Instituição Fiscal Independente, ligada ao Senado, já avisou que o pacote não basta para conter a dívida, conforme a Gazeta do Povo.",
+      "Se o texto passar sem mudanças, segue para a sanção de Lula, que tem 15 dias úteis para sancionar ou vetar. Se algum destaque de mérito for aprovado, o projeto volta ao Senado. Motta marcou a sessão com efeito administrativo, para cobrar presença, e governistas admitiam que a votação podia avançar pela madrugada ou ficar para esta terça. Lula, que no sábado (21) disse que não houve reforma fiscal, e sim um ajuste, conta com o texto para fechar as contas do Orçamento de 2027, que o Congresso precisa votar em dezembro."
+    ],
+    "fontes": [
+      {
+        "nome": "O Tempo",
+        "url": "https://www.otempo.com.br/politica/2026/11/23/camara-aprova-urgencia-do-ajuste-fiscal-de-lula-por-318-a-135-com-61-votos-de-folga"
+      },
+      {
+        "nome": "O Tempo (destaques)",
+        "url": "https://www.otempo.com.br/politica/2026/11/23/camara-comeca-a-votar-ajuste-fiscal-de-lula-e-governo-tenta-barrar-destaques-ate-de-aliados"
+      },
+      {
+        "nome": "Correio Braziliense",
+        "url": "https://www.correiobraziliense.com.br/politica/2026/11/7543061-ajuste-fiscal-plenario-da-camara-aprova-tramitacao-acelerada.html"
+      },
+      {
+        "nome": "Exame",
+        "url": "https://exame.com/economia/camara-aprova-urgencia-para-projeto-de-ajuste-fiscal-e-texto-vai-direto-ao-plenario/"
+      },
+      {
+        "nome": "InfoMoney",
+        "url": "https://www.infomoney.com.br/politica/camara-aprova-urgencia-para-deputados-votarem-ajuste-fiscal-ainda-nesta-segunda-feira/"
+      },
+      {
+        "nome": "Gazeta do Povo",
+        "url": "https://www.gazetadopovo.com.br/republica/camara-vota-ajuste-fiscal-lula-nesta-segunda-ritmo-acelerado/"
+      },
+      {
+        "nome": "Gazeta do Povo (relator)",
+        "url": "https://www.gazetadopovo.com.br/republica/relator-promete-novas-sugestoes-fiscais-governo-lula-proxima-semana/"
+      },
+      {
+        "nome": "Revista Oeste",
+        "url": "https://revistaoeste.com/politica/camara-aprova-urgencia-do-ajuste-fiscal/"
+      },
+      {
+        "nome": "Revista Oeste (Guimarães)",
+        "url": "https://revistaoeste.com/politica/lula-exonera-jose-guimaraes-da-articulacao-politica-para-votacao-do-ajuste-fiscal/"
+      },
+      {
+        "nome": "Agência Câmara",
+        "url": "https://www.camara.leg.br/noticias/1320935-proposta-de-ajuste-fiscal-entra-na-pauta-de-sessao-extraordinaria-da-camara-nesta-segunda-feira"
+      },
+      {
+        "nome": "CenárioMT",
+        "url": "https://cenariomt.com.br/cenario-politico/deputados-votam-pacote-que-corta-incentivos-e-tira-r-105-bi-do-diesel-da-meta"
+      }
+    ],
+    "grafico": {
+      "tipo": "barras",
+      "titulo": "A urgência do ajuste na Câmara",
+      "subtitulo": "Votos no requerimento de urgência do PLP 299/2026, em 23/11",
+      "prefixo": "",
+      "sufixo": " votos",
+      "casas": 0,
+      "dados": [
+        {
+          "rotulo": "Sim",
+          "valor": 318,
+          "destaque": true
+        },
+        {
+          "rotulo": "Mínimo exigido",
+          "valor": 257
+        },
+        {
+          "rotulo": "Não",
+          "valor": 135
+        },
+        {
+          "rotulo": "Abstenções",
+          "valor": 6
+        }
+      ],
+      "fonte": {
+        "nome": "Exame e O Tempo",
+        "url": "https://exame.com/economia/camara-aprova-urgencia-para-projeto-de-ajuste-fiscal-e-texto-vai-direto-ao-plenario/"
+      }
+    }
+  },
+  "destaques": [
+    {
+      "secao": "Mercados",
+      "titulo": "Dólar passa de R$ 6 pela primeira vez desde abril de 2025, recua no fim do dia, e a bolsa perde os 165 mil pontos",
+      "linhaFina": "A moeda tocou R$ 6,0066 e fechou a R$ 5,9262; o alívio veio na última hora, com notícia de que Lula recebeu nomes para a diretoria do Banco Central.",
+      "resumo": "O dólar chegou a R$ 6,0066 nesta segunda, com o mercado tenso à espera da votação do ajuste fiscal, mas fechou a R$ 5,9262, em leve queda. O Ibovespa caiu 0,95%, aos 164.796 pontos, terceira queda seguida.",
+      "texto": [
+        "O dólar à vista bateu R$ 6,0066 na máxima desta segunda-feira (23), primeira vez acima de R$ 6 desde abril de 2025, mas virou na última hora e fechou a R$ 5,9262, queda de 0,15%, interrompendo seis altas seguidas, segundo a Times Brasil. O Ibovespa recuou 0,95%, aos 164.796 pontos, com volume de R$ 22,6 bilhões, e perdeu a marca dos 165 mil pontos.",
+        "A pressão começou cedo. Às 9h, segundo a InfoMoney, o dólar já era negociado a R$ 5,975, alta de 0,68%, e o contrato futuro do Ibovespa caía mais de 1%. O pano de fundo era o mesmo da semana passada: dúvida sobre o tamanho e a qualidade do ajuste fiscal votado à noite na Câmara e sobre quem vai compor a equipe econômica no novo mandato. Lá fora, o índice DXY, que mede o dólar contra moedas fortes, subia 0,50%.",
+        "O alívio veio perto do fechamento. A Times Brasil, citando a Broadcast, relatou que Lula recebeu da equipe econômica sugestões de nomes para a diretoria do Banco Central, o que tirou parte da pressão do câmbio. Mesmo assim, o dólar segue no maior nível em mais de um ano e meio; a Revista Oeste ligou a disparada diretamente à votação do pacote fiscal.",
+        "Para o analista Artur Horta, da GTF Capital, as medidas em discussão em Brasília somam algo entre R$ 60 bilhões e R$ 80 bilhões, e um ajuste visto como significativo pelo mercado exigiria de R$ 100 bilhões a R$ 150 bilhões de economia por ano, com mudanças nas regras de crescimento dos gastos obrigatórios, incluindo os pisos de saúde e educação.",
+        "O Boletim Focus desta segunda mostrou o mercado com IPCA de 5,15% para 2026 e Selic de 13% no fim de 2027. Nesta terça, o mercado acompanha o desfecho da votação do ajuste e o anúncio do bloqueio de gastos pelo ministro do Planejamento, Bruno Moretti; na quinta sai a prévia da inflação de novembro."
+      ],
+      "fontes": [
+        {
+          "nome": "Times Brasil (CNBC)",
+          "url": "https://timesbrasil.com.br/investimentos/bolsa/ibovespa-cai-095-com-tensao-fiscal-dolar-atinge-os-r-6-e-vira-para-queda-no-fechamento/"
+        },
+        {
+          "nome": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-23112026/"
+        },
+        {
+          "nome": "Revista Oeste",
+          "url": "https://revistaoeste.com/economia/dolar-dispara-e-bate-r-6-com-votacao-de-pacote-fiscal-na-camara/"
+        }
+      ],
+      "grafico": {
+        "tipo": "barras",
+        "titulo": "O dólar nesta segunda",
+        "subtitulo": "Dólar à vista, em R$, em 23/11/2026",
+        "prefixo": "R$ ",
+        "sufixo": "",
+        "casas": 4,
+        "dados": [
+          {
+            "rotulo": "Máxima do dia",
+            "valor": 6.0066,
+            "destaque": true
+          },
+          {
+            "rotulo": "Fechamento",
+            "valor": 5.9262
+          },
+          {
+            "rotulo": "Mínima do dia",
+            "valor": 5.9232
+          }
+        ],
+        "fonte": {
+          "nome": "Times Brasil (CNBC)",
+          "url": "https://timesbrasil.com.br/investimentos/bolsa/ibovespa-cai-095-com-tensao-fiscal-dolar-atinge-os-r-6-e-vira-para-queda-no-fechamento/"
+        }
+      }
+    },
+    {
+      "secao": "Economia",
+      "titulo": "Fazenda corta para 1,8% o crescimento de 2027 e já vê a inflação encostada no teto da meta",
+      "linhaFina": "Boletim do próprio governo eleva o IPCA de 2026 para 5,3%, acima do limite, e põe a culpa nos juros altos, no dólar, no petróleo e no El Niño.",
+      "resumo": "O Ministério da Fazenda reduziu de 2,3% para 1,8% a previsão de crescimento do PIB em 2027 e elevou a de inflação de 3,8% para 4,5%, exatamente o teto da meta. Para 2026, o IPCA previsto subiu para 5,3%, acima do limite.",
+      "texto": [
+        "O Ministério da Fazenda reduziu de 2,3% para 1,8% a previsão de crescimento da economia em 2027 e elevou a de inflação de 3,8% para 4,5%, exatamente o teto da meta, que é de 3% com tolerância de 1,5 ponto. Os números estão no Boletim Macrofiscal de novembro, divulgado nesta segunda-feira (23) pela Secretaria de Política Econômica, segundo a Agência Brasil e a Gazeta do Povo.",
+        "Para 2026, a previsão de alta do PIB caiu de 2% para 1,9%, e a de inflação subiu de 4,9% para 5,3%, acima do limite. A indústria deve crescer 1,4% neste ano (antes, 1,7%), os serviços 1,7% e a agropecuária 3,1%. O boletim prevê estabilidade no terceiro trimestre em relação ao segundo, com risco de leve queda. A projeção do petróleo Brent para 2027 saltou de US$ 79,50 para US$ 95,20 o barril.",
+        "A Fazenda atribui a desaceleração aos juros e ao crédito caros por mais tempo, a uma contribuição menor da agropecuária e a um carregamento estatístico mais fraco. Do lado da inflação, cita o dólar mais alto, o aumento do ICMS sobre combustíveis e gás de cozinha, a tensão no Oriente Médio, o El Niño e a retirada de benefícios sobre combustíveis. A secretária de Política Econômica, Débora Freire, disse que a desaceleração é compatível com a política monetária contracionista.",
+        "Na prática, o governo admite que a convergência da inflação para a meta de 3% só deve ocorrer a partir de 2028. Para 2028 e 2029, o crescimento previsto caiu de 2,6% para 2,5% ao ano. O boletim conta com o mercado de trabalho, a isenção do Imposto de Renda para as faixas de menor renda, o reajuste do Bolsa Família e a proibição das apostas online para sustentar o consumo.",
+        "O corte nas projeções chega no dia em que a Câmara votava o ajuste fiscal e véspera do relatório bimestral de receitas e despesas, que deve trazer bloqueio no Orçamento. A Instituição Fiscal Independente, ligada ao Senado, revisará sua estimativa de crescimento em dezembro, com viés de baixa, segundo a Gazeta do Povo."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/fazenda-reduz-previsao-do-pib-e-eleva-inflacao-para-2027"
+        },
+        {
+          "nome": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/republica/fazenda-reduz-projecao-do-pib-e-preve-inflacao-maior-em-2026-e-2027/"
+        },
+        {
+          "nome": "O Tempo",
+          "url": "https://www.otempo.com.br/economia/2026/11/23/fazenda-reduz-previsao-do-pib-e-eleva-inflacao-para-2027"
+        }
+      ],
+      "grafico": {
+        "tipo": "barras",
+        "titulo": "O que a Fazenda mudou para 2027",
+        "subtitulo": "Projeções do Boletim Macrofiscal, em %",
+        "prefixo": "",
+        "sufixo": "%",
+        "casas": 1,
+        "dados": [
+          {
+            "rotulo": "PIB (set.)",
+            "valor": 2.3
+          },
+          {
+            "rotulo": "PIB (nov.)",
+            "valor": 1.8,
+            "destaque": true
+          },
+          {
+            "rotulo": "IPCA (set.)",
+            "valor": 3.8
+          },
+          {
+            "rotulo": "IPCA (nov.)",
+            "valor": 4.5,
+            "destaque": true
+          }
+        ],
+        "fonte": {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/fazenda-reduz-previsao-do-pib-e-eleva-inflacao-para-2027"
+        },
+        "nota": "A meta de inflação é 3%, com teto de 4,5%."
+      }
+    },
+    {
+      "secao": "Tecnologia",
+      "titulo": "Trump ameaça cobrar 'imposto enorme' de empresas americanas que erguerem data centers fora dos EUA, e o Brasil do Redata pode pagar a conta",
+      "linhaFina": "Ainda não há alíquota, prazo nem lei; mas desde 16 de novembro já vale nos EUA a exigência de licença para exportar chips de IA a data centers no Brasil.",
+      "resumo": "Trump disse que não vai permitir que empresas americanas construam data centers em outros países e ameaçou cobrar um imposto enorme de quem insistir. A medida ainda não tem alíquota nem forma legal, mas pode atingir o Brasil, que criou em setembro um regime especial para atrair esses investimentos.",
+      "texto": [
+        "O presidente dos Estados Unidos, Donald Trump, disse em entrevista coletiva na Casa Branca na sexta-feira (20) que não vai permitir que empresas americanas construam data centers em outros países e que cobrará um imposto enorme de quem insistir. Ele não informou alíquota, prazo nem mecanismo, e admitiu que ainda não tinha avisado a própria equipe, segundo a Gazeta do Povo.",
+        "O argumento de Trump é impedir que a China se beneficie de investimentos americanos em inteligência artificial. A fala veio poucos dias depois de o governo americano passar a exigir, desde 16 de novembro, licença para exportar chips de IA para data centers em alguns países, entre eles o Brasil, a Indonésia, a Malásia, Singapura e a Tailândia.",
+        "O Brasil tenta atrair exatamente esse tipo de investimento. Em setembro, Lula sancionou o Redata, regime especial que suspende tributos federais sobre equipamentos de data centers em troca de contrapartidas. Empresas como a Equinix anunciaram expansões em São Paulo e no Rio. Para a CEO da Modular Data Centers, Alinie Mendes, ouvida pela CNN Brasil, o peso das big techs americanas na demanda mundial faz com que qualquer restrição atinja o país.",
+        "Especialistas lembram que um imposto desse tipo dependeria do Congresso americano. Para o professor Kenneth Corrêa, da FGV, Trump quer controlar onde fica fisicamente a infraestrutura de IA. Nos EUA, porém, a oferta de terrenos com energia disponível está diminuindo, e candidatos contrários a novos data centers venceram nas eleições de meio de mandato, segundo reportagem do MarketWatch reproduzida pelo InvestNews. A diretora financeira da Oracle, Hilary Maxson, citou a América Latina entre os mercados promissores fora dos EUA.",
+        "Não há data para a medida sair do papel, e o governo brasileiro não tinha se manifestado até esta segunda. Google, Oracle e CoreWeave não comentaram de imediato."
+      ],
+      "fontes": [
+        {
+          "nome": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/mundo/trump-quer-barrar-construcao-de-data-centers-dos-eua-no-exterior-e-medida-pode-afetar-brasil/"
+        },
+        {
+          "nome": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/economia/money/tecnologia/por-que-eua-nao-querem-que-empresas-construam-data-centers-em-outros-paises/"
+        },
+        {
+          "nome": "InvestNews (MarketWatch)",
+          "url": "https://investnews.com.br/negocios/trump-data-centers-big-techs"
+        }
+      ]
+    }
+  ],
+  "editorial": {
+    "titulo": "Comissão não é convicção",
+    "texto": [
+      "O PL chega a esta semana como o maior partido da Câmara, com 121 deputados, e com uma pergunta que parece de aritmética, mas é de caráter: apoiar ou não a reeleição de Hugo Motta. De um lado, quem quer compor o bloco em troca de assento na Mesa, da CCJ, da Comissão de Saúde e da relatoria do Orçamento. Do outro, quem lembra que Motta não entregou o que prometeu e prefere candidato próprio ou outro nome. Valdemar diz que os deputados decidem. Decidam, então, mas sabendo o que está à venda.",
+      "Ninguém aqui despreza a política real. Calvino chamou a magistratura de a mais sagrada das vocações, e cada esfera da vida tem sua dignidade e seu dever. O dever da esfera parlamentar é representar quem votou, fiscalizar quem governa e limitar o poder, não colecionar cadeiras. Quando a principal pergunta de uma bancada de oposição é quantas comissões ganha para não se opor, ela deixou de ser oposição e virou condomínio.",
+      "O episódio da dosimetria ilustra o ponto. Motta e Alcolumbre foram ao ministro Alexandre de Moraes pedir que o STF julgue ainda neste ano a lei que pode reduzir penas do 8 de janeiro, e o gesto veio justamente quando precisam dos votos da direita. Pode até ser boa notícia para quem cumpre penas pesadas pelo 8 de janeiro e espera a revisão que a lei prevê. Mas pauta de justiça não é moeda de campanha para a Mesa; quem só lembra dos presos às vésperas da eleição interna está fazendo contas, não justiça. Carlos Jordy disse o óbvio: o PL não troca apoio por esse tipo de gesto.",
+      "A Nevasca não torce por cisão nem por birra. Nikolas ameaça sair, Sóstenes pensa em largar a liderança, Luiz Philippe põe o nome, o Novo lança Paulo Martins: é muito cacique para pouca convicção declarada. O que se pede ao PL é simples e difícil: dizer em voz alta quais princípios defende na Mesa e votar de acordo, em vez de sair da reunião de 20 de dezembro com a CCJ no bolso e o discurso no lixo. Jesus perguntou de que adianta ganhar o mundo inteiro e perder a alma (Mc 8.36). Em escala bem mais modesta, vale a pergunta: de que adianta ganhar a Comissão de Saúde e perder o eleitor?"
+    ]
+  },
+  "politica": [
+    {
+      "secao": "Câmara",
+      "titulo": "PL diz que o 'não' a Motta está cristalizado e já fala em apoiar outro nome do centrão para a presidência da Câmara",
+      "linhaFina": "Valdemar marca nova reunião da bancada antes de 20 de dezembro; Nikolas ameaça sair do partido se houver acordo, e Luiz Philippe já pôs o nome na disputa.",
+      "resumo": "O líder do PL na Câmara, Sóstenes Cavalcante, disse que a decisão de não apoiar a reeleição de Hugo Motta está cristalizada e admitiu apoiar um nome alternativo do centrão. Valdemar Costa Neto marcou nova reunião da bancada de 121 deputados antes de 20 de dezembro.",
+      "texto": [
+        "O líder do PL na Câmara, Sóstenes Cavalcante (RJ), disse nesta segunda-feira (23) que a decisão de não apoiar a reeleição de Hugo Motta (Republicanos-PB) à presidência da Casa está cristalizada e admitiu que o partido pode apoiar um nome alternativo do centrão, que chamou de a melhor estratégia, segundo O Antagonista. A bancada, que terá 121 deputados na próxima legislatura, deve definir até a semana que vem se lança candidato próprio ou apoia um concorrente.",
+        "O presidente nacional do partido, Valdemar Costa Neto, anunciou nova reunião da bancada antes de 20 de dezembro, depois de dois encontros sem consenso, e não declarou preferência. Em declarações publicadas pelo O Globo e reproduzidas pelo PB Agora, ele disse que são os deputados que decidem o caminho e admitiu que a direita pode ter mais de um candidato. Valdemar se referiu ao deputado Luiz Philippe de Orleans e Bragança (PL-SP) ao dizer que já há uma candidatura apresentada.",
+        "O partido está dividido. Uma ala quer compor com Motta em troca de espaço na Mesa, de comissões como a CCJ e a de Saúde e da relatoria do Orçamento; o vice-presidente da Câmara, Altineu Côrtes (PL-RJ), defende a composição, segundo a Gazeta do Povo. A ala bolsonarista quer candidato próprio. Nikolas Ferreira (PL-MG), deputado mais votado do país, ameaçou deixar o partido se houver apoio a Motta, e Sóstenes avalia deixar a liderança. Nikolas citou Pedro Lupion (Republicanos-PR) como um nome possível e disse não ter vaidade para insistir em candidatura própria.",
+        "O senador Flávio Bolsonaro (PL-RJ) acusa Motta de não cumprir compromissos, principalmente sobre a anistia aos condenados do 8 de janeiro. Motta, por sua vez, reúne um bloco de 15 partidos que elegeram 361 deputados, incluindo o PT, segundo a Gazeta do Povo. Na semana passada, o Novo lançou o deputado Paulo Martins (PR) para a presidência da Câmara.",
+        "Valdemar lembrou o caso de 2023, quando a falta de acordo com Rodrigo Pacheco deixou o PL isolado no Senado. A eleição das Mesas da Câmara e do Senado será em 1º de fevereiro de 2027, por voto secreto, o que aumenta a incerteza sobre dissidências."
+      ],
+      "fontes": [
+        {
+          "nome": "O Antagonista",
+          "url": "https://oantagonista.com.br/brasil/pl-nao-descarta-apoiar-alternativa-do-centrao-a-reeleicao-de-motta-1/"
+        },
+        {
+          "nome": "PB Agora (com O Globo)",
+          "url": "https://www.pbagora.com.br/noticia/politica/pl-segue-dividido-sobre-hugo-motta-valdemar-admite-lancar-candidato-proprio/"
+        },
+        {
+          "nome": "Imirante (com O Globo)",
+          "url": "https://imirante.com/noticias/brasil/2026/11/23/ipolitica-valdemar-anuncia-nova-reuniao-pl-decidir-apoio-reeleicao-hugo-motta"
+        },
+        {
+          "nome": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/republica/dosimetria-expoe-calculo-politico-de-motta-e-alcolumbre-diante-da-disputa-com-a-direita/"
+        }
+      ]
+    },
+    {
+      "secao": "STF",
+      "titulo": "Van Hattem pode virar réu por discurso feito na tribuna da Câmara, e Dino nega até a defesa oral presencial",
+      "linhaFina": "Primeira Turma julga no plenário virtual, até 30 de novembro, a denúncia da PGR por calúnia e injúria contra o delegado da PF Fábio Shor; o deputado fala em perseguição.",
+      "resumo": "A Primeira Turma do STF julga até 30 de novembro, em plenário virtual, se o deputado Marcel van Hattem (Novo-RS) vira réu por ter chamado de abusador um delegado da PF num discurso na Câmara em 2024. O relator, Flávio Dino, negou pedido de sustentação oral presencial.",
+      "texto": [
+        "A Primeira Turma do Supremo Tribunal Federal julga desde sexta-feira (20), em plenário virtual e até o dia 30, se recebe a denúncia da Procuradoria-Geral da República contra o deputado Marcel van Hattem (Novo-RS), senador eleito, por calúnia e injúria contra o delegado da Polícia Federal Fábio Alvarez Shor. Se a denúncia for aceita, Van Hattem vira réu, segundo a Gazeta do Povo e o Congresso em Foco.",
+        "A acusação nasce de um discurso feito na tribuna da Câmara em agosto de 2024, em que o deputado chamou o delegado de abusador de autoridade e disse que ele havia produzido relatórios fraudulentos, no contexto do caso do ex-assessor Filipe Martins. A PF indiciou Van Hattem em novembro de 2024, e a PGR apresentou a denúncia em abril deste ano. Shor foi nomeado em março assessor no gabinete do ministro Alexandre de Moraes, segundo o Estado de Minas.",
+        "O relator, ministro Flávio Dino, negou o pedido da defesa para tirar o caso do plenário virtual e fazer sustentação oral presencial. Van Hattem disse ao Congresso em Foco que o direito à defesa oral está sendo negado por Dino e questionou por que o ex-ministro da Justiça é o relator. Nas redes, pediu apoio e afirmou que pode pegar até quatro anos de prisão; o Novo chamou o caso de perseguição política.",
+        "A defesa sustenta que o discurso está coberto pela imunidade parlamentar. O artigo 53 da Constituição diz que deputados e senadores são invioláveis por opiniões, palavras e votos. A PGR argumenta que as falas ultrapassaram esse limite. A Gazeta do Povo registra que o STF tem adotado entendimento cada vez mais restrito da imunidade; segundo o Estado de Minas, o deputado Gilvan da Federal (PL-ES) já virou réu por calúnia contra o comandante do Exército.",
+        "Nesta fase, a turma só decide se há elementos mínimos para abrir a ação penal. O caso ainda pode ir ao plenário presencial se algum ministro pedir destaque. Van Hattem argumenta que eventual excesso deveria ser julgado pelo Conselho de Ética da Câmara."
+      ],
+      "fontes": [
+        {
+          "nome": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/vida-e-cidadania/stf-analisa-denuncia-criminal-contra-van-hattem-por-criticas-feitas-no-congresso"
+        },
+        {
+          "nome": "Congresso em Foco",
+          "url": "https://www.congressoemfoco.com.br/noticia/131745/van-hattem-diz-sofrer-perseguicao-no-stf-por-criticas-a-delegado-da-pf"
+        },
+        {
+          "nome": "Estado de Minas",
+          "url": "https://www.em.com.br/politica/2026/11/7541114-van-hattem-pede-ajuda-posso-pegar-quatro-anos-de-prisao.html"
+        }
+      ]
+    },
+    {
+      "secao": "STF",
+      "titulo": "Moraes chama Flávio de foragido e manda citá-lo por edital, sem pedir ajuda aos EUA, onde o senador está",
+      "linhaFina": "Senador tem 15 dias para responder à denúncia por calúnia contra Lula; não há mandado de prisão contra ele, e a própria PF já disse que restrição de passaporte não faz de ninguém foragido.",
+      "resumo": "O ministro Alexandre de Moraes mandou notificar o senador Flávio Bolsonaro por edital para responder, em 15 dias, à denúncia da PGR por calúnia contra Lula. Moraes reconhece que Flávio está nos EUA, mas dispensou a carta rogatória, instrumento usado quando o endereço do acusado é conhecido.",
+      "texto": [
+        "O ministro do STF Alexandre de Moraes determinou que o senador Flávio Bolsonaro (PL-RJ) seja notificado por edital para responder, em 15 dias, à denúncia da Procuradoria-Geral da República por calúnia contra o presidente Lula. A decisão foi assinada na sexta-feira (20) e divulgada nesta segunda (23), segundo O Tempo, a CartaCapital e a Agência Brasil. O prazo conta a partir do primeiro dia útil depois da publicação do edital, e os advogados também devem ser intimados.",
+        "A denúncia, apresentada em 18 de novembro, trata de uma publicação de Flávio no X, em 3 de janeiro, que associou Lula ao então presidente venezuelano Nicolás Maduro e a crimes como tráfico de drogas e de armas. A PF concluiu a investigação em junho. Em julho, Moraes devolveu o caso à PGR por entender que o senador havia mostrado que não compareceria para depor.",
+        "Na decisão, Moraes trata Flávio como foragido: diz que ele deixou o Brasil apesar do bloqueio do passaporte e está nos Estados Unidos, e cita entrevistas, como a dada ao The New York Times. Mesmo reconhecendo o país onde o senador está, dispensou a carta rogatória, o pedido de cooperação jurídica internacional previsto para quando o endereço do acusado é conhecido, e usou como precedente o caso de Eduardo Bolsonaro, citado por edital no exterior.",
+        "A Gazeta do Povo aponta que tecnicamente Flávio não é foragido, porque não há mandado de prisão contra ele, e lembra que a própria Polícia Federal, em nota de 28 de outubro, afirmou que restrições de passaporte não caracterizam a condição de foragido. Defesas de outros alvos citados por edital, como Eduardo Tagliaferro e Oswaldo Eustáquio, contestam o método; no caso de Eduardo Bolsonaro, sem resposta, a Defensoria Pública da União assumiu a defesa.",
+        "Flávio, que perdeu a eleição presidencial de outubro, já disse que a investigação cerceia sua liberdade de expressão. Depois da resposta da defesa, ou do fim do prazo, a Primeira Turma decide se recebe a denúncia e torna o senador réu."
+      ],
+      "fontes": [
+        {
+          "nome": "O Tempo",
+          "url": "https://www.otempo.com.br/politica/judiciario/2026/11/23/moraes-chama-flavio-de-foragido-e-da-15-dias-para-responder-a-denuncia-contra-lula"
+        },
+        {
+          "nome": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/republica/moraes-volta-a-dispensar-carta-aos-eua-e-intima-flavio-por-edital-em-acao-por-critica-a-lula/"
+        },
+        {
+          "nome": "CartaCapital",
+          "url": "https://www.cartacapital.com.br/justica/moraes-manda-intimar-flavio-bolsonaro-por-edital-em-caso-de-suposta-calunia-contra-lula/"
+        },
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/moraes-determina-citacao-de-flavio-sobre-calunia-contra-lula"
+        }
+      ]
+    },
+    {
+      "secao": "Caso Master",
+      "titulo": "Fachin manda à PGR os relatórios da PF sobre quatro ministros do STF, e Gilmar fica a um passo da relatoria do caso Master",
+      "linhaFina": "PF achou 303 menções a André Mendonça no celular de Vorcaro, mas nenhuma conversa direta; defesa do banqueiro quer Gilmar como relator, e Damares pede para ouvi-lo na Papuda.",
+      "resumo": "O presidente do STF, Edson Fachin, enviou à PGR os relatórios da PF que citam os ministros Moraes, Nunes Marques, Toffoli e Mendonça no caso Master, o que pode levar à troca de relator. A PF diz não ter achado conversa direta entre Mendonça e Daniel Vorcaro.",
+      "texto": [
+        "O presidente do Supremo Tribunal Federal, Edson Fachin, enviou à Procuradoria-Geral da República os relatórios da Polícia Federal que citam quatro ministros da Corte nas mensagens do banqueiro Daniel Vorcaro, dono do Banco Master: Alexandre de Moraes, Kassio Nunes Marques, Dias Toffoli e André Mendonça. A PF entregou dez relatórios, um por ministro; Fachin descartou seis, incluindo o dele, segundo a Gazeta do Povo.",
+        "O relatório sobre Mendonça, que teve o sigilo retirado a pedido do próprio ministro, tem 35 páginas e registra 303 menções a André Mendonça e 1.294 ao sobrenome nos celulares de Vorcaro. Mas a PF informou não ter encontrado registros que evidenciem diálogo direto entre os dois, segundo o Migalhas. O gabinete de Mendonça sustenta que a atuação dele foi contrária aos interesses do banqueiro num processo sobre precatórios.",
+        "O envio abre uma brecha para mudar a relatoria do caso. Fachin assumiu o processo provisoriamente em 12 de setembro, depois de ele passar de Toffoli para Mendonça em fevereiro. Se Mendonça vier a ser investigado, ficaria suspeito. A defesa de Vorcaro pediu que o decano, Gilmar Mendes, assuma o caso, com base no regimento interno, e o ministro Flávio Dino já propôs essa solução. Gilmar criticou o fato de o relatório sobre Mendonça ter sido pedido em pleno período eleitoral.",
+        "A relatoria segue com Fachin ao menos até 12 de dezembro. Até lá, o procurador-geral Paulo Gonet deve analisar os relatórios e pode pedir arquivamento ou abertura de investigação, que exigiria autorização do plenário do STF. Em entrevista na Argentina, Gilmar admitiu que o caso Master levantou suspeitas sobre ministros.",
+        "No Senado, a senadora Damares Alves (Republicanos-DF), relatora de uma proposta de fiscalização sobre a liquidação do Master, pediu a Fachin autorização para visitar Vorcaro, preso preventivamente desde março, e quer depois um depoimento público transmitido pela TV Senado."
+      ],
+      "fontes": [
+        {
+          "nome": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/republica/ato-de-fachin-abre-brecha-para-gilmar-assumir-caso-master-no-lugar-de-mendonca/"
+        },
+        {
+          "nome": "Migalhas",
+          "url": "https://www.migalhas.com.br/quentes/469023/caso-master-pf-diz-nao-ter-conversas-diretas-entre-vorcaro-e-mendonca"
+        },
+        {
+          "nome": "Gazeta do Povo (Damares)",
+          "url": "https://www.gazetadopovo.com.br/republica/damares-pede-a-fachin-autorizacao-para-visitar-vorcaro-na-papudinha/"
+        },
+        {
+          "nome": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/republica/gilmar-admite-falta-de-autocontencao-do-stf-em-gilmarpalooza-da-argentina-e-bolsonaro-segue-internado/"
+        }
+      ]
+    }
+  ],
+  "mundo": [
+    {
+      "secao": "Irã",
+      "titulo": "Irã promete usar 'todos os meios' contra o bloqueio naval dos EUA e cobra US$ 290 bilhões de Washington",
+      "linhaFina": "Teerã diz que reabre o Estreito de Ormuz em dois dias se os americanos aceitarem suas exigências; a diplomacia está parada desde o colapso do acordo de junho.",
+      "resumo": "O governo do Irã disse que usará todos os meios disponíveis contra o bloqueio naval americano aos seus portos, que chamou de agressão militar. Tribunais iranianos exigem US$ 290 bilhões de indenização dos EUA, e Teerã condiciona a reabertura de Ormuz ao fim do bloqueio.",
+      "texto": [
+        "O porta-voz do Ministério das Relações Exteriores do Irã, Esmaeil Baqaei, disse nesta segunda-feira (23) que o país usará todos os meios disponíveis para enfrentar o bloqueio naval imposto pelos Estados Unidos aos portos iranianos, que classificou como ato de agressão militar. Ele invocou o artigo 51 da Carta da ONU, que trata da legítima defesa, segundo despachos da agência AFP publicados pelo O Povo e pela CartaCapital.",
+        "O bloqueio americano foi a resposta ao cerco iraniano no Estreito de Ormuz, rota de boa parte do petróleo e do gás do mundo. Washington também anunciou sanções e criou um grupo de trabalho para cortar rotas terrestres de abastecimento do Irã. Teerã afirma que pode reabrir Ormuz em dois dias, mas só se os EUA aceitarem uma lista de exigências que inclui o fim do bloqueio.",
+        "Na mesma linha, o chefe do centro de advogados do Judiciário iraniano, Hasan Abdolianpur, disse à TV estatal que tribunais do país exigem US$ 290 bilhões dos EUA por danos e prejuízos, e que há ações contra países árabes do Golfo por permitirem o uso de seu território pelas forças americanas.",
+        "A guerra começou em 28 de fevereiro, com ataques americanos e israelenses que mataram o aiatolá Ali Khamenei, e se ampliou com mísseis e drones iranianos e com grupos apoiados por Teerã no Líbano, no Iêmen e no Iraque. As negociações estão paradas desde o colapso de um acordo de junho que previa um roteiro para uma solução permanente. Segundo o Times of Israel, Trump escreveu na Truth Social que o Irã aumentou os ataques com drones e mísseis depois das eleições de meio de mandato nos EUA.",
+        "Não há rodada de negociação marcada. O petróleo caro já entrou nas contas brasileiras: a Fazenda elevou nesta segunda para US$ 95,20 a previsão do barril de Brent em 2027."
+      ],
+      "fontes": [
+        {
+          "nome": "O Povo (AFP)",
+          "url": "https://www.opovo.com.br/noticias/mundo/2026/11/23/ira-promete-usar-todos-os-recursos-possiveis-para-enfrentar-bloqueio-americano.html"
+        },
+        {
+          "nome": "CartaCapital (AFP)",
+          "url": "https://www.cartacapital.com.br/mundo/ira-promete-usar-todos-os-recursos-possiveis-para-enfrentar-bloqueio-dos-eua/"
+        },
+        {
+          "nome": "The Times of Israel",
+          "url": "https://www.timesofisrael.com/liveblog-november-23-2026/"
+        },
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/fazenda-reduz-previsao-do-pib-e-eleva-inflacao-para-2027"
+        }
+      ]
+    },
+    {
+      "secao": "Ucrânia",
+      "titulo": "Ucrânia afunda corveta russa num porto da Líbia com sete drones navais, e Zelensky assume a autoria",
+      "linhaFina": "A Merkury, em serviço desde 2023, estava em Benghazi para reabastecer; governo líbio do leste pede investigação na ONU, e Merz diz que a Europa está pronta para negociar com Moscou.",
+      "resumo": "Zelensky confirmou que drones navais ucranianos afundaram a corveta russa Merkury no porto de Benghazi, na Líbia, e atingiram um cargueiro russo. O Kremlin disse apenas que tomou nota; o governo de Benghazi e a missão da ONU pediram investigação.",
+      "texto": [
+        "O presidente da Ucrânia, Volodymyr Zelensky, confirmou nesta segunda-feira (23) que forças ucranianas afundaram a corveta russa Merkury no porto de Benghazi, na Líbia, no domingo (22). Ele chamou a ação de operação ucraniana exemplar em resposta à guerra da Rússia. Segundo o Serviço de Segurança da Ucrânia (SBU), sete drones navais de fabricação ucraniana foram levados até a área por um navio-mãe e lançados à água, informaram a ABC News e a CNN Portugal.",
+        "A Merkury, da classe Projeto 20380, entrou em serviço em 2023 na frota do Mar Negro. Imagens de satélite publicadas pela Al Jazeera mostram o navio quase todo submerso, só com a proa fora da água. Zelensky disse que um helicóptero russo Ka-27 foi destruído e que o cargueiro MV Angara, sob sanções e usado, segundo Kiev, para transportar armas, foi atingido; os danos não foram divulgados. Segundo a agência Lusa, é a primeira vez que Zelensky reivindica pessoalmente uma operação desse tipo.",
+        "O porta-voz do Kremlin, Dmitry Peskov, disse que Moscou tomou nota da declaração. O governo de Benghazi, rival do governo de Trípoli reconhecido pela ONU, afirmou que o navio tinha atracado para reabastecer sob um acordo com a Rússia, condenou o ataque como violação da soberania e abriu uma investigação conjunta com os russos. A missão da ONU na Líbia pediu apuração independente e disse que o país não pode virar campo de batalha de conflitos estrangeiros.",
+        "Fontes locais ouvidas pela Al Jazeera falam em mortos, sem número oficial. Na mesma noite, um navio mercante de bandeira maltesa foi atingido ao largo de Benghazi; a tripulação foi resgatada. Segundo a AP, citada pela Al Jazeera, os drones teriam partido de uma base operada por ucranianos no oeste da Líbia, informação não confirmada por Kiev.",
+        "Zelensky disse que as operações continuam. Em Berlim, o chanceler alemão Friedrich Merz afirmou, ao lado do secretário-geral da Otan, Mark Rutte, que a Europa está pronta para negociar com a Rússia, possivelmente em Abu Dhabi, se Moscou aceitar o formato com Ucrânia, EUA e europeus."
+      ],
+      "fontes": [
+        {
+          "nome": "ABC News",
+          "url": "https://abcnews.com/International/ukrainian-naval-drones-sank-russias-merkury-warship-libya/story?id=138369738"
+        },
+        {
+          "nome": "CNN Portugal",
+          "url": "https://cnnportugal.iol.pt/ucrania/guerra-na-ucrania/transportaram-sete-drones-ate-um-navio-mae-e-lancaram-nos-debaixo-de-agua-como-a-ucrania-afundou-uma-das-corvetas-mais-recentes-da-russia-ao-largo-da-libia/20261123/6b040a5e0cf2c0fc744b7321"
+        },
+        {
+          "nome": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/22/suspected-drone-strike-hits-russian-vessel-in-libya"
+        },
+        {
+          "nome": "DN (Lusa)",
+          "url": "https://www.dn.pt/internacional/kiev-reivindicou-ataque-contra-dois-navios-russos-ao-largo-da-lbia"
+        },
+        {
+          "nome": "O Povo (Estadão Conteúdo)",
+          "url": "https://www.opovo.com.br/noticias/mundo/2026/11/23/merz-diz-que-europa-esta-pronta-para-negociar-com-a-russia-sobre-ucrania.html"
+        }
+      ]
+    },
+    {
+      "secao": "EUA",
+      "titulo": "Nvidia devolve o comando a Jensen Huang 11 dias depois da saída, e Trump diz: 'Eu os convenci'",
+      "linhaFina": "Conselho tinha rejeitado a volta na semana passada; Casa Branca mandou o vice JD Vance negociar e garantiu que o retorno não traz risco à segurança nacional.",
+      "resumo": "O conselho da Nvidia reconduziu Jensen Huang como presidente e CEO, poucos dias depois de rejeitar sua volta. Trump disse à CNBC que convenceu a empresa e que o governo não vê risco à segurança nacional no retorno; Huang deve depor ao Congresso em 1º de dezembro.",
+      "texto": [
+        "O conselho de administração da Nvidia reconduziu nesta segunda-feira (23) Jensen Huang, cofundador da empresa, aos cargos de presidente e CEO, 11 dias depois de ele ter deixado o comando, em 12 de novembro. Em comunicado, o presidente do conselho, Harvey C. Jones, disse que o colegiado acredita que Huang é a pessoa certa para liderar a Nvidia, segundo a agência Lusa, em texto publicado pelo Notícias ao Minuto.",
+        "A volta teve a digital da Casa Branca. Trump disse à CNBC que convenceu o conselho e que falou com Huang no domingo. Segundo fonte citada pela AP, o vice-presidente JD Vance atuou junto aos conselheiros no fim de semana. O governo garantiu à empresa que o retorno não levanta preocupações de segurança nacional, e Trump afirmou que o procurador-geral confirmou não haver evidências de conduta ilícita de Huang, segundo O Antagonista. Na Truth Social, chamou a decisão de ótima.",
+        "Huang saiu em meio a um escândalo pessoal e a suspeitas, que Pequim rejeita, de que tenha sido alvo de uma operação de espionagem chinesa; a empresa abriu investigação interna. Na teleconferência de resultados da semana passada, o conselho havia aceitado por unanimidade a saída e dito que não pretendia reconduzi-lo, segundo a Euronews. Uma petição de apoio ao executivo passou de 206 mil assinaturas, das quais mais de 10 mil de pessoas que se dizem funcionárias da empresa.",
+        "A crise derrubou as ações. Na sexta-feira (20), os papéis fecharam perto de US$ 125,50, cerca de 48% abaixo da máxima de outubro, depois de caírem 14% num só dia com a notícia de que a SEC, a CVM americana, poderia analisar problemas contábeis. Foi a sétima semana seguida de queda.",
+        "Huang deve ser ouvido a portas fechadas por três comissões da Câmara dos Representantes em 1º de dezembro. A investigação externa conduzida por um escritório de advocacia continua, e o Senado americano ainda não marcou a audiência pública prometida."
+      ],
+      "fontes": [
+        {
+          "nome": "Notícias ao Minuto (Lusa)",
+          "url": "https://www.noticiasaominuto.com/tech/3088997/trump-designou-vance-como-emissario-para-conseguir-regresso-de-huang-como-ceo-da-nvidia"
+        },
+        {
+          "nome": "O Antagonista",
+          "url": "https://oantagonista.com.br/mundo/trump-diz-que-convenceu-nvidia-a-reconduzir-huang-como-ceo/"
+        },
+        {
+          "nome": "Euronews",
+          "url": "https://pt.euronews.com/2026/11/23/estados-unidos-trump-pede-ao-conselho-da-nvidia-que-reintegre-jensen-huang"
+        }
+      ]
+    },
+    {
+      "secao": "Israel",
+      "titulo": "Eisenkot tem o mandato para governar Israel, mas negociação com Netanyahu emperra e cresce a chance de governo minoritário",
+      "linhaFina": "Nenhum bloco fez maioria no Knesset: o de Netanyahu tem 53 das 120 cadeiras e o de Eisenkot, 48; o prazo é de 28 dias, prorrogáveis por mais 14.",
+      "resumo": "Quase um mês depois da eleição, Israel segue sem governo. Gadi Eisenkot, que recebeu do presidente Herzog o mandato para formar coalizão, negocia sem avanço com o Likud de Netanyahu e pode tentar um governo minoritário; Netanyahu diz que a maioria quer união nacional.",
+      "texto": [
+        "Israel continua sem novo governo quase um mês depois da eleição de 27 de outubro. O deputado Gadi Eisenkot, líder do partido Yashar, que recebeu do presidente Isaac Herzog o mandato para formar a coalizão, negocia sem progresso significativo com o Likud do primeiro-ministro Benjamin Netanyahu, com os partidos ultraortodoxos e com os árabes, segundo o Times of Israel e o Jerusalem Post.",
+        "Os números explicam o impasse. O Likud foi o partido mais votado, com 27 cadeiras, seguido pelo Yashar, com 21, e pelo B'Yachad, de Naftali Bennett, com 12. O bloco de Netanyahu soma 53 das 120 cadeiras do Knesset, e o bloco liderado por Eisenkot, 48; os partidos árabes têm 19. O comparecimento foi de 77,7%, 7,1 pontos acima de 2022.",
+        "Segundo a emissora pública Kan, citada pelo Times of Israel, Eisenkot pretende anunciar em algumas semanas que formou uma coalizão e levá-la a voto no Knesset em um ou dois dias, para reduzir as manobras contrárias, ainda que sem o apoio de parte de seus aliados, o que pode significar um governo minoritário. Fontes do Likud dizem que o Yashar não quer, de fato, um governo de união e acusam Eisenkot de buscar apoio de partidos árabes.",
+        "Netanyahu afirmou que a maioria dos israelenses quer um governo de união e que há desejo de acordos para acabar com a divisão. Bennett apoia publicamente a união entre Likud e Yashar desde que liderada por Eisenkot, enquanto o líder dos Democratas, Yair Golan, alertou contra qualquer governo com Netanyahu, segundo o Jerusalem Post.",
+        "Eisenkot tem 28 dias para formar governo, prorrogáveis por mais 14. Se ninguém conseguir maioria, o país pode voltar às urnas. Enquanto isso, Netanyahu segue no cargo em meio à guerra com o Irã, cuja ameaça ele classificou como real."
+      ],
+      "fontes": [
+        {
+          "nome": "The Jerusalem Post",
+          "url": "https://www.jpost.com/israel-election-2026/2026-11-23/live-updates-915767"
+        },
+        {
+          "nome": "The Times of Israel",
+          "url": "https://www.timesofisrael.com/liveblog-november-23-2026/"
+        }
+      ]
+    }
+  ],
+  "cultura": [],
+  "paraEntender": {
+    "titulo": "Quem disputa o comando do Congresso em 1º de fevereiro",
+    "itens": [
+      "Câmara — Hugo Motta (Republicanos-PB) tenta a reeleição com um bloco de 15 partidos que elegeram 361 deputados, incluindo o PT.",
+      "PL — maior bancada, com 121 deputados, ainda não decidiu; Valdemar marcou nova reunião antes de 20/12, e Luiz Philippe de Orleans e Bragança (SP) pôs o nome.",
+      "Novo — lançou o deputado Paulo Martins (PR) contra Motta.",
+      "Senado — Rogério Marinho (PL-RN) é o candidato do PL, com apoio do Novo, contra Davi Alcolumbre (União-AP); Tereza Cristina (PP-MS) mantém o nome à disposição.",
+      "A conta — no Senado são 41 votos de 81 no primeiro turno; o PL terá 29 senadores a partir de 2027. Na Câmara, maioria absoluta de 257.",
+      "O voto — é secreto nas duas Casas, o que torna as traições difíceis de prever."
+    ],
+    "fontes": [
+      {
+        "nome": "Gazeta do Povo",
+        "url": "https://www.gazetadopovo.com.br/republica/dosimetria-expoe-calculo-politico-de-motta-e-alcolumbre-diante-da-disputa-com-a-direita/"
+      },
+      {
+        "nome": "O Antagonista",
+        "url": "https://oantagonista.com.br/brasil/pl-nao-descarta-apoiar-alternativa-do-centrao-a-reeleicao-de-motta-1/"
+      },
+      {
+        "nome": "PB Agora (com O Globo)",
+        "url": "https://www.pbagora.com.br/noticia/politica/pl-segue-dividido-sobre-hugo-motta-valdemar-admite-lancar-candidato-proprio/"
+      }
+    ]
+  },
+  "breves": [
+    {
+      "texto": "Internado desde sexta (20) com abdome agudo obstrutivo, Bolsonaro segue sem previsão de alta; a defesa pediu a Moraes que o advogado João Henrique de Freitas possa visitá-lo durante toda a internação.",
+      "fonte": {
+        "nome": "Gazeta do Povo",
+        "url": "https://www.gazetadopovo.com.br/republica/sem-previsao-deixar-hospital-bolsonaro-pede-moraes-receber-advogado/"
+      }
+    },
+    {
+      "texto": "Em fórum em Buenos Aires, o ministro Gilmar Mendes admitiu que o STF pode ter se tornado importante demais e que falta autocontenção à Corte em disputas políticas.",
+      "fonte": {
+        "nome": "Gazeta do Povo",
+        "url": "https://www.gazetadopovo.com.br/republica/gilmar-admite-falta-de-autocontencao-do-stf-em-gilmarpalooza-da-argentina-e-bolsonaro-segue-internado/"
+      }
+    },
+    {
+      "texto": "O ajuste fiscal votado na Câmara permite tirar até R$ 10,5 bilhões em subsídios ao diesel do cálculo da meta fiscal de 2026.",
+      "fonte": {
+        "nome": "CenárioMT",
+        "url": "https://cenariomt.com.br/cenario-politico/deputados-votam-pacote-que-corta-incentivos-e-tira-r-105-bi-do-diesel-da-meta"
+      }
+    },
+    {
+      "texto": "Na véspera da votação, o relator do ajuste, Mauro Benevides Filho (União-CE), prometeu levar ao Planalto no início de dezembro a proposta de tirar os investimentos públicos das regras fiscais.",
+      "fonte": {
+        "nome": "Gazeta do Povo (relator)",
+        "url": "https://www.gazetadopovo.com.br/republica/relator-promete-novas-sugestoes-fiscais-governo-lula-proxima-semana/"
+      }
+    },
+    {
+      "texto": "A Otan comprometeu 70 bilhões de euros por ano em 2026 e 2027 para a Ucrânia, lembrou o chanceler alemão, Friedrich Merz, ao defender uma paz justa e duradoura.",
+      "fonte": {
+        "nome": "O Povo (Estadão Conteúdo)",
+        "url": "https://www.opovo.com.br/noticias/mundo/2026/11/23/merz-diz-que-europa-esta-pronta-para-negociar-com-a-russia-sobre-ucrania.html"
+      }
+    }
+  ]
+}
