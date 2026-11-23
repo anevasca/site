@@ -616,8 +616,10 @@ window.addEventListener("hashchange",function(){if(location.hash.indexOf("#redac
     ouvir = {i:0, vel:0, tocando:false, tok:0, modo:"?"};
     // Áudio gravado com voz neural (se existir); senão, voz do aparelho
     var au = new Audio(); au.preload = "metadata"; ouvirAudio = au;
-    au.addEventListener("loadedmetadata", function(){ if(o.modo !== "tts"){ o.modo = "audio"; pinta(0); } });
-    au.addEventListener("error", function(){ if(o.modo === "?") o.modo = "tts"; });
+    var rot = el.querySelector(".ouvir-rot");
+    function rotulo(){ rot.textContent = "Ouvir notícia" + (o.modo === "audio" ? " · voz Francisca" : o.modo === "tts" ? " · voz do aparelho" : ""); }
+    au.addEventListener("loadedmetadata", function(){ if(o.modo !== "tts"){ o.modo = "audio"; pinta(0); rotulo(); } });
+    au.addEventListener("error", function(){ if(o.modo === "?"){ o.modo = "tts"; rotulo(); } });
     au.addEventListener("timeupdate", function(){ if(o.modo === "audio" && au.duration) pinta(au.currentTime / au.duration); });
     au.addEventListener("ended", function(){ o.tocando = false; icone(); au.currentTime = 0; pinta(0); });
     au.src = AUDIO_BASE + a.id + ".mp3";
@@ -651,7 +653,7 @@ window.addEventListener("hashchange",function(){if(location.hash.indexOf("#redac
       speechSynthesis.speak(u);
     }
     function recomeca(){ o.tok++; speechSynthesis.cancel(); if(o.tocando) setTimeout(fala, 60); }
-    function tts(){ o.modo = "tts"; o.tocando = true; speechSynthesis.cancel(); setTimeout(fala, 60); icone(); }
+    function tts(){ o.modo = "tts"; rotulo(); o.tocando = true; speechSynthesis.cancel(); setTimeout(fala, 60); icone(); }
     play.addEventListener("click", function(){
       if(o.tocando){ o.tocando = false; o.tok++; if(o.modo === "audio") au.pause(); else speechSynthesis.cancel(); icone(); return; }
       if(o.modo === "tts"){ tts(); return; }
