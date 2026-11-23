@@ -20,7 +20,12 @@ EDITORIAL_RESERVA = "pt-BR-AntonioNeural"
 # tom sóbrio: (velocidade, altura) de cada voz
 PROSODIA = {}  # velocidade e altura normais: deixar lento deixou as vozes robóticas
 VERSAO = "v3-originais"
-USAR_TRILHA = False  # liga quando o Junior aprovar a música (trilha/opcoes/)
+USAR_TRILHA = False  # liga quando o Junior aprovar a música
+# Episódio de TESTE (workflow teste-podcast.yml): não substitui o episódio publicado.
+EP_TESTE = os.environ.get("PODCAST_TESTE", "")  # rótulo do teste, ex.: "rapida10"
+VELOCIDADE = os.environ.get("PODCAST_VELOCIDADE", "+0%")
+if EP_TESTE:
+    USAR_TRILHA = os.environ.get("PODCAST_TRILHA", "1") == "1"
 TAG = "audio"
 REPO = os.environ.get("GITHUB_REPOSITORY", "anevasca/site")
 TESTE = "--teste" in sys.argv
@@ -92,9 +97,9 @@ def fala(texto, voz, destino):
         return
     vozes = [EDITORIAL_RESERVA] if voz == EDITORIAL else [voz]
     for v in vozes:
-        rate, pitch = PROSODIA.get(v, ("+0%", "+0Hz"))
+        rate, pitch = PROSODIA.get(v, (VELOCIDADE, "+0Hz"))
         if v == EDITORIAL_RESERVA and voz == EDITORIAL:
-            rate, pitch = "+0%", "-4Hz"  # editorial: Antonio um pouco mais grave, na velocidade normal
+            rate, pitch = VELOCIDADE, "-4Hz"  # editorial: Antonio um pouco mais grave, na velocidade normal
         for _ in range(3):
             try:
                 asyncio.run(_fala(texto, v, destino, rate, pitch)); return
@@ -115,7 +120,7 @@ def gh(*args, check=True):
 
 def main():
     ed = json.load(open("edicao.json", encoding="utf-8"))
-    nome = f"pod-{ed['data']}.mp3"
+    nome = f"teste-{EP_TESTE}-pod-{ed['data']}.mp3" if EP_TESTE else f"pod-{ed['data']}.mp3"
     R = roteiro(ed)
     col = coluna_do_dia(ed)
     assinatura = hashlib.sha1(json.dumps([VERSAO, R, col[1] if col else None], ensure_ascii=False).encode()).hexdigest()[:12]
@@ -127,7 +132,7 @@ def main():
                 marcas = json.load(open(f"{pasta}/marcas-podcast.json", encoding="utf-8"))
             except Exception:
                 marcas = {}
-        if marcas.get(nome) == assinatura:
+        if not EP_TESTE and marcas.get(nome) == assinatura:
             print("episódio já está em dia:", nome); return
     pausa = f"{pasta}/pausa.mp3"
     subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono",
@@ -151,15 +156,26 @@ def main():
     partes.append(fim)
     if USAR_TRILHA and os.path.exists(trilha_fim):
         partes += [pausa, trilha_fim]
+    # tudo para WAV no mesmo formato antes de juntar (vozes e música têm taxas diferentes)
+    taxa = "44100" if USAR_TRILHA else "24000"
+    wavs, feitos = [], {}
+    for k, p in enumerate(partes):
+        if p not in feitos:
+            w = f"{pasta}/w{k:03d}.wav"
+            subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", p, "-ac", "1", "-ar", taxa, w], check=True)
+            feitos[p] = w
+        wavs.append(feitos[p])
     lista = f"{pasta}/lista.txt"
-    open(lista, "w").write("".join(f"file '{p}'\n" for p in partes))
+    open(lista, "w").write("".join(f"file '{p}'\n" for p in wavs))
     saida = f"{pasta}/{nome}"
     subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-f", "concat", "-safe", "0", "-i", lista,
-                    "-ac", "1", "-ar", "24000", "-b:a", "48k", saida], check=True)
+                    "-ac", "1", "-ar", "44100" if USAR_TRILHA else "24000", "-b:a", "96k" if USAR_TRILHA else "48k", saida], check=True)
     print(f"episódio {nome}: {duracao(saida) / 60:.1f} min")
     if TESTE:
         os.replace(saida, f"/tmp/{nome}"); print("teste salvo em /tmp/" + nome); return
     gh("release", "upload", TAG, saida, "--clobber")
+    if EP_TESTE:
+        print("teste enviado:", nome); return
     marcas[nome] = assinatura
     json.dump(marcas, open(f"{pasta}/marcas-podcast.json", "w", encoding="utf-8"))
     gh("release", "upload", TAG, f"{pasta}/marcas-podcast.json", "--clobber")

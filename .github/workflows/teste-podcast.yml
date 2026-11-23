@@ -1,0 +1,37 @@
+name: Teste do podcast (não publica)
+
+# Gera episódios de TESTE para o editor ouvir antes de aprovar mudanças.
+# Sobe para a release "audio" como teste-<rótulo>-pod-AAAA-MM-DD.mp3; o episódio publicado não muda.
+on:
+  workflow_dispatch:
+    inputs:
+      velocidades:
+        description: "Velocidades a testar, separadas por espaço (ex.: +8% +15%)"
+        default: "+8% +15%"
+      trilha:
+        description: "Com música (1) ou sem (0)"
+        default: "1"
+
+permissions:
+  contents: write
+
+jobs:
+  teste:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install edge-tts
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Gera os testes
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PODCAST_TRILHA: ${{ inputs.trilha }}
+        run: |
+          for v in ${{ inputs.velocidades }}; do
+            rotulo="vel$(echo "$v" | tr -dc '0-9')"
+            PODCAST_TESTE="$rotulo" PODCAST_VELOCIDADE="$v" python ferramentas/gerar_podcast.py
+          done
