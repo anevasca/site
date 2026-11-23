@@ -36,6 +36,19 @@ jobs:
         run: python ferramentas/gerar_audio.py || echo "áudio falhou; o site sobe mesmo assim"
         env:
           GH_TOKEN: ${{ github.token }}
+      - name: Sobe os podcasts gravados (branches gravacao-AAAA-MM-DD) cuja edição já está no ar
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git fetch --depth=1 origin '+refs/heads/gravacao-*:refs/remotes/origin/gravacao-*' || true
+          hoje=$(python3 -c "import json;print(json.load(open('edicao.json'))['data'])")
+          for b in $(git branch -r --list 'origin/gravacao-*'); do
+            d=${b#origin/gravacao-}
+            if [[ "$d" > "$hoje" ]]; then echo "podcast de $d espera a edição ir ao ar"; continue; fi
+            git show "$b:podcast/pod-$d.mp3" > "/tmp/pod-$d.mp3" && \
+              gh release upload audio "/tmp/pod-$d.mp3" --clobber --repo "$GITHUB_REPOSITORY" && \
+              git push origin --delete "gravacao-$d" && echo "podcast de $d publicado"
+          done
       - name: Monta o site com os áudios
         run: |
           mkdir -p _site
