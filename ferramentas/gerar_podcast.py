@@ -14,7 +14,7 @@ Roda no GitHub Actions (.github/workflows/publicar.yml). Uso local para teste:
 """
 import asyncio, datetime, hashlib, json, os, re, subprocess, sys, tempfile
 
-ANCORAS = ["pt-BR-AntonioNeural", "pt-BR-FranciscaNeural"]  # homem, mulher (vozes originais, velocidade normal)
+ANCORAS = ["pt-BR-AntonioNeural", os.environ.get("PODCAST_FEMININA") or "pt-BR-FranciscaNeural"]  # homem, mulher
 EDITORIAL = "pt-BR-AntonioNeural#editorial"  # editorial: sempre voz masculina, mais grave
 EDITORIAL_RESERVA = "pt-BR-AntonioNeural"
 # tom sóbrio: (velocidade, altura) de cada voz

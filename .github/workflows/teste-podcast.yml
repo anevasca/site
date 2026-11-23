@@ -11,6 +11,9 @@ on:
       trilha:
         description: "Com música (1) ou sem (0)"
         default: "1"
+      feminina:
+        description: "Voz feminina das âncoras"
+        default: "pt-BR-ThalitaMultilingualNeural"
 
 permissions:
   contents: write
@@ -30,6 +33,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           PODCAST_TRILHA: ${{ inputs.trilha }}
+          PODCAST_FEMININA: ${{ inputs.feminina }}
         run: |
           for v in ${{ inputs.velocidades }}; do
             rotulo="vel$(echo "$v" | tr -dc '0-9')"
