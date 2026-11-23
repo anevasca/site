@@ -602,7 +602,7 @@ window.addEventListener("hashchange",function(){if(location.hash.indexOf("#redac
 
   // ---------- PODCAST "Nevasca em 10 minutos" na capa (aparece só quando o episódio existe) ----------
   function podcastCapa(ed){
-    var url = AUDIO_BASE + "pod-" + ed.data + ".mp3", a = new Audio();
+    var url = AUDIO_BASE + "pod-" + ed.data + ".mp3?t=" + Math.floor(Date.now()/600000), a = new Audio();
     a.preload = "metadata";
     a.addEventListener("loadedmetadata", function(){
       var el = document.getElementById("podcast-capa"); if(!el) return;

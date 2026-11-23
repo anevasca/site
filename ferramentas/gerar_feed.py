@@ -41,7 +41,7 @@ for arq in sorted(glob.glob(f"{site}/audio/pod-*.mp3"), reverse=True)[:120]:
       <link>{BASE}/#ed-{data}</link>
       <guid isPermaLink="false">anevasca-pod-{data}</guid>
       <pubDate>{quando}</pubDate>
-      <enclosure url="{BASE}/audio/pod-{data}.mp3" length="{os.path.getsize(arq)}" type="audio/mpeg"/>
+      <enclosure url="{BASE}/audio/pod-{data}.mp3?v={os.path.getsize(arq)}" length="{os.path.getsize(arq)}" type="audio/mpeg"/>
       <itunes:duration>{dur(arq)}</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
