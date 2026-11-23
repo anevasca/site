@@ -1,0 +1,128 @@
+[
+  {
+    "hora": "12h00",
+    "secao": "Mercados",
+    "titulo": "Dólar bate R$ 6 pela primeira vez desde abril de 2025, horas antes de a Câmara votar o ajuste de Lula",
+    "linhaFina": "A moeda tocou a marca na manhã desta segunda e recuou um pouco em seguida; desde a reeleição, o real perdeu 17,65%, a maior queda entre as 20 moedas mais negociadas, segundo levantamento da Folha.",
+    "resumo": "O dólar chegou a R$ 6 na manhã desta segunda (23), no primeiro pregão depois do feriado, e às 10h17 valia R$ 5,9935. O Ibovespa abriu em queda. A Câmara vota à noite o ajuste fiscal, que analistas consideram insuficiente para conter a dívida.",
+    "texto": [
+      "O dólar chegou a R$ 6 na manhã desta segunda-feira (23), pela primeira vez desde abril de 2025, no primeiro pregão depois do feriado da Consciência Negra. Depois de tocar a marca, a moeda recuou um pouco: às 10h17 era negociada a R$ 5,9935, alta de cerca de 1%, segundo a Gazeta do Povo e o Diário do Nordeste. Por volta das 10h51, estava em R$ 5,983, alta de 0,82%, segundo a Folhapress. O Ibovespa abriu em queda de 0,61%, aos 165.366 pontos.",
+      "O último fechamento acima de R$ 6 foi em 8 de abril de 2025, a R$ 6,0109. Na quinta-feira (19), último pregão antes do feriado, o dólar havia fechado a R$ 5,931, depois de seis altas seguidas e de um ganho de 4,87% na semana. Naquele dia, o Banco Central vendeu US$ 1 bilhão no mercado à vista, sem conseguir segurar a alta.",
+      "O pano de fundo é a votação do ajuste fiscal do governo, o chamado Plano Moretti, marcada para a sessão extraordinária da Câmara às 18h desta segunda. O texto, aprovado pelo Senado na semana passada por 45 votos a 31, promete economizar até R$ 50 bilhões em 2027, cerca de dois terços com aumento de receita. Analistas avaliam que a medida não basta para estabilizar a dívida pública, projetada em 83,7% do PIB no fim de 2026, o maior nível em cinco anos.",
+      "Levantamento da Folha de S.Paulo divulgado nesta segunda, com as 20 moedas mais negociadas do mundo, mostra que o real perdeu 17,65% desde a reeleição de Lula, em 25 de outubro. É a maior queda da lista. Em seguida vêm o rand sul-africano (6,08%), o dólar australiano (5,43%) e a coroa norueguesa (4,64%).",
+      "O cenário externo também pesa. Investidores esperam uma alta de juros nos Estados Unidos, e o índice que mede o dólar contra outras moedas fortes está no maior patamar desde abril de 2025, segundo a Folhapress. Para Leonardo Mendes, da Manchester Investimentos, \"o equilíbrio cambial não será construído por meio de leilões\"."
+    ],
+    "fontes": [
+      {
+        "nome": "Gazeta do Povo",
+        "url": "https://www.gazetadopovo.com.br/economia/dolar-dispara-6-enquanto-mercado-aguarda-votacao-ajuste-fiscal-lula/"
+      },
+      {
+        "nome": "Gazeta do Povo (levantamento da Folha)",
+        "url": "https://www.gazetadopovo.com.br/economia/real-lidera-desvalorizacao-mundial-perde-17-65-apos-vitoria-lula/"
+      },
+      {
+        "nome": "O Tempo (Folhapress)",
+        "url": "https://otempo.com.br/economia/2026/11/23/dolar-abre-em-alta-e-supera-r-6-com-votacao-de-pacote-fiscal-e-aversao-global-ao-risco-no-radar"
+      },
+      {
+        "nome": "Diário do Nordeste",
+        "url": "https://diariodonordeste.verdesmares.com.br/negocios/dolar-chega-a-r-6-e-ibovespa-cai-com-expectativa-de-votacao-de-ajuste-fiscal-1.3807641"
+      },
+      {
+        "nome": "Gazeta do Povo (votação na Câmara)",
+        "url": "https://www.gazetadopovo.com.br/republica/camara-vota-ajuste-fiscal-lula-nesta-segunda-ritmo-acelerado/"
+      }
+    ],
+    "grafico": {
+      "tipo": "barras",
+      "titulo": "O real na lanterna",
+      "subtitulo": "Desvalorização desde a reeleição de Lula (25/10), entre as 20 moedas mais negociadas",
+      "prefixo": "",
+      "sufixo": "%",
+      "casas": 2,
+      "dados": [
+        {
+          "rotulo": "Real",
+          "valor": 17.65,
+          "destaque": true
+        },
+        {
+          "rotulo": "Rand sul-africano",
+          "valor": 6.08
+        },
+        {
+          "rotulo": "Dólar australiano",
+          "valor": 5.43
+        },
+        {
+          "rotulo": "Coroa norueguesa",
+          "valor": 4.64
+        }
+      ],
+      "fonte": {
+        "nome": "Folha de S.Paulo, via Gazeta do Povo",
+        "url": "https://www.gazetadopovo.com.br/economia/real-lidera-desvalorizacao-mundial-perde-17-65-apos-vitoria-lula/"
+      }
+    }
+  },
+  {
+    "hora": "12h00",
+    "secao": "Economia",
+    "titulo": "Mercado já vê Selic de 13% no fim de 2027, com inflação acima de 5% e PIB de só 1%",
+    "linhaFina": "Boletim Focus do Banco Central divulgado nesta segunda também eleva a previsão do dólar no fim deste ano de R$ 5,40 para R$ 5,55; quatro semanas atrás, era R$ 5,05.",
+    "resumo": "O Boletim Focus desta segunda (23) elevou de 12,75% para 13% a Selic prevista para o fim de 2027 e subiu as projeções de inflação para 2026 (5,15%) e 2027 (5,12%). O PIB de 2027 caiu a 1%, e o dólar esperado no fim do ano foi a R$ 5,55.",
+    "texto": [
+      "Os economistas ouvidos pelo Banco Central passaram a prever juros mais altos, inflação maior e crescimento menor para o ano que vem. Segundo o Boletim Focus divulgado nesta segunda-feira (23), a Selic deve terminar 2027 em 13% ao ano, ante 12,75% na semana anterior. Para o fim de 2026, a previsão segue em 13,75%, a taxa atual. Para 2028 e 2029, as projeções seguem em 11% e 10,50%.",
+      "A projeção para o IPCA de 2026 subiu de 5,11% para 5,15%. Para 2027, a alta foi maior: de 5% para 5,12%. As estimativas para 2028 e 2029 ficaram estáveis em 4%. O IGP-M de 2026 passou de 6,22% para 6,33%. Os preços administrados, como energia e combustíveis, devem subir 4,87% em 2027, ante 4,70% na semana anterior; para 2026, a estimativa caiu de 4,46% para 4,40%.",
+      "O câmbio teve a revisão mais forte. O dólar esperado para o fim de 2026 foi de R$ 5,40 para R$ 5,55; quatro semanas atrás, era R$ 5,05, segundo O Antagonista. Para o fim de 2027, a projeção passou de R$ 5,45 para R$ 5,50. Mesmo assim, as estimativas ficam abaixo da cotação desta manhã, quando a moeda chegou a R$ 6. Para 2028, a projeção foi de R$ 5,48 para R$ 5,50.",
+      "No crescimento, a previsão do PIB de 2026 recuou de 1,72% para 1,70%, e a de 2027 caiu de 1,02% para 1%. Para 2028, a estimativa foi de 1,80% para 1,71%.",
+      "O Focus sai no dia em que a Câmara vota, em sessão extraordinária, o ajuste fiscal do governo, e a duas semanas da próxima reunião do Copom, marcada para 8 e 9 de dezembro. Em novembro, o comitê manteve a Selic em 13,75% e interrompeu o ciclo de cortes. Na mesma manhã, a moeda americana tocou R$ 6 pela primeira vez desde abril de 2025."
+    ],
+    "fontes": [
+      {
+        "nome": "IstoÉ Dinheiro",
+        "url": "https://istoedinheiro.com.br/boletim-focus-hoje-23-11-2026-inflacao-dolar-selic"
+      },
+      {
+        "nome": "Times Brasil",
+        "url": "https://timesbrasil.com.br/brasil/boletim-focus-eleva-previsao-de-inflacao-e-dolar-para-2026-e-2027-selic-deve-chegar-a-13-em-2027/"
+      },
+      {
+        "nome": "O Antagonista",
+        "url": "https://oantagonista.com.br/economia/boletim-focus-eleva-previsao-sobre-juro-inflacao-e-cambio-para-2027/"
+      },
+      {
+        "nome": "Gazeta do Povo",
+        "url": "https://www.gazetadopovo.com.br/economia/real-lidera-desvalorizacao-mundial-perde-17-65-apos-vitoria-lula/"
+      }
+    ],
+    "grafico": {
+      "tipo": "barras",
+      "titulo": "O dólar que o mercado espera no fim de 2026",
+      "subtitulo": "Mediana das projeções do Boletim Focus",
+      "prefixo": "R$ ",
+      "sufixo": "",
+      "casas": 2,
+      "dados": [
+        {
+          "rotulo": "4 semanas atrás",
+          "valor": 5.05
+        },
+        {
+          "rotulo": "Semana passada",
+          "valor": 5.4
+        },
+        {
+          "rotulo": "Focus de 23/11",
+          "valor": 5.55,
+          "destaque": true
+        }
+      ],
+      "fonte": {
+        "nome": "Banco Central (Boletim Focus), via O Antagonista e IstoÉ Dinheiro",
+        "url": "https://oantagonista.com.br/economia/boletim-focus-eleva-previsao-sobre-juro-inflacao-e-cambio-para-2027/"
+      }
+    }
+  }
+]
