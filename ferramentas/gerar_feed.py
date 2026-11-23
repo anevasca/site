@@ -62,8 +62,8 @@ xml = f"""<?xml version="1.0" encoding="UTF-8"?>
     <itunes:summary>{e(sobre)}</itunes:summary>
     <itunes:author>A Nevasca</itunes:author>
     <itunes:owner><itunes:name>A Nevasca</itunes:name><itunes:email>redacaoanevasca@gmail.com</itunes:email></itunes:owner>
-    <itunes:image href="{BASE}/podcast-capa.jpg"/>
-    <image><url>{BASE}/podcast-capa.jpg</url><title>Nevasca em 10 minutos</title><link>{BASE}/</link></image>
+    <itunes:image href="{BASE}/podcast-capa-v2.jpg"/>
+    <image><url>{BASE}/podcast-capa-v2.jpg</url><title>Nevasca em 10 minutos</title><link>{BASE}/</link></image>
     <itunes:category text="News"><itunes:category text="Daily News"/></itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
