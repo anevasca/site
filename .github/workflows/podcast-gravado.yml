@@ -1,0 +1,30 @@
+name: Publicar podcast gravado
+
+# O episódio gravado por Junior e Maressa (já montado com a vinheta e aprovado pelo Junior)
+# chega num branch gravacao-AAAA-MM-DD com o arquivo podcast/pod-AAAA-MM-DD.mp3.
+# Este workflow sobe o MP3 para a release "audio", republica o site (feed e player) e apaga o branch.
+on:
+  push:
+    branches: ["gravacao-*"]
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Sobe o episódio
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          ls podcast/pod-*.mp3
+          for f in podcast/pod-*.mp3; do gh release upload audio "$f" --clobber --repo "$GITHUB_REPOSITORY"; done
+      - name: Republica o site
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run publicar.yml --ref main --repo "$GITHUB_REPOSITORY"
+      - name: Apaga o branch da gravação
+        run: git push origin --delete "$GITHUB_REF_NAME"

@@ -31,7 +31,8 @@ for arq in sorted(glob.glob(f"{site}/audio/pod-*.mp3"), reverse=True)[:120]:
     man = (ed.get("manchete") or {}).get("titulo", "")
     outros = [x["titulo"] for k in ("politica", "destaques", "mundo", "cultura") for x in ed.get(k, [])][:5]
     desc = (f"Manchete: {man}. " if man else "") + ("Também: " + "; ".join(outros) + ". " if outros else "") + \
-           f"Matérias completas, com fontes: {BASE}/#ed-{data}"
+           f"Matérias completas, com fontes: {BASE}/#ed-{data}" + \
+           (" Este episódio usou vozes sintéticas, geradas por computador." if data <= "2026-11-23" else "")
     quando = email.utils.format_datetime(datetime.datetime(d.year, d.month, d.day, 5, 0,
                                                            tzinfo=datetime.timezone(datetime.timedelta(hours=-3))))
     titulo = f"{DIAS[d.weekday()]}, {d.day:02d}/{d.month:02d}/{d.year}" + (f" — {man}" if man else "")
@@ -47,10 +48,9 @@ for arq in sorted(glob.glob(f"{site}/audio/pod-*.mp3"), reverse=True)[:120]:
       <itunes:episodeType>full</itunes:episodeType>
     </item>""")
 
-sobre = ("O resumo diário do jornal A Nevasca em cerca de 10 minutos: a manchete, as principais notícias do Brasil e do mundo, "
-         "e o editorial, identificado como opinião do jornal. As notícias são checadas em pelo menos dois veículos, com as "
-         "fontes no site. As vozes dos apresentadores são sintéticas, geradas por computador. Saiba como fazemos: "
-         f"{BASE}/#como-fazemos")
+sobre = ("O resumo diário do jornal A Nevasca: a manchete e as principais notícias do Brasil e do mundo, "
+         "apresentado por Junior Neves e Maressa Neves. As notícias são checadas em pelo menos dois veículos, com as "
+         f"fontes no site. Saiba como fazemos: {BASE}/#como-fazemos")
 xml = f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
@@ -60,7 +60,7 @@ xml = f"""<?xml version="1.0" encoding="UTF-8"?>
     <language>pt-br</language>
     <description>{e(sobre)}</description>
     <itunes:summary>{e(sobre)}</itunes:summary>
-    <itunes:author>A Nevasca</itunes:author>
+    <itunes:author>A Nevasca · Junior Neves e Maressa Neves</itunes:author>
     <itunes:owner><itunes:name>A Nevasca</itunes:name><itunes:email>redacaoanevasca@gmail.com</itunes:email></itunes:owner>
     <itunes:image href="{BASE}/podcast-capa-v2.jpg"/>
     <image><url>{BASE}/podcast-capa-v2.jpg</url><title>Nevasca em 10 minutos</title><link>{BASE}/</link></image>

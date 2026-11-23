@@ -36,10 +36,6 @@ jobs:
         run: python ferramentas/gerar_audio.py || echo "áudio falhou; o site sobe mesmo assim"
         env:
           GH_TOKEN: ${{ github.token }}
-      - name: Grava o podcast do dia (Nevasca em 10 minutos)
-        run: python ferramentas/gerar_podcast.py || echo "podcast falhou; o site sobe mesmo assim"
-        env:
-          GH_TOKEN: ${{ github.token }}
       - name: Monta o site com os áudios
         run: |
           mkdir -p _site

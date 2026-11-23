@@ -276,11 +276,17 @@
   .selo-urg{font-family:var(--sans);font-size:10.5px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;background:var(--acento);color:#fff;padding:2px 6px;margin-right:6px;vertical-align:2px}
   .como .destaque-frase{font-family:var(--titulo);font-size:30px;line-height:1.15;font-weight:800;margin:6px 0 18px}
   .foto{margin:14px 0 18px}.foto img{width:100%;height:auto;display:block}.foto figcaption{font-size:13px;color:#555;margin-top:6px;font-style:italic}.foto figcaption span{font-style:normal;text-transform:uppercase;font-size:11px;letter-spacing:.5px;color:#777}.thumb{width:100%;height:auto;display:block;margin-bottom:8px}
+  .roteiro .rot-dicas{background:var(--fundo-box);padding:12px 14px;font-family:var(--sans);font-size:14px;margin:14px 0 20px}
+  .rot-bloco{border-left:5px solid var(--azul);padding:6px 0 6px 14px;margin:0 0 16px}
+  .rot-bloco.rot-m{border-left-color:var(--acento)}
+  .rot-bloco span{font-family:var(--sans);font-size:12px;font-weight:800;letter-spacing:.1em;color:var(--azul)}
+  .rot-bloco.rot-m span{color:var(--acento)}
+  .rot-bloco p{font-size:22px;line-height:1.5;margin:4px 0 0}
 </style>
 <!-- Contador de visitas (GoatCounter, sem cookies) -->
 <script>
-window.goatcounter={path:function(){return location.pathname+location.hash},no_onload:location.hash.indexOf("#redacao")===0};
-window.addEventListener("hashchange",function(){if(location.hash.indexOf("#redacao")===0)return;if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:location.pathname+location.hash})});
+window.goatcounter={path:function(){return location.pathname+location.hash},no_onload:/^#(redacao|roteiro)/.test(location.hash)};
+window.addEventListener("hashchange",function(){if(/^#(redacao|roteiro)/.test(location.hash))return;if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:location.pathname+location.hash})});
 </script>
 <script data-goatcounter="https://anevasca.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
@@ -608,7 +614,7 @@ window.addEventListener("hashchange",function(){if(location.hash.indexOf("#redac
       var el = document.getElementById("podcast-capa"); if(!el) return;
       var min = Math.max(1, Math.round(a.duration / 60));
       el.innerHTML = '<section class="podcast"><div class="pod-txt"><span class="pod-kicker">🎧 Podcast</span><strong>Nevasca em 10 minutos</strong>'+
-        '<small>O resumo desta edição em ' + min + ' minutos, com as manchetes, as notícias e o editorial.</small></div>'+
+        '<small>O resumo desta edição em ' + min + ' minutos, com Junior Neves e Maressa Neves.</small></div>'+
         '<audio controls preload="none" src="' + url + '"></audio>'+
         '<div class="pod-links"><a class="pod-spotify" href="https://open.spotify.com/show/6P4XdGoHyP2Goz3Q7Z1JPL" target="_blank" rel="noopener">▶ Ouça no Spotify</a><a href="' + url + '" download>⬇ Baixar episódio</a><a href="https://anevasca.com.br/podcast.xml" target="_blank" rel="noopener">Feed do podcast (RSS)</a></div></section>';
     });
@@ -830,6 +836,60 @@ window.addEventListener("hashchange",function(){if(location.hash.indexOf("#redac
   }
 
 
+  // Roteiro oculto do podcast (#roteiro): texto para Junior e Maressa gravarem. Não aparece no menu nem é contado.
+  var DIAS_EXT = ["domingo", "segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado"];
+  var MESES_EXT = ["janeiro","fevereiro","março","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"];
+  function pontua(t){ t = String(t || "").replace(/\s+/g, " ").trim(); return !t || /[.!?…:]$/.test(t) ? t : t + "."; }
+  function roteiroPodcast(ed, colunas){
+    var d = ed.data.split("-"), dt = new Date(+d[0], +d[1] - 1, +d[2]);
+    var quando = DIAS_EXT[dt.getDay()] + ", " + (+d[2]) + " de " + MESES_EXT[+d[1] - 1];
+    var M = "MARESSA", J = "JUNIOR", R = [];
+    var m = ed.manchete || {};
+    var outras = [].concat(ed.politica || [], ed.destaques || [], ed.mundo || [], ed.cultura || []);
+    R.push([M, "Bom dia. Hoje é " + quando + ". Este é o Nevasca em 10 minutos, o resumo do dia do jornal A Nevasca. Eu sou Maressa Neves."]);
+    R.push([J, "E eu sou Junior Neves. Os destaques desta edição."]);
+    [m.titulo].concat(outras.slice(0, 4).map(function(x){ return x.titulo; })).forEach(function(t, i){ R.push([i % 2 ? J : M, pontua(t)]); });
+    R.push([J, "A manchete. " + pontua(m.titulo) + " " + pontua(m.resumo || m.linhaFina || (m.texto || [])[0])]);
+    var vez = 1;
+    [["Em Brasília.", ed.politica], ["Na economia.", ed.destaques], ["No mundo.", ed.mundo], ["Cultura e games.", ed.cultura]].forEach(function(b){
+      (b[1] || []).forEach(function(a, j){
+        R.push([vez++ % 2 ? M : J, (j === 0 ? b[0] + " " : "") + pontua(a.titulo) + " " + pontua(a.resumo || (a.texto || [""])[0])]);
+      });
+    });
+    var col = (colunas || []).filter(function(c){ return c.data === ed.data; })[0];
+    if(col){
+      R.push([M, "E agora, a coluna O Doido Sensato, por Doido Neves: " + pontua(col.titulo)]);
+      R.push([J, (col.texto || []).map(pontua).join(" ")]);
+    }
+    R.push([M, "Este foi o Nevasca em 10 minutos. As matérias completas, com todas as fontes, estão em anevasca.com.br."]);
+    R.push([J, "Até amanhã."]);
+    return R;
+  }
+  function paginaRoteiro(data){
+    document.title = "A Nevasca — Roteiro do podcast";
+    document.getElementById("topo-data").innerHTML = "<strong>Roteiro do podcast</strong>";
+    document.getElementById("topo-atual").textContent = ""; document.getElementById("ed-num").textContent = "";
+    var alvo = document.getElementById("conteudo");
+    alvo.innerHTML = '<div class="carregando">Montando o roteiro…</div>';
+    Promise.all([carregar(data || hoje), getColunas().catch(function(){ return []; })]).then(function(r){
+      var ed = r[0], R = roteiroPodcast(ed, r[1]);
+      var palavras = R.reduce(function(s, x){ return s + x[1].split(" ").length; }, 0);
+      var datas = (listaArquivo || []).slice(0, 7).map(function(x){
+        var d = x.data.split("-"), t = d[2] + "/" + d[1];
+        return x.data === ed.data ? "<strong>" + t + "</strong>" : '<a href="#roteiro-' + x.data + '">' + t + "</a>";
+      }).join(" · ");
+      alvo.innerHTML = '<article class="criterios roteiro"><p class="kicker">Só para a redação</p><h1>Nevasca em 10 minutos</h1>' +
+        '<p class="painel-nota">Edição de ' + esc(ed.dataExtenso || ed.data) + ' · ' + R.length + ' blocos · cerca de ' + Math.round(palavras / 150) + ' minutos de leitura. Edição: ' + datas + '</p>' +
+        '<div class="rot-dicas"><strong>Como gravar:</strong> um arquivo só, no celular, num cômodo silencioso e com o celular parado entre vocês dois, a um palmo de distância. ' +
+        'Deixem uma pausa curta entre os blocos. Se errar, gravem de novo ou cortem no celular antes de mandar: eu não consigo ouvir para cortar os erros. ' +
+        'A vinheta de abertura e de encerramento eu coloco na montagem.</div>' +
+        R.map(function(x, i){
+          return '<div class="rot-bloco ' + (x[0] === "MARESSA" ? "rot-m" : "rot-j") + '"><span>' + (i + 1) + ' · ' + x[0] + '</span><p>' + esc(x[1]) + '</p></div>';
+        }).join("") + '</article>';
+      window.scrollTo(0, 0);
+    }).catch(function(){ alvo.innerHTML = '<div class="carregando">Não foi possível montar o roteiro.</div>'; });
+  }
+
   // Painel oculto da redação (#redacao): leituras por matéria. Não aparece no menu.
   function contagem(caminho){
     return fetch("https://anevasca.goatcounter.com/counter/" + encodeURIComponent(caminho) + ".json")
@@ -877,6 +937,7 @@ window.addEventListener("hashchange",function(){if(location.hash.indexOf("#redac
     if(hash === "brasilia") hash = "politica";
     getArquivo().catch(function(){}).then(function(){
       if(hash === "arquivo"){ nav(null, "arquivo"); rodapeArquivo(null); paginaArquivo(); return; }
+      if(hash.indexOf("roteiro") === 0){ nav(null, "roteiro"); rodapeArquivo(null); paginaRoteiro(hash.slice(8) || null); return; }
       if(hash.indexOf("redacao") === 0){ nav(null, "redacao"); rodapeArquivo(null); paginaRedacao(hash.slice(8) || null); return; }
       if(hash === "criterios"){ nav(null, "criterios"); rodapeArquivo(null); paginaCriterios(); return; }
       if(hash === "como-fazemos"){ nav(null, "como-fazemos"); rodapeArquivo(null); paginaComoFazemos(); return; }
