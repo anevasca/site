@@ -347,7 +347,12 @@
           "nome": "Estado de Minas",
           "url": "https://www.em.com.br/politica/2026/11/7541114-van-hattem-pede-ajuda-posso-pegar-quatro-anos-de-prisao.html"
         }
-      ]
+      ],
+      "imagem": {
+        "arquivo": "img/2026-11-24-politica-2.jpg",
+        "legenda": "Marcel van Hattem (Novo-RS) discursa na tribuna da Câmara, em foto de arquivo",
+        "credito": "Câmara dos Deputados"
+      }
     },
     {
       "secao": "STF",
