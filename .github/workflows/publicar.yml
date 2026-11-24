@@ -47,7 +47,7 @@ jobs:
             if [[ "$d" > "$hoje" ]]; then echo "podcast de $d espera a edição ir ao ar"; continue; fi
             git show "$b:podcast/pod-$d.mp3" > "/tmp/pod-$d.mp3" && \
               gh release upload audio "/tmp/pod-$d.mp3" --clobber --repo "$GITHUB_REPOSITORY" && \
-              git push origin --delete "gravacao-$d" && echo "podcast de $d publicado"
+              git push origin --delete "gravacao-$d" && echo "podcast de $d publicado" || echo "podcast de $d não publicado (sem arquivo ou erro); o site segue"
           done
       - name: Monta o site com os áudios
         run: |
