@@ -158,10 +158,43 @@ def separado(grav_j, grav_m, roteiro_json, data, saida, pendentes=""):
     shutil.rmtree(tmp, ignore_errors=True)
 
 
+TRILHA_FUNDO = os.path.join(AQUI, "..", "trilha", "fundo.mp3")
+FUNDO_VOLUME = 0.11   # ~20 dB abaixo da voz, constante (aprovado pelo Junior em 24/11/2026)
+
+
 def junta(partes, saida, tmp):
+    """Junta as partes. A vinheta final entra 0,25 s depois da última fala (sem pausa longa) e,
+    se existir trilha/fundo.mp3, ela toca baixinha e constante do fim da vinheta de abertura até a de encerramento."""
+    fecha = None
+    if partes and os.path.basename(partes[-1]).startswith("fecha"):
+        fecha = partes[-1]
+        partes = partes[:-1]
+        while partes and os.path.basename(partes[-1]).startswith(("p", "pausa", "p_fim")) and "pausa" in partes[-1] or \
+                (partes and os.path.basename(partes[-1]) in ("p_fim.wav", "p2.wav")):
+            partes = partes[:-1]
     lista = f"{tmp}/lista.txt"
     open(lista, "w").write("".join(f"file '{p}'\n" for p in partes))
-    ff("-f", "concat", "-safe", "0", "-i", lista, "-ac", "1", "-ar", SR, "-b:a", "96k", saida)
+    corpo = f"{tmp}/corpo.wav"
+    ff("-f", "concat", "-safe", "0", "-i", lista, "-ac", "1", "-ar", SR, corpo)
+    voz = corpo
+    if fecha:
+        f2, g = f"{tmp}/fecha2.wav", f"{tmp}/g.wav"
+        ff("-i", fecha, "-af", "silenceremove=start_periods=1:start_threshold=-45dB", f2)
+        silencio(0.25, g)
+        open(f"{tmp}/l2.txt", "w").write(f"file '{corpo}'\nfile '{g}'\nfile '{f2}'\n")
+        voz = f"{tmp}/voz.wav"
+        ff("-f", "concat", "-safe", "0", "-i", f"{tmp}/l2.txt", "-ac", "1", "-ar", SR, voz)
+    if os.path.exists(TRILHA_FUNDO) and os.path.exists(TRILHA_AB):
+        ini = max(0.0, dur(TRILHA_AB) - 1.5)
+        fim = dur(corpo) + 0.25 + 1.0
+        bg = f"{tmp}/bg.wav"
+        ff("-stream_loop", "20", "-i", TRILHA_FUNDO, "-t", f"{fim - ini:.2f}", "-ac", "1", "-ar", SR,
+           "-af", f"volume={FUNDO_VOLUME},afade=t=in:d=3,afade=t=out:st={max(0, fim - ini - 1.6):.2f}:d=1.6,"
+                  f"adelay={int(ini * 1000)}", bg)
+        ff("-i", voz, "-i", bg, "-filter_complex", "[0][1]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.95",
+           "-b:a", "96k", saida)
+    else:
+        ff("-i", voz, "-b:a", "96k", saida)
     print(f"{saida}: {dur(saida) / 60:.1f} min")
 
 
