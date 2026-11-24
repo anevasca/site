@@ -60,6 +60,46 @@ COMO = ("COMO GRAVAR\n"
         "- Quando terminar, mande o arquivo na mesma conversa em que recebeu este texto, dizendo de quem é (ex.: 'gravação da Maressa').\n")
 
 
+def pdf(destino, titulo, quem, blocos, pend):
+    """PDF de leitura: letra grande, um bloco por vez, marcação da pausa."""
+    try:
+        from reportlab.lib.pagesizes import A4
+        from reportlab.lib.colors import HexColor
+        from reportlab.pdfbase import pdfmetrics
+        from reportlab.pdfbase.ttfonts import TTFont
+        from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, KeepTogether, Table, TableStyle
+        from reportlab.lib.styles import ParagraphStyle
+        from reportlab.lib.units import mm
+    except ImportError:
+        return False
+    f = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "fontes")
+    pdfmetrics.registerFont(TTFont("Franklin", os.path.join(f, "LibreFranklin-Medium.ttf")))
+    pdfmetrics.registerFont(TTFont("FranklinB", os.path.join(f, "LibreFranklin-Bold.ttf")))
+    pdfmetrics.registerFontFamily("Franklin", normal="Franklin", bold="FranklinB", italic="Franklin", boldItalic="FranklinB")
+    cor = HexColor("#7a1f1f") if quem == "MARESSA" else HexColor("#1b2a41")
+    corpo = ParagraphStyle("c", fontName="Franklin", fontSize=22, leading=33, textColor=HexColor("#121212"))
+    cab = ParagraphStyle("h", fontName="FranklinB", fontSize=16, leading=20, textColor=cor, spaceAfter=6)
+    pausa = ParagraphStyle("p", fontName="FranklinB", fontSize=13, leading=16, textColor=HexColor("#8a8a8a"), spaceBefore=8)
+    topo = ParagraphStyle("t", fontName="FranklinB", fontSize=26, leading=30, textColor=cor)
+    dica = ParagraphStyle("d", fontName="Franklin", fontSize=15, leading=21, textColor=HexColor("#333333"))
+    el = [Paragraph(titulo, topo), Spacer(1, 4 * mm),
+          Paragraph("Entre um bloco e outro: <b>3 segundos de silêncio</b>. Errou: <b>8 segundos de silêncio</b> e repita o bloco. "
+                    "Ou grave <b>um áudio para cada bloco</b> (errou, apaga e grava de novo).", dica), Spacer(1, 8 * mm)]
+    for b in blocos:
+        if b in pend:
+            t = Table([[Paragraph(f"BLOCO {b['n']} — PULE AGORA (muda depois da votação)", cab)]], colWidths=[170 * mm])
+            t.setStyle(TableStyle([("BACKGROUND", (0, 0), (-1, -1), HexColor("#eeeeee")), ("BOX", (0, 0), (-1, -1), 1, HexColor("#bbbbbb")),
+                                   ("TOPPADDING", (0, 0), (-1, -1), 8), ("BOTTOMPADDING", (0, 0), (-1, -1), 8)]))
+            el += [t, Spacer(1, 10 * mm)]
+            continue
+        el.append(KeepTogether([Paragraph(f"BLOCO {b['n']}", cab), Paragraph(b["texto"], corpo),
+                                Paragraph("— pausa de 3 segundos —", pausa)]))
+        el.append(Spacer(1, 10 * mm))
+    SimpleDocTemplate(destino, pagesize=A4, leftMargin=20 * mm, rightMargin=20 * mm, topMargin=18 * mm,
+                      bottomMargin=18 * mm, title=titulo).build(el)
+    return True
+
+
 def main():
     ed_path = sys.argv[1] if len(sys.argv) > 1 else "edicao.json"
     col_path = sys.argv[2] if len(sys.argv) > 2 else "colunas.json"
@@ -93,6 +133,8 @@ def main():
         txt = (f"NEVASCA EM 10 MINUTOS · {d.day:02d}/{d.month:02d}/{d.year}\n"
                f"TEXTO DE {quem} ({len(meus)} blocos)\n\n{COMO}{aviso}\n" + corpo)
         open(f"{saida}/roteiro-{data}-{quem.lower()}.txt", "w", encoding="utf-8").write(txt)
+        pdf(f"{saida}/Podcast {d.day:02d}-{d.month:02d} - {quem}.pdf",
+            f"Nevasca em 10 minutos · {d.day:02d}/{d.month:02d} · {quem.capitalize()}", quem, meus, meus_pend)
         print(f"{quem}: {len(meus)} blocos, {sum(len(b['texto'].split()) for b in meus)} palavras")
 
 
