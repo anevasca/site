@@ -315,7 +315,12 @@
           "nome": "Gazeta do Povo",
           "url": "https://www.gazetadopovo.com.br/republica/dosimetria-expoe-calculo-politico-de-motta-e-alcolumbre-diante-da-disputa-com-a-direita/"
         }
-      ]
+      ],
+      "imagem": {
+        "arquivo": "img/2026-11-24-politica-1.jpg",
+        "legenda": "Hugo Motta (Republicanos-PB), presidente da Câmara, na tribuna do plenário, em foto de arquivo",
+        "credito": "Câmara dos Deputados"
+      }
     },
     {
       "secao": "STF",
