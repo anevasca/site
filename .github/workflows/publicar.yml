@@ -52,7 +52,7 @@ jobs:
       - name: Monta o site com os áudios
         run: |
           mkdir -p _site
-          rsync -a --exclude '.git' --exclude '.github' --exclude 'ferramentas' --exclude '_site' ./ _site/
+          rsync -a --exclude '.git' --exclude '.github' --exclude 'ferramentas' --exclude '_site' --exclude 'relatorios' --exclude 'podcast' ./ _site/
           touch _site/.nojekyll
           python3 ferramentas/juntar_audios.py _site/audio
           python3 ferramentas/gerar_feed.py _site
