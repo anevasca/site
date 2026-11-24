@@ -1,0 +1,30 @@
+[
+ {
+  "hora": "12h00",
+  "secao": "Mundo",
+  "titulo": "EUA barram na OMC o painel do Brasil contra o tarifaço, mas só podem fazer isso uma vez",
+  "linhaFina": "O governo Lula volta a pedir a investigação em 17 de dezembro, quando o pedido só cai se todos os membros forem contra; até lá, as sobretaxas de 25% e de 12,5% seguem valendo.",
+  "resumo": "Os Estados Unidos bloquearam nesta terça, na OMC, o pedido do Brasil para abrir um painel contra as tarifas de Trump. Pelas regras, o bloqueio só vale na primeira vez. O Brasil volta a pedir em 17 de dezembro, e aí o painel só não sai se houver consenso contra.",
+  "texto": [
+   "Os Estados Unidos bloquearam nesta terça-feira (24), na Organização Mundial do Comércio (OMC), o pedido do Brasil para abrir um painel contra as tarifas impostas por Donald Trump a produtos brasileiros. A decisão saiu na reunião do Órgão de Solução de Controvérsias, em Genebra, na Suíça.",
+   "O bloqueio tem prazo curto. Pelas regras da OMC, o país acusado pode barrar só o primeiro pedido de painel. O Brasil vai renovar a solicitação na próxima reunião ordinária do órgão, marcada para 17 de dezembro, e nessa segunda tentativa o painel só deixa de ser instalado se houver consenso de todos os membros contra, segundo o InfoMoney e o Times Brasil.",
+   "O que está em disputa são duas cobranças: uma tarifa adicional de 25%, com exceções para alguns produtos, aberta numa investigação comercial dos EUA, e uma sobretaxa de 12,5% ligada a uma investigação sobre trabalho forçado. Na reunião desta terça, a delegação americana se opôs ao painel e disse que as medidas respondem a práticas brasileiras que prejudicam empresas dos EUA. Washington cita o Pix, regras comerciais, a proteção à propriedade intelectual, o desmatamento e a compra de produtos supostamente feitos com trabalho forçado em outros países. Segundo o comunicado da OMC citado pelo Times Brasil, os americanos se disseram dispostos a continuar dialogando.",
+   "O Itamaraty sustenta que as tarifas são discriminatórias, porque favorecem produtos de outros países, e que passam dos limites negociados na OMC. O governo também afirma que os EUA puniram o Brasil de forma unilateral, sem recorrer antes aos mecanismos multilaterais. Lula tem repetido que não há prática desleal nem déficit comercial americano que justifique as sobretaxas; em outubro, falou em superávit dos EUA de cerca de US$ 415 bilhões em comércio e serviços com o Brasil nos 15 anos anteriores, segundo a Gazeta do Povo.",
+   "A disputa corre desde julho, quando o Brasil apresentou a contestação. As consultas bilaterais em Genebra, em 25 de setembro, terminaram sem acordo, e o pedido formal de painel foi entregue em 12 de novembro. Mesmo que o painel seja aberto em dezembro, a decisão não suspende as tarifas: a investigação ainda não julga se as cobranças são legais, e uma vitória brasileira não tem efeito imediato, segundo a Gazeta do Povo."
+  ],
+  "fontes": [
+   {
+    "nome": "Gazeta do Povo",
+    "url": "https://www.gazetadopovo.com.br/mundo/eua-barram-brasil-omc-contra-tarifaco-trump/"
+   },
+   {
+    "nome": "InfoMoney",
+    "url": "https://www.infomoney.com.br/politica/eua-barram-pedido-do-brasil-na-omc-contra-tarifaco-de-trump-entenda-proximos-passos/"
+   },
+   {
+    "nome": "Times Brasil (CNBC)",
+    "url": "https://timesbrasil.com.br/mundo/tarifas-trump/tarifaco-eua-bloqueiam-pedido-do-brasil-para-abrir-painel-na-omc/"
+   }
+  ]
+ }
+]
