@@ -5,7 +5,10 @@ Gera, a partir do edicao.json (e do colunas.json):
   roteiro-AAAA-MM-DD-maressa.txt  só os blocos da Maressa, numerados, na ordem
   roteiro-AAAA-MM-DD.json         a ordem completa [{"quem","n","texto"}], usada na montagem
 Mesma lógica da página oculta #roteiro do site (index.html, função roteiroPodcast).
-Uso: python3 ferramentas/roteiro_podcast.py [edicao.json] [colunas.json] [pasta de saída] [pendentes]
+Uso: python3 ferramentas/roteiro_podcast.py [edicao.json] [colunas.json] [pasta de saída] [pendentes] [roteiro escrito]
+Se existir podcast/roteiro-AAAA-MM-DD.json (ao lado do edicao.json), usa esse roteiro escrito para ouvir (formato novo):
+{"data":"AAAA-MM-DD","blocos":[{"quem":"maressa","texto":"..."},{"quem":"junior","tipo":"comentario","tema":"...","pontos":["..."]}]}
+Sem ele, monta o roteiro antigo a partir dos títulos e resumos.
 pendentes (opcional), ex.: "maressa:2,junior:4" = blocos que ainda vão mudar (ex.: esperando uma votação).
 Eles saem marcados para PULAR agora e gravar depois num arquivo à parte.
 """
@@ -82,6 +85,7 @@ def pdf(destino, titulo, quem, blocos, pend):
     pausa = ParagraphStyle("p", fontName="FranklinB", fontSize=13, leading=16, textColor=HexColor("#8a8a8a"), spaceBefore=8)
     topo = ParagraphStyle("t", fontName="FranklinB", fontSize=26, leading=30, textColor=cor)
     dica = ParagraphStyle("d", fontName="Franklin", fontSize=15, leading=21, textColor=HexColor("#333333"))
+    deixa = ParagraphStyle("x", fontName="Franklin", fontSize=13, leading=17, textColor=HexColor("#8a8a8a"), spaceAfter=4)
     el = [Paragraph(titulo, topo), Spacer(1, 4 * mm),
           Paragraph("Entre um bloco e outro: <b>3 segundos de silêncio</b>. Errou: <b>8 segundos de silêncio</b> e repita o bloco. "
                     "Ou grave <b>um áudio para cada bloco</b> (errou, apaga e grava de novo).", dica), Spacer(1, 8 * mm)]
@@ -92,7 +96,16 @@ def pdf(destino, titulo, quem, blocos, pend):
                                    ("TOPPADDING", (0, 0), (-1, -1), 8), ("BOTTOMPADDING", (0, 0), (-1, -1), 8)]))
             el += [t, Spacer(1, 10 * mm)]
             continue
-        el.append(KeepTogether([Paragraph(f"BLOCO {b['n']}", cab), Paragraph(b["texto"], corpo),
+        if b.get("livre"):
+            t = Table([[Paragraph(f"BLOCO {b['n']} — COMENTÁRIO LIVRE (opinião, com as suas palavras)", cab)],
+                       [Paragraph(b["texto"].split("] ", 1)[-1].replace("; ", "<br/>• ").replace("Pontos: ", "<br/>• "), dica)]],
+                      colWidths=[170 * mm])
+            t.setStyle(TableStyle([("BOX", (0, 0), (-1, -1), 1.5, cor), ("TOPPADDING", (0, 0), (-1, -1), 8),
+                                   ("BOTTOMPADDING", (0, 0), (-1, -1), 8), ("LEFTPADDING", (0, 0), (-1, -1), 10)]))
+            el += [KeepTogether([t, Paragraph("— pausa de 3 segundos —", pausa)]), Spacer(1, 10 * mm)]
+            continue
+        antes = [Paragraph("Deixa — " + b["antes"], deixa)] if b.get("antes") else []
+        el.append(KeepTogether(antes + [Paragraph(f"BLOCO {b['n']}", cab), Paragraph(b["texto"], corpo),
                                 Paragraph("— pausa de 3 segundos —", pausa)]))
         el.append(Spacer(1, 10 * mm))
     SimpleDocTemplate(destino, pagesize=A4, leftMargin=20 * mm, rightMargin=20 * mm, topMargin=18 * mm,
@@ -110,13 +123,35 @@ def main():
         cols = json.load(open(col_path, encoding="utf-8"))
     except Exception:
         cols = []
-    R = roteiro(ed, cols)
     data = ed["data"]
+    escrito = os.path.join(os.path.dirname(os.path.abspath(ed_path)), "podcast", f"roteiro-{data}.json")
+    if len(sys.argv) > 5:
+        escrito = sys.argv[5]
+    livres = set()
+    if os.path.exists(escrito):
+        # FORMATO NOVO (desde 24/11/2026): roteiro escrito para ouvir, com "Para entender" e "Comentário do Doido"
+        blocos = json.load(open(escrito, encoding="utf-8"))["blocos"]
+        R = []
+        for i, b in enumerate(blocos):
+            quem = b["quem"].upper()
+            if b.get("tipo") == "comentario":
+                pontos = "; ".join(b.get("pontos", []))
+                R.append((quem, f"[COMENTÁRIO LIVRE — fale com as suas palavras, 1 a 2 minutos] Tema: {b.get('tema','')}. Pontos: {pontos}"))
+                livres.add(i)
+            else:
+                R.append((quem, b["texto"]))
+    else:
+        R = roteiro(ed, cols)
     d = datetime.date.fromisoformat(data)
     ordem, cont = [], {"JUNIOR": 0, "MARESSA": 0}
-    for quem, txt in R:
+    for i, (quem, txt) in enumerate(R):
         cont[quem] += 1
-        ordem.append({"quem": quem.lower(), "n": cont[quem], "texto": txt})
+        item = {"quem": quem.lower(), "n": cont[quem], "texto": txt}
+        if i in livres:
+            item["livre"] = True
+        if i > 0 and R[i - 1][0] != quem:
+            item["antes"] = f"{R[i - 1][0].capitalize()}: {R[i - 1][1][:220]}"
+        ordem.append(item)
     os.makedirs(saida, exist_ok=True)
     json.dump(ordem, open(f"{saida}/roteiro-{data}.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     for quem in ("JUNIOR", "MARESSA"):
@@ -129,7 +164,7 @@ def main():
                      "Depois eu mando o texto novo e você grava só ele(s) num arquivo à parte.\n")
         corpo = "\n".join(
             (f"[{b['n']}]  ⏳ PULE ESTE BLOCO AGORA (muda depois da votação)\n" if b in meus_pend
-             else f"[{b['n']}]\n{b['texto']}\n") for b in meus)
+             else (f"(deixa — {b['antes']})\n" if b.get("antes") else "") + f"[{b['n']}]\n{b['texto']}\n") for b in meus)
         txt = (f"NEVASCA EM 10 MINUTOS · {d.day:02d}/{d.month:02d}/{d.year}\n"
                f"TEXTO DE {quem} ({len(meus)} blocos)\n\n{COMO}{aviso}\n" + corpo)
         open(f"{saida}/roteiro-{data}-{quem.lower()}.txt", "w", encoding="utf-8").write(txt)

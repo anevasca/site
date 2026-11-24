@@ -137,7 +137,7 @@ def separado(grav_j, grav_m, roteiro_json, data, saida, pendentes=""):
                "-af", "afade=t=in:d=0.03,areverse,afade=t=in:d=0.05,areverse", arq)
             palavras = len(b["texto"].split())
             seg_por_palavra = (fim - ini) / max(palavras, 1)
-            if not 0.22 <= seg_por_palavra <= 0.75:
+            if not b.get("livre") and not 0.22 <= seg_por_palavra <= 0.75:
                 avisos.append(f"{quem.capitalize()} bloco {b['n']}: {fim - ini:.1f} s para {palavras} palavras "
                               f"(confira se o corte pegou o bloco certo).")
             blocos[(quem, b["n"])] = arq
