@@ -419,7 +419,12 @@
           "nome": "Gazeta do Povo",
           "url": "https://www.gazetadopovo.com.br/republica/gilmar-admite-falta-de-autocontencao-do-stf-em-gilmarpalooza-da-argentina-e-bolsonaro-segue-internado/"
         }
-      ]
+      ],
+      "imagem": {
+        "arquivo": "img/2026-11-24-politica-4.jpg",
+        "legenda": "A escultura A Justiça diante do prédio do Supremo Tribunal Federal, em Brasília, em foto de arquivo",
+        "credito": "Gustavo Moreno/STF"
+      }
     }
   ],
   "mundo": [
