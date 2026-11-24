@@ -383,7 +383,12 @@
           "nome": "Agência Brasil",
           "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/moraes-determina-citacao-de-flavio-sobre-calunia-contra-lula"
         }
-      ]
+      ],
+      "imagem": {
+        "arquivo": "img/2026-11-24-politica-3.jpg",
+        "legenda": "Retrato oficial do senador Flávio Bolsonaro (PL-RJ), em foto de arquivo",
+        "credito": "Agência Senado"
+      }
     },
     {
       "secao": "Caso Master",
