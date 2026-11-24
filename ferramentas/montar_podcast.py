@@ -83,19 +83,32 @@ def melhor_corte(wav, esperado):
     return None, 0, tentativas
 
 
-def separado(grav_j, grav_m, roteiro_json, data, saida):
+def separado(grav_j, grav_m, roteiro_json, data, saida, pendentes=""):
+    """grav_j/grav_m: um arquivo, ou "principal,extra" quando alguns blocos (pendentes) foram gravados depois.
+    pendentes: ex. "maressa:2,junior:4" = blocos que estão no arquivo extra, não no principal."""
     ordem = json.load(open(roteiro_json, encoding="utf-8"))
+    pend = {tuple(x.split(":")) for x in pendentes.split(",") if x}
     tmp = tempfile.mkdtemp()
     blocos, avisos = {}, []
+    tarefas = []
     for quem, grav in (("junior", grav_j), ("maressa", grav_m)):
         meus = [b for b in ordem if b["quem"] == quem]
-        wav = f"{tmp}/{quem}.wav"
+        arquivos = grav.split(",")
+        depois = [b for b in meus if (quem, str(b["n"])) in pend]
+        if depois and len(arquivos) < 2:
+            raise SystemExit(f"NÃO MONTEI: faltou a gravação dos blocos refeitos de {quem.capitalize()} "
+                             f"({', '.join(str(b['n']) for b in depois)}).")
+        tarefas.append((quem, arquivos[0], [b for b in meus if b not in depois], "gravação principal"))
+        if depois:
+            tarefas.append((quem, arquivos[1], depois, "gravação dos blocos refeitos"))
+    for k, (quem, grav, meus, nome) in enumerate(tarefas):
+        wav = f"{tmp}/{quem}-{k}.wav"
         prepara(grav, wav)
         trechos, desc, info = melhor_corte(wav, len(meus))
         if trechos is None:
             achados = sorted({n for _, _, n in info})
-            raise SystemExit(f"NÃO MONTEI: na gravação de {quem.capitalize()} achei {achados} blocos, "
-                             f"mas o roteiro tem {len(meus)}. Provavelmente faltou ou sobrou uma pausa de 3 s "
+            raise SystemExit(f"NÃO MONTEI: na {nome} de {quem.capitalize()} achei {achados} blocos, "
+                             f"mas deviam ser {len(meus)}. Provavelmente faltou ou sobrou uma pausa de 3 s "
                              f"entre blocos, ou um bloco ficou de fora. Peça para regravar ou dizer qual bloco ficou faltando.")
         if desc:
             avisos.append(f"{quem.capitalize()}: {desc} trecho(s) repetido(s) descartado(s) (pausa de 8 s).")
@@ -155,8 +168,11 @@ def unico(grav, data, saida):
 if __name__ == "__main__":
     a = sys.argv[1:]
     if a and a[0] == "--separado":
+        pend = ""
+        if "--pendentes" in a:
+            i = a.index("--pendentes"); pend = a[i + 1]; a = a[:i] + a[i + 2:]
         _, gj, gm, rot, data, *resto = a
-        separado(gj, gm, rot, data, resto[0] if resto else f"pod-{data}.mp3")
+        separado(gj, gm, rot, data, resto[0] if resto else f"pod-{data}.mp3", pend)
     else:
         grav, data, *resto = a
         unico(grav, data, resto[0] if resto else f"pod-{data}.mp3")
