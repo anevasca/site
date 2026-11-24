@@ -519,7 +519,12 @@
           "nome": "Euronews",
           "url": "https://pt.euronews.com/2026/11/23/estados-unidos-trump-pede-ao-conselho-da-nvidia-que-reintegre-jensen-huang"
         }
-      ]
+      ],
+      "imagem": {
+        "arquivo": "img/2026-11-24-mundo-3.jpg",
+        "legenda": "Donald Trump fala com jornalistas na Casa Branca, em foto de arquivo",
+        "credito": "Official White House Photo"
+      }
     },
     {
       "secao": "Israel",
