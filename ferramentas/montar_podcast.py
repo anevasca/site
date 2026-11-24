@@ -101,9 +101,27 @@ def separado(grav_j, grav_m, roteiro_json, data, saida, pendentes=""):
         tarefas.append((quem, arquivos[0], [b for b in meus if b not in depois], "gravação principal"))
         if depois:
             tarefas.append((quem, arquivos[1], depois, "gravação dos blocos refeitos"))
+    # Modo "um arquivo por bloco" (ex.: um áudio de WhatsApp para cada bloco, na ordem):
+    # se a lista de arquivos de alguém tiver exatamente o número de blocos dele, cada arquivo é um bloco.
+    for quem, grav in (("junior", grav_j), ("maressa", grav_m)):
+        arqs = grav.split(",")
+        meus = [b for b in ordem if b["quem"] == quem]
+        if len(arqs) == len(meus) and len(arqs) > 2:
+            tarefas = [t for t in tarefas if t[0] != quem]
+            for b, arq in zip(meus, arqs):
+                tarefas.append((quem, arq, [b], f"áudio do bloco {b['n']}"))
     for k, (quem, grav, meus, nome) in enumerate(tarefas):
         wav = f"{tmp}/{quem}-{k}.wav"
         prepara(grav, wav)
+        if len(meus) == 1:          # arquivo com um bloco só: tira o silêncio do começo e do fim
+            t, _ = corta(wav, -40, 3.0)
+            if t:
+                a, z = t[0][0], t[-1][1]
+                arq = f"{tmp}/{quem}-{meus[0]['n']:02d}.wav"
+                ff("-i", wav, "-ss", f"{max(0, a - 0.08):.3f}", "-to", f"{z + 0.12:.3f}",
+                   "-af", "afade=t=in:d=0.03,areverse,afade=t=in:d=0.05,areverse", arq)
+                blocos[(quem, meus[0]["n"])] = arq
+                continue
         trechos, desc, info = melhor_corte(wav, len(meus))
         if trechos is None:
             achados = sorted({n for _, _, n in info})
