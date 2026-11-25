@@ -1,0 +1,36 @@
+[
+  {
+    "hora": "13h28",
+    "secao": "Economia",
+    "titulo": "EUA propõem tarifa de 10% sobre aeronaves brasileiras e novas taxas sobre o açúcar",
+    "linhaFina": "Governo americano abre consulta pública e marca audiência para janeiro de 2027. Medidas ainda não estão em vigor.",
+    "resumo": "Governo americano abre consulta pública e marca audiência para janeiro de 2027. Medidas ainda não estão em vigor.",
+    "texto": [
+      "Os Estados Unidos anunciaram nesta quarta-feira (25) uma proposta de ampliação das tarifas comerciais sobre produtos brasileiros, incluindo uma cobrança adicional de 10% sobre aeronaves prontas e novas taxas sobre o açúcar.",
+      "A medida foi apresentada pelo Escritório do Representante Comercial dos Estados Unidos (USTR). Segundo o órgão, as negociações realizadas ao longo do último ano não produziram os avanços esperados pelo governo americano.",
+      "As aeronaves brasileiras estavam entre os produtos isentos da tarifa de 25% aplicada em julho. A mudança proposta pode afetar diretamente a Embraer, cuja presença no mercado americano representa uma parcela importante das exportações brasileiras para os Estados Unidos.",
+      "No setor açucareiro, Washington pretende aumentar a tributação das importações realizadas fora das cotas comerciais. A proposta inclui também alterações nas tarifas sobre o açúcar proveniente de outros países, com o objetivo declarado de evitar o redirecionamento das exportações.",
+      "O anúncio ocorre um dia depois de os Estados Unidos bloquearem, na Organização Mundial do Comércio (OMC), um pedido brasileiro de abertura de painel para examinar as tarifas impostas em julho.",
+      "As novas cobranças ainda dependem da conclusão de uma consulta pública. Os interessados poderão apresentar manifestações por escrito até 30 de dezembro. Uma audiência está marcada para 14 de janeiro de 2027.",
+      "O governo americano declarou permanecer aberto à continuidade das negociações com o Brasil."
+    ],
+    "fontes": [
+      {
+        "nome": "USTR",
+        "url": "https://www.ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-invites-public-comment-proposed-modifications-section-301-action-regarding-brazils-unreasonable"
+      },
+      {
+        "nome": "Folha de S.Paulo",
+        "url": "https://www1.folha.uol.com.br/mercado/2026/11/acoes-da-embraer-caem-mais-de-6-apos-anuncio-de-tarifa-dos-eua-sobre-avioes-brasileiros.shtml"
+      },
+      {
+        "nome": "UOL Economia",
+        "url": "https://economia.uol.com.br/noticias/reuters/2026/11/25/eua-propoem-tarifa-de-10-sobre-aeronaves-do-brasil.htm"
+      },
+      {
+        "nome": "Reuters",
+        "url": "https://www.reuters.com/business/aerospace-defense/us-proposes-higher-tariffs-brazil-imports-including-10-duty-aircraft-2026-11-25/"
+      }
+    ]
+  }
+]
