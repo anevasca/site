@@ -1,0 +1,504 @@
+{
+  "data": "2026-11-25",
+  "dataExtenso": "Quarta-feira, 25 de novembro de 2026",
+  "numero": 8,
+  "atualizadoEm": "24/11/2026, fechamento noturno (Brasília)",
+  "indicadores": [
+    {
+      "rotulo": "Dólar",
+      "valor": "R$ 5,91",
+      "nota": "R$ 5,9107 no fechamento de 24/11 (–0,26%), UOL"
+    },
+    {
+      "rotulo": "Ibovespa",
+      "valor": "164.090 pts",
+      "nota": "164.089,81 no fechamento de 24/11 (–0,43%), UOL"
+    },
+    {
+      "rotulo": "Selic",
+      "valor": "13,75%",
+      "nota": "ao ano, mantida pelo Copom em novembro"
+    },
+    {
+      "rotulo": "Confiança",
+      "valor": "83,5 pts",
+      "nota": "novembro (–1,2 ponto), FGV Ibre"
+    }
+  ],
+  "manchete": {
+    "secao": "Contas públicas",
+    "titulo": "Lula sanciona sem vetos pacote de ajuste fiscal para 2027",
+    "linhaFina": "Governo estima melhora de R$ 45,1 bilhões a R$ 56,1 bilhões no resultado primário, combinando receita e contenção de despesas.",
+    "resumo": "Lula sancionou sem vetos a lei do ajuste fiscal. A equipe econômica estima melhora de R$ 45,1 bilhões a R$ 56,1 bilhões no resultado primário de 2027, que deixa os juros da dívida fora da conta.",
+    "texto": [
+      "O presidente Luiz Inácio Lula da Silva sancionou sem vetos, nesta terça-feira (24), a lei do ajuste fiscal. A norma foi publicada em edição extra do Diário Oficial da União e dá ao Executivo instrumentos para limitar a execução do Orçamento a partir de 2027. O governo calcula que a combinação de mudanças em arrecadação e despesas pode melhorar o resultado primário do próximo ano entre R$ 45,1 bilhões e R$ 56,1 bilhões.",
+      "A sanção encerra a tramitação do Projeto de Lei Complementar 299 de 2026. A Câmara concluiu a votação na madrugada de terça-feira e manteve a versão que veio do Senado. No plenário da Câmara, o texto-base recebeu 353 votos a favor, 128 contra e cinco abstenções, segundo o Ministério do Planejamento. Com a publicação, a proposta passou a ser a Lei Complementar 239 de 2026.",
+      "O resultado primário mede a diferença entre receitas e despesas antes dos juros da dívida. Segundo a Agência Câmara, a meta de 2027, em valores nominais, equivale a R$ 83,4 bilhões antes dos abatimentos permitidos. As deduções de cerca de R$ 64,7 bilhões levam a referência efetiva a R$ 18,7 bilhões. A faixa de melhora estimada pelo governo mede o impacto do pacote e usa uma base de comparação diferente da meta.",
+      "A partir de 2027, os relatórios bimestrais de receitas e despesas ajudam a decidir se será necessário segurar mais gastos. O Executivo ganha margem para agir em busca da meta fiscal e pode bloquear certas despesas obrigatórias. Para os anos em que se aplicar a restrição adicional, o crescimento real das despesas fica limitado a 2%, diante do teto de 2,5% previsto no arcabouço. Crescimento real é o aumento depois de descontar a inflação.",
+      "A ampliação da base sujeita a bloqueios tem exceções. Segundo o Ministério do Planejamento, ficam protegidas despesas determinadas pela Constituição, o serviço da dívida e gastos de pesquisa, desenvolvimento e inovação financiados pelo fundo federal de ciência e tecnologia. A Lei de Diretrizes Orçamentárias também pode prever ressalvas. O efeito no funcionamento de cada política vai depender de onde os bloqueios incidirem na execução do Orçamento.",
+      "Pelo lado da receita, a lei reduz incentivos tributários abrangidos pela norma e autoriza o Executivo a limitar a compensação cruzada caso adote as medidas adicionais de contenção. Nessa modalidade, o contribuinte usa créditos de um tributo para abater outro. Um ato posterior deverá definir os percentuais. Créditos de PIS/Pasep e Cofins usados para abater a Contribuição Social sobre Bens e Serviços ficam fora dessa limitação.",
+      "Entre as medidas com prazo definido, a lei limita a R$ 2 bilhões a parcela anual dos repasses ligados à Lei Kandir até 2030 e prevê recomposição do saldo de 2028 a 2030. A compensação previdenciária tem limite de R$ 3 bilhões, corrigido pelo crescimento anual do limite de despesas, entre 2027 e 2030. As duas medidas alcançam transferências federais aos governos locais.",
+      "A primeira prova para a nova regra virá durante a execução do Orçamento de 2027. Os relatórios bimestrais mostrarão quanto da arrecadação prevista se realizou e quais despesas precisarão ser contidas. A sanção define os instrumentos disponíveis. O resultado dependerá do que o governo arrecadar, dos gastos que conseguir segurar e das decisões tomadas ao longo do ano."
+    ],
+    "fontes": [
+      {
+        "nome": "Lei Complementar 239/2026 · Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp239.htm"
+      },
+      {
+        "nome": "Agência Câmara",
+        "url": "https://www.camara.leg.br/noticias/1322586-lei-do-ajuste-fiscal-e-sancionada-sem-vetos-e-ja-esta-em-vigor"
+      },
+      {
+        "nome": "Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-sanciona-ajuste-fiscal-aprovado-no-congresso"
+      },
+      {
+        "nome": "Agência Senado",
+        "url": "https://www12.senado.leg.br/noticias/materias/2026/11/24/lei-do-ajuste-fiscal-e-publicada-e-ja-esta-valendo"
+      },
+      {
+        "nome": "Ministério do Planejamento",
+        "url": "https://www.gov.br/planejamento/pt-br/assuntos/noticias/2026/sancionada-nesta-terca-24-11-a-lei-complementar-no-239-2026-que-promove-ajuste-nas-contas-publicas"
+      },
+      {
+        "nome": "Revista Oeste",
+        "url": "https://revistaoeste.com/politica/presidente-lula-sanciona-ajuste-fiscal/"
+      }
+    ],
+    "grafico": {
+      "tipo": "barras",
+      "titulo": "Estimativa do governo para o efeito do pacote em 2027",
+      "subtitulo": "Melhora projetada no resultado primário",
+      "prefixo": "R$ ",
+      "sufixo": " bi",
+      "casas": 1,
+      "dados": [
+        {
+          "rotulo": "Piso",
+          "valor": 45.1
+        },
+        {
+          "rotulo": "Teto",
+          "valor": 56.1
+        }
+      ],
+      "fonte": {
+        "nome": "Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-sanciona-ajuste-fiscal-aprovado-no-congresso"
+      }
+    }
+  },
+  "destaques": [
+    {
+      "secao": "Energia",
+      "titulo": "Petrobras prevê US$ 122 bilhões em investimentos até 2031",
+      "linhaFina": "Plano concentra os desembolsos nos primeiros anos e reserva a maior parcela para exploração e produção.",
+      "resumo": "A Petrobras apresentou um plano de US$ 122 bilhões para 2027 a 2031. São quase 12% a mais do que no plano anterior, e US$ 9 bilhões ainda correspondem a oportunidades em avaliação.",
+      "texto": [
+        "A Petrobras apresentou um plano de US$ 122 bilhões em investimentos entre 2027 e 2031. O conselho aprovou o programa na segunda-feira (23), e a estatal marcou a apresentação da diretoria para terça-feira (24). O valor supera em US$ 13 bilhões o do plano anterior, que cobria 2026 a 2030.",
+        "Dos US$ 122 bilhões, US$ 113 bilhões estão na carteira em implantação. Os outros US$ 9 bilhões correspondem a oportunidades ainda em avaliação. O próprio cronograma concentra os desembolsos no início do período. São US$ 29,5 bilhões previstos para 2027 e US$ 28,3 bilhões para 2028, com previsão de US$ 17,8 bilhões em 2031.",
+        "Exploração e produção ficam com a maior parcela. Segundo a CNN Brasil, a Petrobras prevê nove novos sistemas de produção e cerca de 50 projetos complementares. Dos nove sistemas, oito já estão contratados. A empresa separa ainda US$ 10 bilhões para exploração, com cerca de 50 poços previstos no Brasil e no exterior.",
+        "O novo programa reserva US$ 24 bilhões para refino, transporte e comercialização, segmento que inclui fertilizantes e petroquímica. A empresa também estima ampliar a capacidade de diesel de baixo teor de enxofre, combinando ampliação da capacidade de refino e conversão de unidades existentes. Os desembolsos previstos em cada ano podem variar conforme a execução da carteira.",
+        "A companhia projeta distribuir de US$ 55 bilhões a US$ 60 bilhões em dividendos ordinários durante os cinco anos, ante uma faixa de US$ 45 bilhões a US$ 50 bilhões no plano anterior, segundo a CNN Brasil. São projeções de períodos diferentes. A execução dos projetos e a geração de caixa da companhia serão acompanhadas nos resultados dos próximos trimestres."
+      ],
+      "fontes": [
+        {
+          "nome": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/infra/petrobras-anuncia-us-122-bilhoes-em-investimentos-para-2027-2031/"
+        },
+        {
+          "nome": "UOL",
+          "url": "https://economia.uol.com.br/noticias/redacao/2026/11/24/petrobras-eleva-investimento-a-us-122-bi-e-projeta-dividendos.ghtm"
+        },
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/petrobras-preve-investimentos-de-us-122-bilhoes-entre-2027-e-2031"
+        }
+      ]
+    },
+    {
+      "secao": "Tributos",
+      "titulo": "União arrecada R$ 294 bilhões e bate recorde para outubro",
+      "linhaFina": "A receita federal cresceu 7,28% acima da inflação, com contribuição de pagamentos fora do padrão habitual.",
+      "resumo": "A União arrecadou quase R$ 294 bilhões em outubro, o maior valor para o mês desde 1995. Entre os recolhimentos que influenciaram o resultado estão tributos sobre lucros de empresas e exportações de petróleo.",
+      "texto": [
+        "A arrecadação federal somou R$ 293,975 bilhões em outubro, recorde para o mês na série iniciada em 1995. O relatório divulgado pela Receita Federal nesta terça-feira (24) aponta alta de 7,28% acima da inflação ante outubro de 2025. De janeiro a outubro, o total chegou a R$ 2,645 trilhões, com crescimento real de 7%.",
+        "O valor do mês inclui as receitas administradas pela Receita Federal e as que ficam sob gestão de outros órgãos. Se o recorte for limitado ao que a Receita administra, outubro teve R$ 273,367 bilhões e alta real de 5,80%. No acumulado do ano, esse recorte registra R$ 2,524 trilhões.",
+        "A Agência Brasil aponta R$ 5,91 bilhões em recolhimentos atípicos no mês. Desse total, R$ 3 bilhões vieram de pagamentos extraordinários de Imposto de Renda das empresas e da Contribuição Social sobre o Lucro Líquido. A cobrança de imposto de exportação sobre petróleo bruto respondeu por outros R$ 2,91 bilhões.",
+        "Somados, o Imposto de Renda das empresas e a contribuição sobre o lucro renderam R$ 71,75 bilhões em outubro. As receitas previdenciárias chegaram a R$ 63,61 bilhões, com alta real de 4,13%. O Imposto de Importação e o IPI associado às importações renderam R$ 13,68 bilhões, alta real de 20,05%.",
+        "Para as receitas administradas pela Receita Federal, o relatório calcula que a alta real teria sido de 3,51% em outubro e de 5,53% no acumulado, excluídos os pagamentos atípicos e efeitos de alterações na legislação, como o imposto sobre exportação de petróleo. A separação ajuda a distinguir a evolução habitual da receita de fatores específicos do período."
+      ],
+      "fontes": [
+        {
+          "nome": "Receita Federal",
+          "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/relatorios/arrecadacao-federal/2026/analise-mensal-out-2026.pdf/@@download/file"
+        },
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/arrecadacao-federal-atinge-r-294-bilhoes-e-bate-recorde-para-outubro"
+        }
+      ]
+    },
+    {
+      "secao": "Consumo",
+      "titulo": "Confiança do consumidor cai a 83,5 pontos, menor nível desde 2022",
+      "linhaFina": "Avaliação da situação atual e expectativas recuaram em novembro, segundo a FGV.",
+      "resumo": "A confiança do consumidor caiu 1,2 ponto em novembro, para 83,5 pontos. A avaliação que as famílias fazem das finanças de hoje piorou, enquanto a intenção de comprar bens duráveis avançou.",
+      "texto": [
+        "A confiança do consumidor caiu 1,2 ponto em novembro, para 83,5 pontos, segundo a Fundação Getulio Vargas. A Reuters informa que esse é o menor nível desde agosto de 2022. Na média móvel de três meses, a FGV registrou recuo de 0,4 ponto, para 84,1.",
+        "A fundação divide a pesquisa entre a avaliação do presente e a expectativa para os meses seguintes. O índice da situação atual caiu 1,5 ponto, para 79,9. O de expectativas cedeu 1,1 ponto, para 86,9. A queda dos dois componentes puxou o indicador geral no mesmo mês.",
+        "Entre as perguntas sobre o presente, a avaliação da situação financeira da família caiu 2,1 pontos, para 69,2. É o menor nível desse indicador desde fevereiro de 2025. A avaliação da economia local também recuou, chegando a 90,9 pontos.",
+        "Entre as expectativas, a avaliação da economia local à frente sofreu queda de 4,7 pontos, para 99. Houve movimento na direção contrária em dois quesitos. A intenção de comprar bens duráveis subiu 1,5 ponto, e a expectativa sobre as finanças da família avançou 0,2 ponto.",
+        "Os dados vêm de uma sondagem sobre percepção e intenção de compra. A evolução das vendas realizadas será medida por outros levantamentos. A abertura do índice ajuda a acompanhar se a melhora em algumas respostas se sustenta nos meses em que os consumidores continuam avaliando pior a economia local."
+      ],
+      "fontes": [
+        {
+          "nome": "FGV Ibre",
+          "url": "https://portalibre.fgv.br/noticias/confianca-do-consumidor-voltou-cair-em-novembro"
+        },
+        {
+          "nome": "Reuters",
+          "url": "https://economia.uol.com.br/noticias/reuters/2026/11/24/confianca-do-consumidor-no-brasil-atinge-em-novembro-minima-de-4-anos-diz-fgv.amp.htm"
+        }
+      ],
+      "grafico": {
+        "tipo": "barras",
+        "titulo": "Os componentes da confiança em novembro",
+        "sufixo": " pts",
+        "casas": 1,
+        "dados": [
+          {
+            "rotulo": "Situação atual",
+            "valor": 79.9
+          },
+          {
+            "rotulo": "Expectativas",
+            "valor": 86.9
+          },
+          {
+            "rotulo": "Índice geral",
+            "valor": 83.5,
+            "destaque": true
+          }
+        ],
+        "fonte": {
+          "nome": "FGV Ibre",
+          "url": "https://portalibre.fgv.br/noticias/confianca-do-consumidor-voltou-cair-em-novembro"
+        }
+      }
+    }
+  ],
+  "editorial": {
+    "titulo": "O governo arrecada mais. E quando aprende a gastar melhor?",
+    "texto": [
+      "Na mesma terça-feira em que a Receita mostrou o melhor outubro da sua série, Lula sancionou uma lei para ajustar as contas de 2027. Quase R$ 294 bilhões entraram em outubro, uma alta de 7,28% acima da inflação ante o mesmo mês de 2025. A equipe econômica agora espera que o pacote melhore o resultado primário do ano que vem entre R$ 45,1 bilhões e R$ 56,1 bilhões. Os dois números merecem atenção justamente porque contam histórias diferentes. Um mede o que já entrou no caixa. O outro depende de decisões que ainda serão tomadas.",
+      "O governo deve prestar contas da qualidade da despesa com a mesma precisão com que anuncia o crescimento da receita. A lei permite conter gastos, mas também adia parte dos repasses da Lei Kandir e reduz benefícios fiscais. Uma revisão de incentivos pode fazer sentido quando o benefício perdeu a razão de existir. Convém publicar o custo de cada renúncia, mostrar quem a recebe e medir o resultado. O mesmo exame vale para programas federais que atravessam governos sem demonstrar o que entregam. É um trabalho menos vistoso do que anunciar um pacote e muito mais útil para o contribuinte.",
+      "Paulo descreve a autoridade civil como serva de Deus para o bem em Romanos 13. Há deveres concretos nesse encargo. Quem administra dinheiro recolhido de terceiros precisa demonstrar por que o tomou e como o empregou. Quando o Executivo decidir quais despesas segurar, cabe ao Congresso verificar se a escolha preserva serviços essenciais e se o sacrifício foi distribuído com justiça. Essa fiscalização vale para o governo e para os parlamentares que defendem prioridades próprias nas negociações do Orçamento. O contribuinte tem direito de saber quem pediu a despesa, quanto ela custa e que benefício entrega.",
+      "O primeiro relatório bimestral de 2027 dará à discussão um objeto concreto. Será possível perguntar quais economias vieram de revisão de despesas, quanto se explica por novas receitas e quais promessas continuam sem execução. Pagamentos extraordinários ajudaram o resultado de outubro e merecem aparecer à parte quando se projetam os meses seguintes. Receitas que oscilam podem aliviar um trimestre. Despesas permanentes exigem uma conta que feche também quando o alívio passa. Antes da próxima comemoração por um recorde de arrecadação, o governo pode começar apresentando uma lista das despesas que avaliou, das que decidiu manter e do motivo de cada escolha."
+    ]
+  },
+  "politica": [
+    {
+      "secao": "Oposição",
+      "titulo": "Oposição cobra que Câmara e Senado defendam Van Hattem no STF",
+      "linhaFina": "Ofícios a Hugo Motta e Davi Alcolumbre pedem que as Casas participem do processo que discute a proteção de falas do deputado.",
+      "resumo": "Líderes da oposição pediram que Câmara e Senado intervenham no processo de Marcel van Hattem no Supremo. A discussão é se falas sobre um delegado da Polícia Federal estão protegidas pela imunidade parlamentar.",
+      "texto": [
+        "Líderes da oposição anunciam nesta terça-feira (24) ofícios para Câmara e Senado atuarem no caso de Marcel van Hattem. A Primeira Turma do Supremo Tribunal Federal ainda decidirá, em sessão presencial sem data marcada, se recebe a denúncia por calúnia e injúria contra o deputado do Novo do Rio Grande do Sul. Os pedidos foram dirigidos a Hugo Motta (Republicanos-PB) e Davi Alcolumbre (União Brasil-AP).",
+        "Os parlamentares pedem que Câmara e Senado ingressem como amigos da corte. Nessa condição, as Casas poderiam apresentar argumentos sobre os efeitos do caso para o Legislativo sem se tornarem parte principal do processo. O envio dos ofícios é uma iniciativa das lideranças de oposição. A atuação institucional depende da resposta dos presidentes das Casas e da tramitação no Supremo.",
+        "A denúncia da Procuradoria-Geral da República envolve declarações de Van Hattem na Câmara sobre o delegado Fábio Shor. Os ministros Flávio Dino e Alexandre de Moraes votaram a favor do recebimento, antes de Cristiano Zanin retirar a análise do plenário virtual. O artigo 53 da Constituição estabelece a inviolabilidade civil e penal de deputados e senadores por opiniões, palavras e votos.",
+        "A defesa sustenta que o deputado criticava a atuação de uma autoridade pública no exercício da fiscalização parlamentar. Em entrevista coletiva, o líder do PL na Câmara, Sóstenes Cavalcante (RJ), rasgou uma reprodução do artigo 53 como protesto contra os votos já proferidos no caso. A manifestação acompanhou a cobrança para que os presidentes assumam posição em nome das Casas."
+      ],
+      "fontes": [
+        {
+          "nome": "Revista Oeste",
+          "url": "https://revistaoeste.com/politica/imunidade-parlamentar-oposicao-congresso-stf/"
+        },
+        {
+          "nome": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/vida-e-cidadania/lideres-da-oposicao-pressionam-cupula-do-congresso-para-defender-van-hattem-no-stf/"
+        },
+        {
+          "nome": "SBT News",
+          "url": "https://sbtnews.sbt.com.br/noticia/politica/oposicao-defende-van-hattem-e-pede-mobilizacao-do-congresso"
+        }
+      ]
+    },
+    {
+      "secao": "STF",
+      "titulo": "PF diz que entregou dados do celular de Vorcaro à PGR e ao Supremo",
+      "linhaFina": "Presidência do STF, ministros que pediram acesso e Procuradoria receberam a íntegra, segundo nota da corporação.",
+      "resumo": "A Polícia Federal afirmou que a Presidência do Supremo, os ministros que pediram acesso e a Procuradoria-Geral da República receberam a íntegra dos dados do celular de Daniel Vorcaro. A nota veio após questionamentos sobre o alcance dos relatórios resumidos.",
+      "texto": [
+        "A Polícia Federal afirmou nesta terça-feira (24) que disponibilizou a íntegra dos dados extraídos do celular de Daniel Vorcaro. Segundo a nota, receberam acesso a Presidência do Supremo Tribunal Federal, ministros que solicitaram o material e a Procuradoria-Geral da República. A declaração distingue esse acervo dos relatórios sobre referências a ministros elaborados a pedido de Edson Fachin, presidente do Supremo.",
+        "Segundo a corporação, o pedido de Fachin determinou que fossem encaminhadas todas as menções a ministros, com meio de identificar o contexto em que surgiram. A PF diz que o levantamento foi feito em caráter descritivo. A íntegra do material, segundo a nota, inclui dados e documentos à disposição dos órgãos responsáveis pela investigação.",
+        "A Folha relatou nesta terça que mensagens relacionadas a Alexandre de Moraes e um contrato com o escritório da esposa do ministro ficaram fora dos relatórios. A PF sustenta que cruzamentos de dados e análises investigativas extrapolavam a ordem recebida. A corporação afirmou que preserva o sigilo judicial sobre o conteúdo dos relatórios encaminhados à Presidência do Supremo.",
+        "A Polícia Federal informou que entregou os relatórios a Fachin no dia 18. Segundo o SBT News, Fachin encaminhou trechos aos ministros mencionados."
+      ],
+      "fontes": [
+        {
+          "nome": "Polícia Federal",
+          "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/11/nota-de-esclarecimento"
+        },
+        {
+          "nome": "UOL",
+          "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/11/24/pf-diz-que-disponibilizou-dados-de-celular-de-vorcaro-a-stf-e-pgr.ghtm"
+        },
+        {
+          "nome": "Folha de S.Paulo",
+          "url": "https://www1.folha.uol.com.br/poder/2026/11/pf-nega-omissao-em-relatorios-sobre-ministros-do-stf-e-diz-que-cruzar-dados-extrapola-ordem-de-fachin.shtml"
+        },
+        {
+          "nome": "SBT News",
+          "url": "https://sbtnews.sbt.com.br/noticia/politica/fachin-envia-relatorios-da-pf-sobre-caso-master-a-ministros"
+        }
+      ]
+    },
+    {
+      "secao": "Bolsonaro",
+      "titulo": "Bolsonaro tem melhora discreta e segue na UTI sem previsão de alta",
+      "linhaFina": "Boletim de terça-feira relata sinais iniciais de retomada do trânsito intestinal e uso de antibióticos.",
+      "resumo": "Jair Bolsonaro teve melhora discreta, de acordo com a equipe médica. O ex-presidente continua na unidade de terapia intensiva e o hospital ainda não informou quando ele poderá sair.",
+      "texto": [
+        "Jair Bolsonaro (PL) apresentou melhora clínica discreta e continua internado na unidade de terapia intensiva, sem previsão de alta. O boletim médico divulgado nesta terça-feira (24) registrou sinais iniciais de retomada do trânsito intestinal. Segundo o documento, o ex-presidente também recebe tratamento com antibióticos.",
+        "Bolsonaro foi internado na sexta-feira (20), no Hospital DF Star, em Brasília, após quadro de suboclusão intestinal, uma obstrução parcial. O boletim também registra broncopneumonia. A equipe acompanha a evolução do abdome e a resposta ao tratamento durante a internação.",
+        "De acordo com a CNN Brasil e o UOL, a equipe manteve o tratamento clínico. A melhora relatada na terça-feira foi acompanhada de sinais iniciais de retomada da função intestinal.",
+        "A atualização da equipe manteve Bolsonaro em terapia intensiva. O hospital segue sem indicar uma data para alta."
+      ],
+      "fontes": [
+        {
+          "nome": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/bolsonaro-tem-melhora-discreta-e-recebe-antibioticoterapia-diz-boletim/"
+        },
+        {
+          "nome": "UOL",
+          "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/11/24/bolsonaro-boletim.ghtm"
+        },
+        {
+          "nome": "R7",
+          "url": "https://noticias.r7.com/brasilia/bolsonaro-apresenta-melhora-discreta-mas-segue-internado-na-uti-sem-previsao-de-alta-24112026/"
+        }
+      ]
+    },
+    {
+      "secao": "Senado",
+      "titulo": "Aliados de Alcolumbre falam em anular votos expostos no Senado, diz Folha",
+      "linhaFina": "Presidente do Senado nega ter discutido o rito da eleição; regimento prevê votação secreta.",
+      "resumo": "A Folha ouviu quatro aliados de Davi Alcolumbre sobre um plano de anular votos de quem exibir a cédula na eleição do Senado. Alcolumbre afirmou que ainda não há definição sobre o procedimento.",
+      "texto": [
+        "Aliados de Davi Alcolumbre falaram à Folha em anular votos de quem exibir a cédula na eleição do Senado. Alcolumbre negou, em nota, ter conversado sobre o rito e disse que não há definição ou encaminhamento. O presidente da Casa, do União Brasil do Amapá, disputa a reeleição.",
+        "O artigo 60 do Regimento Interno prevê votação secreta para escolher a Mesa. A possibilidade de anular cédulas exibidas antes de serem depositadas foi relatada por quatro aliados ouvidos pela Folha. A eleição será em 1º de fevereiro de 2027. Segundo a reportagem, como candidato, Alcolumbre não presidirá a votação.",
+        "O UOL informou neste mês que integrantes da oposição avaliam expor os votos para mostrar o apoio a Rogério Marinho (PL-RN). Pela estratégia relatada, exibir a cédula permitiria tornar pública uma escolha que, pelo regimento, ocorre sob sigilo. A divulgação prévia dessa intenção trouxe o procedimento para o centro da disputa.",
+        "O sigilo também foi discutido em eleições anteriores. Em 2025, uma questão de ordem pediu votação aberta e foi rejeitada pelo então presidente do Senado, Rodrigo Pacheco. A decisão registrada pela Casa apontou a competência do Senado para estabelecer as regras de sua eleição interna."
+      ],
+      "fontes": [
+        {
+          "nome": "Folha de S.Paulo",
+          "url": "https://www1.folha.uol.com.br/poder/2026/11/alcolumbre-ameaca-anular-voto-do-senador-que-quebrar-sigilo-de-cedula-na-eleicao-do-senado.shtml"
+        },
+        {
+          "nome": "Regimento do Senado",
+          "url": "https://www25.senado.leg.br/web/atividade/legislacao/regimento-interno"
+        },
+        {
+          "nome": "UOL",
+          "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/11/12/stf-espera-ser-acionado-nas-eleicoes-para-presidencia-do-senado.ghtm"
+        },
+        {
+          "nome": "Senado Federal",
+          "url": "https://www25.senado.leg.br/web/atividade/questoes-de-ordem/-/q/detalhe/2993"
+        }
+      ]
+    }
+  ],
+  "mundo": [
+    {
+      "secao": "Comércio",
+      "titulo": "EUA bloqueiam primeiro pedido do Brasil contra tarifas na OMC",
+      "linhaFina": "Brasília questiona sobretaxas de 25% e 12,5%, com exceções, e pode voltar ao órgão de solução de controvérsias.",
+      "resumo": "Os Estados Unidos barraram a primeira tentativa do Brasil de abrir um painel sobre tarifas na Organização Mundial do Comércio. Brasília pode apresentar um segundo pedido.",
+      "texto": [
+        "Os Estados Unidos barraram nesta terça-feira (24) o primeiro pedido brasileiro para abrir um painel sobre tarifas na Organização Mundial do Comércio. O governo brasileiro quer que especialistas avaliem duas sobretaxas impostas a produtos do país. A objeção americana impediu a abertura nessa reunião do Órgão de Solução de Controvérsias.",
+        "A Organização Mundial do Comércio informa que o Brasil questiona um adicional de 25%, sujeito a exceções, e outro de 12,5%, também com exceções. As medidas partiram de duas investigações comerciais conduzidas sob a Seção 301 da legislação americana. A segunda investigação tratou de alegações relacionadas a trabalho forçado.",
+        "As consultas entre os dois países foram realizadas em 25 de setembro. Segundo a entidade, o governo brasileiro informou que a negociação não resolveu o impasse. Brasília argumenta que as sobretaxas entram em conflito com os compromissos comerciais assumidos pelos Estados Unidos.",
+        "Washington declarou que as investigações tratam de práticas brasileiras que considera prejudiciais aos Estados Unidos e afirmou estar disposto a continuar conversando. O órgão de solução de controvérsias registrou as posições e deixou a discussão aberta se o Brasil solicitar que retorne à pauta.",
+        "Segundo o SBT News, um novo pedido brasileiro é esperado para 17 de dezembro. Na segunda tentativa, o bloqueio depende de consenso entre os membros do órgão. A eventual abertura de um painel permite examinar os argumentos apresentados pelos dois governos, etapa anterior a uma decisão sobre as medidas."
+      ],
+      "fontes": [
+        {
+          "nome": "OMC",
+          "url": "https://www.wto.org/english/news_e/news26_e/dsb_24nov26_563_e.htm"
+        },
+        {
+          "nome": "SBT News",
+          "url": "https://sbtnews.sbt.com.br/noticia/politica/eua-bloqueiam-pedido-brasileiro-para-julgar-tarifas-na-omc"
+        },
+        {
+          "nome": "Reuters",
+          "url": "https://economia.uol.com.br/noticias/reuters/2026/11/24/eua-bloqueiam-pedido-do-brasil-para-painel-de-disputa-sobre-tarifas-diz-autoridade-comercial.htm"
+        }
+      ]
+    },
+    {
+      "secao": "Energia",
+      "titulo": "Brent sobe 2,27% e fecha a US$ 91,40 após relatos de ataques em Ormuz",
+      "linhaFina": "Contratos de petróleo viraram depois de tocar mínimas no pregão; WTI encerrou a US$ 82,05.",
+      "resumo": "O petróleo Brent fechou a sessão a US$ 91,40 por barril, em alta de 2,27%. O mercado acompanhou relatos de ataques a embarcações no Estreito de Ormuz e arredores.",
+      "texto": [
+        "O petróleo Brent subiu 2,27% nesta terça-feira (24), a US$ 91,40 por barril, após relatos de novos ataques nas proximidades de Ormuz. Os contratos de janeiro do petróleo americano West Texas Intermediate, ou WTI, também avançaram. Fecharam a US$ 82,05 por barril, alta de 2,35%.",
+        "A mudança de direção ocorreu durante a mesma sessão. Segundo a Reuters, o Brent chegou à mínima de US$ 88,10 antes de subir US$ 2,03 em relação ao fechamento anterior. O contrato do WTI tocou US$ 79,07 e terminou com ganho de US$ 1,88. As mínimas são preços registrados no pregão, enquanto as altas comparam dois fechamentos.",
+        "O estreito conecta o Golfo Pérsico ao Golfo de Omã e é uma rota importante para o transporte de petróleo. Relatos sobre navios atingidos e sobre a segurança da passagem são acompanhados por quem negocia os contratos. A CNN Brasil também registrou a atenção dos operadores a notícias sobre ataques na Arábia Saudita.",
+        "Brent e WTI são referências diferentes de petróleo negociadas em mercados internacionais. As cotações citadas nesta reportagem são de contratos futuros com vencimento em janeiro. Na sessão seguinte, as negociações voltam a incorporar notícias sobre oferta, circulação de navios e demanda por petróleo."
+      ],
+      "fontes": [
+        {
+          "nome": "Reuters",
+          "url": "https://noticias.uol.com.br/ultimas-noticias/reuters/2026/11/24/petroleo-fecha-em-alta-de-us2-em-meio-a-ataques-continuos-a-navios-em-ormuz.amp.htm"
+        },
+        {
+          "nome": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/economia/money/mercado/petroleo-fecha-em-alta-com-aumento-dos-riscos-a-navegacao-em-ormuz-e-tensoes-na-arabia-saudita/"
+        }
+      ]
+    },
+    {
+      "secao": "Europa",
+      "titulo": "Reino Unido alerta fornecedores da Ucrânia para risco de sabotagem russa",
+      "linhaFina": "Órgãos de segurança chamam empresas que apoiam as forças ucranianas para reuniões sobre a ameaça.",
+      "resumo": "O governo britânico emitiu um alerta de segurança para empresas que abastecem as Forças Armadas da Ucrânia. O aviso trata de risco crescente de sabotagem atribuído à Rússia por Londres.",
+      "texto": [
+        "O Reino Unido alertou nesta terça-feira (24) empresas britânicas que prestam apoio material direto à Ucrânia sobre o risco de sabotagem russa. O aviso da Autoridade Nacional de Segurança Protetiva, ligada ao serviço de inteligência interna MI5, e do Ministério da Defesa abrange também a cadeia de suprimentos. Londres anunciou reuniões com representantes de setores sensíveis.",
+        "O alerta se dirige a empresas que dão apoio direto à Ucrânia, entre elas fornecedoras das Forças Armadas do país. Em comunicado, o governo britânico informou que os encontros com dirigentes empresariais ocorreriam na terça e na quarta-feira. A iniciativa trata de como reconhecer ameaças à segurança e comunicar incidentes.",
+        "A Reuters relembra o caso de um incêndio criminoso contra uma empresa ligada à Ucrânia. Segundo a agência, autoridades britânicas atribuíram a ação a Moscou, e pessoas envolvidas foram presas. A agência também cita uma acusação apresentada em setembro contra um homem que teria repassado informações a serviços de inteligência russos.",
+        "O comunicado do governo descreve um risco direcionado a organizações que apoiam Kiev. As autoridades britânicas apresentam o alerta como medida preventiva e disponibilizam orientações às empresas atingidas pelo aviso. A ocorrência de novos incidentes dependerá de confirmação própria pelas autoridades responsáveis."
+      ],
+      "fontes": [
+        {
+          "nome": "MI5",
+          "url": "https://www.mi5.gov.uk/npsa-and-mod-issue-joint-alert"
+        },
+        {
+          "nome": "Governo britânico",
+          "url": "https://www.gov.uk/government/news/ceos-from-sensitive-sectors-receive-briefings-on-russia-threats"
+        },
+        {
+          "nome": "Reuters",
+          "url": "https://www.reuters.com/world/uk-warns-russian-sabotage-threat-companies-that-supply-ukraine-2026-11-24/"
+        }
+      ]
+    },
+    {
+      "secao": "Oriente Médio",
+      "titulo": "Ataques israelenses em Gaza matam ao menos sete, segundo fontes palestinas",
+      "linhaFina": "Entre os mortos está Naeem Abu Nahel, chefe da segurança interna do Hamas; Netanyahu confirmou que ele foi alvo de Israel.",
+      "resumo": "Ataques israelenses mataram ao menos sete pessoas em Gaza, segundo médicos e policiais palestinos ouvidos pela Reuters. Entre os mortos está Naeem Abu Nahel, dirigente da segurança interna do Hamas.",
+      "texto": [
+        "Ataques israelenses mataram ao menos sete pessoas na Faixa de Gaza nesta terça-feira (24), segundo fontes palestinas ouvidas pela Reuters. Entre as vítimas estava Naeem Abu Nahel, chefe do aparato de segurança interna do Hamas. O primeiro-ministro israelense, Benjamin Netanyahu, confirmou posteriormente que Abu Nahel foi alvo da ação.",
+        "O Ministério do Interior em Gaza, administrado pelo Hamas, confirmou a morte do dirigente, segundo a Al Jazeera. A defesa civil local também relatou feridos graves em um ataque no bairro de Rimal, na Cidade de Gaza, conforme informou a AFP. O Exército israelense e o serviço de segurança Shin Bet haviam confirmado que atingiram um dirigente do Hamas, antes de Netanyahu divulgar o nome.",
+        "No sul de Gaza, a Reuters ouviu equipes médicas que relataram três mortos em um ataque contra um posto policial em Khan Younis. O Ministério do Interior local apontou que dois eram policiais. A agência também registrou um ataque na região do corredor de Netzarim, mais ao norte.",
+        "O balanço de ao menos sete mortos reúne informações de equipes médicas, polícia e autoridades palestinas sobre ataques em diferentes pontos do território. O anúncio israelense sobre Abu Nahel se refere a um desses ataques."
+      ],
+      "fontes": [
+        {
+          "nome": "Reuters",
+          "url": "https://www.reuters.com/world/middle-east/israeli-airstrike-kills-least-three-palestinians-southern-gaza-medics-say-2026-11-24/"
+        },
+        {
+          "nome": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/24/israeli-air-strike-kills-senior-hamas-military-official-in-gaza"
+        },
+        {
+          "nome": "AFP",
+          "url": "https://www.dawn.com/news/2046778"
+        }
+      ]
+    }
+  ],
+  "cultura": [
+    {
+      "secao": "Política cultural",
+      "titulo": "Senado aprova plano de cultura para dez anos e envia texto à sanção",
+      "linhaFina": "Projeto orienta ações conjuntas de União, estados, Distrito Federal e municípios.",
+      "resumo": "O Senado aprovou um novo Plano Nacional de Cultura, com horizonte de dez anos. A proposta segue para sanção e estabelece diretrizes comuns para os governos federal, estaduais e municipais.",
+      "texto": [
+        "O Senado aprovou nesta terça-feira (24) a proposta do novo Plano Nacional de Cultura e enviou o texto à sanção presidencial. O projeto estabelece diretrizes para as políticas culturais dos próximos dez anos. Segundo a Agência Senado, o país estava havia dois anos sem um plano nacional em vigor.",
+        "O plano trata da coordenação das políticas de cultura entre a União, os estados, o Distrito Federal e os municípios. O relator no plenário, senador Humberto Costa (PT-PE), apresentou a proposta como uma forma de preencher a lacuna deixada pelo encerramento do plano iniciado em 2010.",
+        "O Ministério da Cultura informou que o projeto busca ampliar o acesso à cultura e orientar a atuação do poder público. A proposta reúne princípios e diretrizes nacionais. A execução dessas diretrizes exigirá a participação dos diferentes níveis de governo e o acompanhamento das ações ao longo do período.",
+        "A votação do projeto no Senado concluiu a etapa no Congresso. O próximo passo é a decisão da Presidência da República sobre a sanção. O plano seguirá para execução conforme o texto convertido em lei e a atuação dos órgãos responsáveis pelas políticas culturais."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Senado",
+          "url": "https://www12.senado.leg.br/noticias/materias/2026/11/24/senado-aprova-plano-nacional-de-cultura-para-os-proximos-10-anos"
+        },
+        {
+          "nome": "Ministério da Cultura",
+          "url": "https://www.gov.br/cultura/pt-br/assuntos/noticias/novo-plano-nacional-de-cultura-e-aprovado-no-senado-1/"
+        }
+      ]
+    }
+  ],
+  "paraEntender": {
+    "titulo": "O que muda com a nova lei do ajuste fiscal",
+    "itens": [
+      "A Lei Complementar 239 foi sancionada em 24/11 e passa a informar a execução do Orçamento de 2027.",
+      "O resultado primário compara receitas e despesas antes dos juros da dívida.",
+      "Depois dos abatimentos legais, a referência de superávit de 2027 fica em R$ 18,7 bilhões.",
+      "A faixa de R$ 45,1 bilhões a R$ 56,1 bilhões é a estimativa do governo para a melhora no resultado primário atribuída ao pacote.",
+      "Quando se aplicar a restrição adicional, o crescimento real da despesa fica limitado a 2%, descontada a inflação.",
+      "A lei reduz incentivos fiscais, autoriza restrições à compensação cruzada em determinadas condições e muda o calendário de alguns repasses federais."
+    ],
+    "fontes": [
+      {
+        "nome": "Agência Câmara",
+        "url": "https://www.camara.leg.br/noticias/1322586-lei-do-ajuste-fiscal-e-sancionada-sem-vetos-e-ja-esta-em-vigor"
+      },
+      {
+        "nome": "Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-sanciona-ajuste-fiscal-aprovado-no-congresso"
+      },
+      {
+        "nome": "Agência Senado",
+        "url": "https://www12.senado.leg.br/noticias/materias/2026/11/24/lei-do-ajuste-fiscal-e-publicada-e-ja-esta-valendo"
+      }
+    ]
+  },
+  "breves": [
+    {
+      "texto": "O dólar comercial fechou a R$ 5,9107, queda de 0,26%. O Ibovespa cedeu 0,43%, para 164.089,81 pontos.",
+      "fonte": {
+        "nome": "UOL",
+        "url": "https://economia.uol.com.br/cotacoes/noticias/redacao/2026/11/24/dolar-ibovespa-fechamento-24-novembro-2026.ghtm"
+      }
+    },
+    {
+      "texto": "O Banco Central anunciou leilões de linha para quarta-feira (25), com limite conjunto de US$ 2 bilhões.",
+      "fonte": {
+        "nome": "Banco Central",
+        "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?numero=46351&tipo=Comunicado"
+      }
+    },
+    {
+      "texto": "A Sanofi anunciou acordo para comprar a farmacêutica americana Insmed por US$ 41 bilhões em dinheiro.",
+      "fonte": {
+        "nome": "Sanofi",
+        "url": "https://www.sanofi.com/assets/dotcom/pressreleases/2026/2026-11-24-06-30-00-3409002-en.pdf"
+      }
+    },
+    {
+      "texto": "O Senado aprovou projeto que tipifica o tráfico de animais silvestres e endurece penas contra a exploração ilegal da fauna. O texto segue para sanção.",
+      "fonte": {
+        "nome": "Agência Senado",
+        "url": "https://www12.senado.leg.br/noticias/materias/2026/11/24/aprovado-projeto-que-tipifica-crime-de-trafico-de-animais-silvestres"
+      }
+    },
+    {
+      "texto": "O Dia Nacional de Ação de Graças cai nesta quinta-feira, 26 de novembro. A lei brasileira fixa a celebração na quarta quinta-feira do mês.",
+      "fonte": {
+        "nome": "Câmara dos Deputados",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-5110-22-setembro-1966-368932-publicacaooriginal-1-pl.html"
+      }
+    }
+  ]
+}
