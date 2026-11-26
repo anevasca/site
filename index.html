@@ -593,7 +593,7 @@ window.addEventListener("hashchange",function(){if(/^#(redacao|roteiro)/.test(lo
     if(aba === "economia") h += indicadores(ed);
     if(aba === "opiniao"){
       var e = ed.editorial, id = "ed-"+ed.data+"-editorial";
-      h += '<article class="artigo-pag editorial-pag"><div class="selo"><span>Editorial</span><em>Opinião do jornal</em></div><h1><a href="#'+id+'">'+esc(e.titulo)+'</a></h1><div class="corpo">'+ps(e.texto)+'</div>'+fontes(e.fontes)+'<p class="nota">Este texto expressa a posição editorial de A Nevasca.</p>'+share(id, "Editorial: "+e.titulo)+'</article>';
+      h += '<article class="artigo-pag editorial-pag"><div class="selo"><span>Editorial</span><em>Opinião do jornal</em></div><h1><a href="#'+id+'">'+esc(e.titulo)+'</a></h1><div class="corpo">'+ps(e.texto.slice(0,1))+'</div><p><a class="leia" href="#'+id+'">Ler editorial completo →</a></p>'+fontes(e.fontes)+'<p class="nota">Este texto expressa a posição editorial de A Nevasca.</p>'+share(id, "Editorial: "+e.titulo)+'</article>';
       h += '<section class="secao bloco-coluna"><h3>'+NOME_COLUNA+' <small>a coluna de '+AUTOR+'</small></h3><p class="epigrafe">'+EPIGRAFE+'</p><div id="lista-col"></div></section>';
       h += '<section class="secao"><h3>Editoriais anteriores</h3><ul class="lista-ed" id="lista-ed"><li>Carregando…</li></ul></section>';
       document.getElementById("conteudo").innerHTML = h;
@@ -949,7 +949,9 @@ window.addEventListener("hashchange",function(){if(/^#(redacao|roteiro)/.test(lo
     carregar(data).then(function(ed){
       return getUltimas(ed.data).catch(function(){ return []; }).then(function(lista){
         var itens = artigos(ed).concat(ultimasArtigos(ed, lista || []));
-        return Promise.all([contagem("TOTAL")].concat(itens.map(function(a){ return contagem("/#" + a.id); }))).then(function(n){
+        if(ed.data === "2026-11-26") itens.push({titulo:"Dia de Ação de Graças: onde vive, o que come e por que agradece", secao:"Especial", caminho:"/especial-acao-de-gracas.html"});
+
+        return Promise.all([contagem("TOTAL")].concat(itens.map(function(a){ return contagem(a.caminho || "/#" + a.id); }))).then(function(n){
           var total = n.shift(), soma = 0;
           itens.forEach(function(a, i){ a.n = n[i]; soma += n[i]; });
           itens.sort(function(x, y){ return y.n - x.n; });
@@ -964,7 +966,7 @@ window.addEventListener("hashchange",function(){if(/^#(redacao|roteiro)/.test(lo
             '<p class="painel-datas">Edição: ' + datas + '</p>' +
             '<table class="painel-tab"><thead><tr><th>#</th><th>Matéria</th><th>Leituras</th></tr></thead><tbody>' +
             itens.map(function(a, i){
-              return '<tr><td>' + (i + 1) + '</td><td><a href="#' + a.id + '">' + esc(a.titulo) + '</a><small>' + esc(a.secao || "") + (a.hora ? " · " + esc(a.hora) : "") + '</small></td><td>' + a.n.toLocaleString("pt-BR") + '</td></tr>';
+              return '<tr><td>' + (i + 1) + '</td><td><a href="' + esc(a.caminho || ("#" + a.id)) + '">' + esc(a.titulo) + '</a><small>' + esc(a.secao || "") + (a.hora ? " · " + esc(a.hora) : "") + '</small></td><td>' + a.n.toLocaleString("pt-BR") + '</td></tr>';
             }).join("") + '</tbody></table>' +
             '<p class="painel-nota">Painel completo (origem dos leitores, celular ou computador, dias e horários): <a href="https://anevasca.goatcounter.com" target="_blank" rel="noopener">anevasca.goatcounter.com</a></p></article>';
           alvo.innerHTML = h; window.scrollTo(0, 0);
