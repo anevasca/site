@@ -1,0 +1,61 @@
+[
+  {
+    "hora": "11h48",
+    "secao": "Economia",
+    "titulo": "Operação mira Grupo Fictor por suspeita de fraude e Justiça determina bloqueio de até R$ 4,3 bilhões",
+    "linhaFina": "Polícia Civil e Ministério Público de São Paulo cumprem buscas em 12 endereços. Investigação apura captação de recursos com promessa de rendimentos fixos.",
+    "resumo": "Polícia Civil e Ministério Público de São Paulo cumprem buscas em 12 endereços. Investigação apura captação de recursos com promessa de rendimentos fixos.",
+    "texto": [
+      "A Polícia Civil e o Ministério Público de São Paulo deflagraram nesta quinta-feira (26) uma operação contra o Grupo Fictor por suspeita de fraude financeira na captação de dinheiro de investidores.",
+      "A Justiça determinou o bloqueio de contas e o sequestro de bens e valores de 233 pessoas e empresas investigadas, até o limite de aproximadamente R$ 4,3 bilhões. Os agentes cumprem mandados de busca e apreensão em 12 endereços na capital paulista e em São Bernardo do Campo. O total efetivamente bloqueado ainda não foi informado nas fontes consultadas.",
+      "Batizada de Dinheiro Fictício, a operação apura a captação de mais de R$ 4 bilhões entre 2024 e 2025. Segundo a polícia, a maior parte dos recursos veio de pessoas físicas. Os investigadores apuram se a empresa prometeu rendimentos fixos sem lastro em operações comerciais que permitissem sustentar os pagamentos.",
+      "O grupo ganhou projeção nacional em novembro de 2025, quando anunciou um plano para comprar o Banco Master que previa um aporte de R$ 3 bilhões. A negociação foi abandonada no dia seguinte ao anúncio, quando o Banco Central liquidou o Master.",
+      "Em fevereiro de 2026, a Fictor pediu recuperação judicial e informou ter cerca de R$ 4 bilhões em dívidas, segundo a Reuters. Procurado pela agência nesta manhã, o grupo não respondeu de imediato."
+    ],
+    "fontes": [
+      {
+        "nome": "Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-11/sp-policia-faz-operacao-contra-empresa-que-movimentou-r-4-bi"
+      },
+      {
+        "nome": "CNN Brasil",
+        "url": "https://www.cnnbrasil.com.br/nacional/sudeste/sp/mp-e-policia-fazem-operacao-contra-fictor-e-justica-bloqueia-r-43-bilhoes/"
+      },
+      {
+        "nome": "Reuters",
+        "url": "https://noticias.uol.com.br/ultimas-noticias/reuters/2026/11/26/grupo-fictor-e-alvo-de-operacao-por-suspeita-de-fraude-justica-bloqueia-r43-bi-diz-fonte.htm"
+      }
+    ]
+  },
+  {
+    "hora": "11h48",
+    "secao": "Política",
+    "titulo": "Lula sonda Luiz Carlos Trabuco para comandar a Fazenda no próximo mandato",
+    "linhaFina": "Presidente do conselho de administração do Bradesco ainda não respondeu, segundo a Reuters.",
+    "resumo": "Presidente do conselho de administração do Bradesco ainda não respondeu, segundo a Reuters.",
+    "texto": [
+      "O presidente Luiz Inácio Lula da Silva sondou Luiz Carlos Trabuco, presidente do conselho de administração do Bradesco, para comandar o Ministério da Fazenda em 2027.",
+      "A conversa foi revelada pela Folha de S.Paulo e confirmada à Reuters por duas fontes que acompanham as negociações. Segundo a agência, o banqueiro ainda não respondeu. Procurado pela Reuters, o Bradesco não comentou.",
+      "O SBT News informou que a conversa ocorreu na segunda-feira (23), no Palácio da Alvorada, em reunião fora da agenda oficial, e que Trabuco ficou de responder até o dia 30. A Folha descreveu a conversa como informal. A Reuters informou que a resposta é esperada em breve.",
+      "A sondagem veio numa semana em que o dólar chegou a passar dos R$ 6. Ao mesmo tempo, o governo discute novas medidas fiscais. O ministro da Secretaria-Geral da Presidência, Guilherme Boulos, disse à Folha que estão em debate emendas parlamentares, benefícios tributários e supersalários. Quem assumir a Fazenda terá de negociar com o Congresso as medidas que o governo decidir encaminhar."
+    ],
+    "fontes": [
+      {
+        "nome": "Reuters",
+        "url": "https://noticias.uol.com.br/ultimas-noticias/reuters/2026/11/26/lula-sonda-trabuco-para-fazenda-dizem-fontes-banqueiro-ainda-nao-deu-resposta.htm"
+      },
+      {
+        "nome": "Folha de S.Paulo",
+        "url": "https://www1.folha.uol.com.br/colunas/monicabergamo/2026/11/lula-diz-a-trabuco-que-precisa-dele-no-governo-e-banqueiro-pede-tempo.shtml"
+      },
+      {
+        "nome": "SBT News",
+        "url": "https://sbtnews.sbt.com.br/noticia/politica/lula-convida-trabuco-para-fazenda-e-quer-resposta-ate-dia-30"
+      },
+      {
+        "nome": "Folha de S.Paulo | Medidas fiscais",
+        "url": "https://www1.folha.uol.com.br/mercado/2026/11/novo-pacote-de-lula-vai-mirar-emendas-gastos-tributarios-e-supersalarios-diz-chefe-da-secretaria-geral.shtml"
+      }
+    ]
+  }
+]
