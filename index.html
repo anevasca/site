@@ -103,6 +103,7 @@
   .box h4{font-family:var(--titulo);font-size:22px;margin:0 0 10px}
   .box ol{margin:0;padding-left:18px}
   .box li{margin:0 0 8px;font-size:15.5px}
+  .contexto-lateral{display:grid;align-content:start;gap:22px;min-width:0}
   .breves ul{list-style:none;margin:0;padding:0}
   .breves li{padding:10px 0;border-bottom:1px solid var(--linha);font-size:15.5px}
   .breves li:last-child{border-bottom:0}
@@ -284,8 +285,22 @@
   .rot-bloco p{font-size:22px;line-height:1.5;margin:4px 0 0}
   .faixa-pod{color:var(--acento);text-decoration:none;font-family:var(--sans);font-style:normal;font-weight:700}
   .faixa-pod:hover{text-decoration:underline}
+
+.arquivo-usaid{margin:2rem 0;background:#f6f1e7;border-top:4px solid #772327;padding:clamp(1rem,3vw,2rem);color:#24201c}
+.arquivo-usaid header{border:0;padding:0;margin:0 0 1.25rem;display:block;text-align:left}
+.arquivo-usaid h2{font-size:clamp(1.65rem,4vw,2.35rem);margin:.3rem 0 .55rem;line-height:1.12}
+.arquivo-usaid-grade{display:grid;gap:1.25rem}
+.arquivo-usaid-trecho{background:#fffdf8;border:1px solid #ded3c4;padding:1rem;display:flex;flex-direction:column;align-items:start}
+.arquivo-usaid-trecho h3{font-size:1.22rem;margin:.3rem 0 .75rem}
+.arquivo-usaid-trecho p{font-size:.88rem;line-height:1.5;margin:0 0 .65rem}
+.arquivo-usaid-trecho blockquote{font-size:1.02rem;line-height:1.55;margin:0 0 .55rem}
+.arquivo-usaid-pagina{width:100%;margin:0 0 1rem}.arquivo-usaid-pagina img{display:block;width:100%;height:auto;border:1px solid #ded3c4}.arquivo-usaid-pagina figcaption{margin-top:.4rem;font-size:.8rem;color:#51483f}
+.arquivo-usaid-traducao{font-style:italic}
+.arquivo-usaid-trecho a{color:#772327;font-size:.82rem;margin-top:auto}
+@media(max-width:600px){.arquivo-usaid-grade{grid-template-columns:1fr}}
 </style>
-<!-- Contador de visitas (GoatCounter, sem cookies) -->
+
+<style>.chamada-especial{margin:1.25rem 0;padding:1rem 1.2rem;border-block:1px solid #77302d}.chamada-especial h2{margin:.3rem 0}</style><!-- Contador de visitas (GoatCounter, sem cookies) -->
 <script>
 window.goatcounter={path:function(){return location.pathname+location.hash},no_onload:/^#(redacao|roteiro)/.test(location.hash)};
 window.addEventListener("hashchange",function(){if(/^#(redacao|roteiro)/.test(location.hash))return;if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:location.pathname+location.hash})});
@@ -454,7 +469,7 @@ window.addEventListener("hashchange",function(){if(/^#(redacao|roteiro)/.test(lo
     (ed.destaques||[]).forEach(function(a,i){ L.push({id:pre+"destaque-"+(i+1), secao:a.secao, titulo:a.titulo, fina:a.linhaFina, resumo:a.resumo, img:a.imagem, graf:a.grafico, texto:(a.texto&&a.texto.length?a.texto:[a.resumo]), fontes:a.fontes, aba:"economia"}); });
     (ed.mundo||[]).forEach(function(a,i){ L.push({id:pre+"mundo-"+(i+1), secao:a.secao, titulo:a.titulo, fina:a.linhaFina, resumo:a.resumo, img:a.imagem, graf:a.grafico, texto:(a.texto&&a.texto.length?a.texto:[a.resumo]), fontes:a.fontes, aba:"mundo"}); });
     (ed.cultura||[]).forEach(function(a,i){ L.push({id:pre+"cultura-"+(i+1), secao:a.secao, titulo:a.titulo, fina:a.linhaFina, resumo:a.resumo, img:a.imagem, graf:a.grafico, texto:(a.texto&&a.texto.length?a.texto:[a.resumo]), fontes:a.fontes, aba:"cultura"}); });
-    L.push({id:pre+"editorial", chave:"editorial", secao:"Editorial", titulo:e.titulo, texto:e.texto, resumo:e.resumo, aba:"opiniao", editorial:true});
+    L.push({id:pre+"editorial", chave:"editorial", secao:"Editorial", titulo:e.titulo, texto:e.texto, resumo:e.resumo, fontes:e.fontes, aba:"opiniao", editorial:true});
     return L;
   }
   function linkSecao(ed, aba){ return (ed.data === hoje) ? "#"+aba : "#ed-"+ed.data+"-sec-"+aba; }
@@ -488,11 +503,19 @@ window.addEventListener("hashchange",function(){if(/^#(redacao|roteiro)/.test(lo
       (a.fina?'<p class="fina-c">'+esc(a.fina)+'</p>':'')+'<p>'+esc(grande? a.texto[0] : a.texto[0])+'</p>'+
       '<a class="leia" href="#'+a.id+'">Ler matéria completa →</a>'+fontes(a.fontes)+share(a.id, a.titulo)+'</article>';
   }
+  function contextoBox(ed, bloco, rotulo){
+    var h = '<div class="box"><p class="kicker">'+esc(rotulo)+'</p><h4>'+esc(bloco.titulo)+'</h4><ol>';
+    h += bloco.itens.map(function(item){ return '<li>'+esc(item)+'</li>'; }).join("") + '</ol>';
+    if(bloco.materia) h += '<p><a class="leia" href="#ed-'+esc(ed.data)+'-'+esc(bloco.materia)+'">Ler a reportagem →</a></p>';
+    return h + fontes(bloco.fontes) + '</div>';
+  }
   function contextoHTML(ed){
     var pe = ed.paraEntender, h = '<section class="secao duas">';
-    if(pe) h += '<div class="box"><p class="kicker">Para entender</p><h4>'+esc(pe.titulo)+'</h4><ol>' + pe.itens.map(function(i){ return "<li>"+esc(i)+"</li>"; }).join("") + '</ol>' + fontes(pe.fontes) + '</div>';
+    if(pe) h += contextoBox(ed,pe,"Para entender");
+    if(pe && pe.relacionado) h += '<div class="contexto-lateral">';
     if(ed.breves && ed.breves.length) h += '<div class="breves"><p class="kicker">Breves</p><ul>' + ed.breves.map(function(b){
       return '<li>'+esc(b.texto)+(b.fonte?' <span class="fontes" style="display:inline"><a href="'+esc(b.fonte.url)+'" target="_blank" rel="noopener">'+esc(b.fonte.nome)+'</a></span>':'')+'</li>'; }).join("") + '</ul></div>';
+    if(pe && pe.relacionado) h += contextoBox(ed,pe.relacionado,"Economia") + '</div>';
     return h + '</section>';
   }
 
@@ -502,13 +525,14 @@ window.addEventListener("hashchange",function(){if(/^#(redacao|roteiro)/.test(lo
     var A = artigos(ed), byId = {}; A.forEach(function(a){ byId[a.id] = a; });
     var pre = "ed-"+ed.data+"-", m = ed.manchete, e = ed.editorial;
     var h = aviso(ed) + '<div id="urgente"></div>' + indicadores(ed);
+    if(ed.data === "2026-11-26") h += '<aside class="chamada-especial"><p class="kicker">Especial · Por Junior Neves</p><h2><a href="especial-acao-de-gracas.html">Dia de Ação de Graças: onde vive, o que come e por que agradece</a></h2><p>Das mesas dos Estados Unidos a uma igreja em Tupã, uma reportagem sobre as origens da celebração e suas raízes na fé cristã.</p></aside>';
     h += '<section class="capa">';
     h += '<div class="col">' + (ed.destaques||[]).map(function(x, i){
       var id = pre + "destaque-" + (i+1);
-      return '<article class="destaque"><p class="kicker azul">'+esc(x.secao)+'</p><h2><a href="#'+id+'">'+esc(x.titulo)+'</a></h2><p>'+esc(x.resumo)+'</p>'+grafico(x.grafico, true)+fontes(x.fontes)+'</article>';
+      return '<article class="destaque">'+(x.imagem&&x.imagem.origem?'<a href="#'+id+'"><img class="thumb" src="'+esc(x.imagem.arquivo)+'" alt="'+esc(x.imagem.legenda)+'" loading="lazy"></a>':'')+'<p class="kicker azul">'+esc(x.secao)+'</p><h2><a href="#'+id+'">'+esc(x.titulo)+'</a></h2><p>'+esc(x.resumo)+'</p>'+grafico(x.grafico, true)+fontes(x.fontes)+'</article>';
     }).join("") + '<a class="mais-secao" href="'+linkSecao(ed,"economia")+'">Mais em Economia →</a></div>';
-    h += '<div class="col centro"><article class="manchete"><p class="kicker">'+esc(m.secao)+'</p><h1><a href="#'+pre+'manchete">'+esc(m.titulo)+'</a></h1><p class="fina">'+esc(m.linhaFina)+'</p><p class="assinatura">Da redação · '+esc(ed.dataExtenso)+'</p>'+(m.imagem&&m.imagem.arquivo?'<figure class="foto"><a href="#'+pre+'manchete"><img src="'+esc(m.imagem.arquivo)+'" alt="'+esc(m.imagem.legenda||m.titulo)+'"></a><figcaption>'+esc(m.imagem.legenda||"")+(m.imagem.credito?' <span>'+esc(m.imagem.credito)+'</span>':'')+'</figcaption></figure>':'')+'<div class="texto">'+
-         ps(m.texto.slice(0,3)) + '</div>' + grafico(m.grafico) + (m.texto.length>3?'<p class="leia"><a href="#'+pre+'manchete">Leia a matéria completa →</a></p>':'') + fontes(m.fontes) + share(pre+"manchete", m.titulo) + '</article></div>';
+    h += '<div class="col centro"><article class="manchete"><p class="kicker">'+esc(m.secao)+'</p><h1><a href="#'+pre+'manchete">'+esc(m.titulo)+'</a></h1><p class="fina">'+esc(m.linhaFina)+'</p><p class="assinatura">Da redação · '+esc(ed.dataExtenso)+'</p>'+(m.imagem&&m.imagem.arquivo?'<figure class="foto"><a href="#'+pre+'manchete"><img src="'+esc(m.imagem.arquivo)+'" alt="'+esc(m.imagem.legenda||m.titulo)+'"></a><figcaption>'+esc(m.imagem.legenda||"")+creditoFoto(m.imagem)+'</figcaption></figure>':'')+'<div class="texto">'+
+         ps(m.texto.slice(0,ed.data === "2026-11-26" ? 5 : 3)) + '</div>' + grafico(m.grafico) + (m.texto.length>3?'<p class="leia"><a href="#'+pre+'manchete">Leia a matéria completa →</a></p>':'') + fontes(m.fontes) + share(pre+"manchete", m.titulo) + '</article></div>';
     var resumoEd = e.texto[0];
     h += '<div class="col"><aside class="editorial"><div class="selo"><span>Editorial</span><em>Opinião do jornal</em></div><h2><a href="#'+pre+'editorial">'+esc(e.titulo)+'</a></h2><p>'+esc(resumoEd)+'</p>'+
          '<a class="leia" href="#'+pre+'editorial">Ler o editorial completo →</a></aside><div id="chamada-coluna"></div></div>';
@@ -518,13 +542,13 @@ window.addEventListener("hashchange",function(){if(/^#(redacao|roteiro)/.test(lo
     if(ed.politica && ed.politica.length){
       h += '<section class="secao"><h3><a href="'+linkSecao(ed,"politica")+'">Brasília →</a> <small>Congresso, STF e partidos</small></h3><div class="grade4">' + ed.politica.map(function(a, i){
         var id = pre + "politica-" + (i+1);
-        return '<article><p class="kicker">'+esc(a.secao)+'</p><h4><a href="#'+id+'">'+esc(a.titulo)+'</a></h4><p>'+esc(a.resumo)+'</p></article>';
+        return '<article>'+chamadaFoto(a.imagem,id)+'<p class="kicker">'+esc(a.secao)+'</p><h4><a href="#'+id+'">'+esc(a.titulo)+'</a></h4><p>'+esc(a.resumo)+'</p></article>';
       }).join("") + '</div></section>';
     }
     if(ed.mundo && ed.mundo.length){
       h += '<section class="secao"><h3><a href="'+linkSecao(ed,"mundo")+'">Mundo →</a> <small>O que mexe com o Ocidente</small></h3><div class="grade4">' + ed.mundo.map(function(a, i){
         var id = pre + "mundo-" + (i+1);
-        return '<article><p class="kicker azul">'+esc(a.secao)+'</p><h4><a href="#'+id+'">'+esc(a.titulo)+'</a></h4><p>'+esc(a.resumo)+'</p></article>';
+        return '<article>'+chamadaFoto(a.imagem,id)+'<p class="kicker azul">'+esc(a.secao)+'</p><h4><a href="#'+id+'">'+esc(a.titulo)+'</a></h4><p>'+esc(a.resumo)+'</p></article>';
       }).join("") + '</div></section>';
     }
     if(ed.cultura && ed.cultura.length){
@@ -534,7 +558,7 @@ window.addEventListener("hashchange",function(){if(/^#(redacao|roteiro)/.test(lo
       }).join("") + '</div></section>';
     }
     h += contextoHTML(ed);
-    h += '<div class="baixar-pdf"><a href="pdf/'+ed.data+'.pdf" download>⬇ Baixar a edição impressa (PDF com 8 páginas para imprimir, dobrar e grampear)</a></div>';
+    if(ed.data !== "2026-11-26") h += '<div class="baixar-pdf"><a href="pdf/'+ed.data+'.pdf" download>⬇ Baixar a edição impressa (PDF com 8 páginas para imprimir, dobrar e grampear)</a></div>';
     h += '<div class="ver-arquivo"><a href="#arquivo">Ver todas as edições anteriores →</a></div>';
     document.getElementById("conteudo").innerHTML = h;
     podcastCapa(ed);
@@ -553,6 +577,15 @@ window.addEventListener("hashchange",function(){if(/^#(redacao|roteiro)/.test(lo
   }
 
   // ---------- PÁGINA DE SEÇÃO ----------
+  function chamadaFoto(img, id) {
+    if(!img || !img.origem) return '';
+    return '<a href="#'+id+'"><img class="thumb" src="'+esc(img.arquivo)+'" alt="'+esc(img.legenda)+'" loading="lazy"></a>';
+  }
+  function creditoFoto(img) {
+    var autor = img.origem ? '<a href="'+esc(img.origem)+'">'+esc(img.credito)+'</a>' : esc(img.credito);
+    var licenca = img.licenca ? ' · <a href="'+esc(img.licenca)+'">'+esc(img.rotuloLicenca)+'</a>' : '';
+    return img.credito ? ' <span>'+autor+licenca+'</span>' : '';
+  }
   function secao(ed, aba){
     topo(ed); nav(ed, aba);
     var S = SECOES[aba], A = artigos(ed).filter(function(a){ return a.aba === aba; });
@@ -560,7 +593,7 @@ window.addEventListener("hashchange",function(){if(/^#(redacao|roteiro)/.test(lo
     if(aba === "economia") h += indicadores(ed);
     if(aba === "opiniao"){
       var e = ed.editorial, id = "ed-"+ed.data+"-editorial";
-      h += '<article class="artigo-pag editorial-pag"><div class="selo"><span>Editorial</span><em>Opinião do jornal</em></div><h1><a href="#'+id+'">'+esc(e.titulo)+'</a></h1><div class="corpo">'+ps(e.texto)+'</div><p class="nota">Este texto expressa a posição editorial de A Nevasca.</p>'+share(id, "Editorial: "+e.titulo)+'</article>';
+      h += '<article class="artigo-pag editorial-pag"><div class="selo"><span>Editorial</span><em>Opinião do jornal</em></div><h1><a href="#'+id+'">'+esc(e.titulo)+'</a></h1><div class="corpo">'+ps(e.texto)+'</div>'+fontes(e.fontes)+'<p class="nota">Este texto expressa a posição editorial de A Nevasca.</p>'+share(id, "Editorial: "+e.titulo)+'</article>';
       h += '<section class="secao bloco-coluna"><h3>'+NOME_COLUNA+' <small>a coluna de '+AUTOR+'</small></h3><p class="epigrafe">'+EPIGRAFE+'</p><div id="lista-col"></div></section>';
       h += '<section class="secao"><h3>Editoriais anteriores</h3><ul class="lista-ed" id="lista-ed"><li>Carregando…</li></ul></section>';
       document.getElementById("conteudo").innerHTML = h;
@@ -596,9 +629,15 @@ window.addEventListener("hashchange",function(){if(/^#(redacao|roteiro)/.test(lo
     h += a.editorial ? '<div class="selo"><span>Editorial</span><em>Opinião do jornal</em></div>' : '<p class="kicker">'+esc(a.secao)+'</p>';
     h += '<h1>'+esc(a.titulo)+'</h1>' + (a.fina ? '<p class="fina">'+esc(a.fina)+'</p>' : '');
     h += '<p class="assinatura">'+(a.editorial?"Editorial":"Da redação")+' · '+esc(ed.dataExtenso)+(a.hora?' · Publicado às '+esc(a.hora):'')+'<span id="leituras-mat"></span></p>';
-    if(a.img && a.img.arquivo) h += '<figure class="foto"><img src="'+esc(a.img.arquivo)+'" alt="'+esc(a.img.legenda||a.titulo)+'" loading="lazy"><figcaption>'+esc(a.img.legenda||"")+(a.img.credito?' <span>'+esc(a.img.credito)+'</span>':'')+'</figcaption></figure>';
+    if(a.img && a.img.arquivo) h += '<figure class="foto"><img src="'+esc(a.img.arquivo)+'" alt="'+esc(a.img.legenda||a.titulo)+'" loading="lazy"><figcaption>'+esc(a.img.legenda||"")+creditoFoto(a.img)+'</figcaption></figure>';
     h += ouvirHTML(a) + resumoHTML(a);
-    h += grafico(a.graf) + '<div class="corpo">'+ps(a.texto)+'</div>';
+    h += grafico(a.graf) + '<div class="corpo">';
+    if(a.id === "ed-2026-11-26-manchete"){
+      h += ps(a.texto.slice(0,3)) + document.getElementById("arte-usaid").innerHTML + ps(a.texto.slice(3));
+    } else {
+      h += ps(a.texto);
+    }
+    h += '</div>';
     if(a.editorial) h += '<p class="nota">Este texto expressa a posição editorial de A Nevasca.</p>';
     h += fontes(a.fontes) + share(a.id, (a.editorial?"Editorial: ":"")+a.titulo) + comente(a.id) + '</article>';
     var outras = artigos(ed).filter(function(x){ return x.id !== a.id; });
@@ -1030,5 +1069,6 @@ window.addEventListener("hashchange",function(){if(/^#(redacao|roteiro)/.test(lo
   rota();
 })();
 </script>
+<template id="arte-usaid"><section class="arquivo-usaid" aria-labelledby="usaid-documentos"><header><p class="kicker">A Nevasca · Documentos</p><h2 id="usaid-documentos">O Brasil nos arquivos da USAID</h2><p>Páginas completas dos PDFs publicados pela USAID, com grifos e tradução de A Nevasca.</p></header><div class="arquivo-usaid-grade"><article class="arquivo-usaid-trecho"><p class="kicker">Registro de 1º de novembro</p><h3>Transição de governo</h3><figure class="arquivo-usaid-pagina"><a href="/img/ed-2026-11-26/usaid-pagina-1.webp" target="_blank" rel="noopener"><img src="/img/ed-2026-11-26/usaid-pagina-1.webp" alt="Página 12 do PDF. Trecho grifado: agreed to a transition of power" width="1347" height="1743" loading="lazy"></a><figcaption>Página 12 do PDF · clique para ampliar</figcaption></figure><p class="arquivo-usaid-traducao">“concordou com uma transição de poder”</p><p>Os autores registraram que a administração federal pôde começar a preparar a passagem para o governo Lula.</p><a href="https://www.usaid.gov/files/wo-2-democratic-openings-fy-23-country-list-2023-01-10-b97d7fc59a9e.pdf#page=12">Relatório, p. 7 · PDF, p. 12 ↗</a></article><article class="arquivo-usaid-trecho"><p class="kicker">Previsão escrita antes da eleição</p><h3>Participação militar</h3><figure class="arquivo-usaid-pagina"><a href="/img/ed-2026-11-26/usaid-pagina-2.webp" target="_blank" rel="noopener"><img src="/img/ed-2026-11-26/usaid-pagina-2.webp" alt="Página 25 do PDF. Trecho grifado: it is unlikely that the military would get involved" width="1347" height="1743" loading="lazy"></a><figcaption>Página 25 do PDF · clique para ampliar</figcaption></figure><p class="arquivo-usaid-traducao">“é improvável que os militares se envolvam”</p><p>A ficha fala da eleição de 2 de outubro no futuro. Nesse contexto, os autores estimavam a probabilidade de participação militar numa tentativa de golpe.</p><a href="https://www.usaid.gov/files/wo-2-democratic-openings-fy-23-country-list-2023-01-10-b97d7fc59a9e.pdf#page=25">Relatório, p. 20 · PDF, p. 25 ↗</a></article><article class="arquivo-usaid-trecho"><p class="kicker">Avaliação dos autores</p><h3>Religião e política</h3><figure class="arquivo-usaid-pagina"><a href="/img/ed-2026-11-26/usaid-pagina-3.webp" target="_blank" rel="noopener"><img src="/img/ed-2026-11-26/usaid-pagina-3.webp" alt="Página 24 do PDF. Trecho grifado: This cleavage generates more of a threat to democracy." width="1347" height="1743" loading="lazy"></a><figcaption>Página 24 do PDF · clique para ampliar</figcaption></figure><p class="arquivo-usaid-traducao">“Essa divisão gera uma ameaça maior à democracia.”</p><p>A frase vem depois da avaliação de que havia uma polarização mais profunda entre cristãos evangélicos e o restante da sociedade. O objeto da frase é a divisão descrita pelos autores.</p><a href="https://www.usaid.gov/files/wo-2-democratic-openings-fy-23-country-list-2023-01-10-b97d7fc59a9e.pdf#page=24">Relatório, p. 19 · PDF, p. 24 ↗</a></article><article class="arquivo-usaid-trecho"><p class="kicker">Remoções em outubro, reunião em dezembro</p><h3>YouTube</h3><figure class="arquivo-usaid-pagina"><a href="/img/ed-2026-11-26/usaid-pagina-4.webp" target="_blank" rel="noopener"><img src="/img/ed-2026-11-26/usaid-pagina-4.webp" alt="Página 3 do PDF. Trecho grifado: terminated 76 YouTube channels" width="1347" height="1743" loading="lazy"></a><figcaption>Página 3 do PDF · clique para ampliar</figcaption></figure><p class="arquivo-usaid-traducao">“encerrou 76 canais do YouTube”</p><p>O registro da reunião cita o boletim do Google, que associou as remoções a uma investigação sobre operações de influência coordenadas. O Google disse que a campanha divulgava conteúdo favorável a Bolsonaro.</p><a href="https://www.usaid.gov/files/12072022-alphabet-global-election-protection-efforts-and-lessons-learned-3fec5811f9a7.pdf#page=3">Registro da reunião · PDF, p. 3 ↗</a></article></div></section></template>
 </body>
 </html>

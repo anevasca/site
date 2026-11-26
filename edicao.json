@@ -1,503 +1,494 @@
 {
-  "data": "2026-11-25",
-  "dataExtenso": "Quarta-feira, 25 de novembro de 2026",
-  "numero": 8,
-  "atualizadoEm": "24/11/2026, fechamento noturno (Brasília)",
+  "data": "2026-11-26",
+  "dataExtenso": "Quinta-feira, 26 de novembro de 2026",
+  "numero": 9,
+  "atualizadoEm": "25/11/2026, 18h09 (Brasília)",
   "indicadores": [
     {
       "rotulo": "Dólar",
-      "valor": "R$ 5,91",
-      "nota": "R$ 5,9107 no fechamento de 24/11 (–0,26%), UOL"
+      "valor": "R$ 5,82",
+      "nota": "Fechamento comercial aproximado em 25/11; UOL e Folha"
     },
     {
       "rotulo": "Ibovespa",
-      "valor": "164.090 pts",
-      "nota": "164.089,81 no fechamento de 24/11 (–0,43%), UOL"
+      "valor": "166.880 pts",
+      "nota": "Fechamento de 25/11, alta de 1,70%, segundo a Folha"
     },
     {
-      "rotulo": "Selic",
-      "valor": "13,75%",
-      "nota": "ao ano, mantida pelo Copom em novembro"
-    },
-    {
-      "rotulo": "Confiança",
-      "valor": "83,5 pts",
-      "nota": "novembro (–1,2 ponto), FGV Ibre"
+      "rotulo": "Embraer",
+      "valor": "R$ 103,28",
+      "nota": "Fechamento de 25/11 no histórico do Yahoo Finance"
     }
   ],
   "manchete": {
-    "secao": "Contas públicas",
-    "titulo": "Lula sanciona sem vetos pacote de ajuste fiscal para 2027",
-    "linhaFina": "Governo estima melhora de R$ 45,1 bilhões a R$ 56,1 bilhões no resultado primário, combinando receita e contenção de despesas.",
-    "resumo": "Lula sancionou sem vetos a lei do ajuste fiscal. A equipe econômica estima melhora de R$ 45,1 bilhões a R$ 56,1 bilhões no resultado primário de 2027, que deixa os juros da dívida fora da conta.",
-    "texto": [
-      "O presidente Luiz Inácio Lula da Silva sancionou sem vetos, nesta terça-feira (24), a lei do ajuste fiscal. A norma foi publicada em edição extra do Diário Oficial da União e dá ao Executivo instrumentos para limitar a execução do Orçamento a partir de 2027. O governo calcula que a combinação de mudanças em arrecadação e despesas pode melhorar o resultado primário do próximo ano entre R$ 45,1 bilhões e R$ 56,1 bilhões.",
-      "A sanção encerra a tramitação do Projeto de Lei Complementar 299 de 2026. A Câmara concluiu a votação na madrugada de terça-feira e manteve a versão que veio do Senado. No plenário da Câmara, o texto-base recebeu 353 votos a favor, 128 contra e cinco abstenções, segundo o Ministério do Planejamento. Com a publicação, a proposta passou a ser a Lei Complementar 239 de 2026.",
-      "O resultado primário mede a diferença entre receitas e despesas antes dos juros da dívida. Segundo a Agência Câmara, a meta de 2027, em valores nominais, equivale a R$ 83,4 bilhões antes dos abatimentos permitidos. As deduções de cerca de R$ 64,7 bilhões levam a referência efetiva a R$ 18,7 bilhões. A faixa de melhora estimada pelo governo mede o impacto do pacote e usa uma base de comparação diferente da meta.",
-      "A partir de 2027, os relatórios bimestrais de receitas e despesas ajudam a decidir se será necessário segurar mais gastos. O Executivo ganha margem para agir em busca da meta fiscal e pode bloquear certas despesas obrigatórias. Para os anos em que se aplicar a restrição adicional, o crescimento real das despesas fica limitado a 2%, diante do teto de 2,5% previsto no arcabouço. Crescimento real é o aumento depois de descontar a inflação.",
-      "A ampliação da base sujeita a bloqueios tem exceções. Segundo o Ministério do Planejamento, ficam protegidas despesas determinadas pela Constituição, o serviço da dívida e gastos de pesquisa, desenvolvimento e inovação financiados pelo fundo federal de ciência e tecnologia. A Lei de Diretrizes Orçamentárias também pode prever ressalvas. O efeito no funcionamento de cada política vai depender de onde os bloqueios incidirem na execução do Orçamento.",
-      "Pelo lado da receita, a lei reduz incentivos tributários abrangidos pela norma e autoriza o Executivo a limitar a compensação cruzada caso adote as medidas adicionais de contenção. Nessa modalidade, o contribuinte usa créditos de um tributo para abater outro. Um ato posterior deverá definir os percentuais. Créditos de PIS/Pasep e Cofins usados para abater a Contribuição Social sobre Bens e Serviços ficam fora dessa limitação.",
-      "Entre as medidas com prazo definido, a lei limita a R$ 2 bilhões a parcela anual dos repasses ligados à Lei Kandir até 2030 e prevê recomposição do saldo de 2028 a 2030. A compensação previdenciária tem limite de R$ 3 bilhões, corrigido pelo crescimento anual do limite de despesas, entre 2027 e 2030. As duas medidas alcançam transferências federais aos governos locais.",
-      "A primeira prova para a nova regra virá durante a execução do Orçamento de 2027. Os relatórios bimestrais mostrarão quanto da arrecadação prevista se realizou e quais despesas precisarão ser contidas. A sanção define os instrumentos disponíveis. O resultado dependerá do que o governo arrecadar, dos gastos que conseguir segurar e das decisões tomadas ao longo do ano."
-    ],
+    "secao": "Política",
+    "titulo": "Arquivo da USAID registra que Bolsonaro concordou com a transição em 2022",
+    "linhaFina": "Publicado nesta semana, o relatório registra o início da passagem administrativa para Lula. O texto foi entregue em novembro de 2022, antes dos fatos de dezembro examinados no STF.",
+    "resumo": "Um estudo produzido para a USAID registra que Jair Bolsonaro concordou com o início da transição em 1º de novembro de 2022. A divulgação do arquivo reacendeu o debate sobre os acontecimentos que se seguiram à eleição.",
     "fontes": [
       {
-        "nome": "Lei Complementar 239/2026 · Planalto",
-        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp239.htm"
+        "nome": "Democratic Openings — relatório original, seção Brasil",
+        "url": "https://www.usaid.gov/files/wo-2-democratic-openings-fy-23-country-list-2023-01-10-b97d7fc59a9e.pdf#page=12"
       },
       {
-        "nome": "Agência Câmara",
-        "url": "https://www.camara.leg.br/noticias/1322586-lei-do-ajuste-fiscal-e-sancionada-sem-vetos-e-ja-esta-em-vigor"
+        "nome": "Metrópoles — divulgação dos arquivos",
+        "url": "https://www.metropoles.com/mundo/usaid-bolsonaro-concordou-com-transicao-apos-perder-para-lula-em-2022"
       },
       {
-        "nome": "Agência Brasil",
-        "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-sanciona-ajuste-fiscal-aprovado-no-congresso"
+        "nome": "Aos Fatos — cronologia e checagem",
+        "url": "https://www.aosfatos.org/noticias/documento-usaid-bolsonaro-golpe/"
       },
       {
-        "nome": "Agência Senado",
-        "url": "https://www12.senado.leg.br/noticias/materias/2026/11/24/lei-do-ajuste-fiscal-e-publicada-e-ja-esta-valendo"
+        "nome": "STF — acórdão da Ação Penal 2668",
+        "url": "https://noticias.stf.jus.br/postsnoticias/ap-2668-publicado-acordao-que-condenou-o-ex-presidente-bolsonaro-e-outros-sete-reus-por-tentativa-de-golpe/"
       },
       {
-        "nome": "Ministério do Planejamento",
-        "url": "https://www.gov.br/planejamento/pt-br/assuntos/noticias/2026/sancionada-nesta-terca-24-11-a-lei-complementar-no-239-2026-que-promove-ajuste-nas-contas-publicas"
+        "nome": "USAID — registro da reunião com a Alphabet",
+        "url": "https://www.usaid.gov/files/12072022-alphabet-global-election-protection-efforts-and-lessons-learned-3fec5811f9a7.pdf"
       },
       {
-        "nome": "Revista Oeste",
-        "url": "https://revistaoeste.com/politica/presidente-lula-sanciona-ajuste-fiscal/"
+        "nome": "USAID — e-mail encaminhado em 13 de dezembro",
+        "url": "https://www.usaid.gov/files/fwd-readout-12-7-alphabet-global-election-protection-lessons-learned-and-future-efforts-brief-03ba8d00e6d8.pdf"
+      },
+      {
+        "nome": "Google — boletim do Threat Analysis Group",
+        "url": "https://blog.google/threat-analysis-group/tag-bulletin-q4-2022/"
+      },
+      {
+        "nome": "TSE — decisão de 23 de novembro",
+        "url": "https://www.tse.jus.br/comunicacao/noticias/2022/Novembro/moraes-condena-coligacao-pelo-bem-do-brasil-por-litigancia-de-ma-fe-e-aplica-multa-de-r-22-9-milhoes"
+      },
+      {
+        "nome": "TSE — confirmação da multa em plenário",
+        "url": "https://www.tse.jus.br/comunicacao/noticias/2022/Dezembro/tse-confirma-multa-de-r-22-9-milhoes-ao-pl-por-litigancia-de-ma-fe"
+      },
+      {
+        "nome": "USAID — notas da reunião com o YouTube em abril de 2023",
+        "url": "https://www.usaid.gov/files/notes-from-youtube-call-on-violence-and-atrocity-prevention-april-20-2023-ede56beb6bff.pdf"
       }
     ],
-    "grafico": {
-      "tipo": "barras",
-      "titulo": "Estimativa do governo para o efeito do pacote em 2027",
-      "subtitulo": "Melhora projetada no resultado primário",
-      "prefixo": "R$ ",
-      "sufixo": " bi",
-      "casas": 1,
-      "dados": [
-        {
-          "rotulo": "Piso",
-          "valor": 45.1
-        },
-        {
-          "rotulo": "Teto",
-          "valor": 56.1
-        }
-      ],
-      "fonte": {
-        "nome": "Agência Brasil",
-        "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-sanciona-ajuste-fiscal-aprovado-no-congresso"
+    "imagem": {
+      "arquivo": "/img/ed-2026-11-26/usaid-arte-capa.webp",
+      "legenda": "Montagem de A Nevasca com o logotipo da USAID, trecho do relatório Democratic Openings e foto de Jair Bolsonaro em 1º de novembro de 2022.",
+      "credito": "Arte: A Nevasca · Foto recortada: Isac Nóbrega / Presidência da República",
+      "origem": "https://commons.wikimedia.org/wiki/File:01_11_2022_Pronunciamento_do_Presidente_Jair_Bolsonaro_(52470301702).jpg",
+      "licenca": "https://creativecommons.org/licenses/by/2.0/",
+      "rotuloLicenca": "CC BY 2.0"
+    },
+    "texto": [
+      "Um relatório produzido para a USAID registra que Jair Bolsonaro concordou com o início da transição para o governo Lula em 1º de novembro de 2022. O documento saiu nesta terça-feira (24) em um lote de 248 arquivos divulgado pelo governo dos Estados Unidos, segundo o Metrópoles. A circulação do trecho nas redes recolocou em debate o que aconteceu entre o segundo turno e a posse de Lula.",
+      "O estudo, intitulado Democratic Openings, foi entregue em 22 de novembro de 2022 pela contratada DevTech Systems e teve aprovação registrada em 3 de janeiro de 2023. O objetivo era identificar países onde os autores viam oportunidades de abertura democrática para orientar a atuação da agência americana de desenvolvimento internacional. O próprio relatório atribui seu conteúdo aos autores e informa que ele pode não refletir as posições da agência ou do governo dos EUA.",
+      "O estudo combina uma classificação quantitativa de 169 países com avaliações qualitativas. Para o Brasil, os autores consideraram que a vitória de Lula poderia abrir espaço para uma recuperação da democracia liberal. Essa era uma projeção da consultoria sobre o governo que assumiria. A classificação servia para orientar possíveis investimentos em democracia, direitos humanos e governança.",
+      "Na seção sobre o Brasil, os autores lembram que Lula venceu o segundo turno em 30 de outubro. Na sequência, registram que, dois dias depois, Bolsonaro concordou com a transição, permitindo que a administração federal começasse a se preparar para o governo eleito. O registro é contemporâneo aos fatos. O início da passagem administrativa já era público em 2022: o então ministro da Casa Civil, Ciro Nogueira, anunciou a autorização naquele 1º de novembro.",
+      "O trecho passou a circular como suposta prova de que a tentativa de golpe nunca existiu, segundo o Aos Fatos. O documento sustenta uma afirmação específica sobre o início da transição. A condenação proferida pela Primeira Turma do Supremo Tribunal Federal trata de um conjunto mais amplo de fatos e provas, incluindo episódios posteriores ao anúncio de Ciro Nogueira.",
+      "A disputa também teve uma frente eleitoral. Em 22 de novembro de 2022, a coligação de Bolsonaro pediu uma verificação extraordinária de urnas usadas no segundo turno. Alexandre de Moraes exigiu que o pedido abrangesse os dois turnos. No dia seguinte, aplicou multa de R$ 22,9 milhões por litigância de má-fé. Segundo o TSE, o pedido não trazia indícios que justificassem a verificação. O plenário confirmou a multa em 15 de dezembro.",
+      "Um desses episódios foi a reunião de 7 de dezembro de 2022. Segundo a checagem, a Procuradoria-Geral da República citou o encontro como prova no julgamento, apontando a apresentação de uma minuta a comandantes militares. A reunião ocorreu depois da data de entrega que consta no relatório preparado para a USAID.",
+      "Em setembro de 2025, a Primeira Turma condenou Bolsonaro e outros sete réus na Ação Penal 2668. O acórdão foi publicado em outubro. A passagem divulgada agora registra o que a equipe contratada pela agência americana observava em novembro de 2022. O relatório e o acórdão estão disponíveis para leitura e tratam de perguntas diferentes.",
+      "O relatório também contém uma ficha sobre o Brasil com avaliações anteriores ao primeiro turno. Na parte sobre divisões sociais, os autores descrevem uma polarização entre cristãos evangélicos e o restante da sociedade e avaliam que essa divisão representava um risco maior para a democracia. Em outra passagem, escrita com a eleição de 2 de outubro ainda no futuro, consideravam improvável o envolvimento dos militares numa tentativa de golpe. São avaliações dos autores, feitas naquele contexto.",
+      "Outro arquivo registra uma reunião de 7 de dezembro de 2022 entre a Alphabet e representantes do governo americano, com a presença de Vera Zakem, da USAID. As notas citam um boletim do Google que registra o encerramento de 76 canais do YouTube em outubro, numa investigação sobre operações de influência coordenadas ligadas ao Brasil. Segundo a empresa, a campanha divulgava material favorável a Bolsonaro. A reunião registrada ocorreu depois das remoções. Os arquivos consultados documentam o encontro e a informação do Google, sem registrar uma ordem do governo americano para derrubar esses canais.",
+      "As notas de outro encontro, em 20 de abril de 2023, voltam ao caso brasileiro. A reunião tratava de prevenção de violência e de projetos-piloto em Mianmar e Bangladesh. Ao explicar como decide onde mobilizar mais recursos, o YouTube disse que adotou uma abordagem proativa e minuciosa no Brasil, mas que ainda assim não previu o nível de violência. O trecho não identifica o episódio de violência pelo nome."
+    ]
+  },
+  "editorial": {
+    "titulo": "Dezembro também faz parte da história",
+    "fontes": [
+      {
+        "nome": "Democratic Openings — relatório original, seção Brasil",
+        "url": "https://static.aosfatos.org/media/cke_uploads/2026/11/25/wo-2-democratic-openings-fy-23-country-list-2023-01-10-b97d7fc59a9e.pdf#page=12"
+      },
+      {
+        "nome": "Aos Fatos — cronologia e checagem",
+        "url": "https://www.aosfatos.org/noticias/documento-usaid-bolsonaro-golpe/"
+      },
+      {
+        "nome": "STF — acórdão da Ação Penal 2668",
+        "url": "https://noticias.stf.jus.br/postsnoticias/ap-2668-publicado-acordao-que-condenou-o-ex-presidente-bolsonaro-e-outros-sete-reus-por-tentativa-de-golpe/"
       }
-    }
+    ],
+    "texto": [
+      "Ciro Nogueira saiu de um pronunciamento de Jair Bolsonaro, em 1º de novembro de 2022, e disse que estava autorizado a iniciar a transição. A imprensa publicou naquele dia. Um estudo entregue à USAID três semanas depois registrou a mesma coisa. Quatro anos se passaram, os americanos abriram seus arquivos, e eis que o anúncio de Ciro ganhou ares de segredo de Estado. Convém aproveitar a ocasião para fazer o que deu menos audiência nas redes: abrir o documento e ler a data.",
+      "A transição aconteceu e tem lugar na história. Quem conta aquele novembro como se a máquina federal tivesse ficado de braços cruzados até a posse de Lula precisa corrigir o relato. E quem ergue a página do relatório como se ela encerrasse a discussão sobre o que veio depois deve responder a uma pergunta simples: como um estudo entregue em 22 de novembro poderia esclarecer uma reunião de 7 de dezembro? A Procuradoria-Geral da República levou essa reunião ao julgamento. Para discutir o que os ministros fizeram com essa e outras provas, o leitor tem à mão o acórdão.",
+      "O Catecismo Maior de Westminster, ao tratar do nono mandamento, condena também a torção da verdade. É uma advertência incômoda justamente porque se pode torcer um fato verdadeiro. Basta citá-lo com exatidão e depois fazê-lo responder por um mês inteiro que o autor ainda nem tinha vivido. O dever de dizer a verdade vale quando ela favorece Bolsonaro e quando ela dá trabalho a quem o defende. Vale também para quem considera a condenação justa e acha que, por isso, pode passar depressa pelo anúncio da transição.",
+      "A Nevasca cobra o mesmo de si. Nesta edição o leitor encontra o relatório, a cobertura do seu reaparecimento e o acórdão. Quem tem objeção à condenação deve dizer qual prova considera fraca, qual entendimento contesta e por quê. Quem a defende deve responder a essas objeções pelo que elas dizem. Os brasileiros que viveram aqueles meses ainda têm perguntas legítimas. A primeira cortesia que lhes devemos é contar a história na ordem em que aconteceu. Depois de novembro veio dezembro. Que ninguém pule a página."
+    ]
   },
   "destaques": [
     {
-      "secao": "Energia",
-      "titulo": "Petrobras prevê US$ 122 bilhões em investimentos até 2031",
-      "linhaFina": "Plano concentra os desembolsos nos primeiros anos e reserva a maior parcela para exploração e produção.",
-      "resumo": "A Petrobras apresentou um plano de US$ 122 bilhões para 2027 a 2031. São quase 12% a mais do que no plano anterior, e US$ 9 bilhões ainda correspondem a oportunidades em avaliação.",
+      "secao": "Comércio exterior",
+      "titulo": "Itamaraty avalia impacto de novas tarifas propostas pelos EUA",
+      "linhaFina": "Brasília promete avaliar o impacto. Analistas apontam risco de adiamentos de pedidos enquanto Washington recebe manifestações.",
+      "resumo": "O governo brasileiro informou que vai avaliar o alcance da proposta americana. A medida prevê tarifa de 10% sobre aeronaves prontas e ainda passa por consulta pública.",
       "texto": [
-        "A Petrobras apresentou um plano de US$ 122 bilhões em investimentos entre 2027 e 2031. O conselho aprovou o programa na segunda-feira (23), e a estatal marcou a apresentação da diretoria para terça-feira (24). O valor supera em US$ 13 bilhões o do plano anterior, que cobria 2026 a 2030.",
-        "Dos US$ 122 bilhões, US$ 113 bilhões estão na carteira em implantação. Os outros US$ 9 bilhões correspondem a oportunidades ainda em avaliação. O próprio cronograma concentra os desembolsos no início do período. São US$ 29,5 bilhões previstos para 2027 e US$ 28,3 bilhões para 2028, com previsão de US$ 17,8 bilhões em 2031.",
-        "Exploração e produção ficam com a maior parcela. Segundo a CNN Brasil, a Petrobras prevê nove novos sistemas de produção e cerca de 50 projetos complementares. Dos nove sistemas, oito já estão contratados. A empresa separa ainda US$ 10 bilhões para exploração, com cerca de 50 poços previstos no Brasil e no exterior.",
-        "O novo programa reserva US$ 24 bilhões para refino, transporte e comercialização, segmento que inclui fertilizantes e petroquímica. A empresa também estima ampliar a capacidade de diesel de baixo teor de enxofre, combinando ampliação da capacidade de refino e conversão de unidades existentes. Os desembolsos previstos em cada ano podem variar conforme a execução da carteira.",
-        "A companhia projeta distribuir de US$ 55 bilhões a US$ 60 bilhões em dividendos ordinários durante os cinco anos, ante uma faixa de US$ 45 bilhões a US$ 50 bilhões no plano anterior, segundo a CNN Brasil. São projeções de períodos diferentes. A execução dos projetos e a geração de caixa da companhia serão acompanhadas nos resultados dos próximos trimestres."
+        "O Itamaraty vai avaliar o impacto das tarifas propostas pelos Estados Unidos sobre produtos brasileiros, informou o ministério à Reuters na quarta-feira (25). O mercado reagiu ainda na mesma sessão. As ações da Embraer chegaram a cair 9,6%, a R$ 97,15, antes de recuperar parte das perdas.",
+        "Os aviões prontos estavam entre os produtos poupados da tarifa de 25% aplicada em julho. A proposta americana prevê uma cobrança de 10% para aeronaves prontas e também amplia a taxação do açúcar fora das cotas. Washington atribui a revisão a divergências que persistiram ao longo de várias rodadas de negociação. Essa é a avaliação do governo americano.",
+        "As duas propostas sobre açúcar funcionam de forma diferente. Washington avalia uma cobrança adicional sobre o produto brasileiro e, em paralelo, uma alta nas tarifas sobre açúcar bruto e refinado importado fora das cotas, qualquer que seja a origem. Segundo o representante comercial Jamieson Greer, a segunda medida busca impedir que a troca de fornecedores nos Estados Unidos seja compensada por vendas brasileiras aos mercados que esses fornecedores deixariam de atender.",
+        "A consulta faz parte do processo aberto sob a Seção 301 da legislação comercial americana. A medida original passou por audiência em julho. O escritório americano diz ter analisado mais de 360 manifestações escritas antes da decisão que fixou a tarifa de 25% para determinados produtos. Os interessados em falar na nova audiência devem pedir inscrição até 7 de dezembro. Washington afirma que continua aberto a negociar com o Brasil.",
+        "Para a Embraer, a discussão tem efeitos diferentes conforme o modelo e o contrato. Analistas do UBS BB disseram à Reuters que os novos contratos com companhias aéreas americanas preveem que o cliente arque com uma eventual tarifa sobre o E175. Ainda assim, os analistas identificam risco de adiamentos ou cancelamentos. Em jatos executivos, a leitura preliminar do banco é que os Phenom parecem continuar isentos, enquanto os Praetor podem ser alcançados.",
+        "O UBS BB estima que a tarifa de 10% vigente em um período anterior custou US$ 80 milhões à fabricante, com a maior parte associada aos jatos executivos. O valor é uma estimativa para a cobrança anterior. Os efeitos da nova proposta dependem do texto final e dos contratos de cada entrega.",
+        "O E175 e os jatos executivos mostram por que o efeito sobre as encomendas pode variar. Quando o comprador assume a cobrança, o custo de receber o avião pode subir para ele. Quando a fabricante tem de absorver o encargo, a pressão recai sobre a margem da venda. A exposição depende da aeronave, das condições comerciais e de como a tarifa seria aplicada a cada importação.",
+        "A resposta anunciada por Brasília foi avaliar a proposta. Em Washington, o Escritório do Representante Comercial abriu prazo para manifestações escritas até 30 de dezembro e marcou audiência pública para 14 de janeiro de 2027. As novas tarifas seguem em discussão. O plantão de quarta reúne os detalhes do anúncio."
       ],
       "fontes": [
         {
-          "nome": "CNN Brasil",
-          "url": "https://www.cnnbrasil.com.br/infra/petrobras-anuncia-us-122-bilhoes-em-investimentos-para-2027-2031/"
+          "nome": "Reuters via UOL",
+          "url": "https://economia.uol.com.br/noticias/reuters/2026/11/25/governo-vai-avaliar-impactos-e-repercussoes-de-novas-tarifas-propostas-pelos-eua-diz-itamaraty.amp.htm"
         },
         {
-          "nome": "UOL",
-          "url": "https://economia.uol.com.br/noticias/redacao/2026/11/24/petrobras-eleva-investimento-a-us-122-bi-e-projeta-dividendos.ghtm"
+          "nome": "USTR",
+          "url": "https://www.ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-invites-public-comment-proposed-modifications-section-301-action-regarding-brazils-unreasonable"
         },
         {
-          "nome": "Agência Brasil",
-          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/petrobras-preve-investimentos-de-us-122-bilhoes-entre-2027-e-2031"
+          "nome": "Folha de S.Paulo",
+          "url": "https://www1.folha.uol.com.br/mercado/2026/11/dolar-abre-em-leve-alta-em-linha-com-exterior-e-a-espera-de-novos-sinais-sobre-politica-fiscal.shtml"
+        },
+        {
+          "nome": "A Nevasca — plantão de 25/11",
+          "url": "https://anevasca.com.br/m/ed-2026-11-25-ultima-1.html"
+        },
+        {
+          "nome": "Reuters via UOL — Embraer",
+          "url": "https://economia.uol.com.br/noticias/reuters/2026/11/25/acao-da-embraer-tem-forte-recuo-apos-proposta-dos-eua-de-tarifa-para-avioes-prontos.amp.htm"
         }
-      ]
+      ],
+      "imagem": {
+        "arquivo": "/img/ed-2026-11-26/embraer-e175.jpg",
+        "legenda": "Embraer E175 da SkyWest em operação para a United Airlines. Foto de arquivo.",
+        "credito": "JacobAviation / Wikimedia Commons",
+        "origem": "https://commons.wikimedia.org/wiki/File:SkyWest_Airlines_Embraer_ERJ-175.jpg",
+        "licenca": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rotuloLicenca": "CC BY-SA 4.0"
+      }
     },
     {
-      "secao": "Tributos",
-      "titulo": "União arrecada R$ 294 bilhões e bate recorde para outubro",
-      "linhaFina": "A receita federal cresceu 7,28% acima da inflação, com contribuição de pagamentos fora do padrão habitual.",
-      "resumo": "A União arrecadou quase R$ 294 bilhões em outubro, o maior valor para o mês desde 1995. Entre os recolhimentos que influenciaram o resultado estão tributos sobre lucros de empresas e exportações de petróleo.",
+      "secao": "Câmbio",
+      "titulo": "Dólar fecha perto de R$ 5,82 e Ibovespa sobe 1,7%",
+      "linhaFina": "UOL e Folha registraram queda superior a 1,5% no fechamento de quarta-feira.",
+      "resumo": "O dólar comercial caiu mais de 1,5% e fechou perto de R$ 5,82. O mercado acompanhou as discussões sobre os gastos federais.",
       "texto": [
-        "A arrecadação federal somou R$ 293,975 bilhões em outubro, recorde para o mês na série iniciada em 1995. O relatório divulgado pela Receita Federal nesta terça-feira (24) aponta alta de 7,28% acima da inflação ante outubro de 2025. De janeiro a outubro, o total chegou a R$ 2,645 trilhões, com crescimento real de 7%.",
-        "O valor do mês inclui as receitas administradas pela Receita Federal e as que ficam sob gestão de outros órgãos. Se o recorte for limitado ao que a Receita administra, outubro teve R$ 273,367 bilhões e alta real de 5,80%. No acumulado do ano, esse recorte registra R$ 2,524 trilhões.",
-        "A Agência Brasil aponta R$ 5,91 bilhões em recolhimentos atípicos no mês. Desse total, R$ 3 bilhões vieram de pagamentos extraordinários de Imposto de Renda das empresas e da Contribuição Social sobre o Lucro Líquido. A cobrança de imposto de exportação sobre petróleo bruto respondeu por outros R$ 2,91 bilhões.",
-        "Somados, o Imposto de Renda das empresas e a contribuição sobre o lucro renderam R$ 71,75 bilhões em outubro. As receitas previdenciárias chegaram a R$ 63,61 bilhões, com alta real de 4,13%. O Imposto de Importação e o IPI associado às importações renderam R$ 13,68 bilhões, alta real de 20,05%.",
-        "Para as receitas administradas pela Receita Federal, o relatório calcula que a alta real teria sido de 3,51% em outubro e de 5,53% no acumulado, excluídos os pagamentos atípicos e efeitos de alterações na legislação, como o imposto sobre exportação de petróleo. A separação ajuda a distinguir a evolução habitual da receita de fatores específicos do período."
+        "O dólar comercial fecha perto de R$ 5,82 na quarta-feira (25), com queda superior a 1,5%. Na Bolsa, o Ibovespa avançou 1,70%, a 166.880 pontos, no fechamento informado pela Folha de S.Paulo. As ações da Embraer ficaram entre as principais baixas da sessão.",
+        "A moeda americana começou o dia em leve alta, segundo a Folha, e inverteu a direção ao longo do pregão. O jornal registrou R$ 5,818 no fechamento. O UOL publicou R$ 5,817. Os dois valores arredondam para R$ 5,82.",
+        "No mercado local, investidores acompanharam a discussão sobre as contas públicas e especulações sobre a equipe econômica. O nome do presidente do conselho de administração do Bradesco, Luiz Carlos Trabuco, circulou como hipótese para o Ministério da Fazenda. As coberturas consultadas tratavam a possibilidade como especulação.",
+        "Na Bolsa, a avaliação ouvida pela Folha foi que a queda nas taxas de juros futuros favoreceu bancos e empresas sensíveis ao custo do crédito. Vale e Petrobras também ajudaram a sustentar o índice. Entre as ações em baixa, a Embraer reagiu à proposta americana de cobrar uma tarifa de 10% sobre aeronaves prontas.",
+        "A agenda desta quinta-feira inclui a divulgação do IPCA-15 de novembro. É a prévia oficial da inflação ao consumidor, calculada pelo IBGE com um período de coleta diferente do índice mensal."
       ],
       "fontes": [
         {
-          "nome": "Receita Federal",
-          "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/relatorios/arrecadacao-federal/2026/analise-mensal-out-2026.pdf/@@download/file"
+          "nome": "UOL Economia",
+          "url": "https://economia.uol.com.br/cotacoes/noticias/redacao/2026/11/25/dolar-ibovespa-fechamento-25-novembro-2026.ghtm"
         },
         {
-          "nome": "Agência Brasil",
-          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/arrecadacao-federal-atinge-r-294-bilhoes-e-bate-recorde-para-outubro"
+          "nome": "Folha de S.Paulo",
+          "url": "https://www1.folha.uol.com.br/mercado/2026/11/dolar-abre-em-leve-alta-em-linha-com-exterior-e-a-espera-de-novos-sinais-sobre-politica-fiscal.shtml"
+        },
+        {
+          "nome": "Yahoo Finance — histórico de EMBJ3",
+          "url": "https://finance.yahoo.com/quote/EMBJ3.SA/history/"
         }
-      ]
+      ],
+      "imagem": {
+        "arquivo": "/img/ed-2026-11-26/bolsa-sao-paulo.jpg",
+        "legenda": "Prédio da Bolsa no centro de São Paulo. Foto de arquivo.",
+        "credito": "Wilfredor / Wikimedia Commons",
+        "origem": "https://commons.wikimedia.org/wiki/File:Bovespa%2C_S%C3%A3o_Paulo_city_downtown.jpg",
+        "licenca": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rotuloLicenca": "CC BY-SA 4.0"
+      }
     },
     {
-      "secao": "Consumo",
-      "titulo": "Confiança do consumidor cai a 83,5 pontos, menor nível desde 2022",
-      "linhaFina": "Avaliação da situação atual e expectativas recuaram em novembro, segundo a FGV.",
-      "resumo": "A confiança do consumidor caiu 1,2 ponto em novembro, para 83,5 pontos. A avaliação que as famílias fazem das finanças de hoje piorou, enquanto a intenção de comprar bens duráveis avançou.",
+      "secao": "Contas públicas",
+      "titulo": "Governo libera R$ 3,43 bilhões do Orçamento de 2026",
+      "linhaFina": "A contenção cai para R$ 12,63 bilhões, enquanto a projeção de déficit primário sobe para R$ 76,98 bilhões.",
+      "resumo": "O governo federal libera R$ 3,43 bilhões em despesas do Orçamento deste ano. A projeção de déficit primário aumenta, mas parte dos gastos fica fora da conta da meta fiscal.",
       "texto": [
-        "A confiança do consumidor caiu 1,2 ponto em novembro, para 83,5 pontos, segundo a Fundação Getulio Vargas. A Reuters informa que esse é o menor nível desde agosto de 2022. Na média móvel de três meses, a FGV registrou recuo de 0,4 ponto, para 84,1.",
-        "A fundação divide a pesquisa entre a avaliação do presente e a expectativa para os meses seguintes. O índice da situação atual caiu 1,5 ponto, para 79,9. O de expectativas cedeu 1,1 ponto, para 86,9. A queda dos dois componentes puxou o indicador geral no mesmo mês.",
-        "Entre as perguntas sobre o presente, a avaliação da situação financeira da família caiu 2,1 pontos, para 69,2. É o menor nível desse indicador desde fevereiro de 2025. A avaliação da economia local também recuou, chegando a 90,9 pontos.",
-        "Entre as expectativas, a avaliação da economia local à frente sofreu queda de 4,7 pontos, para 99. Houve movimento na direção contrária em dois quesitos. A intenção de comprar bens duráveis subiu 1,5 ponto, e a expectativa sobre as finanças da família avançou 0,2 ponto.",
-        "Os dados vêm de uma sondagem sobre percepção e intenção de compra. A evolução das vendas realizadas será medida por outros levantamentos. A abertura do índice ajuda a acompanhar se a melhora em algumas respostas se sustenta nos meses em que os consumidores continuam avaliando pior a economia local."
+        "O governo federal libera R$ 3,43 bilhões em despesas do Orçamento de 2026. A decisão, anunciada na noite de terça-feira (24), veio na mesma revisão que elevou a previsão de déficit primário para R$ 76,98 bilhões. A margem para liberar despesas veio, em parte, de uma mudança na apuração da meta fiscal.",
+        "A mudança é a autorização, sancionada na terça, para excluir até R$ 10,5 bilhões em subsídios ao diesel da conta usada para verificar a meta de 2026. O subsídio continua sendo uma despesa da União. A autorização muda o tratamento desse gasto para uma finalidade específica: verificar se o governo ficou dentro da faixa prevista em lei.",
+        "Ao todo, o governo projeta R$ 76,98 bilhões em despesas que ficam fora da apuração da meta. Esse valor coincide com o déficit primário projetado. Com as exclusões, a conta usada para aferir a meta chega a zero. O centro da meta é um superávit de R$ 34,3 bilhões, equivalente a 0,25% do PIB. A margem de tolerância permite que o resultado ajustado fique em zero.",
+        "Na execução do Orçamento, R$ 12,63 bilhões permanecem retidos. São R$ 12,32 bilhões em contingenciamento e R$ 304,3 milhões em bloqueio. O contingenciamento limita a execução de despesas para buscar o resultado primário exigido. O bloqueio atende a outra regra, o teto para o crescimento das despesas. Ambos podem restringir os gastos do mesmo órgão.",
+        "A revisão também melhora a previsão de receitas. O Ministério do Planejamento estima R$ 2,605 trilhões de receita líquida, após as transferências a estados e municípios, com alta de R$ 18,3 bilhões sobre o relatório anterior. Entre as revisões está a dos ingressos ligados ao petróleo, que passaram de R$ 160,1 bilhões para R$ 174,7 bilhões. A previsão de despesas totais aumentou R$ 26,7 bilhões, puxada pela ampliação de créditos extraordinários, sobretudo para combustíveis.",
+        "A liberação também precisa ser lida à luz do calendário. O relatório avalia a execução de 2026 com o exercício perto do fim. O acompanhamento passa agora pelos limites atribuídos a cada órgão e pelo que será executado até dezembro. O pacote sancionado na terça inclui medidas para 2027, tratadas separadamente na edição anterior.",
+        "O cálculo do quinto bimestre adota o piso da meta. Segundo a Agência Brasil, a equipe econômica ainda avaliava juridicamente a aplicação das novas disposições que permitem contingenciar recursos para buscar o centro da faixa. O valor liberado nesta revisão é espaço para retomar a execução de despesas autorizadas, e o resultado do ano ainda depende da arrecadação e dos pagamentos efetivos."
       ],
       "fontes": [
         {
-          "nome": "FGV Ibre",
-          "url": "https://portalibre.fgv.br/noticias/confianca-do-consumidor-voltou-cair-em-novembro"
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-libera-r-343-bilhoes-do-orcamento-apos-ajuste-fiscal"
         },
         {
-          "nome": "Reuters",
-          "url": "https://economia.uol.com.br/noticias/reuters/2026/11/24/confianca-do-consumidor-no-brasil-atinge-em-novembro-minima-de-4-anos-diz-fgv.amp.htm"
+          "nome": "Tesouro Nacional",
+          "url": "https://www.tesourotransparente.gov.br/publicacoes/relatorio-de-avaliacao-de-receitas-e-despesas-primarias-rardp/2026/17"
         }
       ],
       "grafico": {
         "tipo": "barras",
-        "titulo": "Os componentes da confiança em novembro",
-        "sufixo": " pts",
-        "casas": 1,
+        "titulo": "Projeção de déficit primário em 2026",
+        "prefixo": "R$ ",
+        "sufixo": " bi",
+        "casas": 2,
         "dados": [
           {
-            "rotulo": "Situação atual",
-            "valor": 79.9
+            "rotulo": "Antes da revisão",
+            "valor": 67.26
           },
           {
-            "rotulo": "Expectativas",
-            "valor": 86.9
-          },
-          {
-            "rotulo": "Índice geral",
-            "valor": 83.5,
+            "rotulo": "Quinto bimestre",
+            "valor": 76.98,
             "destaque": true
           }
         ],
         "fonte": {
-          "nome": "FGV Ibre",
-          "url": "https://portalibre.fgv.br/noticias/confianca-do-consumidor-voltou-cair-em-novembro"
+          "nome": "Tesouro Nacional",
+          "url": "https://www.tesourotransparente.gov.br/publicacoes/relatorio-de-avaliacao-de-receitas-e-despesas-primarias-rardp/2026/17"
         }
+      },
+      "imagem": {
+        "arquivo": "/img/ed-2026-11-26/esplanada.jpg",
+        "legenda": "Esplanada dos Ministérios, em Brasília, em foto de arquivo.",
+        "credito": "Beth Castelo / Wikimedia Commons",
+        "origem": "https://commons.wikimedia.org/wiki/File:Ministries_Esplanade_Brasilia.jpg",
+        "licenca": "https://creativecommons.org/licenses/by/2.0/",
+        "rotuloLicenca": "CC BY 2.0"
       }
     }
   ],
-  "editorial": {
-    "titulo": "O governo arrecada mais. E quando aprende a gastar melhor?",
-    "texto": [
-      "Na mesma terça-feira em que a Receita mostrou o melhor outubro da sua série, Lula sancionou uma lei para ajustar as contas de 2027. Quase R$ 294 bilhões entraram em outubro, uma alta de 7,28% acima da inflação ante o mesmo mês de 2025. A equipe econômica agora espera que o pacote melhore o resultado primário do ano que vem entre R$ 45,1 bilhões e R$ 56,1 bilhões. Os dois números merecem atenção justamente porque contam histórias diferentes. Um mede o que já entrou no caixa. O outro depende de decisões que ainda serão tomadas.",
-      "O governo deve prestar contas da qualidade da despesa com a mesma precisão com que anuncia o crescimento da receita. A lei permite conter gastos, mas também adia parte dos repasses da Lei Kandir e reduz benefícios fiscais. Uma revisão de incentivos pode fazer sentido quando o benefício perdeu a razão de existir. Convém publicar o custo de cada renúncia, mostrar quem a recebe e medir o resultado. O mesmo exame vale para programas federais que atravessam governos sem demonstrar o que entregam. É um trabalho menos vistoso do que anunciar um pacote e muito mais útil para o contribuinte.",
-      "Paulo descreve a autoridade civil como serva de Deus para o bem em Romanos 13. Há deveres concretos nesse encargo. Quem administra dinheiro recolhido de terceiros precisa demonstrar por que o tomou e como o empregou. Quando o Executivo decidir quais despesas segurar, cabe ao Congresso verificar se a escolha preserva serviços essenciais e se o sacrifício foi distribuído com justiça. Essa fiscalização vale para o governo e para os parlamentares que defendem prioridades próprias nas negociações do Orçamento. O contribuinte tem direito de saber quem pediu a despesa, quanto ela custa e que benefício entrega.",
-      "O primeiro relatório bimestral de 2027 dará à discussão um objeto concreto. Será possível perguntar quais economias vieram de revisão de despesas, quanto se explica por novas receitas e quais promessas continuam sem execução. Pagamentos extraordinários ajudaram o resultado de outubro e merecem aparecer à parte quando se projetam os meses seguintes. Receitas que oscilam podem aliviar um trimestre. Despesas permanentes exigem uma conta que feche também quando o alívio passa. Antes da próxima comemoração por um recorde de arrecadação, o governo pode começar apresentando uma lista das despesas que avaliou, das que decidiu manter e do motivo de cada escolha."
-    ]
-  },
   "politica": [
     {
-      "secao": "Oposição",
-      "titulo": "Oposição cobra que Câmara e Senado defendam Van Hattem no STF",
-      "linhaFina": "Ofícios a Hugo Motta e Davi Alcolumbre pedem que as Casas participem do processo que discute a proteção de falas do deputado.",
-      "resumo": "Líderes da oposição pediram que Câmara e Senado intervenham no processo de Marcel van Hattem no Supremo. A discussão é se falas sobre um delegado da Polícia Federal estão protegidas pela imunidade parlamentar.",
-      "texto": [
-        "Líderes da oposição anunciam nesta terça-feira (24) ofícios para Câmara e Senado atuarem no caso de Marcel van Hattem. A Primeira Turma do Supremo Tribunal Federal ainda decidirá, em sessão presencial sem data marcada, se recebe a denúncia por calúnia e injúria contra o deputado do Novo do Rio Grande do Sul. Os pedidos foram dirigidos a Hugo Motta (Republicanos-PB) e Davi Alcolumbre (União Brasil-AP).",
-        "Os parlamentares pedem que Câmara e Senado ingressem como amigos da corte. Nessa condição, as Casas poderiam apresentar argumentos sobre os efeitos do caso para o Legislativo sem se tornarem parte principal do processo. O envio dos ofícios é uma iniciativa das lideranças de oposição. A atuação institucional depende da resposta dos presidentes das Casas e da tramitação no Supremo.",
-        "A denúncia da Procuradoria-Geral da República envolve declarações de Van Hattem na Câmara sobre o delegado Fábio Shor. Os ministros Flávio Dino e Alexandre de Moraes votaram a favor do recebimento, antes de Cristiano Zanin retirar a análise do plenário virtual. O artigo 53 da Constituição estabelece a inviolabilidade civil e penal de deputados e senadores por opiniões, palavras e votos.",
-        "A defesa sustenta que o deputado criticava a atuação de uma autoridade pública no exercício da fiscalização parlamentar. Em entrevista coletiva, o líder do PL na Câmara, Sóstenes Cavalcante (RJ), rasgou uma reprodução do artigo 53 como protesto contra os votos já proferidos no caso. A manifestação acompanhou a cobrança para que os presidentes assumam posição em nome das Casas."
-      ],
-      "fontes": [
-        {
-          "nome": "Revista Oeste",
-          "url": "https://revistaoeste.com/politica/imunidade-parlamentar-oposicao-congresso-stf/"
-        },
-        {
-          "nome": "Gazeta do Povo",
-          "url": "https://www.gazetadopovo.com.br/vida-e-cidadania/lideres-da-oposicao-pressionam-cupula-do-congresso-para-defender-van-hattem-no-stf/"
-        },
-        {
-          "nome": "SBT News",
-          "url": "https://sbtnews.sbt.com.br/noticia/politica/oposicao-defende-van-hattem-e-pede-mobilizacao-do-congresso"
-        }
-      ]
-    },
-    {
-      "secao": "STF",
-      "titulo": "PF diz que entregou dados do celular de Vorcaro à PGR e ao Supremo",
-      "linhaFina": "Presidência do STF, ministros que pediram acesso e Procuradoria receberam a íntegra, segundo nota da corporação.",
-      "resumo": "A Polícia Federal afirmou que a Presidência do Supremo, os ministros que pediram acesso e a Procuradoria-Geral da República receberam a íntegra dos dados do celular de Daniel Vorcaro. A nota veio após questionamentos sobre o alcance dos relatórios resumidos.",
-      "texto": [
-        "A Polícia Federal afirmou nesta terça-feira (24) que disponibilizou a íntegra dos dados extraídos do celular de Daniel Vorcaro. Segundo a nota, receberam acesso a Presidência do Supremo Tribunal Federal, ministros que solicitaram o material e a Procuradoria-Geral da República. A declaração distingue esse acervo dos relatórios sobre referências a ministros elaborados a pedido de Edson Fachin, presidente do Supremo.",
-        "Segundo a corporação, o pedido de Fachin determinou que fossem encaminhadas todas as menções a ministros, com meio de identificar o contexto em que surgiram. A PF diz que o levantamento foi feito em caráter descritivo. A íntegra do material, segundo a nota, inclui dados e documentos à disposição dos órgãos responsáveis pela investigação.",
-        "A Folha relatou nesta terça que mensagens relacionadas a Alexandre de Moraes e um contrato com o escritório da esposa do ministro ficaram fora dos relatórios. A PF sustenta que cruzamentos de dados e análises investigativas extrapolavam a ordem recebida. A corporação afirmou que preserva o sigilo judicial sobre o conteúdo dos relatórios encaminhados à Presidência do Supremo.",
-        "A Polícia Federal informou que entregou os relatórios a Fachin no dia 18. Segundo o SBT News, Fachin encaminhou trechos aos ministros mencionados."
-      ],
-      "fontes": [
-        {
-          "nome": "Polícia Federal",
-          "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/11/nota-de-esclarecimento"
-        },
-        {
-          "nome": "UOL",
-          "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/11/24/pf-diz-que-disponibilizou-dados-de-celular-de-vorcaro-a-stf-e-pgr.ghtm"
-        },
-        {
-          "nome": "Folha de S.Paulo",
-          "url": "https://www1.folha.uol.com.br/poder/2026/11/pf-nega-omissao-em-relatorios-sobre-ministros-do-stf-e-diz-que-cruzar-dados-extrapola-ordem-de-fachin.shtml"
-        },
-        {
-          "nome": "SBT News",
-          "url": "https://sbtnews.sbt.com.br/noticia/politica/fachin-envia-relatorios-da-pf-sobre-caso-master-a-ministros"
-        }
-      ]
-    },
-    {
-      "secao": "Bolsonaro",
-      "titulo": "Bolsonaro tem melhora discreta e segue na UTI sem previsão de alta",
-      "linhaFina": "Boletim de terça-feira relata sinais iniciais de retomada do trânsito intestinal e uso de antibióticos.",
-      "resumo": "Jair Bolsonaro teve melhora discreta, de acordo com a equipe médica. O ex-presidente continua na unidade de terapia intensiva e o hospital ainda não informou quando ele poderá sair.",
-      "texto": [
-        "Jair Bolsonaro (PL) apresentou melhora clínica discreta e continua internado na unidade de terapia intensiva, sem previsão de alta. O boletim médico divulgado nesta terça-feira (24) registrou sinais iniciais de retomada do trânsito intestinal. Segundo o documento, o ex-presidente também recebe tratamento com antibióticos.",
-        "Bolsonaro foi internado na sexta-feira (20), no Hospital DF Star, em Brasília, após quadro de suboclusão intestinal, uma obstrução parcial. O boletim também registra broncopneumonia. A equipe acompanha a evolução do abdome e a resposta ao tratamento durante a internação.",
-        "De acordo com a CNN Brasil e o UOL, a equipe manteve o tratamento clínico. A melhora relatada na terça-feira foi acompanhada de sinais iniciais de retomada da função intestinal.",
-        "A atualização da equipe manteve Bolsonaro em terapia intensiva. O hospital segue sem indicar uma data para alta."
-      ],
-      "fontes": [
-        {
-          "nome": "CNN Brasil",
-          "url": "https://www.cnnbrasil.com.br/politica/bolsonaro-tem-melhora-discreta-e-recebe-antibioticoterapia-diz-boletim/"
-        },
-        {
-          "nome": "UOL",
-          "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/11/24/bolsonaro-boletim.ghtm"
-        },
-        {
-          "nome": "R7",
-          "url": "https://noticias.r7.com/brasilia/bolsonaro-apresenta-melhora-discreta-mas-segue-internado-na-uti-sem-previsao-de-alta-24112026/"
-        }
-      ]
-    },
-    {
       "secao": "Senado",
-      "titulo": "Aliados de Alcolumbre falam em anular votos expostos no Senado, diz Folha",
-      "linhaFina": "Presidente do Senado nega ter discutido o rito da eleição; regimento prevê votação secreta.",
-      "resumo": "A Folha ouviu quatro aliados de Davi Alcolumbre sobre um plano de anular votos de quem exibir a cédula na eleição do Senado. Alcolumbre afirmou que ainda não há definição sobre o procedimento.",
+      "titulo": "CCJ aprova inclusão do Fundo do DF na Constituição",
+      "linhaFina": "O Senado aprovou um calendário especial. O texto da CCJ deixa a regra de reajuste na lei que já rege o fundo.",
+      "resumo": "A Comissão de Constituição e Justiça do Senado aprovou uma proposta que cita expressamente o Fundo Constitucional do Distrito Federal na Constituição. O plenário ainda precisa votar.",
       "texto": [
-        "Aliados de Davi Alcolumbre falaram à Folha em anular votos de quem exibir a cédula na eleição do Senado. Alcolumbre negou, em nota, ter conversado sobre o rito e disse que não há definição ou encaminhamento. O presidente da Casa, do União Brasil do Amapá, disputa a reeleição.",
-        "O artigo 60 do Regimento Interno prevê votação secreta para escolher a Mesa. A possibilidade de anular cédulas exibidas antes de serem depositadas foi relatada por quatro aliados ouvidos pela Folha. A eleição será em 1º de fevereiro de 2027. Segundo a reportagem, como candidato, Alcolumbre não presidirá a votação.",
-        "O UOL informou neste mês que integrantes da oposição avaliam expor os votos para mostrar o apoio a Rogério Marinho (PL-RN). Pela estratégia relatada, exibir a cédula permitiria tornar pública uma escolha que, pelo regimento, ocorre sob sigilo. A divulgação prévia dessa intenção trouxe o procedimento para o centro da disputa.",
-        "O sigilo também foi discutido em eleições anteriores. Em 2025, uma questão de ordem pediu votação aberta e foi rejeitada pelo então presidente do Senado, Rodrigo Pacheco. A decisão registrada pela Casa apontou a competência do Senado para estabelecer as regras de sua eleição interna."
-      ],
-      "fontes": [
-        {
-          "nome": "Folha de S.Paulo",
-          "url": "https://www1.folha.uol.com.br/poder/2026/11/alcolumbre-ameaca-anular-voto-do-senador-que-quebrar-sigilo-de-cedula-na-eleicao-do-senado.shtml"
-        },
-        {
-          "nome": "Regimento do Senado",
-          "url": "https://www25.senado.leg.br/web/atividade/legislacao/regimento-interno"
-        },
-        {
-          "nome": "UOL",
-          "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/11/12/stf-espera-ser-acionado-nas-eleicoes-para-presidencia-do-senado.ghtm"
-        },
-        {
-          "nome": "Senado Federal",
-          "url": "https://www25.senado.leg.br/web/atividade/questoes-de-ordem/-/q/detalhe/2993"
-        }
-      ]
-    }
-  ],
-  "mundo": [
-    {
-      "secao": "Comércio",
-      "titulo": "EUA bloqueiam primeiro pedido do Brasil contra tarifas na OMC",
-      "linhaFina": "Brasília questiona sobretaxas de 25% e 12,5%, com exceções, e pode voltar ao órgão de solução de controvérsias.",
-      "resumo": "Os Estados Unidos barraram a primeira tentativa do Brasil de abrir um painel sobre tarifas na Organização Mundial do Comércio. Brasília pode apresentar um segundo pedido.",
-      "texto": [
-        "Os Estados Unidos barraram nesta terça-feira (24) o primeiro pedido brasileiro para abrir um painel sobre tarifas na Organização Mundial do Comércio. O governo brasileiro quer que especialistas avaliem duas sobretaxas impostas a produtos do país. A objeção americana impediu a abertura nessa reunião do Órgão de Solução de Controvérsias.",
-        "A Organização Mundial do Comércio informa que o Brasil questiona um adicional de 25%, sujeito a exceções, e outro de 12,5%, também com exceções. As medidas partiram de duas investigações comerciais conduzidas sob a Seção 301 da legislação americana. A segunda investigação tratou de alegações relacionadas a trabalho forçado.",
-        "As consultas entre os dois países foram realizadas em 25 de setembro. Segundo a entidade, o governo brasileiro informou que a negociação não resolveu o impasse. Brasília argumenta que as sobretaxas entram em conflito com os compromissos comerciais assumidos pelos Estados Unidos.",
-        "Washington declarou que as investigações tratam de práticas brasileiras que considera prejudiciais aos Estados Unidos e afirmou estar disposto a continuar conversando. O órgão de solução de controvérsias registrou as posições e deixou a discussão aberta se o Brasil solicitar que retorne à pauta.",
-        "Segundo o SBT News, um novo pedido brasileiro é esperado para 17 de dezembro. Na segunda tentativa, o bloqueio depende de consenso entre os membros do órgão. A eventual abertura de um painel permite examinar os argumentos apresentados pelos dois governos, etapa anterior a uma decisão sobre as medidas."
-      ],
-      "fontes": [
-        {
-          "nome": "OMC",
-          "url": "https://www.wto.org/english/news_e/news26_e/dsb_24nov26_563_e.htm"
-        },
-        {
-          "nome": "SBT News",
-          "url": "https://sbtnews.sbt.com.br/noticia/politica/eua-bloqueiam-pedido-brasileiro-para-julgar-tarifas-na-omc"
-        },
-        {
-          "nome": "Reuters",
-          "url": "https://economia.uol.com.br/noticias/reuters/2026/11/24/eua-bloqueiam-pedido-do-brasil-para-painel-de-disputa-sobre-tarifas-diz-autoridade-comercial.htm"
-        }
-      ]
-    },
-    {
-      "secao": "Energia",
-      "titulo": "Brent sobe 2,27% e fecha a US$ 91,40 após relatos de ataques em Ormuz",
-      "linhaFina": "Contratos de petróleo viraram depois de tocar mínimas no pregão; WTI encerrou a US$ 82,05.",
-      "resumo": "O petróleo Brent fechou a sessão a US$ 91,40 por barril, em alta de 2,27%. O mercado acompanhou relatos de ataques a embarcações no Estreito de Ormuz e arredores.",
-      "texto": [
-        "O petróleo Brent subiu 2,27% nesta terça-feira (24), a US$ 91,40 por barril, após relatos de novos ataques nas proximidades de Ormuz. Os contratos de janeiro do petróleo americano West Texas Intermediate, ou WTI, também avançaram. Fecharam a US$ 82,05 por barril, alta de 2,35%.",
-        "A mudança de direção ocorreu durante a mesma sessão. Segundo a Reuters, o Brent chegou à mínima de US$ 88,10 antes de subir US$ 2,03 em relação ao fechamento anterior. O contrato do WTI tocou US$ 79,07 e terminou com ganho de US$ 1,88. As mínimas são preços registrados no pregão, enquanto as altas comparam dois fechamentos.",
-        "O estreito conecta o Golfo Pérsico ao Golfo de Omã e é uma rota importante para o transporte de petróleo. Relatos sobre navios atingidos e sobre a segurança da passagem são acompanhados por quem negocia os contratos. A CNN Brasil também registrou a atenção dos operadores a notícias sobre ataques na Arábia Saudita.",
-        "Brent e WTI são referências diferentes de petróleo negociadas em mercados internacionais. As cotações citadas nesta reportagem são de contratos futuros com vencimento em janeiro. Na sessão seguinte, as negociações voltam a incorporar notícias sobre oferta, circulação de navios e demanda por petróleo."
-      ],
-      "fontes": [
-        {
-          "nome": "Reuters",
-          "url": "https://noticias.uol.com.br/ultimas-noticias/reuters/2026/11/24/petroleo-fecha-em-alta-de-us2-em-meio-a-ataques-continuos-a-navios-em-ormuz.amp.htm"
-        },
-        {
-          "nome": "CNN Brasil",
-          "url": "https://www.cnnbrasil.com.br/economia/money/mercado/petroleo-fecha-em-alta-com-aumento-dos-riscos-a-navegacao-em-ormuz-e-tensoes-na-arabia-saudita/"
-        }
-      ]
-    },
-    {
-      "secao": "Europa",
-      "titulo": "Reino Unido alerta fornecedores da Ucrânia para risco de sabotagem russa",
-      "linhaFina": "Órgãos de segurança chamam empresas que apoiam as forças ucranianas para reuniões sobre a ameaça.",
-      "resumo": "O governo britânico emitiu um alerta de segurança para empresas que abastecem as Forças Armadas da Ucrânia. O aviso trata de risco crescente de sabotagem atribuído à Rússia por Londres.",
-      "texto": [
-        "O Reino Unido alertou nesta terça-feira (24) empresas britânicas que prestam apoio material direto à Ucrânia sobre o risco de sabotagem russa. O aviso da Autoridade Nacional de Segurança Protetiva, ligada ao serviço de inteligência interna MI5, e do Ministério da Defesa abrange também a cadeia de suprimentos. Londres anunciou reuniões com representantes de setores sensíveis.",
-        "O alerta se dirige a empresas que dão apoio direto à Ucrânia, entre elas fornecedoras das Forças Armadas do país. Em comunicado, o governo britânico informou que os encontros com dirigentes empresariais ocorreriam na terça e na quarta-feira. A iniciativa trata de como reconhecer ameaças à segurança e comunicar incidentes.",
-        "A Reuters relembra o caso de um incêndio criminoso contra uma empresa ligada à Ucrânia. Segundo a agência, autoridades britânicas atribuíram a ação a Moscou, e pessoas envolvidas foram presas. A agência também cita uma acusação apresentada em setembro contra um homem que teria repassado informações a serviços de inteligência russos.",
-        "O comunicado do governo descreve um risco direcionado a organizações que apoiam Kiev. As autoridades britânicas apresentam o alerta como medida preventiva e disponibilizam orientações às empresas atingidas pelo aviso. A ocorrência de novos incidentes dependerá de confirmação própria pelas autoridades responsáveis."
-      ],
-      "fontes": [
-        {
-          "nome": "MI5",
-          "url": "https://www.mi5.gov.uk/npsa-and-mod-issue-joint-alert"
-        },
-        {
-          "nome": "Governo britânico",
-          "url": "https://www.gov.uk/government/news/ceos-from-sensitive-sectors-receive-briefings-on-russia-threats"
-        },
-        {
-          "nome": "Reuters",
-          "url": "https://www.reuters.com/world/uk-warns-russian-sabotage-threat-companies-that-supply-ukraine-2026-11-24/"
-        }
-      ]
-    },
-    {
-      "secao": "Oriente Médio",
-      "titulo": "Ataques israelenses em Gaza matam ao menos sete, segundo fontes palestinas",
-      "linhaFina": "Entre os mortos está Naeem Abu Nahel, chefe da segurança interna do Hamas; Netanyahu confirmou que ele foi alvo de Israel.",
-      "resumo": "Ataques israelenses mataram ao menos sete pessoas em Gaza, segundo médicos e policiais palestinos ouvidos pela Reuters. Entre os mortos está Naeem Abu Nahel, dirigente da segurança interna do Hamas.",
-      "texto": [
-        "Ataques israelenses mataram ao menos sete pessoas na Faixa de Gaza nesta terça-feira (24), segundo fontes palestinas ouvidas pela Reuters. Entre as vítimas estava Naeem Abu Nahel, chefe do aparato de segurança interna do Hamas. O primeiro-ministro israelense, Benjamin Netanyahu, confirmou posteriormente que Abu Nahel foi alvo da ação.",
-        "O Ministério do Interior em Gaza, administrado pelo Hamas, confirmou a morte do dirigente, segundo a Al Jazeera. A defesa civil local também relatou feridos graves em um ataque no bairro de Rimal, na Cidade de Gaza, conforme informou a AFP. O Exército israelense e o serviço de segurança Shin Bet haviam confirmado que atingiram um dirigente do Hamas, antes de Netanyahu divulgar o nome.",
-        "No sul de Gaza, a Reuters ouviu equipes médicas que relataram três mortos em um ataque contra um posto policial em Khan Younis. O Ministério do Interior local apontou que dois eram policiais. A agência também registrou um ataque na região do corredor de Netzarim, mais ao norte.",
-        "O balanço de ao menos sete mortos reúne informações de equipes médicas, polícia e autoridades palestinas sobre ataques em diferentes pontos do território. O anúncio israelense sobre Abu Nahel se refere a um desses ataques."
-      ],
-      "fontes": [
-        {
-          "nome": "Reuters",
-          "url": "https://www.reuters.com/world/middle-east/israeli-airstrike-kills-least-three-palestinians-southern-gaza-medics-say-2026-11-24/"
-        },
-        {
-          "nome": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/24/israeli-air-strike-kills-senior-hamas-military-official-in-gaza"
-        },
-        {
-          "nome": "AFP",
-          "url": "https://www.dawn.com/news/2046778"
-        }
-      ]
-    }
-  ],
-  "cultura": [
-    {
-      "secao": "Política cultural",
-      "titulo": "Senado aprova plano de cultura para dez anos e envia texto à sanção",
-      "linhaFina": "Projeto orienta ações conjuntas de União, estados, Distrito Federal e municípios.",
-      "resumo": "O Senado aprovou um novo Plano Nacional de Cultura, com horizonte de dez anos. A proposta segue para sanção e estabelece diretrizes comuns para os governos federal, estaduais e municipais.",
-      "texto": [
-        "O Senado aprovou nesta terça-feira (24) a proposta do novo Plano Nacional de Cultura e enviou o texto à sanção presidencial. O projeto estabelece diretrizes para as políticas culturais dos próximos dez anos. Segundo a Agência Senado, o país estava havia dois anos sem um plano nacional em vigor.",
-        "O plano trata da coordenação das políticas de cultura entre a União, os estados, o Distrito Federal e os municípios. O relator no plenário, senador Humberto Costa (PT-PE), apresentou a proposta como uma forma de preencher a lacuna deixada pelo encerramento do plano iniciado em 2010.",
-        "O Ministério da Cultura informou que o projeto busca ampliar o acesso à cultura e orientar a atuação do poder público. A proposta reúne princípios e diretrizes nacionais. A execução dessas diretrizes exigirá a participação dos diferentes níveis de governo e o acompanhamento das ações ao longo do período.",
-        "A votação do projeto no Senado concluiu a etapa no Congresso. O próximo passo é a decisão da Presidência da República sobre a sanção. O plano seguirá para execução conforme o texto convertido em lei e a atuação dos órgãos responsáveis pelas políticas culturais."
+        "A Comissão de Constituição e Justiça do Senado aprova uma proposta que cita expressamente o Fundo Constitucional do Distrito Federal na Constituição. O plenário aprovou um calendário especial para a tramitação, segundo o Correio Braziliense, e a votação da PEC pode ocorrer na terça-feira (1º).",
+        "O artigo 21 da Constituição já atribui à União a manutenção das forças de segurança do Distrito Federal e o apoio financeiro para outros serviços públicos por meio de um fundo próprio. A PEC 1/2025, do senador Izalci Lucas (PL-DF), identifica expressamente esse instrumento como o Fundo Constitucional do Distrito Federal.",
+        "A versão original procurava levar também a regra de correção dos repasses para a Constituição. O relator Rogério Carvalho (PT-SE) retirou essa fórmula. A Lei 10.633, de 2002, continua regendo a correção, vinculada à variação da receita corrente líquida da União. A decisão da comissão, portanto, mexe na identificação do fundo no texto constitucional. O cálculo do repasse continua disciplinado por lei.",
+        "Hamilton Mourão (Republicanos-RS), que leu o relatório na comissão, apontou que a redação original permitia interpretações divergentes sobre o valor de partida para a correção. Izalci vincula a proposta à autonomia do Distrito Federal. Omar Aziz (PSD-AM) argumentou que a perspectiva de redução dos repasses gera incerteza para o governo distrital e para os servidores.",
+        "A tramitação acelerada encurta o calendário de discussão. A mudança no texto constitucional ainda exige aprovação em dois turnos no Senado e na Câmara, com três quintos dos votos em cada turno."
       ],
       "fontes": [
         {
           "nome": "Agência Senado",
-          "url": "https://www12.senado.leg.br/noticias/materias/2026/11/24/senado-aprova-plano-nacional-de-cultura-para-os-proximos-10-anos"
+          "url": "https://www12.senado.leg.br/noticias/materias/2026/11/25/vai-a-plenario-inclusao-de-fundo-constitucional-do-df-na-constituicao"
         },
         {
-          "nome": "Ministério da Cultura",
-          "url": "https://www.gov.br/cultura/pt-br/assuntos/noticias/novo-plano-nacional-de-cultura-e-aprovado-no-senado-1/"
+          "nome": "Agenda do Congresso",
+          "url": "https://www.congressonacional.leg.br/sessoes/agenda-do-congresso-senado-e-camara/-/agenda/2026-11-25"
+        },
+        {
+          "nome": "Lei 10.633/2002",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10633.htm"
+        },
+        {
+          "nome": "Correio Braziliense — calendário no plenário",
+          "url": "https://www.correiobraziliense.com.br/politica/2026/11/amp/7544303-plenario-do-senado-deve-votar-pec-do-fcdf-na-proxima-terca-feira-1.html"
         }
-      ]
+      ],
+      "imagem": {
+        "arquivo": "/img/ed-2026-11-26/plenario-congresso.jpg",
+        "legenda": "Plenário do Congresso Nacional durante sessão conjunta, em foto de arquivo.",
+        "credito": "Senado Federal / Wikimedia Commons",
+        "origem": "https://commons.wikimedia.org/wiki/File:Plen%C3%A1rio_do_Congresso_%2836788185301%29.jpg",
+        "licenca": "https://creativecommons.org/licenses/by/2.0/",
+        "rotuloLicenca": "CC BY 2.0"
+      }
+    },
+    {
+      "secao": "Saúde pública",
+      "titulo": "Senado aprova projeto que dá base legal à Força Nacional do SUS",
+      "linhaFina": "Texto segue à sanção e prevê recursos próprios para mobilizar equipes em emergências.",
+      "resumo": "O Senado aprova o projeto que dá base legal à Força Nacional do SUS. As equipes atuam em calamidades e emergências de saúde pública.",
+      "texto": [
+        "O Senado aprova o projeto que dá base legal à Força Nacional do Sistema Único de Saúde. O texto segue para sanção presidencial. A força atua desde 2011 com base em decreto e pode ser mobilizada para apoiar as redes locais em emergências sanitárias e calamidades.",
+        "O projeto define como esse apoio será organizado. O Ministério da Saúde coordena as missões e avalia os pedidos. Estados, municípios e o Distrito Federal aderem voluntariamente. A cada convocação, o órgão gestor terá de indicar o prazo e os limites da atuação e articular o envio de profissionais, equipamentos e apoio logístico.",
+        "As equipes podem reunir servidores e empregados públicos, pessoal contratado temporariamente e voluntários qualificados. Também poderão incluir profissionais de hospitais filantrópicos vinculados ao programa de desenvolvimento institucional do SUS. Esses hospitais poderão fornecer instalações, transporte e treinamento. Os servidores mobilizados conservam o vínculo e a remuneração de origem.",
+        "Para o relator Confúcio Moura (MDB-RO), a proposta ajuda a dar continuidade ao atendimento em calamidades e a ampliar a capacidade de chegar a comunidades indígenas, ribeirinhas e de difícil acesso. O projeto é de Alexandre Padilha (PT-SP), deputado licenciado e atual ministro da Saúde.",
+        "O texto exige previsão de recursos específicos para ativar e manter a força. Também prevê a possibilidade de missões humanitárias no exterior e de apoio das Forças Armadas mediante autorização da Presidência. A etapa seguinte é a decisão presidencial sobre o projeto aprovado."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Senado",
+          "url": "https://www12.senado.leg.br/noticias/materias/2026/11/25/forca-nacional-do-sus-ganha-respaldo-em-lei-e-texto-vai-a-sancao"
+        },
+        {
+          "nome": "Congresso em Foco",
+          "url": "https://www.congressoemfoco.com.br/noticia/131887/senado-aprova-projeto-que-torna-permanente-a-forca-nacional-do-sus"
+        }
+      ],
+      "imagem": {
+        "arquivo": "/img/ed-2026-11-26/ministerio-da-saude.jpg",
+        "legenda": "Sede do Ministério da Saúde, em Brasília. Foto de arquivo.",
+        "credito": "Pedro França / Agência Senado / Wikimedia Commons",
+        "origem": "https://commons.wikimedia.org/wiki/File:Imagens_de_Bras%C3%ADlia_%2852652834509%29.jpg",
+        "licenca": "https://creativecommons.org/licenses/by/2.0/",
+        "rotuloLicenca": "CC BY 2.0"
+      }
+    },
+    {
+      "secao": "Congresso",
+      "titulo": "Comissão de Orçamento eleva em R$ 37,1 bilhões a previsão de receita para 2027",
+      "linhaFina": "Royalties puxam a revisão. Depois das transferências, a estimativa de ganho líquido para a União é de R$ 17,6 bilhões.",
+      "resumo": "A Comissão Mista de Orçamento aprova uma previsão de receita R$ 37,1 bilhões maior para 2027. A revisão inclui mais recursos do petróleo.",
+      "texto": [
+        "A Comissão Mista de Orçamento aprova uma previsão de receita R$ 37,1 bilhões maior para 2027. A comparação é com o projeto que o Executivo enviou em agosto. Para a União, o aumento líquido estimado cai a R$ 17,6 bilhões depois das transferências a estados e municípios.",
+        "O relatório do deputado Neto Carletto (Avante-BA) combina alterações na legislação com novas projeções econômicas. A expectativa de crescimento do PIB em 2027 caiu de 2,5% para 1,8%. O relatório estima R$ 12 bilhões a menos nas receitas administradas pela Receita Federal, incluindo a arrecadação previdenciária, e R$ 38,5 bilhões a mais em royalties e participações ligados ao petróleo.",
+        "O projeto original previa R$ 3,4 trilhões em receitas primárias. Entre os ajustes identificados pela Agência Câmara, a redução adicional de benefícios tributários tem impacto estimado em R$ 15,4 bilhões. A revisão também incorpora a perda de receita associada ao perdão de dívidas de contribuições de microempreendedores individuais, estimada em R$ 1,1 bilhão.",
+        "O exercício de 2027 será o primeiro orçamento com a nova Contribuição sobre Bens e Serviços e o Imposto Seletivo. Segundo Carletto, a estimativa foi elaborada sob a diretriz de manutenção da carga tributária prevista na reforma. O relatório de receitas orienta a discussão das despesas do próximo ano, ainda sujeitas à votação do Orçamento pelo Congresso.",
+        "A decisão da comissão trata das receitas esperadas em 2027. A liberação de R$ 3,43 bilhões anunciada pelo governo nesta semana é uma revisão de despesas do exercício de 2026."
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Câmara",
+          "url": "https://www.camara.leg.br/noticias/1322856-comissao-de-orcamento-aprova-relatorio-que-eleva-em-r-371-bilhoes-a-previsao-de-receita-para-2027"
+        }
+      ],
+      "imagem": {
+        "arquivo": "/img/ed-2026-11-26/orcamento-2027.jpg",
+        "legenda": "Vista aérea da Esplanada dos Ministérios. Foto de arquivo.",
+        "credito": "Geraldo Magela / Agência Senado / Wikimedia Commons",
+        "origem": "https://commons.wikimedia.org/wiki/File:Bras%C3%ADlia_vista_do_alto_%2823059589949%29.jpg",
+        "licenca": "https://creativecommons.org/licenses/by/2.0/",
+        "rotuloLicenca": "CC BY 2.0"
+      }
     }
   ],
+  "mundo": [
+    {
+      "secao": "Oriente Médio",
+      "titulo": "Ataque israelense mata dirigente de segurança do Hamas e familiares em Gaza",
+      "linhaFina": "Israel confirmou que mirou Mohammad Majid Abu al-Ouf. A mulher e duas filhas adolescentes morreram no mesmo ataque, segundo a AP.",
+      "resumo": "Um ataque israelense matou um dirigente de segurança do Hamas, a esposa e duas filhas em Gaza. O Exército israelense confirmou que o dirigente era o alvo.",
+      "texto": [
+        "Um ataque israelense mata um dirigente de segurança do Hamas, a mulher dele e duas filhas adolescentes na Faixa de Gaza. O Exército israelense confirmou que o alvo era Mohammad Majid Abu al-Ouf, da segurança interna do grupo no norte do território.",
+        "A Reuters ouviu profissionais de saúde que localizaram o ataque no campo de refugiados de Al-Shati, na parte oeste da Cidade de Gaza. O bombardeio atingiu o apartamento onde estava a família. Em outro ataque na mesma manhã, no bairro de Karama, uma pessoa morreu, segundo os profissionais ouvidos pela agência.",
+        "As forças israelenses afirmaram que Abu al-Ouf havia ajudado a planejar ataques contra militares e civis israelenses e trabalhava para recompor a capacidade do Hamas. O grupo acusou Israel de tentar desorganizar a segurança interna de Gaza ao matar dirigentes do serviço.",
+        "O ataque de quarta-feira ocorre depois da morte de Naeem Abu Nahel, que comandava a segurança interna do Hamas em toda Gaza. A sequência coloca dois integrantes da mesma estrutura entre os alvos atingidos por Israel desde o começo da semana.",
+        "Segundo a Reuters, o serviço de segurança interna que os dois integravam reunia informações sobre operações israelenses e atuava contra palestinos suspeitos de colaborar com a inteligência de Israel. O primeiro-ministro Benjamin Netanyahu afirmou, depois da morte de Abu Nahel, que o alcance das forças israelenses se estendia aos dirigentes do grupo.",
+        "O cessar-fogo foi firmado em outubro de 2025. Israel afirma que suas operações atingem alvos do Hamas. A Reuters registra mortes de civis nos ataques e informa que o plano de trégua apoiado pelos Estados Unidos ainda não assegurou o desarmamento do grupo. Desde o acordo, pelo menos 1.600 palestinos e cinco soldados israelenses morreram, segundo balanços das respectivas partes reunidos pela agência."
+      ],
+      "fontes": [
+        {
+          "nome": "Reuters",
+          "url": "https://www.reuters.com/world/middle-east/israeli-strike-kills-hamas-official-his-wife-children-2026-11-25/"
+        },
+        {
+          "nome": "Associated Press",
+          "url": "https://apnews.com/article/6995de4ee91278459742a359eeb7439e"
+        }
+      ],
+      "imagem": {
+        "arquivo": "/img/ed-2026-11-26/cidade-de-gaza.jpg",
+        "legenda": "Vista panorâmica da área de Al-Katiba, na Cidade de Gaza. Foto de arquivo.",
+        "credito": "Mujaddara / Wikimedia Commons",
+        "origem": "https://commons.wikimedia.org/wiki/File:Al_Katiba_panorama_-_panoramio.jpg",
+        "licenca": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "rotuloLicenca": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "secao": "Ucrânia",
+      "titulo": "Ataque russo mata duas pessoas na região de Odesa, diz governador",
+      "linhaFina": "Segundo autoridades locais, também houve feridos em Odesa e na capital ucraniana.",
+      "resumo": "O governador de Odesa informou que um ataque russo matou duas pessoas e feriu outras três. Em Kiev, a prefeitura relatou dois feridos após um ataque com drones.",
+      "texto": [
+        "Um ataque russo mata duas pessoas na região de Odesa, no sul da Ucrânia, segundo o governador Oleh Kiper. Outras três ficaram feridas, entre elas uma criança. O governador divulgou o balanço na noite de terça-feira (24).",
+        "Segundo Kiper, a ofensiva atingiu automóveis, construções residenciais e instalações industriais. A Reuters registrou os danos relatados pelas autoridades locais. A agência informou que o balanço de vítimas ainda aguardava confirmação independente.",
+        "Em Kiev, o prefeito Vitali Klitschko relatou dois feridos em uma ocorrência separada. Ele afirmou que destroços de um drone provocaram um incêndio em um prédio residencial. As duas cidades divulgaram seus próprios balanços.",
+        "Em outra reportagem, a Reuters acompanhou os esforços para manter Odesa abastecida de eletricidade após ataques russos à rede. A emergência na região tem duas frentes: o atendimento aos feridos e a recuperação do fornecimento de energia que sustenta os serviços da cidade.",
+        "Na manhã de quarta-feira, cerca de 9 mil domicílios da região ainda estavam sem energia depois de um ataque durante a noite, segundo a Reuters. Em uma ofensiva de maior escala na semana anterior, os danos também interromperam serviços de água e aquecimento. Dados do governo ucraniano indicavam que quase 240 mil pessoas na região ainda estavam sem aquecimento dois dias depois daquele ataque.",
+        "A dificuldade está em transportar eletricidade até o consumidor. Executivos da companhia DTEK disseram à Reuters que havia geração suficiente no país, mas ataques às subestações e às linhas de transmissão dificultavam o envio da energia produzida em outras regiões. A empresa afirma que algumas instalações voltaram a ser atingidas após reparos.",
+        "A Rússia nega atacar civis deliberadamente e considera instalações essenciais de energia alvos legítimos. A Ucrânia tem proposto suspender ataques a refinarias russas se Moscou interromper os ataques à infraestrutura elétrica. Segundo a Reuters, o governo russo recusou a proposta até agora."
+      ],
+      "fontes": [
+        {
+          "nome": "Reuters",
+          "url": "https://www.reuters.com/world/russian-strike-kills-two-people-ukraines-odesa-region-governor-says-2026-11-25/"
+        },
+        {
+          "nome": "Reuters — rede elétrica",
+          "url": "https://www.reuters.com/business/energy/ukraine-battles-keep-lights-odesa-russia-strikes-grid-2026-11-25/"
+        }
+      ],
+      "imagem": {
+        "arquivo": "/img/ed-2026-11-26/odesa.jpg",
+        "legenda": "Danos de um ataque russo em Odesa em 24 de fevereiro de 2024. Foto de arquivo.",
+        "credito": "Serviço Estatal de Emergência da Ucrânia / Wikimedia Commons",
+        "origem": "https://commons.wikimedia.org/wiki/File:Destructions_in_Odesa_after_Russian_attack%2C_2024-02-24_%2801%29.jpg",
+        "licenca": "https://creativecommons.org/licenses/by/4.0/",
+        "rotuloLicenca": "CC BY 4.0"
+      }
+    }
+  ],
+  "cultura": [],
   "paraEntender": {
-    "titulo": "O que muda com a nova lei do ajuste fiscal",
+    "titulo": "O que os arquivos da USAID dizem sobre 2022",
     "itens": [
-      "A Lei Complementar 239 foi sancionada em 24/11 e passa a informar a execução do Orçamento de 2027.",
-      "O resultado primário compara receitas e despesas antes dos juros da dívida.",
-      "Depois dos abatimentos legais, a referência de superávit de 2027 fica em R$ 18,7 bilhões.",
-      "A faixa de R$ 45,1 bilhões a R$ 56,1 bilhões é a estimativa do governo para a melhora no resultado primário atribuída ao pacote.",
-      "Quando se aplicar a restrição adicional, o crescimento real da despesa fica limitado a 2%, descontada a inflação.",
-      "A lei reduz incentivos fiscais, autoriza restrições à compensação cruzada em determinadas condições e muda o calendário de alguns repasses federais."
+      "Outubro de 2022. Segundo o Google, o YouTube encerrou 76 canais em uma investigação sobre uma operação de influência coordenada ligada ao Brasil. A campanha divulgava conteúdo favorável a Bolsonaro.",
+      "1º de novembro. O estudo Democratic Openings registra que Bolsonaro concordou com o início da transição administrativa para Lula. O então ministro da Casa Civil, Ciro Nogueira, anunciou a autorização naquele dia.",
+      "22 e 23 de novembro. A coligação de Bolsonaro pediu a verificação de urnas do segundo turno. Moraes indeferiu o pedido e impôs multa por litigância de má-fé, confirmada em dezembro pelo TSE.",
+      "7 de dezembro. A Alphabet apresentou ao governo americano suas iniciativas de proteção eleitoral. As notas citam o boletim do Google sobre as remoções de outubro.",
+      "Como ler o relatório. A avaliação sobre polarização religiosa e a previsão sobre a participação militar são análises da consultoria. A previsão foi escrita antes da eleição. O acórdão do STF examina evidências e episódios posteriores ao início da transição."
     ],
     "fontes": [
       {
-        "nome": "Agência Câmara",
-        "url": "https://www.camara.leg.br/noticias/1322586-lei-do-ajuste-fiscal-e-sancionada-sem-vetos-e-ja-esta-em-vigor"
+        "nome": "Democratic Openings — relatório original, seção Brasil",
+        "url": "https://www.usaid.gov/files/wo-2-democratic-openings-fy-23-country-list-2023-01-10-b97d7fc59a9e.pdf#page=12"
       },
       {
-        "nome": "Agência Brasil",
-        "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-sanciona-ajuste-fiscal-aprovado-no-congresso"
+        "nome": "Google — boletim do Threat Analysis Group",
+        "url": "https://blog.google/threat-analysis-group/tag-bulletin-q4-2022/"
       },
       {
-        "nome": "Agência Senado",
-        "url": "https://www12.senado.leg.br/noticias/materias/2026/11/24/lei-do-ajuste-fiscal-e-publicada-e-ja-esta-valendo"
+        "nome": "TSE — decisão de 23 de novembro",
+        "url": "https://www.tse.jus.br/comunicacao/noticias/2022/Novembro/moraes-condena-coligacao-pelo-bem-do-brasil-por-litigancia-de-ma-fe-e-aplica-multa-de-r-22-9-milhoes"
+      },
+      {
+        "nome": "USAID — registro da reunião com a Alphabet",
+        "url": "https://www.usaid.gov/files/12072022-alphabet-global-election-protection-efforts-and-lessons-learned-3fec5811f9a7.pdf"
+      },
+      {
+        "nome": "STF — acórdão da Ação Penal 2668",
+        "url": "https://noticias.stf.jus.br/postsnoticias/ap-2668-publicado-acordao-que-condenou-o-ex-presidente-bolsonaro-e-outros-sete-reus-por-tentativa-de-golpe/"
       }
-    ]
+    ],
+    "materia": "manchete",
+    "relacionado": {
+      "titulo": "O que o relatório fiscal mede",
+      "itens": [
+        "O resultado primário compara receitas e despesas antes dos juros da dívida.",
+        "A meta usa o resultado após as exclusões previstas em lei.",
+        "A diferença entre as duas contas explica por que o governo projeta déficit e, ainda assim, estima cumprir o piso da meta."
+      ],
+      "fontes": [
+        {
+          "nome": "Tesouro Nacional",
+          "url": "https://www.tesourotransparente.gov.br/publicacoes/relatorio-de-avaliacao-de-receitas-e-despesas-primarias-rardp/2026/17"
+        },
+        {
+          "nome": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-libera-r-343-bilhoes-do-orcamento-apos-ajuste-fiscal"
+        }
+      ],
+      "materia": "destaque-3"
+    }
   },
   "breves": [
     {
-      "texto": "O dólar comercial fechou a R$ 5,9107, queda de 0,26%. O Ibovespa cedeu 0,43%, para 164.089,81 pontos.",
+      "texto": "Eleições no Rio. O STF começa em 4 de dezembro a julgar o pedido do PSD por um segundo turno para o governo estadual. O plenário virtual pode votar até 15 de dezembro.",
       "fonte": {
-        "nome": "UOL",
-        "url": "https://economia.uol.com.br/cotacoes/noticias/redacao/2026/11/24/dolar-ibovespa-fechamento-24-novembro-2026.ghtm"
+        "nome": "Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/stf-marca-julgamento-sobre-eleicoes-no-rio-para-4-de-dezembro"
       }
     },
     {
-      "texto": "O Banco Central anunciou leilões de linha para quarta-feira (25), com limite conjunto de US$ 2 bilhões.",
-      "fonte": {
-        "nome": "Banco Central",
-        "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?numero=46351&tipo=Comunicado"
-      }
-    },
-    {
-      "texto": "A Sanofi anunciou acordo para comprar a farmacêutica americana Insmed por US$ 41 bilhões em dinheiro.",
-      "fonte": {
-        "nome": "Sanofi",
-        "url": "https://www.sanofi.com/assets/dotcom/pressreleases/2026/2026-11-24-06-30-00-3409002-en.pdf"
-      }
-    },
-    {
-      "texto": "O Senado aprovou projeto que tipifica o tráfico de animais silvestres e endurece penas contra a exploração ilegal da fauna. O texto segue para sanção.",
+      "texto": "Fraude contábil. A CCJ do Senado confirmou a aprovação de projeto que prevê pena de dois a seis anos de prisão e multa para fraude contábil no mercado de capitais. O texto segue à Câmara se não houver recurso ao plenário.",
       "fonte": {
         "nome": "Agência Senado",
-        "url": "https://www12.senado.leg.br/noticias/materias/2026/11/24/aprovado-projeto-que-tipifica-crime-de-trafico-de-animais-silvestres"
+        "url": "https://www12.senado.leg.br/noticias/materias/2026/11/25/ccj-confirma-aprovacao-de-crime-de-fraude-contabil-no-mercado-de-capitais"
       }
     },
     {
-      "texto": "O Dia Nacional de Ação de Graças cai nesta quinta-feira, 26 de novembro. A lei brasileira fixa a celebração na quarta quinta-feira do mês.",
+      "texto": "Mamografias no SUS. A Comissão de Assuntos Sociais aprovou projeto que amplia a oferta de mamografias e o número de unidades que realizam o exame. O texto segue ao plenário do Senado.",
       "fonte": {
-        "nome": "Câmara dos Deputados",
-        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-5110-22-setembro-1966-368932-publicacaooriginal-1-pl.html"
+        "nome": "Agência Senado",
+        "url": "https://www12.senado.leg.br/noticias/materias/2026/11/25/ampliacao-do-acesso-a-mamografia-pelo-sus-vai-a-plenario"
       }
     }
   ]
