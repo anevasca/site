@@ -237,8 +237,8 @@ def main():
         for i, u in enumerate(json.load(open(f, encoding="utf-8")), 1):
             pid = f"ed-{data}-ultima-{i}"
             d = u.get("resumo") or u.get("linhaFina") or (u.get("texto") or [""])[0]
-            img = (u.get("imagem") or {}).get("arquivo") or cartao(pid, u["titulo"], "Ao longo do dia · " + u.get("secao", ""), data)
-            open(f"m/{pid}.html", "w", encoding="utf-8").write(pagina(template, pid, u["titulo"], d, img, u, "Ao longo do dia · " + u.get("secao", ""), data))
+            img = (u.get("imagem") or {}).get("arquivo") or cartao(pid, u["titulo"], "Últimas notícias · " + u.get("secao", ""), data)
+            open(f"m/{pid}.html", "w", encoding="utf-8").write(pagina(template, pid, u["titulo"], d, img, u, "Últimas notícias · " + u.get("secao", ""), data))
             urls.append(f"{BASE}/m/{pid}.html"); n += 1
     if os.path.exists("colunas.json"):
         for c in json.load(open("colunas.json", encoding="utf-8")):
