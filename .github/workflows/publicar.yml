@@ -27,9 +27,13 @@ jobs:
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Valida o conteúdo antes de publicar
+        run: python3 ferramentas/validar_edicao.py
       - run: pip install edge-tts
       - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
       - name: Grava os áudios novos

@@ -42,7 +42,8 @@ Campos principais (todos obrigatórios, exceto onde dito):
   "numero": 123,
   "atualizadoEm": "2026-11-27T06:43:00-03:00",
   "manchete": { "secao": "string", "titulo": "string", "linhaFina": "string",
-                "resumo": "string", "texto": ["parágrafo", "..."], "fontes": ["string", "..."] },
+                "resumo": "string", "texto": ["parágrafo", "..."],
+                "fontes": [{"nome": "string", "url": "string"}] },
   "editorial": { "secao": "Editorial", "titulo": "string", "linhaFina": "Opinião",
                  "resumo": "Opinião", "texto": ["parágrafo", "..."] },
   "destaques": [ /* 3 itens de economia, mesmo formato da manchete */ ],
@@ -55,15 +56,23 @@ Campos principais (todos obrigatórios, exceto onde dito):
 }
 ```
 Cada item de `destaques`, `politica`, `mundo` e `cultura` tem: `secao`, `titulo`,
-`linhaFina`, `resumo`, `texto` (lista de parágrafos) e `fontes` (lista de nomes de
-veículos, com link se possível).
+`linhaFina`, `resumo`, `texto` (lista de parágrafos) e `fontes` — lista de objetos
+`{"nome": "Nome do veículo", "url": "https://..."}` (o `url` é opcional, mas prefira
+sempre incluir).
+
+**Sobre o número de fontes:** o ideal é 2 ou mais. Fonte única é aceita quando vier de
+Oeste, Gazeta do Povo, um grande veículo, uma fonte oficial, ou quando for pauta própria
+do editor (ex.: cobertura de um evento que o próprio Junior presenciou). O validador
+(`ferramentas/validar_edicao.py`) só avisa sobre fonte única — não trava a publicação,
+porque isso é julgamento editorial, não uma regra mecânica.
 
 ### `ultimas/AAAA-MM-DD.json` — notícias ao longo do dia ("Últimas notícias")
 
 Lista. **Só se acrescenta no fim; nunca se apaga ou edita item existente.** Cada item:
 ```json
 { "hora": "11h48", "secao": "Economia", "titulo": "string", "linhaFina": "string",
-  "resumo": "string", "texto": ["parágrafo", "..."], "fontes": ["string", "..."],
+  "resumo": "string", "texto": ["parágrafo", "..."],
+  "fontes": [{"nome": "string", "url": "string"}],
   "urgente": false, "grafico": null }
 ```
 `urgente: true` só para fato muito grande. `grafico` é opcional:
