@@ -1,0 +1,31 @@
+name: Aprova edição pendente por prazo (se o Junior não respondeu até as 9h)
+
+on:
+  schedule:
+    - cron: "0 12 * * *" # 9h horário de Brasília (UTC-3)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  auto-aprovar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mescla sozinho qualquer edição pendente ainda sem aprovação
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -e
+          prs=$(gh pr list --head "edicao-pendente-" --state open --json number,headRefName \
+            --jq '.[] | select(.headRefName | startswith("edicao-pendente-")) | .number')
+          if [ -z "$prs" ]; then
+            echo "Nenhuma edição pendente de aprovação. Nada a fazer."
+            exit 0
+          fi
+          for pr in $prs; do
+            echo "Edição pendente #$pr sem resposta até as 9h — mesclando automaticamente."
+            gh pr comment "$pr" --body "Prazo das 9h chegou sem aprovação do Junior. Publicando automaticamente para o site não ficar sem edição nova. Qualquer correção necessária pode ser feita como sempre, depois da publicação."
+            gh pr merge "$pr" --merge --admin || gh pr merge "$pr" --merge
+          done

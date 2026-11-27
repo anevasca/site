@@ -15,6 +15,13 @@ Prefira escolher e apurar a partir dessa lista — é mais barato do que pesquis
 Se o arquivo não existir, estiver vazio, ou o `avisos` dentro dele mostrar que todas as
 fontes falharam, aí sim pesquise por conta própria.
 
+**Pauta do editor é absoluta.** O Junior é o editor responsável. Qualquer pauta, direção
+ou instrução editorial que ele der — a qualquer hora, não só "pro dia seguinte" — tem
+prioridade sobre a lista de candidatas do script, sobre o que já estava planejado pra
+edição, e sobre qualquer critério automático deste contrato. Se o Junior disser "quero
+isso na manchete" ou "não entra essa pauta", isso vale, ponto. Nenhuma IA deve tentar
+convencê-lo do contrário ou ignorar a instrução por achar que o script sabe mais.
+
 ## 1. Regras não negociáveis (sempre, de qualquer IA)
 
 1. **Matéria publicada não se muda.** Nunca edite um arquivo já existente em `edicoes/` ou
@@ -106,3 +113,24 @@ por conta própria.
 Você não precisa de acesso ao GitHub. Gere o JSON e entregue ao Junior (ou cole no chat
 da redação). Quem aplica ao repositório é um passo separado, sempre o mesmo processo,
 independente de qual IA escreveu o conteúdo.
+
+## 5. Como a edição vai ao ar (aprovação obrigatória do Junior)
+
+Desde 27/11/2026, nenhuma edição vai direto para a `main`. O processo é:
+
+1. Quem tem acesso real ao repositório (uma IA com `git`/`gh`, ou o próprio Junior)
+   cria uma branch chamada `edicao-pendente-AAAA-MM-DD`, commita o JSON ali, e abre um
+   **Pull Request** dessa branch para a `main`, com título `Edição de AAAA-MM-DD`.
+   **Nunca commite a edição direto na `main`.**
+2. Isso dispara automaticamente uma prévia do site com a edição completa, com a cara
+   exatamente igual à que vai ao ar — o Junior recebe o link no próprio Pull Request.
+3. O Junior revisa a prévia e aprova o Pull Request (ou pede mudança, com um comentário).
+4. Assim que ele aprova e o PR é mesclado na `main`, a publicação de verdade roda sozinha
+   (validação → build → ar).
+5. **Prazo de segurança:** se o Junior não responder até as 9h, um workflow automático
+   mescla o PR sozinho, pra o site nunca ficar sem edição nova por falta de resposta.
+   Isso é propositalmente o último recurso, não o caminho normal.
+
+Se você é uma IA que só conversa com o Junior (sem acesso ao repositório), seu trabalho
+continua sendo só entregar o JSON certo — quem abre o Pull Request é sempre o mesmo
+processo separado, como já dizia a seção 4.
