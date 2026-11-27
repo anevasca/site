@@ -1,29 +1,14 @@
 {
-  "gerado_em": "2026-11-27T14:40:13.782215-03:00",
+  "gerado_em": "2026-11-27T14:53:24.183415-03:00",
   "janela_horas": 20,
   "avisos": [
-    "Revista Oeste: XML não bem formado, tentando modo tolerante (unbound prefix: line 108, column 67)",
+    "Revista Oeste: XML não bem formado, tentando modo tolerante (unbound prefix: line 90, column 67)",
+    "Paulo Figueiredo Show: não deu para buscar (HTTP Error 403: Forbidden)",
     "Agência Câmara de Notícias: não deu para buscar (HTTP Error 404: Not Found)",
     "Agência Senado: XML não bem formado, tentando modo tolerante (mismatched tag: line 184, column 2)",
     "Agência Senado: feed respondeu, mas sem itens reconhecíveis"
   ],
   "candidatas": [
-    {
-      "fonte": "Gazeta do Povo",
-      "prioridade": 1,
-      "titulo": "Senado da Argentina aprova suspensão das eleições primárias de 2027 em vitória para Milei",
-      "link": "https://www.gazetadopovo.com.br/mundo/senado-da-argentina-aprova-suspensao-das-eleicoes-primarias-de-2027-em-vitoria-para-milei/",
-      "resumo": "Senado argentino aprova reforma eleitoral de Milei que suspende as primárias de 2027 e inclui norma da Ficha Limpa. Texto segue para a Câmara",
-      "publicado_em": "2026-11-26T21:41:34+00:00"
-    },
-    {
-      "fonte": "Gazeta do Povo",
-      "prioridade": 1,
-      "titulo": "Seletividade? PF não poupa Nunes Marques e preserva Moraes",
-      "link": "https://www.gazetadopovo.com.br/ultima-analise/seletividade-pf-nao-poupa-nunes-marques-e-preserva-moraes/",
-      "resumo": "No programa Última Análise desta quinta-feira (26), os convidados falam a respeito de relatório seletivo da PF contra Kassio Nunes.",
-      "publicado_em": "2026-11-26T21:49:46+00:00"
-    },
     {
       "fonte": "Gazeta do Povo",
       "prioridade": 1,
@@ -259,17 +244,17 @@
     {
       "fonte": "Gazeta do Povo",
       "prioridade": 1,
-      "titulo": "O que pensa o novo ministro da Fazenda. STF intimida deputados para conter Senado",
-      "link": "https://www.gazetadopovo.com.br/opiniao/bom-dia/o-que-pensa-o-novo-ministro-da-fazenda-stf-intimida-deputados-para-conter-senado/",
-      "resumo": "O que pensa o novo ministro da Fazenda. STF intimida deputados para conter Senado. Leia mais na Gazeta do Povo",
+      "titulo": "Um dia-luz da Voyager: um grande feito tecnológico  e o isolamento da civilização humana no universo",
+      "link": "https://www.gazetadopovo.com.br/opiniao/artigos/um-dia-luz-da-voyager-um-grande-feito-tecnologico-e-o-isolamento-da-civilizacao-humana-no-universo/",
+      "resumo": "Apesar de não sermos capazes de emular uma USS Enterprise, a Voyager 1 chegou aonde jamais poderíamos esperar. Leia na Gazeta do Povo.",
       "publicado_em": "2026-11-27T09:00:00+00:00"
     },
     {
       "fonte": "Gazeta do Povo",
       "prioridade": 1,
-      "titulo": "Um dia-luz da Voyager: um grande feito tecnológico  e o isolamento da civilização humana no universo",
-      "link": "https://www.gazetadopovo.com.br/opiniao/artigos/um-dia-luz-da-voyager-um-grande-feito-tecnologico-e-o-isolamento-da-civilizacao-humana-no-universo/",
-      "resumo": "Apesar de não sermos capazes de emular uma USS Enterprise, a Voyager 1 chegou aonde jamais poderíamos esperar. Leia na Gazeta do Povo.",
+      "titulo": "O que pensa o novo ministro da Fazenda. STF intimida deputados para conter Senado",
+      "link": "https://www.gazetadopovo.com.br/opiniao/bom-dia/o-que-pensa-o-novo-ministro-da-fazenda-stf-intimida-deputados-para-conter-senado/",
+      "resumo": "O que pensa o novo ministro da Fazenda. STF intimida deputados para conter Senado. Leia mais na Gazeta do Povo",
       "publicado_em": "2026-11-27T09:00:00+00:00"
     },
     {
@@ -585,14 +570,6 @@
       "publicado_em": "2026-11-27T14:55:02+00:00"
     },
     {
-      "fonte": "Revista Oeste",
-      "prioridade": 1,
-      "titulo": "Esporte sem Firula: assista ao programa de 27/11/2026",
-      "link": "https://revistaoeste.com/videos/esporte-sem-firula/esporte-sem-firula-assista-ao-programa-de-27-11-2026/",
-      "resumo": "O Esporte sem Firula vai ao ar de segunda a sexta-feira, das 12h às 14h. Com apresentação de Milton Neves e Mário Monteiro, mais conhecido como Alemão, o programa conta com os comentários de Alex Müller, Letícia Beppler, Alfredo Loebeling e Gilberto Rodriguez (Portuga). Informação, opinião e debate ",
-      "publicado_em": "2026-11-27T15:00:00+00:00"
-    },
-    {
       "fonte": "Gazeta do Povo",
       "prioridade": 1,
       "titulo": "Mercado celebra Trabuco na Fazenda e esquerda acusa Lula de estelionato eleitoral",
@@ -615,14 +592,6 @@
       "link": "https://www.gazetadopovo.com.br/mundo/relacao-lula-ira-acende-alerta-governo-milei/",
       "resumo": "Chanceler de Milei manifestou preocupação sobre proximidade entre Lula e Irã, explicitada em encontro após medida de Teerã contra a Argentina",
       "publicado_em": "2026-11-27T15:11:15+00:00"
-    },
-    {
-      "fonte": "Revista Oeste",
-      "prioridade": 1,
-      "titulo": "Lula avalia mudar estratégia diante da ameaça de novas tarifas dos EUA",
-      "link": "https://revistaoeste.com/politica/lula-avalia-mudar-estrategia-diante-da-ameaca-de-novas-tarifas-dos-eua/",
-      "resumo": "O governo do presidente Luiz Inácio Lula da Silva (PT) avalia mudar a estratégia de negociação comercial com os Estados Unidos depois de a gestão de Donald Trump anunciar a possibilidade de impor novas tarifas sobre produtos brasileiros. A informação é do site Metrópoles. Interlocutores de Lula cons",
-      "publicado_em": "2026-11-27T15:12:36+00:00"
     },
     {
       "fonte": "Gazeta do Povo",
@@ -663,14 +632,6 @@
       "link": "https://www.gazetadopovo.com.br/rodrigo-constantino/o-banqueiro-do-bem-pt-se-esforca-para-justificar-escolha-de-trabuco/",
       "resumo": "Trabuco está assumindo o Titanic depois do iceberg. A pergunta relevante é se Lula lhe entregou a chave do cofre. Leia na Gazeta do Povo.",
       "publicado_em": "2026-11-27T15:49:58+00:00"
-    },
-    {
-      "fonte": "Revista Oeste",
-      "prioridade": 1,
-      "titulo": "Deputado acusado de ligação com o PCC pode ter votos anulados pelo TSE",
-      "link": "https://revistaoeste.com/politica/deputado-acusado-de-ligacao-com-o-pcc-pode-ter-votos-anulados-pelo-tse/",
-      "resumo": "O Tribunal Superior Eleitoral (TSE) pode anular os 118.566 votos recebidos pelo deputado federal eleito Ney Santos (Republicanos-SP), acusado de ligação com o Primeiro Comando da Capital (PCC). Na sexta-feira 20, o relator do caso, ministro Floriano de Azevedo Marques, votou pela rejeição do registr",
-      "publicado_em": "2026-11-27T15:54:25+00:00"
     },
     {
       "fonte": "Gazeta do Povo",
@@ -823,6 +784,126 @@
       "link": "https://revistaoeste.com/politica/julgamento-no-tse-pode-tirar-vaga-do-republicanos-em-sp-e-beneficiar-o-mdb/",
       "resumo": "A definição sobre quem ocupará a 70ª e última cadeira de São Paulo na Câmara dos Deputados a partir de 2027 está nas mãos do Tribunal Superior Eleitoral (TSE) . Em julgamento iniciado na última sexta-feira, 20, o relator do processo, ministro Floriano de Azevedo Marques, votou para indeferir o regis",
       "publicado_em": "2026-11-27T17:38:54+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Fachin estende prazo de investigação sobre patrocínio de filme de Bolsonaro",
+      "link": "https://www.gazetadopovo.com.br/republica/fachin-estende-prazo-de-investigacao-sobre-patrocinio-de-filme-de-bolsonaro/",
+      "resumo": "Ministro Edson Fachin prorroga investigação sobre o filme Dark Horse. PF apura irregularidades no patrocínio de R$ 134 milhões à cinebiografia de Bolsonaro.",
+      "publicado_em": "2026-11-27T17:42:29+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Lula admite necessidade de ajuste e defende cautela em gastos com saúde e educação",
+      "link": "https://www.gazetadopovo.com.br/republica/lula-necessidade-ajuste-defende-cautela-gastos-saude-educacao/",
+      "resumo": "Presidente diz que governo precisa controlar despesas para fazer a economia crescer, mas descarta cortes em benefícios sociais. Leia na Gazeta do Povo.",
+      "publicado_em": "2026-11-27T17:45:24+00:00"
+    },
+    {
+      "fonte": "Revista Oeste",
+      "prioridade": 1,
+      "titulo": "Maioridade penal, Banco Master e Orçamento de 2027 marcam semana no Congresso",
+      "link": "https://revistaoeste.com/politica/maioridade-penal-banco-master-e-orcamento-de-2027-marcam-semana-no-congresso/",
+      "resumo": "A Câmara dos Deputados marcou, para terça-feira 1º, às 14h30, a discussão e a votação do parecer sobre a proposta de redução da maioridade penal. No mesmo dia, a Comissão de Segurança Pública e Combate ao Crime Organizado pretende ouvir o ministro da Justiça, Wellington César Lima e Silva, sobre mud",
+      "publicado_em": "2026-11-27T17:45:42+00:00"
+    },
+    {
+      "fonte": "Revista Oeste",
+      "prioridade": 1,
+      "titulo": "Tarcísio elogia escolha de Trabuco: ‘quem pode atrapalhar é o próprio PT’",
+      "link": "https://revistaoeste.com/politica/tarcisio-elogia-escolha-de-trabuco-quem-pode-atrapalhar-e-o-proprio-pt/",
+      "resumo": "O governador de São Paulo, Tarcísio de Freitas, elogiou a escolha do banqueiro Luiz Carlos Trabuco, ex-presidente do Bradesco, para comandar o Ministério da Fazenda. Em declaração à coluna Painel, da Folha de S.Paulo , Tarcísio afirmou que o novo ministro terá como desafio lidar com o próprio PT. \"F",
+      "publicado_em": "2026-11-27T17:48:59+00:00"
+    },
+    {
+      "fonte": "Revista Oeste",
+      "prioridade": 1,
+      "titulo": "Tropas de El Salvador vão ficar no Haiti até outubro de 2027",
+      "link": "https://revistaoeste.com/politica/tropas-de-el-salvador-vao-ficar-no-haiti-ate-outubro-de-2027/",
+      "resumo": "As tropas de El Salvador permanecerão no Haiti até outubro de 2027, sob o comando do governo haitiano. O secretário de Comunicação do Executivo do país caribenho, Lucien Jura, confirmou o prazo nesta quinta-feira, 26, em Porto Príncipe. A decisão amplia por mais 12 meses a participação salvadorenha ",
+      "publicado_em": "2026-11-27T17:51:17+00:00"
+    },
+    {
+      "fonte": "Banco Central do Brasil (notícias)",
+      "prioridade": 2,
+      "titulo": "Fórum Pix projeta avanços para 2027",
+      "link": "https://www.bcb.gov.br/detalhenoticia/21337/noticia",
+      "resumo": "",
+      "publicado_em": null
+    },
+    {
+      "fonte": "Banco Central do Brasil (notícias)",
+      "prioridade": 2,
+      "titulo": "Bancos centrais de países de língua portuguesa criam rede permanente de cooperação",
+      "link": "https://www.bcb.gov.br/detalhenoticia/21328/noticia",
+      "resumo": "",
+      "publicado_em": null
+    },
+    {
+      "fonte": "Banco Central do Brasil (notícias)",
+      "prioridade": 2,
+      "titulo": "Aprender Valor amplia conteúdo e passa a oferecer educação previdenciária nas escolas",
+      "link": "https://www.bcb.gov.br/detalhenoticia/21327/noticia",
+      "resumo": "",
+      "publicado_em": null
+    },
+    {
+      "fonte": "Banco Central do Brasil (notícias)",
+      "prioridade": 2,
+      "titulo": "Pix celebra 6 anos como motor de inclusão e eficiência financeira em todo o Brasil",
+      "link": "https://www.bcb.gov.br/detalhenoticia/21320/noticia",
+      "resumo": "",
+      "publicado_em": null
+    },
+    {
+      "fonte": "Banco Central do Brasil (notícias)",
+      "prioridade": 2,
+      "titulo": "Novas regras reforçam segurança e ampliam uso do Open Finance por clientes pessoas jurídicas",
+      "link": "https://www.bcb.gov.br/detalhenoticia/21313/noticia",
+      "resumo": "",
+      "publicado_em": null
+    },
+    {
+      "fonte": "Banco Central do Brasil (notícias)",
+      "prioridade": 2,
+      "titulo": "BC reforça proteção ao consumidor com novas regras para oferta e contratação de crédito",
+      "link": "https://www.bcb.gov.br/detalhenoticia/21310/noticia",
+      "resumo": "",
+      "publicado_em": null
+    },
+    {
+      "fonte": "Banco Central do Brasil (notícias)",
+      "prioridade": 2,
+      "titulo": "Consulta propõe mais transparência e priorização do interesse do cliente na distribuição de produtos de captação",
+      "link": "https://www.bcb.gov.br/detalhenoticia/21308/noticia",
+      "resumo": "",
+      "publicado_em": null
+    },
+    {
+      "fonte": "Banco Central do Brasil (notícias)",
+      "prioridade": 2,
+      "titulo": "Inscrições para três vagas do Programa de Estágio de Pós-Graduação em Pesquisa (PEPP) são prorrogadas até 13 de novembro",
+      "link": "https://www.bcb.gov.br/detalhenoticia/21307/noticia",
+      "resumo": "",
+      "publicado_em": null
+    },
+    {
+      "fonte": "Banco Central do Brasil (notícias)",
+      "prioridade": 2,
+      "titulo": "BC passa a divulgar mensalmente indicadores de reajustes salariais negociados",
+      "link": "https://www.bcb.gov.br/detalhenoticia/21280/noticia",
+      "resumo": "",
+      "publicado_em": null
+    },
+    {
+      "fonte": "Banco Central do Brasil (notícias)",
+      "prioridade": 2,
+      "titulo": "BC moderniza apresentação de dados sobre atuação no mercado de câmbio",
+      "link": "https://www.bcb.gov.br/detalhenoticia/21279/noticia",
+      "resumo": "",
+      "publicado_em": null
     },
     {
       "fonte": "Agência Brasil",
