@@ -114,8 +114,12 @@ def extrair_itens_regex(conteudo_texto):
     return itens
 
 
-def coletar_fonte(fonte, avisos):
-    nome, url = fonte["nome"], fonte["url"]
+def coletar_fonte(fonte, avisos, agora):
+    nome = fonte["nome"]
+    # algumas fontes (ex.: Banco Central) colocam o ano na URL do feed; "{ano}"
+    # no fontes_rss.json vira o ano atual, assim não precisa editar o JSON
+    # toda virada de ano.
+    url = fonte["url"].replace("{ano}", str(agora.year))
     try:
         bruto = buscar_feed(url)
     except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, OSError) as e:
@@ -153,7 +157,7 @@ def main():
     fontes_ok = 0
 
     for fonte in fontes:
-        itens = coletar_fonte(fonte, avisos)
+        itens = coletar_fonte(fonte, avisos, agora)
         if itens:
             fontes_ok += 1
         for item in itens:

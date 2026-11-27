@@ -12,6 +12,12 @@
     "observacao": "Confirmado ao vivo em 27/11/2026 (rodando no Actions)."
   },
   {
+    "nome": "Paulo Figueiredo Show",
+    "url": "https://realpfigueiredo.substack.com/feed",
+    "prioridade": 1,
+    "observacao": "A CONFIRMAR: pedido do Junior. O programa publica como newsletter no Substack (PF Bullet-in); essa é a URL padrão de feed do Substack, mas ainda não testei ao vivo (ferramenta de teste bloqueada no momento). O script só avisa e segue sem essa fonte se a URL estiver errada."
+  },
+  {
     "nome": "Agência Brasil",
     "url": "https://agenciabrasil.ebc.com.br/feed/ultimasnoticias/feed.xml",
     "prioridade": 2,
@@ -19,9 +25,9 @@
   },
   {
     "nome": "Agência Câmara de Notícias",
-    "url": "http://www2.camara.gov.br/agencia-app/agenciaCamaraRSS",
+    "url": "https://www2.camara.leg.br/agencia-app/agenciaCamaraRSS",
     "prioridade": 2,
-    "observacao": "A CONFIRMAR: essa é a URL que a própria Câmara lista na página oficial, mas no teste ao vivo em 27/11/2026 deu erro 404. Candidata a tentar no lugar: https://www2.camara.leg.br/agencia-app/agenciaCamaraRSS (mesmo caminho, domínio .leg.br em vez do .gov.br antigo). Enquanto não for confirmada, o script só avisa e segue sem essa fonte — não trava nada."
+    "observacao": "A CONFIRMAR: a URL antiga (.gov.br) deu 404 ao vivo em 27/11/2026. Troquei para o domínio atual (.leg.br), mesmo caminho — precisa confirmar numa próxima rodada do Actions."
   },
   {
     "nome": "Agência Senado",
@@ -34,5 +40,11 @@
     "url": "https://agenciadenoticias.ibge.gov.br/agencia-rss",
     "prioridade": 2,
     "observacao": "Confirmado ao vivo em 27/11/2026 (rodando no Actions) — respondeu, mas sem itens dentro da janela de horas (o IBGE publica com menos frequência)."
+  },
+  {
+    "nome": "Banco Central do Brasil (notícias)",
+    "url": "https://www.bcb.gov.br/api/feed/sitebcb/sitefeeds/noticias?ano={ano}",
+    "prioridade": 2,
+    "observacao": "A CONFIRMAR: achado por busca (agregador feeder.co mostra esse feed ativo, com posts recentes). O \"{ano}\" vira o ano de hoje sozinho (ver coletar_pauta.py). Ainda não testei ao vivo. Alternativa, se essa falhar: https://www.bcb.gov.br/api/feed/sitebcb/sitefeeds/notasImprensa?ano={ano}"
   }
 ]
