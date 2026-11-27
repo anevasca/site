@@ -11,7 +11,7 @@ próxima IA não começar do zero.
 - **Data:** 2026-11-27
 - **Edição da manhã (`edicao.json`):** publicada. Número 10. Manchete: "Da oração à mesa,
   a Ação de Graças em Tupã".
-- **Últimas notícias (`ultimas/2026-11-27.json`):** nenhuma ainda.
+- **Últimas notícias (`ultimas/2026-11-27.json`):** 2 publicadas às 12h, aprovadas pelo Junior: desemprego de 5,1% (IBGE) e dólar/Bolsa com a escolha de Trabuco. A prévia antiga das 12h (branch `ultimas-2026-11-27-12h`) foi descartada.
 - **Pendências do dia:** nenhuma registrada.
 - **Última IA que trabalhou no jornal:** Claude, nesta sessão — criou `CONTRATO.md` e
   este arquivo, e trocou o rótulo "Ao longo do dia" por "Últimas notícias" no site.
