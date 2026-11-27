@@ -558,7 +558,7 @@ window.addEventListener("hashchange",function(){if(/^#(redacao|roteiro)/.test(lo
       }).join("") + '</div></section>';
     }
     h += contextoHTML(ed);
-    if(ed.data !== "2026-11-26") h += '<div class="baixar-pdf"><a href="pdf/'+ed.data+'.pdf" download>⬇ Baixar a edição impressa (PDF com 8 páginas para imprimir, dobrar e grampear)</a></div>';
+    if(ed.data !== "2026-11-26" && ed.pdf !== false) h += '<div class="baixar-pdf"><a href="pdf/'+ed.data+'.pdf" download>⬇ Baixar a edição impressa (PDF com 8 páginas para imprimir, dobrar e grampear)</a></div>';
     h += '<div class="ver-arquivo"><a href="#arquivo">Ver todas as edições anteriores →</a></div>';
     document.getElementById("conteudo").innerHTML = h;
     podcastCapa(ed);
@@ -634,6 +634,16 @@ window.addEventListener("hashchange",function(){if(/^#(redacao|roteiro)/.test(lo
     h += grafico(a.graf) + '<div class="corpo">';
     if(a.id === "ed-2026-11-26-manchete"){
       h += ps(a.texto.slice(0,3)) + document.getElementById("arte-usaid").innerHTML + ps(a.texto.slice(3));
+    } else if(a.chave === "manchete" && ed.manchete.ilustracoes){
+      h += a.texto.map(function(paragrafo, i){
+        var extras = ed.manchete.ilustracoes.filter(function(item){ return item.apos === i + 1; });
+        return ps([paragrafo]) + extras.map(function(item){
+          var fotos = (item.fotos || []).map(function(foto){
+            return '<figure class="foto"><img src="'+esc(foto.arquivo)+'" alt="'+esc(foto.legenda)+'" loading="lazy"><figcaption>'+esc(foto.legenda)+creditoFoto(foto)+'</figcaption></figure>';
+          }).join("");
+          return fotos + (item.intertitulo ? '<h3>'+esc(item.intertitulo)+'</h3>' : "");
+        }).join("");
+      }).join("");
     } else {
       h += ps(a.texto);
     }
