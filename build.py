@@ -184,6 +184,65 @@ def pagina(template, pid, titulo, desc, img, artigo, rotulo, data):
     return substituir_conteudo(html_pagina, conteudo)
 
 
+def ultimas_estatico(data):
+    """HTML da prévia de "Últimas notícias" de hoje, com links reais (/m/...),
+    para quem não executa JavaScript (a versão com JS troca os links por #hash
+    depois, sem prejuízo). Vazio se não há ultimas/<data>.json ou está vazio."""
+    caminho = Path(f"ultimas/{data}.json")
+    if not caminho.exists():
+        return ""
+    lista = json.loads(caminho.read_text(encoding="utf-8"))
+    if not lista:
+        return ""
+    pre = f"ed-{data}-ultima-"
+    selo_urgente = '<span class="selo-urg">Urgente</span>'
+
+    def li(i, u):
+        selo = selo_urgente if u.get("urgente") else ""
+        resumo_u = e(u.get("resumo") or u.get("linhaFina") or "")
+        return (f'<li><span class="hora">{e(u.get("hora"))}</span><div>'
+                f'<h4>{selo}<a href="/m/{pre}{i}.html">{e(u["titulo"])}</a></h4>'
+                f'<p>{resumo_u}</p></div></li>')
+
+    ver_mais = (f'<a class="mais-secao" href="/m/{pre}1.html">Ver as {len(lista)} atualizações do dia →</a>'
+                if len(lista) > 3 else "")
+    primeiros = "".join(li(i, u) for i, u in enumerate(lista[:3], 1))
+    return (f'<section class="secao"><h3>Últimas notícias</h3>'
+            f'<ul class="ultimas-lista">{primeiros}</ul>{ver_mais}</section>')
+
+
+def arquivo_estatico():
+    """HTML da lista de 'Edições anteriores' no rodapé, com links reais
+    (/m/ed-AAAA-MM-DD-manchete.html) em vez dos #hash que só funcionam com
+    JavaScript. A versão com JS troca pelos #hash sem prejuízo."""
+    caminho = Path("arquivo.json")
+    if not caminho.exists():
+        return ""
+    lista = json.loads(caminho.read_text(encoding="utf-8"))
+    linhas = "".join(
+        f'<a href="/m/ed-{e(x["data"])}-manchete.html">{e(x["rotulo"])}</a>'
+        for x in lista[:7]
+    )
+    return linhas
+
+
+ORG_SCHEMA = json.dumps({
+    "@context": "https://schema.org",
+    "@type": "NewsMediaOrganization",
+    "name": "A Nevasca",
+    "url": BASE,
+    "logo": f"{BASE}/og.png",
+    "sameAs": ["https://x.com/anevasca_br"],
+}, ensure_ascii=False).replace("<", "\\u003c")
+
+WEBSITE_SCHEMA = json.dumps({
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "A Nevasca",
+    "url": BASE,
+}, ensure_ascii=False).replace("<", "\\u003c")
+
+
 def capa_estatica(ed):
     items = list(artigos(ed))
     esquerda = []
@@ -209,8 +268,19 @@ def capa_estatica(ed):
                                  f'<h4>{link}</h4><p>{e(desc)}</p></article>')
     grades = "".join(f'<section class="secao"><h3>{e(nome)}</h3><div class="grade4">{"".join(cards)}</div></section>'
                      for nome, cards in grupos.items() if cards)
+    ultimas = ultimas_estatico(ed["data"])
     return (f'<section class="capa"><div class="col">{"".join(esquerda)}</div>'
-            f'<div class="col centro">{centro}</div><div class="col">{editorial}</div></section>{grades}')
+            f'<div class="col centro">{centro}</div><div class="col">{editorial}</div></section>'
+            f'{ultimas}{grades}')
+
+
+LISTA_ARQUIVO = re.compile(r'(<div id="lista-arquivo">).*?(</div>)', re.S)
+# index.html é lido como molde E é o próprio arquivo que build.py escreve de
+# volta (a home). Por isso o que só vale pra home (o JSON-LD abaixo) precisa
+# ser removido antes de reler o arquivo, senão duplica a cada rodada.
+SCHEMA_HOME = re.compile(
+    r'<script type="application/ld\+json">\{"@context": "https://schema\.org", '
+    r'"@type": "(?:NewsMediaOrganization|WebSite)".*?</script>\n?', re.S)
 
 
 def main():
@@ -219,10 +289,24 @@ def main():
     n = 0
     index = Path("index.html")
     atual = json.loads(Path("edicao.json").read_text(encoding="utf-8"))
-    template = substituir_conteudo(index.read_text(encoding="utf-8"), LOADING)
+    bruto = SCHEMA_HOME.sub("", index.read_text(encoding="utf-8"))
+    # Lista de edições anteriores no rodapé: links reais (não #hash), para quem
+    # não executa JavaScript. Vale para a home e para toda página de matéria
+    # (o rodapé é o mesmo em todas, via "template" mais abaixo).
+    link_arquivo = arquivo_estatico()
+    if link_arquivo:
+        bruto = LISTA_ARQUIVO.sub(lambda m: m[1] + link_arquivo + m[2], bruto, count=1)
+    template = substituir_conteudo(bruto, LOADING)
     if '<link rel="canonical"' not in template:
         template = template.replace("</head>", f'<link rel="canonical" href="{BASE}/">\n</head>', 1)
-    index.write_text(substituir_conteudo(template, capa_estatica(atual)), encoding="utf-8")
+    # JSON-LD da organização e do site: só na home, não em cada matéria
+    # (cada matéria já tem o próprio NewsArticle, gerado por pagina()).
+    # "template" (sem o schema) segue puro pro resto da função, que o reusa
+    # como molde de toda página de matéria.
+    schema_home = (f'<script type="application/ld+json">{ORG_SCHEMA}</script>\n'
+                   f'<script type="application/ld+json">{WEBSITE_SCHEMA}</script>\n</head>')
+    template_home = template.replace("</head>", schema_home, 1)
+    index.write_text(substituir_conteudo(template_home, capa_estatica(atual)), encoding="utf-8")
     template = template.replace(f'<link rel="canonical" href="{BASE}/">\n', "", 1)
     for f in sorted(glob.glob("edicoes/*.json")):
         ed = json.load(open(f, encoding="utf-8"))
