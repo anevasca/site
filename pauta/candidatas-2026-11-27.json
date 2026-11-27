@@ -1,0 +1,908 @@
+{
+  "gerado_em": "2026-11-27T14:40:13.782215-03:00",
+  "janela_horas": 20,
+  "avisos": [
+    "Revista Oeste: XML não bem formado, tentando modo tolerante (unbound prefix: line 108, column 67)",
+    "Agência Câmara de Notícias: não deu para buscar (HTTP Error 404: Not Found)",
+    "Agência Senado: XML não bem formado, tentando modo tolerante (mismatched tag: line 184, column 2)",
+    "Agência Senado: feed respondeu, mas sem itens reconhecíveis"
+  ],
+  "candidatas": [
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Senado da Argentina aprova suspensão das eleições primárias de 2027 em vitória para Milei",
+      "link": "https://www.gazetadopovo.com.br/mundo/senado-da-argentina-aprova-suspensao-das-eleicoes-primarias-de-2027-em-vitoria-para-milei/",
+      "resumo": "Senado argentino aprova reforma eleitoral de Milei que suspende as primárias de 2027 e inclui norma da Ficha Limpa. Texto segue para a Câmara",
+      "publicado_em": "2026-11-26T21:41:34+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Seletividade? PF não poupa Nunes Marques e preserva Moraes",
+      "link": "https://www.gazetadopovo.com.br/ultima-analise/seletividade-pf-nao-poupa-nunes-marques-e-preserva-moraes/",
+      "resumo": "No programa Última Análise desta quinta-feira (26), os convidados falam a respeito de relatório seletivo da PF contra Kassio Nunes.",
+      "publicado_em": "2026-11-26T21:49:46+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Trump diz que pediu a Putin para conter agressão na Europa",
+      "link": "https://www.gazetadopovo.com.br/mundo/trump-diz-que-pediu-a-putin-para-conter-agressao-na-europa/",
+      "resumo": "Trump relatou a conversa durante encontro na China. Países europeus denunciam provocações de Putin e temem a expansão da guerra na Ucrânia.",
+      "publicado_em": "2026-11-26T22:00:46+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Quem é Luiz Carlos Trabuco, novo ministro da Fazenda de Lula",
+      "link": "https://www.gazetadopovo.com.br/economia/quem-e-luiz-carlos-trabuco-cotado-para-assumir-o-ministerio-da-fazenda-no-governo-lula/",
+      "resumo": "Luiz Carlos Trabuco é presidente do Conselho de Administração do Bradesco e ganhou força entre os cotados após se reunir com Lula.",
+      "publicado_em": "2026-11-26T22:17:46+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Reino Unido quer exigir licença para venda de facas após registrar 49 mil crimes com armas brancas em um ano",
+      "link": "https://www.gazetadopovo.com.br/mundo/reino-unido-quer-exigir-licenca-para-venda-de-facas-apos-registrar-49-mil-crimes-com-armas-brancas-em-um-ano/",
+      "resumo": "Reino Unido quer exigir licença de vendedores de facas após Inglaterra e País de Gales registrarem quase 49 mil crimes com armas brancas.",
+      "publicado_em": "2026-11-26T22:30:36+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Câmara do Chile aprova proposta de criação de tribunal internacional para julgar crimes do regime de Cuba",
+      "link": "https://www.gazetadopovo.com.br/mundo/camara-do-chile-aprova-proposta-de-criacao-de-tribunal-internacional-para-julgar-crimes-do-regime-de-cuba/",
+      "resumo": "Câmara do Chile aprova proposta de criação de tribunal internacional para julgar crimes contra a humanidade atribuídos ao regime de Cuba.",
+      "publicado_em": "2026-11-26T22:54:17+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Luiz Carlos Trabuco aceita convite de Lula para assumir o Ministério da Fazenda",
+      "link": "https://www.gazetadopovo.com.br/economia/luiz-carlos-trabuco-aceita-convite-de-lula-para-assumir-o-ministerio-da-fazenda/",
+      "resumo": "Escolha de Trabuco representa uma aproximação do governo Lula com o setor financeiro na definição dos rumos da economia.",
+      "publicado_em": "2026-11-26T23:08:30+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Bukele diz que deseja “refundar” El Salvador com os mesmos ideais dos EUA",
+      "link": "https://www.gazetadopovo.com.br/mundo/bukele-diz-que-deseja-refundar-el-salvador-com-os-mesmos-ideais-dos-eua/",
+      "resumo": "Bukele destaca valores dos Estados Unidos e manifesta desejo de refundar El Salvador sobre os mesmos ideais dos americanos.",
+      "publicado_em": "2026-11-26T23:10:52+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "“O Preço do Silêncio”: assista à palestra do presidente da Gazeta do Povo sobre desafios e caminhos ao Brasil",
+      "link": "https://www.gazetadopovo.com.br/conheca-a-gazeta/o-preco-do-silencio-assista-agora-a-palestra-do-presidente-da-gazeta-do-povo-sobre-os-desafios-e-caminhos-ao-brasil/",
+      "resumo": "Assista à palestra de Guilherme Cunha Pereira, \"O Preço do Silêncio\", sobre o cenário brasileiro e os desafios após as Eleições 2026.",
+      "publicado_em": "2026-11-26T23:15:00+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "A coragem de uma causa sem esperança",
+      "link": "https://www.gazetadopovo.com.br/vozes/luciano-trigo/a-coragem-de-uma-causa-sem-esperanca/",
+      "resumo": "A história dos dissidentes soviéticos revela que resistir à tirania também é defender a liberdade, mesmo quando a vitória parece impossível.",
+      "publicado_em": "2026-11-26T23:37:26+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Para onde vai o dólar com Trabuco?",
+      "link": "https://www.gazetadopovo.com.br/vozes/alan-ghani/para-onde-vai-o-dolar-com-trabuco/",
+      "resumo": "A falta de compromisso de Lula, somada às incertezas externas, pressiona o dólar. O futuro da moeda dependerá da liberdade dada a Trabuco.",
+      "publicado_em": "2026-11-26T23:52:32+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Israel acusa Hamas de usar hospital em Gaza como centro de tortura de palestinos",
+      "link": "https://www.gazetadopovo.com.br/mundo/israel-acusa-hamas-de-usar-hospital-em-gaza-como-centro-de-tortura-de-palestinos/",
+      "resumo": "Israel acusa Hamas de utilizar hospital na Faixa de Gaza como centro de interrogatório e tortura de civis palestinos contrários ao grupo.",
+      "publicado_em": "2026-11-26T23:59:11+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Cardeal revela documentos que fundamentam o pensamento de Papa Francisco",
+      "link": "https://www.gazetadopovo.com.br/mundo/cardeal-revela-documentos-que-fundamentam-o-pensamento-de-papa-francisco/",
+      "resumo": "Descubra os três documentos que o Papa Francisco guardava em sua mesa e como eles moldaram sua visão missionária e social da Igreja Católica.",
+      "publicado_em": "2026-11-27T00:07:42+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Putin se recusa a negociar com Ucrânia enquanto um soldado russo morre a cada 5 minutos",
+      "link": "https://www.gazetadopovo.com.br/mundo/investigacao-soldados-russos-mortos-guerra-ucrania/",
+      "resumo": "Investigação apontou que pelo menos 490 mil militares russos foram mortos na guerra na Ucrânia, mas número pode ultrapassar 720 mil",
+      "publicado_em": "2026-11-27T00:20:09+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Osório: a praça da discórdia",
+      "link": "https://www.gazetadopovo.com.br/vozes/polzonoff/praca-osorio-reforma/",
+      "resumo": "Uma praça no centro de Curitiba, a General Osório, está passando por uma reforma. E dando o que falar. Leia na Gazeta do Povo!",
+      "publicado_em": "2026-11-27T00:26:00+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Argentina aprova reforma de Milei que proíbe Banco Central de emitir dinheiro para financiar o governo",
+      "link": "https://www.gazetadopovo.com.br/mundo/argentina-aprova-reforma-de-milei-que-proibe-banco-central-de-emitir-dinheiro-para-financiar-o-governo/",
+      "resumo": "Congresso argentino aprova reforma de Milei que proíbe Banco Central de emitir dinheiro para financiar o governo e amplia sua independência.",
+      "publicado_em": "2026-11-27T00:33:24+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "O que pensa o novo ministro da Fazenda sobre economia, juros e contas públicas",
+      "link": "https://www.gazetadopovo.com.br/economia/o-que-pensa-o-novo-ministro-da-fazenda-sobre-economia-juros-e-contas-publicas/",
+      "resumo": "Governo Lula confirmou que Luiz Carlos Trabuco, atual presidente do Conselho de Administração do Bradesco, será o novo ministro da Fazenda.",
+      "publicado_em": "2026-11-27T00:41:06+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Mau exemplo do governo gastador cria brasileiros gastadores e inadimplentes",
+      "link": "https://www.gazetadopovo.com.br/vozes/alexandre-garcia/inadimplencia-cartao-de-credito/",
+      "resumo": "Alexandre Garcia comenta inadimplência no cartão de crédito, denúncia contra André Janones, e diário do papa Francisco.",
+      "publicado_em": "2026-11-27T00:49:41+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "STF explicita intimidação a parlamentares para se proteger do novo Senado",
+      "link": "https://www.gazetadopovo.com.br/vozes/silvio-ribas/stf-explicita-intimidacao-a-parlamentares-para-se-proteger-do-novo-senado/",
+      "resumo": "Julgamento de Marcel Van Hattem pelo STF deixa explícita a intenção da Corte de proteger ministros de impeachments no Senado em 2027.",
+      "publicado_em": "2026-11-27T00:50:53+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Cashback da reforma tributária começa em janeiro. Veja quem tem direito e quanto pode receber",
+      "link": "https://www.gazetadopovo.com.br/economia/cashback-reforma-tributaria-como-funciona/",
+      "resumo": "Com alcance estimado de 73 milhões de pessoas, cashback previsto na reforma tributária começa em janeiro de 2027 e terá implantação gradual.",
+      "publicado_em": "2026-11-27T00:53:48+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Gilmar Mendes interrompe processos de reajuste da Tabela SUS em todo o país",
+      "link": "https://www.gazetadopovo.com.br/brasil/gilmar-mendes-interrompe-processos-de-reajuste-da-tabela-sus-em-todo-o-pais/",
+      "resumo": "Gilmar Mendes suspende ações de hospitais por correção da Tabela SUS. Entenda os impactos da decisão e o risco fiscal de R$ 243 bilhões para o governo.",
+      "publicado_em": "2026-11-27T01:02:48+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Victron Energy aposta no Paraná e mira expansão no agronegócio",
+      "link": "https://www.gazetadopovo.com.br/vozes/parana-sa/victron-energy-parana-agronegocio/",
+      "resumo": "Multinacional holandesa, com faturamento global de 520 milhões de euros em 2025, escolheu Curitiba para sediar seu centro de treinamento no Brasil e prepara expansão no setor agrícola em 2027.",
+      "publicado_em": "2026-11-27T01:53:50+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Trabuco aceita convite de Lula para comandar o Ministério da Fazenda",
+      "link": "https://www.gazetadopovo.com.br/cafe-com-a-gazeta/trabuco-aceita-convite-de-lula-para-comandar-o-ministerio-da-fazenda/",
+      "resumo": "O Café com a Gazeta do Povo vai ao ar das 07h às 10h, no canal da Gazeta do Povo no Youtube.",
+      "publicado_em": "2026-11-27T02:04:17+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Escolha de Trabuco para a Fazenda irrita parte da esquerda e gera críticas da oposição",
+      "link": "https://www.gazetadopovo.com.br/republica/trabuco-na-fazenda-agrada-cupula-congresso-mas-irrita-esquerda-e-oposicao/",
+      "resumo": "Cúpula do Congresso e ministros celebram Trabuco na Fazenda em meio a críticas de parte da esquerda e da oposição.",
+      "publicado_em": "2026-11-27T02:14:55+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "México critica EUA por criarem canal de denúncias contra cartéis e autoridades corruptas do país",
+      "link": "https://www.gazetadopovo.com.br/mundo/mexico-critica-eua-por-criarem-canal-de-denuncias-contra-carteis-e-autoridades-corruptas-do-pais/",
+      "resumo": "Governo do México acusa os Estados Unidos de ingerência após criação de canais de denúncias contra narcotraficantes e autoridades corruptas.",
+      "publicado_em": "2026-11-27T02:15:32+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Alemanha prende iraquianos suspeitos de planejar ataques terroristas contra judeus",
+      "link": "https://www.gazetadopovo.com.br/mundo/alemanha-prende-iraquianos-suspeitos-de-planejar-ataques-terroristas-contra-judeus/",
+      "resumo": "Alemanha prende dois iraquianos suspeitos de integrar organização terrorista ligada ao Irã que planejava ataques contra judeus na Europa.",
+      "publicado_em": "2026-11-27T03:19:25+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Putin mantém guerra na Ucrânia enquanto baixas russas atingem níveis alarmantes",
+      "link": "https://www.gazetadopovo.com.br/mundo/putin-mantem-guerra-na-ucrania-enquanto-baixas-russas-atingem-niveis-alarmantes/",
+      "resumo": "Investigação aponta que até 720 mil soldados russos morreram na guerra. Veja por que Putin se recusa a negociar e o impacto das mortes de soldados russos.",
+      "publicado_em": "2026-11-27T04:20:40+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Ministra do TSE expõe ataques e cobra apoio dos colegas; Nunes Marques e Mendonça rebatem",
+      "link": "https://www.gazetadopovo.com.br/republica/ministra-do-tse-expoe-ataques-e-cobra-apoio-dos-colegas-nunes-marques-e-mendonca-rebatem/",
+      "resumo": "Ministra afirma que defesa de maior participação feminina nos tribunais superiores é “da boca para fora”. Leia na Gazeta do Povo.",
+      "publicado_em": "2026-11-27T04:23:51+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Luiz Carlos Trabuco assume Ministério da Fazenda com foco em equilíbrio fiscal",
+      "link": "https://www.gazetadopovo.com.br/economia/luiz-carlos-trabuco-assume-ministerio-da-fazenda-com-foco-em-equilibrio-fiscal/",
+      "resumo": "Luiz Carlos Trabuco assumirá o Ministério da Fazenda em 2027. Veja o que pensa o novo ministro sobre juros, impostos, teto de gastos e crescimento do PIB.",
+      "publicado_em": "2026-11-27T04:41:53+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Governo Lula anuncia Luiz Carlos Trabuco para o Ministério da Fazenda",
+      "link": "https://www.gazetadopovo.com.br/republica/governo-lula-anuncia-luiz-carlos-trabuco-para-o-ministerio-da-fazenda/",
+      "resumo": "A escolha de Luiz Carlos Trabuco para a Fazenda em 2027 divide opiniões. Conheça as reações do Congresso, da esquerda e da oposição sobre o novo ministro.",
+      "publicado_em": "2026-11-27T06:16:11+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "É hora de o PT e o governo Lula ampliarem o diálogo com os evangélicos",
+      "link": "https://www.gazetadopovo.com.br/opiniao/artigos/e-hora-de-o-pt-e-o-governo-lula-ampliarem-o-dialogo-com-os-evangelicos/",
+      "resumo": "Cabe ao PT e ao governo Lula dar passos concretos, com humildade, disposição para ouvir e compromisso. Leia na Gazeta do Povo.",
+      "publicado_em": "2026-11-27T08:00:00+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "O que pensa o novo ministro da Fazenda. STF intimida deputados para conter Senado",
+      "link": "https://www.gazetadopovo.com.br/opiniao/bom-dia/o-que-pensa-o-novo-ministro-da-fazenda-stf-intimida-deputados-para-conter-senado/",
+      "resumo": "O que pensa o novo ministro da Fazenda. STF intimida deputados para conter Senado. Leia mais na Gazeta do Povo",
+      "publicado_em": "2026-11-27T09:00:00+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Um dia-luz da Voyager: um grande feito tecnológico  e o isolamento da civilização humana no universo",
+      "link": "https://www.gazetadopovo.com.br/opiniao/artigos/um-dia-luz-da-voyager-um-grande-feito-tecnologico-e-o-isolamento-da-civilizacao-humana-no-universo/",
+      "resumo": "Apesar de não sermos capazes de emular uma USS Enterprise, a Voyager 1 chegou aonde jamais poderíamos esperar. Leia na Gazeta do Povo.",
+      "publicado_em": "2026-11-27T09:00:00+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "CRA-PR promove curso de Responsabilidade Técnica gratuito para profissionais registrados",
+      "link": "https://www.gazetadopovo.com.br/vozes/parana-sa/responsabilidade-tecnica-cra-pr-curso/",
+      "resumo": "Foco é orientar profissionais de Administração sobre atribuições, obrigações, procedimentos e responsabilidades do exercício da RT",
+      "publicado_em": "2026-11-27T09:33:39+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "DNA HAC discutiu o futuro da saúde e celebrou o novo momento do Hospital Angelina Caron",
+      "link": "https://www.gazetadopovo.com.br/vozes/parana-sa/hospital-angelina-caron-dna-hac/",
+      "resumo": "Encontro do Hospital Angelina Caron contou com palestra da jornalista Natália Cuminale",
+      "publicado_em": "2026-11-27T09:37:55+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Lucca Cafés Especiais integra projeto da nova cafeteria do Madalosso, em Curitiba",
+      "link": "https://www.gazetadopovo.com.br/vozes/parana-sa/cafeteria-santa-felicidade-madalosso-lucca/",
+      "resumo": "Cafeteria em Santa Felicidade: Madalosso Caffè tem 80 lugares e cafés do Lucca, que treinou oito baristas em oito horas de curso.",
+      "publicado_em": "2026-11-27T09:39:13+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Geração Z lidera nova fase do EAD, impulsionada por marco regulatório e mudança de perfil dos estudantes",
+      "link": "https://www.gazetadopovo.com.br/vozes/parana-sa/graduacao-ead-geracao-z-pucpr/",
+      "resumo": "Jovens nativos digitais redefinem o ensino a distância; PUCPR apresenta novo formato de Graduação EAD para acompanhar essa transformação",
+      "publicado_em": "2026-11-27T09:41:28+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Novas regras para a pós-graduação: o que mudou para as instituições de ensino superior",
+      "link": "https://www.gazetadopovo.com.br/opiniao/artigos/novas-regras-para-a-pos-graduacao-o-que-mudou-para-as-instituicoes-de-ensino-superior/",
+      "resumo": "A pós-graduação lato sensu brasileira poderá passar por uma importante transformação regulatória. Leia na Gazeta do Povo.",
+      "publicado_em": "2026-11-27T10:00:00+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "STF contraria Moraes e mantém restrições ao porte de armas de GCMs",
+      "link": "https://www.gazetadopovo.com.br/republica/stf-contraria-moraes-e-mantem-restricoes-ao-porte-de-armas-de-gcms/",
+      "resumo": "Ministro acolheu pedido por extensão do porte a todo o território nacional, mas foi voto vencido. Leia na Gazeta do Povo.",
+      "publicado_em": "2026-11-27T10:14:48+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Costa Rica acusa relatora da ONU de vínculos com terrorismo e impede entrada no país",
+      "link": "https://www.gazetadopovo.com.br/mundo/costa-rica-acusa-relatora-onu-vinculos-terrorismo-impede-entrada-pais/",
+      "resumo": "Francesca Albanese, que acusou Israel de genocídio e é alvo de sanções israelenses e dos EUA, foi retida ao chegar à Costa Rica",
+      "publicado_em": "2026-11-27T10:50:49+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Até quando o brasileiro vai precisar ser feliz “apesar de tudo”?",
+      "link": "https://www.gazetadopovo.com.br/opiniao/artigos/ate-quando-o-brasileiro-vai-precisar-ser-feliz-apesar-de-tudo/",
+      "resumo": "Existe uma diferença entre encontrar felicidade apesar das dificuldades e precisar ser feliz apesar de tudo o tempo inteiro. Leia na Gazeta do Povo.",
+      "publicado_em": "2026-11-27T11:00:00+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Vieira pede que Fachin divulgue relatórios da PF sobre ministros do STF no caso Master",
+      "link": "https://www.gazetadopovo.com.br/republica/vieira-pede-que-fachin-divulgue-relatorios-da-pf-sobre-ministros-do-stf-no-caso-master/",
+      "resumo": "Senador solicita versões original e reformulada, com as justificativas para a alteração. Leia na Gazeta do Povo.",
+      "publicado_em": "2026-11-27T11:12:47+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Ninguém queria ser ministro da Fazenda de Lula, mas Trabuco aceitou",
+      "link": "https://www.gazetadopovo.com.br/vozes/coluna-esplanada/ninguem-queria-ser-ministro-da-fazenda-de-lula-mas-trabuco-aceitou/",
+      "resumo": "Trabuco é um nome de credibilidade na praça, que acalma o mercado e a Febraban, os investidores da Bolsa.Leia na Gazeta do Povo.",
+      "publicado_em": "2026-11-27T11:15:00+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Zelensky alfineta Trump por chamar Putin de amigo: “É como se fosse com Hitler”",
+      "link": "https://www.gazetadopovo.com.br/mundo/zelensky-alfineta-trump-chamar-putin-amigo-como-se-fosse-com-hitler/",
+      "resumo": "O presidente da Ucrânia, Volodymyr Zelensky, alfinetou Trump por dizer ser amigo do ditador russo, Vladimir Putin",
+      "publicado_em": "2026-11-27T11:17:55+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Bolsonaro apresenta melhora e volta a se alimentar após cinco dias de jejum oral",
+      "link": "https://www.gazetadopovo.com.br/republica/bolsonaro-apresenta-melhora-e-volta-a-se-alimentar-apos-cinco-dias-de-jejum-oral/",
+      "resumo": "Ex-presidente trata casos de obstrução intestinal e pneumonia nos dois pulmões. Não há previsão de alta. Lei na Gazeta do Povo.",
+      "publicado_em": "2026-11-27T11:56:21+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Jardineiro vence vício e pedala 4.800 km até Jerusalém após visão mística",
+      "link": "https://www.gazetadopovo.com.br/mundo/jardineiro-vence-vicio-e-pedala-4-800-km-ate-jerusalem-apos-visao-mistica/",
+      "resumo": "Andrew Foote, de 32 anos, superou dependência química e pedalou da Inglaterra até a Terra Santa após experiência profunda na Casa da Virgem Maria na Turquia. Agora discerne vocação ao sacerdócio.",
+      "publicado_em": "2026-11-27T12:07:18+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Multiculturalismo em crise: muçulmanos atacam restaurante sikh em Londres",
+      "link": "https://www.gazetadopovo.com.br/ideias/multiculturalismo-em-crise-muculmanos-atacam-restaurante-sikh-em-londres/",
+      "resumo": "Comunidade muçulmana se revoltou por causa de carta em que estabelecimento informa não vender carne halal.",
+      "publicado_em": "2026-11-27T12:37:32+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Bradesco comunica ao mercado ida de Trabuco à Fazenda, mas não fala em renúncia",
+      "link": "https://www.gazetadopovo.com.br/economia/bradesco-comunica-ao-mercado-ida-de-trabuco-para-a-fazenda-mas-nao-fala-em-renuncia/",
+      "resumo": "Três empresas do grupo divulgaram fatos relevantes após nota oficial do governo federal. Leia na Gazeta do Povo.",
+      "publicado_em": "2026-11-27T12:41:28+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Redes de dormir viram árvores gigantes de Natal em Fortaleza",
+      "link": "https://www.gazetadopovo.com.br/turismo/redes-de-dormir-viram-arvores-gigantes-de-natal-em-fortaleza/",
+      "resumo": "Decoração natalina reúne centenas de redes iluminadas nas praças do Ferreira e Portugal e valoriza símbolos da cultura cearense.",
+      "publicado_em": "2026-11-27T12:46:42+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Moro define novos chefes da Casa Civil e Procuradoria-Geral do Estado; veja quem são",
+      "link": "https://www.gazetadopovo.com.br/parana/moro-chefe-casa-civil-procuradoria-geral-do-estado-parana/",
+      "resumo": "O governador do Paraná, Sergio Moro, definiu os novos chefes da Casa Civil e da Procuradoria-Geral do Paraná. Confira na Gazeta do Povo,",
+      "publicado_em": "2026-11-27T12:53:17+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Desemprego fica em 5,1% em outubro apesar da desaceleração da economia",
+      "link": "https://www.gazetadopovo.com.br/economia/desemprego-fica-em-51-em-outubro-apesar-da-desaceleracao-da-economia/",
+      "resumo": "Taxa repete o menor índice da série histórica enquanto que número de trabalhadores ocupados chega a recorde de 103,7 milhões. Leia na Gazeta do Povo.",
+      "publicado_em": "2026-11-27T13:02:17+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Paróquia rural dos EUA recorre ao Vaticano após diocese cancelar missas",
+      "link": "https://www.gazetadopovo.com.br/mundo/paroquia-rural-dos-eua-recorre-ao-vaticano-apos-diocese-cancelar-missas/",
+      "resumo": "Paroquianos de Minnesota apelam à Santa Sé após diocese cancelar missas mesmo com clérigos disponíveis. Disputa envolve fechamento de paróquia rural.",
+      "publicado_em": "2026-11-27T13:07:01+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Um dia bem desperdiçado",
+      "link": "https://www.gazetadopovo.com.br/vozes/polzonoff/dia-desperdicio/",
+      "resumo": "O que é um dia desperdiçado? E o que é um dia bem aproveitado, mas que parece um desperdício? Leia na Gazeta do Povo!",
+      "publicado_em": "2026-11-27T13:11:00+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Trabuco na Fazenda: a quem Lula vai trair?",
+      "link": "https://www.gazetadopovo.com.br/republica/trabuco-na-fazenda-a-quem-lula-vai-trair/",
+      "resumo": "No programa Última Análise desta quinta-feira (26), os convidados falam a respeito da escolha de Luiz Carlos Trabuco de Lula para Fazenda.",
+      "publicado_em": "2026-11-27T13:12:59+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Um dia a rua também morre (e eu gosto de viver)",
+      "link": "https://www.gazetadopovo.com.br/vozes/polzonoff/gosto-de-viver/",
+      "resumo": "As últimas semanas foram marcadas por vários \"memento mori\" e esta crônica é consequência disso. Leia na Gazeta!",
+      "publicado_em": "2026-11-27T13:13:00+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "França de Macron, que chamou carne brasileira de “dopada”, entra em recessão técnica",
+      "link": "https://www.gazetadopovo.com.br/mundo/franca-macron-entra-recessao-tecnica/",
+      "resumo": "Com contração do PIB no terceiro trimestre e esclarecimento de que resultado do segundo foi ligeiramente negativo, França tem recessão técnica",
+      "publicado_em": "2026-11-27T13:19:58+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Bolsa abre em alta e dólar despenca após Lula confirmar Trabuco no governo",
+      "link": "https://www.gazetadopovo.com.br/economia/bolsa-abre-alta-dolar-despenca-apos-lula-confirmar-trabuco-governo/",
+      "resumo": "Agentes do mercado financeiro receberam com otimismo confirmação de executivo do Bradesco como novo ministro da Fazenda no Lula 4. Leia na Gazeta do Povo.",
+      "publicado_em": "2026-11-27T13:39:12+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Fachin prorroga inquérito sobre Dark Horse por 60 dias; entenda o que falta investigar",
+      "link": "https://www.gazetadopovo.com.br/republica/fachin-prorroga-inquerito-sobre-dark-horse-por-60-dias-entenda-o-que-falta-investigar/",
+      "resumo": "PF pediu 90 dias, mas presidente do Supremo concedeu 60 para novas análises e depoimentos. Leia na Gazeta do Povo.",
+      "publicado_em": "2026-11-27T13:42:04+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Reino Unido alerta 100 mil reservistas para possível convocação militar",
+      "link": "https://www.gazetadopovo.com.br/mundo/reino-unido-alerta-100-mil-reservistas-para-possivel-convocacao-militar/",
+      "resumo": "O Reino Unido enfrenta dificuldades para localizar ex-militares. Cerca de 45 mil reservistas estão sem dados de contato atualizados.",
+      "publicado_em": "2026-11-27T13:46:05+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Bispo denuncia uso de smartphones durante missas e pede mais tempo para Deus",
+      "link": "https://www.gazetadopovo.com.br/mundo/bispo-denuncia-uso-de-smartphones-durante-missas-e-pede-mais-tempo-para-deus/",
+      "resumo": "Bispo ugandense Sabino Ocan Odoki critica uso excessivo de celulares durante cultos e alerta que avanços tecnológicos reduzem tempo dedicado à oração e ao relacionamento com Deus.",
+      "publicado_em": "2026-11-27T14:07:07+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Família gasta R$ 3 mil para se despedir de idoso que estava vivo",
+      "link": "https://www.gazetadopovo.com.br/parana/familia-gasta-quase-r-3-mil-para-se-despedir-de-idoso-que-estava-vivo/",
+      "resumo": "Erro no Hospital Universitário Cajuru levou familiares a contratar serviços funerários e viajar de Brasília a Curitiba antes de descobrirem a falha.",
+      "publicado_em": "2026-11-27T14:11:02+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Moody’s alerta para risco de rebaixamento do Brasil por descontrole fiscal de Lula",
+      "link": "https://www.gazetadopovo.com.br/economia/moodys-risco-rebaixamento-rating-brasil/",
+      "resumo": "Executivos da agência de risco Moody's veem risco de rebaixamento do Brasil por descontrole fiscal de Lula. Leia na Gazeta do Povo.",
+      "publicado_em": "2026-11-27T14:12:39+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Encontro de Tereza Cristina com Alcolumbre acende alerta no PL sobre disputa no Senado",
+      "link": "https://www.gazetadopovo.com.br/republica/encontro-de-tereza-cristina-com-alcolumbre-acende-alerta-no-pl-sobre-disputa-no-senado/",
+      "resumo": "Tereza Cristina minimiza encontro na com Davi Alcolumbre e reafirma pacto com Rogério Marinho, mas analistas veem risco com Centrão.",
+      "publicado_em": "2026-11-27T14:15:40+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "De café a lanchas de luxo: por que os americanos estão comprando cada vez mais produtos brasileiros?",
+      "link": "https://www.gazetadopovo.com.br/vozes/parana-sa/exportacao-lanchas-parana-estados-unidos/",
+      "resumo": "Brasil registra superávit comercial de US$ 9,3 bilhões em outubro e exportações acumuladas de quase US$ 322 bilhões em 2026. Mesmo com o tarifaço de Donald Trump, os Estados Unidos seguem como um dos principais compradores de produtos nacionais, incluindo lanchas de lazer, café, petróleo, aeronaves ",
+      "publicado_em": "2026-11-27T14:35:10+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Queimadas disparam na Amazônia e superam média histórica em novembro",
+      "link": "https://www.gazetadopovo.com.br/brasil/queimadas-disparam-amazonia-superam-media-historica-novembro/",
+      "resumo": "INPE registrou quase 18 mil focos de calor até o dia 25. Pará e Amapá também apresentam números acima da média. Leia na Gazeta do Povo.",
+      "publicado_em": "2026-11-27T14:36:06+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Lideranças da agricultura familiar conhecem diretrizes do Copel Agro em seminário da FETAEP",
+      "link": "https://www.gazetadopovo.com.br/vozes/parana-sa/copel-agro-agricultura-familiar-fetaep/",
+      "resumo": "Evento em Curitiba reuniu representantes das 10 regionais da Federação dos Trabalhadores Rurais Agricultores Familiares do Estado do Paraná",
+      "publicado_em": "2026-11-27T14:37:10+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Do interior do Paraná ao cenário internacional: empreendimento imobiliário é premiado em Miami",
+      "link": "https://www.gazetadopovo.com.br/vozes/parana-sa/empreendimento-londrina-premiado-miami/",
+      "resumo": "Bosco Offices é reconhecido em duas categorias do International Property Awards 2026, com projeto que integra arquitetura, natureza e funcionalidade aos ambientes corporativos",
+      "publicado_em": "2026-11-27T14:39:27+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Carta de Londrina propõe transformar apoio aos ecossistemas de inovação em política de Estado",
+      "link": "https://www.gazetadopovo.com.br/vozes/parana-sa/ecossistemas-inovacao-carta-de-londrina/",
+      "resumo": "Documento reúne 11 propostas apresentadas no encerramento do ELI Summit 2026; próximo encontro nacional será no Rio de Janeiro, em 2027",
+      "publicado_em": "2026-11-27T14:41:52+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Dino e Moraes atropelam a Constituição contra Marcel van Hattem. Leia na Gazeta Revista",
+      "link": "https://www.gazetadopovo.com.br/gazeta-revista/dino-e-moraes-atropelam-a-constituicao-contra-marcel-van-hattem-leia-na-gazeta-revista/",
+      "resumo": "Dino e Moraes atropelam a Constituição contra Marcel van Hattem e reacendem memórias sombrias no país. Leia na Gazeta Revista.",
+      "publicado_em": "2026-11-27T14:44:51+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Volume recorde: 10ª Expo Motorhome projeta R$ 800 milhões em negócios",
+      "link": "https://www.gazetadopovo.com.br/vozes/parana-sa/expo-motorhome-2026-pinhais-negocios/",
+      "resumo": "Cerca de 160 empresas do Brasil e do exterior expõem e comercializam 300 modelos novos de trailers, minitrailers, campers e motorhomes, bem como barracas e todo tipo de acessórios no Expotrade Convention Center de Pinhais, na região metropolitana de Curitiba",
+      "publicado_em": "2026-11-27T14:45:30+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Regime venezuelano prepara revogação de lei que barra opositores da política",
+      "link": "https://www.gazetadopovo.com.br/mundo/regime-venezuelano-prepara-revogacao-de-lei-que-barra-opositores-da-politica/",
+      "resumo": "A Lei Simón Bolívar, em vigor na Venezuela desde 2024, prevê até 30 anos de prisão e 60 anos de inabilitação política para opositores.",
+      "publicado_em": "2026-11-27T14:50:58+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Fachin mantém prisão do ex-presidente do BRB",
+      "link": "https://www.gazetadopovo.com.br/republica/fachin-mantem-prisao-do-ex-presidente-do-brb/",
+      "resumo": "Presidente do STF considerou que rede de influência de Paulo Henrique Costa ainda pode colocar investigação em risco. Leia na Gazeta do Povo.",
+      "publicado_em": "2026-11-27T14:55:02+00:00"
+    },
+    {
+      "fonte": "Revista Oeste",
+      "prioridade": 1,
+      "titulo": "Esporte sem Firula: assista ao programa de 27/11/2026",
+      "link": "https://revistaoeste.com/videos/esporte-sem-firula/esporte-sem-firula-assista-ao-programa-de-27-11-2026/",
+      "resumo": "O Esporte sem Firula vai ao ar de segunda a sexta-feira, das 12h às 14h. Com apresentação de Milton Neves e Mário Monteiro, mais conhecido como Alemão, o programa conta com os comentários de Alex Müller, Letícia Beppler, Alfredo Loebeling e Gilberto Rodriguez (Portuga). Informação, opinião e debate ",
+      "publicado_em": "2026-11-27T15:00:00+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Mercado celebra Trabuco na Fazenda e esquerda acusa Lula de estelionato eleitoral",
+      "link": "https://www.gazetadopovo.com.br/economia/mercado-celebra-luiz-trabuco-ministro-fazenda-esquerda-protesta/",
+      "resumo": "Lula escolhe Luiz Carlos Trabuco para a Fazenda após críticas à Faria Lima. Veja os bastidores do convite e a reação da esquerda.",
+      "publicado_em": "2026-11-27T15:05:19+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Ateu judeu vê aparição de Nossa Senhora e se converte em segundos",
+      "link": "https://www.gazetadopovo.com.br/mundo/ateu-judeu-ve-aparicao-de-nossa-senhora-e-se-converte-em-segundos/",
+      "resumo": "Marie-Alphonse Ratisbonne usava a Medalha Milagrosa como piada até ter uma visão da Virgem Maria em Roma, em 1842. A conversão instantânea mudou sua vida para sempre.",
+      "publicado_em": "2026-11-27T15:07:07+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Relação de Lula com o Irã acende alerta no governo Milei",
+      "link": "https://www.gazetadopovo.com.br/mundo/relacao-lula-ira-acende-alerta-governo-milei/",
+      "resumo": "Chanceler de Milei manifestou preocupação sobre proximidade entre Lula e Irã, explicitada em encontro após medida de Teerã contra a Argentina",
+      "publicado_em": "2026-11-27T15:11:15+00:00"
+    },
+    {
+      "fonte": "Revista Oeste",
+      "prioridade": 1,
+      "titulo": "Lula avalia mudar estratégia diante da ameaça de novas tarifas dos EUA",
+      "link": "https://revistaoeste.com/politica/lula-avalia-mudar-estrategia-diante-da-ameaca-de-novas-tarifas-dos-eua/",
+      "resumo": "O governo do presidente Luiz Inácio Lula da Silva (PT) avalia mudar a estratégia de negociação comercial com os Estados Unidos depois de a gestão de Donald Trump anunciar a possibilidade de impor novas tarifas sobre produtos brasileiros. A informação é do site Metrópoles. Interlocutores de Lula cons",
+      "publicado_em": "2026-11-27T15:12:36+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Governo Lula acumula rombo de R$ 37,9 bilhões de janeiro a outubro",
+      "link": "https://www.gazetadopovo.com.br/economia/governo-lula-acumula-rombo-37-9-bilhoes-janeiro-outubro/",
+      "resumo": "Superávit de R$ 52,3 bilhões em outubro não foi suficiente para evitar déficit nas contas públicas em 2026. Leia na Gazeta do Povo.",
+      "publicado_em": "2026-11-27T15:20:06+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Contrato omitido pela PF e voos da FAB expõem Moraes",
+      "link": "https://www.gazetadopovo.com.br/sem-rodeios/contrato-omitido-pela-pf-e-voos-da-fab-expoem-moraes/",
+      "resumo": "Contrato de R$ 131 milhões e 241 voos de Moraes pela FAB levantam questionamentos sobre a atuação da PF e o uso de aeronaves oficiais.",
+      "publicado_em": "2026-11-27T15:22:33+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Moraes fez 241 voos em aeronaves da FAB e metade das viagens tinha até 2 passageiros",
+      "link": "https://www.gazetadopovo.com.br/republica/moraes-fez-241-voos-em-aeronaves-da-fab-e-metade-das-viagens-tinha-ate-2-passageiros/",
+      "resumo": "Este episódio do Podcast 15 Minutos analisa os recentes desdobramentos na política e na economia brasileira",
+      "publicado_em": "2026-11-27T15:32:04+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Rússia quer troca de espião preso no Brasil por jogadora de futebol de areia, diz jornal",
+      "link": "https://www.gazetadopovo.com.br/mundo/russia-quer-troca-espiao-preso-brasil-jogadora-futebol-areia-diz-jornal/",
+      "resumo": "Segundo jornal, regime de Vladimir Putin quer envio de espião em troca de atleta e dois estudantes de medicina brasileiros presos na Rússia",
+      "publicado_em": "2026-11-27T15:39:40+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "O banqueiro do bem: PT se esforça para justificar escolha de Trabuco",
+      "link": "https://www.gazetadopovo.com.br/rodrigo-constantino/o-banqueiro-do-bem-pt-se-esforca-para-justificar-escolha-de-trabuco/",
+      "resumo": "Trabuco está assumindo o Titanic depois do iceberg. A pergunta relevante é se Lula lhe entregou a chave do cofre. Leia na Gazeta do Povo.",
+      "publicado_em": "2026-11-27T15:49:58+00:00"
+    },
+    {
+      "fonte": "Revista Oeste",
+      "prioridade": 1,
+      "titulo": "Deputado acusado de ligação com o PCC pode ter votos anulados pelo TSE",
+      "link": "https://revistaoeste.com/politica/deputado-acusado-de-ligacao-com-o-pcc-pode-ter-votos-anulados-pelo-tse/",
+      "resumo": "O Tribunal Superior Eleitoral (TSE) pode anular os 118.566 votos recebidos pelo deputado federal eleito Ney Santos (Republicanos-SP), acusado de ligação com o Primeiro Comando da Capital (PCC). Na sexta-feira 20, o relator do caso, ministro Floriano de Azevedo Marques, votou pela rejeição do registr",
+      "publicado_em": "2026-11-27T15:54:25+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Lula reconhece que disputou primeiro turno da eleição “de salto alto”",
+      "link": "https://www.gazetadopovo.com.br/republica/lula-reconhece-disputou-primeiro-turno-eleicao-salto-alto/",
+      "resumo": "Presidente petista diz que campanha pode ter cometido pecado de entrar na disputa achando que ganharia ainda no primeiro turno. Leia na Gazeta do Povo.",
+      "publicado_em": "2026-11-27T15:54:35+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Britânico percorre quase cinco mil quilômetros de bicicleta rumo à Terra Santa",
+      "link": "https://www.gazetadopovo.com.br/mundo/britanico-percorre-quase-cinco-mil-quilometros-de-bicicleta-rumo-a-terra-santa/",
+      "resumo": "Conheça a história de Andrew Foote, o jardineiro que pedalou da Inglaterra até Jerusalém para celebrar sua sobriedade e o chamado ao sacerdócio católico.",
+      "publicado_em": "2026-11-27T16:08:16+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Ex-refém das Farc, Ingrid Betancourt diz que acordo de paz com guerrilha fracassou na Colômbia",
+      "link": "https://www.gazetadopovo.com.br/mundo/ex-refem-das-farc-ingrid-betancourt-diz-que-acordo-de-paz-com-guerrilha-fracassou-na-colombia/",
+      "resumo": "Ingrid Betancourt aponta falta de reparação às vítimas e critica as sanções aplicadas a ex-comandantes das Farc após o acordo de paz.",
+      "publicado_em": "2026-11-27T16:17:57+00:00"
+    },
+    {
+      "fonte": "Revista Oeste",
+      "prioridade": 1,
+      "titulo": "Fachin decide manter prisão de ex-presidente do BRB",
+      "link": "https://revistaoeste.com/brasil/fachin-decide-manter-prisao-de-ex-presidente-do-brb/",
+      "resumo": "Em decisão assinada nesta quinta-feira, 26, o presidente do Supremo Tribunal Federal (STF) , Edson Fachin, negou um pedido da defesa e decidiu manter preso preventivamente Paulo Henrique Costa, ex-presidente do Banco de Brasília (BRB) — ele está no complexo penitenciário da Papudinha há mais de sete",
+      "publicado_em": "2026-11-27T16:21:09+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Moraes usou aviões da FAB 241 vezes em menos de quatro anos",
+      "link": "https://www.gazetadopovo.com.br/republica/moraes-usou-avioes-da-fab-241-vezes-em-menos-de-quatro-anos/",
+      "resumo": "Ministro lidera lista de beneficiários de viagens autorizadas pelo ministro da Defesa. Leia na Gazeta do Povo.",
+      "publicado_em": "2026-11-27T16:29:13+00:00"
+    },
+    {
+      "fonte": "Revista Oeste",
+      "prioridade": 1,
+      "titulo": "Indicação de Trabuco para a Fazenda gera resistência no PT e no Psol",
+      "link": "https://revistaoeste.com/politica/indicacao-de-trabuco-para-a-fazenda-gera-resistencia-no-pt-e-no-psol/",
+      "resumo": "A escolha do banqueiro Luiz Carlos Trabuco Cappi para comandar o Ministério da Fazenda a partir de 2027 provocou críticas de integrantes do PT e do Psol, que manifestaram preocupação com a política fiscal do próximo mandato de Luiz Inácio Lula da Silva . O deputado federal Glauber Braga (Psol-RJ) cl",
+      "publicado_em": "2026-11-27T16:44:57+00:00"
+    },
+    {
+      "fonte": "Revista Oeste",
+      "prioridade": 1,
+      "titulo": "Contas do governo têm superávit de R$ 52 bilhões em outubro",
+      "link": "https://revistaoeste.com/economia/contas-do-governo-tem-superavit-de-r-52-bilhoes-em-outubro/",
+      "resumo": "As contas do governo central registraram superávit primário de R$ 52,3 bilhões em outubro de 2026. O resultado é o maior para o mês desde 2016, em valores corrigidos pela inflação . Os dados foram divulgados nesta sexta-feira, 27, pela Secretaria do Tesouro Nacional. Em outubro de 2025, o saldo posi",
+      "publicado_em": "2026-11-27T16:52:29+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Críticas da França à carne brasileira aumentam pressão sobre produtores do Paraná",
+      "link": "https://www.gazetadopovo.com.br/parana/criticas-franca-carne-brasileira-pressao-produtores-parana/",
+      "resumo": "O que as críticas da França à carne brasileira significam para o Paraná, que exporta milhões à União Europeia. Saiba na Gazeta do Povo.",
+      "publicado_em": "2026-11-27T16:58:26+00:00"
+    },
+    {
+      "fonte": "Revista Oeste",
+      "prioridade": 1,
+      "titulo": "Faroeste à Brasileira: assista ao programa de 27/11/2026",
+      "link": "https://revistaoeste.com/videos/faroeste-a-brasileira/faroeste-a-brasileira-assista-ao-programa-de-27-11-2026/",
+      "resumo": "O programa Faroeste à Brasileira vai ao ar de segunda a sexta-feira, das 14h às 16h. Gustavo Segré, Maria De Carli, Luis Artur Nogueira, João Bellucci e equipe comentam as principais notícias do dia no Brasil e no mundo. Convidados: Felipe Camozzato e Marcelo Lapolla. https://www.youtube.com/watch?v",
+      "publicado_em": "2026-11-27T17:00:00+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Vice-presidente do TCU visitará Bolsonaro no hospital",
+      "link": "https://www.gazetadopovo.com.br/republica/vice-presidente-do-tcu-visitara-bolsonaro-no-hospital/",
+      "resumo": "Visita foi autorizada por Moraes enquanto ex-presidente se recupera de obstrução intestinal e pneumonia. Leia na Gazeta do Povo.",
+      "publicado_em": "2026-11-27T17:00:40+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Trabuco neles, com toda autonomia",
+      "link": "https://www.gazetadopovo.com.br/vozes/luis-ernesto-lacombe/luiz-carlos-trabuco-ministro-fazenda-autonomia/",
+      "resumo": "Podemos acreditar que Trabuco, com toda a sua trajetória, com sua credibilidade pessoal, terá autonomia para impedir a expansão ilimitada do Estado?",
+      "publicado_em": "2026-11-27T17:02:51+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Vaticano nomeia novos comissários para os Arautos do Evangelho após anos de investigação",
+      "link": "https://www.gazetadopovo.com.br/mundo/vaticano-nomeia-novos-comissarios-para-os-arautos-do-evangelho-apos-anos-de-investigacao/",
+      "resumo": "Santa Sé anuncia novos comissários pontifícios para os Arautos do Evangelho após anos de investigação, visitação apostólica e suspensão de ordenações.",
+      "publicado_em": "2026-11-27T17:07:02+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Fiéis de Minnesota apelam ao Vaticano para reabrir paróquia rural",
+      "link": "https://www.gazetadopovo.com.br/mundo/fieis-de-minnesota-apelam-ao-vaticano-para-reabrir-paroquia-rural/",
+      "resumo": "Fiéis de Minnesota apelam ao Vaticano após diocese proibir missas em paróquia rural, mesmo com padres disponíveis. Entenda o conflito canônico.",
+      "publicado_em": "2026-11-27T17:07:46+00:00"
+    },
+    {
+      "fonte": "Revista Oeste",
+      "prioridade": 1,
+      "titulo": "Senado cita registros de votação remota para defender salário de Flávio",
+      "link": "https://revistaoeste.com/no-ponto/senado-cita-registros-de-votacao-remota-para-defender-salario-de-flavio/",
+      "resumo": "A Advocacia do Senado defendeu na Justiça Federal a manutenção do salário bruto mensal de R$ 46,3 mil do senador Flávio Bolsonaro (PL-RJ), que está nos Estados Unidos desde o fim de outubro.&nbsp; Para sustentar que o parlamentar continua exercendo o mandato, a Casa apresentou registros de presença ",
+      "publicado_em": "2026-11-27T17:09:04+00:00"
+    },
+    {
+      "fonte": "Revista Oeste",
+      "prioridade": 1,
+      "titulo": "Almoço anual da Febraban deve contar com a presença de Durigan e Trabuco",
+      "link": "https://revistaoeste.com/politica/almoco-anual-da-febraban-deve-contar-com-a-presenca-de-durigan-e-trabuco/",
+      "resumo": "Nesta sexta-feira, 27, o jornal O Globo informou que Dario Durigan, atual ministro da Fazenda, combinou com o banqueiro Luiz Carlos Trabuco de irem juntos ao almoço anual da Federação Brasileira de Bancos (Febraban), a ser realizado na próxima terça-feira, 1º, em São Paulo. Esse acontecimento pode m",
+      "publicado_em": "2026-11-27T17:23:44+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Paraná registra segunda maior safra de grãos da história mesmo após perdas no inverno",
+      "link": "https://www.gazetadopovo.com.br/parana/safra-graos-parana-segunda-maior-historia/",
+      "resumo": "Safra de grãos do Paraná soma 46,9 milhões de toneladas, segunda maior da história, mesmo com quebra no inverno. Saiba na Gazeta do Povo.",
+      "publicado_em": "2026-11-27T17:24:46+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Ataque hacker atinge plataforma digital da Força Aérea dos Estados Unidos",
+      "link": "https://www.gazetadopovo.com.br/mundo/ataque-hacker-atinge-plataforma-digital-da-forca-aerea-dos-estados-unidos/",
+      "resumo": "Força Aérea dos EUA investiga a extensão dos danos após invasores explorarem uma vulnerabilidade na plataforma que reúne serviços militares.",
+      "publicado_em": "2026-11-27T17:25:06+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Dezembro coloca Homem-Aranha, Vingadores e Jumanji na disputa pelas bilheterias do cinema",
+      "link": "https://www.gazetadopovo.com.br/cultura/dezembro-coloca-homem-aranha-vingadores-e-jumanji-na-disputa-pelas-bilheterias-do-cinema/",
+      "resumo": "Dezembro traz Homem-Aranha com cenas inéditas, Vingadores: Doutor Destino e Jumanji: Mundo Real, com estreias nos cinemas.",
+      "publicado_em": "2026-11-27T17:29:01+00:00"
+    },
+    {
+      "fonte": "Revista Oeste",
+      "prioridade": 1,
+      "titulo": "Julgamento no TSE pode tirar vaga do Republicanos em SP e beneficiar o MDB",
+      "link": "https://revistaoeste.com/politica/julgamento-no-tse-pode-tirar-vaga-do-republicanos-em-sp-e-beneficiar-o-mdb/",
+      "resumo": "A definição sobre quem ocupará a 70ª e última cadeira de São Paulo na Câmara dos Deputados a partir de 2027 está nas mãos do Tribunal Superior Eleitoral (TSE) . Em julgamento iniciado na última sexta-feira, 20, o relator do processo, ministro Floriano de Azevedo Marques, votou para indeferir o regis",
+      "publicado_em": "2026-11-27T17:38:54+00:00"
+    },
+    {
+      "fonte": "Agência Brasil",
+      "prioridade": 2,
+      "titulo": "Enade 2026: estudantes de 18 áreas fazem a prova neste domingo",
+      "link": "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-11/enade-2026-estudantes-de-18-areas-fazem-prova-neste-domingo",
+      "resumo": "O Exame Nacional de Desempenho dos Estudantes (Enade) 2026 será aplicado neste domingo (29), em todos os estados e no Distrito Federal, aos universitários de 18 cursos de bacharelado e superiores de tecnologia que serão avaliados neste ano. A participação é obrigatória para o estudante concluinte re",
+      "publicado_em": "2026-11-27T12:21:00-03:00"
+    },
+    {
+      "fonte": "Agência Brasil",
+      "prioridade": 2,
+      "titulo": "TV Brasil: Sem Censura reúne Adriana Calcanhotto e Arnaldo Antunes",
+      "link": "https://agenciabrasil.ebc.com.br/cultura/noticia/2026-11/tv-brasil-sem-censura-reune-adriana-calcanhotto-e-arnaldo-antunes",
+      "resumo": "O programa Sem Censura reúne a dupla Adriana Calcanhotto e Arnaldo Antunes para conversar sobre a mais recente parceria nesta sexta (27), às 16h, na TV Brasil . No papo com Cissa Guimarães, eles apresentam o projeto Vice-Versa , primeiro álbum em conjunto. O ator Gregório Duvivier e a psicóloga Virg",
+      "publicado_em": "2026-11-27T12:30:00-03:00"
+    },
+    {
+      "fonte": "Agência Brasil",
+      "prioridade": 2,
+      "titulo": "Fachin prorroga por 60 dias investigação da PF sobre filme Dark Horse",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/fachin-prorroga-por-60-dias-investigacao-da-pf-sobre-filme-dark-horse",
+      "resumo": "O presidente do Supremo Tribunal Federal (STF), ministro Edson Fachin, concedeu mais 60 dias de prazo à Polícia Federal (PF) para que conclua a investigação sobre a produção do filme Dark Horse , cinebiografia do ex-presidente Jair Bolsonaro. A prorrogação foi assinada na quinta-feira (26) e atende ",
+      "publicado_em": "2026-11-27T12:49:00-03:00"
+    },
+    {
+      "fonte": "Agência Brasil",
+      "prioridade": 2,
+      "titulo": "Contas do governo têm superávit de R$ 52,3 bilhões em outubro",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/contas-do-governo-tem-superavit-de-r-523-bilhoes-em-outubro",
+      "resumo": "As contas do Governo Central registraram superávit primário de R$ 52,3 bilhões em outubro, informou hoje (27) o Tesouro Nacional. O resultado ficou acima das estimativas do mercado, projetadas em R$ 43,4 bilhões para o mês segundo o Prisma Fiscal – levantamento do Ministério da Fazenda com estimativ",
+      "publicado_em": "2026-11-27T12:57:00-03:00"
+    },
+    {
+      "fonte": "Agência Brasil",
+      "prioridade": 2,
+      "titulo": "Polícia Civil prende líder de milícia no Rio de Janeiro",
+      "link": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-11/policia-civil-prende-lider-de-milicia-no-rio-de-janeiro",
+      "resumo": "A Polícia Civil do Estado Rio de Janeiro prendeu, nesta sexta-feira (27), Leonardo Magalhães Gomes da Silva, conhecido como Capitão Léo. De acordo com as investigações, ele é apontado como uma das lideranças da milícia que atua na região do Pombo Sem Asa, em Vargem Grande e teria participação em div",
+      "publicado_em": "2026-11-27T13:46:00-03:00"
+    },
+    {
+      "fonte": "Agência Brasil",
+      "prioridade": 2,
+      "titulo": "Manaus suspende atividades em parques após piora na qualidade do ar",
+      "link": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-11/manaus-suspende-atividades-em-parques-apos-piora-na-qualidade-do-ar",
+      "resumo": "A prefeitura de Manaus suspendeu temporariamente as atividades ao ar livre em parques, centros esportivos e espaços públicos da capital. A medida foi adotada por causa da piora da qualidade do ar, provocada pelo aumento da concentração de fumaça , e vale até esta sexta-feira (27). A orientação é red",
+      "publicado_em": "2026-11-27T13:48:00-03:00"
+    },
+    {
+      "fonte": "Agência Brasil",
+      "prioridade": 2,
+      "titulo": "Fachin mantém prisão de Paulo Henrique Costa, ex-presidente do BRB",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/fachin-mantem-prisao-de-paulo-henrique-costa-ex-presidente-do-brb",
+      "resumo": "O presidente do Supremo Tribunal Federal (STF), ministro Edson Fachin, decidiu nesta sexta-feira (27) manter a prisão preventiva do ex-presidente do Banco Regional de Brasília (BRB) Paulo Henrique Costa. Fachin negou um pedido de prisão domiciliar feito pela defesa de Costa. O ministro afirmou que o",
+      "publicado_em": "2026-11-27T13:52:00-03:00"
+    },
+    {
+      "fonte": "Agência Brasil",
+      "prioridade": 2,
+      "titulo": "Lula garante benefícios em novo governo, mas defende revisão",
+      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-garante-beneficios-em-novo-governo-mas-defende-revisao",
+      "resumo": "O presidente Luiz Inácio Lula da Silva defendeu, nesta sexta-feira (27), uma revisão nos programas sociais do governo federal, porque, segundo ele, pessoas estão recebendo benefícios sem ter direito. “Não haverá hipótese de cortar qualquer benefício do povo pobre e da educação. Agora, teremos que fa",
+      "publicado_em": "2026-11-27T14:01:00-03:00"
+    },
+    {
+      "fonte": "Agência Brasil",
+      "prioridade": 2,
+      "titulo": "Guia orienta estados e municípios a acolher migrantes e refugiados",
+      "link": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-11/guia-orienta-estados-e-municipios-acolher-migrantes-e-refugiados",
+      "resumo": "O Ministério da Justiça e Segurança Pública (MJSP) e a Agência da Organização das Nações Unidas (ONU) para Refugiados (Acnur) divulgaram, nesta sexta-feira (27), um guia com orientações para auxiliar estados e municípios a elaborarem políticas e desenvolverem ações de acolhimento e integração de pes",
+      "publicado_em": "2026-11-27T14:04:00-03:00"
+    },
+    {
+      "fonte": "Agência Brasil",
+      "prioridade": 2,
+      "titulo": "Brasil tem 387 mil crianças e adolescentes em união conjugal",
+      "link": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-11/brasil-tem-387-mil-criancas-e-adolescentes-em-uniao-conjugal",
+      "resumo": "Quase 400 mil crianças e adolescentes brasileiros viviam em união conjugal em 2022. O perfil mais comum do grupo é o de menina na adolescência, próxima dos 17 anos, preta ou parda, moradora de família de baixa renda e vivendo em união informal, sem registro civil ou religioso. Ela tem mais chances d",
+      "publicado_em": "2026-11-27T14:05:00-03:00"
+    }
+  ]
+}
