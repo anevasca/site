@@ -1,12 +1,12 @@
 """Gera as páginas de compartilhamento (m/*.html) e o sitemap.xml de A Nevasca.
 
-Cada matéria (da edição e das publicadas ao longo do dia), editorial e coluna ganha uma página curta com título, resumo e
-imagem para a prévia do WhatsApp/Facebook/X, que leva o leitor à página
-completa no site. Rode depois de atualizar edicao.json, edicoes/, ultimas/ ou colunas.json:
+Gera páginas completas com endereço canônico próprio e metadados para
+compartilhamento. Rode depois de atualizar edicao.json, edicoes/, ultimas/ ou colunas.json:
 
     python3 build.py
 """
-import glob, hashlib, html, json, os
+import glob, hashlib, html, json, os, re
+from pathlib import Path
 
 BASE = "https://anevasca.com.br"
 e = lambda s: html.escape(str(s or ""), quote=True)
@@ -22,16 +22,16 @@ def artigos(ed):
     pre = f"ed-{ed['data']}-"
     m, ed_ = ed["manchete"], ed["editorial"]
     img = lambda a: (a.get("imagem") or {}).get("arquivo")
-    yield pre + "manchete", m["titulo"], m.get("linhaFina") or m["texto"][0], img(m), "Manchete · " + m.get("secao", "")
+    yield pre + "manchete", m["titulo"], m.get("linhaFina") or m["texto"][0], img(m), "Manchete · " + m.get("secao", ""), m
     for i, a in enumerate(ed.get("politica", []), 1):
-        yield f"{pre}politica-{i}", a["titulo"], a["resumo"], img(a), "Brasília · " + a.get("secao", "")
+        yield f"{pre}politica-{i}", a["titulo"], a["resumo"], img(a), "Brasília · " + a.get("secao", ""), a
     for i, a in enumerate(ed.get("destaques", []), 1):
-        yield f"{pre}destaque-{i}", a["titulo"], a["resumo"], img(a), "Economia · " + a.get("secao", "")
+        yield f"{pre}destaque-{i}", a["titulo"], a["resumo"], img(a), "Economia · " + a.get("secao", ""), a
     for i, a in enumerate(ed.get("mundo", []), 1):
-        yield f"{pre}mundo-{i}", a["titulo"], a["resumo"], img(a), "Mundo · " + a.get("secao", "")
+        yield f"{pre}mundo-{i}", a["titulo"], a["resumo"], img(a), "Mundo · " + a.get("secao", ""), a
     for i, a in enumerate(ed.get("cultura", []), 1):
-        yield f"{pre}cultura-{i}", a["titulo"], a["resumo"], img(a), "Cultura & Games · " + a.get("secao", "")
-    yield pre + "editorial", "Editorial: " + ed_["titulo"], ed_["texto"][0], None, "Editorial"
+        yield f"{pre}cultura-{i}", a["titulo"], a["resumo"], img(a), "Cultura & Games · " + a.get("secao", ""), a
+    yield pre + "editorial", "Editorial: " + ed_["titulo"], ed_["texto"][0], None, "Editorial", ed_
 
 
 # ---------- Cartão de compartilhamento (imagem 1200x630 com o título) ----------
@@ -109,40 +109,127 @@ def cartao(pid, titulo, rotulo, data):
     return destino
 
 
-def pagina(pid, titulo, desc, img=None):
-    destino = f"{BASE}/#{pid}"
+MAIN = re.compile(r'(<main id="conteudo">).*?(</main>)', re.S)
+CARD_HEAD = re.compile(r'<title>.*?</title>\s*<meta name="description"[^>]*>.*?<meta name="twitter:card"[^>]*>', re.S)
+LOADING = '<div class="carregando">Carregando a edição de hoje…</div>'
+
+
+def substituir_conteudo(template, conteudo):
+    return MAIN.sub(lambda m: m[1] + conteudo + m[2], template, count=1)
+
+
+def figura(foto):
+    if not foto or not foto.get("arquivo"):
+        return ""
+    arquivo = "/" + foto["arquivo"].lstrip("/")
+    legenda = e(foto.get("legenda"))
+    credito = e(foto.get("credito"))
+    return (f'<figure class="foto"><img src="{e(arquivo)}" alt="{legenda}">'
+            f'<figcaption>{legenda}{(" <span>" + credito + "</span>") if credito else ""}</figcaption></figure>')
+
+
+def corpo(artigo):
+    blocos = []
+    for pos, paragrafo in enumerate(artigo.get("texto") or [artigo.get("resumo")], 1):
+        if paragrafo:
+            blocos.append(f'<p>{e(paragrafo)}</p>')
+        for extra in artigo.get("ilustracoes", []):
+            if extra["apos"] != pos:
+                continue
+            blocos.extend(figura(foto) for foto in extra.get("fotos", []))
+            if extra.get("intertitulo"):
+                blocos.append(f'<h3>{e(extra["intertitulo"])}</h3>')
+    fontes = [f'<a href="{e(fonte["url"])}">{e(fonte["nome"])}</a>'
+              for fonte in artigo.get("fontes", []) if fonte.get("url")]
+    if fontes:
+        links = ", ".join(fontes)
+        blocos.append(f'<p class="fontes">Fontes: {links}</p>')
+    return "".join(blocos)
+
+
+def pagina(template, pid, titulo, desc, img, artigo, rotulo, data):
     url = f"{BASE}/m/{pid}.html"
-    return f"""<!DOCTYPE html>
-<html lang="pt-BR"><head><meta charset="utf-8">
-<title>{e(titulo)} — A Nevasca</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    imagem = f"{BASE}/{(img or 'og.png').lstrip('/')}"
+    deck = artigo.get("linhaFina")
+    noticia = not rotulo.startswith(("Editorial", "O Doido Sensato"))
+    autoria = artigo.get("autor")
+    if not autoria and pid.startswith("coluna-"):
+        autoria = "Doido Neves"
+    schema = {"@context": "https://schema.org", "@type": "NewsArticle" if noticia else "Article",
+              "headline": titulo, "description": resumo(desc), "image": imagem,
+              "datePublished": data, "mainEntityOfPage": url,
+              "publisher": {"@type": "Organization", "name": "A Nevasca", "url": BASE}}
+    if autoria:
+        schema["author"] = {"@type": "Person", "name": autoria}
+    jsonld = json.dumps(schema, ensure_ascii=False).replace("<", "\\u003c")
+    meta = f"""<title>{e(titulo)} — A Nevasca</title>
 <meta name="description" content="{e(resumo(desc))}">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="A Nevasca">
 <meta property="og:title" content="{e(titulo)}">
 <meta property="og:description" content="{e(resumo(desc))}">
-<meta property="og:image" content="{BASE}/{img or 'og.png'}">
+<meta property="og:image" content="{e(imagem)}">
 <meta property="og:url" content="{url}">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="canonical" href="{destino}">
-<meta http-equiv="refresh" content="0; url={destino}">
-<script>(function(){{var r="";try{{r=document.referrer?new URL(document.referrer).hostname:""}}catch(e){{}}location.replace({json.dumps(BASE + "/")}+(r?"?ref="+encodeURIComponent(r):"")+{json.dumps("#" + pid)});}})();</script>
-</head><body style="font-family:Georgia,serif;max-width:640px;margin:40px auto;padding:0 16px">
-<p><a href="{destino}">{e(titulo)}</a> — A Nevasca</p>
-</body></html>
-"""
+<link rel="canonical" href="{url}">
+<script type="application/ld+json">{jsonld}</script>"""
+    html_pagina = CARD_HEAD.sub(lambda _: meta, template, count=1)
+    html_pagina = html_pagina.replace("<head>", '<head>\n<base href="/">', 1)
+    html_pagina = html_pagina.replace("<body>", f'<body data-artigo="{e(pid)}">', 1)
+    linha_fina = f'<p class="fina">{e(deck)}</p>' if deck else ""
+    conteudo = (f'<article class="artigo-pag"><p class="migalha"><a href="/">Capa</a></p>'
+                f'<p class="kicker">{e(rotulo)}</p><h1>{e(titulo)}</h1>{linha_fina}'
+                f'<p class="assinatura">{e(autoria or "Da redação")} · {e(data)}</p>'
+                f'{figura(artigo.get("imagem"))}<div class="corpo">{corpo(artigo)}</div></article>')
+    return substituir_conteudo(html_pagina, conteudo)
+
+
+def capa_estatica(ed):
+    items = list(artigos(ed))
+    esquerda = []
+    grupos = {"Política": [], "Mundo": [], "Cultura & Games": []}
+    editorial = ""
+    centro = ""
+    for pid, titulo, desc, _, rotulo, artigo in items:
+        link = f'<a href="/m/{e(pid)}.html">{e(titulo)}</a>'
+        if pid.endswith("-manchete"):
+            texto = "".join(f'<p>{e(p)}</p>' for p in artigo["texto"][:3])
+            centro = (f'<article class="manchete"><p class="kicker">{e(artigo.get("secao"))}</p>'
+                      f'<h1>{link}</h1><p class="fina">{e(desc)}</p>{figura(artigo.get("imagem"))}'
+                      f'<div class="texto">{texto}</div></article>')
+        elif pid.endswith("-editorial"):
+            editorial = (f'<aside class="editorial"><div class="selo"><span>Editorial</span>'
+                         f'<em>Opinião do jornal</em></div><h2>{link}</h2><p>{e(desc)}</p></aside>')
+        elif "-destaque-" in pid:
+            esquerda.append(f'<article class="destaque"><p class="kicker azul">{e(artigo.get("secao"))}</p>'
+                            f'<h2>{link}</h2><p>{e(desc)}</p></article>')
+        else:
+            grupo = "Política" if "-politica-" in pid else "Mundo" if "-mundo-" in pid else "Cultura & Games"
+            grupos[grupo].append(f'<article><p class="kicker azul">{e(artigo.get("secao"))}</p>'
+                                 f'<h4>{link}</h4><p>{e(desc)}</p></article>')
+    grades = "".join(f'<section class="secao"><h3>{e(nome)}</h3><div class="grade4">{"".join(cards)}</div></section>'
+                     for nome, cards in grupos.items() if cards)
+    return (f'<section class="capa"><div class="col">{"".join(esquerda)}</div>'
+            f'<div class="col centro">{centro}</div><div class="col">{editorial}</div></section>{grades}')
 
 
 def main():
     os.makedirs("m", exist_ok=True)
     urls = [BASE + "/"]
     n = 0
+    index = Path("index.html")
+    atual = json.loads(Path("edicao.json").read_text(encoding="utf-8"))
+    template = substituir_conteudo(index.read_text(encoding="utf-8"), LOADING)
+    if '<link rel="canonical"' not in template:
+        template = template.replace("</head>", f'<link rel="canonical" href="{BASE}/">\n</head>', 1)
+    index.write_text(substituir_conteudo(template, capa_estatica(atual)), encoding="utf-8")
+    template = template.replace(f'<link rel="canonical" href="{BASE}/">\n', "", 1)
     for f in sorted(glob.glob("edicoes/*.json")):
         ed = json.load(open(f, encoding="utf-8"))
         for item in artigos(ed):
-            pid, t, d, img, rot = item
+            pid, t, d, img, rot, artigo = item
             img = img or cartao(pid, t.replace("Editorial: ", "", 1), rot, ed["data"])
-            open(f"m/{pid}.html", "w", encoding="utf-8").write(pagina(pid, t, d, img))
+            open(f"m/{pid}.html", "w", encoding="utf-8").write(pagina(template, pid, t, d, img, artigo, rot, ed["data"]))
             urls.append(f"{BASE}/m/{pid}.html"); n += 1
     # Matérias publicadas ao longo do dia: ultimas/AAAA-MM-DD.json (lista em ordem de publicação)
     for f in sorted(glob.glob("ultimas/*.json")):
@@ -151,7 +238,7 @@ def main():
             pid = f"ed-{data}-ultima-{i}"
             d = u.get("resumo") or u.get("linhaFina") or (u.get("texto") or [""])[0]
             img = (u.get("imagem") or {}).get("arquivo") or cartao(pid, u["titulo"], "Ao longo do dia · " + u.get("secao", ""), data)
-            open(f"m/{pid}.html", "w", encoding="utf-8").write(pagina(pid, u["titulo"], d, img))
+            open(f"m/{pid}.html", "w", encoding="utf-8").write(pagina(template, pid, u["titulo"], d, img, u, "Ao longo do dia · " + u.get("secao", ""), data))
             urls.append(f"{BASE}/m/{pid}.html"); n += 1
     if os.path.exists("colunas.json"):
         for c in json.load(open("colunas.json", encoding="utf-8")):
@@ -159,11 +246,11 @@ def main():
             t = f"{c['titulo']} — Doido Neves"
             d = c.get("linhaFina") or (c.get("texto") or [""])[0]
             img = cartao(pid, c["titulo"], "O Doido Sensato · Doido Neves", c.get("data", ""))
-            open(f"m/{pid}.html", "w", encoding="utf-8").write(pagina(pid, t, d, img))
+            open(f"m/{pid}.html", "w", encoding="utf-8").write(pagina(template, pid, t, d, img, c, "O Doido Sensato · Opinião", c.get("data", "")))
             urls.append(f"{BASE}/m/{pid}.html"); n += 1
     # Apaga cartões que nenhuma página usa mais (títulos corrigidos)
     for f in glob.glob("cartoes/*.jpg"):
-        if f not in USADOS:
+        if Path(f).as_posix() not in USADOS:
             os.remove(f)
     sm = ['<?xml version="1.0" encoding="UTF-8"?>',
           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
