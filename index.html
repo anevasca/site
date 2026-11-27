@@ -112,6 +112,9 @@
   footer{padding:28px 0 50px;font-family:var(--sans);font-size:13px;color:var(--cinza)}
   footer .marca{font-size:40px;color:var(--tinta)}
   .rodape{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:30px;margin-top:10px}
+  .rodape-podcast{display:grid;gap:10px;width:min(100%,240px);margin-top:20px;color:var(--azul);font-weight:700}
+  .rodape-podcast img{display:block;width:100%;height:auto;border:1px solid var(--linha)}
+  .rodape-podcast:hover span,.rodape-podcast:focus-visible span{text-decoration:underline}
   .rodape h5{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--tinta);margin:0 0 8px}
   .rodape p{margin:0 0 8px;line-height:1.5}
   .arquivo a{display:block;color:var(--azul);margin:0 0 4px}
@@ -335,6 +338,10 @@ window.addEventListener("hashchange",function(){if(/^#(redacao|roteiro)/.test(lo
       <div>
         <h5>Linha editorial</h5>
         <p>A Nevasca é um jornal de convicção reformada e conservadora: cremos que Cristo é Senhor de cada centímetro da vida, e por isso defendemos o governo limitado, a liberdade econômica, a responsabilidade fiscal, a família, a igreja livre e a justiça na rua. As notícias trazem os fatos com links para as fontes. A opinião vem sempre identificada como <strong>Editorial</strong> ou <strong>Opinião</strong>.</p>
+        <a class="rodape-podcast" href="https://open.spotify.com/show/6P4XdGoHyP2Goz3Q7Z1JPL" target="_blank" rel="noopener">
+          <img src="/podcast-logo.webp" alt="A Nevasca em 10 Minutos" width="480" height="480" loading="lazy">
+          <span>Ouça no Spotify →</span>
+        </a>
       </div>
       <div class="arquivo" id="arquivo">
         <h5>Edições anteriores</h5>
@@ -344,7 +351,6 @@ window.addEventListener("hashchange",function(){if(/^#(redacao|roteiro)/.test(lo
         <h5>Expediente</h5>
         <p><strong>Editor responsável:</strong> Junior Neves</p>
         <p><strong>Fale com a redação:</strong><br><a href="mailto:redacaoanevasca@gmail.com" style="color:var(--azul)">redacaoanevasca@gmail.com</a></p>
-        <p><strong>Ouça o podcast:</strong><br><a href="https://open.spotify.com/show/6P4XdGoHyP2Goz3Q7Z1JPL" target="_blank" rel="noopener" style="color:var(--azul)">Nevasca em 10 minutos, no Spotify</a></p>
         <p><strong>Siga no X:</strong><br><a href="https://x.com/anevasca_br" target="_blank" rel="noopener" style="color:var(--azul)">@anevasca_br</a></p>
         <p><a href="#criterios" style="color:var(--azul);font-weight:700">Nossos critérios e política de correções →</a></p>
         <h5 style="margin-top:14px">Como é feito</h5>
