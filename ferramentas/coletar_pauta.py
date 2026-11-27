@@ -35,7 +35,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 FONTES = RAIZ / "ferramentas" / "fontes_rss.json"
 PASTA_SAIDA = RAIZ / "pauta"
 
-USER_AGENT = "Mozilla/5.0 (compatible; ANevascaColetorDePauta/1.0; +https://anevasca.com.br)"
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 TIMEOUT_SEGUNDOS = 20
 FUSO_BR = timezone(timedelta(hours=-3))
 
@@ -119,26 +119,37 @@ def coletar_fonte(fonte, avisos, agora):
     # algumas fontes (ex.: Banco Central) colocam o ano na URL do feed; "{ano}"
     # no fontes_rss.json vira o ano atual, assim não precisa editar o JSON
     # toda virada de ano.
-    url = fonte["url"].replace("{ano}", str(agora.year))
-    try:
-        bruto = buscar_feed(url)
-    except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, OSError) as e:
-        avisos.append(f"{nome}: não deu para buscar ({e})")
-        return []
+    # "url" (uma só) ou "urls" (lista) — tenta cada uma em ordem, usa a
+    # primeira que responder com itens. Útil para fonte que tem um endereço
+    # "oficial" que às vezes para de funcionar e um de reserva.
+    candidatas_url = fonte.get("urls") or [fonte["url"]]
+    erros_desta_fonte = []
 
-    try:
-        itens = extrair_itens_elementtree(bruto)
-    except ElementTree.ParseError as e:
-        avisos.append(f"{nome}: XML não bem formado, tentando modo tolerante ({e})")
+    for url_bruta in candidatas_url:
+        url = url_bruta.replace("{ano}", str(agora.year))
         try:
-            itens = extrair_itens_regex(bruto.decode("utf-8", errors="replace"))
-        except Exception as e2:
-            avisos.append(f"{nome}: falhou também no modo tolerante ({e2})")
-            return []
+            bruto = buscar_feed(url)
+        except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, OSError) as e:
+            erros_desta_fonte.append(f"{url}: {e}")
+            continue
 
-    if not itens:
-        avisos.append(f"{nome}: feed respondeu, mas sem itens reconhecíveis")
-    return itens
+        try:
+            itens = extrair_itens_elementtree(bruto)
+        except ElementTree.ParseError as e:
+            avisos.append(f"{nome}: XML não bem formado em {url}, tentando modo tolerante ({e})")
+            try:
+                itens = extrair_itens_regex(bruto.decode("utf-8", errors="replace"))
+            except Exception as e2:
+                erros_desta_fonte.append(f"{url}: falhou também no modo tolerante ({e2})")
+                continue
+
+        if itens:
+            return itens
+        erros_desta_fonte.append(f"{url}: respondeu, mas sem itens reconhecíveis")
+
+    for msg in erros_desta_fonte:
+        avisos.append(f"{nome}: {msg}")
+    return []
 
 
 def main():

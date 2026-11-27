@@ -15,7 +15,7 @@
     "nome": "Paulo Figueiredo Show",
     "url": "https://realpfigueiredo.substack.com/feed",
     "prioridade": 1,
-    "observacao": "A CONFIRMAR: pedido do Junior. O programa publica como newsletter no Substack (PF Bullet-in); essa é a URL padrão de feed do Substack, mas ainda não testei ao vivo (ferramenta de teste bloqueada no momento). O script só avisa e segue sem essa fonte se a URL estiver errada."
+    "observacao": "A CONFIRMAR: pedido do Junior. No teste ao vivo em 27/11/2026 deu erro 403 (bloqueio de robô do Substack). Troquei o identificador do coletor para parecer um navegador comum — precisa confirmar numa próxima rodada se isso resolve."
   },
   {
     "nome": "Agência Brasil",
@@ -25,9 +25,13 @@
   },
   {
     "nome": "Agência Câmara de Notícias",
-    "url": "https://www2.camara.leg.br/agencia-app/agenciaCamaraRSS",
+    "urls": [
+      "https://www2.camara.leg.br/agencia-app/agenciaCamaraRSS",
+      "https://www2.camara.leg.br/agencia-app/agenciaCamaraRSS/POLITICA",
+      "https://www2.camara.leg.br/agencia-app/agenciaCamaraRSS/ECONOMIA"
+    ],
     "prioridade": 2,
-    "observacao": "A CONFIRMAR: a URL antiga (.gov.br) deu 404 ao vivo em 27/11/2026. Troquei para o domínio atual (.leg.br), mesmo caminho — precisa confirmar numa próxima rodada do Actions."
+    "observacao": "A CONFIRMAR: o feed geral deu 404 tanto no domínio antigo (.gov.br) quanto no atual (.leg.br) nos testes ao vivo em 27/11/2026. Acrescentei dois feeds por tema (Política, Economia) como reserva — o script tenta cada URL da lista em ordem e usa a primeira que responder."
   },
   {
     "nome": "Agência Senado",
@@ -45,6 +49,6 @@
     "nome": "Banco Central do Brasil (notícias)",
     "url": "https://www.bcb.gov.br/api/feed/sitebcb/sitefeeds/noticias?ano={ano}",
     "prioridade": 2,
-    "observacao": "A CONFIRMAR: achado por busca (agregador feeder.co mostra esse feed ativo, com posts recentes). O \"{ano}\" vira o ano de hoje sozinho (ver coletar_pauta.py). Ainda não testei ao vivo. Alternativa, se essa falhar: https://www.bcb.gov.br/api/feed/sitebcb/sitefeeds/notasImprensa?ano={ano}"
+    "observacao": "Confirmado ao vivo em 27/11/2026 (rodando no Actions). O \"{ano}\" vira o ano de hoje sozinho (ver coletar_pauta.py)."
   }
 ]
