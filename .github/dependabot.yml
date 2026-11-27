@@ -1,0 +1,13 @@
+version: 2
+updates:
+  # Mantém as Actions de terceiros (checkout, setup-python, deploy-pages etc.)
+  # atualizadas automaticamente. Sempre que sair uma versão nova, o Dependabot
+  # abre um Pull Request sozinho — a publicação (publicar.yml) não roda PR,
+  # só push direto na main, então nada é publicado sem alguém (ou outra IA)
+  # revisar e dar merge.
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "deps(actions)"
