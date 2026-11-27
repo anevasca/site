@@ -1,0 +1,89 @@
+[
+  {
+    "hora": "12h00",
+    "secao": "Economia",
+    "titulo": "Desemprego cai para 5,1% e iguala o menor nível da série do IBGE",
+    "linhaFina": "O país tem 5,6 milhões de desocupados no trimestre até outubro. O número de ocupados ficou estável, em 103,7 milhões, o maior da pesquisa.",
+    "resumo": "A taxa de desemprego caiu para 5,1% no trimestre até outubro, segundo o IBGE. É o mesmo nível de dezembro de 2025, o mais baixo da série. São 5,6 milhões de pessoas procurando trabalho, 252 mil a menos que no trimestre até julho.",
+    "texto": [
+      "A taxa de desemprego caiu para 5,1% no trimestre de agosto a outubro, informou o IBGE nesta sexta-feira (27). O índice iguala o menor patamar da série histórica, registrado em dezembro de 2025.",
+      "O número de pessoas trabalhando ficou estável. Segundo o instituto, os ocupados somaram 103,7 milhões, número considerado estatisticamente estável em relação ao trimestre até julho, embora seja o maior já registrado pela pesquisa. Para o analista da pesquisa William Kratochwill, o contingente \"alcançou o patamar recorde da série histórica\".",
+      "O total de desocupados, que são as pessoas que procuram emprego e não encontram, caiu para 5,6 milhões. São 252 mil a menos que no trimestre até julho, quando a taxa estava em 5,3%, e 344 mil a menos que um ano antes, quando ela era de 5,4%. O resultado ficou igual à mediana das projeções de mercado reunidas pelo Projeções Broadcast, que iam de 5% a 5,3%.",
+      "Em 12 meses, o país ganhou 1,1 milhão de ocupados, alta de 1,1%. O nível de ocupação, que mede a parcela das pessoas em idade de trabalhar que estão empregadas, chegou a 59%.",
+      "O número de empregados com carteira assinada no setor privado ficou em 39,4 milhões, estável no trimestre e no ano, segundo a Agência Gov. O setor público empregava 13,2 milhões, alta de 1,6% no trimestre, e o país tinha 4,5 milhões de empregadores, 6,5% a mais que um ano antes. O rendimento médio real foi de R$ 3.812. A massa de rendimentos, soma do que todos os trabalhadores recebem, chegou a R$ 390,3 bilhões, alta de 4,6% em um ano.",
+      "Também segundo a Agência Gov, os desalentados, que desistiram de procurar trabalho, somaram 2,4 milhões, queda de 8,9% em 12 meses. A taxa de subutilização, que inclui quem trabalha menos horas do que gostaria, caiu para 12,7%."
+    ],
+    "fontes": [
+      {
+        "nome": "O Povo (Agência Estado)",
+        "url": "https://www.opovo.com.br/noticias/economia/2026/11/27/taxa-de-desemprego-fica-em-51-no-trimestre-ate-outubro-revela-ibge.html"
+      },
+      {
+        "nome": "Via Morena (Agência Gov)",
+        "url": "https://www.viamorena.com/economia/taxa-de-desemprego-cai-para-51-no-pais-e-iguala-menor-patamar-da-serie/"
+      },
+      {
+        "nome": "Tribuna do Sertão",
+        "url": "https://www.tribunadosertao.com.br/geral/2026/11/27/1031425-taxa-de-desemprego-em-51-no-trimestre-ate-outubro-aponta-ibge"
+      }
+    ],
+    "grafico": {
+      "tipo": "barras",
+      "titulo": "Taxa de desemprego",
+      "subtitulo": "Trimestres móveis, em %",
+      "prefixo": "",
+      "sufixo": "%",
+      "casas": 1,
+      "dados": [
+        {
+          "rotulo": "Ago-out/2025",
+          "valor": 5.4,
+          "destaque": false
+        },
+        {
+          "rotulo": "Mai-jul/2026",
+          "valor": 5.3,
+          "destaque": false
+        },
+        {
+          "rotulo": "Ago-out/2026",
+          "valor": 5.1,
+          "destaque": true
+        }
+      ],
+      "fonte": {
+        "nome": "IBGE, via Agência Gov",
+        "url": "https://www.viamorena.com/economia/taxa-de-desemprego-cai-para-51-no-pais-e-iguala-menor-patamar-da-serie/"
+      }
+    }
+  },
+  {
+    "hora": "12h00",
+    "secao": "Mercados",
+    "titulo": "Dólar cai mais de 4% e desce a R$ 5,48 com a escolha de Trabuco; Bolsa passa de 183 mil pontos",
+    "linhaFina": "Perto do meio-dia, o ganho tinha encolhido: queda de 3% no dólar e alta de 1,38% no Ibovespa às 11h40. Trabuco só assume a Fazenda em 2027.",
+    "resumo": "O dólar chegou a cair mais de 4% nesta sexta e bateu R$ 5,48 no meio da manhã. A Bolsa subiu quase 4% e passou de 183 mil pontos. Perto do meio-dia, os dois movimentos tinham perdido força. É o primeiro pregão depois que o Planalto confirmou Luiz Carlos Trabuco na Fazenda a partir de 2027.",
+    "texto": [
+      "O dólar chegou a cair 4,6% nesta sexta-feira (27) e tocou R$ 5,48 às 10h40, segundo o Seu Dinheiro. É o primeiro pregão completo depois que Luiz Carlos Trabuco aceitou comandar a Fazenda no próximo mandato de Lula.",
+      "Perto do meio-dia, o movimento tinha perdido força. Às 11h40, a moeda caía 3%, e o Ibovespa, que tinha subido 3,86% e chegado a 183.623 pontos às 10h40, avançava 1,38%, também segundo o Seu Dinheiro. A InfoMoney registrava no mesmo período que a Bolsa subia, mas tinha reduzido o ritmo de alta.",
+      "A BPMoney também apontou queda de mais de 4% do dólar no início da manhã. Às 10h, a moeda renovou a mínima do dia, com recuo de 4,28%, a R$ 5,497. Às 10h10, o Ibovespa subia 3,76%, aos 183.439 pontos. Entre as ações, a da própria B3 subiu 10,15% na abertura, a do Banco do Brasil, 8,59%, e a preferencial da Petrobras, 3,82%, segundo o site.",
+      "Pela intensidade da queda, a B3 ampliou o limite de oscilação para baixo dos contratos de dólar e minidólar para 8,4%, só nesta sessão, informou o Seu Dinheiro. Na quinta-feira (26), o Ibovespa já tinha fechado em alta de 6,07%, aos 176.799 pontos, e o dólar, em queda de 1,25%, a R$ 5,74, segundo a InfoMoney.",
+      "Para Rebecca Nossig, estrategista da Nomad, a escolha representa \"uma inflexão decisiva na condução da política econômica\", disse ao Seu Dinheiro. Segundo a BPMoney, o Citi avalia que a chegada de Trabuco reacende apostas numa agenda favorável ao mercado.",
+      "A troca no ministério só ocorre em 2027. Até lá, a Fazenda continua com Dario Durigan, que escreveu no X que o futuro ministro poderá contar com a equipe da pasta. Os números do pregão ainda podem mudar até o fechamento."
+    ],
+    "fontes": [
+      {
+        "nome": "Seu Dinheiro",
+        "url": "https://www.seudinheiro.com/2026/bolsa-dolar/efeito-trabuco-leva-ibovespa-aos-182-mil-pontos-e-derruba-dolar-em-mais-de-3-davs/"
+      },
+      {
+        "nome": "BPMoney",
+        "url": "https://bpmoney.com.br/economia/ibovespa-dispara-376-com-trabuco-na-fazenda-dolar-cai-mais-de-4/"
+      },
+      {
+        "nome": "InfoMoney | Ao vivo",
+        "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-27112026/"
+      }
+    ]
+  }
+]
