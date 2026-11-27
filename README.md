@@ -13,6 +13,8 @@ Jornal digital de convicção reformada e conservadora — https://anevasca.com.
 - `pdf/AAAA-MM-DD.pdf` — edição impressa (8 páginas: 2 folhas A4 frente e verso, encaixadas e dobradas ao meio).
 - `m/*.html` — páginas de compartilhamento com prévia (WhatsApp, Facebook, X). Geradas por `python3 build.py`.
 - `CNAME` — domínio próprio (anevasca.com.br). Não apagar.
+- `CONTRATO.md` — contrato de conteúdo para qualquer IA gerar uma edição ou matéria, no formato certo, sem precisar mexer em código ou em git.
+- `ESTADO-HOJE.md` — o que já saiu hoje e o que falta, para retomar o trabalho com outra IA sem perder contexto.
 
 ## Rotina diária
 1. Atualizar `edicao.json`, criar `edicoes/AAAA-MM-DD.json` e pôr a entrada nova no início de `arquivo.json`.
