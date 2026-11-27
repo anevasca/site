@@ -1,0 +1,38 @@
+[
+  {
+    "nome": "Revista Oeste",
+    "url": "https://revistaoeste.com/feed/",
+    "prioridade": 1,
+    "observacao": "Confirmar: pode estar bloqueado para robôs (erro ao testar fora do Actions). Se falhar sempre, ajuste a URL aqui."
+  },
+  {
+    "nome": "Gazeta do Povo",
+    "url": "https://www.gazetadopovo.com.br/feed/rss/ultimas-noticias.xml",
+    "prioridade": 1,
+    "observacao": "Confirmado em 27/11/2026."
+  },
+  {
+    "nome": "Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/feed/ultimasnoticias/feed.xml",
+    "prioridade": 2,
+    "observacao": "Confirmado em 27/11/2026."
+  },
+  {
+    "nome": "Agência Câmara de Notícias",
+    "url": "http://www2.camara.gov.br/agencia-app/agenciaCamaraRSS",
+    "prioridade": 2,
+    "observacao": "Confirmado em 27/11/2026 (URL oficial listada pela própria Câmara)."
+  },
+  {
+    "nome": "Agência Senado",
+    "url": "https://www12.senado.leg.br/noticias/ultimas/RSS",
+    "prioridade": 2,
+    "observacao": "Confirmar: não achei um link de RSS claro na página; essa URL é um palpite a partir do padrão do site."
+  },
+  {
+    "nome": "Agência IBGE de Notícias",
+    "url": "https://agenciadenoticias.ibge.gov.br/agencia-rss",
+    "prioridade": 2,
+    "observacao": "Confirmado em 27/11/2026."
+  }
+]

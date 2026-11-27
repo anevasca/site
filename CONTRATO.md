@@ -8,6 +8,13 @@ aplica o JSON ao site é sempre um processo separado (o Junior colando no GitHub
 IA com acesso real ao repositório). Se alguém pedir para você "publicar" ou "subir pro
 site", seu trabalho é só gerar o JSON certo — pare aí.
 
+**Antes de pesquisar na web:** olhe se existe `pauta/candidatas-AAAA-MM-DD.json` para a
+data de hoje. Esse arquivo é gerado todo dia, automaticamente, a partir de feeds RSS da
+Oeste, da Gazeta, da Agência Brasil, da Agência Câmara, da Agência Senado e do IBGE.
+Prefira escolher e apurar a partir dessa lista — é mais barato do que pesquisar do zero.
+Se o arquivo não existir, estiver vazio, ou o `avisos` dentro dele mostrar que todas as
+fontes falharam, aí sim pesquise por conta própria.
+
 ## 1. Regras não negociáveis (sempre, de qualquer IA)
 
 1. **Matéria publicada não se muda.** Nunca edite um arquivo já existente em `edicoes/` ou

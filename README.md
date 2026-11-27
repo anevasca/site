@@ -8,6 +8,7 @@ Jornal digital de convicção reformada e conservadora — https://anevasca.com.
 - `edicoes/AAAA-MM-DD.json` — cópia de cada edição (arquivo e links permanentes). Nunca apagar.
 - `arquivo.json` — lista de edições, a mais recente primeiro.
 - `ultimas/AAAA-MM-DD.json` — matérias publicadas ao longo do dia (seção "Últimas notícias"), em ordem de publicação. Só se acrescenta no fim; nunca se altera o que já foi publicado. Cada item: hora, secao, titulo, linhaFina, resumo, texto[], fontes[], e opcionais urgente (true só para fato muito grande) e grafico.
+- `pauta/candidatas-AAAA-MM-DD.json` — candidatas a matéria coletadas automaticamente dos feeds RSS (`ferramentas/coletar_pauta.py`, via `.github/workflows/coletar_pauta.yml`, todo dia antes das 6h43). Quem monta a edição lê esse arquivo em vez de pesquisar do zero; se estiver vazio ou faltando, pesquisa por conta própria.
 - `grafico` (opcional em qualquer matéria): {tipo: "linha" ou "barras", titulo, subtitulo, prefixo, sufixo, casas, dados: [{rotulo, valor, destaque}], fonte: {nome, url}, nota}. Só com números das fontes citadas.
 - `colunas.json` — coluna "O Doido Sensato", de Doido Neves. Só muda quando o Junior manda um texto.
 - `pdf/AAAA-MM-DD.pdf` — edição impressa (8 páginas: 2 folhas A4 frente e verso, encaixadas e dobradas ao meio).

@@ -1,0 +1,42 @@
+name: Coletar pauta do dia
+
+# Roda todo dia antes da rotina das 6h43 (Brasília) e salva uma lista de
+# candidatas a matéria em pauta/candidatas-AAAA-MM-DD.json, a partir dos
+# feeds RSS em ferramentas/fontes_rss.json. A IA que monta a edição lê
+# esse arquivo em vez de pesquisar tudo do zero.
+#
+# Se uma fonte falhar, o script avisa e segue com as outras (ver
+# ferramentas/coletar_pauta.py). Só não gera nada se TODAS as fontes
+# falharem — nesse caso a rotina da manhã pesquisa por conta própria,
+# como já fazia antes.
+
+on:
+  schedule:
+    - cron: "0 9 * * *" # 06h00 em Brasília (UTC-3, sem horário de verão)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Coleta os feeds
+        run: python3 ferramentas/coletar_pauta.py
+      - name: Salva o resultado no repositório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add pauta/
+          if git diff --cached --quiet; then
+            echo "Nada novo para commitar."
+          else
+            git commit -m "Coleta a pauta do dia"
+            git push
+          fi
