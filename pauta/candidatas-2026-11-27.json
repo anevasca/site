@@ -1,12 +1,14 @@
 {
-  "gerado_em": "2026-11-27T14:53:24.183415-03:00",
+  "gerado_em": "2026-11-27T14:58:02.281260-03:00",
   "janela_horas": 20,
   "avisos": [
-    "Revista Oeste: XML não bem formado, tentando modo tolerante (unbound prefix: line 90, column 67)",
-    "Paulo Figueiredo Show: não deu para buscar (HTTP Error 403: Forbidden)",
-    "Agência Câmara de Notícias: não deu para buscar (HTTP Error 404: Not Found)",
-    "Agência Senado: XML não bem formado, tentando modo tolerante (mismatched tag: line 184, column 2)",
-    "Agência Senado: feed respondeu, mas sem itens reconhecíveis"
+    "Revista Oeste: XML não bem formado em https://revistaoeste.com/feed/, tentando modo tolerante (unbound prefix: line 113, column 67)",
+    "Paulo Figueiredo Show: https://realpfigueiredo.substack.com/feed: HTTP Error 403: Forbidden",
+    "Agência Câmara de Notícias: https://www2.camara.leg.br/agencia-app/agenciaCamaraRSS: HTTP Error 404: Not Found",
+    "Agência Câmara de Notícias: https://www2.camara.leg.br/agencia-app/agenciaCamaraRSS/POLITICA: HTTP Error 404: Not Found",
+    "Agência Câmara de Notícias: https://www2.camara.leg.br/agencia-app/agenciaCamaraRSS/ECONOMIA: HTTP Error 404: Not Found",
+    "Agência Senado: XML não bem formado em https://www12.senado.leg.br/noticias/ultimas/RSS, tentando modo tolerante (mismatched tag: line 184, column 2)",
+    "Agência Senado: https://www12.senado.leg.br/noticias/ultimas/RSS: respondeu, mas sem itens reconhecíveis"
   ],
   "candidatas": [
     {
@@ -658,14 +660,6 @@
       "publicado_em": "2026-11-27T16:17:57+00:00"
     },
     {
-      "fonte": "Revista Oeste",
-      "prioridade": 1,
-      "titulo": "Fachin decide manter prisão de ex-presidente do BRB",
-      "link": "https://revistaoeste.com/brasil/fachin-decide-manter-prisao-de-ex-presidente-do-brb/",
-      "resumo": "Em decisão assinada nesta quinta-feira, 26, o presidente do Supremo Tribunal Federal (STF) , Edson Fachin, negou um pedido da defesa e decidiu manter preso preventivamente Paulo Henrique Costa, ex-presidente do Banco de Brasília (BRB) — ele está no complexo penitenciário da Papudinha há mais de sete",
-      "publicado_em": "2026-11-27T16:21:09+00:00"
-    },
-    {
       "fonte": "Gazeta do Povo",
       "prioridade": 1,
       "titulo": "Moraes usou aviões da FAB 241 vezes em menos de quatro anos",
@@ -814,7 +808,7 @@
       "prioridade": 1,
       "titulo": "Tarcísio elogia escolha de Trabuco: ‘quem pode atrapalhar é o próprio PT’",
       "link": "https://revistaoeste.com/politica/tarcisio-elogia-escolha-de-trabuco-quem-pode-atrapalhar-e-o-proprio-pt/",
-      "resumo": "O governador de São Paulo, Tarcísio de Freitas, elogiou a escolha do banqueiro Luiz Carlos Trabuco, ex-presidente do Bradesco, para comandar o Ministério da Fazenda. Em declaração à coluna Painel, da Folha de S.Paulo , Tarcísio afirmou que o novo ministro terá como desafio lidar com o próprio PT. \"F",
+      "resumo": "O governador de São Paulo, Tarcísio de Freitas, elogiou a escolha do banqueiro Luiz Carlos Trabuco , ex-presidente do Bradesco, para comandar o Ministério da Fazenda. Tarcísio afirmou que o novo ministro terá como desafio lidar com o próprio PT. \"Foi uma escolha acertada, que dá credibilidade em um ",
       "publicado_em": "2026-11-27T17:48:59+00:00"
     },
     {
@@ -824,6 +818,14 @@
       "link": "https://revistaoeste.com/politica/tropas-de-el-salvador-vao-ficar-no-haiti-ate-outubro-de-2027/",
       "resumo": "As tropas de El Salvador permanecerão no Haiti até outubro de 2027, sob o comando do governo haitiano. O secretário de Comunicação do Executivo do país caribenho, Lucien Jura, confirmou o prazo nesta quinta-feira, 26, em Porto Príncipe. A decisão amplia por mais 12 meses a participação salvadorenha ",
       "publicado_em": "2026-11-27T17:51:17+00:00"
+    },
+    {
+      "fonte": "Revista Oeste",
+      "prioridade": 1,
+      "titulo": "Argentina aprova reforma que limita atuação do Banco Central",
+      "link": "https://revistaoeste.com/mundo/argentina-aprova-reforma-que-limita-atuacao-do-banco-central/",
+      "resumo": "O Congresso da Argentina concluiu nesta quinta-feira, 26, a aprovação de uma reforma que altera as regras de funcionamento do Banco Central e restringe o uso da instituição para financiar despesas do governo. A proposta, apresentada pelo presidente Javier Milei , proíbe a emissão de dinheiro para co",
+      "publicado_em": "2026-11-27T17:54:20+00:00"
     },
     {
       "fonte": "Banco Central do Brasil (notícias)",
@@ -908,14 +910,6 @@
     {
       "fonte": "Agência Brasil",
       "prioridade": 2,
-      "titulo": "Enade 2026: estudantes de 18 áreas fazem a prova neste domingo",
-      "link": "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-11/enade-2026-estudantes-de-18-areas-fazem-prova-neste-domingo",
-      "resumo": "O Exame Nacional de Desempenho dos Estudantes (Enade) 2026 será aplicado neste domingo (29), em todos os estados e no Distrito Federal, aos universitários de 18 cursos de bacharelado e superiores de tecnologia que serão avaliados neste ano. A participação é obrigatória para o estudante concluinte re",
-      "publicado_em": "2026-11-27T12:21:00-03:00"
-    },
-    {
-      "fonte": "Agência Brasil",
-      "prioridade": 2,
       "titulo": "TV Brasil: Sem Censura reúne Adriana Calcanhotto e Arnaldo Antunes",
       "link": "https://agenciabrasil.ebc.com.br/cultura/noticia/2026-11/tv-brasil-sem-censura-reune-adriana-calcanhotto-e-arnaldo-antunes",
       "resumo": "O programa Sem Censura reúne a dupla Adriana Calcanhotto e Arnaldo Antunes para conversar sobre a mais recente parceria nesta sexta (27), às 16h, na TV Brasil . No papo com Cissa Guimarães, eles apresentam o projeto Vice-Versa , primeiro álbum em conjunto. O ator Gregório Duvivier e a psicóloga Virg",
@@ -984,6 +978,14 @@
       "link": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-11/brasil-tem-387-mil-criancas-e-adolescentes-em-uniao-conjugal",
       "resumo": "Quase 400 mil crianças e adolescentes brasileiros viviam em união conjugal em 2022. O perfil mais comum do grupo é o de menina na adolescência, próxima dos 17 anos, preta ou parda, moradora de família de baixa renda e vivendo em união informal, sem registro civil ou religioso. Ela tem mais chances d",
       "publicado_em": "2026-11-27T14:05:00-03:00"
+    },
+    {
+      "fonte": "Agência Brasil",
+      "prioridade": 2,
+      "titulo": "Selo Não é Não – Mulheres Seguras é lançado hoje em bares brasileiros",
+      "link": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-11/selo-nao-e-nao-mulheres-seguras-e-lancado-hoje-em-bares-brasileiros",
+      "resumo": "Diversos bares de todas as capitais brasileiras recebem, a partir das 18h desta sexta-feira (27), o selo Não é Não – Mulheres Seguras . O lançamento nacional será realizado pelo Ministério das Mulheres, com as primeiras entregas simbólicas do selo a dois bares de Brasília. Os locais que receberem o ",
+      "publicado_em": "2026-11-27T14:21:00-03:00"
     }
   ]
 }
