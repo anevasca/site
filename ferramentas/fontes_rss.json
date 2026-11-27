@@ -15,7 +15,7 @@
     "nome": "Paulo Figueiredo Show",
     "url": "https://realpfigueiredo.substack.com/feed",
     "prioridade": 1,
-    "observacao": "A CONFIRMAR: pedido do Junior. No teste ao vivo em 27/11/2026 deu erro 403 (bloqueio de robô do Substack). Troquei o identificador do coletor para parecer um navegador comum — precisa confirmar numa próxima rodada se isso resolve."
+    "observacao": "A CONFIRMAR, com dificuldade real: pedido do Junior. Deu 403 mesmo depois de o coletor se identificar como navegador comum (autorizado pelo Junior em 27/11/2026) — ou seja, não é bloqueio por identificação de robô, é bloqueio por faixa de IP (a Substack provavelmente bloqueia os servidores do GitHub Actions). Resolver de verdade exigiria rodar de outro lugar; não fiz isso. Por ora o script só avisa e segue sem essa fonte."
   },
   {
     "nome": "Agência Brasil",
@@ -31,7 +31,7 @@
       "https://www2.camara.leg.br/agencia-app/agenciaCamaraRSS/ECONOMIA"
     ],
     "prioridade": 2,
-    "observacao": "A CONFIRMAR: o feed geral deu 404 tanto no domínio antigo (.gov.br) quanto no atual (.leg.br) nos testes ao vivo em 27/11/2026. Acrescentei dois feeds por tema (Política, Economia) como reserva — o script tenta cada URL da lista em ordem e usa a primeira que responder."
+    "observacao": "PROVAVELMENTE DESCONTINUADA: as três URLs (geral, Política, Economia) deram 404 ao vivo em 27/11/2026, tanto no domínio antigo (.gov.br) quanto no atual (.leg.br). O sistema de RSS por tema que a própria Câmara divulga parece desligado, não só desatualizado na página. Deixei a lista de URLs como está, mas não vale insistir nessa mesma via sem uma pista nova."
   },
   {
     "nome": "Agência Senado",
