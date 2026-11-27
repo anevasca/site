@@ -3,36 +3,36 @@
     "nome": "Revista Oeste",
     "url": "https://revistaoeste.com/feed/",
     "prioridade": 1,
-    "observacao": "Confirmar: pode estar bloqueado para robôs (erro ao testar fora do Actions). Se falhar sempre, ajuste a URL aqui."
+    "observacao": "Confirmado ao vivo em 27/11/2026 (rodando no Actions): o XML vem com um pequeno problema de namespace, mas o script recupera os itens pelo modo tolerante."
   },
   {
     "nome": "Gazeta do Povo",
     "url": "https://www.gazetadopovo.com.br/feed/rss/ultimas-noticias.xml",
     "prioridade": 1,
-    "observacao": "Confirmado em 27/11/2026."
+    "observacao": "Confirmado ao vivo em 27/11/2026 (rodando no Actions)."
   },
   {
     "nome": "Agência Brasil",
     "url": "https://agenciabrasil.ebc.com.br/feed/ultimasnoticias/feed.xml",
     "prioridade": 2,
-    "observacao": "Confirmado em 27/11/2026."
+    "observacao": "Confirmado ao vivo em 27/11/2026 (rodando no Actions)."
   },
   {
     "nome": "Agência Câmara de Notícias",
     "url": "http://www2.camara.gov.br/agencia-app/agenciaCamaraRSS",
     "prioridade": 2,
-    "observacao": "Confirmado em 27/11/2026 (URL oficial listada pela própria Câmara)."
+    "observacao": "A CONFIRMAR: essa é a URL que a própria Câmara lista na página oficial, mas no teste ao vivo em 27/11/2026 deu erro 404. Candidata a tentar no lugar: https://www2.camara.leg.br/agencia-app/agenciaCamaraRSS (mesmo caminho, domínio .leg.br em vez do .gov.br antigo). Enquanto não for confirmada, o script só avisa e segue sem essa fonte — não trava nada."
   },
   {
     "nome": "Agência Senado",
     "url": "https://www12.senado.leg.br/noticias/ultimas/RSS",
     "prioridade": 2,
-    "observacao": "Confirmar: não achei um link de RSS claro na página; essa URL é um palpite a partir do padrão do site."
+    "observacao": "A CONFIRMAR: no teste ao vivo em 27/11/2026 essa URL respondeu mas sem itens reconhecíveis (XML com tag desencontrada). Não achei o link de RSS certo na página do Senado; precisa de mais pesquisa. O script só avisa e segue sem essa fonte — não trava nada."
   },
   {
     "nome": "Agência IBGE de Notícias",
     "url": "https://agenciadenoticias.ibge.gov.br/agencia-rss",
     "prioridade": 2,
-    "observacao": "Confirmado em 27/11/2026."
+    "observacao": "Confirmado ao vivo em 27/11/2026 (rodando no Actions) — respondeu, mas sem itens dentro da janela de horas (o IBGE publica com menos frequência)."
   }
 ]
