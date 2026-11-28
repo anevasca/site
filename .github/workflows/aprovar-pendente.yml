@@ -1,8 +1,13 @@
-name: Aprova edição pendente por prazo (se o Junior não respondeu até as 9h)
+name: Aprova edição pendente por prazo (se o Junior não respondeu a tempo do jornal entrar no ar às 5h)
+
+# O jornal tem que estar no ar às 5h da manhã (horário de Brasília). Esse workflow roda
+# às 4h30 — meia hora de folga para o publicar.yml terminar (build, áudio, deploy) antes
+# das 5h. Se o Junior já aprovou a edição-pendente durante a noite, não há nada pendente
+# e o passo abaixo não faz nada. Se não aprovou a tempo, mescla sozinho como última opção.
 
 on:
   schedule:
-    - cron: "0 12 * * *" # 9h horário de Brasília (UTC-3)
+    - cron: "30 7 * * *" # 4h30 horário de Brasília (UTC-3)
   workflow_dispatch: {}
 
 permissions:
@@ -25,7 +30,7 @@ jobs:
             exit 0
           fi
           for pr in $prs; do
-            echo "Edição pendente #$pr sem resposta até as 9h — mesclando automaticamente."
-            gh pr comment "$pr" --body "Prazo das 9h chegou sem aprovação do Junior. Publicando automaticamente para o site não ficar sem edição nova. Qualquer correção necessária pode ser feita como sempre, depois da publicação."
+            echo "Edição pendente #$pr sem resposta a tempo — mesclando automaticamente às 4h30 para o jornal entrar no ar às 5h."
+            gh pr comment "$pr" --body "Faltando pouco para as 5h e sem aprovação do Junior — publicando automaticamente para o jornal não atrasar. Qualquer correção necessária pode ser feita como sempre, depois da publicação."
             gh pr merge "$pr" --merge --admin || gh pr merge "$pr" --merge
           done

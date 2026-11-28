@@ -22,6 +22,12 @@ edição, e sobre qualquer critério automático deste contrato. Se o Junior dis
 isso na manchete" ou "não entra essa pauta", isso vale, ponto. Nenhuma IA deve tentar
 convencê-lo do contrário ou ignorar a instrução por achar que o script sabe mais.
 
+**Segurar a pauta por um evento específico.** Se o Junior disser para esperar algo
+acontecer antes de fechar a edição (ex.: "espera o resultado da votação no Congresso"),
+a edição não fecha até esse evento se resolver — mesmo que isso passe do horário normal
+de fechamento (ver seção 5). Só não pode passar do prazo de segurança das 4h30, que
+existe justamente para o jornal nunca atrasar além das 5h.
+
 ## 1. Regras não negociáveis (sempre, de qualquer IA)
 
 1. **Matéria publicada não se muda.** Nunca edite um arquivo já existente em `edicoes/` ou
@@ -116,20 +122,42 @@ independente de qual IA escreveu o conteúdo.
 
 ## 5. Como a edição vai ao ar (aprovação obrigatória do Junior)
 
-Desde 27/11/2026, nenhuma edição vai direto para a `main`. O processo é:
+Desde 27/11/2026, nenhuma edição vai direto para a `main`. O relógio do dia (horário de
+Brasília):
+
+- **Fim do pregão da B3 (fim de tarde):** daí em diante, as notícias mais relevantes do
+  fim do dia entram na pauta da edição do dia seguinte.
+- **Fechamento da pauta:** a edição é escrita e fecha à noite — salvo instrução do Junior
+  para segurar por um evento específico (ver a regra acima).
+- **Prévia:** assim que fecha, dispara automaticamente e é **enviada diretamente ao
+  Junior** (não só deixada disponível esperando que ele vá olhar).
+- **Aprovação:** o Junior aprova quando puder, durante a noite.
+- **Podcast:** só depois da edição aprovada, o roteiro do podcast é gerado a partir dela
+  (nunca de um rascunho). O Junior grava com base nesse roteiro e manda os áudios brutos;
+  quem automatiza esse passo monta o episódio (limpeza de ruído, corte, vinheta) e devolve
+  a prévia do podcast para o Junior aprovar também.
+- **5h da manhã:** meta de horário para o jornal estar no ar, com texto e podcast
+  aprovados.
+
+O processo, passo a passo:
 
 1. Quem tem acesso real ao repositório (uma IA com `git`/`gh`, ou o próprio Junior)
    cria uma branch chamada `edicao-pendente-AAAA-MM-DD`, commita o JSON ali, e abre um
    **Pull Request** dessa branch para a `main`, com título `Edição de AAAA-MM-DD`.
    **Nunca commite a edição direto na `main`.**
 2. Isso dispara automaticamente uma prévia do site com a edição completa, com a cara
-   exatamente igual à que vai ao ar — o Junior recebe o link no próprio Pull Request.
+   exatamente igual à que vai ao ar, em `anevasca.com.br/previa/` — e o link é enviado
+   diretamente ao Junior.
 3. O Junior revisa a prévia e aprova o Pull Request (ou pede mudança, com um comentário).
 4. Assim que ele aprova e o PR é mesclado na `main`, a publicação de verdade roda sozinha
-   (validação → build → ar).
-5. **Prazo de segurança:** se o Junior não responder até as 9h, um workflow automático
-   mescla o PR sozinho, pra o site nunca ficar sem edição nova por falta de resposta.
-   Isso é propositalmente o último recurso, não o caminho normal.
+   (validação → build → ar). **Hoje isso acontece assim que ele aprova**, não há ainda um
+   mecanismo que segure a publicação até as 5h quando a aprovação vem mais cedo na noite —
+   isso está em aberto (ver pendências no projeto do Claude).
+5. **Prazo de segurança:** se o Junior não responder a tempo, um workflow automático
+   mescla o PR sozinho às 4h30, pra o jornal nunca atrasar além das 5h. Isso é
+   propositalmente o último recurso, não o caminho normal. Se o podcast ainda não estiver
+   pronto nesse momento, ele entra depois, assim que o Junior mandar os áudios (o site não
+   espera por ele).
 
 Se você é uma IA que só conversa com o Junior (sem acesso ao repositório), seu trabalho
 continua sendo só entregar o JSON certo — quem abre o Pull Request é sempre o mesmo
