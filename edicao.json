@@ -683,13 +683,13 @@
  "editorial": {
   "secao": "Editorial",
   "linhaFina": "Opinião",
-  "resumo": "Flávio Bolsonaro errou ao indicar emendas enquanto estava fora do país, longe do mandato que recebeu. Flávio Dino errou ao fazer sozinho o julgamento de decoro que a Constituição entrega ao Senado.",
-  "titulo": "O mandato não mora em Miami, nem no gabinete de um ministro",
+  "resumo": "O senador Flávio Bolsonaro saiu do país depois de uma ordem de Moraes, e o temor de ser o próximo alvo é razoável para quem vê perseguição política no processo contra o pai. O erro de Flávio Dino é congelar, sozinho, verbas que serviriam ao eleitor do Rio.",
+  "titulo": "O senador está em Miami, mas o problema está em Brasília",
   "texto": [
-   "Há senadores que despacham do gabinete, outros do avião, e agora temos um que indicou R$ 79 milhões do Orçamento enquanto estava na Flórida. Flávio Bolsonaro deixou o país no fim de outubro, depois de proibido pelo STF de sair, e, segundo a decisão do STF, foi nesse período que apareceram as 14 emendas a que tem direito. Nesta sexta, o ministro Flávio Dino suspendeu todas, pediu ao Senado os IPs de quem as enviou e falou em quebra de decoro. Os dois Flávios conseguiram, cada um a seu modo, errar de endereço.",
-   "Comecemos pelo nosso lado, porque é ele que costuma ficar sem cobrança. O mandato não é propriedade do senador: é um encargo recebido do eleitor e exercido dentro de uma instituição. Quem decide que não pode cumprir uma ordem judicial no Brasil tem caminhos dignos, como pedir licença, recorrer ou enfrentar o processo. O que não cabe é manter a caneta do Orçamento e deixar a cadeira vazia. A tradição reformada sempre lembrou que autoridade vem acompanhada de prestação de contas (Rm 13), e isso vale para quem se sente perseguido também. Se a perseguição é real, a resposta é a coragem de ficar, ou a honestidade de se afastar.",
-   "Dito isso, o remédio de Dino tem a dose errada. A Constituição entrega às Casas do Congresso o julgamento do decoro de seus membros. Abraham Kuyper chamaria isso de soberania das esferas: o Senado não julga processos do Supremo, e o Supremo não deveria fazer as vezes de Conselho de Ética do Senado. Uma decisão individual que congela emendas, declara nulas indicações e manda rastrear a geolocalização dos acessos de um parlamentar ao sistema de emendas é poder demais na mão de um homem só, por mais que o alvo tenha facilitado o trabalho. O precedente aberto com Eduardo Bolsonaro e Ramagem agora cresce, e precedente nesse tamanho raramente fica restrito aos adversários de quem o criou.",
-   "O caminho certo existe e está à mão. O Senado deve responder a Dino com franqueza, mas sobretudo responder a si mesmo: abrir o debate sobre o mandato exercido do exterior e decidir, pelo voto dos pares, o que fazer com o caso. E o plenário do STF, se for chamado a referendar a decisão, deve devolver à Casa o que é da Casa. O eleitor do Rio mandou um senador para Brasília, não para Miami, e o povo não entregou o Senado a um ministro. Cada um no seu lugar, e o país anda melhor."
+   "Os fatos primeiro. Flávio Bolsonaro está nos Estados Unidos desde o fim de outubro, depois de uma ordem do ministro Alexandre de Moraes para entregar o passaporte. Segundo o Diário do Grande ABC, a medida foi pedida sete minutos depois do resultado do segundo turno e concedida no dia seguinte. Nesta sexta, o ministro Flávio Dino congelou os R$ 79,3 milhões em emendas que o senador indicou ao Orçamento de 2027.",
+   "Agora a opinião, que é do jornal. O julgamento que mandou Jair Bolsonaro para a prisão foi, na nossa avaliação, um processo viciado, conduzido por quem se coloca ao mesmo tempo como vítima e como juiz. Quem acompanhou isso tem motivo de sobra para temer que o filho fosse o próximo. Ninguém pode afirmar o que teria acontecido se ele ficasse, mas o temor não é capricho nem fuga: é prudência. A tradição reformada ensina a respeitar a autoridade, e ensina também que o magistrado existe para ser motivo de temor para quem faz o mal, não para quem faz o bem (Rm 13.3-4).",
+   "Por isso a decisão de Dino erra de alvo. Quem fica sem o dinheiro não é o senador: são o hospital, o ambulatório e a segurança pública do Rio de Janeiro, destino de nove das quatorze emendas. O eleitor fluminense votou num senador e agora vê as verbas travadas por decisão de um ministro só, que ainda manda rastrear a localização de quem acessou o sistema das emendas. A Constituição entrega às Casas do Congresso o julgamento do decoro dos seus membros. Abraham Kuyper chamaria isso de soberania das esferas: o Senado não julga processos do Supremo, e o Supremo não deveria fazer as vezes de Conselho de Ética.",
+   "O Senado deve responder a Dino e, sobretudo, decidir ele mesmo, pelo voto dos pares, o que fazer com o caso. E o plenário do STF, se for chamado a referendar a decisão, deve devolver à Casa o que é da Casa. Perseguição não se combate com mais um ato de força: combate-se com a lei, e a lei diz quem julga cada coisa. Cada um no seu lugar, e o país anda melhor."
   ],
   "fontes": [
    {
@@ -699,6 +699,9 @@
    {
     "nome": "ICL Notícias",
     "url": "https://iclnoticias.com.br/dino-suspende-emendas-de-flavio/"
+   },
+   {
+    "nome": "Diário do Grande ABC"
    }
   ]
  }
