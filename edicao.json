@@ -97,7 +97,12 @@
     "nome": "Revista Oeste",
     "url": "https://revistaoeste.com/politica/dino-suspende-quase-r-80-mi-em-emendas-parlamentares-de-flavio/"
    }
-  ]
+  ],
+  "imagem": {
+   "arquivo": "img/ed-2026-11-28/manchete.jpg",
+   "legenda": "O ministro Flávio Dino durante sessão plenária do Supremo Tribunal Federal, em foto de arquivo.",
+   "credito": "Antonio Augusto/STF"
+  }
  },
  "destaques": [
   {
@@ -167,7 +172,12 @@
      "nome": "Agência Brasil",
      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-cai-quase-4-e-fecha-em-r-551-apos-anuncio-de-trabuco"
     }
-   ]
+   ],
+   "imagem": {
+    "arquivo": "img/ed-2026-11-28/destaque-1.jpg",
+    "legenda": "Cédulas de dólar dos Estados Unidos, em foto de arquivo.",
+    "credito": "Valter Campanato/Agência Brasil"
+   }
   },
   {
    "secao": "Contas públicas",
@@ -225,7 +235,12 @@
      "nome": "Agência Brasil",
      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/contas-do-governo-tem-superavit-de-r-523-bilhoes-em-outubro"
     }
-   ]
+   ],
+   "imagem": {
+    "arquivo": "img/ed-2026-11-28/destaque-2.jpg",
+    "legenda": "Prédios da Esplanada dos Ministérios, em Brasília, em foto de arquivo.",
+    "credito": "Rafa Neddermeyer/Agência Brasil"
+   }
   },
   {
    "secao": "Fazenda",
@@ -264,7 +279,12 @@
      "nome": "Agência Brasil — repercussão",
      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/veja-repercussao-da-escolha-de-trabuco-para-o-ministerio-da-fazenda"
     }
-   ]
+   ],
+   "imagem": {
+    "arquivo": "img/ed-2026-11-28/destaque-3.jpg",
+    "legenda": "Luiz Carlos Trabuco Cappi fala na tribuna do Senado, em foto de arquivo.",
+    "credito": "Edilson Rodrigues/Agência Senado"
+   }
   }
  ],
  "politica": [
@@ -297,7 +317,12 @@
      "nome": "Revista Oeste — efeito na bancada",
      "url": "https://revistaoeste.com/politica/julgamento-no-tse-pode-tirar-vaga-do-republicanos-em-sp-e-beneficiar-o-mdb"
     }
-   ]
+   ],
+   "imagem": {
+    "arquivo": "img/ed-2026-11-28/politica-1.jpg",
+    "legenda": "O ministro Dias Toffoli na bancada do STF durante a sessão plenária de 13 de maio de 2026, em foto de arquivo.",
+    "credito": "Gustavo Moreno/STF"
+   }
   },
   {
    "secao": "Bolsonaro",
@@ -332,7 +357,12 @@
      "nome": "Revista Oeste — sonda",
      "url": "https://revistaoeste.com/politica/bolsonaro-retira-sonda-nasogastrica-e-ja-realiza-algumas-atividades-no-hospital-diz-michelle/"
     }
-   ]
+   ],
+   "imagem": {
+    "arquivo": "img/ed-2026-11-28/politica-2.jpg",
+    "legenda": "O ex-presidente Jair Bolsonaro, em foto de arquivo.",
+    "credito": "Tânia Rego/Agência Brasil/Arquivo"
+   }
   },
   {
    "secao": "Senado",
@@ -359,7 +389,12 @@
      "nome": "Agência Senado",
      "url": "https://www12.senado.leg.br/noticias/videos/2026/11/senadores-destacam-qualidades-de-indicado-a-fazenda-e-apontam-desafios"
     }
-   ]
+   ],
+   "imagem": {
+    "arquivo": "img/ed-2026-11-28/politica-3.jpg",
+    "legenda": "O senador Izalci Lucas (PL-DF), autor da PEC do Fundo Constitucional do DF, fala no plenário do Senado em 25 de novembro de 2026, em foto de arquivo.",
+    "credito": "Ton Molina/Agência Senado"
+   }
   },
   {
    "secao": "Itamaraty",
@@ -417,7 +452,12 @@
      "nome": "Brasil em Folhas",
      "url": "https://brasilemfolhas.com.br/2026/11/brasil-e-venezuela-decidem-restabelecer-plenamente-relacoes-bilaterais/"
     }
-   ]
+   ],
+   "imagem": {
+    "arquivo": "img/ed-2026-11-28/politica-4.jpg",
+    "legenda": "O chanceler Mauro Vieira durante declaração à imprensa no Palácio do Itamaraty, em 7 de março de 2023, em foto de arquivo.",
+    "credito": "Marcelo Camargo/Agência Brasil"
+   }
   }
  ],
  "mundo": [
@@ -450,7 +490,12 @@
      "nome": "Gazeta do Povo",
      "url": "https://www.gazetadopovo.com.br/mundo/trump-diz-que-pediu-a-putin-para-conter-agressao-na-europa/"
     }
-   ]
+   ],
+   "imagem": {
+    "arquivo": "img/ed-2026-11-28/mundo-1.jpg",
+    "legenda": "Donald Trump recebe Volodymyr Zelensky na Casa Branca em 17 de outubro de 2025, em foto de arquivo.",
+    "credito": "Official White House Photo by Juliana Luz"
+   }
   },
   {
    "secao": "Israel",
@@ -506,7 +551,12 @@
      "nome": "JFeed",
      "url": "https://www.jfeed.com/news-israel/netanyahu-eisenkot-rotation-unity-government"
     }
-   ]
+   ],
+   "imagem": {
+    "arquivo": "img/ed-2026-11-28/mundo-2.jpg",
+    "legenda": "Benjamin Netanyahu e Donald Trump no Salão Oval da Casa Branca em 28 de julho de 2026, em foto de arquivo.",
+    "credito": "Official White House Photo by Daniel Torok"
+   }
   },
   {
    "secao": "Gaza",
