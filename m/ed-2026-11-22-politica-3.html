@@ -347,7 +347,7 @@ window.addEventListener("hashchange",function(){if(/^#(redacao|roteiro)/.test(lo
       </div>
       <div class="arquivo" id="arquivo">
         <h5>Edições anteriores</h5>
-        <div id="lista-arquivo"><a href="/m/ed-2026-11-27-manchete.html">Sex, 27/11/2026</a><a href="/m/ed-2026-11-26-manchete.html">Qui, 26/11/2026</a><a href="/m/ed-2026-11-25-manchete.html">Qua, 25/11/2026</a><a href="/m/ed-2026-11-24-manchete.html">Ter, 24/11/2026</a><a href="/m/ed-2026-11-23-manchete.html">Seg, 23/11/2026</a><a href="/m/ed-2026-11-22-manchete.html">Dom, 22/11/2026</a><a href="/m/ed-2026-11-21-manchete.html">Sáb, 21/11/2026</a></div>
+        <div id="lista-arquivo"><a href="/m/ed-2026-11-28-manchete.html">Sáb, 28/11/2026</a><a href="/m/ed-2026-11-27-manchete.html">Sex, 27/11/2026</a><a href="/m/ed-2026-11-26-manchete.html">Qui, 26/11/2026</a><a href="/m/ed-2026-11-25-manchete.html">Qua, 25/11/2026</a><a href="/m/ed-2026-11-24-manchete.html">Ter, 24/11/2026</a><a href="/m/ed-2026-11-23-manchete.html">Seg, 23/11/2026</a><a href="/m/ed-2026-11-22-manchete.html">Dom, 22/11/2026</a></div>
       </div>
       <div>
         <h5>Expediente</h5>
@@ -374,7 +374,7 @@ window.addEventListener("hashchange",function(){if(/^#(redacao|roteiro)/.test(lo
       return '<a href="'+esc(f.url)+'" target="_blank" rel="noopener">'+esc(f.nome)+'</a>';
     }).join(", ") + '</div>';
   };
-  var ps = function(l){ return (l||[]).map(function(p){ return "<p>"+esc(p)+"</p>"; }).join(""); };
+  var ps = function(l){ return (l||[]).map(function(p){ var q = /^(Junior Neves|Reverendo Jeferson):\s/.exec(p||""); return "<p>"+(q ? "<strong>"+esc(q[1])+":</strong> "+esc(p.slice(q[0].length)) : esc(p))+"</p>"; }).join(""); };
   var hoje = null;
   var SECOES = {
     ultimas:{nome:"Últimas notícias", sub:"As notícias publicadas depois da edição da manhã"},
