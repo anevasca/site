@@ -1,109 +1,112 @@
 {
-  "data": "2026-11-28",
-  "blocos": [
-    {
-      "quem": "maressa",
-      "texto": "Bom dia. Hoje é sábado, 28 de novembro. Este é o Nevasca em 10 minutos, o podcast do jornal A Nevasca. Eu sou Maressa Neves."
-    },
-    {
-      "quem": "junior",
-      "texto": "E eu sou Junior Neves. Hoje tem Supremo mexendo no dinheiro de um senador que está fora do país, o dólar em queda forte e um vizinho que resolveu enfrentar as casas de apostas."
-    },
-    {
-      "quem": "maressa",
-      "texto": "O ministro Flávio Dino travou 79 milhões de reais que o senador Flávio Bolsonaro tinha indicado no Orçamento do ano que vem."
-    },
-    {
-      "quem": "junior",
-      "texto": "A moeda americana caiu quatro por cento num dia só, com um banqueiro escolhido para cuidar da economia."
-    },
-    {
-      "quem": "maressa",
-      "texto": "E, na Argentina, o Senado aprovou por unanimidade uma lei contra o vício em apostas online."
-    },
-    {
-      "quem": "maressa",
-      "texto": "Para entender. Na sexta-feira, o ministro Flávio Dino, do Supremo, suspendeu catorze emendas do senador Flávio Bolsonaro. O detalhe é que o senador está nos Estados Unidos desde o fim de outubro. Neves, começa pelo básico: o que é uma emenda dessas?"
-    },
-    {
-      "quem": "junior",
-      "texto": "Todo ano, o governo manda ao Congresso a proposta de Orçamento, que é a lista do que o país vai gastar. Cada deputado e cada senador tem uma cota para indicar uma parte desse dinheiro para o seu estado: um hospital, uma obra, um equipamento para a polícia. Isso é a emenda individual. O Flávio usou a cota inteira: catorze emendas, 79 milhões de reais. Nove iam para o Rio de Janeiro, a maior parte para a saúde e para a segurança pública. O prazo para fazer essas indicações foi de 6 a 23 de novembro."
-    },
-    {
-      "quem": "maressa",
-      "texto": "E por que o ministro resolveu barrar?"
-    },
-    {
-      "quem": "junior",
-      "texto": "Por causa de onde o senador estava. O ministro Alexandre de Moraes tinha mandado o Flávio entregar o passaporte e não sair do país, numa investigação da Polícia Federal. Mesmo assim, ele saiu logo depois da eleição e foi para Miami, segundo a imprensa. Para o Dino, sair do país para escapar de uma ordem do Supremo pode ser quebra de decoro, que é o comportamento que se exige de um parlamentar. E ele entende que ninguém exerce mandato de senador morando fora. Ele já tinha decidido parecido no caso do Eduardo Bolsonaro e do Alexandre Ramagem, em dezembro do ano passado."
-    },
-    {
-      "quem": "maressa",
-      "texto": "Tá, mas o que ele pediu exatamente?"
-    },
-    {
-      "quem": "junior",
-      "texto": "Ele deu cinco dias para o Senado responder três coisas: em que condições o Flávio está exercendo o mandato, se a Casa autorizou a viagem e se é missão oficial. E pediu os registros do sistema por onde as emendas foram enviadas, com o endereço do computador e a localização de quem acessou. Ou seja, quer saber quem apertou o botão e de onde. O Flávio também tem cinco dias para se defender. Como o endereço dele é considerado incerto, a intimação sai em edital, que é um aviso público."
-    },
-    {
-      "quem": "maressa",
-      "texto": "E o que acontece agora?"
-    },
-    {
-      "quem": "junior",
-      "texto": "Depois das respostas, o Dino decide de vez e pode levar o caso para os outros ministros do Supremo, no plenário. Enquanto isso, as emendas ficam paradas. Até a noite de sexta, nenhum veículo tinha registrado resposta do senador. E o Orçamento do ano que vem ainda nem foi votado: falta o relatório do senador Eduardo Braga e a votação no Congresso."
-    },
-    {
-      "quem": "maressa",
-      "texto": "Agora, o bolso. O dólar fechou a sexta perto de cinco reais e cinquenta e um centavos. Na segunda, tinha passado de seis. O que aconteceu?"
-    },
-    {
-      "quem": "junior",
-      "texto": "O mercado gostou do nome escolhido por Lula para o Ministério da Fazenda: Luiz Carlos Trabuco, que preside o conselho do Bradesco. Ele tem 75 anos e está no banco desde os 17. Para um analista ouvido pela revista Exame, a escolha afasta o medo de um nome pouco ortodoxo na Fazenda. Resultado: a quinta queda seguida do dólar, e mais de sete por cento na semana. A Bolsa subiu seis por cento na quinta, no dia do anúncio, e ficou praticamente parada na sexta."
-    },
-    {
-      "quem": "maressa",
-      "texto": "E isso muda alguma coisa para quem não tem ação nem viaja para fora?"
-    },
-    {
-      "quem": "junior",
-      "texto": "Muita coisa que a gente compra tem preço ligado ao dólar, como combustível, trigo e eletrônicos. O próprio Lula disse na sexta que vai ajustar as contas, mas que não corta benefício dos mais pobres. E a CUT e a CTB, centrais sindicais ligadas ao PT, ficaram fora de uma nota de apoio ao novo ministro."
-    },
-    {
-      "quem": "maressa",
-      "texto": "E as contas do governo, como estão?"
-    },
-    {
-      "quem": "junior",
-      "texto": "Outubro foi bom. O governo arrecadou 52 bilhões a mais do que gastou, o melhor outubro desde 2016, puxado por imposto e por dinheiro do petróleo. Mas, no ano, ainda falta: de janeiro a outubro, o governo gastou quase 38 bilhões a mais do que arrecadou, sem contar os juros da dívida. É essa conta que o Trabuco vai herdar em 2027."
-    },
-    {
-      "quem": "maressa",
-      "texto": "E agora, o comentário do Doido sobre as casas de apostas. Isto é opinião."
-    },
-    {
-      "quem": "junior",
-      "tipo": "comentario",
-      "tema": "Apostas online: a Argentina fecha a porta para menores e para a propaganda",
-      "pontos": [
-        "O fato: o Senado argentino aprovou por 72 a 0, unanimidade, uma lei que proíbe menores de apostar online, exige conferência de idade por biometria e restringe propaganda e patrocínio de casas de apostas, inclusive em camisa de time.",
-        "Um número daqui: o governo brasileiro diz ter achado 86 mil sites, perfis e grupos de apostas ilegais em dois meses de fiscalização depois da proibição das bets, e mandou bloquear mais de 75 mil sites.",
-        "Argumento: lá, peronistas e governo Milei, que brigam por tudo, votaram juntos. Quando o assunto é proteger a família e o jovem do vício, dá para esquecer a camisa partidária.",
-        "O outro lado, com honestidade: entidades do setor no Brasil recorreram ao STF dizendo que a proibição foi feita às pressas e gera insegurança jurídica; e bloquear site não acaba com o jogo, ele muda de endereço.",
-        "Pergunta para provocar: o Estado deve proibir, ou basta tirar a propaganda e proteger os menores e deixar o adulto responder pelas próprias escolhas?"
-      ]
-    },
-    {
-      "quem": "maressa",
-      "texto": "Rapidinhas. O relator no Tribunal Superior Eleitoral votou para anular os 118 mil votos do deputado eleito Ney Santos, réu por ligação com o PCC; um pedido de vista do ministro Dias Toffoli adiou o fim do julgamento. Jair Bolsonaro melhorou na UTI, voltou a se alimentar e segue sem previsão de alta. Em Israel, o encarregado de formar o novo governo, Gadi Eisenkot, acusa o partido de Netanyahu de enrolar as negociações. Na terça, o Senado pode votar a proposta que dá ao governo do Distrito Federal o controle do próprio fundo constitucional. E na segunda o chanceler da Venezuela vem a Brasília, com uma dívida de um bilhão e cem milhões de dólares com o BNDES na mesa."
-    },
-    {
-      "quem": "junior",
-      "texto": "Este foi o Nevasca em 10 minutos. As matérias completas, com todas as fontes, estão em anevasca.com.br."
-    },
-    {
-      "quem": "maressa",
-      "texto": "Até amanhã."
-    }
-  ]
+ "data": "2026-11-28",
+ "blocos": [
+  {
+   "quem": "maressa",
+   "texto": "Oi, eu sou Maressa Neves.",
+   "secao": "Abertura"
+  },
+  {
+   "quem": "junior",
+   "texto": "E eu sou Junior Neves."
+  },
+  {
+   "quem": "maressa",
+   "texto": "Hoje é sábado, 28 de novembro, e está no ar A Nevasca em 10 Minutos. O Supremo congelou setenta e nove milhões de reais em emendas de um senador que está nos Estados Unidos, e o dólar caiu quatro por cento num só dia. No fim, a entrevista completa com o reverendo Jeferson, de Tupã. Daqui a pouco, o Neves conta o que ele disse."
+  },
+  {
+   "quem": "maressa",
+   "texto": "O dólar caiu quatro por cento nesta sexta-feira e fechou perto de cinco reais e cinquenta e um centavos. Foi a quinta queda seguida. Na semana, a moeda americana recuou sete por cento, depois de passar de seis reais na segunda.",
+   "secao": "Economia"
+  },
+  {
+   "quem": "junior",
+   "texto": "O movimento acompanha a escolha de Luiz Carlos Trabuco, presidente do Conselho do Bradesco, para o Ministério da Fazenda. A Bolsa subiu seis por cento na quinta, no dia do anúncio, e ficou quase parada na sexta: fechou com queda de zero vírgula treze por cento. Para um analista ouvido pela revista Exame, a escolha afasta o receio de um nome heterodoxo na Fazenda."
+  },
+  {
+   "quem": "maressa",
+   "texto": "Trabuco recebeu elogios dos presidentes do Senado e da Câmara, Davi Alcolumbre e Hugo Motta. Cinco centrais sindicais assinaram uma nota de apoio, mas a CUT e a CTB, as mais próximas do PT, ficaram de fora. Lula disse que vai ajustar as contas sem cortar benefícios dos mais pobres."
+  },
+  {
+   "quem": "junior",
+   "texto": "Ainda na Economia, o governo fechou outubro com sobra de cinquenta e dois bilhões e trezentos milhões de reais, o melhor resultado para o mês desde dois mil e dezesseis, já descontada a inflação. É o chamado resultado primário: o que o governo arrecada menos o que gasta, sem contar os juros da dívida. O número veio acima do esperado, com ajuda da arrecadação do petróleo."
+  },
+  {
+   "quem": "maressa",
+   "texto": "Mas o ano ainda não fechou no azul. De janeiro a outubro, o governo gastou trinta e sete bilhões e novecentos milhões de reais a mais do que arrecadou."
+  },
+  {
+   "quem": "maressa",
+   "texto": "Em Brasília, o ministro Flávio Dino, do Supremo, suspendeu quatorze emendas do senador Flávio Bolsonaro ao Orçamento de dois mil e vinte e sete. Juntas, somam setenta e nove milhões e trezentos mil reais. O senador está nos Estados Unidos desde o fim de outubro, e o prazo para indicar as emendas foi de 6 a 23 de novembro.",
+   "secao": "Brasília"
+  },
+  {
+   "quem": "junior",
+   "texto": "Emenda individual é a parte do Orçamento que cada deputado e cada senador pode indicar para obras e serviços no seu estado. Dino deu cinco dias para o Senado dizer em que condições o senador exerce o mandato e se a viagem foi autorizada. Flávio também tem cinco dias para se defender. Para o ministro, sair do país para escapar de uma ordem do Supremo pode ser quebra de decoro."
+  },
+  {
+   "quem": "maressa",
+   "texto": "No Tribunal Superior Eleitoral, o relator votou para barrar o deputado eleito Ney Santos, do Republicanos de São Paulo, e anular os cento e dezoito mil votos que ele recebeu. Ele é réu sob acusação de ligação com o PCC e nega. Um pedido de vista do ministro Dias Toffoli suspendeu o julgamento, sem data para voltar."
+  },
+  {
+   "quem": "junior",
+   "texto": "O ex-presidente Jair Bolsonaro segue na UTI do hospital DF Star, mas melhora. Segundo o boletim desta sexta, o intestino voltou a funcionar, ele já recebe dieta líquida, e os médicos descartam cirurgia por enquanto. Não há previsão de alta."
+  },
+  {
+   "quem": "maressa",
+   "texto": "No Senado, pode ir a voto na terça-feira, primeiro de dezembro, a proposta que dá ao governo do Distrito Federal o controle sobre o Fundo Constitucional. Na mesma sessão, pode entrar o projeto que reduz de três anos para trinta dias a quarentena de quem vai dirigir estatais e agências reguladoras. A oposição critica esse segundo texto."
+  },
+  {
+   "quem": "junior",
+   "texto": "E o chanceler da Venezuela, Oliver Blanco, vem a Brasília na segunda-feira para se reunir com o ministro Mauro Vieira. Na pauta, a retomada das relações e uma dívida de um bilhão e cem milhões de dólares com o BNDES."
+  },
+  {
+   "quem": "maressa",
+   "texto": "Lá fora, Donald Trump disse ter pedido a Vladimir Putin que recue de toda agressão militar na Europa, para fechar logo um acordo com a Ucrânia. O presidente ucraniano, Volodymyr Zelensky, estranhou Trump chamar Putin de amigo e pediu mais pressão sobre Moscou.",
+   "secao": "Mundo"
+  },
+  {
+   "quem": "junior",
+   "texto": "Em Israel, Gadi Eisenkot, encarregado de formar o novo governo, acusou o partido de Benjamin Netanyahu de não apresentar nenhuma proposta concreta em duas semanas. Segundo a TV israelense, Netanyahu se prepara para oferecer um rodízio no cargo de primeiro-ministro, com Eisenkot na primeira metade. O prazo vence em 6 de dezembro."
+  },
+  {
+   "quem": "maressa",
+   "texto": "Em Gaza, um ataque aéreo israelense atingiu o apartamento da família de um filho do líder do Hamas, Khalil al-Hayya. Ele sobreviveu, mas parentes ficaram feridos. Pelas contas do Ministério da Saúde de Gaza, controlado pelo Hamas, mais de mil e setecentas pessoas morreram desde o cessar-fogo."
+  },
+  {
+   "quem": "junior",
+   "texto": "Na Argentina, o Senado aprovou por setenta e dois votos a zero uma lei que proíbe menores de apostar online e restringe a propaganda das casas de apostas. No mesmo dia, aprovou também a suspensão das primárias obrigatórias de dois mil e vinte e sete, que ainda precisa passar pela Câmara."
+  },
+  {
+   "quem": "maressa",
+   "texto": "Agora, a entrevista completa com o reverendo Jeferson Alfredo Pereira, pastor da Igreja Presbiteriana de Tupã. O Neves conversou com ele dois dias antes do culto de Ação de Graças.",
+   "secao": "Entrevista · Reverendo Jeferson, de Tupã"
+  },
+  {
+   "quem": "junior",
+   "texto": "Perguntei de onde vem a ideia de separar um dia para agradecer. Ele respondeu que a origem na Bíblia é dupla: no Antigo Testamento, as festas de gratidão de Israel; no Novo, o mandamento de Paulo aos tessalonicenses, “Em tudo dai graças”. Falamos também dos peregrinos de mil seiscentos e vinte e um e da herança puritana. Para ele, celebrar a Ação de Graças é um ato de resistência contra a autossuficiência."
+  },
+  {
+   "quem": "maressa",
+   "texto": "E por que um dia especial, se agradecer deveria ser todos os dias?"
+  },
+  {
+   "quem": "junior",
+   "texto": "Ele lembrou o Catecismo de Heidelberg, que chama a vida cristã de vida de gratidão. O dia, disse, é a ênfase dessa vida. E deu o recado que dá título à entrevista: nós, cristãos, temos um sério problema de memória, esquecemos rápido das bênçãos e lembramos sempre das dificuldades. Sobre este ano difícil, afirmou que gratidão não é fazer de conta. A entrevista inteira está no site."
+  },
+  {
+   "quem": "maressa",
+   "texto": "No editorial de hoje, O mandato não mora em Miami, nem no gabinete de um ministro. Com o Neves.",
+   "secao": "Editorial · O mandato não mora em Miami"
+  },
+  {
+   "quem": "junior",
+   "texto": "O mandato não é propriedade do senador: é um encargo recebido do eleitor. Quem decide que não pode cumprir uma ordem judicial tem caminhos dignos, como pedir licença, recorrer ou enfrentar o processo. O que não cabe é manter a caneta do Orçamento e deixar a cadeira vazia.\nMas o remédio de Dino também tem a dose errada. A Constituição entrega às Casas do Congresso o julgamento do decoro dos seus membros. O Senado não julga processos do Supremo, e o Supremo não deveria fazer as vezes de Conselho de Ética do Senado. Uma decisão individual que congela emendas e manda rastrear os acessos de um parlamentar é poder demais na mão de um só homem.\nO caminho certo é o Senado responder a Dino e, sobretudo, responder a si mesmo, decidindo pelo voto dos pares. O eleitor do Rio mandou um senador para Brasília, não para Miami, e o povo não entregou o Senado a um ministro. Cada um no seu lugar, e o país anda melhor."
+  },
+  {
+   "quem": "maressa",
+   "texto": "Eu sou Maressa Neves, e este foi A Nevasca em 10 Minutos. Obrigada pela companhia e até a próxima!",
+   "secao": "Despedida"
+  }
+ ]
 }
