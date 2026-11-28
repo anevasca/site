@@ -374,7 +374,7 @@ window.addEventListener("hashchange",function(){if(/^#(redacao|roteiro)/.test(lo
       return '<a href="'+esc(f.url)+'" target="_blank" rel="noopener">'+esc(f.nome)+'</a>';
     }).join(", ") + '</div>';
   };
-  var ps = function(l){ return (l||[]).map(function(p){ return "<p>"+esc(p)+"</p>"; }).join(""); };
+  var ps = function(l){ return (l||[]).map(function(p){ var q = /^(Junior Neves|Reverendo Jeferson):\s/.exec(p||""); return "<p>"+(q ? "<strong>"+esc(q[1])+":</strong> "+esc(p.slice(q[0].length)) : esc(p))+"</p>"; }).join(""); };
   var hoje = null;
   var SECOES = {
     ultimas:{nome:"Últimas notícias", sub:"As notícias publicadas depois da edição da manhã"},
