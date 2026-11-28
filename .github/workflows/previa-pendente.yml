@@ -1,0 +1,74 @@
+name: Prévia da edição pendente (Pull Request)
+
+# Sempre que abrir ou atualizar um Pull Request de uma edição pendente
+# (branch edicao-pendente-AAAA-MM-DD) ou de uma atualização intradiária
+# (branch ultimas-AAAA-MM-DD-HHh), gera uma prévia com a cara exata de
+# como o site vai ficar e publica em anevasca.com.br/previa/ — sem tocar
+# em nada que já está no ar. O link é comentado automaticamente no PR.
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+  pull-requests: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  previa:
+    if: startsWith(github.head_ref, 'edicao-pendente-') || startsWith(github.head_ref, 'ultimas-')
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Baixa a produção atual (main, já no ar)
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: producao
+
+      - name: Baixa a edição pendente (o PR)
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          path: pendente
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install Pillow
+
+      - name: Gera a home com o conteúdo da edição pendente
+        run: |
+          cd pendente
+          python3 build.py
+
+      - name: Monta o site (produção intacta + prévia em /previa/)
+        run: |
+          mkdir -p _site
+          rsync -a --exclude '.git' --exclude '.github' --exclude 'ferramentas' \
+            --exclude '_site' --exclude 'relatorios' --exclude 'podcast' producao/ _site/
+          mkdir -p _site/previa
+          cp pendente/index.html _site/previa/index.html
+          touch _site/.nojekyll
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deploy
+        uses: actions/deploy-pages@v4
+
+      - name: Comenta o link da prévia no Pull Request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh pr comment ${{ github.event.pull_request.number }} --repo "$GITHUB_REPOSITORY" \
+            --body "Prévia pronta: ${{ steps.deploy.outputs.page_url }}previa/ — a cara exata de como vai ficar ao publicar. Ainda não está no site de verdade, só nesse link."
