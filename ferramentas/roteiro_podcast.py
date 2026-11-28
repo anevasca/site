@@ -25,6 +25,24 @@ def pontua(t):
     return t if not t or re.search(r"[.!?…:]$", t) else t + "."
 
 
+def deixa_final(txt, livre=False):
+    """A deixa é o FIM da fala do outro (a última ou as duas últimas frases), nunca um pedaço cortado."""
+    if livre:
+        return "(comentário livre, sem texto fixo) entre quando ele terminar a opinião."
+    frases = re.split(r"(?<=[.!?…])\s+", txt.strip())
+    sel, n = [], 0
+    for f in reversed(frases):
+        w = len(f.split())
+        if sel and n + w > 40:
+            break
+        sel.insert(0, f)
+        n += w
+        if n >= 12:
+            break
+    fim = " ".join(sel)
+    return ("… " if len(sel) < len(frases) else "") + fim
+
+
 def roteiro(ed, colunas):
     d = datetime.date.fromisoformat(ed["data"])
     quando = f"{DIAS[d.weekday()]}, {d.day} de {MESES[d.month - 1]}"
@@ -150,7 +168,7 @@ def main():
         if i in livres:
             item["livre"] = True
         if i > 0 and R[i - 1][0] != quem:
-            item["antes"] = f"{R[i - 1][0].capitalize()}: {R[i - 1][1][:220]}"
+            item["antes"] = f"{R[i - 1][0].capitalize()}: {deixa_final(R[i - 1][1], (i - 1) in livres)}"
         ordem.append(item)
     os.makedirs(saida, exist_ok=True)
     json.dump(ordem, open(f"{saida}/roteiro-{data}.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
