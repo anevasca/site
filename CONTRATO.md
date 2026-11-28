@@ -15,6 +15,19 @@ Prefira escolher e apurar a partir dessa lista — é mais barato do que pesquis
 Se o arquivo não existir, estiver vazio, ou o `avisos` dentro dele mostrar que todas as
 fontes falharam, aí sim pesquise por conta própria.
 
+**Pauta do editor é absoluta.** O Junior é o editor responsável. Qualquer pauta, direção
+ou instrução editorial que ele der — a qualquer hora, não só "pro dia seguinte" — tem
+prioridade sobre a lista de candidatas do script, sobre o que já estava planejado pra
+edição, e sobre qualquer critério automático deste contrato. Se o Junior disser "quero
+isso na manchete" ou "não entra essa pauta", isso vale, ponto. Nenhuma IA deve tentar
+convencê-lo do contrário ou ignorar a instrução por achar que o script sabe mais.
+
+**Segurar a pauta por um evento específico.** Se o Junior disser para esperar algo
+acontecer antes de fechar a edição (ex.: "espera o resultado da votação no Congresso"),
+a edição não fecha até esse evento se resolver — mesmo que isso passe do horário normal
+de fechamento (ver seção 5). Só não pode passar do prazo de segurança das 4h30, que
+existe justamente para o jornal nunca atrasar além das 5h.
+
 ## 1. Regras não negociáveis (sempre, de qualquer IA)
 
 1. **Matéria publicada não se muda.** Nunca edite um arquivo já existente em `edicoes/` ou
@@ -106,3 +119,52 @@ por conta própria.
 Você não precisa de acesso ao GitHub. Gere o JSON e entregue ao Junior (ou cole no chat
 da redação). Quem aplica ao repositório é um passo separado, sempre o mesmo processo,
 independente de qual IA escreveu o conteúdo.
+
+## 5. Como a edição vai ao ar (aprovação obrigatória do Junior)
+
+Desde 27/11/2026, nenhuma edição vai direto para a `main`. O relógio do dia (horário de
+Brasília):
+
+- **Fim do pregão da B3 (fim de tarde):** daí em diante, as notícias mais relevantes do
+  fim do dia entram na pauta da edição do dia seguinte.
+- **Fechamento da pauta:** a edição é escrita e fecha à noite — salvo instrução do Junior
+  para segurar por um evento específico (ver a regra acima).
+- **Prévia:** assim que fecha, dispara automaticamente e é **enviada diretamente ao
+  Junior** (não só deixada disponível esperando que ele vá olhar).
+- **Aprovação:** o Junior aprova quando puder, durante a noite.
+- **Podcast:** só depois da edição aprovada, o roteiro do podcast é gerado a partir dela
+  (nunca de um rascunho). O Junior grava com base nesse roteiro e manda os áudios brutos;
+  quem automatiza esse passo monta o episódio (limpeza de ruído, corte, vinheta) e devolve
+  a prévia do podcast para o Junior aprovar também.
+- **5h da manhã:** meta de horário para o jornal estar no ar, com texto e podcast
+  aprovados.
+
+O processo, passo a passo:
+
+1. Quem tem acesso real ao repositório (uma IA com `git`/`gh`, ou o próprio Junior)
+   cria uma branch chamada `edicao-pendente-AAAA-MM-DD`, commita o JSON ali, e abre um
+   **Pull Request** dessa branch para a `main`, com título `Edição de AAAA-MM-DD`.
+   **Nunca commite a edição direto na `main`.**
+2. Isso dispara automaticamente uma prévia do site com a edição completa, com a cara
+   exatamente igual à que vai ao ar, em `anevasca.com.br/previa/` — e o link é enviado
+   diretamente ao Junior.
+3. O Junior revisa a prévia e aprova o Pull Request (ou pede mudança, com um comentário).
+4. Assim que ele aprova, o PR é mesclado na `main` — mas **aprovado não é publicado**.
+   A edição fica só commitada, esperando o horário certo: a publicação de verdade (build
+   → áudio → ar) só roda às 4h30 da manhã, sempre nesse horário, não importa se a
+   aprovação veio às 22h ou às 3h. Isso é de propósito, pra o jornal sempre entrar no ar
+   no mesmo horário.
+5. **Prazo de segurança:** se o Junior não responder a tempo, um workflow automático
+   mescla o PR sozinho às 4h15, 15 minutos antes da publicação das 4h30, pra o jornal
+   nunca atrasar além das 5h. Isso é propositalmente o último recurso, não o caminho
+   normal. Se o podcast ainda não estiver pronto nesse momento, ele entra depois, assim
+   que o Junior mandar os áudios (o site não espera por ele).
+
+**Importante para quem tem acesso ao repositório:** isso vale só para a edição principal
+(`edicao-pendente-AAAA-MM-DD`). Uma atualização de "Últimas notícias" durante o dia
+(branch `ultimas-AAAA-MM-DD-HHh`) continua publicando na hora, assim que aprovada — não
+espera as 4h30, porque é notícia que não pode esperar o dia seguinte.
+
+Se você é uma IA que só conversa com o Junior (sem acesso ao repositório), seu trabalho
+continua sendo só entregar o JSON certo — quem abre o Pull Request é sempre o mesmo
+processo separado, como já dizia a seção 4.

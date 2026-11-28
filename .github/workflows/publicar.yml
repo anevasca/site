@@ -1,12 +1,18 @@
 name: Publicar o site (com áudios)
 
-# Publica o site no GitHub Pages a cada push na main,
-# gravando antes os áudios novos (voz Francisca nas matérias) e juntando os áudios dos últimos 14 dias.
+# Dois jeitos de disparar:
+# 1) Agendado, às 4h30 (horário de Brasília) — é o publicar de verdade da edição do dia,
+#    aprovado ou não (prazo de segurança às 4h15). Aprovado ≠ publicado: mesmo que o
+#    Junior aprove a edição-pendente de noite, o site só atualiza às 4h30.
+# 2) Push na main que NÃO seja o merge de uma edicao-pendente-AAAA-MM-DD (ex.: últimas
+#    notícias do dia, ajuste de código, Dependabot) — publica na hora, como sempre.
 # Em Settings > Pages > Source está "GitHub Actions".
 
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: "30 7 * * *" # 4h30 horário de Brasília (UTC-3) — publicação programada da edição do dia
   workflow_dispatch:
 
 permissions:
@@ -19,7 +25,26 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  decide:
+    runs-on: ubuntu-latest
+    outputs:
+      publica: ${{ steps.checa.outputs.publica }}
+    steps:
+      - id: checa
+        env:
+          EVENTO: ${{ github.event_name }}
+          MSG_COMMIT: ${{ github.event.head_commit.message }}
+        run: |
+          if [ "$EVENTO" = "push" ] && [[ "$MSG_COMMIT" == *"edicao-pendente-"* ]]; then
+            echo "Merge da edição do dia: só publica no horário agendado (4h30), não agora."
+            echo "publica=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "publica=true" >> "$GITHUB_OUTPUT"
+          fi
+
   publicar:
+    needs: decide
+    if: needs.decide.outputs.publica == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 40
     environment:
