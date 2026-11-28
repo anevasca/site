@@ -101,7 +101,7 @@ jobs:
           python3 ferramentas/gerar_feed.py _site
         env:
           GH_TOKEN: ${{ github.token }}
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: _site
       - id: deploy
