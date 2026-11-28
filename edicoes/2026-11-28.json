@@ -1,0 +1,763 @@
+{
+ "data": "2026-11-28",
+ "dataExtenso": "Sábado, 28 de novembro de 2026",
+ "numero": 11,
+ "atualizadoEm": "27/11/2026, 22h (Brasília)",
+ "indicadores": [
+  {
+   "rotulo": "Dólar",
+   "valor": "R$ 5,51",
+   "nota": "Fechamento de 27/11, queda de 4%; Suno e Metrópoles"
+  },
+  {
+   "rotulo": "Ibovespa",
+   "valor": "176.573 pts",
+   "nota": "Fechamento de 27/11, queda de 0,13%; alta de 6,13% na semana, segundo a Suno"
+  },
+  {
+   "rotulo": "Superávit de outubro",
+   "valor": "R$ 52,3 bi",
+   "nota": "Governo Central, Tesouro Nacional; Correio Braziliense"
+  },
+  {
+   "rotulo": "Déficit no ano",
+   "valor": "R$ 37,9 bi",
+   "nota": "Governo Central, janeiro a outubro; Tesouro Nacional"
+  }
+ ],
+ "manchete": {
+  "secao": "STF",
+  "titulo": "Dino congela R$ 79 milhões em emendas de Flávio Bolsonaro, que está nos EUA desde outubro",
+  "linhaFina": "O ministro vê possível quebra de decoro, dá cinco dias ao Senado para explicar como o senador exerce o mandato fora do país e manda rastrear de onde partiram as 14 indicações.",
+  "resumo": "O ministro Flávio Dino, do STF, suspendeu 14 emendas do senador Flávio Bolsonaro ao Orçamento de 2027, que somam 79 milhões e 300 mil reais. O senador está nos Estados Unidos desde o fim de outubro. Dino quer saber, em cinco dias, quem enviou as indicações e de onde.",
+  "texto": [
+   "O ministro Flávio Dino, do Supremo Tribunal Federal, suspendeu nesta sexta-feira (27) as 14 emendas individuais do senador Flávio Bolsonaro (PL-RJ) ao Orçamento de 2027. Juntas, somam R$ 79,3 milhões. O senador está nos Estados Unidos desde o fim de outubro, e Dino agora quer saber quem enviou as indicações e de onde.",
+   "As emendas foram apresentadas no prazo aberto pelo Congresso, de 6 a 23 de novembro. Segundo a decisão, relatada por Metrópoles, ICL Notícias e O Antagonista, o senador passou todo esse período fora do país. Para o ministro, a saída pode configurar quebra de decoro parlamentar. \"O senador evadiu-se e encontra-se fora do país\", escreveu Dino, para quem o objetivo foi escapar de uma ordem do próprio STF.",
+   "A ordem que Flávio teria evitado é do ministro Alexandre de Moraes, que determinou a entrega dos passaportes e proibiu o senador de deixar o país, numa investigação da Polícia Federal que tem como alvos Flávio e Willer Tomaz. Segundo o Diário do Grande ABC, o senador saiu do Brasil dois dias depois de perder a eleição presidencial para Lula, passando por Foz do Iguaçu e pela Argentina antes de voar para Miami. O jornal relata que a medida cautelar foi pedida sete minutos depois do resultado do segundo turno e concedida por Moraes no dia seguinte. O Diário do Grande ABC fala em saída no dia 27 de outubro; os demais veículos citam 28 de outubro.",
+   "A decisão suspende de imediato a tramitação das 14 emendas e qualquer ato para executá-las. Segundo o ND Mais, Dino também declarou nulas eventuais indicações de beneficiários, ordens de prioridade e pedidos de remanejamento feitos pelo senador ou em nome dele. O Senado tem cinco dias para dizer em que condições Flávio exerce o mandato, se a Casa autorizou a viagem e se ele está em missão oficial.",
+   "O ministro pediu ainda os recibos das emendas e os registros do sistema Lexor, usado para enviá-las, com usuários, datas, horários, endereços de IP e geolocalização de cada acesso entre 6 e 23 de novembro. Flávio também tem cinco dias para se manifestar. Como está em local considerado incerto, será intimado por edital. A Procuradoria-Geral da República foi comunicada.",
+   "Dino apoiou-se no artigo 57 da Constituição, segundo o qual o Congresso se reúne na Capital Federal, e numa decisão de dezembro de 2025 sobre os deputados Eduardo Bolsonaro e Alexandre Ramagem, que também moram nos Estados Unidos. Aquela decisão foi referendada por unanimidade no plenário. Segundo o ICL, o ministro escreveu que não há mandato legítimo \"com sede permanente em Washington, Miami, Paris ou Roma\" e considerou o caso de Flávio potencialmente mais grave.",
+   "A ação partiu de um pedido do deputado Alencar Santana (PT-SP), apresentado na quinta-feira (26), que pedia o bloqueio total e a nulidade das emendas. Segundo o Metrópoles, Dino atendeu o pedido em parte. A indicação das verbas tinha sido revelada pela CNN Brasil, e o senador usou a cota máxima a que tem direito. A Revista Oeste também noticiou a decisão.",
+   "Nove das 14 emendas iriam para o Rio de Janeiro, estado de Flávio. Segundo o Metrópoles, R$ 16,1 milhões seriam para assistência hospitalar e ambulatorial no estado, R$ 14,7 milhões para atenção especializada em saúde e R$ 11 milhões para segurança pública, com recursos também para as Forças Armadas. Segundo o Imirante, que reproduziu informações da CNN Brasil, a lista incluía oncologia e a manutenção da prontidão militar. Duque de Caxias e Bom Jesus do Itabapoana estão entre os municípios citados. Até a noite de sexta, nenhum dos veículos consultados havia registrado resposta do senador.",
+   "Depois dos esclarecimentos, Dino fará a análise definitiva e poderá levar a decisão a referendo do plenário do STF. O Orçamento de 2027 ainda depende do relatório preliminar do senador Eduardo Braga (MDB-AM) e da votação no Congresso."
+  ],
+  "grafico": {
+   "tipo": "barras",
+   "titulo": "Para onde iriam as maiores emendas de Flávio",
+   "subtitulo": "Valores indicados ao Orçamento de 2027, em milhões de reais",
+   "prefixo": "R$ ",
+   "sufixo": " mi",
+   "casas": 1,
+   "dados": [
+    {
+     "rotulo": "Hospitais e ambulatórios no RJ",
+     "valor": 16.1,
+     "destaque": true
+    },
+    {
+     "rotulo": "Atenção especializada em saúde",
+     "valor": 14.7
+    },
+    {
+     "rotulo": "Segurança pública no RJ",
+     "valor": 11.0
+    }
+   ],
+   "fonte": {
+    "nome": "Metrópoles",
+    "url": "https://www.metropoles.com/colunas/manoela-alcantara/dino-suspende-r-794-milhoes-em-emendas-indicadas-por-flavio-bolsonaro"
+   }
+  },
+  "fontes": [
+   {
+    "nome": "Metrópoles",
+    "url": "https://www.metropoles.com/colunas/manoela-alcantara/dino-suspende-r-794-milhoes-em-emendas-indicadas-por-flavio-bolsonaro"
+   },
+   {
+    "nome": "ICL Notícias",
+    "url": "https://iclnoticias.com.br/dino-suspende-emendas-de-flavio/"
+   },
+   {
+    "nome": "ND Mais",
+    "url": "https://ndmais.com.br/politica/dino-suspende-14-emendas-de-flavio-bolsonaro/"
+   },
+   {
+    "nome": "O Antagonista",
+    "url": "https://oantagonista.com.br/brasil/dino-suspende-emendas-apresentadas-por-flavio/"
+   },
+   {
+    "nome": "Diário do Grande ABC",
+    "url": "https://www.dgabc.com.br/Noticia/4371216/dino-bloqueia-emendas-individuais-de-flavio-bolsonaro"
+   },
+   {
+    "nome": "Imirante (com CNN Brasil)",
+    "url": "https://imirante.com/noticias/brasil/2026/11/27/ipolitica-flavio-bolsonaro-emendas-suspensas-decisao"
+   },
+   {
+    "nome": "Revista Oeste",
+    "url": "https://revistaoeste.com/politica/dino-suspende-quase-r-80-mi-em-emendas-parlamentares-de-flavio/"
+   }
+  ],
+  "imagem": {
+   "arquivo": "img/ed-2026-11-28/manchete.jpg",
+   "legenda": "O ministro Flávio Dino durante sessão plenária do Supremo Tribunal Federal, em foto de arquivo.",
+   "credito": "Antonio Augusto/STF"
+  }
+ },
+ "destaques": [
+  {
+   "secao": "Câmbio",
+   "titulo": "Dólar cai 4% num só dia e fecha a R$ 5,51 com Trabuco a caminho da Fazenda",
+   "linhaFina": "A moeda americana acumula queda de 7% na semana. O Ibovespa recua 0,13% depois do salto de 6% da véspera, mas fecha a melhor semana desde o primeiro turno.",
+   "resumo": "O dólar caiu 4% nesta sexta e fechou perto de 5 reais e 51 centavos, a quinta queda seguida. Na semana, recuou 7%. A Bolsa ficou praticamente estável, depois de subir 6% na quinta com a escolha de Luiz Carlos Trabuco para a Fazenda.",
+   "texto": [
+    "O dólar comercial caiu 4% nesta sexta-feira (27) e fechou a R$ 5,51, segundo a Suno e o Metrópoles. Foi a quinta queda seguida. Na semana, a moeda recuou 7,03%, depois de ter passado de R$ 6 na segunda-feira (23). O movimento segue a escolha de Luiz Carlos Trabuco, presidente do Conselho do Bradesco, para o Ministério da Fazenda.",
+    "O Ibovespa teve outro dia. O índice chegou a 183,6 mil pontos na máxima, mas devolveu os ganhos e fechou em queda de 0,13%, aos 176.573 pontos. Na quinta-feira (26), dia do anúncio, tinha subido 6,07%. Com isso, a semana terminou com alta de 6,13%, a melhor desde o primeiro turno da eleição presidencial, segundo a Suno.",
+    "Entre as maiores altas do dia, Tenda subiu 13,02%, MRV 11,07%, Hapvida 10% e Magazine Luiza 9,74%. A B3, dona da própria Bolsa, ganhou 6,62%. Do outro lado, Natura caiu 6,54%, Suzano 5,27% e Embraer 3,88%. Petrobras e Vale recuaram mais de 2%, segundo a Suno.",
+    "Para Ricardo Trevisan, presidente da Gravus Capital, a escolha \"afasta o receio de um nome heterodoxo na Fazenda\", disse ele à Exame. Ele ressalvou que a recuperação depende de medidas concretas para controlar gastos. Segundo a mesma revista, o Bradesco BBI vê espaço para alta de até 30% das ações brasileiras em dólar, desde que a confiança na política fiscal volte.",
+    "No exterior, as Bolsas de Nova York subiram num pregão mais curto, depois do feriado de Ação de Graças: o Dow Jones ganhou 1,18%, o S&P 500 1,60% e o Nasdaq 2,31%. Trabuco assume a Fazenda em 2027, no quarto mandato de Lula. Até agora, o governo não anunciou as medidas fiscais que o novo ministro vai conduzir."
+   ],
+   "grafico": {
+    "tipo": "barras",
+    "titulo": "Quem mais subiu e caiu no Ibovespa na sexta",
+    "subtitulo": "Variação no fechamento de 27/11, em %",
+    "sufixo": "%",
+    "casas": 2,
+    "dados": [
+     {
+      "rotulo": "Tenda",
+      "valor": 13.02,
+      "destaque": true
+     },
+     {
+      "rotulo": "MRV",
+      "valor": 11.07
+     },
+     {
+      "rotulo": "Hapvida",
+      "valor": 10.0
+     },
+     {
+      "rotulo": "Magazine Luiza",
+      "valor": 9.74
+     },
+     {
+      "rotulo": "Suzano",
+      "valor": -5.27
+     },
+     {
+      "rotulo": "Natura",
+      "valor": -6.54
+     }
+    ],
+    "fonte": {
+     "nome": "Suno",
+     "url": "https://www.suno.com.br/noticias/ibovespa-hoje-27-novembro-trabuco-dolar-queda/"
+    }
+   },
+   "fontes": [
+    {
+     "nome": "Suno",
+     "url": "https://www.suno.com.br/noticias/ibovespa-hoje-27-novembro-trabuco-dolar-queda/"
+    },
+    {
+     "nome": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/dolar-despenca-4-e-fecha-cotado-a-r-551-com-efeito-trabuco-bolsa-sobe"
+    },
+    {
+     "nome": "Exame",
+     "url": "https://exame.com/invest/mercados/ibovespa-hoje-27-11-2026/"
+    },
+    {
+     "nome": "Agência Brasil",
+     "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-cai-quase-4-e-fecha-em-r-551-apos-anuncio-de-trabuco"
+    }
+   ],
+   "imagem": {
+    "arquivo": "img/ed-2026-11-28/destaque-1.jpg",
+    "legenda": "Cédulas de dólar dos Estados Unidos, em foto de arquivo.",
+    "credito": "Valter Campanato/Agência Brasil"
+   }
+  },
+  {
+   "secao": "Contas públicas",
+   "titulo": "Governo fecha outubro com sobra de R$ 52,3 bilhões, a maior para o mês desde 2016",
+   "linhaFina": "A receita cresce 5,6% acima da inflação e a despesa fica estável, mas o ano ainda acumula déficit de R$ 37,9 bilhões até outubro.",
+   "resumo": "As contas do governo federal tiveram superávit de 52 bilhões e 300 milhões de reais em outubro, o melhor resultado para o mês desde 2016, descontada a inflação. A arrecadação subiu e os gastos ficaram estáveis. De janeiro a outubro, porém, o governo ainda gastou 37 bilhões e 900 milhões a mais do que arrecadou.",
+   "texto": [
+    "O Governo Central teve superávit primário de R$ 52,3 bilhões em outubro, informou o Tesouro nesta sexta-feira (27). A conta reúne Tesouro Nacional, Previdência Social e Banco Central. É o melhor resultado para o mês desde 2016, descontada a inflação, segundo a Gazeta do Povo e o Melhor Investimento. O resultado não apaga o déficit acumulado no ano.",
+    "O número veio acima do esperado. A mediana do Prisma Fiscal, pesquisa do próprio Ministério da Fazenda com analistas, apontava superávit de R$ 43,4 bilhões. Em outubro de 2025, a sobra tinha sido de R$ 36,6 bilhões. O Tesouro e o Banco Central tiveram resultado positivo de R$ 73,7 bilhões, e a Previdência ficou negativa em R$ 21,4 bilhões.",
+    "A diferença veio da arrecadação. A receita líquida somou R$ 253,1 bilhões, alta real de 5,6%, enquanto a despesa ficou em R$ 200,9 bilhões, com queda real de 0,2%. Segundo o Correio Braziliense, as receitas com exploração de petróleo, como royalties e participação especial, cresceram 42,4% acima da inflação. O IPI subiu 43,3% e o Imposto de Renda, 6,5%.",
+    "No acumulado de janeiro a outubro, o governo tem déficit de R$ 37,9 bilhões, 42,2% menor, em termos reais, que os R$ 63,7 bilhões do mesmo período de 2025. As receitas do ano somam R$ 2,13 trilhões e as despesas, R$ 2,17 trilhões. Só a Previdência acumula rombo de R$ 324,6 bilhões, segundo a Gazeta do Povo.",
+    "A meta de 2026 é de superávit de 0,25% do PIB, com tolerância que admite resultado zero, e a lei permite descontar parte dos precatórios da conta, segundo o Melhor Investimento. O relatório bimestral divulgado na terça-feira (24) projeta déficit de R$ 89,3 bilhões no ano. O resultado de novembro sai no fim de dezembro."
+   ],
+   "grafico": {
+    "tipo": "barras",
+    "titulo": "Resultado do Governo Central em outubro",
+    "subtitulo": "Superávit primário, em bilhões de reais",
+    "prefixo": "R$ ",
+    "sufixo": " bi",
+    "casas": 1,
+    "dados": [
+     {
+      "rotulo": "Out/2025",
+      "valor": 36.6
+     },
+     {
+      "rotulo": "Esperado (Prisma Fiscal)",
+      "valor": 43.4
+     },
+     {
+      "rotulo": "Out/2026",
+      "valor": 52.3,
+      "destaque": true
+     }
+    ],
+    "fonte": {
+     "nome": "Tesouro Nacional, via Correio Braziliense e Gazeta do Povo",
+     "url": "https://www.correiobraziliense.com.br/economia/2026/11/7545460-governo-central-registra-superavit-de-rs-523-bi-em-outubro-aponta-tesouro.html"
+    }
+   },
+   "fontes": [
+    {
+     "nome": "Correio Braziliense",
+     "url": "https://www.correiobraziliense.com.br/economia/2026/11/7545460-governo-central-registra-superavit-de-rs-523-bi-em-outubro-aponta-tesouro.html"
+    },
+    {
+     "nome": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/economia/governo-lula-acumula-rombo-37-9-bilhoes-janeiro-outubro/"
+    },
+    {
+     "nome": "Melhor Investimento",
+     "url": "https://melhorinvestimento.net/noticias/superavit-primario-outubro-2026"
+    },
+    {
+     "nome": "Agência Brasil",
+     "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/contas-do-governo-tem-superavit-de-r-523-bilhoes-em-outubro"
+    }
+   ],
+   "imagem": {
+    "arquivo": "img/ed-2026-11-28/destaque-2.jpg",
+    "legenda": "Prédios da Esplanada dos Ministérios, em Brasília, em foto de arquivo.",
+    "credito": "Rafa Neddermeyer/Agência Brasil"
+   }
+  },
+  {
+   "secao": "Fazenda",
+   "titulo": "Trabuco ganha elogio de Alcolumbre e aceno de Motta, e CUT e CTB ficam fora de nota de apoio",
+   "linhaFina": "Cinco centrais desejam êxito ao futuro ministro. No PSOL, Glauber Braga fala em \"estelionato eleitoral\", e Flávio Bolsonaro diz que Lula \"virou Faria Limer\".",
+   "resumo": "A escolha do banqueiro Luiz Carlos Trabuco para a Fazenda agradou aos presidentes do Senado e da Câmara. Cinco centrais sindicais assinaram uma nota de apoio, mas a CUT e a CTB ficaram de fora. Lula disse nesta sexta que vai ajustar as contas sem cortar benefícios dos mais pobres.",
+   "texto": [
+    "A escolha de Luiz Carlos Trabuco para o Ministério da Fazenda agradou aos presidentes do Senado, Davi Alcolumbre, e da Câmara, Hugo Motta. Motta ofereceu trabalhar com ele numa agenda de desenvolvimento. Já a CUT e a CTB, as centrais sindicais mais próximas do PT, ficaram fora de uma nota de apoio assinada por outras cinco, segundo a Gazeta do Povo.",
+    "Trabuco, de 75 anos, preside o Conselho de Administração do Bradesco. Entrou no banco em 1969, aos 17 anos, e foi presidente-executivo de 2009 a 2018, segundo o Metrópoles. Formado em Filosofia, participa do Conselhão de Lula desde 2023. Em 2014, segundo o mesmo site, recusou a Fazenda no segundo governo Dilma e indicou Joaquim Levy. O anúncio foi feito na quinta-feira (26), depois de uma reunião no Palácio da Alvorada.",
+    "Em nota, Alcolumbre disse conhecer Trabuco \"há muitos anos\" e ter \"profunda admiração por seu trabalho\", segundo a Rádio Senado. A Força Sindical, a UGT, a CSB, a NCST e a Pública desejaram \"boa sorte e pleno êxito ao novo ministro\". As cinco pediram juros menores, combate à informalidade, menos impostos sobre o trabalhador e correção de distorções nas emendas parlamentares.",
+    "À esquerda, o deputado Lindbergh Farias (PT-RJ) comparou o momento à passagem de Levy pela Fazenda, e Glauber Braga (PSOL-RJ) falou em \"estelionato eleitoral\". Na oposição, Flávio Bolsonaro disse que Lula \"virou Faria Limer\", e o líder do PL na Câmara, Sóstenes Cavalcante, também criticou a escolha. O ministro Wellington Dias descreveu Trabuco como \"humanista\".",
+    "Lula falou do assunto nesta sexta, em evento com estudantes em Niterói (RJ). Disse que o governo terá de ajustar as contas, mas que \"não haverá hipótese\" de cortar benefícios dos mais pobres, segundo a Gazeta do Povo. A data da posse de Trabuco e as primeiras medidas ainda não foram anunciadas."
+   ],
+   "fontes": [
+    {
+     "nome": "Gazeta do Povo — reações a Trabuco",
+     "url": "https://www.gazetadopovo.com.br/republica/governo-lula-anuncia-luiz-carlos-trabuco-para-o-ministerio-da-fazenda/"
+    },
+    {
+     "nome": "Gazeta do Povo — centrais sindicais",
+     "url": "https://www.gazetadopovo.com.br/republica/centrais-sindicais-esquerda-recusam-apoio-trabuco/"
+    },
+    {
+     "nome": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/dolar-despenca-4-e-fecha-cotado-a-r-551-com-efeito-trabuco-bolsa-sobe"
+    },
+    {
+     "nome": "Rádio Senado — Boletim.leg",
+     "url": "https://www12.senado.leg.br/radio/1/boletim.leg/2026/11/27/boletim-leg-edicao-das-14h"
+    },
+    {
+     "nome": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/republica/lula-necessidade-ajuste-defende-cautela-gastos-saude-educacao/"
+    },
+    {
+     "nome": "Agência Brasil — repercussão",
+     "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/veja-repercussao-da-escolha-de-trabuco-para-o-ministerio-da-fazenda"
+    }
+   ],
+   "imagem": {
+    "arquivo": "img/ed-2026-11-28/destaque-3.jpg",
+    "legenda": "Luiz Carlos Trabuco Cappi fala na tribuna do Senado, em foto de arquivo.",
+    "credito": "Edilson Rodrigues/Agência Senado"
+   }
+  }
+ ],
+ "politica": [
+  {
+   "secao": "TSE",
+   "titulo": "Relator no TSE vota para anular 118 mil votos de Ney Santos, e Toffoli segura o desfecho",
+   "linhaFina": "Eleito deputado pelo Republicanos em São Paulo, o ex-prefeito de Embu das Artes é réu por ligação com o PCC. A anulação pode passar uma cadeira ao MDB.",
+   "resumo": "O relator do caso no Tribunal Superior Eleitoral votou para barrar o deputado eleito Ney Santos, do Republicanos, e anular seus 118 mil votos. Ele é réu sob acusação de ligação com o PCC e nega. Um pedido de vista do ministro Dias Toffoli suspendeu o julgamento, sem data para voltar.",
+   "texto": [
+    "O relator no Tribunal Superior Eleitoral, Floriano de Azevedo Marques, votou para barrar o deputado eleito Ney Santos (Republicanos-SP) e anular seus 118.566 votos. O julgamento foi suspenso por um pedido de vista do ministro Dias Toffoli e não tem data para voltar, segundo o NC News. A Revista Oeste também noticiou o caso. A posse dos deputados é em 1º de fevereiro.",
+    "Claudinei Alves dos Santos, o Ney Santos, foi prefeito de Embu das Artes de 2017 a 2024. É réu na Operação Xibalba, do Gaeco do Ministério Público de São Paulo, acusado de liderar organização criminosa ligada ao PCC e de lavagem de dinheiro do tráfico. Os investigadores atribuem a ele 130 atos de lavagem, segundo a TV Sim Brasil. A acusação afirma que parte do dinheiro financiou campanhas dele.",
+    "No voto, apresentado em 20 de novembro, o relator falou em \"conjunto probatório robusto e contundente, ao menos para os fins eleitorais\". O caso chegou ao TSE por recurso do Ministério Público Eleitoral contra o Tribunal Regional Eleitoral de São Paulo, que tinha autorizado a candidatura por 3 votos a 2. A defesa nega vínculo com a facção e diz que as acusações não afastam a presunção de inocência.",
+    "O resultado mexe na bancada paulista. O Republicanos elegeu seis deputados por São Paulo. Se os votos forem anulados sem repasse ao partido, como propõe o relator, a sigla fica com cinco, e o MDB passa de quatro para cinco, o que pode beneficiar o ex-prefeito de São Bernardo do Campo Orlando Morando. O TSE também pode rejeitar a candidatura e manter os votos na conta do partido, o que levaria o primeiro suplente, Marco Vinholi, com 81.445 votos, à vaga.",
+    "O voto do relator, sozinho, não decide o caso. Os demais ministros ainda vão votar depois que Toffoli devolver o processo. Em novembro, o TSE avaliava casos de dez eleitos suspeitos de ligação com o crime organizado, segundo a TV Sim Brasil."
+   ],
+   "fontes": [
+    {
+     "nome": "NC News",
+     "url": "https://ncnews.com.br/2026/11/27/republicanos-pode-perder-cadeira-na-camara-se-tse-anular-votos-de-ney-santos-acusado-de-ligacao-com-o-pcc/"
+    },
+    {
+     "nome": "TV Sim Brasil",
+     "url": "https://tvsimbrasil.com.br/sp/embu-das-artes/eleicoes-2026/noticia/2026/11/20/tse-vota-barrar-posse-ney-santos-ligado-pcc"
+    },
+    {
+     "nome": "Revista Oeste",
+     "url": "https://revistaoeste.com/politica/deputado-acusado-de-ligacao-com-o-pcc-pode-ter-votos-anulados-pelo-tse/"
+    },
+    {
+     "nome": "Revista Oeste — efeito na bancada",
+     "url": "https://revistaoeste.com/politica/julgamento-no-tse-pode-tirar-vaga-do-republicanos-em-sp-e-beneficiar-o-mdb"
+    }
+   ],
+   "imagem": {
+    "arquivo": "img/ed-2026-11-28/politica-1.jpg",
+    "legenda": "O ministro Dias Toffoli na bancada do STF durante a sessão plenária de 13 de maio de 2026, em foto de arquivo.",
+    "credito": "Gustavo Moreno/STF"
+   }
+  },
+  {
+   "secao": "Bolsonaro",
+   "titulo": "Bolsonaro melhora na UTI, volta a se alimentar e segue sem previsão de alta",
+   "linhaFina": "Internado desde 20 de novembro com obstrução intestinal, depois agravada por pneumonia nos dois pulmões, o ex-presidente deve passar de 7 a 10 dias no antibiótico, segundo seu cardiologista.",
+   "resumo": "Jair Bolsonaro apresenta boa evolução, segundo o boletim desta sexta do hospital DF Star, em Brasília. O intestino voltou a funcionar e ele já recebe dieta líquida. Os médicos descartam cirurgia por enquanto, e não há previsão de alta.",
+   "texto": [
+    "O ex-presidente Jair Bolsonaro apresenta \"boa evolução, com melhora clínica e laboratorial\", segundo o boletim desta sexta-feira (27) do hospital DF Star, em Brasília. O intestino voltou a funcionar sozinho e ele já aceita dieta líquida. Ainda assim, segue na UTI e \"sem previsão de alta hospitalar\", diz o boletim, assinado por cinco médicos.",
+    "Bolsonaro foi internado em 20 de novembro com fortes dores abdominais. A tomografia mostrou obstrução quase total do intestino delgado, segundo a TV Sim Brasil. Dois dias depois, o quadro piorou: ele teve calafrios, queda na oxigenação do sangue e pneumonia nos dois pulmões. Os médicos atribuem a pneumonia à aspiração de conteúdo do sistema digestivo depois de um vômito.",
+    "A equipe mantém antibióticos e fisioterapia e descarta, por ora, uma cirurgia, que só será reavaliada se houver piora. O cirurgião Cláudio Birolini atribui o problema às aderências formadas pelas operações feitas desde a facada de 2018. O cardiologista Brasil Caiado disse à Gazeta do Povo que a pneumonia é de \"grau menor do que a internação de março\". Segundo a TV Sim Brasil, ele estima de 7 a 10 dias de antibiótico.",
+    "Na quinta-feira (26), a ex-primeira-dama Michelle Bolsonaro disse que o marido estava mais animado, saiu do quarto e fez fisioterapia. \"A sonda foi fechada e ele já recebeu gelatina\", afirmou. A Revista Oeste também noticiou a mudança na sonda nasogástrica.",
+    "Bolsonaro cumpre pena pela condenação no processo da trama golpista. Segundo a Gazeta do Povo, a internação de março levou o ex-presidente à prisão domiciliar humanitária. Em 25 de novembro, completou um ano preso, lembrou a TV Sim Brasil."
+   ],
+   "fontes": [
+    {
+     "nome": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/republica/bolsonaro-boa-evolucao-tratamento-segue-uti-sem-previsao-alta/"
+    },
+    {
+     "nome": "TV Sim Brasil",
+     "url": "https://tvsimbrasil.com.br/df/brasilia/politica/noticia/2026/11/27/bolsonaro-tem-melhora-clinica-intestino-volta-funcionar"
+    },
+    {
+     "nome": "Agência Brasil",
+     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/bolsonaro-segue-internado-na-uti-sem-previsao-de-alta"
+    },
+    {
+     "nome": "Revista Oeste — boletim",
+     "url": "https://revistaoeste.com/politica/bolsonaro-tem-boa-evolucao-e-melhora-clinica-e-laboratorial-diz-boletim/"
+    },
+    {
+     "nome": "Revista Oeste — sonda",
+     "url": "https://revistaoeste.com/politica/bolsonaro-retira-sonda-nasogastrica-e-ja-realiza-algumas-atividades-no-hospital-diz-michelle/"
+    }
+   ],
+   "imagem": {
+    "arquivo": "img/ed-2026-11-28/politica-2.jpg",
+    "legenda": "O ex-presidente Jair Bolsonaro, em foto de arquivo.",
+    "credito": "Tânia Rego/Agência Brasil/Arquivo"
+   }
+  },
+  {
+   "secao": "Senado",
+   "titulo": "Senado pode votar na terça a PEC que dá ao DF a chave do próprio fundo",
+   "linhaFina": "Na terça também pode ir a voto o projeto que reduz de três anos para 30 dias a quarentena de dirigentes de estatais e agências. Marinho e Mourão votaram contra a urgência.",
+   "resumo": "O Senado pode votar na terça, primeiro de dezembro, a proposta que deixa o governo do Distrito Federal decidir como usar o Fundo Constitucional. Também pode ir a voto o projeto que reduz para 30 dias a quarentena de quem vai dirigir estatais e agências reguladoras. A oposição critica esse segundo texto.",
+   "texto": [
+    "O Senado pode votar na terça-feira (1º) a proposta que dá ao governo do Distrito Federal o controle sobre o uso do Fundo Constitucional. A votação da emenda à Constituição está prevista em dois turnos no mesmo dia. Na mesma sessão, o plenário pode votar o projeto que reduz de três anos para 30 dias a quarentena para cargos de direção em estatais e agências reguladoras. Para este, ainda não há acordo.",
+    "A PEC 1/2025, do senador Izalci Lucas (PL-DF), mantém a União como financiadora de parte das despesas do DF, mas transfere ao governo local a decisão sobre o dinheiro usado para as polícias Civil, Penal e Militar, o Corpo de Bombeiros e outros serviços. \"Hoje é o único estado que tem que pedir autorização para fazer concurso\", disse Izalci à Rádio Senado. O pedido de votação rápida teve apoio de outros 79 parlamentares, de Alcolumbre e da líder do governo, senadora Teresa Leitão. Se aprovada, segue para a Câmara.",
+    "O projeto da quarentena ganhou urgência na quarta-feira (25), em votação simbólica, com dois votos contrários: Rogério Marinho (PL-RN) e Hamilton Mourão (Republicanos-RS). Segundo a Gazeta do Povo, o texto também eleva de 0,5% para até 2% da receita bruta o limite de gastos das estatais com publicidade e patrocínio, e muda regras de despesas em ano eleitoral. Um levantamento citado pelo jornal aponta que Lula poderia indicar até 25 cargos em 12 agências reguladoras ainda neste ano.",
+    "Marinho disse que a mudança pode facilitar indicações de pessoas ligadas a partidos e lembrou a \"ocupação indiscriminada de cargos em diversas estatais\" no início do governo. A senadora Daniella Ribeiro (PP-PB), autora do pedido de urgência, respondeu que o projeto não altera a Lei das Estatais. A relatora é Eliziane Gama (PT-MA), que não se reelegeu em outubro.",
+    "Segundo a Gazeta do Povo, Alcolumbre pode levar o mérito da quarentena direto ao plenário na terça, e o governo quer aprovar o texto antes do recesso, que começa em 23 de dezembro. A Agência Senado também registrou que a quarentena pode ser votada na próxima semana."
+   ],
+   "fontes": [
+    {
+     "nome": "Rádio Senado — PEC do Fundo do DF",
+     "url": "https://www12.senado.leg.br/radio/1/noticia/2026/11/27/autonomia-sobre-fundo-constitucional-do-df-pode-ser-votada-em-plenario-no-dia-1o"
+    },
+    {
+     "nome": "Gazeta do Povo — quarentena nas estatais",
+     "url": "https://www.gazetadopovo.com.br/republica/senado-aprova-urgencia-reducao-quarentena-diretoria-estatais/"
+    },
+    {
+     "nome": "Agência Senado",
+     "url": "https://www12.senado.leg.br/noticias/videos/2026/11/senadores-destacam-qualidades-de-indicado-a-fazenda-e-apontam-desafios"
+    }
+   ],
+   "imagem": {
+    "arquivo": "img/ed-2026-11-28/politica-3.jpg",
+    "legenda": "O senador Izalci Lucas (PL-DF), autor da PEC do Fundo Constitucional do DF, fala no plenário do Senado em 25 de novembro de 2026, em foto de arquivo.",
+    "credito": "Ton Molina/Agência Senado"
+   }
+  },
+  {
+   "secao": "Itamaraty",
+   "titulo": "Chanceler da Venezuela vem a Brasília na segunda com dívida de US$ 1,1 bilhão no BNDES na mesa",
+   "linhaFina": "Primeira visita oficial de Oliver Blanco ocorre depois que Lula e a presidente interina Delcy Rodríguez decidiram retomar plenamente as relações, abaladas desde 2024.",
+   "resumo": "O chanceler venezuelano, Oliver Blanco, se reúne com Mauro Vieira em Brasília na segunda-feira. Na pauta está a retomada das relações e uma dívida de 1 bilhão e 100 milhões de dólares com o BNDES. Caracas quer empresas brasileiras de volta; o Itamaraty quer entender quanta autonomia o novo governo venezuelano tem diante dos Estados Unidos.",
+   "texto": [
+    "O chanceler da Venezuela, Oliver Blanco, faz na segunda-feira (30) sua primeira visita oficial a Brasília, para se reunir com o ministro Mauro Vieira. Na pauta está a retomada das relações e uma dívida de US$ 1,1 bilhão com o BNDES, em aberto desde 2018, segundo a TV Sim Brasil. A dívida trava novos créditos públicos a empresas brasileiras que queiram atuar no país vizinho.",
+    "O encontro foi combinado no início de novembro, quando os dois chanceleres se reuniram em Madri, segundo o Brasil de Fato. Na ocasião, discutiram comércio e cooperação amazônica, informou a Reuters. Em 11 de novembro, na COP31, na Turquia, Lula e a presidente interina venezuelana, Delcy Rodríguez, concordaram em restabelecer plenamente as relações, num primeiro encontro presencial, segundo o Brasil em Folhas.",
+    "As relações se deterioraram em 2024, quando o Brasil não reconheceu a vitória declarada de Nicolás Maduro na eleição. Em 3 de janeiro de 2026, uma intervenção dos Estados Unidos capturou Maduro e a mulher, Cilia Flores. Delcy assumiu a Presidência interinamente. O governo brasileiro condenou a ação americana como violação da soberania. Maduro está preso nos Estados Unidos.",
+    "Caracas quer a volta de empresas brasileiras e investimentos em petróleo, gás e infraestrutura. O Itamaraty, segundo a TV Sim Brasil, quer antes entender o grau de autonomia do governo venezuelano diante de Washington. Blanco já se reuniu com o secretário de Estado americano, Marco Rubio. Em 2025, o Brasil vendeu US$ 838 milhões à Venezuela e comprou US$ 349 milhões.",
+    "Depois da reunião, o ministro de Minas e Energia, Alexandre Silveira, deve ir a Caracas para tratar de petróleo e gás, ainda sem data. O governo prevê convidar Delcy para a posse de Lula, em 5 de janeiro de 2027; a presença dela não está confirmada."
+   ],
+   "grafico": {
+    "tipo": "barras",
+    "titulo": "Comércio entre Brasil e Venezuela em 2025",
+    "subtitulo": "Em milhões de dólares",
+    "prefixo": "US$ ",
+    "sufixo": " mi",
+    "casas": 1,
+    "dados": [
+     {
+      "rotulo": "Brasil vendeu",
+      "valor": 838.0,
+      "destaque": true
+     },
+     {
+      "rotulo": "Brasil comprou",
+      "valor": 349.1
+     }
+    ],
+    "fonte": {
+     "nome": "TV Sim Brasil",
+     "url": "https://tvsimbrasil.com.br/brasil/politica/noticia/2026/11/27/chanceler-da-venezuela-visita-brasilia-divida-bndes"
+    }
+   },
+   "fontes": [
+    {
+     "nome": "TV Sim Brasil — visita do chanceler",
+     "url": "https://tvsimbrasil.com.br/brasil/politica/noticia/2026/11/27/chanceler-da-venezuela-visita-brasilia-divida-bndes"
+    },
+    {
+     "nome": "TV Sim Brasil — retomada das relações",
+     "url": "https://tvsimbrasil.com.br/brasil/politica/noticia/2026/11/27/venezuela-brasil-retomam-relacoes-apos-captura-maduro"
+    },
+    {
+     "nome": "Brasil de Fato",
+     "url": "https://www.brasildefato.com.br/2026/11/04/mauro-vieira-e-chanceler-da-venezuela-se-reunem-em-madri-e-planejam-novo-encontro-em-brasilia/"
+    },
+    {
+     "nome": "Reuters, via The Star",
+     "url": "https://www.thestar.com.my/news/world/2026/11/04/brazil-venezuela-foreign-ministers-discuss-trade-amazon-cooperation"
+    },
+    {
+     "nome": "Brasil em Folhas",
+     "url": "https://brasilemfolhas.com.br/2026/11/brasil-e-venezuela-decidem-restabelecer-plenamente-relacoes-bilaterais/"
+    }
+   ],
+   "imagem": {
+    "arquivo": "img/ed-2026-11-28/politica-4.jpg",
+    "legenda": "O chanceler Mauro Vieira durante declaração à imprensa no Palácio do Itamaraty, em 7 de março de 2023, em foto de arquivo.",
+    "credito": "Marcelo Camargo/Agência Brasil"
+   }
+  }
+ ],
+ "mundo": [
+  {
+   "secao": "Ucrânia",
+   "titulo": "Trump pede a Putin que recue de toda agressão na Europa, e Zelensky estranha o \"amigo\"",
+   "linhaFina": "O americano relata conversas com o russo na China. Kushner diz que as negociações estão travadas no território, enquanto a Rússia lança 113 drones contra a rede elétrica ucraniana.",
+   "resumo": "Donald Trump disse ter pedido a Vladimir Putin que recue de toda agressão militar na Europa, para fechar logo um acordo com a Ucrânia. Volodymyr Zelensky achou estranho Trump chamar Putin de amigo e pediu mais pressão sobre Moscou. Na quarta-feira, ataques russos causaram falta de luz em seis regiões ucranianas.",
+   "texto": [
+    "Donald Trump disse ter pedido a Vladimir Putin que recue de \"toda agressão militar contra territórios em toda a Europa\". O objetivo, segundo o presidente americano, é fechar rápido um acordo entre Rússia e Ucrânia. A mensagem saiu na quinta-feira (26), na rede Truth Social, e se refere a conversas dos dois na China, segundo a ABC australiana e a Gazeta do Povo. Do outro lado, Volodymyr Zelensky chamou de \"estranho\" Trump tratar Putin como amigo.",
+    "Na publicação, Trump escreveu que milhares de pessoas morrem todos os meses na guerra e chamou o conflito de \"um completo banho de sangue\". Seu genro e negociador, Jared Kushner, disse que Putin concordou em não usar armas nucleares, mas admitiu que as conversas estão num \"pequeno impasse\" sobre território, segundo a ABC.",
+    "Zelensky respondeu com cobrança. Segundo o Washington Post, o presidente ucraniano estranhou o tratamento de amigo e pediu que os Estados Unidos aumentem a pressão sobre Moscou. A rádio pública americana WBUR registrou frustração em Kiev com a fala de Trump, no momento em que a guerra entra em seu quinto inverno.",
+    "A cobrança veio depois de mais uma noite de ataques. Na quarta-feira, a Rússia lançou mísseis balísticos e 113 drones contra a Ucrânia. Houve falta de luz em seis regiões, e o governo ucraniano relatou ataques a 20 locais. \"Os russos continuam mirando subestações, linhas de transmissão e toda a rede elétrica\", disse Zelensky. O país relata falta de interceptadores antiaéreos.",
+    "Zelensky alertou para um novo ataque em massa contra a rede de energia, e a Ucrânia diz que continuará atacando instalações de energia russas. A reportagem da ABC não registrou resposta do Kremlin à mensagem de Trump."
+   ],
+   "fontes": [
+    {
+     "nome": "ABC News (Austrália)",
+     "url": "https://www.abc.net.au/news/2026-11-27/trump-urges-putin-to-pull-back-military-aggression/107433138"
+    },
+    {
+     "nome": "The Washington Post",
+     "url": "https://www.washingtonpost.com/world/2026/11/27/trump-defends-putin-friendship-that-zelensky-calls-strange/"
+    },
+    {
+     "nome": "WBUR (Here & Now)",
+     "url": "https://www.wbur.org/hereandnow/2026/11/27/trump-putin-friend-ukraine"
+    },
+    {
+     "nome": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/mundo/trump-diz-que-pediu-a-putin-para-conter-agressao-na-europa/"
+    }
+   ],
+   "imagem": {
+    "arquivo": "img/ed-2026-11-28/mundo-1.jpg",
+    "legenda": "Donald Trump recebe Volodymyr Zelensky na Casa Branca em 17 de outubro de 2025, em foto de arquivo.",
+    "credito": "Official White House Photo by Juliana Luz"
+   }
+  },
+  {
+   "secao": "Israel",
+   "titulo": "Eisenkot acusa Likud de enrolar, e Netanyahu estuda aceitar ser o segundo num rodízio",
+   "linhaFina": "Nenhum bloco chegou às 61 cadeiras na eleição de outubro. O ex-chefe do Exército tem até 6 de dezembro para formar governo e segundo a TV israelense, se prepara para dar posse ao governo já na próxima semana.",
+   "resumo": "Gadi Eisenkot, encarregado de formar o novo governo de Israel, acusou o partido de Benjamin Netanyahu de não apresentar nenhuma proposta em duas semanas. Segundo a TV israelense, Netanyahu se prepara para oferecer um rodízio em que Eisenkot seria o primeiro-ministro na primeira metade. O prazo vence em 6 de dezembro.",
+   "texto": [
+    "Gadi Eisenkot, encarregado de formar o governo de Israel, acusou nesta sexta-feira (27) o Likud de Benjamin Netanyahu de enrolar as negociações. Segundo ele, o partido não pôs \"uma única proposta concreta na mesa\" em duas semanas. Para ele, a intenção é deixar o prazo correr até o fim do mandato que recebeu. Ao mesmo tempo, Netanyahu se prepara para oferecer a Eisenkot um rodízio no cargo, segundo a imprensa israelense.",
+    "Nenhum bloco chegou à maioria de 61 das 120 cadeiras na eleição de 27 de outubro. Netanyahu e os partidos de direita e ultraortodoxos somaram 53. Eisenkot e seus aliados presumidos, 48, segundo a Al Jazeera. O presidente Isaac Herzog deu a Eisenkot, do partido Yashar, a tarefa de montar o governo. O prazo vence em 6 de dezembro e pode ser prorrogado por 14 dias.",
+    "Segundo o Canal 13, citado pelo Times of Israel, Netanyahu estaria pronto a ser o segundo primeiro-ministro num rodízio, com Eisenkot na primeira metade. A emissora pública Kan diz que a oferta foi feita por canais informais. O Likud acusa Eisenkot de montar um \"perigoso governo de esquerda\" e diz que continua aberto a um governo de união. Em 22 de novembro, o partido já tinha negado outra versão de rodízio publicada pelo Canal 14.",
+    "Eisenkot segue cético e se prepara para dar posse ao governo na próxima semana, segundo o Canal 13. Ele já tem acordos com os Democratas, de Yair Golan, e com o Yisrael Beiteinu, de Avigdor Liberman, que juntos somam 36 cadeiras, e prometeu aos dois não se unir ao Likud sem o aval deles. Naftali Bennett pode votar contra um governo de Eisenkot formado antes de esgotadas as conversas com Netanyahu.",
+    "O partido árabe Ra'am ofereceu apoio às decisões de segurança de um eventual governo por quatro anos, em troca de ministérios e investimento em comunidades árabes, segundo o Canal 12, citado pela agência ANI. Não há data marcada para a votação de confiança no Parlamento."
+   ],
+   "grafico": {
+    "tipo": "barras",
+    "titulo": "Ninguém chegou à maioria no Parlamento",
+    "subtitulo": "Cadeiras de cada bloco no Knesset, de 120",
+    "casas": 0,
+    "dados": [
+     {
+      "rotulo": "Bloco de Netanyahu",
+      "valor": 53
+     },
+     {
+      "rotulo": "Eisenkot e aliados",
+      "valor": 48,
+      "destaque": true
+     },
+     {
+      "rotulo": "Maioria necessária",
+      "valor": 61
+     }
+    ],
+    "fonte": {
+     "nome": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/27/israels-eisenkot-accuses-netanyahus-party-of-stalling-coalition-talks"
+    }
+   },
+   "fontes": [
+    {
+     "nome": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/27/israels-eisenkot-accuses-netanyahus-party-of-stalling-coalition-talks"
+    },
+    {
+     "nome": "The Times of Israel",
+     "url": "https://www.timesofisrael.com/liveblog-november-27-2026/"
+    },
+    {
+     "nome": "ANI, via The Tribune",
+     "url": "https://www.tribuneindia.com/news/coalition/netanyahu-weighs-offering-eisenkot-rotating-pm-deal-amid-coalition-uncertainty-israeli-media"
+    },
+    {
+     "nome": "JFeed",
+     "url": "https://www.jfeed.com/news-israel/netanyahu-eisenkot-rotation-unity-government"
+    }
+   ],
+   "imagem": {
+    "arquivo": "img/ed-2026-11-28/mundo-2.jpg",
+    "legenda": "Benjamin Netanyahu e Donald Trump no Salão Oval da Casa Branca em 28 de julho de 2026, em foto de arquivo.",
+    "credito": "Official White House Photo by Daniel Torok"
+   }
+  },
+  {
+   "secao": "Gaza",
+   "titulo": "Israel ataca família de filho do líder do Hamas, e ministério de Gaza conta 1.705 mortos desde a trégua",
+   "linhaFina": "Izzeldeen al-Hayya sobrevive ao bombardeio em Gaza, mas parentes ficam feridos. O Hamas acusa Israel de violar o cessar-fogo; o Exército israelense não comenta o ataque.",
+   "resumo": "Um ataque aéreo israelense atingiu nesta sexta o apartamento da família de um filho do líder do Hamas, Khalil al-Hayya, na Cidade de Gaza. Ele sobreviveu, mas parentes ficaram feridos. Outros ataques mataram quatro palestinos. Pelas contas do Ministério da Saúde de Gaza, controlado pelo Hamas, já são mais de 1.700 mortos desde o cessar-fogo.",
+   "texto": [
+    "Um ataque aéreo israelense atingiu nesta sexta-feira (27) o apartamento da família de Izzeldeen al-Hayya, filho do líder do Hamas, Khalil al-Hayya. O prédio fica no bairro de Al Rimal, no oeste da Cidade de Gaza. Ele e a família sobreviveram, mas vários parentes ficaram feridos, segundo a Al Jazeera e a agência EFE. Outros ataques mataram quatro palestinos no mesmo dia.",
+    "Pelos números do Ministério da Saúde de Gaza, controlado pelo Hamas, pelo menos 1.705 pessoas morreram e 6.163 ficaram feridas desde o cessar-fogo de outubro de 2025. Só na quinta-feira (26), foram dez mortos. O total desde 7 de outubro de 2023, quando o ataque do Hamas matou 1.200 pessoas em Israel e levou 251 reféns, chega a 74.772, segundo o mesmo ministério.",
+    "O Hamas chamou o ataque de \"ato covarde\" e acusou Israel de tentar assassinar o filho do líder e de continuar violando o acordo de cessar-fogo. Khalil al-Hayya chefia o grupo desde julho de 2026 e escapou de um ataque israelense em Doha, no Catar, em 2025. O grupo citou ameaças do ministro da Defesa israelense, Israel Katz.",
+    "O Exército de Israel não se pronunciou sobre o ataque, segundo a EFE. Informou que desmontou quatro instalações de armas do braço militar do Hamas na Cidade de Gaza na noite anterior. Segundo o Times of Israel, os militares também disseram ter matado dois \"terroristas\" que trabalhavam como vigias de uma clínica dos Médicos Sem Fronteiras. A organização disse estar \"devastada e indignada\" com a morte de dois colegas e afirma que 17 funcionários seus já morreram em Gaza.",
+    "Os ataques seguiram em outros pontos do território. Em Jabalia, um drone atingiu um veículo e matou Khaled Assaf, segundo a agência palestina Wafa; três corpos foram encontrados em Rafah, e uma criança ficou ferida em Khan Younis. O Exército israelense afirmou que o hospital Al-Ahli Baptist abrigava um centro de interrogatório do Hamas, acusação que o grupo chamou de ridícula. A Diocese Episcopal de Jerusalém, responsável pelo hospital, disse desconhecer esse centro, segundo a Al Jazeera."
+   ],
+   "fontes": [
+    {
+     "nome": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/27/israel-kills-four-in-gaza-as-hamas-chief-al-hayyas-son-survives-strike"
+    },
+    {
+     "nome": "EFE, via Infobae",
+     "url": "https://www.infobae.com/america/agencias/2026/11/27/hamas-condena-un-ataque-israeli-contra-el-hijo-de-su-dirigente-en-la-franja-de-gaza/"
+    },
+    {
+     "nome": "The Times of Israel",
+     "url": "https://www.timesofisrael.com/liveblog-november-27-2026/"
+    }
+   ]
+  },
+  {
+   "secao": "Argentina",
+   "titulo": "Senado argentino aprova suspender as prévias de 2027 e transforma em lei o freio às apostas online",
+   "linhaFina": "A suspensão das PASO passa por 43 a 29 e segue para a Câmara. A lei contra o vício em jogo, aprovada por 72 a 0, proíbe menores nas plataformas e restringe a publicidade.",
+   "resumo": "O Senado da Argentina aprovou a suspensão das primárias obrigatórias de 2027, uma vitória do governo Milei que ainda depende da Câmara. Por unanimidade, os senadores também transformaram em lei um projeto que proíbe menores de apostar online e restringe a propaganda das casas de apostas.",
+   "texto": [
+    "O Senado da Argentina aprovou na quinta-feira (26), por 43 votos a 29, a suspensão das primárias obrigatórias de 2027. As PASO, primárias abertas, simultâneas e obrigatórias, só saem do calendário se a Câmara dos Deputados também aprovar. Na mesma sessão, os senadores aprovaram por 72 a 0 a lei de prevenção da ludopatia, o vício em jogo, que proíbe menores de apostar em plataformas online.",
+    "O governo de Javier Milei argumenta que as primárias geram desgaste desnecessário e encarecem a eleição, segundo o Diario Popular. O Congresso já as tinha suspendido em 2025, só para aquele ano; sem nova lei, voltariam em 2027. A chefe do bloco governista A Liberdade Avança, Patricia Bullrich, defende acabar de vez com elas. \"Eram umas PASO inventadas\", disse, segundo a Noticias Argentinas.",
+    "O texto prevê ainda impedir a candidatura de condenados em segunda instância por crime doloso, a chamada Ficha Limpa, permitir a filiação partidária digital, cortar pela metade o tempo de propaganda eleitoral gratuita e tornar obrigatório o debate presidencial no segundo turno, segundo o portal El1. Sem as primárias, cada partido escolheria seus candidatos pelas próprias regras, até 30 de agosto.",
+    "O peronismo votou contra. O líder do bloco justicialista, José Mayans, chamou a proposta de \"mais uma mentira do governo\". Maximiliano Abad, da UCR, apoiou a suspensão a pedido dos governadores radicais e disse que a Ficha Limpa \"não é proscrição, não é contra ninguém\".",
+    "A lei de ludopatia já tinha passado pela Câmara em 2024 e agora está aprovada. Ela restringe publicidade, promoção e patrocínio de apostas online em redes sociais, na televisão e em camisas de times, e exige verificação biométrica de idade. O Poder Executivo terá 120 dias para regulamentá-la. O Senado também aprovou, por 71 votos, um projeto contra o jogo ilegal que prevê bloqueio de sites não autorizados."
+   ],
+   "fontes": [
+    {
+     "nome": "Diario Popular",
+     "url": "https://www.diariopopular.com.ar/politica/el-senado-aprobo-la-suspension-las-paso-2027-y-sanciono-la-ley-ludopatia-n931177"
+    },
+    {
+     "nome": "El1",
+     "url": "https://el1.com.ar/politica/nacional-politica/el-senado-convirtio-en-ley-el-proyecto-de-prevencion-de-la-ludopatia-y-otorgo-media-sancion-a-la-reforma-electoral"
+    },
+    {
+     "nome": "Noticias Argentinas",
+     "url": "https://noticiasargentinas.com/politica/el-senado-sesionara--manana-con-la-suspension-de-las-paso-y-la-ley-de-ludopatia-como-ejes-centrales_a6b076749790b0872f31c5332"
+    }
+   ],
+   "imagem": {
+    "arquivo": "img/ed-2026-11-28/mundo-4.jpg",
+    "legenda": "O presidente argentino Javier Milei em reunião com Donald Trump, em foto de arquivo.",
+    "credito": "Official White House Photo by Molly Riley"
+   }
+  }
+ ],
+ "cultura": [
+  {
+   "secao": "Entrevista",
+   "titulo": "Reverendo Jeferson, de Tupã: “Nós, cristãos, temos um sério problema de memória”",
+   "linhaFina": "A entrevista completa do pastor da Igreja Presbiteriana de Tupã, gravada antes do culto de Ação de Graças: da origem bíblica da data ao recado final ao leitor.",
+   "resumo": "O Reverendo Jeferson Alfredo Pereira, pastor da Igreja Presbiteriana de Tupã, fala da origem bíblica da Ação de Graças, da herança dos puritanos, do Natal e de como agradecer num ano difícil. A conversa foi gravada em 24 de novembro, antes do culto. Esta é a versão completa, editada para leitura.",
+   "texto": [
+    "O Reverendo Jeferson Alfredo Pereira, pastor da Igreja Presbiteriana de Tupã, conversou com Junior Neves, editor do A Nevasca, em 24 de novembro, dois dias antes do culto de Ação de Graças da igreja. A reportagem especial de 26 de novembro usou trechos dessa conversa. Esta é a entrevista completa, editada para leitura: cortamos repetições e digressões, sem mudar o sentido das respostas.",
+    "Junior Neves: Qual é a origem bíblica de separar um dia para dar graças a Deus?",
+    "Reverendo Jeferson: A origem bíblica para agradecer ao Senhor por todas as coisas não nasce no Novo Testamento, vem do Antigo. O povo de Israel tinha festas solenes, como a Festa dos Tabernáculos. Eram celebrações de gratidão, e o Salmo 100 já fala disso: “Entrai por suas portas com ações de graças”. No Novo Testamento, o apóstolo Paulo escreve, em 1 Tessalonicenses 5.18: “Em tudo dai graças, porque esta é a vontade de Deus em Cristo Jesus para convosco”. Então a origem bíblica é dupla: cerimonial no Antigo Testamento e, na Nova Aliança, um mandamento ético do Senhor para vivermos em constante gratidão.",
+    "Reverendo Jeferson: Gosto de pensar no sétimo dia, quando Deus descansa: o próprio Deus, olhando tudo o que fez, e tudo era muito bom. Nós separamos um dia específico no ano para agradecer, para tentar, naquele dia, ter uma cosmovisão diferente: não reclamar, não murmurar. É estar preparado para uma celebração de agradecimento, e isso faz muito bem ao cristão.",
+    "Junior Neves: Os peregrinos que celebraram a primeira Ação de Graças nos Estados Unidos, em 1621, vinham da tradição puritana e calvinista. O que essa herança tem a ver com a Igreja Presbiteriana do Brasil hoje?",
+    "Reverendo Jeferson: Tem tudo a ver, porque a gente é uma cepa da mesma raiz. Os peregrinos de 1621 eram herdeiros da Reforma calvinista. Eles entendiam que toda a vida era vivida sob um lema: coram Deo, “diante de Deus”. As bênçãos, materiais ou espirituais, vinham sempre da mão soberana de Deus. Aquela celebração não era simplesmente um festival de colheita. Era o reconhecimento de que, mesmo depois de um inverno devastador, a sobrevivência e a provisão eram dádivas imerecidas do Criador.",
+    "Reverendo Jeferson: Para nós, hoje, isso é herança, porque é a nossa cosmovisão. A teologia do pacto, que nós seguimos, está baseada na soberania de Deus e nos ensina que não somos donos do nosso destino nem daquilo que possuímos. O Senhor é soberano e dono de tudo, e somos agradecidos por Ele colocar as coisas em nossas mãos, como bons mordomos. Celebrar a Ação de Graças é, portanto, um ato de resistência contra a autossuficiência, aquele “cara, olha como eu sou bom, olha como eu conquistei, olha tudo isso que eu tenho”. A gente faz o contrário: agradece ao Senhor, como aqueles peregrinos agradeceram, e depende dele dia após dia, como eles dependiam.",
+    "Junior Neves: O senhor mencionou o carpe diem. Ele não seria simplesmente curtir a vida?",
+    "Reverendo Jeferson: Se a gente o divorciar do coram Deo, sim. Pense na faca com que você passa manteiga no pão: se você a divorcia da sua ética, do seu cristianismo, pode matar alguém com ela. Então o carpe diem, divorciado do coram Deo, dessa dependência e dessa gratidão ao Senhor por tudo, se torna libertinagem. A linha entre liberdade e libertinagem é muito tênue, e é o Espírito Santo de Deus, na nossa vida, que nos faz discernir. Cada dia é uma nova oportunidade de fazer, para a glória de Deus, o que eu não fiz ontem. Outra coisa importante da Igreja Presbiteriana do Brasil: quer comamos, quer bebamos, quer façamos qualquer outra coisa, tudo se faça para a glória de Deus. Coram Deo.",
+    "Junior Neves: Os puritanos não guardavam o Natal, mas guardavam dias de ação de graças. Como a Igreja Reformada separa uma coisa da outra?",
+    "Reverendo Jeferson: Quando falamos dos puritanos, não podemos nos basear só no que aquele povo fazia naquela época. Eles são um bom exemplo, são nossos peregrinos e antepassados, mas não é só isso que forma a Igreja. A Igreja é constituída da Palavra de Deus, da cultura e da história através dos tempos. Hoje o Natal não é apenas a celebração do nascimento de Cristo: virou luzes, música e comércio. Os puritanos não guardavam o Natal, primeiro, porque não tinham informações exatas sobre o nascimento de Cristo. E eu penso que preferiam agradecer em um dia específico do ano e viver todos os dias o nascimento de Cristo, em vez de agradecer em um só dia e não ter um coração grato nos outros. Essa é a grande diferença entre a Ação de Graças e o Natal.",
+    "Reverendo Jeferson: Para nós, hoje, é mais comum porque há uma certa liberdade cultural. Temos irmãos que têm árvore de Natal, presentes e decoração, e outros que, como os puritanos do passado, não celebram o Natal. Estão todos em comunhão. Lembro como se fosse ontem: cheguei à igreja depois do Natal, olhei para uma criança e perguntei o que ela tinha dado de presente. A mãe puxou a criança, olhou nos meus olhos e disse: “Pastor, nós não celebramos o Natal lá em casa”. Fiquei constrangido, mas é uma liberdade da pessoa não trocar presentes nesse dia. Nós trocamos porque, de novo, eu penso que a ação de graças em novembro ecoa no Natal, em 25 de dezembro: temos um coração grato porque lembramos o nascimento do nosso Salvador.",
+    "Reverendo Jeferson: Hoje temos um Natal muito comercial e um Dia de Ação de Graças muito familiar. Mesmo quem não vai à igreja na quinta-feira, de alguma maneira lembra da data e, no almoço, no jantar ou no fim de semana seguinte, agradece a Deus.",
+    "Junior Neves: Quem não guarda o Natal não estaria adotando um pensamento judaizante?",
+    "Reverendo Jeferson: Na minha visão, bem pequena, e deixe-me fazer um comparativo perigoso: os fariseus eram um partido judeu que guardava as leis de Deus. No afã de guardar, criaram inúmeras outras leis sobre leis, e hoje, quando se fala em fariseu, não se lembra de alguém que quer defender a Palavra de Deus, mas de alguém religioso. Os puritanos também foram mal interpretados durante muitos anos. No afã de fazer tudo para Deus, buscavam base concreta na Palavra, e para a comemoração do Natal não havia nada ali. Por isso eu não acho que seja judaizante. Judaizante seria, por exemplo, quem hoje, na Páscoa, come ervas amargas e assa o cordeiro, algo do Antigo Testamento que, na Nova Aliança, não existe mais.",
+    "Reverendo Jeferson: A interpretação puritana era que a Ação de Graças não estava acima do nascimento de Cristo, mas era um dia que se podia separar sem a consciência pesada de perguntar se foi naquele dia que Jesus nasceu ou se é certo trocar presentes. Os puritanos tinham muito esse pensamento de comunhão e, de novo, o coram Deo: glorificar o Senhor em tudo o que se faz.",
+    "Junior Neves: O Catecismo de Heidelberg chama a vida cristã de vida de gratidão. Por que ter um dia especial, se agradecer deveria ser todos os dias?",
+    "Reverendo Jeferson: Quando Zacarias Ursino escreveu o Catecismo de Heidelberg, ele propôs que a nossa vida inteira fosse de gratidão, lembrada todos os dias. O Dia de Ação de Graças nada mais é do que a ênfase, o ápice dessa vida de gratidão. Nesse dia a gente para e lembra de todos os outros dias do ano em que já viveu em gratidão, comendo, bebendo e trabalhando para a glória de Deus, e agradece. O catecismo é uma orientação para que a gente não esqueça. Nós, cristãos, temos um sério problema de memória: a gente esquece muito rápido das bênçãos de Deus e lembra constantemente das dificuldades. Mas não podemos deixar de lado esse dia, porque nele a gente, solenemente, de modo muito cuidadoso com esse termo, para e lembra, em comunhão, como igreja.",
+    "Junior Neves: Então o dia tem um efeito simbólico?",
+    "Reverendo Jeferson: Tem um efeito de apontar: olha, nossa vida deve ser assim. Nem todo dia a gente acorda agradecendo. Tem dia que acorda apressado, tem dia que acorda doente, e nem todos sabem ser gratos em tudo. Dar graças a Deus por todas as coisas é algo que o Espírito Santo faz no coração de cada um. E, quanto mais velho a gente vai ficando, e aqui cuidado com o termo, quanto mais vovô eu vou ficando, mais crítico eu fico. Isso é complicado. Por isso o catecismo nos lembra de ter uma vida inteira de gratidão.",
+    "Junior Neves: Há quanto tempo a Igreja Presbiteriana de Tupã realiza o culto de Ação de Graças? Tem alguma história marcante dessa celebração?",
+    "Reverendo Jeferson: Nossa igreja celebra o culto de Ação de Graças há, no mínimo, quatro anos, que é o tempo em que eu estou pastoreando aqui. Não sei se, nos 77 anos da igreja, houve outra época com esse bom costume, mas, desde que cheguei a Tupã, o conselho deliberou celebrar o dia de maneira especial. O momento mais marcante é o da famosa Mesa da Comunhão, que ecoa várias vezes durante o ano e nasceu da Ação de Graças. A cada ano temos a oportunidade de testemunhar, e os irmãos ficam esperando uns dos outros o que cada um tem para contar.",
+    "Reverendo Jeferson: Neste ano tivemos algo muito grande: um irmão que enfrentou um câncer. Foram mais de 30 dias de tratamento, indo e voltando, com a igreja e os irmãos orando por ele. Quando ele chegou e testemunhou que estava curado, foi tremendo. Fica a gratidão a Deus, que permite uma doença grave dessas e cura por meio do tratamento, da constância e da disposição de seguir o tratamento. A gente sabe que é a mão do Senhor fazendo. Não temos uma única história do culto de Ação de Graças, mas a cada celebração anual temos ótimas histórias marcantes, que guardamos no coração.",
+    "Junior Neves: Ou seja, o culto celebra as bênçãos que Deus fez na vida da igreja?",
+    "Reverendo Jeferson: Isso. Ele celebra a gratidão, e não só a do ano: são 77 anos em que a gente entende que Deus mantém as nossas portas abertas. Nos últimos quatro anos, separamos um dia e um culto para dizer ao Senhor que Ele tem sido muito bom conosco.",
+    "Junior Neves: Como vai ser o culto de quinta-feira? (Pergunta feita antes do culto, realizado em 26 de novembro.)",
+    "Reverendo Jeferson: Começa às 19h30. Não temos um tema específico. O culto reúne toda a nossa Igreja Presbiteriana do Brasil em Tupã, hoje com aproximadamente 26 famílias convidadas. O texto base provavelmente será 1 Tessalonicenses 5.18, “Em tudo dai graças”, que é a convocação de Paulo ao povo de Deus, com coração grato. Logo após o culto temos a Mesa da Comunhão: cada família traz um prato, e as famílias que não podem contribuir são abençoadas pelas demais. É um momento de sorriso, de felicidade. O culto é mais enxuto, menor que o culto solene de domingo, para haver tempo da celebração depois e dos testemunhos que sempre compartilhamos durante a mesa.",
+    "Junior Neves: Num ano difícil para muitas famílias, o que significa agradecer a Deus mesmo assim?",
+    "Reverendo Jeferson: A Igreja Presbiteriana do Brasil em Tupã tem pregado constantemente, nos 52 domingos do ano, a respeito da fé em Deus. Não temos escondido o que a Palavra do Senhor nos promete: dias ainda mais difíceis. Os dias são difíceis, o amor tem esfriado. A nossa esperança é que celebrações como essa reanimem a nossa fé, fortaleçam os joelhos trôpegos e as mãos fracas. Esse é um dia especial para olharmos de novo para o Senhor, e não para os problemas.",
+    "Reverendo Jeferson: Não é fazer de conta, do tipo “deixa eu fazer de conta aqui, porque daqui a pouco volto para casa, e lá é de verdade”. Às vezes o culto é tão bom que a gente não quer voltar para casa, porque lá em casa a louça ainda está na pia do domingo ao meio-dia. Mas, quando celebramos a Ação de Graças, celebramos na fé de que o Senhor vai cuidar do seu povo. O pão nosso de cada dia Ele nos dá hoje, cuida do seu povo, abraça o seu povo. Ainda que os dias sejam difíceis e possam ficar mais difíceis antes da volta de Cristo, a nossa esperança é que o Senhor guardará o seu povo até aquele grande dia.",
+    "Junior Neves: Para uma pessoa que não é cristã e vê esse dia como uma festa americana, o que o senhor diria?",
+    "Reverendo Jeferson: Eu diria que a gente não importa dos americanos somente coisas ruins, e que o que celebramos aqui não vem deles. A Ação de Graças vem da Palavra de Deus, das Sagradas Escrituras. Não vem somente do povo puritano. É o nosso respirar de todos os dias, porque, como diz o Catecismo de Heidelberg, a nossa vida é uma vida de gratidão. Por isso eu convido quem talvez não compreenda, ou não concorde com essa festa americana, a estar conosco no culto, às 19h30, a ouvir a Palavra de Deus e, quem sabe, o Espírito Santo o convença de que agradecer é muito melhor do que reclamar.",
+    "Junior Neves: Que mensagem o senhor deixaria para o leitor do A Nevasca?",
+    "Reverendo Jeferson: Existe um Deus todo-poderoso, eterno e misericordioso, que merece a nossa gratidão. Merece que a gente pare e diga: “Senhor, muito obrigado”. Mesmo que a gente não O conheça profundamente, mesmo que não O conheça o suficiente, e para alguns leitores pode ser assim, precisamos parar e dizer: “Senhor, muito obrigado, de verdade, por todas as bênçãos que o Senhor tem nos dado”.",
+    "A Nevasca agradece ao Reverendo Jeferson pela entrevista e pela generosidade com que recebeu o jornal."
+   ],
+   "fontes": [
+    {
+     "nome": "Entrevista do A Nevasca com o Reverendo Jeferson Alfredo Pereira, gravada em 24/11/2026"
+    }
+   ],
+   "imagem": {
+    "arquivo": "img/ed-2026-11-28/pastor-entrevista.jpg",
+    "legenda": "O Reverendo Jeferson Alfredo Pereira, pastor da Igreja Presbiteriana de Tupã, no púlpito da igreja.",
+    "credito": "Foto: Junior Neves"
+   }
+  }
+ ],
+ "paraEntender": {
+  "titulo": "O que está em jogo nas emendas de Flávio",
+  "itens": [
+   "O que é emenda individual. Cada deputado e cada senador pode indicar uma parte do Orçamento da União para obras e serviços em seus estados. Flávio usou a cota máxima: 14 emendas, que somam R$ 79,3 milhões.",
+   "Quando foram feitas. O Congresso abriu o prazo de 6 a 23 de novembro para as indicações ao Orçamento de 2027. Segundo a decisão de Dino, o senador estava nos Estados Unidos durante todo o período.",
+   "Por que Dino agiu. Para o ministro, sair do país para escapar de uma ordem do STF pode ser quebra de decoro, e o mandato não pode ser exercido de fora do país. Ele usou como base o artigo 57 da Constituição e a decisão sobre Eduardo Bolsonaro e Alexandre Ramagem, de dezembro de 2025.",
+   "O que ele pediu. O Senado tem cinco dias para dizer se autorizou a viagem e para entregar os registros de quem acessou o sistema das emendas, com IP e localização. Flávio também tem cinco dias para responder.",
+   "O que vem agora. Com as respostas, Dino decide de forma definitiva e pode levar o caso ao plenário do STF. O Orçamento de 2027 ainda precisa ser votado pelo Congresso."
+  ],
+  "fontes": [
+   {
+    "nome": "Metrópoles",
+    "url": "https://www.metropoles.com/colunas/manoela-alcantara/dino-suspende-r-794-milhoes-em-emendas-indicadas-por-flavio-bolsonaro"
+   },
+   {
+    "nome": "ICL Notícias",
+    "url": "https://iclnoticias.com.br/dino-suspende-emendas-de-flavio/"
+   },
+   {
+    "nome": "O Antagonista",
+    "url": "https://oantagonista.com.br/brasil/dino-suspende-emendas-apresentadas-por-flavio/"
+   }
+  ],
+  "materia": "manchete"
+ },
+ "breves": [
+  {
+   "texto": "Educação básica. Foi publicada a Lei 15.555, que inclui no Estatuto da Criança e do Adolescente a oferta obrigatória e gratuita da educação dos 4 aos 17 anos, da pré-escola ao ensino médio. O texto é da deputada Laura Carneiro (PSD-RJ).",
+   "fonte": {
+    "nome": "Agência Senado",
+    "url": "https://www12.senado.leg.br/noticias/materias/2026/11/27/sancionada-lei-que-atualiza-eca-para-garantir-educacao-basica-obrigatoria"
+   }
+  },
+  {
+   "texto": "Lula e FHC. Em visita a um hospital no Rio, Lula disse ter visitado Fernando Henrique Cardoso, de 95 anos e com Alzheimer, e o chamou de \"morto-vivo\". O presidente do PSDB, Aécio Neves, classificou a fala de \"lamentável\".",
+   "fonte": {
+    "nome": "Metrópoles",
+    "url": "https://www.metropoles.com/brasil/lula-fhc-morto-vivo"
+   }
+  },
+  {
+   "texto": "Apostas. O governo identificou 86,1 mil sites, perfis, grupos e canais ligados a apostas ilegais nos dois primeiros meses de fiscalização após a proibição das bets. Do total, 75,6 mil sites foram encaminhados para bloqueio.",
+   "fonte": {
+    "nome": "Gazeta do Povo",
+    "url": "https://www.gazetadopovo.com.br/republica/governo-lula-mira-86-mil-sites-perfis-apostas-apos-proibicao-bets/"
+   }
+  },
+  {
+   "texto": "Chapecoense. O acidente com o avião que levava a equipe da Chapecoense completa dez anos neste sábado (28). Morreram 71 pessoas e seis sobreviveram. O senador Izalci Lucas, relator da CPI do caso, lamenta a demora no pagamento das indenizações.",
+   "fonte": {
+    "nome": "Rádio Senado — Boletim.leg",
+    "url": "https://www12.senado.leg.br/radio/1/boletim.leg/2026/11/27/boletim-leg-edicao-das-14h"
+   }
+  },
+  {
+   "texto": "Cinema. Jogos Vorazes: Amanhecer na Colheita somava US$ 174,9 milhões nos Estados Unidos e no Canadá até a quinta-feira de Ação de Graças, primeiro lugar nas bilheterias, e quase US$ 280 milhões no mundo.",
+   "fonte": {
+    "nome": "The Numbers",
+    "url": "https://www.the-numbers.com/movie/Hunger-Games-The-Sunrise-on-the-Reaping-%282026%29"
+   }
+  }
+ ],
+ "editorial": {
+  "secao": "Editorial",
+  "linhaFina": "Opinião",
+  "resumo": "O senador Flávio Bolsonaro saiu do país depois de uma ordem de Moraes, e o temor de ser o próximo alvo é razoável para quem vê perseguição política no processo contra o pai. O erro de Flávio Dino é congelar, sozinho, verbas que serviriam ao eleitor do Rio.",
+  "titulo": "O senador está em Miami, mas o problema está em Brasília",
+  "texto": [
+   "Os fatos primeiro. Flávio Bolsonaro está nos Estados Unidos desde o fim de outubro, depois de uma ordem do ministro Alexandre de Moraes para entregar o passaporte. Segundo o Diário do Grande ABC, a medida foi pedida sete minutos depois do resultado do segundo turno e concedida no dia seguinte. Nesta sexta, o ministro Flávio Dino congelou os R$ 79,3 milhões em emendas que o senador indicou ao Orçamento de 2027.",
+   "Agora a opinião, que é do jornal. O julgamento que mandou Jair Bolsonaro para a prisão foi, na nossa avaliação, um processo viciado, conduzido por quem se coloca ao mesmo tempo como vítima e como juiz. Quem acompanhou isso tem motivo de sobra para temer que o filho fosse o próximo. Ninguém pode afirmar o que teria acontecido se ele ficasse, mas o temor não é capricho nem fuga: é prudência. A tradição reformada ensina a respeitar a autoridade, e ensina também que o magistrado existe para ser motivo de temor para quem faz o mal, não para quem faz o bem (Rm 13.3-4).",
+   "Por isso a decisão de Dino erra de alvo. Quem fica sem o dinheiro não é o senador: são o hospital, o ambulatório e a segurança pública do Rio de Janeiro, destino de nove das quatorze emendas. O eleitor fluminense votou num senador e agora vê as verbas travadas por decisão de um ministro só, que ainda manda rastrear a localização de quem acessou o sistema das emendas. A Constituição entrega às Casas do Congresso o julgamento do decoro dos seus membros. Abraham Kuyper chamaria isso de soberania das esferas: o Senado não julga processos do Supremo, e o Supremo não deveria fazer as vezes de Conselho de Ética.",
+   "O Senado deve responder a Dino e, sobretudo, decidir ele mesmo, pelo voto dos pares, o que fazer com o caso. E o plenário do STF, se for chamado a referendar a decisão, deve devolver à Casa o que é da Casa. Perseguição não se combate com mais um ato de força: combate-se com a lei, e a lei diz quem julga cada coisa. Cada um no seu lugar, e o país anda melhor."
+  ],
+  "fontes": [
+   {
+    "nome": "Metrópoles",
+    "url": "https://www.metropoles.com/colunas/manoela-alcantara/dino-suspende-r-794-milhoes-em-emendas-indicadas-por-flavio-bolsonaro"
+   },
+   {
+    "nome": "ICL Notícias",
+    "url": "https://iclnoticias.com.br/dino-suspende-emendas-de-flavio/"
+   },
+   {
+    "nome": "Diário do Grande ABC"
+   }
+  ]
+ }
+}
