@@ -1,0 +1,543 @@
+{
+  "gerado_em": "2026-11-28T14:27:53.705591-03:00",
+  "janela_horas": 20,
+  "avisos": [
+    "Revista Oeste: https://revistaoeste.com/feed/: HTTP Error 403: Forbidden",
+    "Paulo Figueiredo Show: https://realpfigueiredo.substack.com/feed: HTTP Error 403: Forbidden",
+    "Agência Câmara de Notícias: https://www2.camara.leg.br/agencia-app/agenciaCamaraRSS: HTTP Error 404: Not Found",
+    "Agência Câmara de Notícias: https://www2.camara.leg.br/agencia-app/agenciaCamaraRSS/POLITICA: HTTP Error 404: Not Found",
+    "Agência Câmara de Notícias: https://www2.camara.leg.br/agencia-app/agenciaCamaraRSS/ECONOMIA: HTTP Error 404: Not Found",
+    "Agência Senado: XML não bem formado em https://www12.senado.leg.br/noticias/ultimas/RSS, tentando modo tolerante (mismatched tag: line 184, column 2)",
+    "Agência Senado: https://www12.senado.leg.br/noticias/ultimas/RSS: respondeu, mas sem itens reconhecíveis"
+  ],
+  "candidatas": [
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Coreia do Norte expulsa diplomata suíço e fecha representação na capital após sanção",
+      "link": "https://www.gazetadopovo.com.br/mundo/coreia-do-norte-expulsa-diplomata-suico-e-fecha-representacao-na-capital-apos-sancao/",
+      "resumo": "O regime de Kim Jong-un declarou Sylvain Astier persona non grata e determinou sua saída da Coreia do Norte em até 48 horas.",
+      "publicado_em": "2026-11-27T21:55:01+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Dino suspende R$ 79,3 milhões em emendas de Flávio Bolsonaro",
+      "link": "https://www.gazetadopovo.com.br/republica/dino-suspende-r-793-milhoes-em-emendas-de-flavio-bolsonaro/",
+      "resumo": "Dino bloqueou emendas de Flávio ao Orçamento de 2027 e destacou que o mandato parlamentar não comporta \"teletrabalho integral transnacional\".",
+      "publicado_em": "2026-11-27T21:58:34+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Governo Trump pressionou Venezuela e Iraque a deixarem a Opep, diz agência",
+      "link": "https://www.gazetadopovo.com.br/mundo/governo-trump-pressionou-venezuela-e-iraque-a-deixarem-a-opep-diz-agencia/",
+      "resumo": "Governo Trump pressionou Venezuela e Iraque a deixarem a Opep para ampliar a produção de petróleo nos dois países, diz Reuters.",
+      "publicado_em": "2026-11-27T22:16:02+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Organizações católicas barram acordo na COP31 por falta de metas para fósseis",
+      "link": "https://www.gazetadopovo.com.br/mundo/organizacoes-catolicas-barram-acordo-na-cop31-por-falta-de-metas-para-fosseis/",
+      "resumo": "Organizações católicas da aliança CIDSE rejeitam acordo na COP31 por falta de menção aos combustíveis fósseis como causa da crise climática.",
+      "publicado_em": "2026-11-27T22:37:38+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Em meio à crise econômica, regime de Cuba tenta ampliar participação do setor privado no país",
+      "link": "https://www.gazetadopovo.com.br/mundo/em-meio-a-crise-economica-regime-de-cuba-tenta-ampliar-participacao-do-setor-privado-no-pais/",
+      "resumo": "Em meio à crise econômica, regime de Cuba anuncia novos investimentos estrangeiros e amplia espaço para a iniciativa privada na ilha.",
+      "publicado_em": "2026-11-27T22:46:05+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Centrais sindicais divergem sobre indicação de executivo para a Fazenda",
+      "link": "https://www.gazetadopovo.com.br/republica/centrais-sindicais-divergem-sobre-indicacao-de-executivo-para-a-fazenda/",
+      "resumo": "A escolha de Luiz Carlos Trabuco para a Fazenda dividiu sindicatos. CUT e CTB recusam apoio, enquanto outras centrais defendem diálogo e juros baixos.",
+      "publicado_em": "2026-11-27T22:52:49+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Bia Kicis defende comando do Senado para blindar pautas conservadoras",
+      "link": "https://www.gazetadopovo.com.br/vida-e-cidadania/bia-kicis-defende-comando-do-senado-para-blindar-pautas-conservadoras/",
+      "resumo": "Senadora eleita Bia Kicis afirma que presidir o Senado é essencial para conter o STF e garantir o protagonismo de pautas em defesa da vida e da família.",
+      "publicado_em": "2026-11-27T22:56:13+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Sergio Moro projeta integração das forças policiais do Paraná com inteligência artificial",
+      "link": "https://www.gazetadopovo.com.br/parana/sergio-moro-projeta-integracao-das-forcas-policiais-do-parana-com-inteligencia-artificial/",
+      "resumo": "Sergio Moro apresenta plano para integrar polícias do Paraná usando inteligência artificial e conexão de câmeras para acelerar investigações criminais.",
+      "publicado_em": "2026-11-27T23:07:57+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Costa Rica reconhece que ditadura da Nicarágua persegue opositores mesmo fora do país",
+      "link": "https://www.gazetadopovo.com.br/mundo/costa-rica-reconhece-que-ditadura-da-nicaragua-persegue-opositores-mesmo-fora-do-pais/",
+      "resumo": "Ministério Público da Costa Rica reconhece que opositores do regime da Nicarágua enfrentam ameaças e perseguição mesmo no exílio.",
+      "publicado_em": "2026-11-27T23:22:56+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "De inimiga a parceira militar: como Trump está ampliando a influência dos EUA sobre a Venezuela",
+      "link": "https://www.gazetadopovo.com.br/mundo/de-inimiga-a-parceira-militar-como-trump-esta-ampliando-a-influencia-dos-eua-sobre-a-venezuela/",
+      "resumo": "Governo Trump amplia influência militar e econômica sobre a Venezuela e reduz espaço ocupado por antigos aliados do regime chavista.",
+      "publicado_em": "2026-11-27T23:23:41+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Presos de Santa Catarina confeccionam vestidos de noiva; trabalho gera renda e ajuda a custear prisões",
+      "link": "https://www.gazetadopovo.com.br/vida-e-cidadania/presos-de-santa-catarina-confeccionam-vestidos-de-noiva-trabalho-gera-renda-e-ajuda-a-custear-prisoes/",
+      "resumo": "A oficina de vestidos integra um projeto maior, onde 11 mil presos de SC trabalham e destinam parte do salário para recomeçar a vida.",
+      "publicado_em": "2026-11-27T23:30:00+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Dôra, a Bela",
+      "link": "https://www.gazetadopovo.com.br/vozes/francisco-escorsim/dora-guimaraes-rosa-gabriel-garcia-marquez/",
+      "resumo": "Dôra tinha um sonho antigo. Queria narrar as histórias de Gabriel García Márquez na casa dele, em Aracataca.",
+      "publicado_em": "2026-11-27T23:46:33+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Mina com promessa de multiplicar PIB do município aguarda licença há duas décadas",
+      "link": "https://www.gazetadopovo.com.br/brasil/mina-fosfato-santa-quiteria-licenca/",
+      "resumo": "Mina de fosfato e urânio pode multiplicar por dez o PIB de Santa Quitéria (CE), mas espera licença há 22 anos. Leia na Gazeta do Povo.",
+      "publicado_em": "2026-11-27T23:50:05+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Nomeação de Trabuco para o Ministério da Fazenda gera receio interno no PT",
+      "link": "https://www.gazetadopovo.com.br/economia/nomeacao-de-trabuco-para-o-ministerio-da-fazenda-gera-receio-interno-no-pt/",
+      "resumo": "Conheça os detalhes da nomeação de Luiz Carlos Trabuco para a Fazenda e por que setores do PT temem a repetição da política econômica de Joaquim Levy.",
+      "publicado_em": "2026-11-28T00:01:59+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Decoração de Natal de SP vira piada, é alvo de questionamento no MP e será substituída",
+      "link": "https://www.gazetadopovo.com.br/sao-paulo/apos-criticas-ricardo-nunes-manda-trocar-decoracao-de-natal-em-sao-paulo/",
+      "resumo": "Prefeitura de SP decidiu substituir decoração de Natal após repercussão negativa; oposição aciona MP para questionar contratos e gastos.",
+      "publicado_em": "2026-11-28T00:07:33+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Argentina e Brasil adotam caminhos diferentes para lidar com as bets; veja as diferenças",
+      "link": "https://www.gazetadopovo.com.br/mundo/as-diferencas-entre-a-lei-contra-as-bets-aprovada-na-argentina-e-a-medida-adotada-por-lula-no-brasil/",
+      "resumo": "Enquanto o Brasil proibiu as bets, a Argentina mantém a atividade legalizada, mas impõe restrições à publicidade e aos apostadores.",
+      "publicado_em": "2026-11-28T00:28:16+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Fachin libera R$ 316 milhões do Master ao BRB, mas mantém bloqueio de outros valores",
+      "link": "https://www.gazetadopovo.com.br/economia/fachin-libera-r-316-milhoes-do-master-ao-brb/",
+      "resumo": "Decisão atende parcialmente ao pleito do BRB; valores com disputa de titularidade seguem bloqueados. Leia na Gazeta do Povo.",
+      "publicado_em": "2026-11-28T00:32:31+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Dólar despenca após confirmação de Trabuco na Fazenda",
+      "link": "https://www.gazetadopovo.com.br/economia/dolar-despenca-apos-confirmacao-de-trabuco-na-fazenda-ibovespa-tem-leve-alta/",
+      "resumo": "Recuo do dólar foi impulsionado pela confirmação de Luiz Carlos Trabuco no comando do Ministério da Fazenda a partir de 2027.",
+      "publicado_em": "2026-11-28T00:44:35+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Moraes autoriza Mauro Cid a mudar para o Rio de Janeiro",
+      "link": "https://www.gazetadopovo.com.br/republica/moraes-autoriza-mauro-cid-a-mudar-para-o-rio-de-janeiro/",
+      "resumo": "Moraes acolheu parecer favorável da PGR e permitiu a transferência de Mauro Cid de Brasília para Niterói, no Rio de Janeiro.",
+      "publicado_em": "2026-11-28T01:03:20+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Moraes autoriza Braga Netto a deixar prisão para acompanhar nascimento da primeira neta",
+      "link": "https://www.gazetadopovo.com.br/republica/moraes-autoriza-braga-netto-a-deixar-prisao-para-acompanhar-nascimento-da-primeira-neta/",
+      "resumo": "Ex-ministro de Bolsonaro, general Braga Netto poderá deixar a prisão para acompanhar o nascimento da primeira neta.",
+      "publicado_em": "2026-11-28T01:44:09+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Ataques de sabotagem atribuídos à Rússia na Europa aumentaram 16% em um ano, aponta relatório",
+      "link": "https://www.gazetadopovo.com.br/mundo/ataques-de-sabotagem-atribuidos-a-russia-na-europa-aumentaram-16-em-um-ano-aponta-relatorio/",
+      "resumo": "Relatório aponta aumento de 16% nas ações de sabotagem atribuídas à Rússia na Europa, com Alemanha e Polônia entre os principais alvos.",
+      "publicado_em": "2026-11-28T02:32:06+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Alemanha aprova maior orçamento militar desde o fim da Guerra Fria",
+      "link": "https://www.gazetadopovo.com.br/mundo/alemanha-aprova-maior-orcamento-militar-desde-o-fim-da-guerra-fria/",
+      "resumo": "Alemanha aprova gastos militares de 139,4 bilhões de euros para 2027, maior valor destinado pelo país ao setor desde a Guerra Fria.",
+      "publicado_em": "2026-11-28T03:17:46+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Lula chama FHC de “morto-vivo” em discurso para idosos no Rio",
+      "link": "https://www.gazetadopovo.com.br/republica/lula-chama-fhc-de-morto-vivo-em-discurso-para-idosos-no-rio/",
+      "resumo": "Lula afirmou que FHC, diagnosticado com Alzheimer em estágio avançado, \"não vive, na verdade é um morto-vivo\".",
+      "publicado_em": "2026-11-28T03:22:14+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Governo Trump firma acordo militar com a Venezuela e assume controle do petróleo",
+      "link": "https://www.gazetadopovo.com.br/mundo/governo-trump-firma-acordo-militar-com-a-venezuela-e-assume-controle-do-petroleo/",
+      "resumo": "Governo Trump firma pacto militar com a Venezuela, assume controle de campos de petróleo e afasta influência da China e Rússia na América Latina.",
+      "publicado_em": "2026-11-28T03:24:07+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Mercado financeiro reage com pessimismo após reeleição de Lula",
+      "link": "https://www.gazetadopovo.com.br/economia/mercado-financeiro-reage-com-pessimismo-apos-reeleicao-de-lula/",
+      "resumo": "Reeleição de Lula gera instabilidade com alta do dólar e queda da bolsa. Saiba como a desconfiança do mercado afeta a inflação e o seu bolso.",
+      "publicado_em": "2026-11-28T03:39:11+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Projeto da mina de Itataia aguarda licenciamento ambiental há duas décadas",
+      "link": "https://www.gazetadopovo.com.br/brasil/projeto-da-mina-de-itataia-aguarda-licenciamento-ambiental-ha-duas-decadas/",
+      "resumo": "A mina de Santa Quitéria (CE) aguarda licença há 22 anos. O projeto de urânio e fosfato pode multiplicar o PIB local e reduzir a importação de adubos.",
+      "publicado_em": "2026-11-28T03:50:51+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Argentina aprova lei para restringir as bets enquanto o Brasil mantém proibição",
+      "link": "https://www.gazetadopovo.com.br/mundo/argentina-aprova-lei-para-restringir-as-bets-enquanto-o-brasil-mantem-proibicao/",
+      "resumo": "Conheça os detalhes da nova lei contra as bets na Argentina e entenda por que o país vizinho decidiu regulamentar enquanto o Brasil optou pela proibição total.",
+      "publicado_em": "2026-11-28T04:29:06+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "O país do futuro que nunca chega – uma radiografia de uma nação chamada Brasil",
+      "link": "https://www.gazetadopovo.com.br/opiniao/artigos/o-pais-do-futuro-que-nunca-chega-uma-radiografia-de-uma-nacao-chamada-brasil/",
+      "resumo": "A expressão “país do futuro” virou uma das marcas do Brasil, com uma promessa e uma ironia embutidas. Leia na Gazeta do Povo.",
+      "publicado_em": "2026-11-28T10:00:00+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Rodrigo Pacheco no STF? Corte precisa de juristas de indiscutível capacidade técnica e não de mais políticos",
+      "link": "https://www.gazetadopovo.com.br/opiniao/artigos/rodrigo-pacheco-no-stf-corte-precisa-de-juristas-de-indiscutivel-capacidade-tecnica-e-nao-de-mais-politicos/",
+      "resumo": "Ao compor o Supremo com nomes sem os devidos títulos acadêmicos compromete-se a própria função da Corte. Leia na Gazeta do Povo.",
+      "publicado_em": "2026-11-28T11:00:00+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Perseguição e intimidação islamita no Brasil",
+      "link": "https://www.gazetadopovo.com.br/vozes/cronicas-de-um-estado-laico/islamismo-perseguicao-intimidacao-brasil-2/",
+      "resumo": "Entidades representativas do islamismo têm usado a Justiça para tentar coibir críticas aos preceitos do Islã, o que prejudica as liberdades religiosa e de expressão.",
+      "publicado_em": "2026-11-28T11:00:00+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "AVC em jovens quase dobra em três décadas: entenda o que está por trás do aumento",
+      "link": "https://www.gazetadopovo.com.br/saude/avc-em-jovens-cresce-83-por-cento-nos-estados-unidos/",
+      "resumo": "AVC em jovens cresce nos EUA e no Brasil; entenda os fatores de risco, sintomas e formas de prevenção. Leia na Gazeta do Povo!",
+      "publicado_em": "2026-11-28T12:00:00+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Resumo da semana: Câmara desafia STF para salvar mandato e imunidade de Van Hattem",
+      "link": "https://www.gazetadopovo.com.br/republica/resumo-da-semana-camara-desafia-stf-para-salvar-mandato-e-imunidade-de-van-hattem/",
+      "resumo": "Os principais assuntos da semana estão reunidos no especial de melhores momentos do Gazeta Agora. Acompanhe.",
+      "publicado_em": "2026-11-28T12:31:00+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "PF muda relatórios sobre ministros do STF e esconde nomes de agentes",
+      "link": "https://www.gazetadopovo.com.br/republica/pf-muda-relatorios-ministros-stf-esconde-nomes-agentes/",
+      "resumo": "Documentos sobre quatro ministros foram refeitos por ordem da direção da PF e deixaram de incluir informações. Leia na Gazeta do Povo.",
+      "publicado_em": "2026-11-28T12:53:51+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "PT ataca direita em manifesto sobre Lula 4",
+      "link": "https://www.gazetadopovo.com.br/republica/manifesto-pt-ataca-direita-manifesto-lula-4/",
+      "resumo": "Documento do partido classifica oposição como extrema direita, defende ampliação do Estado e mudanças na economia. Leia na Gazeta do Povo.",
+      "publicado_em": "2026-11-28T13:44:34+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Joias que nascem das conchas: a beleza da madrepérola brasileira",
+      "link": "https://www.gazetadopovo.com.br/brasil/joias-que-nascem-das-conchas-madreperola-brasileira/",
+      "resumo": "Brilho natural das conchas valoriza joias, acessórios, instrumentos musicais e sustenta comunidades litorâneas. Leia na Gazeta do Povo.",
+      "publicado_em": "2026-11-28T13:52:27+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Suprema Corte do Canadá proíbe símbolos religiosos no serviço público",
+      "link": "https://www.gazetadopovo.com.br/mundo/suprema-corte-do-canada-proibe-simbolos-religiosos-no-servico-publico/",
+      "resumo": "Bispos católicos manifestam profunda preocupação após decisão histórica da Suprema Corte do Canadá que mantém proibição de símbolos religiosos para servidores públicos de Quebec.",
+      "publicado_em": "2026-11-28T14:07:11+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "BB nega falhas de gestão e diz ser mais rigoroso no crédito ao agro",
+      "link": "https://www.gazetadopovo.com.br/economia/bb-nega-falhas-gestao-mais-rigoroso-credito-agro/",
+      "resumo": "Inadimplência no crédito rural chegou a R$ 27,9 bilhões, levando banco a endurecer exigências para empréstimos. Leia na Gazeta do Povo.",
+      "publicado_em": "2026-11-28T14:20:26+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Governo Lula aceitou acordo que pode anistiar 99 cursos de Medicina com mau desempenho",
+      "link": "https://www.gazetadopovo.com.br/vida-e-cidadania/governo-lula-aceitou-acordo-que-pode-anistiar-99-cursos-de-medicina-com-mau-desempenho/",
+      "resumo": "Acordo aceito pelo governo Lula pode livrar 99 cursos de Medicina das medidas de fiscalização e restrições impostas pelo MEC.",
+      "publicado_em": "2026-11-28T14:30:28+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Aneel mantém bandeira verde na conta de luz de dezembro",
+      "link": "https://www.gazetadopovo.com.br/brasil/aneel-mantem-bandeira-verde-conta-luz-dezembro/",
+      "resumo": "Contas de energia elétrica não terão cobrança adicional pelo terceiro mês consecutivo, apesar de preocupações com o El Niño. Leia na Gazeta do Povo.",
+      "publicado_em": "2026-11-28T14:49:40+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Lula pede desculpas após chamar FHC de “morto-vivo” e admite gafe",
+      "link": "https://www.gazetadopovo.com.br/republica/lula-desculpas-chamar-fhc-morto-vivo-admite-gafe/",
+      "resumo": "Presidente reconheceu que errou ao comentar o estado de saúde de Fernando Henrique Cardoso, diagnosticado com Alzheimer avançado. Leia na Gazeta do Povo.",
+      "publicado_em": "2026-11-28T15:18:14+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Ao custo de R$ 4,6 bilhões, Pé-de-Meia Universitário começa em março",
+      "link": "https://www.gazetadopovo.com.br/republica/ao-custo-4-6-bilhoes-pe-de-meia-universitario-comeca-marco/",
+      "resumo": "Programa do governo Lula prevê bolsa mensal de R$ 700 e poupança de R$ 250 para universitários de baixa renda. Leia na Gazeta do Povo.",
+      "publicado_em": "2026-11-28T15:57:32+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Greta ri do ambientalismo. Seu único objetivo real é destruir o capitalismo",
+      "link": "https://www.gazetadopovo.com.br/opiniao/artigos/greta-ri-do-ambientalismo-seu-unico-objetivo-real-e-destruir-o-capitalismo/",
+      "resumo": "Em entrevista Greta afirma que o objetivo do movimento tem sido, “desde o primeiro dia”, “derrubar o capitalismo”. Leia na Gazeta do Povo.",
+      "publicado_em": "2026-11-28T16:00:00+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Neurologistas alertam sobre avanço de casos de AVC em adultos de até 54 anos",
+      "link": "https://www.gazetadopovo.com.br/saude/neurologistas-alertam-sobre-avanco-de-casos-de-avc-em-adultos-de-ate-54-anos/",
+      "resumo": "Estudo aponta alta de 83% nos casos de AVC em jovens. Entenda por que o derrame cerebral está atingindo adultos mais novos e como identificar os sintomas.",
+      "publicado_em": "2026-11-28T16:01:05+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Tribunal internacional rejeita pedido da Argentina para barrar exploração de petróleo nas Malvinas",
+      "link": "https://www.gazetadopovo.com.br/mundo/tribunal-internacional-rejeita-pedido-argentina-barrar-exploracao-petroleo-malvinas/",
+      "resumo": "Tribunal Internacional do Direito do Mar rejeitou medidas cautelares solicitadas pela Argentina na disputa com o Reino Unido pelas Malvinas",
+      "publicado_em": "2026-11-28T16:26:05+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Fóssil de 309 milhões de anos revela nova espécie de animal que viveu antes dos dinossauros",
+      "link": "https://www.gazetadopovo.com.br/mundo/fossil-de-309-milhoes-de-anos-revela-nova-especie/",
+      "resumo": "Fóssil de 309 milhões de anos revela espécie ancestral de anfíbios e homenageia mães de duas pesquisadoras. Leia na Gazeta do Povo.",
+      "publicado_em": "2026-11-28T17:00:00+00:00"
+    },
+    {
+      "fonte": "Gazeta do Povo",
+      "prioridade": 1,
+      "titulo": "Aliado refuta teoria de Putin para invadir Ucrânia: “Seguindo a lógica, a Rússia deveria ser da Mongólia”",
+      "link": "https://www.gazetadopovo.com.br/mundo/aliado-refuta-teoria-putin-invadir-ucrania/",
+      "resumo": "O ditador de Belarus, Alexander Lukashenko, um dos principais aliados da Rússia, refutou um dos argumentos de Putin para invadir a Ucrânia",
+      "publicado_em": "2026-11-28T17:04:21+00:00"
+    },
+    {
+      "fonte": "Banco Central do Brasil (notícias)",
+      "prioridade": 2,
+      "titulo": "Fórum Pix projeta avanços para 2027",
+      "link": "https://www.bcb.gov.br/detalhenoticia/21337/noticia",
+      "resumo": "",
+      "publicado_em": null
+    },
+    {
+      "fonte": "Banco Central do Brasil (notícias)",
+      "prioridade": 2,
+      "titulo": "Bancos centrais de países de língua portuguesa criam rede permanente de cooperação",
+      "link": "https://www.bcb.gov.br/detalhenoticia/21328/noticia",
+      "resumo": "",
+      "publicado_em": null
+    },
+    {
+      "fonte": "Banco Central do Brasil (notícias)",
+      "prioridade": 2,
+      "titulo": "Aprender Valor amplia conteúdo e passa a oferecer educação previdenciária nas escolas",
+      "link": "https://www.bcb.gov.br/detalhenoticia/21327/noticia",
+      "resumo": "",
+      "publicado_em": null
+    },
+    {
+      "fonte": "Banco Central do Brasil (notícias)",
+      "prioridade": 2,
+      "titulo": "Pix celebra 6 anos como motor de inclusão e eficiência financeira em todo o Brasil",
+      "link": "https://www.bcb.gov.br/detalhenoticia/21320/noticia",
+      "resumo": "",
+      "publicado_em": null
+    },
+    {
+      "fonte": "Banco Central do Brasil (notícias)",
+      "prioridade": 2,
+      "titulo": "Novas regras reforçam segurança e ampliam uso do Open Finance por clientes pessoas jurídicas",
+      "link": "https://www.bcb.gov.br/detalhenoticia/21313/noticia",
+      "resumo": "",
+      "publicado_em": null
+    },
+    {
+      "fonte": "Banco Central do Brasil (notícias)",
+      "prioridade": 2,
+      "titulo": "BC reforça proteção ao consumidor com novas regras para oferta e contratação de crédito",
+      "link": "https://www.bcb.gov.br/detalhenoticia/21310/noticia",
+      "resumo": "",
+      "publicado_em": null
+    },
+    {
+      "fonte": "Banco Central do Brasil (notícias)",
+      "prioridade": 2,
+      "titulo": "Consulta propõe mais transparência e priorização do interesse do cliente na distribuição de produtos de captação",
+      "link": "https://www.bcb.gov.br/detalhenoticia/21308/noticia",
+      "resumo": "",
+      "publicado_em": null
+    },
+    {
+      "fonte": "Banco Central do Brasil (notícias)",
+      "prioridade": 2,
+      "titulo": "Inscrições para três vagas do Programa de Estágio de Pós-Graduação em Pesquisa (PEPP) são prorrogadas até 13 de novembro",
+      "link": "https://www.bcb.gov.br/detalhenoticia/21307/noticia",
+      "resumo": "",
+      "publicado_em": null
+    },
+    {
+      "fonte": "Banco Central do Brasil (notícias)",
+      "prioridade": 2,
+      "titulo": "BC passa a divulgar mensalmente indicadores de reajustes salariais negociados",
+      "link": "https://www.bcb.gov.br/detalhenoticia/21280/noticia",
+      "resumo": "",
+      "publicado_em": null
+    },
+    {
+      "fonte": "Banco Central do Brasil (notícias)",
+      "prioridade": 2,
+      "titulo": "BC moderniza apresentação de dados sobre atuação no mercado de câmbio",
+      "link": "https://www.bcb.gov.br/detalhenoticia/21279/noticia",
+      "resumo": "",
+      "publicado_em": null
+    },
+    {
+      "fonte": "Agência Brasil",
+      "prioridade": 2,
+      "titulo": "Desafio das mudanças climáticas mobiliza setor do turismo de natureza",
+      "link": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-11/desafio-das-mudancas-climaticas-mobiliza-setor-do-turismo-de-natureza",
+      "resumo": "O setor de turismo de natureza, que inclui ecoturismo e o turismo de aventura, busca o fortalecimento de ações que diminuam os impactos das mudanças climáticas para o setor. O tema é um dos principais debates ocorridos no Abeta Summit, congresso que reúne o setor em Campo Grande, no Mato Grosso do S",
+      "publicado_em": "2026-11-28T09:30:00-03:00"
+    },
+    {
+      "fonte": "Agência Brasil",
+      "prioridade": 2,
+      "titulo": "Rádio MEC apresenta novo álbum do compositor Pedro Eleftheriou",
+      "link": "https://agenciabrasil.ebc.com.br/cultura/noticia/2026-11/radio-mec-apresenta-novo-album-do-compositor-pedro-eleftheriou",
+      "resumo": "O programa Música e Músicos do Brasil, da Rádio MEC, apresenta neste sábado (28), às 19h, o álbum Two Horizons , do compositor greco-brasileiro Pedro Eleftheriou. Lançado em outubro deste ano pela gravadora Azul Music, o trabalho reúne onze composições para violino e piano, interpretadas pelo violin",
+      "publicado_em": "2026-11-28T09:46:00-03:00"
+    },
+    {
+      "fonte": "Agência Brasil",
+      "prioridade": 2,
+      "titulo": "Festival Arpoarte valoriza trabalho de artesãos do Brasil",
+      "link": "https://agenciabrasil.ebc.com.br/cultura/noticia/2026-11/festival-arpoarte-valoriza-trabalho-de-artesaos-do-brasil",
+      "resumo": "Até este domingo (29), o Rio de Janeiro recebe, das 11h às 21h, cerca de 300 artesãos, mestres, associações e cooperativas de 23 estados do Brasil e do Distrito Federal, além de coletivos indígenas e quilombolas no Festival Arpoarte. É a primeira edição da feira nacional de arte popular e artesanato",
+      "publicado_em": "2026-11-28T10:25:00-03:00"
+    },
+    {
+      "fonte": "Agência Brasil",
+      "prioridade": 2,
+      "titulo": "Enade 2026: concluintes devem preencher questionário antes das provas",
+      "link": "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-11/enade-2026-concluintes-devem-preencher-questionario-antes-das-provas",
+      "resumo": "Os concluintes dos cursos superiores que farão o Exame Nacional de Desempenho dos Estudantes (Enade) 2026 de 18 cursos de bacharelado e superiores de tecnologia neste domingo (29) devem, antes da prova, preencher obrigatoriamente o questionário do estudante. O questionário deve ser preenchido até as",
+      "publicado_em": "2026-11-28T10:32:00-03:00"
+    },
+    {
+      "fonte": "Agência Brasil",
+      "prioridade": 2,
+      "titulo": "Mega-Sena sorteia prêmio de R$ 82 milhões neste domingo",
+      "link": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-11/mega-sena-sorteia-premio-de-r-82-milhoes-neste-domingo",
+      "resumo": "A Mega-Sena sorteia neste domingo (29) prêmio estimado em R$ 82 milhões. As seis dezenas do concurso 3.092 serão sorteadas a partir das 11h (horário de Brasília) no Espaço da Sorte, em São Paulo. As apostas podem ser feitas até as 22h (horário de Brasília) de sábado (28), em qualquer lotérica do paí",
+      "publicado_em": "2026-11-28T11:05:00-03:00"
+    },
+    {
+      "fonte": "Agência Brasil",
+      "prioridade": 2,
+      "titulo": "Conceição Evaristo 80 anos: escrita literária como grito de liberdade",
+      "link": "https://agenciabrasil.ebc.com.br/cultura/noticia/2026-11/conceicao-evaristo-80-anos-escrita-literaria-como-grito-de-liberdade",
+      "resumo": "“Na minha casa faltava comida, mas não faltava conversa.” A lembrança da infância, contada por Conceição Evaristo, revela a origem de uma das principais vozes da literatura brasileira. Imersa em memórias e relatos de sua família, a menina descobriu na escrita um modo de acessar o mundo e dar forma a",
+      "publicado_em": "2026-11-28T11:41:00-03:00"
+    },
+    {
+      "fonte": "Agência Brasil",
+      "prioridade": 2,
+      "titulo": "Decoração de Natal da cidade de São Paulo é alvo de críticas",
+      "link": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-11/iluminacao-de-natal-da-cidade-de-sao-paulo-e-alvo-de-criticas",
+      "resumo": "Quem circula por vias movimentadas de São Paulo, como a Avenida Paulista, o Viaduto do Chá e a Avenida 23 de Maio, encontra postes decorados com painéis ilustrados com velas, presentes, guirlandas e papais noéis. Mas as peças que integram a programação do Natal Iluminado 2026, promovida pela prefeit",
+      "publicado_em": "2026-11-28T12:11:00-03:00"
+    },
+    {
+      "fonte": "Agência Brasil",
+      "prioridade": 2,
+      "titulo": "STF marca para 11 de dezembro análise de súmula sobre pautas-bomba",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/stf-marca-para-11-de-dezembro-analise-de-sumula-sobre-pautas-bomba",
+      "resumo": "O presidente do Supremo Tribunal Federal (STF), ministro Edson Fachin, pautou para o dia 11 de dezembro o início do julgamento sobre a proposta do ministro Gilmar Mendes para barrar a aprovação de pautas-bomba pelo Congresso. Em junho, Mendes propôs que o STF estabeleça uma Súmula Vinculante para de",
+      "publicado_em": "2026-11-28T12:33:00-03:00"
+    },
+    {
+      "fonte": "Agência Brasil",
+      "prioridade": 2,
+      "titulo": "Estados fazem Dia D contra dengue, zika e chikungunya",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-11/estados-fazem-dia-d-contra-dengue-zika-e-chikungunya",
+      "resumo": "Dez estados e o Distrito Federal têm ações programadas neste sábado (28) para o Dia D de combate à dengue, zika e chikungunya, incluindo estratégias de prevenção e controle do mosquito Aedes aegypti. Para reforçar a mobilização, o Ministério da Saúde vai enviar mensagens personalizadas pelo whatsApp",
+      "publicado_em": "2026-11-28T13:07:00-03:00"
+    },
+    {
+      "fonte": "Agência Brasil",
+      "prioridade": 2,
+      "titulo": "Lula pede desculpas por fala sobre saúde de Fernando Henrique Cardoso",
+      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-pede-desculpa-por-fala-sobre-saude-de-fernando-henrique-cardoso",
+      "resumo": "O presidente Luiz Inácio Lula da Silva pediu desculpas à família do ex-presidente Fernando Henrique Cardoso um dia depois de comentar o estado de saúde dele. FHC tem 95 anos e sofre de Alzheimer em estágio avançado. Notícias relacionadas: Saiba o que é a interdição judicial, medida adotada por famíl",
+      "publicado_em": "2026-11-28T13:19:00-03:00"
+    }
+  ]
+}
