@@ -60,7 +60,7 @@ jobs:
           cp pendente/index.html _site/previa/index.html
           touch _site/.nojekyll
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: _site
       - id: deploy
