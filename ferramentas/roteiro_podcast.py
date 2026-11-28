@@ -162,9 +162,11 @@ def pdf_conjunto(destino, titulo, rodape, ordem):
         if b.get("secao"):
             el.append(Paragraph(b["secao"], sec))
         nome = "NEVES" if b["quem"] == "junior" else "MARESSA"
-        et = ParagraphStyle("e", fontName="FranklinB", fontSize=13, leading=16, textColor=cores[b["quem"]], spaceAfter=2)
-        txt = re.sub(r"\s*\n\s*", "<br/><br/>", b["texto"].replace("&", "&amp;").replace("<", "&lt;"))
-        el.append(KeepTogether([Paragraph(nome, et), Paragraph(txt, corpo), Spacer(1, 6 * mm)]))
+        et = ParagraphStyle("e", fontName="FranklinB", fontSize=13, leading=16, textColor=cores[b["quem"]], spaceAfter=2, keepWithNext=1)
+        el.append(Paragraph(nome, et))
+        for par in b["texto"].replace("&", "&amp;").replace("<", "&lt;").split("\n"):
+            el += [Paragraph(par.strip(), corpo), Spacer(1, 3 * mm)]
+        el.append(Spacer(1, 4 * mm))
     el.append(Paragraph("[Pausa breve. Vinheta final original.]", nota))
     SimpleDocTemplate(destino, pagesize=A4, leftMargin=20 * mm, rightMargin=20 * mm, topMargin=18 * mm,
                       bottomMargin=18 * mm, title=titulo).build(el)
