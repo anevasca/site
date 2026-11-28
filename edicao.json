@@ -610,7 +610,12 @@
     {
      "nome": "Entrevista do A Nevasca com o Reverendo Jeferson Alfredo Pereira, gravada em 24/11/2026"
     }
-   ]
+   ],
+   "imagem": {
+    "arquivo": "img/ed-2026-11-28/pastor-entrevista.jpg",
+    "legenda": "O Reverendo Jeferson Alfredo Pereira, pastor da Igreja Presbiteriana de Tupã, no púlpito da igreja.",
+    "credito": "Foto: Junior Neves"
+   }
   }
  ],
  "paraEntender": {
