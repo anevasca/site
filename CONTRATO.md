@@ -149,15 +149,21 @@ O processo, passo a passo:
    exatamente igual à que vai ao ar, em `anevasca.com.br/previa/` — e o link é enviado
    diretamente ao Junior.
 3. O Junior revisa a prévia e aprova o Pull Request (ou pede mudança, com um comentário).
-4. Assim que ele aprova e o PR é mesclado na `main`, a publicação de verdade roda sozinha
-   (validação → build → ar). **Hoje isso acontece assim que ele aprova**, não há ainda um
-   mecanismo que segure a publicação até as 5h quando a aprovação vem mais cedo na noite —
-   isso está em aberto (ver pendências no projeto do Claude).
+4. Assim que ele aprova, o PR é mesclado na `main` — mas **aprovado não é publicado**.
+   A edição fica só commitada, esperando o horário certo: a publicação de verdade (build
+   → áudio → ar) só roda às 4h30 da manhã, sempre nesse horário, não importa se a
+   aprovação veio às 22h ou às 3h. Isso é de propósito, pra o jornal sempre entrar no ar
+   no mesmo horário.
 5. **Prazo de segurança:** se o Junior não responder a tempo, um workflow automático
-   mescla o PR sozinho às 4h30, pra o jornal nunca atrasar além das 5h. Isso é
-   propositalmente o último recurso, não o caminho normal. Se o podcast ainda não estiver
-   pronto nesse momento, ele entra depois, assim que o Junior mandar os áudios (o site não
-   espera por ele).
+   mescla o PR sozinho às 4h15, 15 minutos antes da publicação das 4h30, pra o jornal
+   nunca atrasar além das 5h. Isso é propositalmente o último recurso, não o caminho
+   normal. Se o podcast ainda não estiver pronto nesse momento, ele entra depois, assim
+   que o Junior mandar os áudios (o site não espera por ele).
+
+**Importante para quem tem acesso ao repositório:** isso vale só para a edição principal
+(`edicao-pendente-AAAA-MM-DD`). Uma atualização de "Últimas notícias" durante o dia
+(branch `ultimas-AAAA-MM-DD-HHh`) continua publicando na hora, assim que aprovada — não
+espera as 4h30, porque é notícia que não pode esperar o dia seguinte.
 
 Se você é uma IA que só conversa com o Junior (sem acesso ao repositório), seu trabalho
 continua sendo só entregar o JSON certo — quem abre o Pull Request é sempre o mesmo
