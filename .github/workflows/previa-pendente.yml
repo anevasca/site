@@ -41,7 +41,7 @@ jobs:
           ref: ${{ github.event.pull_request.head.sha }}
           path: pendente
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
       - run: pip install Pillow
