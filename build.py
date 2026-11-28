@@ -12,6 +12,17 @@ BASE = "https://anevasca.com.br"
 e = lambda s: html.escape(str(s or ""), quote=True)
 
 
+_ROTULO_FALA = re.compile(r"^(Junior Neves|Reverendo Jeferson):\s")
+
+
+def par(texto):
+    """Parágrafo em HTML; em entrevistas, o nome de quem fala vai em negrito."""
+    m = _ROTULO_FALA.match(str(texto or ""))
+    if m:
+        return f"<strong>{e(m.group(1))}:</strong> {e(texto[m.end():])}"
+    return e(texto)
+
+
 def resumo(t, n=200):
     t = " ".join(str(t or "").split())
     return t if len(t) <= n else t[: n - 1].rsplit(" ", 1)[0] + "…"
@@ -132,7 +143,7 @@ def corpo(artigo):
     blocos = []
     for pos, paragrafo in enumerate(artigo.get("texto") or [artigo.get("resumo")], 1):
         if paragrafo:
-            blocos.append(f'<p>{e(paragrafo)}</p>')
+            blocos.append(f'<p>{par(paragrafo)}</p>')
         for extra in artigo.get("ilustracoes", []):
             if extra["apos"] != pos:
                 continue

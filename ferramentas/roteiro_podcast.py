@@ -25,6 +25,24 @@ def pontua(t):
     return t if not t or re.search(r"[.!?…:]$", t) else t + "."
 
 
+def deixa_final(txt, livre=False):
+    """A deixa é o FIM da fala do outro (a última ou as duas últimas frases), nunca um pedaço cortado."""
+    if livre:
+        return "(comentário livre, sem texto fixo) entre quando ele terminar a opinião."
+    frases = re.split(r"(?<=[.!?…])\s+", txt.strip())
+    sel, n = [], 0
+    for f in reversed(frases):
+        w = len(f.split())
+        if sel and n + w > 40:
+            break
+        sel.insert(0, f)
+        n += w
+        if n >= 12:
+            break
+    fim = " ".join(sel)
+    return ("… " if len(sel) < len(frases) else "") + fim
+
+
 def roteiro(ed, colunas):
     d = datetime.date.fromisoformat(ed["data"])
     quando = f"{DIAS[d.weekday()]}, {d.day} de {MESES[d.month - 1]}"
@@ -113,6 +131,48 @@ def pdf(destino, titulo, quem, blocos, pend):
     return True
 
 
+def pdf_conjunto(destino, titulo, rodape, ordem):
+    """Roteiro único, com as duas vozes na ordem do programa (como o roteiro de 27/11), em seções."""
+    try:
+        from reportlab.lib.pagesizes import A4
+        from reportlab.lib.colors import HexColor
+        from reportlab.pdfbase import pdfmetrics
+        from reportlab.pdfbase.ttfonts import TTFont
+        from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, KeepTogether
+        from reportlab.lib.styles import ParagraphStyle
+        from reportlab.lib.units import mm
+    except ImportError:
+        return False
+    f = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "fontes")
+    for nome, arq in (("Franklin", "LibreFranklin-Medium.ttf"), ("FranklinB", "LibreFranklin-Bold.ttf")):
+        try:
+            pdfmetrics.getFont(nome)
+        except KeyError:
+            pdfmetrics.registerFont(TTFont(nome, os.path.join(f, arq)))
+    pdfmetrics.registerFontFamily("Franklin", normal="Franklin", bold="FranklinB", italic="Franklin", boldItalic="FranklinB")
+    cores = {"maressa": HexColor("#7a1f1f"), "junior": HexColor("#1b2a41")}
+    topo = ParagraphStyle("t", fontName="FranklinB", fontSize=24, leading=28, textColor=HexColor("#121212"))
+    sub = ParagraphStyle("s", fontName="Franklin", fontSize=13, leading=17, textColor=HexColor("#555555"))
+    sec = ParagraphStyle("sec", fontName="FranklinB", fontSize=18, leading=22, textColor=HexColor("#121212"), spaceBefore=10, spaceAfter=6)
+    corpo = ParagraphStyle("c", fontName="Franklin", fontSize=19, leading=29, textColor=HexColor("#121212"))
+    nota = ParagraphStyle("n", fontName="Franklin", fontSize=13, leading=17, textColor=HexColor("#555555"))
+    el = [Paragraph(titulo, topo), Spacer(1, 2 * mm), Paragraph(rodape, sub), Spacer(1, 6 * mm),
+          Paragraph("[Vinheta original. A trilha Evening Briefing entra baixinha sob as vozes.]", nota), Spacer(1, 4 * mm)]
+    for b in ordem:
+        if b.get("secao"):
+            el.append(Paragraph(b["secao"], sec))
+        nome = "NEVES" if b["quem"] == "junior" else "MARESSA"
+        et = ParagraphStyle("e", fontName="FranklinB", fontSize=13, leading=16, textColor=cores[b["quem"]], spaceAfter=2, keepWithNext=1)
+        el.append(Paragraph(nome, et))
+        for par in b["texto"].replace("&", "&amp;").replace("<", "&lt;").split("\n"):
+            el += [Paragraph(par.strip(), corpo), Spacer(1, 3 * mm)]
+        el.append(Spacer(1, 4 * mm))
+    el.append(Paragraph("[Pausa breve. Vinheta final original.]", nota))
+    SimpleDocTemplate(destino, pagesize=A4, leftMargin=20 * mm, rightMargin=20 * mm, topMargin=18 * mm,
+                      bottomMargin=18 * mm, title=titulo).build(el)
+    return True
+
+
 def main():
     ed_path = sys.argv[1] if len(sys.argv) > 1 else "edicao.json"
     col_path = sys.argv[2] if len(sys.argv) > 2 else "colunas.json"
@@ -128,9 +188,11 @@ def main():
     if len(sys.argv) > 5:
         escrito = sys.argv[5]
     livres = set()
+    secoes = {}
     if os.path.exists(escrito):
         # FORMATO NOVO (desde 24/11/2026): roteiro escrito para ouvir, com "Para entender" e "Comentário do Doido"
         blocos = json.load(open(escrito, encoding="utf-8"))["blocos"]
+        secoes = {i: b["secao"] for i, b in enumerate(blocos) if b.get("secao")}
         R = []
         for i, b in enumerate(blocos):
             quem = b["quem"].upper()
@@ -149,8 +211,10 @@ def main():
         item = {"quem": quem.lower(), "n": cont[quem], "texto": txt}
         if i in livres:
             item["livre"] = True
+        if i in secoes:
+            item["secao"] = secoes[i]
         if i > 0 and R[i - 1][0] != quem:
-            item["antes"] = f"{R[i - 1][0].capitalize()}: {R[i - 1][1][:220]}"
+            item["antes"] = f"{R[i - 1][0].capitalize()}: {deixa_final(R[i - 1][1], (i - 1) in livres)}"
         ordem.append(item)
     os.makedirs(saida, exist_ok=True)
     json.dump(ordem, open(f"{saida}/roteiro-{data}.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
@@ -171,6 +235,9 @@ def main():
         pdf(f"{saida}/Podcast {d.day:02d}-{d.month:02d} - {quem}.pdf",
             f"Nevasca em 10 minutos · {d.day:02d}/{d.month:02d} · {quem.capitalize()}", quem, meus, meus_pend)
         print(f"{quem}: {len(meus)} blocos, {sum(len(b['texto'].split()) for b in meus)} palavras")
+    if secoes:
+        pdf_conjunto(f"{saida}/Roteiro A Nevasca {data} (completo).pdf", "A Nevasca em 10 Minutos",
+                     f"{d.day:02d}/{d.month:02d}/{d.year} · Edição nº {ed.get('numero', '')} · Roteiro de gravação", ordem)
 
 
 if __name__ == "__main__":
