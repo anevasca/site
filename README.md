@@ -11,7 +11,7 @@ Jornal digital de convicção reformada e conservadora — https://anevasca.com.
 - `pauta/candidatas-AAAA-MM-DD.json` — candidatas a matéria coletadas automaticamente dos feeds RSS (`ferramentas/coletar_pauta.py`, via `.github/workflows/coletar_pauta.yml`, todo dia antes das 6h43). Quem monta a edição lê esse arquivo em vez de pesquisar do zero; se estiver vazio ou faltando, pesquisa por conta própria.
 - `grafico` (opcional em qualquer matéria): {tipo: "linha" ou "barras", titulo, subtitulo, prefixo, sufixo, casas, dados: [{rotulo, valor, destaque}], fonte: {nome, url}, nota}. Só com números das fontes citadas.
 - `colunas.json` — coluna "O Doido Sensato", de Doido Neves. Só muda quando o Junior manda um texto.
-- `pdf/AAAA-MM-DD.pdf` — edição impressa (8 páginas: 2 folhas A4 frente e verso, encaixadas e dobradas ao meio).
+- `pdf/AAAA-MM-DD.pdf` — edição impressa, PAUSADA desde 28/11/2026 (8 páginas: 2 folhas A4 frente e verso, encaixadas e dobradas ao meio).
 - `m/*.html` — páginas de compartilhamento com prévia (WhatsApp, Facebook, X). Geradas por `python3 build.py`.
 - `CNAME` — domínio próprio (anevasca.com.br). Não apagar.
 - `CONTRATO.md` — contrato de conteúdo para qualquer IA gerar uma edição ou matéria, no formato certo, sem precisar mexer em código ou em git.
@@ -19,7 +19,7 @@ Jornal digital de convicção reformada e conservadora — https://anevasca.com.
 
 ## Rotina diária
 1. Atualizar `edicao.json`, criar `edicoes/AAAA-MM-DD.json` e pôr a entrada nova no início de `arquivo.json`.
-2. Gerar o PDF e salvar em `pdf/AAAA-MM-DD.pdf`.
+2. (PAUSADO desde 28/11/2026, decisão do Junior) Edição impressa em PDF: não gerar mais `pdf/AAAA-MM-DD.pdf`. Os PDFs antigos ficam como estão.
 3. Rodar `python3 build.py`.
 4. Commit e push na branch `main`. O GitHub Pages publica sozinho em alguns minutos.
 
