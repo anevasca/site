@@ -610,7 +610,12 @@
      "nome": "Noticias Argentinas",
      "url": "https://noticiasargentinas.com/politica/el-senado-sesionara--manana-con-la-suspension-de-las-paso-y-la-ley-de-ludopatia-como-ejes-centrales_a6b076749790b0872f31c5332"
     }
-   ]
+   ],
+   "imagem": {
+    "arquivo": "img/ed-2026-11-28/mundo-4.jpg",
+    "legenda": "O presidente argentino Javier Milei em reunião com Donald Trump, em foto de arquivo.",
+    "credito": "Official White House Photo by Molly Riley"
+   }
   }
  ],
  "cultura": [
