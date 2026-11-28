@@ -538,7 +538,7 @@ window.addEventListener("hashchange",function(){if(/^#(redacao|roteiro)/.test(lo
     h += '<section class="capa">';
     h += '<div class="col">' + (ed.destaques||[]).map(function(x, i){
       var id = pre + "destaque-" + (i+1);
-      return '<article class="destaque">'+(x.imagem&&x.imagem.origem?'<a href="#'+id+'"><img class="thumb" src="'+esc(x.imagem.arquivo)+'" alt="'+esc(x.imagem.legenda)+'" loading="lazy"></a>':'')+'<p class="kicker azul">'+esc(x.secao)+'</p><h2><a href="#'+id+'">'+esc(x.titulo)+'</a></h2><p>'+esc(x.resumo)+'</p>'+grafico(x.grafico, true)+fontes(x.fontes)+'</article>';
+      return '<article class="destaque">'+(x.imagem&&x.imagem.arquivo?'<a href="#'+id+'"><img class="thumb" src="'+esc(x.imagem.arquivo)+'" alt="'+esc(x.imagem.legenda)+'" loading="lazy"></a>':'')+'<p class="kicker azul">'+esc(x.secao)+'</p><h2><a href="#'+id+'">'+esc(x.titulo)+'</a></h2><p>'+esc(x.resumo)+'</p>'+grafico(x.grafico, true)+fontes(x.fontes)+'</article>';
     }).join("") + '<a class="mais-secao" href="'+linkSecao(ed,"economia")+'">Mais em Economia →</a></div>';
     h += '<div class="col centro"><article class="manchete"><p class="kicker">'+esc(m.secao)+'</p><h1><a href="#'+pre+'manchete">'+esc(m.titulo)+'</a></h1><p class="fina">'+esc(m.linhaFina)+'</p><p class="assinatura">Da redação · '+esc(ed.dataExtenso)+'</p>'+(m.imagem&&m.imagem.arquivo?'<figure class="foto"><a href="#'+pre+'manchete"><img src="'+esc(m.imagem.arquivo)+'" alt="'+esc(m.imagem.legenda||m.titulo)+'"></a><figcaption>'+esc(m.imagem.legenda||"")+creditoFoto(m.imagem)+'</figcaption></figure>':'')+'<div class="texto">'+
          ps(m.texto.slice(0,ed.data === "2026-11-26" ? 5 : 3)) + '</div>' + grafico(m.grafico) + (m.texto.length>3?'<p class="leia"><a href="#'+pre+'manchete">Leia a matéria completa →</a></p>':'') + fontes(m.fontes) + share(pre+"manchete", m.titulo) + '</article></div>';
@@ -587,7 +587,7 @@ window.addEventListener("hashchange",function(){if(/^#(redacao|roteiro)/.test(lo
 
   // ---------- PÁGINA DE SEÇÃO ----------
   function chamadaFoto(img, id) {
-    if(!img || !img.origem) return '';
+    if(!img || !img.arquivo) return '';
     return '<a href="#'+id+'"><img class="thumb" src="'+esc(img.arquivo)+'" alt="'+esc(img.legenda)+'" loading="lazy"></a>';
   }
   function creditoFoto(img) {
