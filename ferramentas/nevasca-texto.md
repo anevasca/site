@@ -42,6 +42,8 @@ Classifique cada informação: fato confirmado (2 veículos), declaração (de q
 
 ## 4. Escrito para ouvir (teste do podcast)
 
+No podcast, a Maressa chama o Junior sempre de “Neves”, nunca de “Junior” (pedido do Junior, 27/11/2026). Vale para qualquer fala dela que se dirija a ele, no roteiro e nas perguntas.
+
 O resumo e o título serão lidos em voz alta. Então:
 - frases de até ~25 palavras no resumo;
 - sigla explicada na 1ª vez ("PLP, o projeto de lei complementar");
